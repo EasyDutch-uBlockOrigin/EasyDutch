@@ -21,7 +21,7 @@
 ||kinkymedia.nl/wp-content/uploads/*vierkant*$image
 ||kinkymedia.nl/wp-content/uploads/kousenenpanties-lingerie*.jpg$image
 ||kinkymedia.nl/wp-content/uploads/stripchat-*.png$image
-||klapjes.nl/hoomezaz/*/*.gif$image
+||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
@@ -96,10 +96,8 @@ kinkymedia.nl##[href^="https://mt67.net/c/"]
 kinkymedia.nl##[id^="adguru-zone-widget"]
 kinkymedia.nl##aside > .widget:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
 kinkysexcontactonline.nl,privesexgids.nl###homebanners
-klapjes.nl##a[href*="/adverteren"]:upward(2)
-klapjes.nl##[id^="custom_html"]:has(img[src*="/hoomezaz/"][src$=".gif"])
-klapjes.nl##[id^="custom_html"]:has([src^="https://www.affilaxy.com/"])
-klapjes.nl##div[class*="Sidebar"] > [class]:has-text(/Meesteressen/i)
+klapjes.nl##.elementor-widget-html:has(a[href*=affref])
+klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
 nedporno.com##[class^="r11ght-pl4yer"]
 nedporno.com##.publ11s-b0ttom
 nltube.com##.player-right
