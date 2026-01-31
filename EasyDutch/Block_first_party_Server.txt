@@ -1,0 +1,29 @@
+! Title: Block First-Party Server
+! Description: Filters for blocking first-party servers on Dutch websites
+! Last updated: Sun, 15 Oct 2023 10:31:05 +0000
+!
+! 2023-01-16 https://github.com/EasyDutch-uBO/EasyDutch/issues/34
+! 2022-06-02 https://github.com/EasyDutch-uBO/EasyDutch/issues/22
+||aa.tweakers.nl^
+||ab.tweakers.nl^
+! 2022-10-12
+||freewheel-jitt.dpgmedia.be^
+! 2022-10-07 https://github.com/AdguardTeam/AdguardFilters/issues/131530
+||aa.hwigroup.com^
+||ab.hwigroup.com^
+! 2022-04-29
+||content1.pu.nl^
+||content1.wasmachines.nl^
+||content1.zoom.nl^
+||content2.besteproduct.nl^
+||content2.kieskeurig.nl^
+||content2.wasmachines.nl^
+||content2.zoom.nl^
+! 2021-12-04
+||a.scholieren.com^
+! 2021-11-04
+||a2.tijd.be^
+! https://github.com/Nomes77/AdBlockFilters/issues/16
+||content2.nrc.nl^
+! 2021-04-27
+||mooieplaatjes.bierdopje.com^

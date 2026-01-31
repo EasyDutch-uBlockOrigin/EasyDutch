@@ -1,0 +1,48 @@
+! Title: Hide Whitelist
+! Description: Whitelist for hidden elements on Dutch websites
+! Last updated: Sat, 13 Jan 2024 14:17:15 +0000
+!
+! 2023-10-13
+gratisaftehalen.nl#@#.ads-image
+! 2023-05-04
+rotterdam-nesselande.nl#@#ins.adsbygoogle
+! 2023-05-03
+noordkopcentraal.nl#@#.category-advertorial
+! 2023-04-27
+gratis.nl#@#a[href^="https://ndt5.net/"]
+! 2023-04-26
+wereldklokken.nl#@#ins.adsbygoogle
+! Uitzonderingen voor AdGuard
+! 2022-10-25 https://github.com/EasyDutch-uBO/EasyDutch/issues/29
+embed.kijk.nl#@#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
+! Uitzonderingen voor EasyList
+! 2022-07-05
+radiozuidrand.be#@#.advertisement_300x250
+radiozuidrand.be#@#.advertisement_728x90
+radiozuidrand.be#@#.advertisement-content
+radiozuidrand.be#@#.single_ad_300x250
+radiozuidrand.be#@#.widget_300x250_advertisement
+! 2022-06-28
+palnws.be#@#.adlink
+palnws.be#@#.ads-wrapper
+! 2022-06-14
+marktnet.nl#@#.ad-description
+! 2022-05-27
+wereldreizigers.nl#@#.gridlove-ad
+! 2022-04-14
+mechanisatiemarkt.nl#@#.advert-container
+mechanisatiemarkt.nl#@#.advert-title
+mechanisatiemarkt.nl#@#.advertiser
+! 2022-01-14
+japan-webike.*#@#.img_ad
+! 2022-01-07
+ajaxrss.nl#@#.top-ads-block
+! 2021-11-06
+ajaxreport.nl,blockchainvandaag.com,casinoreport.nl,cryptobelegging.com,feyenoordreport.nl,formula1report.com,gamblingreport.nl,livestreamvandaag.be,onlinecasinorss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,sportweddenrss.nl,vergelijkbookmakers.nl,voetbalsnafu.nl,voetbalvisie.com,voetbalweddenrss.nl#@#.top-ads-block
+! 2021-08-04
+focus-wtv.be#@#.sponsored-article
+! 2021-06-04
+marktplaats.nl#@#.adSummary
+!#if env_mobile
+klusidee.nl#@#.header-ad
+!#endif

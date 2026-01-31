@@ -1,0 +1,49 @@
+! Title: Block Whitelist
+! Description: Whitelist for specific URLs on Dutch websites
+! Last updated: Sat, 13 Jan 2024 14:17:15 +0000
+!
+! 2023-12-20
+@@||partner.bol.com/promotion/static/js/partnerProductlink$script,domain=grandprixradio.nl
+! 2023-10-23
+@@||vandale.*/*/images/*_300x250.$image,1p
+! 2023-10-13
+@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
+! 2023-08-01
+@@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
+! 2023-05-13
+@@||fundingchoicesmessages.google.com/*/$script,domain=racingnews365.nl
+! 2023-03-21 https://github.com/uBlockOrigin/uAssets/issues/17233
+@@||cdn.bluebillywig.com/scripts/prebid/$script,domain=geenstijl.nl
+! 2023-01-14
+@@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
+@@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
+! 2023-01-12 https://github.com/uBlockOrigin/uAssets/commit/943cc256a43b4aa5c20f2898860279629abd72b2
+@@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
+@@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
+! 2023-01-02
+@@||2mdn.net/instream/html5/ima3.js$script,domain=omroepbrabant.nl
+! 2022-12-30
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
+! 2022-12-08
+@@||salarisvanmorgen.nl/wp-content/uploads/*abonneer-nieuwsbrief
+! 2022-06-22
+@@||images.2dehands.com/api/v1/listing-twh-p/images/ad/$image,domain=2dehands.be
+! 2022-03-18
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=skoften.net
+! 2022-03-17
+@@||sliedrecht24.nl/wp-content/uploads/*/Banner-300x250*.jpg$image,1p
+! https://github.com/AdguardTeam/AdguardFilters/issues/108243
+@@||cdn.ebayclassifieds.net/bff/static/*/MyAds.$domain=2dehands.be|marktplaats.nl
+! 2022-01-05
+@@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|welingelichtekringen.nl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dailybuzz.nl
+! 2021-12-14
+@@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
+! 2021-12-02
+@@||zilverengoudkopen.nl/banners/header.jpg
+@@||zilverengoudkopen.nl/banners/onder.jpg
+! 2021-11-03
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sportnieuws.nl
+! 2021-04-27
+@@||showmodeluitverkoop.nl/upload/advertentie/
+@@||te-les-koop.nl/advertenties.php
