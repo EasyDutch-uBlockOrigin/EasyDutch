@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+looopings.nl##.r89-desktop-InContent
 soccernews.nl,tpo.nl##div[id^="r89-"]
 iculture.nl###fh-placeholder
 iculture.nl##.ad-top-desktop
@@ -381,10 +382,6 @@ yachtfocus.com##.av
 ! 2023-05-25
 gamer.nl,id.nl##.adunitContainer:upward(.items-center)
 id.nl##.rounded-md:has(p[class^="call-to-action"]):not(:has-text(/Akkoord en door naar/i))
-! 2023-05-23
-looopings.nl##.contentBillboard
-looopings.nl##[class*="r89"][style="min-height:250px;"]
-looopings.nl##[class*="r89"][style="min-height:90px;"]
 ! 2023-05-09
 buienradar.be##[class^="AdSlot_AdContainer"]
 ! 2023-05-05
@@ -1325,6 +1322,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
