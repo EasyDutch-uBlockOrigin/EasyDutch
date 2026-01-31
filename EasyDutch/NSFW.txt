@@ -79,6 +79,7 @@ amateursexstart.nl,seksmet.nl,sekswebsite.nl##.g
 beeldbelsex.com##a > img[src$="gif"]
 beeldbelsex.com##iframe[data-src^="https://tools.vpscash.nl/"][data-src*="/gif_banners/"]
 bekijkporno.nl##.player .fp-brand
+climaximaal.nl##[href^="https://partner.bol.com/click/click"]
 gaynews.nl##.telefoon_verberg
 gaynews.nl##[class^="va"]:has([class*="banner"])
 gaynews.nl##[id^="abri"]
