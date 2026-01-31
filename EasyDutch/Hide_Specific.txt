@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+want.nl##.ad:upward(.mha_container)
 beursduivel.be##.banner
 beursduivel.be##.publisher-sh-spot
 iexprofs.nl##.banner
@@ -30,8 +31,6 @@ messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="m
 ! 2024-01-16
 dvo.be##.advertisement
 hagelandactueel.be,leuvenactueel.be##.has-banner-top:style(padding-top: 0 !important;)
-want.nl##.ad-top_banner:upward(.mha_container--header)
-want.nl##.sticky-banner-container
 ! 2024-01-15 https://github.com/uBlockOrigin/uAssets/issues/21284
 ! https://github.com/EasyDutch-uBO/EasyDutch/issues/121
 dumpert.nl##[id^="ad_"]:upward(2)
@@ -1321,6 +1320,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
