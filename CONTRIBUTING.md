@@ -1,7 +1,7 @@
 ### EasyDutch
 
 Important note: </br>
-I, **[@Nomes77](https://github.com/Nomes77)** owner of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`
+We, **[@Ignotum77](https://github.com/Ignotum77)** and **[@JohnyP36](https://github.com/JohnyP36)**, owners of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`
 
 #### Ordering of filters
 
@@ -15,7 +15,7 @@ Old filters which are confirmed to still be required must be moved to the top of
 
 **All** added filters must be associated with a formal issue number or date, example:
 
-    ! https://github.com/EasyDutch-uBO/EasyDutch/issues/3
+    ! https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/3
     ||data.inertanceretinallaurel.com^
     ! 2021-04-27
     ||androidplanet.nl,iphoned.nl##.dynamic-content-native
