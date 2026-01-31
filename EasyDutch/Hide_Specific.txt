@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+alblasserdamsnieuws.nl##div[id^="albla-"]
 touretappe.nl##.desktopad
 touretappe.nl###right .desktopad:upward(1)
 telefoonboek.nl##.contentbox__adsense
@@ -55,10 +56,6 @@ dekrantnieuws.nl,destreekkrant.nu##.component__pubble-banner:has([advobject]):up
 bnnvara.nl,npo.nl,vpro.nl##.bitmovinplayer-poster
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
-alblasserdamsnieuws.nl##.albla-adlabel
-alblasserdamsnieuws.nl##.albla-widget
-alblasserdamsnieuws.nl##.adv-link:not([href*="alblasserdamsnieuws.nl"]):upward(div[id^="albl"])
-alblasserdamsnieuws.nl##.sidebarbox > .widgettitle:has-text(Banner)
 almere-nieuws.nl##div[id^="banner-"]
 almere-nieuws.nl##.darksection:has-text(/Door onze partners/i):has(.postbox.owl-carousel)
 almere-nieuws.nl##.promocentered:upward(section)
@@ -1298,6 +1295,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
