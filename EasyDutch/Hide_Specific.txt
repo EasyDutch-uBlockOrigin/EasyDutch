@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+beursduivel.be##.banner
+beursduivel.be##.publisher-sh-spot
 iexprofs.nl##.banner
 iexprofs.nl##[class*="banner"]:not(.banner)
 looopings.nl##.r89-desktop-InContent
@@ -347,9 +349,6 @@ telegraaf.nl##.withBanners + .ComponentRotation
 ! 2023-07-11
 fcupdate.nl##.betting_partner
 fcupdate.nl##[id*="web_billboard"]
-! 2023-07-07
-beursduivel.be##.Billboard-wrapper
-beursduivel.be##.Rectangle-wrapper
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
 ! 2023-07-04
@@ -1322,6 +1321,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
