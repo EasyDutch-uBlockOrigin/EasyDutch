@@ -310,8 +310,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||123inkt.nl/images/oren/*$image
 ! 2022-02-08
 ||waarzo.nl/imagestore/site-banners/
-! 2022-01-26
-||tpo.nl/wp-content/themes/*/tpo-banner$image
 ! 2022-01-18
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
@@ -496,4 +494,5 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
