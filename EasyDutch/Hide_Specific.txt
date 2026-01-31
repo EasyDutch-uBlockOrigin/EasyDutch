@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+rtl.nl##div[data-adslot-variant]
 autoreview.nl##[id^="Autoreview.nl_ros_"]
 autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
 mediamarkt.be,mediamarkt.nl###category-content-top-banner:upward(section)
@@ -552,8 +553,6 @@ jndkgrf.nl##.wp-block-image:has([href^="https://partner.bol.com/click/"])
 ! 2022-12-07
 flashscore.nl##.adsenvelope
 flashscore.nl##.oddsPlacement
-! 2022-12-01
-rtlnieuws.nl##.article-sidebar__ad
 ! 2022-11-29
 dissident.one##[id^="custom_html-"]:has-text(/advert/i)
 ! 2022-11-14
@@ -592,11 +591,6 @@ albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad070.nl,goudsdagblad.nl,ri
 gooieneembode.nl##[href^="/nieuws/advert"]:upward(2)
 ! 2022-09-01
 minimumloon.nl##.header-widget-region > .col-full
-! 2022-08-29
-rtlnieuws.nl##.autoscalable-block-wrapper:has-text(/van onze partners/i)
-! 2022-08-25
-rtlnieuws.nl##.dfp-rectangle-wrapper
-rtlnieuws.nl##.dfp-billboard-wrapper
 ! 2022-07-15
 iex.nl##.strossle-widget
 iex.nl##.publisher-sh-spot
@@ -1308,7 +1302,6 @@ nu.nl##div.articlelist[data-section^="advertorial"][data-section$="-adverteerder
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 mariogames.be##div.gameinfo:has-text(/sponsored links/i)
-rtlnieuws.nl##div[class$=_with_ad__ad]
 meteovista.be##div[class*="AdWrapper"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
@@ -1336,6 +1329,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
