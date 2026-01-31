@@ -19,7 +19,7 @@ labels:
   - name: duplicate
     labeled:
       issue:
-        body: This issue already exists. See our issue tracker (https://github.com/EasyDutch-uBO/EasyDutch/issues).
+        body: This issue already exists. See our issue tracker (https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues).
         action: close
   - name: unable to reproduce 
     labeled:
