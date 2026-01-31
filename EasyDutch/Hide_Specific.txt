@@ -1,7 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 16 Jan 2024 13:20:57 +0000
+! Last updated: Sat, 31 Jan 2026 20:02:57 +0000
 !
+! 2026-01-31
+messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
+messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"]) + div[id^="block-"]
 ! 2024-01-16
 dvo.be##.advertisement
 hagelandactueel.be,leuvenactueel.be##.has-banner-top:style(padding-top: 0 !important;)
@@ -85,8 +88,6 @@ made-in.be##.c-ad-space:upward(.col-item)
 marktnet.nl##.tab4
 marktnet.nl##a[href^="https://www.marktnet.nl/bs/clickOut"]:upward([class^="tip"])
 marktnet.nl##li.linkUnit
-messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[data-src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
-messianieuws.nl##aside > .sb-widget:has-text(/Israël Weekbrief|Introductiecursus/)
 motorblog.nl##[src^="https://partner.bol.com"]:upward(table.tablepress)
 nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
 nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
@@ -1334,3 +1335,4 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
