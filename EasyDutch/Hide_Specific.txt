@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+telefoonboek.nl.contentbox__adsense
+telefoonboek.nl###tbresult-top
 techpulse.be##.magazine-sidebar-block
 techpulse.be##.wpb_wrapper:has( > div[class^="g"]):upward(section[class$="wpb_row height_small"]):not(:nth-of-type(1))
 gpinfo.com,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class*="r89-"]
@@ -289,8 +291,6 @@ cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 roulettefm.nl##.list-sponsors:upward(.content)
 riskcompliance.nl##.banner-container
 retaildetail.be,retaildetail.nl##.ad-web.ad-page
-telefoonboek.nl###tbresult-top
-telefoonboek.nl##[class^="detail-leaderbord"]:has(.adsbygoogle)
 touretappe.nl###right .desktopad[id*="TOURETAPPE_300"]:upward(1)
 trucks.nl##.highlighted-advertisers:upward(.row)
 tvgids24.nl###shortads
@@ -1298,6 +1298,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
