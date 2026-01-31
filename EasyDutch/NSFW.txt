@@ -25,6 +25,7 @@
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
+||opwindend.net/Promotie_Content/ban/$image
 ||outdoor-sex.nl/wp-content/uploads/*/Sexindeprovincie$image
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
@@ -107,8 +108,8 @@ oops.nl###dropinboxv2cover
 oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
 oops.nl##table[cellspacing="30"]
 oops.nl##td[background="http://www.oops.nl/sexverhalen/oopslogo.jpg"]:style(height:50px !important;)
-opwindend.net##img + [onclick="Klik('Footer_Advertentie');"]:upward(.tab)
-opwindend.net##img + [onclick="Klik('Footer_Contaxt');"]:upward(.tab)
+opwindend.net##a[href*="footer.profiel"]:upward(.tab)
+opwindend.net##a[href*="?banner="]
 opwindend.net##.b > .profilethumb:upward(.tab)
 opwindend.net##.popup
 pikanterooieoortjes.nl##.widget_custom_html:has([src^="//aweproto.com/"])
