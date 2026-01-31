@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+mediamarkt.be,mediamarkt.nl###category-content-top-banner:upward(section)
 krefel.be##div.flex > h3:has-text(Gesponsorde producten):upward(div.flex)
 bol.com##div[data-bltgg*="considerationDisplay"]:has-text(Gesponsord)
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
@@ -780,7 +781,6 @@ radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
 nu.nl##div[id^="block-in-article-ad"]
 ! 2022-05-27
 mandelnieuws.be##div[class*="blocksponsors"]
-mediamarkt.nl##div[class^="AdWrapper"] + div[class^="SkeletonWrapper"]
 radioviainternet.be##.banner-size-leaderbord
 rbsradio.be##.qt-sponsors
 wradio.be##.c-advertiser-logos
@@ -1337,6 +1337,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
