@@ -4,6 +4,7 @@
 !
 ! 2026-01-31
 gpinfo.com##[class*="r89-desktop"]
+mannenzaken.nl##[class*="r89-"]:upward(.raw-html-component)
 hagelandactueel.be,leuvenactueel.be##div[onclick="hideAdPopup()"]:upward(.component__pubble-banner)
 want.nl##.ad:upward(.mha_container)
 beursduivel.be##.banner
@@ -44,16 +45,6 @@ arenalokaal.nl,belnieuws.nl,dehavenloods.nl,gooieneembode.nl,hetkompassliedrecht
 arenalokaal.nl,belnieuws.nl,dehavenloods.nl,dekrantnieuws.nl,destreekkrant.nu,gooieneembode.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl,nnp.nl,weespernieuws.nl,zuidenvelder.info##.component__pubble-banner:has([advobject])
 arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:has([advobject]):upward(.bg-gray-100)
 dekrantnieuws.nl,destreekkrant.nu##.component__pubble-banner:has([advobject]):upward(.builder__row:not(.grid))
-! 2023-12-27
-!#if env_mobile
-mannenzaken.nl##.r89-mobile-rectangle-mid
-mannenzaken.nl##.r89-mobile-billboard-top:upward(.td_block_wrap)
-mannenzaken.nl##.r89-mobile-rectangle-infinite
-!#else
-mannenzaken.nl##.r89-desktop-billboard-atf
-mannenzaken.nl##.r89-desktop-leaderboard-btf
-mannenzaken.nl##.r89-desktop-hpa-atf
-!#endif
 ! 2023-12-26
 ! https://github.com/uBlockOrigin/uAssets/issues/20659
 ! https://github.com/EasyDutch-uBO/EasyDutch/issues/112
@@ -1320,6 +1311,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
