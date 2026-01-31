@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+iexprofs.nl##.banner
+iexprofs.nl##[class*="banner"]:not(.banner)
 looopings.nl##.r89-desktop-InContent
 soccernews.nl,tpo.nl##div[id^="r89-"]
 iculture.nl###fh-placeholder
@@ -239,8 +241,6 @@ zeilwereld.nl##.adv-link:upward([id^="zeilw"])
 zeilwereld.nl##.adv-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 ! 2023-10-30
 gpfans.com##.taboonews
-iexprofs.nl##.tagwrapper:upward(.row__item)
-iexprofs.nl##[class*="banner"]:not(.banner)
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
 ! 2023-10-24
@@ -1322,6 +1322,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
