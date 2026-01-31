@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+soccernews.nl##div[id^="r89-"]
 iculture.nl###fh-placeholder
 iculture.nl##.ad-top-desktop
 iculture.nl##.feed-ad-wrapper
@@ -539,9 +540,6 @@ blikopzeewolde.nl##.fusion-flex-container.fullwidth-box.fusion-fullwidth:has(:no
 ! 2022-12-30
 wordfeudwoorden.nl##.mobblue
 ! 2022-12-13
-soccernews.nl##.ad-container
-soccernews.nl##.bcb-atts:upward(1)
-soccernews.nl##.bcb-sport-block-data
 npo3fm.nl,nporadio4.nl##ul > li:has(script[src*="ster"]):has-text(/advert/i)
 ! 2022-12-10
 vi.nl##.c-tag:has-text(/advert/i):upward(.c-articles-list__link)
@@ -993,8 +991,6 @@ pokeren.nl###onetime-popup
 eredivisie.nl###partner-bar
 elfvoetbal.nl###partners
 forum.scholieren.com###posts .thead:has-text(Advert)
-soccernews.nl###r89-mobile-rectangle-mid
-soccernews.nl###r89-takeover
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 112achterhoek-nieuws.nl###sidebar
@@ -1333,6 +1329,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
