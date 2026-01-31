@@ -36,7 +36,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 <summary>Contributing</summary>
 
 > Important note: </br>
-> I, **[@Nomes77](https://github.com/Nomes77)** owner of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`
+> We, **[@Ignotum77](https://github.com/Ignotum77)** and **[@JohnyP36](https://github.com/JohnyP36)**, owners of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`
 > 
 > #### Ordering of filters
 > 
@@ -87,13 +87,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 ***
 ## View and Subscribe to EasyDutch
 
-### Notes on `contentURL` and `cdnURLS`
-Our [`contentURL`](https://github.com/gorhill/uBlock/blob/00fb5f18b2d2d9f91bcefb7adfda8e16b8369132/assets/assets.json#L756) is instantly updated after a commit, and the same applies for the first [`cdnURL`](https://github.com/gorhill/uBlock/blob/00fb5f18b2d2d9f91bcefb7adfda8e16b8369132/assets/assets.json#L758). The other two [`cdnURLs`](https://github.com/gorhill/uBlock/blob/00fb5f18b2d2d9f91bcefb7adfda8e16b8369132/assets/assets.json#L759-L760) are updated less.  <br>
-Good to know, uBO uses one of those four links. If there is a fix you need immediately, I can update mannualy two of the three CDN's: the first [`cdnURL`](https://github.com/gorhill/uBlock/blob/eb52d46afa7fc2c55e3c3555e7c7bee8f136473c/assets/assets.json#L758) and the second [`jsDelivr cdnURL`](https://github.com/gorhill/uBlock/blob/eb52d46afa7fc2c55e3c3555e7c7bee8f136473c/assets/assets.json#L759) by going to https://www.jsdelivr.com/tools/purge. <br>
-Also all `cdnURLS` are minified version. <br>
-
 As you can see below, there are multiple way to subscribe to our list. We have following domains: `https://EasyDutch-uBlockOrigin.github.io/EasyDutch/`, `https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`, `https://easydutch.pages.dev/`, `https://easydutchcdn.pages.dev/`, and `https://raw.githubusercontent.com/`. <br>
-Unfortunately, uBlock Origin [decided not](https://github.com/gorhill/uBlock/commit/f2dc195576da809cfe134238ae8ad20da5142ea5) to use our CDN's (`https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`) or `pages.dev` domains (`https://easydutch.pages.dev/` ,`https://easydutchcdn.pages.dev/`). Probably, because our CDN's are updated every two hours in stead of instantly.
 
 ### Data usage
 [![](https://data.jsdelivr.com/v1/package/gh/EasyDutch-uBlockOrigin/EasyDutch/badge)](https://www.jsdelivr.com/package/gh/EasyDutch-uBlockOrigin/EasyDutch?tab=stats) [![](https://data.jsdelivr.com/v1/package/gh/EasyDutch-uBlockOrigin/EasyDutchCDN/badge?style=rounded)](https://www.jsdelivr.com/package/gh/EasyDutch-uBlockOrigin/EasyDutchCDN?tab=stats) <br>
@@ -153,7 +147,3 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 6. https://cdn.jsdelivr.net/ and https://cdn.statically.io/ --> from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/) </br>
    `EasyDutch.txt` and `EasyDutch.all.txt` --> [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/)
 
-## *Support*
-If you want to buy me a cup of coffee or want to support me, you can donate via [PayPal](https://www.paypal.com/donate/?hosted_button_id=NRARDMBBMV3LC)
-
-###### If you want to support Member *and Contributor* [JohnyP36](https://github.com/JohnyP36), you can donate [via PayPal](https://www.paypal.com/donate?hosted_button_id=8BBT5V55TGVXW) 
