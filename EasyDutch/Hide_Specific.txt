@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
+mobiliteit.nl##.mnl-partner-carousel-wrapper
+mobiliteit.nl##.widget_nlpartners
 rtl.nl##div[data-adslot-variant]
 autoreview.nl##[id^="Autoreview.nl_ros_"]
 autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
@@ -1329,6 +1331,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
