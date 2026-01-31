@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-01-31
-gpinfo.com,voetbalnieuws.be,wielernieuws.be##div[class*="r89-"]
+gpinfo.com,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class*="r89-"]
 mannenzaken.nl##[class*="r89-"]:upward(.raw-html-component)
 hagelandactueel.be,leuvenactueel.be##div[onclick="hideAdPopup()"]:upward(.component__pubble-banner)
 want.nl##.ad:upward(.mha_container)
@@ -37,7 +37,6 @@ dvo.be##.advertisement
 dumpert.nl##[id^="ad_"]:upward(2)
 dumpert.nl##[id*="leaderboardwallpaper-"]:upward(3)
 ! 2024-01-10
-webwoordenboek.nl##.layout__main-ads
 7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.tile:has(>.ankeiler--advertisement)
 ! 2024-01-05
 arenalokaal.nl,belnieuws.nl,dehavenloods.nl,gooieneembode.nl,hetkompassliedrecht.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
@@ -264,7 +263,6 @@ citaten.net##.adsense
 citaten.net##.googleinpage
 nieuwsblad.be##.ad--cba[data-ad="cba"]:upward(.widget):has-text(partners)
 ! 2023-10-10
-webwoordenboek.nl##.layout__main-ads
 wegdamnieuws.nl##.fixed-ad
 ! 2023-09-23
 gewoonvoorhem.nl##[id^="below-article-rectangle"]
@@ -737,7 +735,6 @@ dartfreakz.nl##.wpb_wrapper a[href*="dartswarehouse.nl"]
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
 playboy.nl##a[href^="https://casinoscout.nl/"]
-webwoordenboek.nl##div[class^="r89-desktop-rectangle"]
 wkdarts.nl##.vcex-module:has-text(advert)
 wkdarts.nl##[href="https://www.loketkansspel.nl/"]
 ! 2022-06-15
@@ -1302,6 +1299,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
