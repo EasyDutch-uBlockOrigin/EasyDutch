@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-01
+boek9.nl###block-views-block-advertisements-ads-left
+boek9.nl###block-views-block-advertisements-ads-right
+boek9.nl###block-views-sponsor-banner-block
 groningerkrant.nl##ins.adsbygoogle[data-ad-slot]:upward(.code-block)
 groningerkrant.nl##.sidebar ins.adsbygoogle[data-ad-slot]:upward(.widget)
 hilversumsnieuws.nl##script:has-text(adSlot):upward(.component__plugin)
@@ -1303,6 +1306,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
