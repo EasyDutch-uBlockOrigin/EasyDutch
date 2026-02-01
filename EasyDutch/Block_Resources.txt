@@ -2,7 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
-! 2026-02-31
+! 2026-02-01
+||psalmboek.nl/banners/*advertentie$image
+! 2026-01-31
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
 ! 2024-01-16
 .be/la_custom/get_banners_cache$xhr,1p,domain=hagelandactueel.be|leuvenactueel.be
@@ -494,5 +496,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
