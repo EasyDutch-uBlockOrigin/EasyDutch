@@ -128,6 +128,8 @@ pornozot.com##.abbcn-footer
 seks.com##.bannermid
 sexervaringendelen.nl##iframe[data-src^="https://ads."]
 sexguide.nl##.blogBanners
+sexguide.nl##.fBanners
+sexguide.nl##.link-buttons-container
 sexguide.nl##.moreEscortM:has-text(Sponsors)
 sexguide.nl##.topBanners
 sexguide.nl##div.PREMEscorts:has-text(Sponsors)
