@@ -755,7 +755,6 @@ tvblik.nl##div[class^="r89-desktop"]
 vlaamskijken.nl##a[href^="https://partner.bol.com/"]
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
 ! 2022-06-07
-autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
 guidinc.nl##.promotion_link
 radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
 ! 2022-06-02
@@ -1306,6 +1305,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
