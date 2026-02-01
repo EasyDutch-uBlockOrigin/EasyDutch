@@ -89,21 +89,12 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 
 As you can see below, there are multiple way to subscribe to our list. We have following domains: `https://EasyDutch-uBlockOrigin.github.io/EasyDutch/`, `https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`, `https://easydutch.pages.dev/`, `https://easydutchcdn.pages.dev/`, and `https://raw.githubusercontent.com/`. <br>
 
-### Data usage
-[![](https://data.jsdelivr.com/v1/package/gh/EasyDutch-uBlockOrigin/EasyDutch/badge)](https://www.jsdelivr.com/package/gh/EasyDutch-uBlockOrigin/EasyDutch?tab=stats) [![](https://data.jsdelivr.com/v1/package/gh/EasyDutch-uBlockOrigin/EasyDutchCDN/badge?style=rounded)](https://www.jsdelivr.com/package/gh/EasyDutch-uBlockOrigin/EasyDutchCDN?tab=stats) <br>
-The first is the jsDelivr stats from [`EasyDutch`](https://www.jsdelivr.com/package/gh/EasyDutch-uBlockOrigin/EasyDutch?tab=stats). <br>
-The second is the jsDelivr stats from [`EasyDutchCDN`](https://www.jsdelivr.com/package/gh/EasyDutch-uBlockOrigin/EasyDutchCDN?tab=stats), which uBO doesn't use anymore. <br>
-
 ### Favorite order of subscription:
 In the list, the normal website is the default. The `.all.txt` lists are used as primairy CDN's, where it is preferred to use `pages.dev` and `github.io`.
 1. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutch/EasyDutch.txt"><code>EasyDutch P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutch/EasyDutch.txt&amp;title=EasyDutch">Subscribe</a></br>
-2. <a target="_blank" rel="noreferrer nofollow" href="https://easydutchcdn.pages.dev/EasyDutch.all.txt"><code>All-in-One EasyDutchCDN P2</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://easydutchcdn.pages.dev/EasyDutch.all.txt&amp;title=EasyDutch">Subscribe</a></br>
-3. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.all.txt"><code>All-in-One EasyDutchCDN P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.all.txt&amp;title=EasyDutch">Subscribe</a></br>
-4. <a target="_blank" rel="noreferrer nofollow" href="https://easydutch.pages.dev/EasyDutch.all.txt"><code>All-in-One EasyDutch P2</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://easydutch.pages.dev/EasyDutch.all.txt&amp;title=EasyDutch">Subscribe</a></br>
-5. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutch/EasyDutch.all.txt"><code>All-in-One EasyDutch P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutch/EasyDutch.all.txt&amp;title=EasyDutch">Subscribe</a></br>
-6. <a target="_blank" rel="noreferrer nofollow" href="https://easydutch.pages.dev/EasyDutch.txt"><code>EasyDutch P2</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://easydutch.pages.dev/EasyDutch.txt&amp;title=EasyDutch">Subscribe</a></br>
-7. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.txt"><code>EasyDutchCDN P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.txt&amp;title=EasyDutch">Subscribe</a></br>
-8. <a target="_blank" rel="noreferrer nofollow" href="https://easydutchcdn.pages.dev/EasyDutch.txt"><code>EasyDutchCDN P2</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://easydutchcdn.pages.dev/EasyDutch.txt&amp;title=EasyDutch">Subscribe</a></br>
+2. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.all.txt"><code>All-in-One EasyDutchCDN P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.all.txt&amp;title=EasyDutch">Subscribe</a></br>
+3. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutch/EasyDutch.all.txt"><code>All-in-One EasyDutch P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutch/EasyDutch.all.txt&amp;title=EasyDutch">Subscribe</a></br>
+4. <a target="_blank" rel="noreferrer nofollow" href="https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.txt"><code>EasyDutchCDN P1</code></a> | <a target="_blank" rel="noreferrer nofollow" href="https://subscribe.adblockplus.org/?location=https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/EasyDutch.txt&amp;title=EasyDutch">Subscribe</a></br>
 
 ### Explanation of used terms: 
 - <code>EasyDutch</code> means that it is from the <a target="_blank" rel="noreferrer nofollow" href="https://github.com/EasyDutch-uBlockOrigin/EasyDutch/tree/gh-pages">original</a> GitHub-repro. <br>
@@ -111,11 +102,7 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 &nbsp;&nbsp;&nbsp; I made a small delay to not overload the diffpatcher in GitHub Actions. <br>
 - <code>EasyDutchCDN</code> is from the <a target="_blank" rel="noreferrer nofollow" href="https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN">EasyDutchCDN</a> GitHub-repro. <br>
 &nbsp;&nbsp;&nbsp; Changes that are made in EasyDutch's main branch, are applied every two hours. Mirrors follow later. <br>
-- <code>EasyDutch(ABF)</code> means that it is from <a target="_blank" rel="noreferrer nofollow" href="https://github.com/Nomes77/AdBlockFilters">Nomes77/AdBlockFilters</a> GitHub-repro. <br>
-&nbsp;&nbsp;&nbsp; Changes that are made in EasyDutch's main branch, are applied once a week on Saturday. Mirrors follow later. <br>
-- <code>Raw</code> means that everything in that column is hosted on <code>https://raw.githubusercontent.com/</code>. <br>
 - <code>P1</code> means that the list is hosted on <code>github.io</code>. <br>
-- <code>P2</code> means that the list is hosted on <code>pages.dev</code>. <br>
 - <code>Mirror 1</code> is <a target="_blank" rel="noreferrer nofollow" href="https://www.jsdelivr.com/"><code>jsDelivr</code></a> and <code>Mirror 2</code> is <a target="_blank" rel="noreferrer nofollow" href="https://statically.io/"><code>Statically</code></a>; both are public and free CDN's. <br>
 - <code>All-in-One</code> means that everything is one big file in stead of multiple files loaded in one file. <br>
 &nbsp;&nbsp;&nbsp; This is to not overload/misuse the free CDN's. </br>
@@ -123,9 +110,7 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 ### List of domains we have:
 1. https://EasyDutch-uBlockOrigin.github.io/EasyDutch/ --> `gh-pages` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/)
 2. https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/ --> `main` from [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
-3. https://easydutch.pages.dev/ --> `gh-pages` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/)
-4. https://easydutchcdn.pages.dev/ --> `main` from [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
-5. https://raw.githubusercontent.com/ --> `gh-pages` and 2x `main` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/)
-6. https://cdn.jsdelivr.net/ and https://cdn.statically.io/ --> from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/) </br>
-   `EasyDutch.txt` and `EasyDutch.all.txt` --> [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/)
+3. https://raw.githubusercontent.com/ --> `gh-pages` and 2x `main` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/)
+4. https://cdn.jsdelivr.net/ and https://cdn.statically.io/ --> from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Ignotum77/AdBlockFilters](https://github.com/Ignotum77/AdBlockFilters/) </br>
+   `EasyDutch.txt` and `EasyDutch.all.txt` --> [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Ignotum77/AdBlockFilters](https://github.com/Ignotum77/AdBlockFilters/)
 
