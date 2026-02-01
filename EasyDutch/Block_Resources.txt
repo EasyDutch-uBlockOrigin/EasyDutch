@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-01
+||boek9.nl/sites/default/files/advertisements/
+||boek9.nl/sites/default/files/rotating-banners/
 ||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
 ||psalmboek.nl/banners/*advertentie$image
 ! 2026-01-31
@@ -494,6 +496,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
