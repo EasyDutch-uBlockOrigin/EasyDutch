@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-01
+||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
 ||psalmboek.nl/banners/*advertentie$image
 ! 2026-01-31
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
@@ -496,6 +497,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
