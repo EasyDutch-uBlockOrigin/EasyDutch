@@ -87,7 +87,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 ***
 ## View and Subscribe to EasyDutch
 
-As you can see below, there are multiple way to subscribe to our list. We have following domains: `https://EasyDutch-uBlockOrigin.github.io/EasyDutch/`, `https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`, `https://easydutch.pages.dev/`, `https://easydutchcdn.pages.dev/`, and `https://raw.githubusercontent.com/`. <br>
+As you can see below, there are multiple way to subscribe to our list. We have following domains: `https://EasyDutch-uBlockOrigin.github.io/EasyDutch/`, `https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`, and `https://raw.githubusercontent.com/`. <br>
 
 ### Favorite order of subscription:
 In the list, the normal website is the default. The `.all.txt` lists are used as primairy CDN's, where it is preferred to use `pages.dev` and `github.io`.
