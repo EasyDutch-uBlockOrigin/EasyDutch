@@ -956,7 +956,6 @@ nieuws.nl###footer-banner
 bokt.nl###frontpage_mediumrect
 nu.nl###header > .zone
 unitednews.sr###image-vertical-reel-scroll-slideshow
-funnygames.be,funnygames.nl###katon-slot
 tellows.nl###lb_header
 techzine.nl###lead
 eindexamens.nu###leaderboard
@@ -1306,6 +1305,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
