@@ -123,7 +123,7 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 ### List of domains we have:
 1. https://easydutch-ublockorigin.github.io/EasyDutch/ --> `gh-pages` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/)
 2. https://easydutch-ublockorigin.github.io/EasyDutchCDN/ --> `main` from [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
-3. https://raw.githubusercontent.com/ --> `gh-pages` and 2x `main` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/), and [Nomes77/AdBlockFilters](https://github.com/Nomes77/AdBlockFilters/)
+3. https://raw.githubusercontent.com/ --> `gh-pages` and 2x `main` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
 4. https://cdn.jsdelivr.net/ and https://cdn.statically.io/ --> from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/) </br>
    `EasyDutch.txt` and `EasyDutch.all.txt` --> [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
 
