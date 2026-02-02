@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+! https://github.com/uBlockOrigin/uAssets/issues/31503
+agf.nl##+js(nosiif, show)
 ! https://github.com/uBlockOrigin/uAssets/issues/30904
 telegraaf.nl##+js(no-fetch-if, /doubleclick|ad-delivery|googlesyndication/)
 ! 2026-02-02
@@ -91,6 +93,7 @@ marokko.nl##+js(set, ads_toegestaan, true)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
+
 
 
 
