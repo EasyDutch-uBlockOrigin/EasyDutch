@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+||2mdn.net/instream/html5/ima3.js$redirect=google-ima.js,domain=puna.bbvms.com,important
 ! https://github.com/uBlockOrigin/uAssets/issues/29345
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215616
@@ -508,6 +509,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
