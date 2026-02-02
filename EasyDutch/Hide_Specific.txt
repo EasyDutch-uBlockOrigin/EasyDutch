@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+puna.nl##.raw-html-component:has(> div[class^="r89-"])
 elektormagazine.nl##.Header__banner
 carwashpro.nl,infrasite.nl,mobiliteit.nl,mobilityenergy.com,rijschoolpro.nl,spoorpro.nl,taxipro.nl##.widget_nlpartners
 ! 2026-02-02
@@ -59,7 +60,7 @@ telefoonboek.nl##.contentbox__adsense
 telefoonboek.nl###tbresult-top
 techpulse.be##.magazine-sidebar-block
 techpulse.be##.wpb_wrapper:has( > div[class^="g"]):upward(section[class$="wpb_row height_small"]):not(:nth-of-type(1))
-gpinfo.com,puna.nl,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class*="r89-"]
+gpinfo.com,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class*="r89-"]
 mannenzaken.nl##[class*="r89-"]:upward(.raw-html-component)
 hagelandactueel.be,leuvenactueel.be##div[onclick="hideAdPopup()"]:upward(.component__pubble-banner)
 want.nl##.ad:upward(.mha_container)
@@ -1280,7 +1281,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
-
