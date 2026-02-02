@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-02
+||kieskeurig.nl/_astro/ad.$script
 ||static.promedia.nl/logos/$image,domain=carwashpro.nl|infrasite.nl|mobiliteit.nl|mobilityenergy.com|rijschoolpro.nl|spoorpro.nl|taxipro.nl
 ||nieuwsuitnijmegen.nl/uploads/banners/
 ||wijchensnieuws.nl/uploads/banners/
@@ -498,6 +499,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
