@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-02
+||static.promedia.nl/logos/$image,domain=carwashpro.nl|infrasite.nl|mobiliteit.nl|mobilityenergy.com|rijschoolpro.nl|spoorpro.nl|taxipro.nl
 ||nieuwsuitnijmegen.nl/uploads/banners/
 ||wijchensnieuws.nl/uploads/banners/
 ! 2026-02-01
@@ -306,7 +307,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
 ! 2022-03-31
 ||schuttevaer.nl/partnersites/
-||static.promedia.nl/logos/$image,domain=automobielmanagement.nl|carwashpro.nl|infrasite.nl|ovpro.nl|rijschoolpro.nl|spoorpro.nl|tankpro.nl|taxipro.nl|verkeersnet.nl
 ! 2022-03-17 crimesite.nl
 ||strafrechtadvocaten.nl/media/banner/$3p
 ! 2022-03-11
@@ -498,6 +498,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
