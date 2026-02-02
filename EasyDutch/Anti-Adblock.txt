@@ -101,11 +101,10 @@ marokko.nl##+js(set, ads_toegestaan, true)
 @@*$ghide,domain=modekoninginmaxima.nl
 ! 2021-05-04
 112midden-zeeland.nl##+js(aopr, anOptions)
-! 2021-04-28
-nu.nl##+js(set, isAdBlockEnabled, false)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
+
 
 
 
