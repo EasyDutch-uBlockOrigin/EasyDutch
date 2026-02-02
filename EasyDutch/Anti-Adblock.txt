@@ -2,6 +2,8 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-02
+||html-load.com/player/$script,domain=tipsenweetjes.nl,redirect=noopjs
 ! 2026-01-31
 touretappe.nl##+js(set, adBlocker, 0)
 mediamarkt.nl##[data-test="mms-content-consent-section"][aria-label]:has-text(adblocker):upward(1)
@@ -113,6 +115,7 @@ nu.nl##+js(set, isAdBlockEnabled, false)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
+
 
 
 
