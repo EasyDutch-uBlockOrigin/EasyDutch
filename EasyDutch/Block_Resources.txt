@@ -7,6 +7,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
 bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 ! https://github.com/uBlockOrigin/uAssets/issues/30177
+! https://github.com/uBlockOrigin/uAssets/issues/31124
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=goplay.be|play.tv
 @@||pubads.g.doubleclick.net/ondemand/$xhr,domain=goplay.be|play.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=noopjs,domain=goplay.be|play.tv
@@ -14,6 +15,7 @@ bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.prero
 ||dai.google.com/ondemand/dash/content/*/time-events.json$domain=goplay.be|play.tv
 ||securepubads.g.doubleclick.net/*gpt$script,domain=play.tv
 ||cdn.kaching.eu.com/latest/play/kaching.js$domain=play.tv
+||shared.mediahuis.be/ka-ching/goplay/ka-ching.umd.js
 ! 2026-02-02
 ||kieskeurig.nl/_astro/ad.$script
 ||static.promedia.nl/logos/$image,domain=carwashpro.nl|infrasite.nl|mobiliteit.nl|mobilityenergy.com|rijschoolpro.nl|spoorpro.nl|taxipro.nl
@@ -504,6 +506,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
