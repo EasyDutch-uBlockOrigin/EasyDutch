@@ -2,10 +2,6 @@
 ! Description: Filters for blocking first-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
-! 2023-01-16 https://github.com/EasyDutch-uBO/EasyDutch/issues/34
-! 2022-06-02 https://github.com/EasyDutch-uBO/EasyDutch/issues/22
-||aa.tweakers.nl^
-||ab.tweakers.nl^
 ! 2022-10-12
 ||freewheel-jitt.dpgmedia.be^
 ! 2022-10-07 https://github.com/AdguardTeam/AdguardFilters/issues/131530
@@ -27,3 +23,4 @@
 ||content2.nrc.nl^
 ! 2021-04-27
 ||mooieplaatjes.bierdopje.com^
+
