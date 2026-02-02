@@ -8,7 +8,7 @@
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215616
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
-bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 ! https://github.com/uBlockOrigin/uAssets/issues/30177
 ! https://github.com/uBlockOrigin/uAssets/issues/31124
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=goplay.be|play.tv
@@ -509,6 +509,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
