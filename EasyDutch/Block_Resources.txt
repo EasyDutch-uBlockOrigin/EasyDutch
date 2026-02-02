@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-02
+||nieuwsuitnijmegen.nl/uploads/banners/
+||wijchensnieuws.nl/uploads/banners/
 ! 2026-02-01
 ||radiostadmontfoort.nl/cms/img/ads/$image
 ||boek9.nl/sites/default/files/advertisements/
@@ -288,7 +291,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2022-05-04 on internetbode.nl
 ||pubble.nl/Content.svc/getAdCollection?
 ! 2022-04-26
-||nieuwsuitnijmegen.nl/uploads/banners/
 ||onderwegonline.nl/app/uploads/*/Banner$image
 ! 2022-04-22
 ||anoniem-surfen.nl/wp-content/uploads/*/aff3-*.png$image
@@ -496,6 +498,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
