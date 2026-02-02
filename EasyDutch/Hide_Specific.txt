@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-02
+nieuwsuitnijmegen.nl,wijchensnieuws.nl##.js-banner-slider:upward(2)
+nieuwsuitnijmegen.nl,wijchensnieuws.nl##.text-left:has-text(Advert)
 wfm.be##div.qt-custom-composer:has(.qt-sponsor)
 ! 2026-02-01
 radiostadmontfoort.nl##td[bgcolor="#d0d0f0"]:has-text(Reclame):upward(table)
@@ -631,7 +633,6 @@ nuus.be##.advertentie
 nljug.org##.widget:has(.capegroep-banner)
 nl.motorsport.com##.ms-side-widget--custom-links__wrapper
 detelefoongids.nl##.wrapper:has-text(Youvia)
-nieuwsuitnijmegen.nl##.js-banner-slider:upward(2)
 dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 nec-nijmegen.nl##.sponsors
@@ -819,7 +820,6 @@ yourlittleblackbook.me##[id*="banner"]
 reformatorischeomroep.nl##section:has(.item-banner)
 jammfm.nl##.vc_row:has([class^="qt-slickslider"] .qt-sponsor)
 ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
-nieuwsuitnijmegen.nl##.text-left:has-text(Advert)
 ! 2022-04-22
 anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
@@ -1307,6 +1307,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
