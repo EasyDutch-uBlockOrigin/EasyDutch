@@ -144,7 +144,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||msa.paginabanner.nl/banners/$image
 ||wp.com/noordernieuws.nl/wp-content/uploads/*/*.gif$image,domain=noordernieuws.nl
-||partyflock.nl/images/*/*_i*_$image
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ||zwartewaterfm.nl/wp-content/uploads/*/SponsorenZwarteWaterFM
 ! 2023-04-26
@@ -497,6 +496,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
