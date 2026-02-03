@@ -1184,7 +1184,6 @@ mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
 autoblog.nl##.widget_ab_sidebar
 amsterdamactueel.nl##.widget_alaya_ad
-eindtijdklok.org##.widget_block:has(img[src*="/ad"])
 mannenstyle.nl##.widget_execphp
 androidplanet.nl,iphoned.nl##.widget_offers
 rtvideaal.nl##.widget_random_banner_widget
