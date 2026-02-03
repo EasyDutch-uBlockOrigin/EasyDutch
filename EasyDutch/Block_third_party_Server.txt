@@ -77,7 +77,6 @@
 ! ||affiliatepartners.com^$3p
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
-||bva-auctions.com^$domain=telegraaf.nl
 ||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~instasex.nl
 ||cd.tnet.nl^$script,3p
 ||cleafs.nl^$3p
@@ -119,5 +118,3 @@
 ! ||views.affiliate4you.nl^$3p
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
-
-
