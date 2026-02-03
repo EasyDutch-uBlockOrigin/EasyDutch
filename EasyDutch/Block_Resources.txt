@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+||zozwanger.nl/wp-content/uploads/*banner$image
 ||theoutdoors.nl/wp-content/uploads/*/*banner*$domain=thehike.nl|theoutdoors.nl
 ||jobfish.nl/widget/$3p
 ditjesendatjes.nl##+js(rpnt, script, ',availableAds:[', ',availableAds:[],noAds:[', sedCount, 1)
@@ -508,4 +509,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
-
