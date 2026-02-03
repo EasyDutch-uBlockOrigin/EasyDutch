@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+funda.nl##.justify-center[role="complementary"]:has-text(Advert)
 marktplaats.nl,2dehands.be###adsense-container
 marktplaats.nl,2dehands.be###banner-top-dt
 marktplaats.nl,2dehands.be##.bannerContainerLoading
@@ -871,7 +872,6 @@ nieuwsuitdelden.nl##.gesponsord_blokje
 ! 2022-03-09
 gezondheidsnet.nl##.banner
 ! 2022-03-02
-funda.nl##.home-billboard
 jaap.nl##div[id^="property_ad_"]
 tvgids.nl##.square-item:has( > .banner)
 ! 2022-02-25
