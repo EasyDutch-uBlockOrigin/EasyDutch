@@ -1049,7 +1049,6 @@ deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.ban
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
 motorrijdenexpert.nl##.flat-theme-content:has(a[href][rel^="noopener"])
-wanttoknow.nl##.float-right
 ajax1.nl##.footer__footer-fat
 heracles.nl##.footer-blocks
 heracles.nl##.footer-sponsors
@@ -1270,6 +1269,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
