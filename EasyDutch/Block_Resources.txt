@@ -397,7 +397,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||edelmetaal-info.nl/images/$domain=zilverengoudkopen.nl
 ||edelmetaal-info.nl/wp-content/uploads/images/$domain=zilverengoudkopen.nl
-||eindtijdchristen.files.wordpress.com/*/ad-$image,domain=eindtijdklok.org
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
 ||elektormagazine.nl/assets/upload/banners/
 ||elektronicaforum.nl/banner*$image,1p
@@ -509,4 +508,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
-
