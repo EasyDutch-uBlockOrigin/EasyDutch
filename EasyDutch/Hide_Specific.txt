@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+zozwanger.nl##[id^="custom_html-"]:has(img[src*="banner"])
+zozwanger.nl##.a-single
 thehike.nl,theoutdoors.nl##.g-single
 dartfreakz.nl##.sda
 dartfreakz.nl,puna.nl##div[class^="r89-"]:upward(.raw-html-component)
@@ -481,9 +483,6 @@ marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 ! 2023-04-18
 albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goudsdagblad.nl,ridderkerksdagblad.nl,rijswijksdagblad.nl,voorburgsdagblad.nl,zoetermeersdagblad.nl##.ddbad_wrapper
-! 2023-04-04
-zozwanger.nl##.a-single
-zozwanger.nl##.g-single
 ! 2023-03-31
 allesoveropeningstijden.nl##p:has-text(advertentie)
 ! 2023-03-28
@@ -1279,4 +1278,5 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
