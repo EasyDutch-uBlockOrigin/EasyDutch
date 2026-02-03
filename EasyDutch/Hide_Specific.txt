@@ -1059,7 +1059,7 @@ spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
 fierljeppenwinsum.frl##.gdlr-sidebar:has-text(sponsoren)
 radiovisie.eu##.gmollik
-belgischecasinos.be,newspower.nu##.gofollow
+belgischecasinos.be##.gofollow
 mariogames.be##.googleadvidx
 srherald.com##.gsrhera
 golf.be##.header__bottom
@@ -1241,7 +1241,6 @@ gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 handbalstartpunt.nl##aside.widget-banner
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
-newspower.nu##aside[class^="td_block"]:has(.gofollow)
 digitaalburg.com##aside[class^="widget widget_text"]
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
@@ -1271,6 +1270,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
