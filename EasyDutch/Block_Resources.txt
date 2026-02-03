@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+||jobfish.nl/widget/$3p
 ditjesendatjes.nl##+js(rpnt, script, ',availableAds:[', ',availableAds:[],noAds:[', sedCount, 1)
 ||2mdn.net/instream/html5/ima3.js$redirect=google-ima.js,domain=puna.bbvms.com,important
 ! https://github.com/uBlockOrigin/uAssets/issues/29345
@@ -510,6 +511,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
