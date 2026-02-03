@@ -408,7 +408,6 @@ leerlingen.com##.sponsors
 radioeenhoorn.nl##.module_round_box:not(:has([href*="/word-donateur"]))
 recreatief.nl##.widget-a-wrap
 srnieuws.com##div.card-view:has([id^="taboola"])
-waterkant.net##div.td-all-devices
 ! 2023-05-03
 oisterwijknieuws.nl##.sidebar > .widget a[href]:not(a[href^="https://www.oisterwijknieuws.nl"])
 oisterwijknieuws.nl##div[align="center"] a[target="_blank"]
@@ -1264,3 +1263,4 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
