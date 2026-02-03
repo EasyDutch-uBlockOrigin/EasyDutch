@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+||theoutdoors.nl/wp-content/uploads/*/*banner*$domain=thehike.nl|theoutdoors.nl
 ||jobfish.nl/widget/$3p
 ditjesendatjes.nl##+js(rpnt, script, ',availableAds:[', ',availableAds:[],noAds:[', sedCount, 1)
 ||2mdn.net/instream/html5/ima3.js$redirect=google-ima.js,domain=puna.bbvms.com,important
@@ -484,7 +485,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
 ||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
-||thehike.nl/wp-content/uploads/*/*statisch-500x500
 ||tijd.be/ad/
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
@@ -508,3 +508,4 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
