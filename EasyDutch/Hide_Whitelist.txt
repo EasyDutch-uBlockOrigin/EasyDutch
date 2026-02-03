@@ -6,8 +6,6 @@
 gratisaftehalen.nl#@#.ads-image
 ! 2023-05-04
 rotterdam-nesselande.nl#@#ins.adsbygoogle
-! 2023-05-03
-noordkopcentraal.nl#@#.category-advertorial
 ! 2023-04-27
 gratis.nl#@#a[href^="https://ndt5.net/"]
 ! 2023-04-26
@@ -46,3 +44,4 @@ marktplaats.nl#@#.adSummary
 !#if env_mobile
 klusidee.nl#@#.header-ad
 !#endif
+
