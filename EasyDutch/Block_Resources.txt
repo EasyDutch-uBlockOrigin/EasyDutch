@@ -6,23 +6,6 @@
 ||zozwanger.nl/wp-content/uploads/*banner$image
 ||theoutdoors.nl/wp-content/uploads/*/*banner*$domain=thehike.nl|theoutdoors.nl
 ||jobfish.nl/widget/$3p
-ditjesendatjes.nl##+js(rpnt, script, ',availableAds:[', ',availableAds:[],noAds:[', sedCount, 1)
-||2mdn.net/instream/html5/ima3.js$redirect=google-ima.js,domain=puna.bbvms.com,important
-! https://github.com/uBlockOrigin/uAssets/issues/29345
-alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
-! https://github.com/AdguardTeam/AdguardFilters/issues/215616
-! https://github.com/uBlockOrigin/uAssets/issues/30053
-avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
-! https://github.com/uBlockOrigin/uAssets/issues/30177
-! https://github.com/uBlockOrigin/uAssets/issues/31124
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=goplay.be|play.tv
-@@||pubads.g.doubleclick.net/ondemand/$xhr,domain=goplay.be|play.tv
-||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=noopjs,domain=goplay.be|play.tv
-||pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js$redirect=noopjs,domain=goplay.be|play.tv
-||dai.google.com/ondemand/dash/content/*/time-events.json$domain=goplay.be|play.tv
-||securepubads.g.doubleclick.net/*gpt$script,domain=play.tv
-||cdn.kaching.eu.com/latest/play/kaching.js$domain=play.tv
-||shared.mediahuis.be/ka-ching/goplay/ka-ching.umd.js
 ! 2026-02-02
 ||kieskeurig.nl/_astro/ad.$script
 ||static.promedia.nl/logos/$image,domain=carwashpro.nl|infrasite.nl|mobiliteit.nl|mobilityenergy.com|rijschoolpro.nl|spoorpro.nl|taxipro.nl
