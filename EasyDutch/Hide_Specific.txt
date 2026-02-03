@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-03
+ajaxreport.nl,feyenoordreport.nl,feyenoordrss.nl,formule1rss.nl,onlinecasinorss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,voetbalsnafu.nl,voetbalwedtipsrss.nl##.widget_links
+ajaxreport.nl##[id^="text"][class$="sidebar-widget"]:has-text(/casino/i):not(:has(div[class="widget-title"]))
+voetbalweddenrss.nl##[class$="sidebar-widget"]:has(p > a[href*="casino"]):not(:has(div[class="widget-title"]))
 noordkop247.nl##.commercial-block
 zozwanger.nl##[id^="custom_html-"]:has(img[src*="banner"])
 zozwanger.nl##.a-single
@@ -1183,7 +1186,6 @@ autoblog.nl##.widget_ab_sidebar
 amsterdamactueel.nl##.widget_alaya_ad
 eindtijdklok.org##.widget_block:has(img[src*="/ad"])
 mannenstyle.nl##.widget_execphp
-ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,sportweddenrss.nl,voetbalsnafu.nl##.widget_links
 androidplanet.nl,iphoned.nl##.widget_offers
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
@@ -1194,11 +1196,9 @@ onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
 onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 indebuurt.nl##.widget-tabs--partner
 camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
-onlinecasinorss.nl,onlinekraslotenrss.nl,voetbalsnafu.nl,voetbalweddenrss.nl##[class$="sidebar-widget"]:has(p > a[href*="casino"]):not(:has(div[class="widget-title"]))
 domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
 hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
 infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
-linda.nl##[class^="article-"][class$="_article"]:has(.category-label_label:has-text(Advertorial))
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,motocrossplanet.nl,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##[class^="banner"]
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 appletips.nl##[class^="ph_block"]
@@ -1226,7 +1226,6 @@ adbroere.nl##[id^="text-"]:has-text(adv)
 kledingmaten.nl##[id^="text-"]:has-text(Advert)
 senseigaming.be##[id^="text-"]:has-text(sponsors)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
-ajaxreport.nl,psvreport.nl##[id^="text"][class$="sidebar-widget"]:has-text(/casino/i):not(:has(div[class="widget-title"]))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
 appletips.nl##a[href^="/adverteren-"]
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
