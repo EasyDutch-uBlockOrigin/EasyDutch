@@ -9,10 +9,6 @@ touretappe.nl##+js(set, adBlocker, 0)
 mediamarkt.nl##[data-test="mms-content-consent-section"][aria-label]:has-text(adblocker):upward(1)
 ! 2023-10-17
 moppen.nl#@#ins.adsbygoogle
-! 2023-10-13
-dumpert.nl##+js(nostif, AdBlockerCheck)
-! dumpert.nl##+js(nostif, adBlockChecker)
-dumpert.nl#@#.ads_box
 ! 2023-10-13 https://github.com/easylist/easylistdutch/issues/47
 ! meerdangewenst.nl##.sponsoren:upward(1)
 ! meerdangewenst.nl##+js(aopw, gtag)
@@ -78,4 +74,3 @@ marokko.nl##+js(set, ads_toegestaan, true)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
-
