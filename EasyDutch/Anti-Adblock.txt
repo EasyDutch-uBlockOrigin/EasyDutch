@@ -2,24 +2,6 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
-! 2026-02-03
-! https://github.com/AdguardTeam/AdguardFilters/issues/208455
-! https://github.com/AdguardTeam/AdguardFilters/issues/201966
-! https://github.com/AdguardTeam/AdguardFilters/issues/197442
-! https://www.reddit.com/r/uBlockOrigin/comments/1dglzes/any_solution_to_bypass_adblock_detection_on/
-! https://github.com/uBlockOrigin/uAssets/issues/25254
-! https://github.com/uBlockOrigin/uAssets/issues/13260
-! https://github.com/AdguardTeam/AdguardFilters/issues/208731
-538.nl,hartvannederland.nl,kijk.nl,shownieuws.nl,vandaaginside.nl##+js(set, Object.prototype.ADBLOCK_DETECTION, '')
-538.nl,hartvannederland.nl,kijk.nl,shownieuws.nl,vandaaginside.nl##+js(trusted-json-edit, .features.*[?.slug=="adblock-detection"].enabled=false)
-kijk.nl##+js(no-xhr-if, url:ad/banner.gif)
-||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr
-@@||vandaaginside.nl^$ghide
-vandaaginside.nl##+js(no-xhr-if, /ad/)
-! https://github.com/uBlockOrigin/uAssets/issues/31503
-agf.nl##+js(nosiif, show)
-! https://github.com/uBlockOrigin/uAssets/issues/30904
-telegraaf.nl##+js(no-fetch-if, /doubleclick|ad-delivery|googlesyndication/)
 ! 2026-02-02
 ||html-load.com/player/$script,domain=tipsenweetjes.nl,redirect=noopjs
 ! 2026-01-31
@@ -96,3 +78,4 @@ marokko.nl##+js(set, ads_toegestaan, true)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
+
