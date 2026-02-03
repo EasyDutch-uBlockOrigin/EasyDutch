@@ -1,18 +1,43 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 16 Jan 2024 13:20:57 +0000
+! Last updated: Tue, 03 Feb 2026 14:49:03 +0000
 !
+! 2026-02-03
+||zozwanger.nl/wp-content/uploads/*banner$image
+||theoutdoors.nl/wp-content/uploads/*/*banner*$domain=thehike.nl|theoutdoors.nl
+||jobfish.nl/widget/$3p
+ditjesendatjes.nl##+js(rpnt, script, ',availableAds:[', ',availableAds:[],noAds:[', sedCount, 1)
+||2mdn.net/instream/html5/ima3.js$redirect=google-ima.js,domain=puna.bbvms.com,important
+! https://github.com/uBlockOrigin/uAssets/issues/29345
+alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
+! https://github.com/AdguardTeam/AdguardFilters/issues/215616
+! https://github.com/uBlockOrigin/uAssets/issues/30053
+avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+! https://github.com/uBlockOrigin/uAssets/issues/30177
+! https://github.com/uBlockOrigin/uAssets/issues/31124
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=goplay.be|play.tv
+@@||pubads.g.doubleclick.net/ondemand/$xhr,domain=goplay.be|play.tv
+||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=noopjs,domain=goplay.be|play.tv
+||pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js$redirect=noopjs,domain=goplay.be|play.tv
+||dai.google.com/ondemand/dash/content/*/time-events.json$domain=goplay.be|play.tv
+||securepubads.g.doubleclick.net/*gpt$script,domain=play.tv
+||cdn.kaching.eu.com/latest/play/kaching.js$domain=play.tv
+||shared.mediahuis.be/ka-ching/goplay/ka-ching.umd.js
+! 2026-02-02
+||kieskeurig.nl/_astro/ad.$script
+||static.promedia.nl/logos/$image,domain=carwashpro.nl|infrasite.nl|mobiliteit.nl|mobilityenergy.com|rijschoolpro.nl|spoorpro.nl|taxipro.nl
+||nieuwsuitnijmegen.nl/uploads/banners/
+||wijchensnieuws.nl/uploads/banners/
+! 2026-02-01
+||radiostadmontfoort.nl/cms/img/ads/$image
+||boek9.nl/sites/default/files/advertisements/
+||boek9.nl/sites/default/files/rotating-banners/
+||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
+||psalmboek.nl/banners/*advertentie$image
+! 2026-01-31
+||resources.planetnine.com/scripts/$script,domain=topgear.nl
 ! 2024-01-16
 .be/la_custom/get_banners_cache$xhr,1p,domain=hagelandactueel.be|leuvenactueel.be
-! 2023-12-26
-! https://github.com/EasyDutch-uBO/EasyDutch/issues/112
-! https://github.com/uBlockOrigin/uAssets/issues/20659
-! https://github.com/AdguardTeam/AdguardFilters/issues/166205
-! https://www.reddit.com/r/uBlockOrigin/comments/17tfadh/httpsnponlstartserieditwashetnieuws_doesnt_block/
-||akamaized.net^$media,domain=bnnvara.nl|npo.nl|vpro.nl,redirect=noopmp3-0.1s
-bnnvara.nl,npo.nl,vpro.nl##+js(json-prune, assets.preroll)
-! 2023-12-20
-||shortpixel.ai/client/to_webp,q_lossy,ret_img,w_*/https://groningerkrant.nl/wp-content/uploads/*.jpg$image,domain=groningerkrant.nl
 ! 2023-12-19
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
@@ -138,7 +163,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||msa.paginabanner.nl/banners/$image
 ||wp.com/noordernieuws.nl/wp-content/uploads/*/*.gif$image,domain=noordernieuws.nl
-||partyflock.nl/images/*/*_i*_$image
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ||zwartewaterfm.nl/wp-content/uploads/*/SponsorenZwarteWaterFM
 ! 2023-04-26
@@ -179,7 +203,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*week$image
 /images/banners/*$image,domain=bodemvondstenwereld.nl|drentsnieuws.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
 /wp-content/*banner$image,domain=retaildetail.be|retaildetail.nl
-/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|noordkopcentraal.nl|regionoordkop.nl|rtvlansingerland.nl|sliedrecht24.nl|unitednews.sr
+/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|regionoordkop.nl|rtvlansingerland.nl|sliedrecht24.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|cryptobenelux.com|curacao.nu|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|katholiek.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|oogtv.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 /wp-content/uploads/*/Mijn-Zaak$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
@@ -283,7 +307,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2022-05-04 on internetbode.nl
 ||pubble.nl/Content.svc/getAdCollection?
 ! 2022-04-26
-||nieuwsuitnijmegen.nl/uploads/banners/
 ||onderwegonline.nl/app/uploads/*/Banner$image
 ! 2022-04-22
 ||anoniem-surfen.nl/wp-content/uploads/*/aff3-*.png$image
@@ -299,7 +322,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
 ! 2022-03-31
 ||schuttevaer.nl/partnersites/
-||static.promedia.nl/logos/$image,domain=automobielmanagement.nl|carwashpro.nl|infrasite.nl|ovpro.nl|rijschoolpro.nl|spoorpro.nl|tankpro.nl|taxipro.nl|verkeersnet.nl
 ! 2022-03-17 crimesite.nl
 ||strafrechtadvocaten.nl/media/banner/$3p
 ! 2022-03-11
@@ -308,8 +330,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||123inkt.nl/images/oren/*$image
 ! 2022-02-08
 ||waarzo.nl/imagestore/site-banners/
-! 2022-01-26
-||tpo.nl/wp-content/themes/*/tpo-banner$image
 ! 2022-01-18
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
@@ -326,7 +346,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 .nl/adurl/$xhr,domain=start-player.npo.nl
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ||2link.be/banners/
-||abcsuriname.com/templates/abc/assets/gfx/header_banner$image,1p
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
@@ -351,9 +370,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cdn.ster.nl/banners^
-||christelijknieuws.nl/upload/modules/banner/$image
-||ciaotutti.nl/wp-content/uploads/*/koffiecentrale-*$image
-||ciaotutti.nl/wp-content/uploads/*/villa-in-umbria-vakantie*$image
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||classicstogo.nl/files/*/*-banner-*$image,1p
@@ -381,7 +397,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||edelmetaal-info.nl/images/$domain=zilverengoudkopen.nl
 ||edelmetaal-info.nl/wp-content/uploads/images/$domain=zilverengoudkopen.nl
-||eindtijdchristen.files.wordpress.com/*/ad-$image,domain=eindtijdklok.org
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
 ||elektormagazine.nl/assets/upload/banners/
 ||elektronicaforum.nl/banner*$image,1p
@@ -470,12 +485,10 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
 ||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
-||thehike.nl/wp-content/uploads/*/*statisch-500x500
 ||tijd.be/ad/
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
 ||tradeidee.nl/banners/
-||transport-online.nl/site/includes/uploads/banner-$image
 ||tweedehandschristelijkeboeken.nl/wp-content/uploads/*/gratis-eo-visie.png$image
 ||ucl-voetbal.nl/derden/
 ||uecl-voetbal.nl/derden/
