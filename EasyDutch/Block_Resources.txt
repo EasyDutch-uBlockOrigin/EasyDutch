@@ -369,8 +369,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cdn.ster.nl/banners^
 ||christelijknieuws.nl/upload/modules/banner/$image
-||ciaotutti.nl/wp-content/uploads/*/koffiecentrale-*$image
-||ciaotutti.nl/wp-content/uploads/*/villa-in-umbria-vakantie*$image
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||classicstogo.nl/files/*/*-banner-*$image,1p
@@ -511,6 +509,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
