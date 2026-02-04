@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl##div[class^="r89-"]
 headliner.nl###flex_left:has(div[class^="r89-"])
@@ -134,7 +135,6 @@ topgear.nl##.Pnvp__ad
 rtl.nl##div[data-adslot-variant]
 autoreview.nl##[id^="Autoreview.nl_ros_"]
 autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
-mediamarkt.be,mediamarkt.nl###category-content-top-banner:upward(section)
 krefel.be##div.flex > h3:has-text(Gesponsorde producten):upward(div.flex)
 bol.com##div[data-bltgg*="considerationDisplay"]:has-text(Gesponsord)
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
