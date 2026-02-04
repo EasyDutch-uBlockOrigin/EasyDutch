@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+biernet.nl###banTop
+biernet.nl###BJA_LEADER1
+biernet.nl###BJA2
+biernet.nl###BJA3
 loemedia.nl##div.ad
 ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu,mechanisatie.nl,pluimveerechten.nu,quotum.nu,varkensrechten.nu##div[style]:has(.adsbygoogle)
 gic.nl##[aria-label="Banner"]:upward(1)
@@ -703,7 +707,6 @@ iex.nl##.billboardwrapdown
 businessinsider.nl##[class*="-teaser"]:has(.bi-label--advertorial)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
 broadcastmagazine.nl##.banner
-biernet.nl###banTop
 belegger.nl##.Textads:upward(.ContentRightBlock)
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
 beleggersbelangen.nl##.promo
@@ -889,8 +892,6 @@ feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
 wereldklokken.nl##.adsbygoogle:style(visibility: collapse !important;)
 wereldklokken.nl##.klokken:style(transform: translateX(-180px ) !important;)
 ! 2022-01-14
-biernet.nl###BJA2
-biernet.nl###BJA3
 duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/uploads/"])
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
@@ -1244,3 +1245,4 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
