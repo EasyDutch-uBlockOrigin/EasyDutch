@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+girlscene.nl##.sh-player-container
 headliner.nl##div[class^="r89-"]
 headliner.nl###flex_left:has(div[class^="r89-"])
 noordernieuws.nl##div.banner_online
