@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+motorblog.nl##.sale
 nporadio1.nl,nporadio2.nl,npo3fm.nl,npoklassiek.nl,nporadio5.nl,funx.nl##[id^="adid"]:upward(2)
 bnnvara.nl##div[id^="ster-ad-bnnvara-"]:upward(1)
 maxvandaag.nl##main > .container:has(.sterWrapper)
@@ -170,7 +171,6 @@ made-in.be##.c-ad-space:upward(.col-item)
 marktnet.nl##.tab4
 marktnet.nl##a[href^="https://www.marktnet.nl/bs/clickOut"]:upward([class^="tip"])
 marktnet.nl##li.linkUnit
-motorblog.nl##[src^="https://partner.bol.com"]:upward(table.tablepress)
 nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
 nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
 nieuwsmotor.nl##.add-background
@@ -1233,3 +1233,4 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
