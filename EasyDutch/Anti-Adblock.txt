@@ -69,7 +69,5 @@ autoweek.nl##+js(set, isAdBlockActive, false)
 doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
 ! 2021-08-06
 marokko.nl##+js(set, ads_toegestaan, true)
-! 2021-05-04
-112midden-zeeland.nl##+js(aopr, anOptions)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
