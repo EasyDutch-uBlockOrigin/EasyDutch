@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+headliner.nl##div[class^="r89-"]
+headliner.nl###flex_left:has(div[class^="r89-"])
 noordernieuws.nl##div.banner_online
 autosport.nl##.active.first:style(margin-top: 0px !important;)
 autosport.nl##.advertentie_links
@@ -826,7 +828,6 @@ schuttevaer.nl##.widget_minisites
 ! 2022-03-29
 skoften.net##.promoted
 ! 2022-03-26
-headliner.nl###flex_left:has([id="div-gpt-ad"])
 hardnieuws.nl##[id*="ros-300x600"]:upward(1)
 ! 2022-03-22
 hbvl.be##.widget:has(.article-teaser)
@@ -1233,8 +1234,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
-
-
