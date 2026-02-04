@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+! https://github.com/AdguardTeam/AdguardFilters/issues/215616
+! https://github.com/uBlockOrigin/uAssets/issues/30053
+avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 ||biernet.nl/site/plugins/bja_new/bja$script,1p
 ||biernet.nl/images/extra-bja_camp-bnr/$image
 ||gic.nl/assets/src/pages/index/index.page.ad*.js$script,1p
@@ -487,3 +490,4 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
