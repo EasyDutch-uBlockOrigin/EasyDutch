@@ -73,4 +73,3 @@ marokko.nl##+js(set, ads_toegestaan, true)
 112midden-zeeland.nl##+js(aopr, anOptions)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
-girlscene.nl##+js(set, adblock, 0)
