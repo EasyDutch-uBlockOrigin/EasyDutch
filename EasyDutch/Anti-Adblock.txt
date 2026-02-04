@@ -2,6 +2,8 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-04
+routenet.nl.trafficnet.nl##+js(aopw, checkAdsBlocked)
 ! 2026-02-02
 ||html-load.com/player/$script,domain=tipsenweetjes.nl,redirect=noopjs
 ! 2026-01-31
@@ -44,8 +46,6 @@ tweakers.net###b_re:style(visibility: collapse !important; min-height: 1.5px !im
 aimsolutions.nl##+js(noeval-if, adsBlocked)
 ! 2023-06-10 https://github.com/uBlockOrigin/uAssets/issues/16839
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
-! 2023-04-27
-routenet.nl,trafficnet.nl##+js(set, canRunAds, true)
 ! 2022-11-14
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=vrt.be
 ! 2022-10-12
