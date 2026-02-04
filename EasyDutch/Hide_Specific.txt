@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
-ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl##div[style]:has(.adsbygoogle)
+ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu##div[style]:has(.adsbygoogle)
 gic.nl##[aria-label="Banner"]:upward(1)
 bierdopje.nl##aside [id^="custom_html"]:has(a[href])
 nljug.org###sidebar .widget:has(a[href^="https://devitjobs.nl/jobs/"])
@@ -1232,7 +1232,6 @@ basketball.nl##div[data-component="partner"]
 handbalinside.nl##div[id^="handb-"]
 apintie.sr##div[style*="width:300px; height:250px;"]
 kinderspelletjes.be,kinderspelletjes.nl##div[style*="width:970px"]:has-text(Reclame)
-landbouwgrond.nu##div[style]:has(.adsbygoogle)
 apintie.sr##div[style^="width:300px; height:180px;"]
 kinderspelletjes.be,kinderspelletjes.nl##div[style^="width:336px;height:290px"]:has-text(Reclame)
 bitcoinmagazine.nl##div[style="height:52px;"]
@@ -1245,9 +1244,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
-
-
-
