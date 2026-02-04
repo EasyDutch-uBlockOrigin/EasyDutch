@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+gic.nl##[aria-label="Banner"]:upward(1)
 bierdopje.nl##aside [id^="custom_html"]:has(a[href])
 nljug.org###sidebar .widget:has(a[href^="https://devitjobs.nl/jobs/"])
 nljug.org##[id^="custom_html-"]:has-text(Kennispartners):has(a[href] > img)
@@ -669,7 +670,6 @@ voetbalrotterdam.nl##div[class^="r89-desktop"]
 ! 2022-06-28
 golf.be##[class*="-ad-banner-box"]
 gids.tv##.advertisement:upward(1)
-gic.nl##.katernbanners
 geelfm.be##a[href="/adverteren/"]:upward(1)
 frontline.digital##p:has-text(,):not(:has-text(/[a-z]|[0-9]/i))
 fleet-mobility.nl##.spotlight:has-text(Partners)
@@ -992,7 +992,7 @@ antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.b
 prewarcar.nl##.banner-holder
 ewmagazine.nl##.banner-leaderboard
 weertdegekste.nl##.banner-right
-gic.nl,kbradio.nl##.banners
+kbradio.nl##.banners
 speeleiland.nl##.banner-sky
 radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
@@ -1244,4 +1244,5 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
