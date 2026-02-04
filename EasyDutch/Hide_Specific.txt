@@ -761,8 +761,6 @@ infinance.nl##.slickcarousel
 infinance.nl##.widget:has-text(links)
 omrekenen.org##.widget:has-text(/Gesponsoord/i)
 omrekenen.org##a[href^="https://www.onlinebingokaart.nl/"]
-! 2022-05-17
-vandaaginside.nl##div[class*="-bannerWrapper-"]
 ! 2022-05-16
 techradar.com###taboola-below-article-thumbnails
 techradar.com##.dfp-leaderboard-container
@@ -822,7 +820,6 @@ vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
 vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]:not(a[href*="mailto"])
 ! 2022-03-31
 schuttevaer.nl##.widget_minisites
-vandaaginside.nl##div[class^="Component-bannerTopWrapper-"]
 ! 2022-03-29
 skoften.net##.promoted
 ! 2022-03-26
