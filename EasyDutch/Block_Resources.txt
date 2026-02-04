@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+||gic.nl/assets/src/pages/index/index.page.ad*.js$script,1p
+||cdn.gic.nl/app/uploads/*.gif$image,domain=gic.nl
 ||sliedrecht24.nl/wp-content/uploads/*/*banner$image
 ! 2026-02-03
 ||zozwanger.nl/wp-content/uploads/*banner$image
@@ -391,7 +393,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
 ||forum.spaarinformatie.nl/si-info.html
 ||fx.nl/_ext/widget/$3p
-||gic.nl/uploads/fckconnector/$image,1p
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukencoach-300x250.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
@@ -488,3 +489,4 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
