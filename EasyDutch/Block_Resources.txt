@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+||motorrijder.be/wp-content/uploads/banners/
+||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215616
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
@@ -151,7 +153,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2023-04-27
 ||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
 ||motokicx.com/wp-content/uploads/*/Motokicx*.gif$image
-||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||msa.paginabanner.nl/banners/$image
 ||wp.com/noordernieuws.nl/wp-content/uploads/*/*.gif$image,domain=noordernieuws.nl
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
@@ -489,3 +490,4 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
