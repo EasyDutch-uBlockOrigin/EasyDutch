@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+||biernet.nl/site/plugins/bja_new/bja$script,1p
+||biernet.nl/images/extra-bja_camp-bnr/$image
 ||gic.nl/assets/src/pages/index/index.page.ad*.js$script,1p
 ||cdn.gic.nl/app/uploads/*.gif$image,domain=gic.nl
 ||sliedrecht24.nl/wp-content/uploads/*/*banner$image
@@ -317,9 +319,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
 ! 2022-01-14
-||biernet.nl/bja/$subdocument
-||biernet.nl/images/extra-bja_camp-bnr/$image
-||biernet.nl/site/widgets/huidig_aanbieding.php
 ||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
 ||digitaalburg.com/rn02/wp-content/uploads/*/uitwaard21.jpg
 ||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-
