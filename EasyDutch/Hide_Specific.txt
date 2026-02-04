@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+loemedia.nl##div.ad
 ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu,mechanisatie.nl,pluimveerechten.nu,quotum.nu,varkensrechten.nu##div[style]:has(.adsbygoogle)
 gic.nl##[aria-label="Banner"]:upward(1)
 bierdopje.nl##aside [id^="custom_html"]:has(a[href])
@@ -159,7 +160,6 @@ hardware.info##.category:has-text(Advert):upward(article.overview-item)
 janvissersweer.nl##img[width="300"][height="250"]:upward(aside.widget)
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
 knhs.nl##.footer-sponsors
-loemedia.nl##.widgettitle:has-text(/advert|banner|reclame/i):upward(.widget)
 luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
