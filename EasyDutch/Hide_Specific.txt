@@ -871,9 +871,6 @@ studylibnl.com##.sidebar-top-content
 startlinken.nl##td[class]:has(a[href*="robohost.nl/clients/aff.php"]):upward(2)
 spidersolitairespelen.nl##.spel_b1
 spidersolitairespelen.nl##.spel_b2
-! 2022-01-21
-hartvannederland.nl,shownieuws.nl##[data-testid^="banner"]
-hartvannederland.nl,shownieuws.nl##div[class*="-bannerWrapper-"]
 ! 2022-01-19
 wettelijke-feestdagen.nl##.advertentieBanner
 wettelijke-feestdagen.nl###reclame
