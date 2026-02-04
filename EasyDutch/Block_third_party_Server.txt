@@ -2,6 +2,8 @@
 ! Description: Filters for blocking only general third-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-04
+||rkn3.net^3p
 ! 2026-02-03
 ||bdt9.net^$3p
 ! 2026-02-02
