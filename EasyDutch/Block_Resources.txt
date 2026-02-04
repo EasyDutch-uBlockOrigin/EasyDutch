@@ -77,7 +77,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ! 2023-11-01
 ||feyenoord.nl/*/media/*partnerships/$image
 ||nnieuws.be/sites/default/files/images/ads/
-||noordernieuws.nl/wp-content/uploads/*/casino$image
 ||racingnews365.nl/*/json/unibet/bet-offers.json$xhr,1p
 ! 2023-10-31
 ||admin.ditjesendatjes.nl/wp-content/uploads/Vignet_Cover$image
@@ -154,7 +153,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
 ||motokicx.com/wp-content/uploads/*/Motokicx*.gif$image
 ||msa.paginabanner.nl/banners/$image
-||wp.com/noordernieuws.nl/wp-content/uploads/*/*.gif$image,domain=noordernieuws.nl
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ||zwartewaterfm.nl/wp-content/uploads/*/SponsorenZwarteWaterFM
 ! 2023-04-26
@@ -249,7 +247,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||gigantfm.nl/assets/images/onderdelenshop$image
 ||menttv.be/wp-content/uploads/*/*-br.$image
 ||motokicx.com/wp-content/uploads/*RAD
-||noordernieuws.nl/wp-content/uploads/*/*.gif$image
 ||noordkopcentraal.nl/wp-content/uploads/*/Vrienden-van
 ! 2022-06-29
 ||racexpress.nl/img/sponsors/
@@ -490,4 +487,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
-
