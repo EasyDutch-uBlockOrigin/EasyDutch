@@ -62,9 +62,6 @@
 ||advertising-cdn.dpgmedia.cloud^$3p
 ! https://github.com/easylist/easylistdutch/commit/b04939fcc2b0a2564a46143939a15f95b3b30985
 ||widgets.skyscanner.net^$domain=puuropreis.nl
-! https://github.com/easylist/easylistdutch/commit/1dcc8ccbf4b1d5afeebdccbe224b332c99546b63
-! routenet.nl
-||botndm.nl^$3p
 ! 2021-07-28
 ||gratis-neuken.com^$3p
 ! 2021-06-29
@@ -122,4 +119,3 @@
 ! ||views.affiliate4you.nl^$3p
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
-
