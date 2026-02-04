@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+nporadio1.nl,nporadio2.nl,npo3fm.nl,npoklassiek.nl,nporadio5.nl,funx.nl##[id^="adid"]:upward(2)
+bnnvara.nl##div[id^="ster-ad-bnnvara-"]:upward(1)
+maxvandaag.nl##main > .container:has(.sterWrapper)
 biernet.nl###banTop
 biernet.nl###BJA_LEADER1
 biernet.nl###BJA2
@@ -133,10 +136,6 @@ arenalokaal.nl,belnieuws.nl,dehavenloods.nl,hetkompassliedrecht.nl,hetkrantje-on
 arenalokaal.nl,belnieuws.nl,dehavenloods.nl,dekrantnieuws.nl,destreekkrant.nu,hetkrantje-online.nl,leiderdorpsweekblad.nl,nnp.nl,weespernieuws.nl,zuidenvelder.info##.component__pubble-banner:has([advobject])
 arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:has([advobject]):upward(.bg-gray-100)
 dekrantnieuws.nl,destreekkrant.nu##.component__pubble-banner:has([advobject]):upward(.builder__row:not(.grid))
-! 2023-12-26
-! https://github.com/uBlockOrigin/uAssets/issues/20659
-! https://github.com/EasyDutch-uBO/EasyDutch/issues/112
-bnnvara.nl,npo.nl,vpro.nl##.bitmovinplayer-poster
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
 apparata.nl##.widget:has(h2:has-text(/Partners/i))
@@ -537,8 +536,6 @@ loonwijzer.be##[class^="article__ad"]
 blikopzeewolde.nl##.fusion-flex-container.fullwidth-box.fusion-fullwidth:has(:not(a[href^="https://www.blikopzeewolde.nl/"]) > .fusion-column-inner-bg-image)
 ! 2022-12-30
 wordfeudwoorden.nl##.mobblue
-! 2022-12-13
-npo3fm.nl,nporadio4.nl##ul > li:has(script[src*="ster"]):has-text(/advert/i)
 ! 2022-12-10
 vi.nl##.c-tag:has-text(/advert/i):upward(.c-articles-list__link)
 ! 2022-12-09
@@ -564,8 +561,6 @@ autoscout24.be##.hf-top-ad
 autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
 autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
 voetbalindebollenstreek.nl##.partners
-! 2022-10-20
-bnnvara.nl##div[id^="ster-ad-bnnvara-"]:upward(1)
 ! 2022-10-19
 ensie.nl##.advertisement
 ensie.nl##.bottom-banner
@@ -661,7 +656,6 @@ simone.nl##section:has(div[class$="sponsors"])
 vakantieweb.be##.sponsor-sn
 sleutelstad.nl##.g
 solarmagazine.nl##[id]:has(.company-add)
-nporadio1.nl,nporadio2.nl##[id^="adid"]:upward(2)
 hollywoodhuizen.nl##rssapp-carousel
 historiek.net##.ablok
 h2owaternetwerk.nl##.bannergroup:upward(.module)
@@ -1245,4 +1239,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
