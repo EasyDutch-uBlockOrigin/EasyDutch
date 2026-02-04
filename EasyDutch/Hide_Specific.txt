@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
-ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu,mechanisatie.nl,pluimveerechten.nu,quotum.nu##div[style]:has(.adsbygoogle)
+ammoniakrechten.nl,efarm.nl,fosfaat.nu,koemarkt.nl,landbouwgrond.nu,mechanisatie.nl,pluimveerechten.nu,quotum.nu,varkensrechten.nu##div[style]:has(.adsbygoogle)
 gic.nl##[aria-label="Banner"]:upward(1)
 bierdopje.nl##aside [id^="custom_html"]:has(a[href])
 nljug.org###sidebar .widget:has(a[href^="https://devitjobs.nl/jobs/"])
@@ -1244,6 +1244,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
