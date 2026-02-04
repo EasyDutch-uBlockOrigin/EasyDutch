@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+autosport.nl##.active.first:style(margin-top: 0px !important;)
+autosport.nl##.advertentie_links
+autosport.nl##.bigbanner
+autosport.nl##.horizontal
 rivierenland-radio.nl##.aba
 motorblog.nl##.sale
 nporadio1.nl,nporadio2.nl,npo3fm.nl,npoklassiek.nl,nporadio5.nl,funx.nl##[id^="adid"]:upward(2)
@@ -143,7 +147,6 @@ agconnect.nl##[class$="_ad-slot"]
 apparata.nl##.widget:has(h2:has-text(/Partners/i))
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,peoplesphere.be,sciencelink.net,sneeuwhoogte.nl,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
-autosport.nl##.active.first:style(margin-top: 0px !important;)
 basketbal.vlaanderen##.footer-partners
 biflatie.nl##.elementor-image:has(img[src*="banner"])
 biflatie.nl##.elementor-widget-image:has(img[data-lazy-srcset*="banner"]):upward(section)
@@ -957,7 +960,6 @@ openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spelletje.nl##.adv
 folderz.nl,intermediair.nl,spel.nl,spelletjes.nl##.advert
 deoudrotterdammer.nl##.advertentie
-autosport.nl##.advertentie_links
 startlijstjes.nl##.advertentieblock
 goodbye.be,sporza.be##.advertising
 dagblad010.nl,voorburgsdagblad.nl##.advrow
@@ -988,7 +990,6 @@ speeleiland.nl##.banner-sky
 radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
-autosport.nl##.bigbanner
 guruwatch.nl##.Billboard
 iex.nl##.billboardwrap
 belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Billboard-wrapper
@@ -1234,5 +1235,6 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
