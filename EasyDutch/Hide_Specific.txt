@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-04
+noordernieuws.nl##div.banner_online
 autosport.nl##.active.first:style(margin-top: 0px !important;)
 autosport.nl##.advertentie_links
 autosport.nl##.bigbanner
@@ -449,8 +450,6 @@ nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
 ! 2023-04-27
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
 kicxstart.nl##.elementor-widget-container > a:not([href*="https://kicxstart.nl/"]) > img:upward(.elementor-widget-image)
-noordernieuws.nl##.g
-noordernieuws.nl##.sidebar-block:has-text(/Advert/i)
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 pu.nl##.ad-container
 sliedrecht24.nl##[id$="random_ads"]
@@ -1234,6 +1233,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
