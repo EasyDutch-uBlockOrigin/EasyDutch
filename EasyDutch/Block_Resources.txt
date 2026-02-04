@@ -34,7 +34,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
 /wp-content/plugins/age-gate*$domain=nieuwslog.nl
-||motorblog.nl/wp-content/uploads/banner$image
 ||radioluisteren.fm/ads/
 ||1twente.nl/Ads/$image,domain=twentefm.nl
 ! 2023-12-18
@@ -490,4 +489,5 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
