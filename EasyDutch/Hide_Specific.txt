@@ -88,6 +88,7 @@ demorgen.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.position-after-main-h
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
+livios.be##.block-leaderboard
 nu.nl##.banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
 tweakers.net##.top-banner
@@ -992,7 +993,6 @@ guruwatch.nl##.Billboard
 iex.nl##.billboardwrap
 belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Billboard-wrapper
 azerty.nl##.block.mod_article:has(.flexslider)
-livios.be##.block-leaderboard
 psv.nl##.block-sponsors-desktop
 psv.nl##.block-sponsors--psv
 scholieren.com##.blockvertorial
@@ -1232,5 +1232,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
