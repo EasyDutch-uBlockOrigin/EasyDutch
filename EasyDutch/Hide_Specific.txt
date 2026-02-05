@@ -69,7 +69,7 @@ carwashpro.nl,infrasite.nl,mobiliteit.nl,mobilityenergy.com,rijschoolpro.nl,spoo
 ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,tubantia.nl##.advertisement
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.tile:has(>.ankeiler--advertisement)
-ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.bempzc.nl,tubantia.nl##div.x-pack__tile:has(.dfp-space)
+ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##div.x-pack__tile:has(.dfp-space)
 autoweek.nl##.advertise
 autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
 autowereld.nl###banner-lister-top
