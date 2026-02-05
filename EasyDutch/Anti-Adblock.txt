@@ -5,7 +5,7 @@
 ! 2026-02-04
 mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
-routenet.nl.trafficnet.nl##+js(aopw, checkAdsBlocked)
+routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 ! 2026-02-02
 ||html-load.com/player/$script,domain=tipsenweetjes.nl,redirect=noopjs
 ! 2026-01-31
@@ -70,4 +70,3 @@ autoweek.nl##+js(set, isAdBlockActive, false)
 doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
-
