@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
 .nl/builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
 ! 2026-02-04
 ||motorrijder.be/wp-content/uploads/banners/
@@ -149,7 +150,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||culturescope.nl/wp-content/uploads/2016/11/FAIRY-*.png$image
 ! 2023-04-28
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
-||qmusic.medialaancdn.be/*/*/*banner*$image,domain=qmusic.nl
 ||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
 ||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
@@ -176,7 +176,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||oisterwijknieuws.nl/wp-content/uploads/*/steenwitgoed-270x324-*.jpg$image
 ||persberichten.com/Actueel_Images*/*.gif$image
 ||persinfo.org/assets/front/images/website/multimmo*.mp4
-||cdn-radio.dpgmedia.net/b/*_Banner_$image,domain=qmusic.be
 ||reliwiki.nl/img/banner$image
 ||rickfm.nl/cwm/fm/userfiles/banner/foto/thumb$image
 ||rickfm.nl/views/rickfm/images/*.gif$image
