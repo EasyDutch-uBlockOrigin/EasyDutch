@@ -1,7 +1,12 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Tue, 03 Feb 2026 14:49:03 +0000
+! Last updated: Thu, 05 Feb 2026 19:47:46 +0000
 !
+! 2026-02-04
+||viralize.tv^$3p
+||adswag.nl^$3p
+||banner-online.nl^$3p
+||rkn3.net^3p
 ! 2026-02-03
 ||bdt9.net^$3p
 ! 2026-02-02
@@ -58,9 +63,6 @@
 ||advertising-cdn.dpgmedia.cloud^$3p
 ! https://github.com/easylist/easylistdutch/commit/b04939fcc2b0a2564a46143939a15f95b3b30985
 ||widgets.skyscanner.net^$domain=puuropreis.nl
-! https://github.com/easylist/easylistdutch/commit/1dcc8ccbf4b1d5afeebdccbe224b332c99546b63
-! routenet.nl
-||botndm.nl^$3p
 ! 2021-07-28
 ||gratis-neuken.com^$3p
 ! 2021-06-29
@@ -77,7 +79,6 @@
 ! ||affiliatepartners.com^$3p
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
-||bva-auctions.com^$domain=telegraaf.nl
 ||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~instasex.nl
 ||cd.tnet.nl^$script,3p
 ||cleafs.nl^$3p
@@ -119,5 +120,4 @@
 ! ||views.affiliate4you.nl^$3p
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
-
 

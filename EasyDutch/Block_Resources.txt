@@ -1,28 +1,26 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 03 Feb 2026 14:49:03 +0000
+! Last updated: Thu, 05 Feb 2026 19:47:46 +0000
 !
+! 2026-02-05
+||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
+.nl/builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
+! 2026-02-04
+||motorrijder.be/wp-content/uploads/banners/
+||motorrijder.be/wp-content/uploads/*/*1300x150$image
+||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
+! https://github.com/AdguardTeam/AdguardFilters/issues/215616
+! https://github.com/uBlockOrigin/uAssets/issues/30053
+avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+||biernet.nl/site/plugins/bja_new/bja$script,1p
+||biernet.nl/images/extra-bja_camp-bnr/$image
+||gic.nl/assets/src/pages/index/index.page.ad*.js$script,1p
+||cdn.gic.nl/app/uploads/*.gif$image,domain=gic.nl
+||sliedrecht24.nl/wp-content/uploads/*/*banner$image
 ! 2026-02-03
 ||zozwanger.nl/wp-content/uploads/*banner$image
 ||theoutdoors.nl/wp-content/uploads/*/*banner*$domain=thehike.nl|theoutdoors.nl
 ||jobfish.nl/widget/$3p
-ditjesendatjes.nl##+js(rpnt, script, ',availableAds:[', ',availableAds:[],noAds:[', sedCount, 1)
-||2mdn.net/instream/html5/ima3.js$redirect=google-ima.js,domain=puna.bbvms.com,important
-! https://github.com/uBlockOrigin/uAssets/issues/29345
-alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
-! https://github.com/AdguardTeam/AdguardFilters/issues/215616
-! https://github.com/uBlockOrigin/uAssets/issues/30053
-avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
-! https://github.com/uBlockOrigin/uAssets/issues/30177
-! https://github.com/uBlockOrigin/uAssets/issues/31124
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=goplay.be|play.tv
-@@||pubads.g.doubleclick.net/ondemand/$xhr,domain=goplay.be|play.tv
-||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=noopjs,domain=goplay.be|play.tv
-||pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js$redirect=noopjs,domain=goplay.be|play.tv
-||dai.google.com/ondemand/dash/content/*/time-events.json$domain=goplay.be|play.tv
-||securepubads.g.doubleclick.net/*gpt$script,domain=play.tv
-||cdn.kaching.eu.com/latest/play/kaching.js$domain=play.tv
-||shared.mediahuis.be/ka-ching/goplay/ka-ching.umd.js
 ! 2026-02-02
 ||kieskeurig.nl/_astro/ad.$script
 ||static.promedia.nl/logos/$image,domain=carwashpro.nl|infrasite.nl|mobiliteit.nl|mobilityenergy.com|rijschoolpro.nl|spoorpro.nl|taxipro.nl
@@ -41,9 +39,7 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, 
 ! 2023-12-19
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
-||nieuwsgrazer.nl/images/ads/$domain=landbouwgrond.nu
 /wp-content/plugins/age-gate*$domain=nieuwslog.nl
-||motorblog.nl/wp-content/uploads/banner$image
 ||radioluisteren.fm/ads/
 ||1twente.nl/Ads/$image,domain=twentefm.nl
 ! 2023-12-18
@@ -84,7 +80,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,vpro.nl##+js(json-prune-fetch-response, 
 ! 2023-11-01
 ||feyenoord.nl/*/media/*partnerships/$image
 ||nnieuws.be/sites/default/files/images/ads/
-||noordernieuws.nl/wp-content/uploads/*/casino$image
 ||racingnews365.nl/*/json/unibet/bet-offers.json$xhr,1p
 ! 2023-10-31
 ||admin.ditjesendatjes.nl/wp-content/uploads/Vignet_Cover$image
@@ -155,14 +150,11 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||culturescope.nl/wp-content/uploads/2016/11/FAIRY-*.png$image
 ! 2023-04-28
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
-||qmusic.medialaancdn.be/*/*/*banner*$image,domain=qmusic.nl
 ||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
 ||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
 ||motokicx.com/wp-content/uploads/*/Motokicx*.gif$image
-||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||msa.paginabanner.nl/banners/$image
-||wp.com/noordernieuws.nl/wp-content/uploads/*/*.gif$image,domain=noordernieuws.nl
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ||zwartewaterfm.nl/wp-content/uploads/*/SponsorenZwarteWaterFM
 ! 2023-04-26
@@ -172,7 +164,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||basketbal.vlaanderen/files/tmp/logo*.png$image
 ||acties.nl/uploads/nl/ckeditor/*-af-*$image,domain=frontline.digital
 ||kortingsimages.kortingscop.nl/banners/$image,domain=frontline.digital
-||glutenvrij.nl/l/library/download/urn*ncv*?scaleType=1$image
 ||golf.be/files/BannerImage/$image,1p
 ||golf.be/images/*_950x90_CTA$image
 ||klasse.be/wp/wp-content/images/*_lb_*full.*$image
@@ -185,7 +176,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||oisterwijknieuws.nl/wp-content/uploads/*/steenwitgoed-270x324-*.jpg$image
 ||persberichten.com/Actueel_Images*/*.gif$image
 ||persinfo.org/assets/front/images/website/multimmo*.mp4
-||cdn-radio.dpgmedia.net/b/*_Banner_$image,domain=qmusic.be
 ||reliwiki.nl/img/banner$image
 ||rickfm.nl/cwm/fm/userfiles/banner/foto/thumb$image
 ||rickfm.nl/views/rickfm/images/*.gif$image
@@ -203,7 +193,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*week$image
 /images/banners/*$image,domain=bodemvondstenwereld.nl|drentsnieuws.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
 /wp-content/*banner$image,domain=retaildetail.be|retaildetail.nl
-/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|regionoordkop.nl|rtvlansingerland.nl|sliedrecht24.nl|unitednews.sr
+/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|regionoordkop.nl|rtvlansingerland.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|cryptobenelux.com|curacao.nu|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|katholiek.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|oogtv.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 /wp-content/uploads/*/Mijn-Zaak$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
@@ -252,16 +242,12 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||succesboeken.nl/api/public/images/branding/$image,domain=commonsensetv.nl
 ! 2022-06-30
 ||dagbladdewest.com/wp-content/uploads/*banner
-||nljug.org/wp-content/uploads/*/*_banner_$image
-||nljug.org/wp-content/uploads/*/300*250*Inline-Rectangle$image
-||nljug.org/wp-content/uploads/2020/04/300x200-1.jpg
 ||nieuwsfiets.nu/wp-content/uploads/2021/03/Hulphond*.jpg
 ||floranews.com/img/banner/Floranews
 ||gigantfm.nl/assets/images/autoonderdelen$image
 ||gigantfm.nl/assets/images/onderdelenshop$image
 ||menttv.be/wp-content/uploads/*/*-br.$image
 ||motokicx.com/wp-content/uploads/*RAD
-||noordernieuws.nl/wp-content/uploads/*/*.gif$image
 ||noordkopcentraal.nl/wp-content/uploads/*/Vrienden-van
 ! 2022-06-29
 ||racexpress.nl/img/sponsors/
@@ -334,9 +320,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
 ! 2022-01-14
-||biernet.nl/bja/$subdocument
-||biernet.nl/images/extra-bja_camp-bnr/$image
-||biernet.nl/site/widgets/huidig_aanbieding.php
 ||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
 ||digitaalburg.com/rn02/wp-content/uploads/*/uitwaard21.jpg
 ||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-
@@ -409,7 +392,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
 ||forum.spaarinformatie.nl/si-info.html
 ||fx.nl/_ext/widget/$3p
-||gic.nl/uploads/fckconnector/$image,1p
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukencoach-300x250.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
@@ -444,7 +426,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||motocrossplanet.nl/wwwuploads/banners/
 ||netonline.be/slices/banners/
 ||nevobo.nl^*/sponsor/
-||noordhollandsdagblad.nl/nhd/extra/assets/advertising/dfp-setup.js$script,1p
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||onderwijsland.com/files/partners/
 ||ontdek-amerika.nl/marketing/bartsbanner.gif

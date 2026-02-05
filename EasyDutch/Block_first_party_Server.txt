@@ -1,7 +1,9 @@
 ! Title: Block First-Party Server
 ! Description: Filters for blocking first-party servers on Dutch websites
-! Last updated: Tue, 03 Feb 2026 14:49:03 +0000
+! Last updated: Thu, 05 Feb 2026 19:47:46 +0000
 !
+! 2026-02-04
+||mooieplaatjes.bierdopje.nl^
 ! 2026-02-03
 ||adv.noordkop247.nl^
 ! 2022-10-12
@@ -23,5 +25,3 @@
 ||a2.tijd.be^
 ! https://github.com/Nomes77/AdBlockFilters/issues/16
 ||content2.nrc.nl^
-! 2021-04-27
-||mooieplaatjes.bierdopje.com^
