@@ -4,11 +4,8 @@
 !
 ! 2026-02-05
 bicycling.nl##aside[class^="ExternalSnippet_external-snippet"]
-bicycling.nl##.ad
+bicycling.nl,bright.nl##.ad
 bicycling.nl##.ad:upward([class^="NewsList_injection"])
-voetbalnieuws.nl###voetbalnieuws\.nl-nieuws-native:upward(aside)
-voetbalnieuws.nl##.ad
-voetbalnieuws.nl##.ad:upward([class^="NewsList_injection"])
 autoblog.nl##div[class^="ndm-min-"]
 autoblog.nl##.widget_ab_sidebar
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
@@ -284,8 +281,6 @@ nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
 nuus.be##.adv-link:upward(.sidebar)
 nuus.be###masthead:style(height:90px!important;)
 nzbindex.nl##form + div a[href^="/"]:has(img)
-bright.nl,voetbalprimeur.nl##[class^="Ad_"]
-bright.nl,voetbalprimeur.nl##.ad
 ! 2023-10-31
 beurs.nl##.addslot
 beurs.nl##.wrapper--topbanner
@@ -405,8 +400,6 @@ webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
 appletips.nl##.ph_appelhoes
 ! 2023-06-16
 insideflyer.nl##.adsbymanatee
-! 2023-06-09
-scientias.nl##.r89-desktop-takeover
 ! 2023-05-27
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 ! 2023-05-26
@@ -1238,4 +1231,5 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
