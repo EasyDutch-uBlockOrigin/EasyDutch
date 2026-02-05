@@ -226,12 +226,6 @@ omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type
 ! 2023-12-14
 9292.nl##[id^="div-gpt-ad-Homepage"]:upward(2)
 9292.nl##[id^="div-gpt-ad-JourneyAdvice"]:upward(2)
-geenstijl.nl##.pgAdWrapper
-geenstijl.nl##.article-premium-promotion-block
-geenstijl.nl##.sidebar-content > div:has-text(Kansino):has(+ .afctr-wrapper)
-geenstijl.nl##.slajeslag
-geenstijl.nl##[data-id$="leaderboard-billboard"]
-geenstijl.nl##a[data-ga-event^="link-tip"]
 ! 2023-12-13
 fr12.nl##div[class$="-atf"]
 fr12.nl##[class*="r89-desktop"][class*="-btf"]
@@ -1231,4 +1225,5 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
