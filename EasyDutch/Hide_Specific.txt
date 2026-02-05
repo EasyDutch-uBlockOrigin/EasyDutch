@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+rijnmond.nl##.groei-ad
 rd.nl##div.flex-col:has(> div > div.codalt-container)
 rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
