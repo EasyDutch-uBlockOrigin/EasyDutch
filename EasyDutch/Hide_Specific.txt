@@ -3,9 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
-bicycling.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl##aside[class^="ExternalSnippet_external-snippet"]
-bicycling.nl,bright.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl##.ad
-bicycling.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl##.ad:upward([class^="NewsList_injection"])
+bicycling.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##aside[class^="ExternalSnippet_external-snippet"]
+bicycling.nl,bright.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad
+bicycling.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
 autoblog.nl##div[class^="ndm-min-"]
 autoblog.nl##.widget_ab_sidebar
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
@@ -1231,6 +1231,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
