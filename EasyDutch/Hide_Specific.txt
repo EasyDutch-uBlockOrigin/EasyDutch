@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+rd.nl##div.flex-col:has(> div > div.codalt-container)
+rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
 buienradar.nl##.br-ad-slot
 babybytes.nl##.ad-container
@@ -1003,7 +1005,6 @@ ngf.nl##.c-footer-sponsors
 online-omzetten.nl##.clearfix.entry > small
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
 financialinvestigator.nl##.c-newsList__story--partnernews
-rd.nl##.codalt-container
 tvgids.tv##.col-left
 tvgids.tv##.col-right
 freesoccer.nl##.container-fluid.site-header
@@ -1047,7 +1048,6 @@ radiofm.nl##.hoofdAd2
 tcroomburg.nl##.hpitem:has(h3:has-text(Partner))
 weertdegekste.nl##.infeed-outer
 weertdegekste.nl##.infeed-wrap
-rd.nl##.infotainment:has(a[href^="/advert"])
 ninefornews.nl##.in-house
 dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
@@ -1099,7 +1099,6 @@ koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
-rd.nl##.rdnl__adds
 iexgeld.nl##.Rectangle
 iex.nl##.rectanglewrap
 belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Rectangle-wrapper
@@ -1223,4 +1222,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
