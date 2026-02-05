@@ -98,6 +98,7 @@ deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
 livios.be##.block-leaderboard
 nu.nl##.banner
+qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
 tweakers.net##.top-banner
 veronicasuperguide.nl##.apu5cz0
