@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+babybytes.nl##.ad-container
 scientias.nl##[class^="ndm"]:has(div[id^="scientias.nl_"])
 bicycling.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##aside[class^="ExternalSnippet_external-snippet"]
 bicycling.nl,bright.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad
@@ -1232,6 +1233,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
