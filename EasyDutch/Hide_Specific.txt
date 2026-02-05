@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+autoblog.nl##div[class^="ndm-min-"]
+autoblog.nl##.widget_ab_sidebar
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
 gpfans.com##.ads-columns
@@ -760,7 +762,6 @@ musicmeter.nl##.external
 ! 2022-05-23
 ewmagazine.nl##.widgets > .la-items:has(a[href$="/partners"])
 ewmagazine.nl##.section-partners
-autoblog.nl##.widget:has-text(Links)
 infinance.nl##.slickcarousel
 infinance.nl##.widget:has-text(links)
 omrekenen.org##.widget:has-text(/Gesponsoord/i)
@@ -1152,7 +1153,6 @@ baarsclassicrock.nl##.widebanner
 streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
-autoblog.nl##.widget_ab_sidebar
 amsterdamactueel.nl##.widget_alaya_ad
 mannenstyle.nl##.widget_execphp
 androidplanet.nl,iphoned.nl##.widget_offers
