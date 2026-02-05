@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-05
+gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
 gpfans.com##.ads-columns
 gpfans.com##.taboonews
@@ -351,8 +353,6 @@ sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl
 wibnet.nl##.default-banner-size
 ! 2023-08-23
 bnr.nl##div[class*="BNRAd_ad_"]
-! 2023-08-02
-gpblog.com##aside[class^="Ad_"]:style(position: absolute !important; left: -3000px !important;)
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 roulettefm.nl##.list-sponsors:upward(.content)
@@ -417,8 +417,6 @@ gamer.nl,id.nl##.adunitContainer:upward(.items-center)
 id.nl##.rounded-md:has(p[class^="call-to-action"]):not(:has-text(/Akkoord en door naar/i))
 ! 2023-05-09
 buienradar.be##[class^="AdSlot_AdContainer"]
-! 2023-05-05
-gpblog.com##.ad
 ! 2023-05-04
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
 leerlingen.com##.sponsors
@@ -1234,3 +1232,4 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
