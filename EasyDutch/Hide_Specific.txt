@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+buienradar.be,buienradar.nl###adholderContainerHeader
+buienradar.nl##.br-ad-slot
 babybytes.nl##.ad-container
 scientias.nl##[class^="ndm"]:has(div[id^="scientias.nl_"])
 scientias.nl##[id^="block-"]:has(div[id^="scientias.nl_"])
@@ -415,8 +417,6 @@ yachtfocus.com##.av
 ! 2023-05-25
 gamer.nl,id.nl##.adunitContainer:upward(.items-center)
 id.nl##.rounded-md:has(p[class^="call-to-action"]):not(:has-text(/Akkoord en door naar/i))
-! 2023-05-09
-buienradar.be##[class^="AdSlot_AdContainer"]
 ! 2023-05-04
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
 leerlingen.com##.sponsors
@@ -887,7 +887,6 @@ netonline.be##.tekstboldwit td:has-text(/advert/i)
 morningstar.*###ad_top_page
 kinderspelletjes.nl###adBoven
 filmtotaal.nl###adf-rectangle
-buienradar.be,buienradar.nl###adholderContainerHeader
 marokko.nl###ad-rec-btf
 kinderspelletjes.be###adRechts
 kinderspelletjes.nl###adRechts2
@@ -1135,7 +1134,6 @@ trucks.nl##.trucks_ros_leaderboard-billboard
 computable.be##.true-logo
 fok.nl##.trueTop
 buzzbie.nl##.TS_Banner_Spot
-buienradar.nl##.uitradar:has(img[src*=".nl/resources//images/promo/"])
 beursgorilla.nl##.ut--billboard
 beursgorilla.nl##.ut--rectangle
 intikkertje.nl##.vc_cta3-container
@@ -1225,5 +1223,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
