@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-05
+voetbalnieuws.nl###voetbalnieuws\.nl-nieuws-native:upward(aside)
+voetbalnieuws.nl##.ad
+voetbalnieuws.nl##.ad:upward([class^="NewsList_injection"])
 autoblog.nl##div[class^="ndm-min-"]
 autoblog.nl##.widget_ab_sidebar
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
@@ -793,7 +796,7 @@ sc-heerenveen.nl##.partnerlink
 totoknvbbeker.nl##.SponsorBlock
 trappers.nl##.sponsors
 ! 2022-04-29
-besteproduct.nl,voetbalnieuws.nl##.ad
+besteproduct.nl##.ad
 xgn.nl##.bs
 ! 2022-04-28
 thatsgaming.nl##[id^="menu-item"]:has-text(/gokken|casino/i)
