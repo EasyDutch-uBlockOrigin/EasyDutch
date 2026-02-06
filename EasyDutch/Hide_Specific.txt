@@ -3,7 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-06
-ajax1.nl,voetbalverslaafd.nl##[class*="r89-"]:upward(.raw-html-component)
+ajax1.nl,feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.bn__wrapper
+ajax1.nl,feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.breakingbar--betting
+voetbalverslaafd.nl##[class*="r89-"]:upward(.raw-html-component)
 lovereality.nl##div[class^="r89-"]
 lovereality.nl##div[class^="r89-"]:upward(section[data-settings])
 bingofm.nl,denhaagfm.nl,gld.nl,l1.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland.nl,oost.nl,rijnmond.nl,rtvdrenthe.nl,rtvnoord.nl,rtvutrecht.nl##.groei-ad
@@ -271,7 +273,6 @@ racingnews365.nl###betting-prefs
 gva.be##main > section.grid:has(.link-complex)
 gva.be##[id^="CBAWIDGET"]:has-text(partners):upward(1)
 schie.nu##h6:has-text(/advert/i):upward(1)
-feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.bn__wrapper
 knvb.nl,onsoranje.nl##.SponsorBar
 ticketing.knvb.nl###footer-sponsors-wrapper
 voetbal.nl##.Footer-sponsorList:upward(div.Footer-column)
@@ -1226,7 +1227,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
-
