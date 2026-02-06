@@ -2,8 +2,11 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-06
+bingofm.nl,denhaagfm.nl,gld.nl,l1.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland.nl,oost.nl,rijnmond.nl,rtvdrenthe.nl,rtvnoord.nl,rtvutrecht.nl##.groei-ad
+omroepbrabant.nl##div[class^="ad_"]
+omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
 ! 2026-02-05
-rijnmond.nl##.groei-ad
 rd.nl##div.flex-col:has(> div > div.codalt-container)
 rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
@@ -226,8 +229,6 @@ profielactueel.nl##div.cube.banners
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
 weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
-! 2023-12-16
-omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
 ! 2023-12-14
 9292.nl##[id^="div-gpt-ad-Homepage"]:upward(2)
 9292.nl##[id^="div-gpt-ad-JourneyAdvice"]:upward(2)
@@ -1201,7 +1202,7 @@ classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 mariogames.be##div.gameinfo:has-text(/sponsored links/i)
 meteovista.be##div[class*="AdWrapper"]
-omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
+reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
