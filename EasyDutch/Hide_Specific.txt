@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-06
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
 techgaming.nl##.code-block
 androidplanet.nl,iphoned.nl##.no-content-styles:has(.adblock-detect)
 androidplanet.nl,iphoned.nl##.widget_offers
@@ -241,9 +243,6 @@ profielactueel.nl##div.cube.banners
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
 weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
-! 2023-12-14
-9292.nl##[id^="div-gpt-ad-Homepage"]:upward(2)
-9292.nl##[id^="div-gpt-ad-JourneyAdvice"]:upward(2)
 ! 2023-12-13
 fr12.nl##div[class$="-atf"]
 fr12.nl##[class*="r89-desktop"][class*="-btf"]
