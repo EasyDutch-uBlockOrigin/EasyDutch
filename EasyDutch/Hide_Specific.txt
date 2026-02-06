@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-06
+techgaming.nl##.code-block
 androidplanet.nl,iphoned.nl##.no-content-styles:has(.adblock-detect)
 androidplanet.nl,iphoned.nl##.widget_offers
 androidplanet.nl,iphoned.nl##[data-name="dynamic-content"][data-nosnippet]
