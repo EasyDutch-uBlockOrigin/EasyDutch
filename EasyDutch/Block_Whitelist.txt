@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-06
-@@||tags.refinery89.com/*.js$script,domain=ajax1.nl|feanonline.nl|feyenoordpings.nl|fcgfans.nl|nacfans.nl|psvfans.nl|twentefans.nl|utrechtfans.nl|vitesseinside.nl|voetbalverslaafd.nl|vrouwenvoetbalnieuws.nl
+@@||tags.refinery89.com/*nl.js$script,domain=ajax1.nl|feanonline.nl|feyenoordpings.nl|fcgfans.nl|nacfans.nl|psvfans.nl|twentefans.nl|utrechtfans.nl|vitesseinside.nl|voetbalverslaafd.nl|vrouwenvoetbalnieuws.nl
 ! 2023-12-20
 @@||partner.bol.com/promotion/static/js/partnerProductlink$script,domain=grandprixradio.nl
 ! 2023-10-23
@@ -49,3 +49,4 @@
 ! 2021-04-27
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php
+
