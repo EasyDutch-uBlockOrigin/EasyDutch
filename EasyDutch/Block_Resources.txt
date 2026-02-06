@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-06
+||boodschappen.nl/wp-json/boodschappen/v1/banners/get_$xhr
 ||techgaming.nl/image_uploads/sponsored/
 ! 2026-02-05
 ||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
