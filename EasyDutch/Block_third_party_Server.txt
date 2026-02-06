@@ -32,9 +32,6 @@
 ||believe-the-hype.be^$3p
 ! 2022-04-08 frontpage.fok.nl
 ||nojazz.eu^$3p
-! 2022-02-15
-! startpagina.nl
-||optoutadvertising.com^$3p
 ! 2021-11-30
 ! goodbye.be
 ||travelads.be^$3p
@@ -120,4 +117,3 @@
 ! ||views.affiliate4you.nl^$3p
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
-
