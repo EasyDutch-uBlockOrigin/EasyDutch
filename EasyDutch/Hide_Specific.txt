@@ -272,7 +272,6 @@ gva.be##main > section.grid:has(.link-complex)
 gva.be##[id^="CBAWIDGET"]:has-text(partners):upward(1)
 schie.nu##h6:has-text(/advert/i):upward(1)
 feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.bn__wrapper
-feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.footer__partners-wrapper
 knvb.nl,onsoranje.nl##.SponsorBar
 ticketing.knvb.nl###footer-sponsors-wrapper
 voetbal.nl##.Footer-sponsorList:upward(div.Footer-column)
@@ -1227,6 +1226,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
