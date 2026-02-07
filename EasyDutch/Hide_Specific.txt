@@ -5,8 +5,8 @@
 ! 2026-02-07
 made-in.be##.b-block-partners
 made-in.be##.c-ad-space:upward(.col-item)
-gva.be,hbvl.be,standaard.be##div[id^="ad_"]
-gva.be,hbvl.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
+gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
+gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
 crypto-insiders.nl##.article-content > p > a.btn--highlighted.external-link
 crypto-insiders.nl##.affiliate-dropdown:not(#style_important)
 crypto-insiders.nl##.exp-banner-global
@@ -367,7 +367,6 @@ voetbalbelgie.be##div[class$="-atf"]
 ! 2023-10-13
 citaten.net##.adsense
 citaten.net##.googleinpage
-nieuwsblad.be##.ad--cba[data-ad="cba"]:upward(.widget):has-text(partners)
 ! 2023-10-10
 wegdamnieuws.nl##.fixed-ad
 ! 2023-09-23
@@ -1234,6 +1233,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
