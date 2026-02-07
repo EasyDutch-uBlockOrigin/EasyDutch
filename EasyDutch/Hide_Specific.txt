@@ -7,6 +7,7 @@ made-in.be##.b-block-partners
 made-in.be##.c-ad-space:upward(.col-item)
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
+gva.be,hbvl.be,nieuwsblad.be,standaard.be##section[data-theme-sponsored-content]
 crypto-insiders.nl##.article-content > p > a.btn--highlighted.external-link
 crypto-insiders.nl##.affiliate-dropdown:not(#style_important)
 crypto-insiders.nl##.exp-banner-global
@@ -1233,3 +1234,4 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
