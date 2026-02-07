@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+centraalplus.nl##div[class^="col"] > div.center:has(> div.g > div.g-single > center > i:contains(Advertentie))
 voetbalzone.nl##.fco-sponsored-text-link
 voetbalzone.nl##.fco-fc-video-player
 gptoday.net##[id^="gptoday_ros_"]
@@ -1229,5 +1230,6 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
