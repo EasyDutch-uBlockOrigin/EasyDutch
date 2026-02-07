@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+gp33.nl##div[id^="grandprix33_"]
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar
 moviemeter.nl##.small-leaderboard
