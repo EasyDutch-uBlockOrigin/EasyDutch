@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-07
+||service-api.nl/api/v2/ad?$domain=gp33.nl
+||gp33.nl/assets/common/ads-helper.js$domain=gp33.nl
 ! 2026-02-06
 ||boodschappen.nl/wp-json/boodschappen/v1/banners/get_$xhr
 ||techgaming.nl/image_uploads/sponsored/
