@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+crypto-insiders.nl##.article-content > p > a.btn--highlighted.external-link
+crypto-insiders.nl##.affiliate-dropdown:not(#style_important)
+crypto-insiders.nl##.exp-banner-global
+crypto-insiders.nl##.exp-google-ad
 vkmag.com##.sda
 dailybuzz.nl##[id^="r89-ad"]:upward(.bg-gray-100)
 dailybuzz.nl##[id^="ad-container"]
@@ -468,7 +472,6 @@ wegdamnieuws.nl##.ads-stack
 belgiancycling.be##.logo-slider
 cryptosjop.nl##iframe[src^="https://bitvavo.com/assets/static/widget/trade.html"]:upward(.td_block_wrap)
 ! 2023-04-28
-crypto-insiders.nl##article.ci-ad-card
 nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
 ! 2023-04-27
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
@@ -786,8 +789,6 @@ techradar.com##[class$="ad-unit"]
 ! 2022-05-12 https://github.com/easylist/easylistdutch/issues/51
 tijd.be##[class*="rowcontainer"]:has(div[class*="ad"]):has-text(/Gesponsorde inhoud/i)
 tijd.be##[class$="sponsored"]
-! 2022-05-11
-crypto-insiders.nl##div[class^="intercom-app"] > iframe[title*="banner"]
 ! 2022-05-09
 welklidwoord.nl###ad-takeover
 ! 2022-05-05
@@ -1234,9 +1235,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
-
-
-
