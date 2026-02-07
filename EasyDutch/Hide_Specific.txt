@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+marktnet.nl##app-banner:upward(.row:not(:has(.description)))
+marktnet.nl##.nav.nav-tabs > .nav-item:nth-of-type(2)
 nieuwspaal.nl###abovecontent-widget-area
 nieuwspaal.nl##[id^="NieuwspaalSide"]:upward([id^="custom_html-"])
 ! 2026-02-06
@@ -215,9 +217,6 @@ luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
 made-in.be##.c-ad-space:upward(.col-item)
-marktnet.nl##.tab4
-marktnet.nl##a[href^="https://www.marktnet.nl/bs/clickOut"]:upward([class^="tip"])
-marktnet.nl##li.linkUnit
 nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
 nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
 nieuwsmotor.nl##.add-background
@@ -1226,4 +1225,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
