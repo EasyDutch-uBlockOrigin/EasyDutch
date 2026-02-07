@@ -29,7 +29,7 @@ So I made this to provide you a better service!! <br>
 This list also handles anti-adblock, which isn't done by EasyList Dutch. See these comments for more information: <br>
 [easylist/easylistdutch#11 (comment)](https://github.com/easylist/easylistdutch/issues/11#issuecomment-818864565) and [easylist/easylistdutch#30 (comment)](https://github.com/easylist/easylistdutch/issues/30#issuecomment-1011180477).
 
-If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/new/choose) it to me or sent me an email to easydutch.adblock@gmail.com <br>
+If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/new/choose) it to me or sent me an email to easydutch@tech-web.aleeas.com <br>
 
 ## [Contributing](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/CONTRIBUTING.md)
 <details>
