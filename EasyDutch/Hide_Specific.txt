@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar
@@ -756,7 +757,7 @@ techradar.com###article-body > aside.hawk-nest:has([class^="hawk-affiliate"])
 ! 2022-06-21
 deoudrotterdammer.nl##[id^="deoud-"]
 ! 2022-06-16
-androidworld.nl,dartsnieuws.com,f1maximaal.nl,indeleiderstrui.nl##.sda
+androidworld.nl,dartsnieuws.com,indeleiderstrui.nl##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
 wkdarts.nl##.vcex-module:has-text(advert)
