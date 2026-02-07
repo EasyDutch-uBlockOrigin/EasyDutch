@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+oozo.nl##.adsbybinq
+oozo.nl##.hdrcontainer:has(.adsbybinq)
 marktnet.nl##app-banner:upward(.row:not(:has(.description)))
 marktnet.nl##.nav.nav-tabs > .nav-item:nth-of-type(2)
 nieuwspaal.nl###abovecontent-widget-area
@@ -342,7 +344,6 @@ moppen.nl##.banner
 ! 2023-10-16
 omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.nl"])):not(:has-text(/Informatie/i))
 omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
-oozo.nl##.hdrcontainer > .adsbybinq
 osurtv.nl##.wdslider:has-text(/Sponsor|partners/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
 riskcompliance.nl##a[onclick*="Banner"]:not(a[href*="riskcompliance.nl"]):upward(article)
