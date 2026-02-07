@@ -2,6 +2,8 @@
 ! Description: Filters for blocking only general third-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-07
+||publize.net^$3p
 ! 2026-02-04
 ||viralize.tv^$3p
 ||adswag.nl^$3p
