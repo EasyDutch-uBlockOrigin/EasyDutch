@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+standaard.be##div[id^="ad_"]
+standaard.be##div[id^="ad_"]:upward([class^="teaser"])
 crypto-insiders.nl##.article-content > p > a.btn--highlighted.external-link
 crypto-insiders.nl##.affiliate-dropdown:not(#style_important)
 crypto-insiders.nl##.exp-banner-global
@@ -953,12 +955,11 @@ starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
 tijd.be##.ac_paragraph:has(.bb_wrapper)
-beleggersbelangen.nl,bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,standaard.be,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+beleggersbelangen.nl,bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 bestereistijd.be##.ad + .card-divider
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
 tvgids24.nl##.adBoxbig
-standaard.be##.ad--button
 filmtotaal.nl##.ad-centering
 sozio.nl##.adchannel
 bruzz.be,omroepflevoland.nl,sportuitslagen.org,trendalert.nl##.ad-container
