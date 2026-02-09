@@ -109,8 +109,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||rushcommerce.com/banners*$3p
 omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmere.nl
 ||rtvideaal.nl/wp-content/uploads/*/banner$image
-! 2023-10-10
-||cdn.wegdamnieuws.nl/wp-content/uploads/*/*/Banner-*$image
 ! 2023-09-18
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ! 2023-09-08
