@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-07
+||viralize.tv/display/$domain=sgxl.nl
 ||service-api.nl/api/v2/ad?$domain=gp33.nl
 ||gp33.nl/assets/common/ads-helper.js$domain=gp33.nl
 ! 2026-02-06
