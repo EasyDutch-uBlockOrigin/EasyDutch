@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-09
+terdege.nl###fallback-:upward(div.flex-col)
 sporza.be##[class^="_adBanner_"]
 viraal.nl,wielrennenuptodate.nl##div.raw-html-component
 dagelijksestandaard.nl##div.raw-html-component:not(:has(.font-bold))
