@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-09
+bnr.nl##.ad
 ! 2026-02-07
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
@@ -395,8 +397,6 @@ security.nl##.banner_leaderboard
 sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
 ! 2023-08-29
 wibnet.nl##.default-banner-size
-! 2023-08-23
-bnr.nl##div[class*="BNRAd_ad_"]
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 roulettefm.nl##.list-sponsors:upward(.content)
@@ -1017,7 +1017,6 @@ scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
 nltube.com##.bottom-bns-block
-bnr.nl##.branded
 racingnews365.nl##.branded-countdown__content__partner-wrapper
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
