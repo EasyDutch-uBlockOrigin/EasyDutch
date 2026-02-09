@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-09
+newsbit.nl##.highlight-strip
+newsbit.nl##.acf-block-cta-conversion-rating
+newsbit.nl###h2-cta-alinea
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 nieuwdezeweek.nl##.mid-ad
 wordfeudhelp.nl##.hoog.text-center
@@ -1236,6 +1239,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
