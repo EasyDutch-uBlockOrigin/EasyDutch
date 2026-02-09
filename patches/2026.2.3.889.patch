@@ -1,10 +1,10 @@
-diff name:easydutch lines:305 checksum:0c1960b426
+diff name:easydutch lines:306 checksum:6b51690db4
 d2 1
 a2 1
-! Last updated: Mon, 09 Feb 2026 18:45:30 +0000
+! Last updated: Mon, 09 Feb 2026 19:56:29 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.9.1125.patch#easydutch
+! Diff-Path: patches/2026.2.9.1196.patch#easydutch
 a53 1
 ||mooieplaatjes.bierdopje.nl^
 d66 1
@@ -18,7 +18,8 @@ a69 5
 d82 1
 d92 1
 d106 1
-a146 15
+a146 16
+||viralize.tv/display/$domain=sgxl.nl
 ||service-api.nl/api/v2/ad?$domain=gp33.nl
 ||gp33.nl/assets/common/ads-helper.js$domain=gp33.nl
 ||boodschappen.nl/wp-json/boodschappen/v1/banners/get_$xhr

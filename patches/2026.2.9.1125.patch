@@ -1,4 +1,4 @@
-diff name:easydutch lines:10 checksum:6b51690db4
+diff name:easydutch lines:8 checksum:6b51690db4
 d2 1
 a2 1
 ! Last updated: Mon, 09 Feb 2026 19:56:29 +0000
@@ -7,5 +7,3 @@ a4 1
 ! Diff-Path: patches/2026.2.9.1196.patch#easydutch
 a147 1
 ||viralize.tv/display/$domain=sgxl.nl
-a593 1
-terdege.nl###fallback-:upward(div.flex-col)
