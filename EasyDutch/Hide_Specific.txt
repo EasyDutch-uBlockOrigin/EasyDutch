@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-09
+dagelijksestandaard.nl##div.raw-html-component:not(:has(.font-bold))
 skoften.net##div[class^="r89-"]:upward([class*="cls-placeholder-"])
 nieuws365.be,showblad.nl,voetbal14.nl,whiskymonkeys.com##div[class^="r89-"]:upward(.raw-html-component)
 fem-fem.nl##.sh-player-container
@@ -297,8 +298,6 @@ bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Recla
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Reclame) + div:has(.owl-item)
 eemland1.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has(.owl-item)
 ! 2023-11-24
-dagelijksestandaard.nl##div[id*="_ROS_"]:upward(.raw-html-component)
-dagelijksestandaard.nl##div[id*="-ros-"]:upward(.raw-html-component)
 doorbraak.be##a[href^="https://vnz.be"]:upward(div)
 ! 2023-11-20
 nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
@@ -1238,14 +1237,3 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
-
-
-
-
-
-
-
-
-
-
-
