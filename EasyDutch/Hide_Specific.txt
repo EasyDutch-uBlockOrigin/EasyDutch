@@ -4,8 +4,7 @@
 !
 ! 2026-02-09
 skoften.net##div[class^="r89-"]:upward([class*="cls-placeholder-"])
-showblad.nl##div[class^="r89-"]:upward(.raw-html-component)
-nieuws365.be##div[class^="r89-"]:upward(.raw-html-component)
+nieuws365.be,showblad.nl,voetbal14.nl##div[class^="r89-"]:upward(.raw-html-component)
 fem-fem.nl##.sh-player-container
 newsbit.nl##.highlight-strip
 newsbit.nl##.acf-block-cta-conversion-rating
@@ -1239,6 +1238,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
