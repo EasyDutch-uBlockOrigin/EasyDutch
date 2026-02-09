@@ -1,8 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 09 Feb 2026 18:40:13 +0000
+! Last updated: Mon, 09 Feb 2026 18:45:30 +0000
 !
 ! 2026-02-09
+terdege.nl###fallback-:upward(div.flex-col)
 sporza.be##[class^="_adBanner_"]
 viraal.nl,wielrennenuptodate.nl##div.raw-html-component
 dagelijksestandaard.nl##div.raw-html-component:not(:has(.font-bold))
