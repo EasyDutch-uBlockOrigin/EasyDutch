@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 09 Feb 2026 19:56:29 +0000
+! Last updated: Mon, 09 Feb 2026 20:09:55 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.9.1196.patch#easydutch
+! Diff-Path: patches/2026.2.9.1209.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -559,7 +559,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
 ! *** EasyDutch:EasyDutch/Block_Whitelist.txt ***
-@@||tags.refinery89.com/*nl.js$script
+@@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
 @@||partner.bol.com/promotion/static/js/partnerProductlink$script,domain=grandprixradio.nl
 @@||vandale.*/*/images/*_300x250.$image,1p
 @@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
