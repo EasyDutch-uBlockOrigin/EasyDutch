@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-09
+showblad.nl##div[class^="r89-"]:upward(.raw-html-component)
 nieuws365.be##div[class^="r89-"]:upward(.raw-html-component)
 fem-fem.nl##.sh-player-container
 newsbit.nl##.highlight-strip
@@ -1241,6 +1242,7 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
 
