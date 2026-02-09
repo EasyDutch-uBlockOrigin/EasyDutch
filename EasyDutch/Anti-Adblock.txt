@@ -1,7 +1,11 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Thu, 05 Feb 2026 19:47:46 +0000
+! Last updated: Mon, 09 Feb 2026 18:40:13 +0000
 !
+! 2026-02-06
+androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
+! @@/ads-frontend.min.js$script,domain=androidplanet.nl|iphoned.nl
+! androidplanet.nl,iphoned.nl##+js(trusted-create-html, body, <div id="advertisement__element" class="hidden">)
 ! 2026-02-04
 embed.kijk.nl##body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: initial !important;)
 mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)

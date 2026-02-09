@@ -1,7 +1,13 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Thu, 05 Feb 2026 19:47:46 +0000
+! Last updated: Mon, 09 Feb 2026 18:40:13 +0000
 !
+! 2026-02-07
+||service-api.nl/api/v2/ad?$domain=gp33.nl
+||gp33.nl/assets/common/ads-helper.js$domain=gp33.nl
+! 2026-02-06
+||boodschappen.nl/wp-json/boodschappen/v1/banners/get_$xhr
+||techgaming.nl/image_uploads/sponsored/
 ! 2026-02-05
 ||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
 .nl/builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
@@ -103,8 +109,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||rushcommerce.com/banners*$3p
 omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmere.nl
 ||rtvideaal.nl/wp-content/uploads/*/banner$image
-! 2023-10-10
-||cdn.wegdamnieuws.nl/wp-content/uploads/*/*/Banner-*$image
 ! 2023-09-18
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ! 2023-09-08
@@ -297,9 +301,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2022-04-22
 ||anoniem-surfen.nl/wp-content/uploads/*/aff3-*.png$image
 ||anoniem-surfen.nl/wp-content/uploads/*/Flavour-balls.gif$image
-! 2022-04-21
-||dagelijksestandaard.nl/wp-content/uploads/*/DDS-banner.$image
-||dagelijksestandaard.nl/wp-content/uploads/*/PROMO-DDS.$image
 ! 2022-04-14
 ||fonkmagazine.nl/adds/
 ! 2022-04-12
@@ -466,7 +467,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
 ||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
-||tijd.be/ad/
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
 ||tradeidee.nl/banners/
