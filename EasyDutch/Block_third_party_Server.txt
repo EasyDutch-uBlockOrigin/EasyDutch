@@ -6,7 +6,6 @@
 ||cdn.aa.onstuimig.nl^$3p
 ||publize.net^$3p
 ! 2026-02-04
-||viralize.tv^$3p
 ||adswag.nl^$3p
 ||banner-online.nl^$3p
 ||rkn3.net^3p
