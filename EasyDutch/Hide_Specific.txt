@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-09
+welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 nieuwdezeweek.nl##.mid-ad
 wordfeudhelp.nl##.hoog.text-center
 nd.nl##.component__pubble-banner
@@ -1109,7 +1110,6 @@ golf.be##.partners-holder
 appletips.nl##.ph_upgreatest
 denachtvlinders.nl##.plek-boven-artikel
 gratisaftehalen.nl##.plistaAllOuter
-welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 fhm500.nl##.powered_by_page
 fhm500.nl##.powered_by_profile
 koopplein.nl##.promobloc-desktop
@@ -1236,5 +1236,6 @@ wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 iex.nl##section:has-text(advertentie)
+
 
 
