@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-09
+sporza.be##[class^="_adBanner_"]
 viraal.nl,wielrennenuptodate.nl##div.raw-html-component
 dagelijksestandaard.nl##div.raw-html-component:not(:has(.font-bold))
 skoften.net##div[class^="r89-"]:upward([class*="cls-placeholder-"])
@@ -981,7 +982,7 @@ spelletje.nl##.adv
 folderz.nl,intermediair.nl,spel.nl,spelletjes.nl##.advert
 deoudrotterdammer.nl##.advertentie
 startlijstjes.nl##.advertentieblock
-goodbye.be,sporza.be##.advertising
+goodbye.be##.advertising
 dagblad010.nl,voorburgsdagblad.nl##.advrow
 notebookcheck.nl##.amaz_el
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
