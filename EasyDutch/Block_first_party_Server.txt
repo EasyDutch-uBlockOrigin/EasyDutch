@@ -21,7 +21,5 @@
 ||content2.zoom.nl^
 ! 2021-12-04
 ||a.scholieren.com^
-! 2021-11-04
-||a2.tijd.be^
 ! https://github.com/Nomes77/AdBlockFilters/issues/16
 ||content2.nrc.nl^
