@@ -21,7 +21,7 @@
 ||techgaming.nl/image_uploads/sponsored/
 ! 2026-02-05
 ||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
-.nl/builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
+/builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
 ! 2026-02-04
 ||motorrijder.be/wp-content/uploads/banners/
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
@@ -487,4 +487,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
-
