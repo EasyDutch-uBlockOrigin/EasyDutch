@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+onderwijsnieuwsdienst.nl###topAdvertisement
+onderwijsnieuwsdienst.nl###topAdvertisement + span:has-text(Advertentie)
+onderwijsnieuwsdienst.nl##.bottomSpace
+onderwijsnieuwsdienst.nl##.bottomSpace + span:has-text(Advertentie)
 boerderij.nl###top_desktop_wrapper
 boerderij.nl##[class^="max-ad_mid"]
 boerderij.nl###bottom_desktop:upward(1)
