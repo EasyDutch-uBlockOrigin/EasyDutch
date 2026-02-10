@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
+androidworld.be,androidworld.nl##.widget_offers
+androidworld.be,androidworld.nl##header[data-name="featured-header"]
+androidworld.be,androidworld.nl##[id^="androidworld"]:upward([data-nosnippet])
 clint.be##.ads
 clint.be##.sda
 ewmagazine.nl###rmg-mma-navigation
@@ -791,7 +795,7 @@ techradar.com###article-body > aside.hawk-nest:has([class^="hawk-affiliate"])
 ! 2022-06-21
 deoudrotterdammer.nl##[id^="deoud-"]
 ! 2022-06-16
-androidworld.nl,dartsnieuws.com##.sda
+dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
 wkdarts.nl##.vcex-module:has-text(advert)
@@ -993,7 +997,7 @@ bruzz.be,omroepflevoland.nl,sportuitslagen.org,trendalert.nl##.ad-container
 voetbalvandaag.be##.adds
 koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
-androidworld.nl,handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
+handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
 dissident.one##.adsbygoogle
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spelletje.nl##.adv
@@ -1249,6 +1253,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
-
