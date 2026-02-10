@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
 omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
 galaxyclub.nl##.bannercenter
@@ -383,9 +384,6 @@ dutchitleaders.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dut
 serietotaal.nl##div[id^="ad"]
 serietotaal.nl##.rect-in-headlines
 ! 2023-10-17
-cryptobenelux.com##.clickout-banner-regular_native_box
-cryptobenelux.com##a[href*="banner"] > img:upward(.elementor-widget-image)
-cryptobenelux.com##iframe[src*="Bitcoin_Kopen"]:upward(.elementor-widget[data-element_type="widget"])
 moppen.nl##.banner
 ! 2023-10-16
 omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.nl"])):not(:has-text(/Informatie/i))
