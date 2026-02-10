@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+techzine.nl##.chimney
 twenteinsite.nl,vechtsportinfo.nl##.sda
 androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
 androidworld.be,androidworld.nl##.widget_offers
@@ -965,7 +966,6 @@ nieuws.nl###footer-banner
 bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
-techzine.nl###lead
 eindexamens.nu###leaderboard
 greenkeeper.nl###lijst_logos
 schiedamsnieuws.nl###media_image-3
