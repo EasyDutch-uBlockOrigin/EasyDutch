@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+||testifier.nl/*digitaloceanspaces.com/*/images/*banner$image
 ||static.promedia.nl/logos/$image,domain=schuttevaer.nl
 ||schuttevaer.nl/partnersites/
 ||rallylovers.be/img/betalend/*.gif
