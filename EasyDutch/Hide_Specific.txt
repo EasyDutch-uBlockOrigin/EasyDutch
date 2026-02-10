@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+psvinside.nl##div.raw-html-component:not(:has(.font-bold))
 visionair.nl##aside.widget:not(:has([class]))
 schuttevaer.nl##.partners
 schuttevaer.nl##.widget_minisites
@@ -1265,4 +1266,5 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
