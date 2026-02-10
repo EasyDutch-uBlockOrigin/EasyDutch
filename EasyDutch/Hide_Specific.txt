@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+boerderij.nl###top_desktop_wrapper
+boerderij.nl##[class^="max-ad_mid"]
+boerderij.nl###bottom_desktop:upward(1)
 ibestuur.nl##.c-ad-slot:upward([class*="ad"])
 tostrams.nl##.publisher-sh-spot
 tostrams.nl##[class*="banner"]
@@ -1240,6 +1243,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
-
