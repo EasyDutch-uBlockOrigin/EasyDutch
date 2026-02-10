@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+schuttevaer.nl##.partners
+schuttevaer.nl##.widget_minisites
 rallylovers.be##.advertentierechts
 sneeuwhoogte.nl##[id^="div-gpt-ad"]:upward(div[style*="--min-height"])
 peoplesphere.be,sciencelink.net##.leaderboard
@@ -886,8 +888,6 @@ scheepvaartkrant.nl###block-leaderboard
 scheepvaartkrant.nl###block-topbannersidebar
 vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
 vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]:not(a[href*="mailto"])
-! 2022-03-31
-schuttevaer.nl##.widget_minisites
 ! 2022-03-26
 hardnieuws.nl##[id*="ros-300x600"]:upward(1)
 ! 2022-03-22
@@ -1264,4 +1264,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
