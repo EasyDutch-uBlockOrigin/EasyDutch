@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+||rallylovers.be/img/betalend/*.gif
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 ||fcutrecht.net/img/banners/$image
 ||omroepvenlo.b-cdn.net/*.gif$image,domain=omroepvenlo.nl
