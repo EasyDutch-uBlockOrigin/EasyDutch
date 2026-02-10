@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-10
+||omroepvenlo.b-cdn.net/*.gif$image,domain=omroepvenlo.nl
+||preroll.omroepvenlo.nl/*.xml?preprTrackingUserId=$xhr,1p
 ! 2026-02-07
 ||viralize.tv/display/$domain=sgxl.nl
 ||service-api.nl/api/v2/ad?$domain=gp33.nl
@@ -489,3 +492,4 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
