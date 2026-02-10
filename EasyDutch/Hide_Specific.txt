@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+upinthesky.nl##[id^="r89-"]
+upinthesky.nl##.a-wrap
 1908.nl##[class^="r89-"]
 ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
@@ -1269,5 +1271,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
