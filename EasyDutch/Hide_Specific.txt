@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+ewmagazine.nl###rmg-mma-navigation
+ewmagazine.nl###top_lb_bb
+ewmagazine.nl###top_rt
 onderwijsnieuwsdienst.nl###topAdvertisement
 onderwijsnieuwsdienst.nl###topAdvertisement + span:has-text(Advertentie)
 onderwijsnieuwsdienst.nl##.bottomSpace
@@ -812,8 +815,6 @@ wradio.be##.c-advertiser-logos
 feijenoordnieuws.nl##li:has(div[class$="left"]:has-text(/gokkasten|online casino|casino|sportwedden/i):not(:has(a[href^="https://feijenoordnieuws.nl/"])))
 musicmeter.nl##.external
 ! 2022-05-23
-ewmagazine.nl##.widgets > .la-items:has(a[href$="/partners"])
-ewmagazine.nl##.section-partners
 infinance.nl##.slickcarousel
 infinance.nl##.widget:has-text(links)
 omrekenen.org##.widget:has-text(/Gesponsoord/i)
@@ -1019,7 +1020,6 @@ elkspel.nl,fiets.nl,fietsactief.nl,knipmode.nl,seasons.nl,truckstar.nl,vorsten.n
 tvblik.nl##.banner-fluid
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
 prewarcar.nl##.banner-holder
-ewmagazine.nl##.banner-leaderboard
 weertdegekste.nl##.banner-right
 kbradio.nl##.banners
 speeleiland.nl##.banner-sky
@@ -1247,4 +1247,5 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
