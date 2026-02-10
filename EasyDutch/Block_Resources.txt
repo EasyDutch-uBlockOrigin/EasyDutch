@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+||static.promedia.nl/logos/$image,domain=schuttevaer.nl
+||schuttevaer.nl/partnersites/
 ||rallylovers.be/img/betalend/*.gif
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 ||fcutrecht.net/img/banners/$image
@@ -306,8 +308,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||farmaline.be/assets/banners/
 ! 2022-04-02
 ||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
-! 2022-03-31
-||schuttevaer.nl/partnersites/
 ! 2022-03-17 crimesite.nl
 ||strafrechtadvocaten.nl/media/banner/$3p
 ! 2022-03-11
