@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
-twenteinsite.nl##.sda
+twenteinsite.nl,vechtsportinfo.nl##.sda
 androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
 androidworld.be,androidworld.nl##.widget_offers
 androidworld.be,androidworld.nl##header[data-name="featured-header"]
@@ -1254,4 +1254,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
