@@ -289,8 +289,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||streekstadcentraal.nl/images/banners/$image
 ! 2022-06-21
 ||ouders.nl/uploads/alt/$domain=viafora.nl
-! 2022-06-17
-||dartfreakz.nl/wp-content/uploads/*/banner$image
 ! 2022-05-27
 ||mandelnieuws.be^*/Sponsors/
 ! 2022-05-05 
@@ -487,5 +485,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
-
-
