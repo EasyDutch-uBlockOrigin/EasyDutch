@@ -1,7 +1,9 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Mon, 09 Feb 2026 18:40:13 +0000
+! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
 !
+! 2026-02-10
+androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 ! 2026-02-06
 androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
 ! @@/ads-frontend.min.js$script,domain=androidplanet.nl|iphoned.nl

@@ -1,12 +1,125 @@
-diff name:easydutch lines:11 checksum:a18386ccd8
+diff name:easydutch lines:124 checksum:639c7a55eb
 d2 1
 a2 1
-! Last updated: Mon, 09 Feb 2026 20:09:55 +0000
+! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.9.1209.patch#easydutch
-a147 1
+! Diff-Path: patches/2026.2.10.1193.patch#easydutch
+d77 1
+a147 10
+||ajaxinside.nl/wp-content/uploads/*/*banner$image
+||testifier.nl/*digitaloceanspaces.com/*/images/*banner$image
+||static.promedia.nl/logos/$image,domain=schuttevaer.nl
+||schuttevaer.nl/partnersites/
+||rallylovers.be/img/betalend/*.gif
+.nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
+||fcutrecht.net/img/banners/$image
+||omroepvenlo.b-cdn.net/*.gif$image,domain=omroepvenlo.nl
+||preroll.omroepvenlo.nl/*.xml?preprTrackingUserId=$xhr,1p
 ||viralize.tv/display/$domain=sgxl.nl
+d153 1
+a153 1
+/builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
+d225 1
+a225 1
+||b-cdn.net/w_/*-banner-$image,domain=dtvnieuws.nl|omroephorstaandemaas.nl|omroepvenlo.nl|roulettefm.nl|rtvstichtsevecht.nl
+d233 1
+d307 1
+a307 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|katholiek.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+d321 2
+d367 1
+d377 1
+d387 1
+d437 1
+d476 1
 d561 1
 a561 1
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
+a593 57
+upinthesky.nl##[id^="r89-"]
+upinthesky.nl##.a-wrap
+1908.nl##[class^="r89-"]
+ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
+ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
+psvinside.nl##div.raw-html-component:not(:has(.font-bold))
+visionair.nl##aside.widget:not(:has([class]))
+schuttevaer.nl##.partners
+schuttevaer.nl##.widget_minisites
+rallylovers.be##.advertentierechts
+sneeuwhoogte.nl##[id^="div-gpt-ad"]:upward(div[style*="--min-height"])
+peoplesphere.be,sciencelink.net##.leaderboard
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be###ad-intro-text
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##[id^="r89-"][id$="-wrapper"]
+spellingoefenen.nl##[class^="r89-"]:upward(div[style])
+faillissementsdossier.nl##.adcontainer
+faillissementsdossier.nl##.adsbybinq
+faillissementsdossier.nl##.billboard
+fcutrecht.net###reclame
+techzine.nl##.chimney
+twenteinsite.nl,vechtsportinfo.nl##.sda
+androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
+androidworld.be,androidworld.nl##.widget_offers
+androidworld.be,androidworld.nl##header[data-name="featured-header"]
+androidworld.be,androidworld.nl##[id^="androidworld"]:upward([data-nosnippet])
+clint.be##.ads
+clint.be##.sda
+ewmagazine.nl###rmg-mma-navigation
+ewmagazine.nl###top_lb_bb
+ewmagazine.nl###top_rt
+onderwijsnieuwsdienst.nl###topAdvertisement
+onderwijsnieuwsdienst.nl###topAdvertisement + span:has-text(Advertentie)
+onderwijsnieuwsdienst.nl##.bottomSpace
+onderwijsnieuwsdienst.nl##.bottomSpace + span:has-text(Advertentie)
+boerderij.nl###top_desktop_wrapper
+boerderij.nl##[class^="max-ad_mid"]
+boerderij.nl###bottom_desktop:upward(1)
+ibestuur.nl##.c-ad-slot:upward([class*="ad"])
+tostrams.nl##.publisher-sh-spot
+tostrams.nl##[class*="banner"]
+tostrams.nl##[id*="banner"]
+drimble.nl##[id^="drimble.nl_web_"]
+gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
+monitor.iex.nl##.centerbanner
+monitor.iex.nl##.leaderboard-down
+monitor.iex.nl##.publisher-sh-spot
+cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
+bitcoinmagazine.nl##.sidebar-banner
+omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
+galaxyclub.nl##.bannercenter
+d817 2
+d830 1
+d917 2
+d933 1
+a933 1
+dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
+d940 3
+d1102 1
+d1127 3
+d1234 1
+d1258 1
+a1258 1
+dartsnieuws.com##.sda
+d1278 2
+d1321 1
+d1396 1
+d1429 1
+a1429 1
+handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
+d1458 1
+d1466 1
+d1487 1
+d1531 1
+d1551 1
+d1575 1
+d1684 1
+d1692 1
+a1718 1
+androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)

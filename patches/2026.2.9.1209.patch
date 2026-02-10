@@ -1,4 +1,4 @@
-diff name:easydutch lines:123 checksum:639c7a55eb
+diff name:easydutch lines:120 checksum:639c7a55eb
 d2 1
 a2 1
 ! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
@@ -32,9 +32,6 @@ d378 1
 d388 1
 d438 1
 d477 1
-d562 1
-a562 1
-@@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
 a594 57
 upinthesky.nl##[id^="r89-"]
 upinthesky.nl##.a-wrap

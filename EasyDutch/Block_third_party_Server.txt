@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Mon, 09 Feb 2026 18:40:13 +0000
+! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
 !
 ! 2026-02-07
 ||cdn.aa.onstuimig.nl^$3p
@@ -16,7 +16,6 @@
 ! 2023-10-17
 ! bitcoinmagazine.nl,cryptobenelux.com
 ||cryptosplash.care^$3p
-||cryptobeneluxbanner.care^$3p
 ! 2023-10-13
 ||7mb.nl^$3p
 ||pornokartel.nl^$3p
