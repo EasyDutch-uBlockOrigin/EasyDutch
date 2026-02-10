@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+||fcutrecht.net/img/banners/$image
 ||omroepvenlo.b-cdn.net/*.gif$image,domain=omroepvenlo.nl
 ||preroll.omroepvenlo.nl/*.xml?preprTrackingUserId=$xhr,1p
 ! 2026-02-07
