@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-10
+spellingoefenen.nl##[class^="r89-"]:upward(div[style])
 faillissementsdossier.nl##.adcontainer
 faillissementsdossier.nl##.adsbybinq
 faillissementsdossier.nl##.billboard
@@ -1258,3 +1259,4 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
