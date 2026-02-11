@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
-tvvisie.be##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/)
+tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/)
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)
@@ -1283,4 +1283,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
