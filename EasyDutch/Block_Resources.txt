@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+||tvvisie.be/textads/textads.js
 ||propertynl.com/media/organization/banners/
 ||cache.voetbalassist.nl/*/Rkvvo/*/Banner/*/Sponsors/$domain=rkvvo.nl
 ! 2026-02-10
