@@ -1,10 +1,10 @@
-diff name:easydutch lines:406 checksum:7577278fd2
+diff name:easydutch lines:472 checksum:4e2a180964
 d2 1
 a2 1
-! Last updated: Wed, 11 Feb 2026 06:20:32 +0000
+! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.11.380.patch#easydutch
+! Diff-Path: patches/2026.2.11.1203.patch#easydutch
 a53 1
 ||mooieplaatjes.bierdopje.nl^
 d66 1
@@ -19,7 +19,16 @@ d73 1
 d82 1
 d92 1
 d106 1
-a146 25
+a146 34
+||afbeeldingen.franekeractueel.nl/uploads/*banner*$image,1p
+||revive.nl/wp-content/uploads/*/*.gif
+||flexwebhosting.nl/banners/
+||24cars.nl/api/advertise-deliver/
+||strafrechtadvocaten.nl/media/crimesite/$domain=crimesite.nl
+||crimesite.nl/wp-content/uploads/*/*.gif
+||tvvisie.be/textads/textads.js
+||propertynl.com/media/organization/banners/
+||cache.voetbalassist.nl/*/Rkvvo/*/Banner/*/Sponsors/$domain=rkvvo.nl
 ||ajaxinside.nl/wp-content/uploads/*/*banner$image
 ||testifier.nl/*digitaloceanspaces.com/*/images/*banner$image
 ||static.promedia.nl/logos/$image,domain=schuttevaer.nl
@@ -55,6 +64,7 @@ a224 1
 d231 1
 d233 1
 d266 1
+d268 1
 d270 1
 d272 1
 d281 1
@@ -66,19 +76,62 @@ a312 2
 d326 2
 d345 3
 d354 1
+d359 1
 d376 1
 d386 1
 d393 2
-d398 1
+d398 2
 d405 3
-d451 1
+d450 2
 d479 1
 d491 1
 d514 1
 d555 1
 a577 1
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
-a609 186
+a603 1
+##a[href^="https://partnerprogramma.bol.com/click/"]
+a609 226
+loesoe.nl##[id^="r89-"]
+nieuwnieuws.nl##.uk-text-center[style^="min-height"]
+zelfmaak-ideetjes.nl##[id^="r89-"]
+zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
+meemetoranje.nl##.outstream-ad
+meemetoranje.nl##.pgAdWrapper
+meemetoranje.nl##.player-container-article
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
+waterkant.net##.td-all-devices
+voedingswaardetabel.nl##[class^="amgray"]
+voetbal24.be##.raw-html-component
+franekeractueel.nl##[data-widget_type="image.default"]:not(:has(a[href*="franekeractueel.nl"]))
+gaykrant.nl##.rstpl-card
+duurzaamnieuws.nl##aside section[class$="widget_text"]:has-text(wordt mede mogelijk gemaakt door)
+duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk gemaakt door)
+crimesite.nl##[class*="r89"]
+crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/)
+propertynl.com##.box_header:has-text(Advert)
+propertynl.com##.banner:upward(.row)
+isgeschiedenis.nl##.webads:upward(.no-title)
+hoekschnieuws.nl##body > center:has(img)
+hoekschnieuws.nl##.g
+hoekschnieuws.nl##.rbct > a > img
+hoekschnieuws.nl##.widget-heading:has-text(Advert)
+dagelijkseverhalen.nl##.ads
+loten.nl###advbottom
+guruwatch.nl##.Billboard
+guruwatch.nl##.LargeRectangle
+guruwatch.nl##[class^="publisher-sh-spot"]
+rkvvo.nl##.divFooterBanner
+rkvvo.nl##.divHeaderBanner
+112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl###ads
+112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
+112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl###bottom > h4:has-text(Ads)
+112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl##[class^="r89-"]
+waldnet.nl##.banner
+waldnet.nl##.adsbygoogle:upward(div[style])
+nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upward(.piep)
 upinthesky.nl##[id^="r89-"]
 upinthesky.nl##.a-wrap
 1908.nl##[class^="r89-"]
@@ -86,6 +139,7 @@ ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
 psvinside.nl##div.raw-html-component:not(:has(.font-bold))
 visionair.nl##aside.widget:not(:has([class]))
+schuttevaer.nl##.adv
 schuttevaer.nl##.partners
 schuttevaer.nl##.widget_minisites
 rallylovers.be##.advertentierechts
@@ -224,7 +278,6 @@ mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl##div[class^="r89-"]
 headliner.nl###flex_left:has(div[class^="r89-"])
-noordernieuws.nl##div.banner_online
 autosport.nl##.active.first:style(margin-top: 0px !important;)
 autosport.nl##.advertentie_links
 autosport.nl##.bigbanner
@@ -280,11 +333,13 @@ d693 1
 d699 2
 d705 1
 d708 3
-d722 1
+d718 1
+d722 2
 d730 1
 d734 5
 d766 9
 d780 4
+d790 5
 d802 2
 d805 2
 d821 2
@@ -299,12 +354,15 @@ d874 1
 d886 2
 d912 15
 d936 1
+d941 1
 d949 4
 d958 1
 d979 1
 d983 2
+d990 1
 d998 1
 d1011 10
+d1028 1
 d1045 1
 d1053 1
 d1058 2
@@ -322,6 +380,7 @@ d1206 1
 d1228 1
 a1228 1
 dartsnieuws.com##.sda
+d1234 1
 d1247 2
 d1250 3
 d1257 1
@@ -333,6 +392,7 @@ besteproduct.nl##.ad
 d1288 1
 d1300 4
 d1305 1
+d1315 3
 d1321 2
 d1330 1
 d1341 2
@@ -351,12 +411,15 @@ d1429 1
 d1431 1
 a1431 1
 goodbye.be##.advertising
+d1437 1
+d1442 1
+a1442 1
+afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1453 1
 d1455 1
 a1455 1
 kbradio.nl##.banners
-d1460 1
-d1462 1
+d1460 3
 d1465 1
 d1472 1
 d1477 2
@@ -366,6 +429,7 @@ d1492 1
 d1521 1
 d1528 1
 d1535 1
+d1537 1
 d1546 1
 d1552 1
 d1557 1
@@ -382,6 +446,7 @@ d1633 1
 d1650 1
 d1655 1
 d1658 1
+d1677 1
 d1690 1
 a1690 1
 reclamefolder.nl##div[class^="ad_"]
@@ -389,6 +454,7 @@ d1700 1
 d1703 1
 d1705 1
 d1712 1
+d1718 1
 d1739 8
 a1746 6
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)

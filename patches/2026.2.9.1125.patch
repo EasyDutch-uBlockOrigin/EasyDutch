@@ -1,12 +1,21 @@
-diff name:easydutch lines:126 checksum:7577278fd2
+diff name:easydutch lines:195 checksum:4e2a180964
 d2 1
 a2 1
-! Last updated: Wed, 11 Feb 2026 06:20:32 +0000
+! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.11.380.patch#easydutch
+! Diff-Path: patches/2026.2.11.1203.patch#easydutch
 d77 1
-a147 10
+a147 19
+||afbeeldingen.franekeractueel.nl/uploads/*banner*$image,1p
+||revive.nl/wp-content/uploads/*/*.gif
+||flexwebhosting.nl/banners/
+||24cars.nl/api/advertise-deliver/
+||strafrechtadvocaten.nl/media/crimesite/$domain=crimesite.nl
+||crimesite.nl/wp-content/uploads/*/*.gif
+||tvvisie.be/textads/textads.js
+||propertynl.com/media/organization/banners/
+||cache.voetbalassist.nl/*/Rkvvo/*/Banner/*/Sponsors/$domain=rkvvo.nl
 ||ajaxinside.nl/wp-content/uploads/*/*banner$image
 ||testifier.nl/*digitaloceanspaces.com/*/images/*banner$image
 ||static.promedia.nl/logos/$image,domain=schuttevaer.nl
@@ -24,19 +33,63 @@ d225 1
 a225 1
 ||b-cdn.net/w_/*-banner-$image,domain=dtvnieuws.nl|omroephorstaandemaas.nl|omroepvenlo.nl|roulettefm.nl|rtvstichtsevecht.nl
 d233 1
+d267 1
 d307 1
 a307 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|katholiek.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 d321 2
+d350 1
 d367 1
 d377 1
-d387 1
-d437 1
+d387 2
+d436 2
 d476 1
 d561 1
 a561 1
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
-a593 57
+a587 1
+##a[href^="https://partnerprogramma.bol.com/click/"]
+a593 98
+loesoe.nl##[id^="r89-"]
+nieuwnieuws.nl##.uk-text-center[style^="min-height"]
+zelfmaak-ideetjes.nl##[id^="r89-"]
+zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
+meemetoranje.nl##.outstream-ad
+meemetoranje.nl##.pgAdWrapper
+meemetoranje.nl##.player-container-article
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
+waterkant.net##.td-all-devices
+voedingswaardetabel.nl##[class^="amgray"]
+voetbal24.be##.raw-html-component
+franekeractueel.nl##[data-widget_type="image.default"]:not(:has(a[href*="franekeractueel.nl"]))
+gaykrant.nl##.rstpl-card
+duurzaamnieuws.nl##aside section[class$="widget_text"]:has-text(wordt mede mogelijk gemaakt door)
+duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk gemaakt door)
+crimesite.nl##[class*="r89"]
+crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/)
+propertynl.com##.box_header:has-text(Advert)
+propertynl.com##.banner:upward(.row)
+isgeschiedenis.nl##.webads:upward(.no-title)
+hoekschnieuws.nl##body > center:has(img)
+hoekschnieuws.nl##.g
+hoekschnieuws.nl##.rbct > a > img
+hoekschnieuws.nl##.widget-heading:has-text(Advert)
+dagelijkseverhalen.nl##.ads
+loten.nl###advbottom
+guruwatch.nl##.Billboard
+guruwatch.nl##.LargeRectangle
+guruwatch.nl##[class^="publisher-sh-spot"]
+rkvvo.nl##.divFooterBanner
+rkvvo.nl##.divHeaderBanner
+112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl###ads
+112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
+112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl###bottom > h4:has-text(Ads)
+112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl##[class^="r89-"]
+waldnet.nl##.banner
+waldnet.nl##.adsbygoogle:upward(div[style])
+nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upward(.piep)
 upinthesky.nl##[id^="r89-"]
 upinthesky.nl##.a-wrap
 1908.nl##[class^="r89-"]
@@ -44,6 +97,7 @@ ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
 psvinside.nl##div.raw-html-component:not(:has(.font-bold))
 visionair.nl##aside.widget:not(:has([class]))
+schuttevaer.nl##.adv
 schuttevaer.nl##.partners
 schuttevaer.nl##.widget_minisites
 rallylovers.be##.advertentierechts
@@ -94,34 +148,49 @@ cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
 omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
 galaxyclub.nl##.bannercenter
+d682 1
 a701 1
 telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
 d817 2
-d830 1
+d826 1
+d830 2
+d879 5
 d917 2
 d933 1
 a933 1
 dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
 d940 3
+d1003 1
+d1044 1
+d1071 1
 d1102 1
 d1127 3
 d1234 1
 d1258 1
 a1258 1
 dartsnieuws.com##.sda
+d1264 1
 d1278 2
 d1321 1
+d1332 3
 d1396 1
 d1429 1
 a1429 1
 handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
+d1442 1
+d1447 1
+a1447 1
+afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1458 1
-d1466 1
+d1465 2
 d1487 1
 d1531 1
+d1533 1
 d1551 1
 d1575 1
+d1659 1
 d1684 1
 d1692 1
+d1698 1
 a1718 1
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)

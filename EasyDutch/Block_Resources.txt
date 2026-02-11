@@ -1,7 +1,17 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
+! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
 !
+! 2026-02-11
+||afbeeldingen.franekeractueel.nl/uploads/*banner*$image,1p
+||revive.nl/wp-content/uploads/*/*.gif
+||flexwebhosting.nl/banners/
+||24cars.nl/api/advertise-deliver/
+||strafrechtadvocaten.nl/media/crimesite/$domain=crimesite.nl
+||crimesite.nl/wp-content/uploads/*/*.gif
+||tvvisie.be/textads/textads.js
+||propertynl.com/media/organization/banners/
+||cache.voetbalassist.nl/*/Rkvvo/*/Banner/*/Sponsors/$domain=rkvvo.nl
 ! 2026-02-10
 ||ajaxinside.nl/wp-content/uploads/*/*banner$image
 ||testifier.nl/*digitaloceanspaces.com/*/images/*banner$image
@@ -165,7 +175,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
 ||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
-||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
 ||motokicx.com/wp-content/uploads/*/Motokicx*.gif$image
 ||msa.paginabanner.nl/banners/$image
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
@@ -263,7 +272,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||racexpress.nl/img/sponsors/
 ||simone.nl/wp-content/uploads/*besteonderdelen.nl
 ||rss.app/api/widget/$domain=hollywoodhuizen.nl
-||hoekschnieuws.nl/wp-content/banners$image
 ||sponsorlink.nl/js/snippet.js$script,domain=handbalstartpunt.nl
 ||h2owaternetwerk.nl/images/banners/$image
 ||h2owaternetwerk.nl/images/*/*Banner$image
@@ -310,8 +318,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||farmaline.be/assets/banners/
 ! 2022-04-02
 ||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
-! 2022-03-17 crimesite.nl
-||strafrechtadvocaten.nl/media/banner/$3p
 ! 2022-03-11
 ||maarkelsnieuws.nl/banners/$image
 ! 2022-02-14
@@ -365,7 +371,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||computable.be/media/truelogo*$image,1p
 ||computable.nl/media/truelogo*$image,1p
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
-||crimesite.nl/inhoud/uploads/*/*.gif$image
 ||dagbladdewest.com/wp-content/uploads*/*728x90px*.jpg$image
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
 ||dagbladdewest.com/wp-content/uploads/*/*-AD*.jpg$image

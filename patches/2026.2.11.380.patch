@@ -1,4 +1,4 @@
-diff name:easydutch lines:84 checksum:4e2a180964
+diff name:easydutch lines:82 checksum:4e2a180964
 d2 1
 a2 1
 ! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
@@ -65,21 +65,19 @@ nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upwa
 a601 1
 schuttevaer.nl##.adv
 d740 1
-a759 1
-telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
-d882 1
-d886 1
-d934 5
-d1053 1
-d1094 1
-d1121 1
-d1309 1
-d1374 3
-d1483 1
-d1488 1
-a1488 1
+d883 1
+d887 1
+d935 5
+d1054 1
+d1095 1
+d1122 1
+d1310 1
+d1375 3
+d1484 1
+d1489 1
+a1489 1
 afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
-d1505 1
-d1570 1
-d1694 1
-d1731 1
+d1506 1
+d1571 1
+d1695 1
+d1732 1

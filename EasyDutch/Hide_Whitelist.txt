@@ -1,6 +1,6 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Tue, 03 Feb 2026 14:49:03 +0000
+! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
 !
 ! 2023-10-13
 gratisaftehalen.nl#@#.ads-image
@@ -10,9 +10,6 @@ rotterdam-nesselande.nl#@#ins.adsbygoogle
 gratis.nl#@#a[href^="https://ndt5.net/"]
 ! 2023-04-26
 wereldklokken.nl#@#ins.adsbygoogle
-! Uitzonderingen voor AdGuard
-! 2022-10-25 https://github.com/EasyDutch-uBO/EasyDutch/issues/29
-embed.kijk.nl#@#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
 ! Uitzonderingen voor EasyList
 ! 2026-02-03
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,lokerenrss.be,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
