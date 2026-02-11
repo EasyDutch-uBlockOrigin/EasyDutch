@@ -1,10 +1,10 @@
-diff name:easydutch lines:599 checksum:639c7a55eb
+diff name:easydutch lines:600 checksum:7577278fd2
 d2 1
 a2 1
-! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
+! Last updated: Wed, 11 Feb 2026 06:20:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.10.1193.patch#easydutch
+! Diff-Path: patches/2026.2.11.380.patch#easydutch
 d54 2
 a55 2
 ||mooieplaatjes.bierdopje.nl^
@@ -103,7 +103,7 @@ a565 1
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
 a591 1
 ##a[href^="https://partner.bol.com/click/"]
-a596 271
+a596 272
 upinthesky.nl##[id^="r89-"]
 upinthesky.nl##.a-wrap
 1908.nl##[class^="r89-"]
@@ -269,6 +269,7 @@ gic.nl##[aria-label="Banner"]:upward(1)
 bierdopje.nl##aside [id^="custom_html"]:has(a[href])
 nljug.org###sidebar .widget:has(a[href^="https://devitjobs.nl/jobs/"])
 nljug.org##[id^="custom_html-"]:has-text(Kennispartners):has(a[href] > img)
+telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
 balkstercourant.nl,denoordoostpolder.nl,dvhn.nl,flevopost.nl,frieschdagblad.nl,hoogeveenschecourant.nl,lc.nl,meppelercourant.nl,nieuweooststellingwerver.nl,denoordoostpolder.nl,steenwijkercourant.nl,stellingwerf.nl##[id^="ad_native"][aria-label="Advertentie"]:upward(li)
 gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limburger.nl,noordhollandsdagblad.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
 autovisie.nl,bedrock.nl,culy.nl,jmouders.nl,manners.nl,metronieuws.nl,nsmbl.nl,want.nl##.mha_container

@@ -1,10 +1,10 @@
-diff name:easydutch lines:251 checksum:639c7a55eb
+diff name:easydutch lines:253 checksum:7577278fd2
 d2 1
 a2 1
-! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
+! Last updated: Wed, 11 Feb 2026 06:20:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.10.1193.patch#easydutch
+! Diff-Path: patches/2026.2.11.380.patch#easydutch
 d67 1
 d70 1
 a70 2
@@ -177,6 +177,8 @@ omroepbrabant.nl##div[class^="ad_"]
 omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
 rd.nl##div.flex-col:has(> div > div.codalt-container)
 rd.nl##.ad
+a630 1
+telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
 d746 2
 d759 1
 d770 4

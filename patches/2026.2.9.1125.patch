@@ -1,10 +1,10 @@
-diff name:easydutch lines:124 checksum:639c7a55eb
+diff name:easydutch lines:126 checksum:7577278fd2
 d2 1
 a2 1
-! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
+! Last updated: Wed, 11 Feb 2026 06:20:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.10.1193.patch#easydutch
+! Diff-Path: patches/2026.2.11.380.patch#easydutch
 d77 1
 a147 10
 ||ajaxinside.nl/wp-content/uploads/*/*banner$image
@@ -94,6 +94,8 @@ cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
 omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
 galaxyclub.nl##.bannercenter
+a701 1
+telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
 d817 2
 d830 1
 d917 2
