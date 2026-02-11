@@ -4,7 +4,7 @@
 !
 ! 2026-02-11
 crimesite.nl##[class*="r89"]
-crimesite.nl##.lg\:justify-center:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
+crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
 weer.nl##[data-advert-placeholder-collapses]:upward(1)
 tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/)
 propertynl.com##.box_header:has-text(Advert)
@@ -1283,3 +1283,4 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
