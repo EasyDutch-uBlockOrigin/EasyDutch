@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+isgeschiedenis.nl##.webads:upward(.no-title)
 hoekschnieuws.nl##body > center:has(img)
 hoekschnieuws.nl##.g
 hoekschnieuws.nl##.rbct > a > img
@@ -1281,3 +1282,4 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
