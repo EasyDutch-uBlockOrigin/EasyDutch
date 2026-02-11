@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+meemetoranje.nl##.outstream-ad
+meemetoranje.nl##.pgAdWrapper
+meemetoranje.nl##.player-container-article
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 waterkant.net##.td-all-devices
 voedingswaardetabel.nl##[class^="amgray"]
