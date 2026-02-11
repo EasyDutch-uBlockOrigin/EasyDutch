@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+zelfmaak-ideetjes.nl##[id^="r89-"]
+zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 meemetoranje.nl##.outstream-ad
 meemetoranje.nl##.pgAdWrapper
 meemetoranje.nl##.player-container-article
