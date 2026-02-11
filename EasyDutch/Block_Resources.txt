@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+||24cars.nl/api/advertise-deliver/
 ||strafrechtadvocaten.nl/media/crimesite/$domain=crimesite.nl
 ||crimesite.nl/wp-content/uploads/*/*.gif
 ||tvvisie.be/textads/textads.js
