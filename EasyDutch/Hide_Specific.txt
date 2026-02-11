@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+loesoe.nl##[id^="r89-"]
 nieuwnieuws.nl##.uk-text-center[style^="min-height"]
 zelfmaak-ideetjes.nl##[id^="r89-"]
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
