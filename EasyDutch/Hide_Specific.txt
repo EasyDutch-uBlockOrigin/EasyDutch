@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+hoekschnieuws.nl##body > center:has(img)
+hoekschnieuws.nl##.g
+hoekschnieuws.nl##.rbct > a > img
+hoekschnieuws.nl##.widget-heading:has-text(Advert)
 dagelijkseverhalen.nl##.ads
 loten.nl###advbottom
 guruwatch.nl##.Billboard
@@ -378,11 +382,6 @@ goudengids.be##.banner-boxes-holder
 abcsuriname.com##.banner_wrapper
 dwtonline.com##[id^="div-gpt-ad"]:upward(.elementor-column):not(:has(article))
 fwd.nl##[class^="advertisement"]
-hoekschnieuws.nl##body > center:has(img)
-hoekschnieuws.nl##body > center:has(img) + br
-hoekschnieuws.nl##.widget-heading:has-text(Advert)
-hoekschnieuws.nl##.widget-heading:has-text(Advert) + .textwidget
-hoekschnieuws.nl##.g
 rubenweytjens.be##.block-ad-banner
 rubenweytjens.be##.lecture-wrapper
 rubenweytjens.be##.view-weather-ads-view
@@ -1282,5 +1281,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
