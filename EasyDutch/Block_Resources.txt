@@ -265,7 +265,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||racexpress.nl/img/sponsors/
 ||simone.nl/wp-content/uploads/*besteonderdelen.nl
 ||rss.app/api/widget/$domain=hollywoodhuizen.nl
-||hoekschnieuws.nl/wp-content/banners$image
 ||sponsorlink.nl/js/snippet.js$script,domain=handbalstartpunt.nl
 ||h2owaternetwerk.nl/images/banners/$image
 ||h2owaternetwerk.nl/images/*/*Banner$image
