@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-11
+||strafrechtadvocaten.nl/media/crimesite/$domain=crimesite.nl
+||crimesite.nl/wp-content/uploads/*/*.gif
 ||tvvisie.be/textads/textads.js
 ||propertynl.com/media/organization/banners/
 ||cache.voetbalassist.nl/*/Rkvvo/*/Banner/*/Sponsors/$domain=rkvvo.nl
@@ -169,7 +171,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
 ||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
-||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
 ||motokicx.com/wp-content/uploads/*/Motokicx*.gif$image
 ||msa.paginabanner.nl/banners/$image
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
@@ -313,8 +314,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||farmaline.be/assets/banners/
 ! 2022-04-02
 ||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
-! 2022-03-17 crimesite.nl
-||strafrechtadvocaten.nl/media/banner/$3p
 ! 2022-03-11
 ||maarkelsnieuws.nl/banners/$image
 ! 2022-02-14
@@ -368,7 +367,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||computable.be/media/truelogo*$image,1p
 ||computable.nl/media/truelogo*$image,1p
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
-||crimesite.nl/inhoud/uploads/*/*.gif$image
 ||dagbladdewest.com/wp-content/uploads*/*728x90px*.jpg$image
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
 ||dagbladdewest.com/wp-content/uploads/*/*-AD*.jpg$image
