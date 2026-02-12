@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
+! Last updated: Thu, 12 Feb 2026 06:21:06 +0000
 !
 ! 2026-02-11
 loesoe.nl##[id^="r89-"]
@@ -21,7 +21,7 @@ duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk
 crimesite.nl##[class*="r89"]
 crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
 weer.nl##[data-advert-placeholder-collapses]:upward(1)
-tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/)
+tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/])
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)

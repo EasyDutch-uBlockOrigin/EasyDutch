@@ -1,0 +1,10 @@
+diff name:easydutch lines:9 checksum:590960c845
+d2 1
+a2 1
+! Last updated: Thu, 12 Feb 2026 06:21:06 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.2.12.381.patch#easydutch
+d619 1
+a619 1
+tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/])
