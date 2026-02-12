@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
+beursgorilla.nl##.banner
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
 meetingmagazine.nl##.bannerLine
 jazznu.com###sp-advertisements-bottom
@@ -849,7 +850,6 @@ belegger.nl##.Textads:upward(.ContentRightBlock)
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
 beleggersbelangen.nl##.promo
 belegger.nl##.plusbtn
-beursgorilla.nl##.plus500
 autozine.nl##.ad300x1050
 aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsor
@@ -1233,8 +1233,6 @@ trucks.nl##.trucks_ros_leaderboard-billboard
 computable.be##.true-logo
 fok.nl##.trueTop
 buzzbie.nl##.TS_Banner_Spot
-beursgorilla.nl##.ut--billboard
-beursgorilla.nl##.ut--rectangle
 intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 mo.be##.view-id-banners_top
@@ -1316,14 +1314,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
-
-
-
-
-
-
-
-
-
