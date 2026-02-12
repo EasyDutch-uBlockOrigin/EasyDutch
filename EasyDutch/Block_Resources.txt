@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-12
+||gratisoptehalen.nl/images/fm.gif
 ! 2026-02-11
 ||afbeeldingen.franekeractueel.nl/uploads/*banner*$image,1p
 ||revive.nl/wp-content/uploads/*/*.gif
