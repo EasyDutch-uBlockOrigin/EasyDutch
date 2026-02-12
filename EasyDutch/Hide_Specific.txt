@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
+arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
+arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner
+arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:upward(.bg-gray-100)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##.component__pubble-banner:has-text(/Uit de krant|advert/)
 achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
@@ -1301,6 +1304,7 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
 
 
