@@ -4,6 +4,8 @@
 !
 ! 2026-02-12
 nuus.be##.beiaa-widget
+nuus.be##.advertentie
+nuus.be###masthead:style(height:90px!important;)
 vnci.nl##.banner
 vnci.nl##.header.header--article:style(top: 0 !important;)
 belegger.nl,beurs.nl,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com##.banner
