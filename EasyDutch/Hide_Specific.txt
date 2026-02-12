@@ -3,6 +3,16 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
+fiets.nl##.banner-container
+columbusmagazine.nl,deliciousmagazine.nl,fietsactief.nl,flowmagazine.nl,happinez.nl,knipmode.nl,landleven.nl,psychologie.nl,zin.nl##.rmn-advert
+beleggersbelangen.nl,columbusmagazine.nl,deliciousmagazine.nl,dezondag.be,ewmagazine.nl,feeling.be,fietsactief.nl,flair.be,flowmagazine.nl,happinez.nl,knack.be,knipmode.nl,kw.be,landleven.nl,libelle.be,psychologie.nl,seasons.nl,truckstar.nl,zin.nl###rmg-mma-navigation
+beleggersbelangen.nl,columbusmagazine.nl,dezondag.be,fietsactief.nl,feeling.be,flair.be,flowmagazine.nl,happinez.nl,knack.be,kw.be,landleven.nl,libelle.be,psychologie.nl,zin.nl##.js-partner-content
+ewmagazine.nl###top_lb_bb
+ewmagazine.nl###top_rt
+gezondheid.be###leaderboard
+gezondheid.be###leaderboard_floor
+gocar.be##.ads-container
+gocar.be##.pub-text:upward(2)
 wattedoen.be###banner
 wattedoen.be###imu_large
 wattedoen.be##.gpt_box
@@ -113,9 +123,6 @@ androidworld.be,androidworld.nl##header[data-name="featured-header"]
 androidworld.be,androidworld.nl##[id^="androidworld"]:upward([data-nosnippet])
 clint.be##.ads
 clint.be##.sda
-ewmagazine.nl###rmg-mma-navigation
-ewmagazine.nl###top_lb_bb
-ewmagazine.nl###top_rt
 onderwijsnieuwsdienst.nl###topAdvertisement
 onderwijsnieuwsdienst.nl###topAdvertisement + span:has-text(Advertentie)
 onderwijsnieuwsdienst.nl##.bottomSpace
@@ -576,9 +583,6 @@ calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
 dehavengids.nl##.g
-gocar.be##.container-leaderboard
-gocar.be##.pub-imu:upward(2)
-gocar.be##.pub-text:upward(2)
 motorboot.com##.logo
 nauticlink.com##.adv-link
 nauticlink.com##.elementor-section:has-text(partners)
@@ -669,9 +673,6 @@ reclamefolder.nl##[class*="folderRowAd"]
 redbot.frl##.slider.container:has(.twelvecol:has-text(partners))
 ! 2023-02-10 https://github.com/uBlockOrigin/uAssets/issues/9705
 modekoninginmaxima.nl##.adsbygoogle
-! 2023-02-10
-gezondheid.be###leaderboard
-gezondheid.be###leaderboard_floor
 ! 2023-02-09
 juf-milou.nl##.adverteerdersblok
 juf-milou.nl##.content_blok_reclame
@@ -851,7 +852,6 @@ radiovisie.eu##[id^="custom_html"]:has(.adsbygoogle)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
 broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
-beleggersbelangen.nl##.promo
 autozine.nl##.ad300x1050
 aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsor
@@ -860,8 +860,6 @@ aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
 a1mediagroep.nl##.reclame
 apintie.sr##div[style*="width:300px; height:200px;"]
-! 2022-06-23
-knack.be##.js-partner-content
 ! 2022-06-22
 binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
 investmentofficer.nl##.region-banner
@@ -973,8 +971,6 @@ maarkelsnieuws.nl##.banners-weekad
 maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
-! 2022-03-09
-gezondheidsnet.nl##.banner
 ! 2022-03-02
 jaap.nl##div[id^="property_ad_"]
 tvgids.nl##.square-item:has( > .banner)
@@ -1056,7 +1052,7 @@ eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gazetvandaag.be,giganieuws.n
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
-beleggersbelangen.nl,bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 bestereistijd.be##.ad + .card-divider
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
@@ -1091,7 +1087,6 @@ speeleiland.nl##.banner-btf-side-rectangle
 feyenoord.nl##.banner-carousel
 funnygames.be,funnygames.nl##.bannerContainer
 refoweb.nl##.bannercontainer
-elkspel.nl,fiets.nl,fietsactief.nl,knipmode.nl,seasons.nl,truckstar.nl,vorsten.nl,zin.nl##.banner-container
 tvblik.nl##.banner-fluid
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
 prewarcar.nl##.banner-holder
@@ -1313,4 +1308,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
