@@ -5,7 +5,7 @@
 ! 2026-02-12
 vnci.nl##.banner
 vnci.nl##.header.header--article:style(top: 0 !important;)
-belegger.nl,beurs.nl,beursgorilla.nl##.banner
+belegger.nl,beurs.nl,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com##.banner
 beurs.nl##.addslot
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
 meetingmagazine.nl##.bannerLine
@@ -847,10 +847,8 @@ palnws.be##.palnw-widget:has-text(Advert)
 radiovisie.eu##[id^="custom_html"]:has(.adsbygoogle)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
 broadcastmagazine.nl##.banner
-belegger.nl##.Textads:upward(.ContentRightBlock)
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
 beleggersbelangen.nl##.promo
-belegger.nl##.plusbtn
 autozine.nl##.ad300x1050
 aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsor
@@ -1100,7 +1098,6 @@ speeleiland.nl##.banner-sky
 radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
-belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Billboard-wrapper
 azerty.nl##.block.mod_article:has(.flexslider)
 psv.nl##.block-sponsors-desktop
 psv.nl##.block-sponsors--psv
@@ -1203,7 +1200,6 @@ synoniemen.net##.promoblok
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
-belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Rectangle-wrapper
 regionoordkop.nl##.regio-widget
 softonic.nl##.sam-slot
 scholieren.com##.searchvertorial
@@ -1223,7 +1219,6 @@ dissident.one##.td-adspot-title
 netonline.be##.tekstboldwit:has-text(ADVERT)
 nos.nl##.teletekst__banner
 netonline.be##.text_12_jobs_only
-beursonline.nl,debeurs.nl##.Textads
 fantv.nl##.tm-top-a
 fantv.nl##.tm-top-c
 startpagina.nl##.top-banner
@@ -1315,6 +1310,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
-
