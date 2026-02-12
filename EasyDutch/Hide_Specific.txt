@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
+dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner:upward(.builder__row:not(.grid))
+dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner
 arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
 arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner
 arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:upward(.bg-gray-100)
@@ -343,11 +345,6 @@ messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="m
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"]) + div[id^="block-"]
 ! 2024-01-16
 dvo.be##.advertisement
-! 2024-01-05
-arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
-arenalokaal.nl,dehavenloods.nl,dekrantnieuws.nl,destreekkrant.nu,hetkrantje-online.nl,leiderdorpsweekblad.nl,nnp.nl,zuidenvelder.info##.component__pubble-banner:has([advobject])
-arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:has([advobject]):upward(.bg-gray-100)
-dekrantnieuws.nl,destreekkrant.nu##.component__pubble-banner:has([advobject]):upward(.builder__row:not(.grid))
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
 apparata.nl##.widget:has(h2:has-text(/Partners/i))
@@ -1304,6 +1301,7 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
 
 
