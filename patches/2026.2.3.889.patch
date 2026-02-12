@@ -1,10 +1,10 @@
-diff name:easydutch lines:472 checksum:590960c845
+diff name:easydutch lines:472 checksum:60454d1c9c
 d2 1
 a2 1
-! Last updated: Thu, 12 Feb 2026 06:21:06 +0000
+! Last updated: Thu, 12 Feb 2026 07:30:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.12.381.patch#easydutch
+! Diff-Path: patches/2026.2.12.450.patch#easydutch
 a53 1
 ||mooieplaatjes.bierdopje.nl^
 d66 1
@@ -110,7 +110,7 @@ duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk
 crimesite.nl##[class*="r89"]
 crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
 weer.nl##[data-advert-placeholder-collapses]:upward(1)
-tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/])
+tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.com/click/"])
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)

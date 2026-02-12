@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Thu, 12 Feb 2026 06:21:06 +0000
+! Last updated: Thu, 12 Feb 2026 07:30:27 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.12.381.patch#easydutch
+! Diff-Path: patches/2026.2.12.450.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -616,7 +616,7 @@ duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk
 crimesite.nl##[class*="r89"]
 crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
 weer.nl##[data-advert-placeholder-collapses]:upward(1)
-tvvisie.be,tvvisie.nl##.side > .shop:has(##a[href^="https://partnerprogramma.bol.com/click/])
+tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.com/click/"])
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)
