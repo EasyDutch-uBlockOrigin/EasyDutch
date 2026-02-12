@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
+||cms.mvmm.nl/dynimage/rdimg/$image,domain=meetingmagazine.nl
 ||aalsmeervandaag.nl/wp-content/uploads/*/adv$image
 ||static.wixstatic.com/media/*~mv2.*/v*/fill/w_*/*banner$image,domain=nbs-bouwmaterialen.nl
 ||gratisoptehalen.nl/images/fm.gif
