@@ -734,7 +734,6 @@ nl.motorsport.com##.ms-side-items--with-banner
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 vakantieweb.be##.partners-immo
 hvzeeland.nl##.advertisement
-arenalokaal.nl##.content-start > .w-full:has-text(Externe)
 ! 2022-07-01
 forum.scholieren.com##div[data-advert-placeholder-size]
 basketballbelgium.be##.sidebar-inner aside:has(.carousel.slide)
@@ -1129,7 +1128,6 @@ srherald.com##.gsrhera
 golf.be##.header__bottom
 ajax.nl##.header__partner-link
 eredivisie.nl##.header__top__partners
-arenalokaal.nl,sexverhalen.com##.header_banner
 koopplein.nl,televizier.nl,tvblik.nl##.header-banner
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 weerplaza.nl##.hf-widget
@@ -1301,4 +1299,5 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
