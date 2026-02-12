@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
+vnci.nl##.banner
+vnci.nl##.header.header--article:style(top: 0 !important;)
 beursgorilla.nl##.banner
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
 meetingmagazine.nl##.bannerLine
@@ -1314,3 +1316,4 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
