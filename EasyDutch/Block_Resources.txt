@@ -3,7 +3,6 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-12
-||pubblestorage.blob.core.windows.net$image,domain=achterhoeknieuwswinterswijk.nl
 ||static.wixstatic.com/media/*~mv2.*/v*/fill/w_*/*banner$image,domain=nbs-bouwmaterialen.nl
 ||gratisoptehalen.nl/images/fm.gif
 ! 2026-02-11
