@@ -339,7 +339,7 @@ messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="m
 ! 2024-01-16
 dvo.be##.advertisement
 ! 2024-01-05
-arenalokaal.nl,belnieuws.nl,dehavenloods.nl,hetkompassliedrecht.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
+arenalokaal.nl,belnieuws.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
 arenalokaal.nl,belnieuws.nl,dehavenloods.nl,dekrantnieuws.nl,destreekkrant.nu,hetkrantje-online.nl,leiderdorpsweekblad.nl,nnp.nl,weespernieuws.nl,zuidenvelder.info##.component__pubble-banner:has([advobject])
 arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:has([advobject]):upward(.bg-gray-100)
 dekrantnieuws.nl,destreekkrant.nu##.component__pubble-banner:has([advobject]):upward(.builder__row:not(.grid))
@@ -1301,3 +1301,4 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
