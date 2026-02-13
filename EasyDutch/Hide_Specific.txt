@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+a1mediagroep.nl##.ad
 vmlnieuws.nl,weertfm.nl##aside [id^="custom_html-"]:has-text(Advert)
 sol2.nl##.et_pb_text_inner:has-text(/sponsor/i):upward(.et_pb_module)
 sol2.nl##.et_pb_text_inner:has-text(/sponsor/i):upward(.et_pb_module) + .et_pb_module
@@ -912,7 +913,6 @@ aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsorlinks
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
-a1mediagroep.nl##.reclame
 apintie.sr##div[style*="width:300px; height:200px;"]
 ! 2022-06-22
 binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
@@ -1358,3 +1358,4 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
