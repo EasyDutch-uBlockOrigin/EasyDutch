@@ -1,15 +1,16 @@
-diff name:easydutch lines:231 checksum:b000a14488
+diff name:easydutch lines:245 checksum:8a862cf008
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
+! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1215.patch#easydutch
+! Diff-Path: patches/2026.2.13.1229.patch#easydutch
 d57 9
 d98 2
 d101 1
 d108 1
-a146 17
+a146 18
+||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
 ||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
@@ -48,7 +49,15 @@ d568 1
 d574 1
 d578 1
 d584 2
-a600 88
+a600 96
+ninefornews.nl##.gofollow
+ninefornews.nl##.gofollow:upward([id^="custom_html-"])
+ninefornews.nl##.ina
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+ninefornews.nl###top-box:upward([id^="custom_html-"])
+ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
@@ -179,6 +188,7 @@ a865 1
 a871 1
 ! End Pijper Media
 d916 4
+d991 5
 d998 2
 d1001 2
 d1093 3
@@ -205,11 +215,15 @@ d1537 1
 d1555 1
 d1567 1
 d1583 1
+d1594 1
+d1618 1
 d1641 1
+d1655 1
 d1661 1
 d1672 2
 d1705 1
 d1709 1
+d1711 1
 d1819 2
 a1820 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl

@@ -1,15 +1,16 @@
-diff name:easydutch lines:302 checksum:b000a14488
+diff name:easydutch lines:316 checksum:8a862cf008
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
+! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1215.patch#easydutch
+! Diff-Path: patches/2026.2.13.1229.patch#easydutch
 d57 9
 d98 2
 d101 1
 d108 1
-a146 26
+a146 27
+||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
 ||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
@@ -63,7 +64,15 @@ d573 1
 d579 2
 a588 1
 ##a[href^="https://partnerprogramma.bol.com/click/"]
-a594 129
+a594 137
+ninefornews.nl##.gofollow
+ninefornews.nl##.gofollow:upward([id^="custom_html-"])
+ninefornews.nl##.ina
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+ninefornews.nl###top-box:upward([id^="custom_html-"])
+ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
@@ -240,6 +249,7 @@ d869 4
 d882 1
 d886 1
 d934 5
+d951 5
 d958 2
 d961 2
 d1053 4
@@ -273,12 +283,16 @@ d1505 2
 d1524 1
 d1536 1
 d1552 1
+d1563 1
 d1570 1
+d1588 1
 d1611 1
+d1625 1
 d1631 1
 d1642 2
 d1675 1
 d1679 1
+d1681 1
 d1694 1
 d1731 1
 d1791 2

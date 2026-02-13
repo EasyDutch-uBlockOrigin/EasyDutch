@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
+! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.13.1215.patch#easydutch
+! Diff-Path: patches/2026.2.13.1229.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
 ||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
@@ -574,6 +575,14 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+ninefornews.nl##.gofollow
+ninefornews.nl##.gofollow:upward([id^="custom_html-"])
+ninefornews.nl##.ina
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+ninefornews.nl###top-box:upward([id^="custom_html-"])
+ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
@@ -1063,11 +1072,6 @@ knvb.nl,onsoranje.nl##.SponsorBar
 ticketing.knvb.nl###footer-sponsors-wrapper
 voetbal.nl##.Footer-sponsorList:upward(div.Footer-column)
 vrouweneredivisie.nl###sponsors
-ninefornews.nl##.gofollow
-ninefornews.nl##.mag-box.half-box
-ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
-ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
-ninefornews.nl##div[class^="mag-box"] + #adskeeper
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
 nzbindex.nl##form + div a[href^="/"]:has(img)
@@ -1638,7 +1642,6 @@ radiofm.nl##.hoofdAd2
 tcroomburg.nl##.hpitem:has(h3:has-text(Partner))
 weertdegekste.nl##.infeed-outer
 weertdegekste.nl##.infeed-wrap
-ninefornews.nl##.in-house
 dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
 funnygames.nl,funnygames.be,spele.be,spele.nl##.is-billboard
@@ -1662,7 +1665,6 @@ mijn-tv-gids.be##.midzone
 scholieren.com##.min-h-90
 financialinvestigator.nl##.mpu
 nl.motorsport.com##.ms-hapb
-ninefornews.nl##.nfn-target[data-advadsredirect]
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 dekattensite.nl##.nxs-default-p > p:has-text(advert)
 inmemoriam.be##.o-news__add
@@ -1698,7 +1700,6 @@ omroephouten.nl##.sponsor-carousel
 volleybelgium.be##.sponsors
 detelefoongids.nl##.static-map
 nos.nl##.ster-banner
-ninefornews.nl##.sticky-element-placeholder
 glutenvrij.nl##.t-banner
 dissident.one##.td-adspot-title
 netonline.be##.tekstboldwit:has-text(ADVERT)
@@ -1749,7 +1750,6 @@ geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-typ
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
-ninefornews.nl##[id^="text-"]:has(.nfn-target[data-advadsredirect])
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(ADVERTEERDERS))
 tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))

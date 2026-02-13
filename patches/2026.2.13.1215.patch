@@ -1,4 +1,4 @@
-diff name:easydutch lines:23 checksum:8a862cf008
+diff name:easydutch lines:22 checksum:8a862cf008
 d2 1
 a2 1
 ! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
@@ -7,7 +7,7 @@ a4 1
 ! Diff-Path: patches/2026.2.13.1229.patch#easydutch
 a133 1
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
-a576 9
+a576 8
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
 ninefornews.nl##.ina
@@ -16,9 +16,8 @@ ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
 ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
 ninefornews.nl###top-box:upward([id^="custom_html-"])
 ninefornews.nl##div[class^="mag-box"] + #adskeeper
-vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
-d1065 5
-d1640 1
-d1664 1
-d1700 1
-d1751 1
+d1066 5
+d1641 1
+d1665 1
+d1701 1
+d1752 1

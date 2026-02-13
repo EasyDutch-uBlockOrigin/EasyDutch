@@ -1,14 +1,16 @@
-diff name:easydutch lines:48 checksum:b000a14488
+diff name:easydutch lines:63 checksum:8a862cf008
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
+! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1215.patch#easydutch
+! Diff-Path: patches/2026.2.13.1229.patch#easydutch
 d57 9
 d98 2
 d101 1
 d108 1
+a146 1
+||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d218 1
 d414 1
 d439 2
@@ -19,8 +21,17 @@ d563 1
 d576 1
 d580 1
 d586 2
-a602 1
+a602 9
+ninefornews.nl##.gofollow
+ninefornews.nl##.gofollow:upward([id^="custom_html-"])
+ninefornews.nl##.ina
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+ninefornews.nl###top-box:upward([id^="custom_html-"])
+ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
+d1091 5
 d1228 1
 d1359 1
 d1501 1
@@ -29,6 +40,10 @@ a1569 1
 formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 d1633 1
 d1645 1
+d1671 1
+d1695 1
+d1731 1
+d1782 1
 d1890 2
 a1891 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
