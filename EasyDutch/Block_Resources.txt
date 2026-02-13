@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+||reformatorischeomroep.nl/*/*banner$image
+||reformatorischeomroep.nl/*/*.gif$image
 ||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
 ||papendrecht24.nl/wp-content/uploads/*/*banner$image
 ||papendrecht24.nl/wp-content/uploads/*/*.gif$image
@@ -95,10 +97,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||doorbraak.be/wp-json/api/*/ads$xhr
 ||grootnieuwsradio.nl/advertisements$xhr
 ||grootnieuwsradio.nl/cache/*/advertisements/$image
-! 2023-11-21
-||reformatorischeomroep.nl/*/*banner$image
-||reformatorischeomroep.nl/*Reformatorische-omroep.gif$image
-||reformatorischeomroep.nl/*/*-RO-*.gif$image
 ! 2023-11-08
 ||rubenweytjens.be/sites/default/*/ads_$image
 ! 2023-11-07 https://github.com/EasyDutch-uBO/EasyDutch/issues/93
