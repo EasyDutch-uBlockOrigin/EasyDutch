@@ -1,10 +1,195 @@
-diff name:easydutch lines:9 checksum:60454d1c9c
+diff name:easydutch lines:194 checksum:5ad262245c
 d2 1
 a2 1
-! Last updated: Thu, 12 Feb 2026 07:30:27 +0000
+! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.12.450.patch#easydutch
+! Diff-Path: patches/2026.2.13.1152.patch#easydutch
+a146 17
+||reformatorischeomroep.nl/*/*banner$image
+||reformatorischeomroep.nl/*/*.gif$image
+||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
+||papendrecht24.nl/wp-content/uploads/*/*banner$image
+||papendrecht24.nl/wp-content/uploads/*/*.gif$image
+||omroepstroom.nl/wp-content/uploads/*/*banner$image
+||ditistwee.nl/images/*bannner
+||rtvmiddenholland.nl/wp-content/uploads/*/*banner$image
+||rtvmiddenholland.nl/wp-content/uploads/*/*.gif$image
+||b-cdn.net/*.gif$image,domain=wos.nl
+||omroep-pim.nl/cwm/fm/userfiles/banner/$image
+||radios.nl/wp-json/rs-ads/
+||radios.nl/wp-content/uploads/*/banner
+||cms.mvmm.nl/dynimage/rdimg/$image,domain=meetingmagazine.nl
+||aalsmeervandaag.nl/wp-content/uploads/*/adv$image
+||static.wixstatic.com/media/*~mv2.*/v*/fill/w_*/*banner$image,domain=nbs-bouwmaterialen.nl
+||gratisoptehalen.nl/images/fm.gif
+d207 3
+d309 3
+d313 2
+d323 2
+a324 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+d380 2
+d495 1
+d527 1
+d531 1
+d568 1
+a600 87
+ditishelmond.nl##.aanbieder
+dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
+dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)
+veluwefm.nl##.elementor-widget-wp-widget-slideshowwidget
+a1mediagroep.nl,rtvnunspeet.nl,vrmg.nl##.ad
+vmlnieuws.nl,weertfm.nl##aside [id^="custom_html-"]:has-text(Advert)
+sol2.nl##.et_pb_text_inner:has-text(/sponsor/i):upward(.et_pb_module)
+sol2.nl##.et_pb_text_inner:has-text(/sponsor/i):upward(.et_pb_module) + .et_pb_module
+rtvalbrandswaard.com##.widget-title:has-text(/Advert/i):upward([id^="media_image"])
+rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
+omroeptholen.nl##.block-title:has-text(Advert):upward(.widget)
+grootnieuwsradio.nl##[class^="Ads-module-"]:upward(section)
+sunrisefm.eu##.elementor-widget[class*="elementor-element-ad"]
+linqmedia.nl##.header-banner
+rtvridderkerk.nl##.cm-top-bar
+maassluis24.nl,nl24.nu,schiedam24.nl,vlaardingen24.nl##.advertisement
+papendrecht24.nl###sl24_random_ads
+omroepstroom.nl##.section-title:has-text(Advert):upward(.widget)
+ditistwee.nl##.advertentie.moduletable
+rtvmiddenholland.nl##[id^="rtvmi-"]
+rtvmiddenholland.nl##[class$="_sidebar"] .widget:has([id^="rtvmi-"])
+capelle.tv##.banner
+wos.nl##span:has-text(Advert):upward(.widget)
+at5.nl##[class^="Advertisement_"]
+omroep-pim.nl##.advertentieBanner
+rtvnof.nl##.advert-header
+radioviainternet.nl##div[class*="banner-size-"]
+radiozenders.fm##.banner-leaderboard
+radios.nl##div.rsad-wrapper
+elkspel.nl##.banner-container
+elkspel.nl##.gc-lb
+! Roularta Media Group
+fiets.nl##.banner-container
+columbusmagazine.nl,deliciousmagazine.nl,fietsactief.nl,flowmagazine.nl,happinez.nl,knipmode.nl,landleven.nl,psychologie.nl,zin.nl##.rmn-advert
+beleggersbelangen.nl,columbusmagazine.nl,deliciousmagazine.nl,dezondag.be,ewmagazine.nl,feeling.be,fietsactief.nl,flair.be,flowmagazine.nl,happinez.nl,knack.be,knipmode.nl,kw.be,landleven.nl,libelle.be,psychologie.nl,seasons.nl,truckstar.nl,zin.nl###rmg-mma-navigation
+beleggersbelangen.nl,columbusmagazine.nl,dezondag.be,fietsactief.nl,feeling.be,flair.be,flowmagazine.nl,happinez.nl,knack.be,kw.be,landleven.nl,libelle.be,psychologie.nl,zin.nl##.js-partner-content
+ewmagazine.nl###top_lb_bb
+ewmagazine.nl###top_rt
+gezondheid.be###leaderboard
+gezondheid.be###leaderboard_floor
+gocar.be##.ads-container
+gocar.be##.pub-text:upward(2)
+! End Roularta Media Group
+wattedoen.be###banner
+wattedoen.be###imu_large
+wattedoen.be##.gpt_box
+nuus.be##.beiaa-widget
+nuus.be##.advertentie
+nuus.be###masthead:style(height:90px!important;)
+vnci.nl##.banner
+vnci.nl##.header.header--article:style(top: 0 !important;)
+belegger.nl,beurs.nl,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com##.banner
+beurs.nl##.addslot
+deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
+meetingmagazine.nl##.bannerLine
+jazznu.com###sp-advertisements-bottom
+jazzism.nl##a[target="_blank"]:not([href*="jazzism.nl"]):upward(.elementor-element)
+jazzism.nl##img[width="250"]
+jazzism.nl##img[width="400"]
+hoimedia.com##.advert
+sommenoefenen.nl##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
+taaloefenen.nl##[id^="r89"]
+aalsmeervandaag.nl##.elementor-widget-media-carousel
+aalsmeervandaag.nl##.advertenties:upward(.elementor-widget-shortcode)
+aalsmeervandaag.nl##[data-widget_type^="vertical-slider"]:upward(.elementor-widget-shortcode)
+kn.nl##.elementor-widget-heading:has-text(/advert/i):upward([data-element_type="container"])
+! NoordPers
+eemslander.info,inmidden-drenthe.info,koerier.info,nieuwsbode.info,ommelander.info,oostermoer.info,regiokrant.info,schakel.info##.component__pubble-banner
+! Media Totaal Noord BV
+dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner:upward(.builder__row:not(.grid))
+dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner
+! End Media Totaal Noord BV
+arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
+arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner
+arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Entermedia
+belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
+belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##.component__pubble-banner:has-text(/Uit de krant|advert/)
+! Achterhoeknieuws
+achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
+achterhoekagenda.nl##.component__page-snippet
+achterhoekauto.nl##body > div.container > div:not([onclick])
+! End Achterhoeknieuws
+nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
+gratisoptehalen.nl##.headerAdWrap
+soccernews.nl##.ad-container
 d619 1
 a619 1
 tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.com/click/"])
+a637 1
+! End 112Press
+a653 1
+! SportID
+d655 3
+a657 4
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##[id^="r89-"][id$="-wrapper"]
+! End SportID
+d671 3
+a727 1
+! Mediahuis.be
+a732 1
+! End Mediahuis.be
+a764 1
+! Regiogroei.nl / StichtingRPO.nl
+a771 1
+! PXR.nl
+a779 1
+! End PXR.nl
+a792 1
+! NPO
+a795 1
+! End NPO
+a805 1
+! Mediahuis.nl
+a814 1
+! End Mediahuis.nl
+a838 1
+! Koninklijke BDU Holding B.V
+a839 1
+! End Koninklijke BDU Holding B.V
+a840 1
+! ProMedia Group
+a841 1
+! DPGMedia
+a865 1
+! Pijper Media
+a871 1
+! End Pijper Media
+d916 4
+d998 2
+d1001 2
+d1093 3
+d1165 2
+d1229 1
+d1246 1
+d1319 1
+d1321 3
+d1330 1
+d1332 1
+d1384 1
+d1419 1
+d1492 1
+a1492 1
+bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+d1516 1
+d1527 1
+d1537 1
+d1583 1
+d1641 1
+d1661 1
+d1672 2
+d1705 1
+d1709 1
+a1937 1
+sexverhalen.com##.header_banner
