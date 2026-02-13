@@ -1109,7 +1109,6 @@ notebookcheck.nl##.amaz_el
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 zeelandnet.nl##.article-bnr-first
 duic.nl##.article-excerpt--ad
-rtvkrimpenerwaard.nl##.art-positioncontrol
 zeelandnet.nl##.as__bottom-banner
 nailtalk.nl##.ashe-widget
 klimaatinfo.nl##.aside__add
@@ -1295,7 +1294,6 @@ rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.spon
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
-rtvkrimpenerwaard.nl##[id^="pg-1407"]:has-text(Vrienden):has([class^="sp-logo-carousel"] .sp-lcp-logo-wrapper):has(img[src])
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 ninefornews.nl##[id^="text-"]:has(.nfn-target[data-advadsredirect])
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(ADVERTEERDERS))
@@ -1341,5 +1339,6 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
 
