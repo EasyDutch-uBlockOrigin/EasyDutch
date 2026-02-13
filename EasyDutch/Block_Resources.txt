@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+||ditistwee.nl/images/*bannner
 ||rtvmiddenholland.nl/wp-content/uploads/*/*banner$image
 ||rtvmiddenholland.nl/wp-content/uploads/*/*.gif$image
 ||b-cdn.net/*.gif$image,domain=wos.nl
@@ -497,6 +498,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
