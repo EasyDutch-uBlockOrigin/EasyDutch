@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
