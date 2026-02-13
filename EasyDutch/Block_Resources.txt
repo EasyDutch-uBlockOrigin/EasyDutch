@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
 ||papendrecht24.nl/wp-content/uploads/*/*banner$image
 ||papendrecht24.nl/wp-content/uploads/*/*.gif$image
 ||omroepstroom.nl/wp-content/uploads/*/*banner$image
@@ -501,9 +502,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
-
-
-
-
-
-
