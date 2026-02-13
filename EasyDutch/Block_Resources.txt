@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+||b-cdn.net/*.gif$image,domain=wos.nl
 ||omroep-pim.nl/cwm/fm/userfiles/banner/$image
 ||radios.nl/wp-json/rs-ads/
 ||radios.nl/wp-content/uploads/*/banner
@@ -494,4 +495,5 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
