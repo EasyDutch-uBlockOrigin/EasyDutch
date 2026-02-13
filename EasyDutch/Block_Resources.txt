@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
 ||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
