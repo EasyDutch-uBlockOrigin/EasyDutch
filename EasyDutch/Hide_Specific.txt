@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+rtvridderkerk.nl##.cm-top-bar
 maassluis24.nl,nl24.nu,schiedam24.nl,vlaardingen24.nl##.advertisement
 papendrecht24.nl###sl24_random_ads
 omroepstroom.nl##.section-title:has-text(Advert):upward(.widget)
@@ -1350,6 +1351,7 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
 
 
