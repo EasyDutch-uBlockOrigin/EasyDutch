@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+grootnieuwsradio.nl##[class^="Ads-module-"]:upward(section)
 sunrisefm.eu##.elementor-widget[class*="elementor-element-ad"]
 linqmedia.nl##.header-banner
 rtvridderkerk.nl##.cm-top-bar
@@ -1352,5 +1353,6 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
+
 
 
