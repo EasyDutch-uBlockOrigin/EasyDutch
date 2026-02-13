@@ -90,7 +90,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||1twente.nl/Ads/$image,domain=twentefm.nl
 ! 2023-12-18
 ||rivierenland-radio.nl/banners/$image
-||s.s-bol.com/nl/upload/partnerprogramma/$image
 ||tennisenpadelvlaanderen.be/*/23Banner_$image
 ||ipon.nl/wp-content/uploads/*/*banner$image
 ! 2023-11-24
@@ -341,7 +340,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||digitaalburg.com/rn02/wp-content/uploads/*/verti*
 ||digitaalburg.com/rn02/wp-content/uploads/*/webbanner-
 ! 2022-01-13
-.nl/adurl/$xhr,domain=start-player.npo.nl
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ||2link.be/banners/
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
@@ -366,13 +364,9 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||buzzbie.nl/buzzbanners/*.js$script,1p
 ||camping-frankrijk.nl/graphics/*/*600.$image
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
-||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
-||cdn.ster.nl/banners^
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||classicstogo.nl/files/*/*-banner-*$image,1p
-||cloudfront.net/Assets/images/partners/$domain=feyenoord.nl
-||cloudfront.net/banners/$domain=eredivisie.nl
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
 ||computable.be/media/truelogo*$image,1p
@@ -432,7 +426,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||metalfan.nl/banners/
 ||midvliet.nl/images/advertenties-$image
 ||mo.be/sites/default/files/banners/$image
-||mobqo.nl^*/banner
 ||motocrossplanet.nl/banner/
 ||motocrossplanet.nl/wwwuploads/banners/
 ||netonline.be/slices/banners/
@@ -484,13 +477,11 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||uel-voetbal.nl/derden/
 ||vbro.be/wp-content/uploads/*/autoonderdelen24_$image
 ||verkeerplaza.nl/js/banner.js
-||viapizza.online/?ts_id=$subdocument,domain=dagbladdewest.com
 ||vlietnieuws.nl/wp-content/plugins/custom-banners/*$script,1p
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
 ||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
-||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
 ||wietforum.nl/uploads/monthly_*/*_312x60*.jpg.*.jpg$image
 ||wietforum.nl/uploads/monthly_*/ai_php.gif.*.gif$image
 ||xingo.nl/bannermanagement/
