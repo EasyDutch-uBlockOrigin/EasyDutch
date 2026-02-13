@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
 dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)
