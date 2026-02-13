@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+rtvalbrandswaard.com##.widget-title:has-text(/Advert/i):upward([id^="media_image"])
+rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
 omroeptholen.nl##.block-title:has-text(Advert):upward(.widget)
 grootnieuwsradio.nl##[class^="Ads-module-"]:upward(section)
 sunrisefm.eu##.elementor-widget[class*="elementor-element-ad"]
@@ -1305,7 +1307,6 @@ besteproduct.nl##[id^="ad-block"]
 online-radio.nl##[id^="AdvertMid"]
 bol-an.nl##[id^="block-"]:has([src*="_Banner"])
 online-radio.nl##[id^="containersitead"]
-rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
@@ -1354,7 +1355,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
-
-
