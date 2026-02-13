@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+||papendrecht24.nl/wp-content/uploads/*/*banner$image
+||papendrecht24.nl/wp-content/uploads/*/*.gif$image
 ||omroepstroom.nl/wp-content/uploads/*/*banner$image
 ||ditistwee.nl/images/*bannner
 ||rtvmiddenholland.nl/wp-content/uploads/*/*banner$image
@@ -499,6 +501,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
+
 
 
 
