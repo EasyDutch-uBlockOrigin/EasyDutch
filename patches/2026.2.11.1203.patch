@@ -1,10 +1,10 @@
-diff name:easydutch lines:248 checksum:8a862cf008
+diff name:easydutch lines:252 checksum:928f0bf76d
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
+! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1229.patch#easydutch
+! Diff-Path: patches/2026.2.13.1282.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -35,8 +35,10 @@ d313 2
 d323 2
 a324 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+d369 1
 d380 2
 d408 1
+d423 1
 d433 2
 d438 2
 d495 1
@@ -49,7 +51,9 @@ d568 1
 d574 1
 d578 1
 d584 2
-a600 96
+a600 98
+regio-voetbal.nl##article [class^="r89-"]
+regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
 ninefornews.nl##.ina

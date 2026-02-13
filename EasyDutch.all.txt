@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
+! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.13.1229.patch#easydutch
+! Diff-Path: patches/2026.2.13.1282.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -361,7 +361,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||h2owaternetwerk.nl/images/*/*Banner$image
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
 ||tickers.zimmo.be/gva/$domain=gva.be
-||widget.vroom.be/$domain=gva.be
 /*/TOTO*banner$domain=fcgroningen.nl|willem-ii.nl
 ||voetbalrotterdam.nl/wp-content/uploads/*/*banner
 ||voetbalrotterdam.nl/wp-content/uploads/*/fidus
@@ -412,7 +411,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||belgiancycling.be^*/Logo%27s%20partners/
 ||bitvavo.com/assets/static/widget/$subdocument,domain=cryptosjop.nl
 ||blablacar.nl/widget-driver/$3p
-||blob.core.windows.net/*/content/regiovoetbal/*_banner.*$image,domain=regio-voetbal.nl
 ||bloovi.be/frontend/files/banners/
 ||bnpparibasmarkets.nl/widget/$3p
 ||bol.com/nl/upload/banners/
@@ -575,6 +573,8 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+regio-voetbal.nl##article [class^="r89-"]
+regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
 ninefornews.nl##.ina

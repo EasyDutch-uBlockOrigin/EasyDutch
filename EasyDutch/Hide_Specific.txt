@@ -1,8 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
+! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
 !
 ! 2026-02-13
+regio-voetbal.nl##article [class^="r89-"]
+regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
 ninefornews.nl##.ina

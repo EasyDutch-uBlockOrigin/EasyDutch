@@ -1,10 +1,10 @@
-diff name:easydutch lines:845 checksum:8a862cf008
+diff name:easydutch lines:849 checksum:928f0bf76d
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
+! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1229.patch#easydutch
+! Diff-Path: patches/2026.2.13.1282.patch#easydutch
 d54 2
 a55 2
 ||mooieplaatjes.bierdopje.nl^
@@ -120,6 +120,7 @@ d304 2
 d323 3
 d332 1
 d337 1
+d343 1
 d354 3
 d364 1
 d368 1
@@ -129,6 +130,7 @@ d383 1
 d386 3
 d394 1
 d397 1
+d410 1
 d420 5
 d428 2
 d435 2
@@ -153,7 +155,9 @@ d582 2
 a591 2
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 ##a[href^="https://partner.bol.com/click/"]
-a596 423
+a596 425
+regio-voetbal.nl##article [class^="r89-"]
+regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
 ninefornews.nl##.ina

@@ -1,10 +1,10 @@
-diff name:easydutch lines:63 checksum:8a862cf008
+diff name:easydutch lines:67 checksum:928f0bf76d
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:29:48 +0000
+! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1229.patch#easydutch
+! Diff-Path: patches/2026.2.13.1282.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -12,7 +12,9 @@ d108 1
 a146 1
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d218 1
+d377 1
 d414 1
+d429 1
 d439 2
 d444 2
 d505 1
@@ -21,7 +23,9 @@ d563 1
 d576 1
 d580 1
 d586 2
-a602 9
+a602 11
+regio-voetbal.nl##article [class^="r89-"]
+regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
 ninefornews.nl##.ina

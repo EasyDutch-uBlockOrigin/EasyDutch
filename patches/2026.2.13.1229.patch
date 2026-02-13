@@ -1,0 +1,12 @@
+diff name:easydutch lines:11 checksum:928f0bf76d
+d2 1
+a2 1
+! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.2.13.1282.patch#easydutch
+d364 1
+d415 1
+a577 2
+regio-voetbal.nl##article [class^="r89-"]
+regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
