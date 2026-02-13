@@ -1,10 +1,10 @@
-diff name:easydutch lines:393 checksum:5a04a9350e
+diff name:easydutch lines:394 checksum:b000a14488
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
+! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1208.patch#easydutch
+! Diff-Path: patches/2026.2.13.1215.patch#easydutch
 d57 9
 d77 1
 d99 2
@@ -83,7 +83,8 @@ d573 1
 d579 2
 a588 1
 ##a[href^="https://partnerprogramma.bol.com/click/"]
-a594 185
+a594 186
+vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
 dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)

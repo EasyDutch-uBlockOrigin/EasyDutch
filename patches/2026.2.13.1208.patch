@@ -1,0 +1,9 @@
+diff name:easydutch lines:8 checksum:b000a14488
+d2 1
+a2 1
+! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.2.13.1215.patch#easydutch
+a576 1
+vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)

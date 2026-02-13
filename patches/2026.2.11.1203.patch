@@ -1,10 +1,10 @@
-diff name:easydutch lines:233 checksum:5a04a9350e
+diff name:easydutch lines:234 checksum:b000a14488
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
+! Last updated: Fri, 13 Feb 2026 20:15:45 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1208.patch#easydutch
+! Diff-Path: patches/2026.2.13.1215.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -48,7 +48,8 @@ d568 1
 d574 1
 d578 1
 d584 2
-a600 87
+a600 88
+vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
 dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)
