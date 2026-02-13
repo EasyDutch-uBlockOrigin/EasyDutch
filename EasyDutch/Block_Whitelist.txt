@@ -1,6 +1,6 @@
 ! Title: Block Whitelist
 ! Description: Whitelist for specific URLs on Dutch websites
-! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 !
 ! 2026-02-06
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
@@ -15,13 +15,10 @@
 ! 2023-03-21 https://github.com/uBlockOrigin/uAssets/issues/17233
 @@||cdn.bluebillywig.com/scripts/prebid/$script,domain=geenstijl.nl
 ! 2023-01-14
-@@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
 @@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
 ! 2023-01-12 https://github.com/uBlockOrigin/uAssets/commit/943cc256a43b4aa5c20f2898860279629abd72b2
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
-! 2023-01-02
-@@||2mdn.net/instream/html5/ima3.js$script,domain=omroepbrabant.nl
 ! 2022-12-30
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
 ! 2022-12-08
@@ -32,10 +29,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=skoften.net
 ! 2022-03-17
 @@||sliedrecht24.nl/wp-content/uploads/*/Banner-300x250*.jpg$image,1p
-! https://github.com/AdguardTeam/AdguardFilters/issues/108243
-@@||cdn.ebayclassifieds.net/bff/static/*/MyAds.$domain=2dehands.be|marktplaats.nl
 ! 2022-01-05
-@@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|welingelichtekringen.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dailybuzz.nl
 ! 2021-12-14
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p

@@ -1,15 +1,15 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
-/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|kinkysexcontactonline.nl|privesexgids.nl|topswingersites.nl
-/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|kinkysexcontactonline.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
+/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
-/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|hete-foto.nl|lekkerewebcams.nl|onderdanigeman.nl|onschuldigemeiden.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|teen-sex.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
-/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl|teen-sex.nl
+/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
 ||bdsmgirl.nl/banners/
 ||bdsmgirl.nl^*/banner/
@@ -42,7 +42,6 @@
 ||srv69.eu/smartlink/banner/$3p
 ||static.escortnews.com/new/banners$image,domain=topescort.nl
 ||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
-||teen-sex.nl/wp-content/uploads/*/SP$image
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
@@ -53,8 +52,8 @@
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
 
 ! Block_Whitelist
-@@/images/volgende.gif$image,1p,domain=kinkysexcontactonline.nl|privesexgids.nl
-@@/images/vorige.gif$image,1p,domain=kinkysexcontactonline.nl|privesexgids.nl
+@@/images/volgende.gif$image,1p,domain=privesexgids.nl
+@@/images/vorige.gif$image,1p,domain=privesexgids.nl
 @@/https\:\/\/pt\.[\w]{6}\.com\/tube-player\//$subdocument
 @@/https\:\/\/pt\.[\w]{6}\.com\/embed\/tbplyr\//$script
 @@/https\:\/\/pt\.[\w]{6}\.com\/api\/video-promotion\/v1\/get-content-url\//$xhr,domain=/pt\.[\w]{6}\.com/
@@ -64,16 +63,16 @@
 @@||naaktkrant.nl/media/*/*-gifs-*.gif$image,1p
 
 ! Hide_General
-! gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl
+! gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl
 ##.happy-header
 ##.happy-sidebar
 ! bejaardensextube.nl,creampiesex.nl,fucking-tube.com,rapesextube.be,rapetube.be
 ##.happy-section
-! erotischemassages.com,poldertube.nl,pornoplekje.nl,sextube-18.com,teen-sex.nl
+! erotischemassages.com,poldertube.nl,pornoplekje.nl,sextube-18.com
 ##.happy-footer
 ! fucking-tube.com,pornokartel.nl,seks-tube.be
 ##.video-block-happy
-! broerneuktzusje.nl,bruteincestfilms.nl,directpornofilmskijken.nl,extreemneuken.com,hdtienersexfilms.nl,partytieners.nl,pornomilf.nl,poepsexfilmstube.nl,sexmetdikkewijven.nl,strandmokkels.nl,studentesneuken.nl,teen-sex.nl
+! broerneuktzusje.nl,bruteincestfilms.nl,directpornofilmskijken.nl,extreemneuken.com,hdtienersexfilms.nl,partytieners.nl,pornomilf.nl,poepsexfilmstube.nl,sexmetdikkewijven.nl,strandmokkels.nl,studentesneuken.nl
 ###tracking-url
 ! geileverhalen.nl,poldertube.nl,sexverhalen.com
 ##li a[href^="https://go2.go2cloud.org/"]
@@ -106,14 +105,13 @@ kinkymedia.nl##.adguru-zone-wrap
 kinkymedia.nl##[href^="https://mt67.net/c/"]
 kinkymedia.nl##[id^="adguru-zone-widget"]
 kinkymedia.nl##aside > .widget:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
-kinkysexcontactonline.nl,privesexgids.nl###homebanners
+privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
 klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
 nedporno.com##[class^="r11ght-pl4yer"]
 nedporno.com##.publ11s-b0ttom
 nltube.com##.player-right
 onderdanigeman.nl##aside.widget:has(script[src*="affilaxy.com"])
-onschuldigemeiden.nl##.widget:has([href^="https://short1.nl/smart/"])
 oops.nl###dropinboxv2cover
 oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
 oops.nl##table[cellspacing="30"]
@@ -139,7 +137,6 @@ sexjobs.nl##div[id^="banner-"]
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
 shespot.nl##[id^="add"]:upward(.dw-card)
-spermatube.be,swingerstube.be,xxx-tube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
 tiener-sexverhalen.nl##aside[id^="block"]:has([src*="/wp-content/uploads/"])
 topescort.nl##.ads:upward(.container)

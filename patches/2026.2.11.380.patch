@@ -1,10 +1,14 @@
-diff name:easydutch lines:261 checksum:5ad262245c
+diff name:easydutch lines:300 checksum:5a04a9350e
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1152.patch#easydutch
+! Diff-Path: patches/2026.2.13.1208.patch#easydutch
+d57 9
+d98 2
+d101 1
+d108 1
 a146 26
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
@@ -32,6 +36,7 @@ a146 26
 ||tvvisie.be/textads/textads.js
 ||propertynl.com/media/organization/banners/
 ||cache.voetbalassist.nl/*/Rkvvo/*/Banner/*/Sponsors/$domain=rkvvo.nl
+d192 1
 d198 3
 d275 1
 d301 3
@@ -42,11 +47,20 @@ a316 1
 d356 1
 d373 2
 d391 1
+d402 1
+d427 2
+d432 2
 d439 1
 d490 1
+d495 1
 d522 1
 d526 1
+d549 1
+d555 1
 d563 1
+d569 1
+d573 1
+d579 2
 a588 1
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 a594 128
@@ -228,10 +242,12 @@ d959 2
 d962 2
 d1054 4
 d1095 1
+d1098 1
 d1122 1
 d1129 2
 d1193 1
 d1210 1
+d1234 1
 d1283 1
 d1285 3
 d1294 1
@@ -239,7 +255,10 @@ d1296 1
 d1310 1
 d1349 1
 d1375 3
-d1387 1
+d1387 2
+d1456 1
+a1456 1
+formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 d1460 1
 a1460 1
 bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
@@ -249,6 +268,8 @@ a1489 1
 afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1496 1
 d1506 2
+d1525 1
+d1537 1
 d1553 1
 d1571 1
 d1612 1
@@ -258,5 +279,23 @@ d1676 1
 d1680 1
 d1695 1
 d1732 1
+d1792 2
+a1793 2
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
+/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
+d1796 2
+a1797 2
+/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
+d1830 1
+d1839 2
+a1840 2
+@@/images/volgende.gif$image,1p,domain=privesexgids.nl
+@@/images/vorige.gif$image,1p,domain=privesexgids.nl
+d1881 1
+a1881 1
+privesexgids.nl###homebanners
+d1888 1
 a1910 1
 sexverhalen.com##.header_banner
+d1913 1

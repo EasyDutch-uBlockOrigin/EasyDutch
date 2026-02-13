@@ -1,14 +1,15 @@
-diff name:easydutch lines:798 checksum:5ad262245c
+diff name:easydutch lines:833 checksum:5a04a9350e
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1152.patch#easydutch
+! Diff-Path: patches/2026.2.13.1208.patch#easydutch
 d54 2
 a55 2
 ||mooieplaatjes.bierdopje.nl^
 ||adv.noordkop247.nl^
+d57 9
 d67 1
 d69 1
 a70 7
@@ -22,7 +23,10 @@ a70 7
 d72 1
 d81 1
 d91 1
+d96 2
+d99 1
 d105 1
+d107 1
 a145 64
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
@@ -91,6 +95,7 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 d147 3
 d152 1
 d154 1
+d158 1
 d164 3
 d187 1
 d201 1
@@ -121,21 +126,29 @@ d372 2
 d377 3
 d383 1
 d386 3
+d394 1
 d397 1
-d422 3
+d420 5
+d428 2
 d435 2
 d452 1
 d465 1
 d477 1
 d490 1
+d495 1
 d500 1
 d523 1
 d527 1
 d541 2
 d546 1
+d553 1
+d559 1
 d566 1
 a566 1
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
+d572 1
+d576 1
+d582 2
 a591 2
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 ##a[href^="https://partner.bol.com/click/"]
@@ -590,6 +603,7 @@ d916 5
 d941 1
 d945 2
 d952 1
+d955 1
 d957 1
 d961 1
 d970 1
@@ -612,6 +626,7 @@ d1098 1
 d1108 2
 d1112 1
 d1125 1
+d1135 1
 d1142 2
 d1145 1
 d1158 1
@@ -648,7 +663,7 @@ d1301 6
 d1308 1
 d1318 3
 d1324 6
-d1336 4
+d1336 5
 d1350 5
 d1363 2
 d1374 1
@@ -660,6 +675,9 @@ d1404 1
 d1407 1
 d1412 1
 d1416 2
+d1426 1
+a1426 1
+formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 d1430 2
 a1431 1
 bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
@@ -686,11 +704,12 @@ d1493 1
 d1495 1
 d1500 2
 d1506 1
+d1509 1
 d1511 1
 d1515 1
 d1518 2
 d1524 1
-d1527 1
+d1526 2
 d1537 1
 a1537 1
 belgischecasinos.be##.gofollow
@@ -759,6 +778,14 @@ d1812 10
 d1831 5
 d1838 7
 d1846 1
+d1849 2
+a1850 2
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
+/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
+d1853 2
+a1854 2
+/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
 a1855 2
 ||bdsmgirl.nl/banners/
 ||bdsmgirl.nl^*/banner/
@@ -769,9 +796,14 @@ a1866 1
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 a1869 1
 ||opwindend.net/Promotie_Content/ban/$image
-a1880 2
+d1881 1
+a1881 2
 ||static.escortnews.com/new/banners$image,domain=topescort.nl
 ||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
+d1890 2
+a1891 2
+@@/images/volgende.gif$image,1p,domain=privesexgids.nl
+@@/images/vorige.gif$image,1p,domain=privesexgids.nl
 a1910 6
 climaximaal.nl##[href^="https://partner.bol.com/click/click"]
 escortgirls.be##.escortAd
@@ -782,10 +814,12 @@ escortgirls.be##.fBanner
 d1917 1
 a1917 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
-d1927 4
-a1930 2
+d1926 5
+a1930 3
+privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
 klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
+d1935 1
 d1940 2
 a1941 2
 opwindend.net##a[href*="footer.profiel"]:upward(.tab)
@@ -795,5 +829,6 @@ sexguide.nl##.fBanners
 sexguide.nl##.link-buttons-container
 a1955 1
 sexverhalen.com##.header_banner
+d1958 1
 a1960 1
 topescort.nl##.ads:upward(.container)

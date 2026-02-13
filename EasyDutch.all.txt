@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.13.1152.patch#easydutch
+! Diff-Path: patches/2026.2.13.1208.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -54,15 +54,6 @@ _advertentieleaderboardhome.
 ||mooieplaatjes.bierdopje.nl^
 ||adv.noordkop247.nl^
 ||freewheel-jitt.dpgmedia.be^
-||aa.hwigroup.com^
-||ab.hwigroup.com^
-||content1.pu.nl^
-||content1.wasmachines.nl^
-||content1.zoom.nl^
-||content2.besteproduct.nl^
-||content2.kieskeurig.nl^
-||content2.wasmachines.nl^
-||content2.zoom.nl^
 ||a.scholieren.com^
 ||content2.nrc.nl^
 ! *** EasyDutch:EasyDutch/Block_third_party_Server.txt ***
@@ -95,17 +86,13 @@ _advertentieleaderboardhome.
 ||2k19.nl^$3p
 ||2k19.nl^$popup
 ||2k21.nl^$3p
-||2k23.nl^$3p
-||2k24.nl^$3p
 ||adconfigproxy.azurewebsites.net^$3p
-||adfactor.nl^$3p
 ||adquick.nl^$3p
 ||adulttradecenter.nl^$3p
 ||affilaxy.com^$3p
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
 ||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~instasex.nl
-||cd.tnet.nl^$script,3p
 ||cleafs.nl^$3p
 ||conversive.nl^$3p
 ||daisycon.com^$3p
@@ -215,7 +202,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||radioluisteren.fm/ads/
 ||1twente.nl/Ads/$image,domain=twentefm.nl
 ||rivierenland-radio.nl/banners/$image
-||s.s-bol.com/nl/upload/partnerprogramma/$image
 ||tennisenpadelvlaanderen.be/*/23Banner_$image
 ||ipon.nl/wp-content/uploads/*/*banner$image
 ||doorbraak.be/wp-json/api/*/ads$xhr
@@ -411,7 +397,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-
 ||digitaalburg.com/rn02/wp-content/uploads/*/verti*
 ||digitaalburg.com/rn02/wp-content/uploads/*/webbanner-
-.nl/adurl/$xhr,domain=start-player.npo.nl
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ||2link.be/banners/
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
@@ -436,13 +421,9 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||buzzbie.nl/buzzbanners/*.js$script,1p
 ||camping-frankrijk.nl/graphics/*/*600.$image
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
-||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
-||cdn.ster.nl/banners^
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||classicstogo.nl/files/*/*-banner-*$image,1p
-||cloudfront.net/Assets/images/partners/$domain=feyenoord.nl
-||cloudfront.net/banners/$domain=eredivisie.nl
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
 ||computable.be/media/truelogo*$image,1p
@@ -502,7 +483,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||metalfan.nl/banners/
 ||midvliet.nl/images/advertenties-$image
 ||mo.be/sites/default/files/banners/$image
-||mobqo.nl^*/banner
 ||motocrossplanet.nl/banner/
 ||motocrossplanet.nl/wwwuploads/banners/
 ||netonline.be/slices/banners/
@@ -554,13 +534,11 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||uel-voetbal.nl/derden/
 ||vbro.be/wp-content/uploads/*/autoonderdelen24_$image
 ||verkeerplaza.nl/js/banner.js
-||viapizza.online/?ts_id=$subdocument,domain=dagbladdewest.com
 ||vlietnieuws.nl/wp-content/plugins/custom-banners/*$script,1p
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
 ||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
-||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
 ||wietforum.nl/uploads/monthly_*/*_312x60*.jpg.*.jpg$image
 ||wietforum.nl/uploads/monthly_*/ai_php.gif.*.gif$image
 ||xingo.nl/bannermanagement/
@@ -573,18 +551,14 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 @@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
 @@||fundingchoicesmessages.google.com/*/$script,domain=racingnews365.nl
 @@||cdn.bluebillywig.com/scripts/prebid/$script,domain=geenstijl.nl
-@@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
 @@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
-@@||2mdn.net/instream/html5/ima3.js$script,domain=omroepbrabant.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
 @@||salarisvanmorgen.nl/wp-content/uploads/*abonneer-nieuwsbrief
 @@||images.2dehands.com/api/v1/listing-twh-p/images/ad/$image,domain=2dehands.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=skoften.net
 @@||sliedrecht24.nl/wp-content/uploads/*/Banner-300x250*.jpg$image,1p
-@@||cdn.ebayclassifieds.net/bff/static/*/MyAds.$domain=2dehands.be|marktplaats.nl
-@@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|welingelichtekringen.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dailybuzz.nl
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
 @@||zilverengoudkopen.nl/banners/header.jpg
@@ -1225,7 +1199,6 @@ spidersolitairespelen.nl##.b_i_bg
 voetbalrotterdam.nl##.lshowcase-logos
 frontline.digital##.featured-banner
 frontline.digital##.elementor-section:has(.elementor-widget-flip-box img[src*="banner"])
-gezondheidsplein.nl##.ad
 kookboekennieuws.nl##.cb-sidebar-widget:has-text(Kijk ook eens op:)
 rtvmaastricht.nl##.prom
 tameteo.nl###bannerDerPC
@@ -1356,7 +1329,6 @@ kekmama.nl##[id^="section-ad-banner"]
 psv.nl##.toto
 kbradio.nl##a[href="../../omroep/adverteren/"]
 racexpress.nl##img[src^="/img/sponsors"]:upward(.article-photo)
-jaap.nl##.details-rectangle:upward(1)
 itnijs.frl##.banner:upward(.widget)
 infonu.nl###cc:has(a.product[href*="partnerprogramma.bol.com"])
 indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
@@ -1498,7 +1470,6 @@ maarkelsnieuws.nl##.banners-weekad
 maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
-jaap.nl##div[id^="property_ad_"]
 tvgids.nl##.square-item:has( > .banner)
 racesport.nl##.hthb-notification
 racesport.nl##.rs_sponsorbanners_widget:upward(1)
@@ -1566,7 +1537,7 @@ appletips.nl###singleab
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
 online-radio.nl###top_ad-360
-eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gazetvandaag.be,giganieuws.nl,grandprix.ws,jupilerproleague.eu,krantvandaag.nl,nieuwsgigant.nl,recepten-vandaag.nl,voetbal-vandaag.nl###topbox
+formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
@@ -1630,7 +1601,6 @@ nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
 financialinvestigator.nl##.c-newsList__story--partnernews
 tvgids.tv##.col-left
 tvgids.tv##.col-right
-freesoccer.nl##.container-fluid.site-header
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 ditjesendatjes.nl##.c-partners
 tameteo.nl##.creatividad
@@ -1642,7 +1612,6 @@ paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
-motorrijdenexpert.nl##.flat-theme-content:has(a[href][rel^="noopener"])
 ajax1.nl##.footer__footer-fat
 heracles.nl##.footer-blocks
 heracles.nl##.footer-sponsors
@@ -1887,12 +1856,12 @@ doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
 directwonen.nl#@#.adsbox
 ! *** EasyDutch:EasyDutch/NSFW.txt ***
 *$3p,image,domain=kinkymedia.nl|opwindend.net
-/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|kinkysexcontactonline.nl|privesexgids.nl|topswingersites.nl
-/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|kinkysexcontactonline.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
+/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
-/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|hete-foto.nl|lekkerewebcams.nl|onderdanigeman.nl|onschuldigemeiden.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|teen-sex.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
-/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl|teen-sex.nl
+/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
 ||bdsmgirl.nl/banners/
 ||bdsmgirl.nl^*/banner/
@@ -1925,7 +1894,6 @@ directwonen.nl#@#.adsbox
 ||srv69.eu/smartlink/banner/$3p
 ||static.escortnews.com/new/banners$image,domain=topescort.nl
 ||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
-||teen-sex.nl/wp-content/uploads/*/SP$image
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
@@ -1934,8 +1902,8 @@ directwonen.nl#@#.adsbox
 ||xmissy.nl/skins/_customplayers/*/*top$image
 ||xmissy.nl/skins/_customplayers/*footer.jpg$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
-@@/images/volgende.gif$image,1p,domain=kinkysexcontactonline.nl|privesexgids.nl
-@@/images/vorige.gif$image,1p,domain=kinkysexcontactonline.nl|privesexgids.nl
+@@/images/volgende.gif$image,1p,domain=privesexgids.nl
+@@/images/vorige.gif$image,1p,domain=privesexgids.nl
 @@/https\:\/\/pt\.[\w]{6}\.com\/tube-player\//$subdocument
 @@/https\:\/\/pt\.[\w]{6}\.com\/embed\/tbplyr\//$script
 @@/https\:\/\/pt\.[\w]{6}\.com\/api\/video-promotion\/v1\/get-content-url\//$xhr,domain=/pt\.[\w]{6}\.com/
@@ -1976,14 +1944,13 @@ kinkymedia.nl##.adguru-zone-wrap
 kinkymedia.nl##[href^="https://mt67.net/c/"]
 kinkymedia.nl##[id^="adguru-zone-widget"]
 kinkymedia.nl##aside > .widget:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
-kinkysexcontactonline.nl,privesexgids.nl###homebanners
+privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
 klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
 nedporno.com##[class^="r11ght-pl4yer"]
 nedporno.com##.publ11s-b0ttom
 nltube.com##.player-right
 onderdanigeman.nl##aside.widget:has(script[src*="affilaxy.com"])
-onschuldigemeiden.nl##.widget:has([href^="https://short1.nl/smart/"])
 oops.nl###dropinboxv2cover
 oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
 oops.nl##table[cellspacing="30"]
@@ -2009,7 +1976,6 @@ sexjobs.nl##div[id^="banner-"]
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
 shespot.nl##[id^="add"]:upward(.dw-card)
-spermatube.be,swingerstube.be,xxx-tube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
 tiener-sexverhalen.nl##aside[id^="block"]:has([src*="/wp-content/uploads/"])
 topescort.nl##.ads:upward(.container)

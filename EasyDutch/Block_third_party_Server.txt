@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Tue, 10 Feb 2026 19:53:32 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 !
 ! 2026-02-07
 ||cdn.aa.onstuimig.nl^$3p
@@ -67,10 +67,7 @@
 ||2k19.nl^$3p
 ||2k19.nl^$popup
 ||2k21.nl^$3p
-||2k23.nl^$3p
-||2k24.nl^$3p
 ||adconfigproxy.azurewebsites.net^$3p
-||adfactor.nl^$3p
 ||adquick.nl^$3p
 ||adulttradecenter.nl^$3p
 ||affilaxy.com^$3p
@@ -78,7 +75,6 @@
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
 ||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~instasex.nl
-||cd.tnet.nl^$script,3p
 ||cleafs.nl^$3p
 ||conversive.nl^$3p
 ||daisycon.com^$3p

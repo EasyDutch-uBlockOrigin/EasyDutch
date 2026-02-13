@@ -1,11 +1,15 @@
-diff name:easydutch lines:356 checksum:5ad262245c
+diff name:easydutch lines:395 checksum:5a04a9350e
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 19:12:15 +0000
+! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1152.patch#easydutch
+! Diff-Path: patches/2026.2.13.1208.patch#easydutch
+d57 9
 d77 1
+d99 2
+d102 1
+d109 1
 a147 35
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
@@ -45,6 +49,7 @@ a147 35
 d154 1
 a154 1
 /builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
+d184 1
 d190 3
 d226 1
 a226 1
@@ -61,14 +66,23 @@ d351 1
 d368 3
 d378 1
 d388 2
+d400 1
+d425 2
+d430 2
 d437 2
 d477 1
 d490 1
+d495 1
 d522 1
 d526 1
+d549 1
+d555 1
 d562 2
 a563 1
 @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
+d569 1
+d573 1
+d579 2
 a588 1
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 a594 185
@@ -303,12 +317,14 @@ dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevec
 d941 3
 d1004 4
 d1045 1
+d1048 1
 d1072 1
 d1079 2
 d1103 1
 d1128 3
 d1147 1
 d1164 1
+d1188 1
 d1235 1
 d1238 1
 d1240 3
@@ -322,8 +338,11 @@ d1279 2
 d1306 1
 d1322 1
 d1333 3
-d1345 1
+d1345 2
 d1397 1
+d1415 1
+a1415 1
+formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 d1419 1
 a1419 1
 bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
@@ -337,7 +356,9 @@ afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuw
 d1455 1
 d1459 1
 d1466 3
+d1486 1
 d1488 1
+d1499 1
 d1515 1
 d1532 1
 d1534 1
@@ -353,5 +374,23 @@ d1693 1
 d1699 1
 a1719 1
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
+d1758 2
+a1759 2
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
+/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
+d1762 2
+a1763 2
+/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
+d1796 1
+d1805 2
+a1806 2
+@@/images/volgende.gif$image,1p,domain=privesexgids.nl
+@@/images/vorige.gif$image,1p,domain=privesexgids.nl
+d1847 1
+a1847 1
+privesexgids.nl###homebanners
+d1854 1
 a1876 1
 sexverhalen.com##.header_banner
+d1879 1
