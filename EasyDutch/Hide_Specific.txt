@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-13
+ditishelmond.nl##.aanbieder
 dmgdeurne.nl##.td-block-title:has-text(Sponsors):upward(.td_block_wrap)
 dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)
 veluwefm.nl##.elementor-widget-wp-widget-slideshowwidget
@@ -1361,8 +1362,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
-
-
-
-
