@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-14
+ad.cw##.ad-advertisement-link
 fok.nl##[id^="r89"]
 ! 2026-02-13
 regio-voetbal.nl##article [class^="r89-"]
