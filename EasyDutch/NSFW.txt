@@ -29,6 +29,7 @@
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
 ||outdoor-sex.nl/wp-content/uploads/*/Sexindeprovincie$image
+||pathxy.com/bn/generators/$script,3p
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
 ||sexervaringendelen.nl/porno/$image
@@ -104,7 +105,7 @@ klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
 nedporno.com##[class^="r11ght-pl4yer"]
 nedporno.com##.publ11s-b0ttom
 nltube.com##.player-right
-onderdanigeman.nl##aside.widget:has(script[src*="affilaxy.com"])
+onderdanigeman.nl##aside.widget:has(script)
 oops.nl###dropinboxv2cover
 oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
 oops.nl##table[cellspacing="30"]
