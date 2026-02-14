@@ -1,10 +1,10 @@
-diff name:easydutch lines:710 checksum:0be990b045
+diff name:easydutch lines:724 checksum:1d09012a55
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
+! Last updated: Sat, 14 Feb 2026 09:49:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.569.patch#easydutch
+! Diff-Path: patches/2026.2.14.589.patch#easydutch
 a53 1
 ||mooieplaatjes.bierdopje.nl^
 d56 9
@@ -654,9 +654,11 @@ a1788 2
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 d1791 2
 a1792 2
-/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
-a1801 2
+a1801 4
+||gaynews.nl/images/advertisement$image
+||gaynews.nl/images/_adv_txt$image
 ||geile-sexverhalen.be/images/foto-advertenties/$image
 ||geile-sexverhalen.nl/images/foto-advertenties/$image
 d1803 4
@@ -667,7 +669,10 @@ a1812 1
 ||pathxy.com/bn/generators/$script,3p
 d1815 2
 d1818 2
-d1825 1
+d1823 3
+a1825 2
+||static.escortnews.com/new/banners$image,3p
+||static.escortnews.eu/new/banners$image,3p
 d1829 4
 a1832 4
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
@@ -678,8 +683,17 @@ d1834 2
 a1835 2
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
+d1840 2
 d1849 1
-a1865 1
+d1852 6
+d1860 1
+d1862 1
+a1862 1
+gaynews.nl##[class^="va"][class$="nab"]
+d1864 2
+a1865 3
+gaynews.nl##[id^="blaabri"]:upward(center)
+gaynews.nl##a[href^="/_global/lees"]
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 d1867 2
 a1868 2

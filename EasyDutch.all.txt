@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
+! Last updated: Sat, 14 Feb 2026 09:49:57 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.14.569.patch#easydutch
+! Diff-Path: patches/2026.2.14.589.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1858,7 +1858,7 @@ directwonen.nl#@#.adsbox
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
-/wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
 ||bdsmgirl.nl/banners/
@@ -1869,6 +1869,8 @@ directwonen.nl#@#.adsbox
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
+||gaynews.nl/images/advertisement$image
+||gaynews.nl/images/_adv_txt$image
 ||geile-sexverhalen.be/images/foto-advertenties/$image
 ||geile-sexverhalen.nl/images/foto-advertenties/$image
 ||gratissextube.be/banners/$image
@@ -1885,8 +1887,8 @@ directwonen.nl#@#.adsbox
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
-||static.escortnews.com/new/banners$image,domain=topescort.nl
-||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
+||static.escortnews.com/new/banners$image,3p
+||static.escortnews.eu/new/banners$image,3p
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
@@ -1901,8 +1903,6 @@ directwonen.nl#@#.adsbox
 @@/https\:\/\/pt\.[\w]{6}\.com\/embed\/tbplyr\//$script
 @@/https\:\/\/pt\.[\w]{6}\.com\/api\/video-promotion\/v1\/get-content-url\//$xhr,domain=/pt\.[\w]{6}\.com/
 @@||awemdia.com/*.mp4$media,domain=/pt\.[\w]{6}\.com/
-@@||promotools.biz^$domain=beeldbelsex.com
-@@||tools.vpscash.nl/webcams/*/plug_play_webcams/$frame,domain=beeldbelsex.com
 @@||naaktkrant.nl/media/*/*-gifs-*.gif$image,1p
 ##.happy-header
 ##.happy-sidebar
@@ -1912,20 +1912,13 @@ directwonen.nl#@#.adsbox
 ###tracking-url
 ##a[href^="https://www.2k19.nl/"]
 amateursexstart.nl,seksmet.nl,sekswebsite.nl##.g
-beeldbelsex.com##a > img[src$="gif"]
-beeldbelsex.com##iframe[data-src^="https://tools.vpscash.nl/"][data-src*="/gif_banners/"]
-bekijkporno.nl##.player .fp-brand
-climaximaal.nl##[href^="https://partner.bol.com/click/click"]
-escortgirls.be##.escortAd
-escortgirls.be##.side-banner
 escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
-escortgirls.be##.fBanner
 gaynews.nl##.telefoon_verberg
-gaynews.nl##[class^="va"]:has([class*="banner"])
+gaynews.nl##[class^="va"][class$="nab"]
 gaynews.nl##[id^="abri"]
-gaynews.nl##[id^="fp"]
-gaynews.nl##a[href^="/_global/leesmeer.php?"]
+gaynews.nl##[id^="blaabri"]:upward(center)
+gaynews.nl##a[href^="/_global/lees"]
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
 geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog

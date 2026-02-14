@@ -1,13 +1,18 @@
-diff name:easydutch lines:54 checksum:0be990b045
+diff name:easydutch lines:72 checksum:1d09012a55
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
+! Last updated: Sat, 14 Feb 2026 09:49:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.569.patch#easydutch
+! Diff-Path: patches/2026.2.14.589.patch#easydutch
 d370 2
 d1598 1
-a1874 2
+d1864 1
+a1864 1
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+a1874 4
+||gaynews.nl/images/advertisement$image
+||gaynews.nl/images/_adv_txt$image
 ||geile-sexverhalen.be/images/foto-advertenties/$image
 ||geile-sexverhalen.nl/images/foto-advertenties/$image
 d1876 4
@@ -18,14 +23,27 @@ a1885 1
 ||pathxy.com/bn/generators/$script,3p
 d1888 2
 d1891 2
+d1896 2
+a1897 2
+||static.escortnews.com/new/banners$image,3p
+||static.escortnews.eu/new/banners$image,3p
 d1901 4
 a1904 4
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
 ||xmissy.nl/modules/content-processing/xcmvid/*/player$image
 ||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
+d1912 2
 d1921 1
-a1937 1
+d1924 6
+d1932 1
+d1934 1
+a1934 1
+gaynews.nl##[class^="va"][class$="nab"]
+d1936 2
+a1937 3
+gaynews.nl##[id^="blaabri"]:upward(center)
+gaynews.nl##a[href^="/_global/lees"]
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 d1939 2
 a1940 2
