@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
+! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.14.599.patch#easydutch
+! Diff-Path: patches/2026.2.14.1294.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1884,6 +1884,7 @@ directwonen.nl#@#.adsbox
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
 ||sexervaringendelen.nl/porno/$image
+||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
@@ -1894,7 +1895,6 @@ directwonen.nl#@#.adsbox
 ||vagina.nl/fish-hooks/fetch.json
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
 ||xmissy.nl/modules/content-processing/xcmvid/*/player$image
-||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
@@ -1939,6 +1939,7 @@ opwindend.net##a[href*="?banner="]
 opwindend.net##.b > .profilethumb:upward(.tab)
 opwindend.net##.popup
 pikanterooieoortjes.nl##.widget_custom_html:has([src^="//aweproto.com/"])
+poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
 pornoplekje.nl###exitpopup-modal
 sexervaringendelen.nl##iframe[data-src^="https://ads."]
 sexguide.nl##.blogBanners
@@ -1948,6 +1949,9 @@ sexguide.nl##.moreEscortM:has-text(Sponsors)
 sexguide.nl##.topBanners
 sexguide.nl##div.PREMEscorts:has-text(Sponsors)
 sexguide.nl##div.vipEscortModel:has-text(Sponsors)
+sextube.nl##.tm-pp-models-container
+sextube.nl##.video-sidebar
+sextube.nl##.wps-player__happy-inside
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
 shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)

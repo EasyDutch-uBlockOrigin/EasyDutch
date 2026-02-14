@@ -1,10 +1,10 @@
-diff name:easydutch lines:379 checksum:ea78524fbe
+diff name:easydutch lines:385 checksum:30aedebefc
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
+! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.599.patch#easydutch
+! Diff-Path: patches/2026.2.14.1294.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -322,15 +322,16 @@ a1816 1
 ||pathxy.com/bn/generators/$script,3p
 d1819 2
 d1822 2
+a1823 1
+||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
 d1827 3
 a1829 2
 ||static.escortnews.com/new/banners$image,3p
 ||static.escortnews.eu/new/banners$image,3p
 d1833 4
-a1836 4
+a1836 3
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
 ||xmissy.nl/modules/content-processing/xcmvid/*/player$image
-||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1838 2
 a1839 2
@@ -364,9 +365,14 @@ nltube.com##.bottom-bns-block
 d1886 2
 a1887 1
 onderdanigeman.nl##aside.widget:has(script)
+a1896 1
+poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
 d1898 2
 d1908 5
-a1912 3
+a1912 6
+sextube.nl##.tm-pp-models-container
+sextube.nl##.video-sidebar
+sextube.nl##.wps-player__happy-inside
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
 shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)

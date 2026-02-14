@@ -1,20 +1,23 @@
-diff name:easydutch lines:28 checksum:ea78524fbe
+diff name:easydutch lines:37 checksum:30aedebefc
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
+! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.599.patch#easydutch
+! Diff-Path: patches/2026.2.14.1294.patch#easydutch
 d1861 1
 a1861 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 a1871 2
 ||gaynews.nl/images/advertisement$image
 ||gaynews.nl/images/_adv_txt$image
+a1884 1
+||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
 d1888 2
 a1889 2
 ||static.escortnews.com/new/banners$image,3p
 ||static.escortnews.eu/new/banners$image,3p
+d1895 1
 d1904 2
 d1914 7
 a1920 1
@@ -27,3 +30,9 @@ d1927 2
 a1928 2
 gaynews.nl##[id^="blaabri"]:upward(center)
 gaynews.nl##a[href^="/_global/lees"]
+a1948 1
+poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
+a1957 3
+sextube.nl##.tm-pp-models-container
+sextube.nl##.video-sidebar
+sextube.nl##.wps-player__happy-inside

@@ -1,0 +1,16 @@
+diff name:easydutch lines:15 checksum:30aedebefc
+d2 1
+a2 1
+! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.2.14.1294.patch#easydutch
+a1886 1
+||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
+d1897 1
+a1941 1
+poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
+a1950 3
+sextube.nl##.tm-pp-models-container
+sextube.nl##.video-sidebar
+sextube.nl##.wps-player__happy-inside

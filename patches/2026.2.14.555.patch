@@ -1,10 +1,10 @@
-diff name:easydutch lines:36 checksum:ea78524fbe
+diff name:easydutch lines:45 checksum:30aedebefc
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
+! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.599.patch#easydutch
+! Diff-Path: patches/2026.2.14.1294.patch#easydutch
 d370 2
 d1863 1
 a1863 1
@@ -14,10 +14,13 @@ a1873 4
 ||gaynews.nl/images/_adv_txt$image
 ||geile-sexverhalen.be/images/foto-advertenties/$image
 ||geile-sexverhalen.nl/images/foto-advertenties/$image
+a1884 1
+||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
 d1888 2
 a1889 2
 ||static.escortnews.com/new/banners$image,3p
 ||static.escortnews.eu/new/banners$image,3p
+d1895 1
 d1904 2
 d1914 7
 a1920 1
@@ -35,3 +38,9 @@ d1930 2
 a1931 2
 geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
 geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
+a1947 1
+poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
+a1956 3
+sextube.nl##.tm-pp-models-container
+sextube.nl##.video-sidebar
+sextube.nl##.wps-player__happy-inside
