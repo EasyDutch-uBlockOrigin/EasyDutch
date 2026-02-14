@@ -36,7 +36,6 @@
 ||seks.com/snacc.jpg
 ||sexervaringendelen.nl/porno/$image
 ||sexverhalen.com/vriendschap/
-||shespot.nl/wp-content/uploads/*/womanizer-*.jpg$image
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
@@ -136,7 +135,7 @@ sexjobs.nl##.banner-wrapper
 sexjobs.nl##div[id^="banner-"]
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
-shespot.nl##[id^="add"]:upward(.dw-card)
+shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
 sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
 tiener-sexverhalen.nl##aside[id^="block"]:has([src*="/wp-content/uploads/"])
 topescort.nl##.ads:upward(.container)
