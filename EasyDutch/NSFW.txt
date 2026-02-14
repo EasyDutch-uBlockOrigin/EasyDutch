@@ -102,8 +102,6 @@ kinkymedia.nl##aside > .widget:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
 privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
 klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
-nedporno.com##[class^="r11ght-pl4yer"]
-nedporno.com##.publ11s-b0ttom
 nltube.com##.bottom-bns-block
 nltube.com##.player-right
 onderdanigeman.nl##aside.widget:has(script)
