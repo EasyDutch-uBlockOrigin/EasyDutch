@@ -20,7 +20,6 @@
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
 ||gratissextube.be/banners/$image
-||images.islive.nl/snapshot/*/99x84.jpg$image,domain=sexverhalen.com
 ||kinkymedia.nl/wp-content/uploads/*vierkant*$image
 ||kinkymedia.nl/wp-content/uploads/kousenenpanties-lingerie*.jpg$image
 ||kinkymedia.nl/wp-content/uploads/stripchat-*.png$image
@@ -35,7 +34,6 @@
 ||seks.com/img/*.gif
 ||seks.com/snacc.jpg
 ||sexervaringendelen.nl/porno/$image
-||sexverhalen.com/vriendschap/
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
@@ -73,8 +71,6 @@
 ##.video-block-happy
 ! broerneuktzusje.nl,bruteincestfilms.nl,directpornofilmskijken.nl,extreemneuken.com,hdtienersexfilms.nl,partytieners.nl,pornomilf.nl,poepsexfilmstube.nl,sexmetdikkewijven.nl,strandmokkels.nl,studentesneuken.nl
 ###tracking-url
-! geileverhalen.nl,poldertube.nl,sexverhalen.com
-##li a[href^="https://go2.go2cloud.org/"]
 ! gratissextube.be
 ##a[href^="https://www.2k19.nl/"]
 
@@ -134,7 +130,7 @@ sexguide.nl##div.vipEscortModel:has-text(Sponsors)
 sexjobs.nl##.banner-wrapper
 sexjobs.nl##div[id^="banner-"]
 sexverhalen.com##.header_banner
-sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
+sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
 shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
 sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
 tiener-sexverhalen.nl##aside[id^="block"]:has([src*="/wp-content/uploads/"])
