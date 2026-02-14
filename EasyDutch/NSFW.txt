@@ -141,7 +141,7 @@ sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
 tiener-sexverhalen.nl##aside[id^="block"]:has([src*="/wp-content/uploads/"])
 topescort.nl##.ads:upward(.container)
 vagina.nl###partner-links
-vagina.nl##.list-item:has(.card > script)
+vagina.nl##.list-item:has(.card > ins)
 vagina.nl##[href^="https://xltube.nl/click/"]
 vagina.nl##[id$="fish-hooks"]
 vagina.nl##div[id^=video-fish-hook]
