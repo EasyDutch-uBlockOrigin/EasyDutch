@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
+! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.14.1294.patch#easydutch
+! Diff-Path: patches/2026.2.14.1348.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
@@ -542,7 +543,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
 ||zilverengoudkopen.nl/banners/
 ! *** EasyDutch:EasyDutch/Block_Whitelist.txt ***
-@@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
+@@||ad.cw^$ghide
 @@||vandale.*/*/images/*_300x250.$image,1p
 @@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 @@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
@@ -571,6 +572,8 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+ad.cw##.ad-advertisement-link:upward(1)
+fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
@@ -791,6 +794,7 @@ f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
 moviemeter.nl##.small-leaderboard
 buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
@@ -1147,7 +1151,6 @@ zakenreisnieuws.nl##[id*="web_hpa"]:upward(.block)
 zakenreisnieuws.nl##[id*="web_partners"]:upward(.block)
 zita.be###shopsuiteApplication
 zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
-fok.nl##[class$="billboard-atf"]
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
 buttkicken.nl##p.has-small-font-size:has-text(Advertentie)
 fcupdate.nl##.betting_partner
@@ -1710,7 +1713,6 @@ feyenoord.nl##.totoOdds
 trucks.nl##.trucks_ros_alpha_rectangle-halfpage
 trucks.nl##.trucks_ros_leaderboard-billboard
 computable.be##.true-logo
-fok.nl##.trueTop
 buzzbie.nl##.TS_Banner_Spot
 intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
@@ -1832,8 +1834,6 @@ looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
 @@||v.fwmrm.net/ad/$xhr,domain=vtmgo.be
 ||gabe.hit.gemius.pl/gplayer.js$script,domain=vtmgo.be,redirect=noopjs,important
 ||mssl.fwmrm.net/*/AdManager.js$script,domain=vtmgo.be,redirect=noopjs,important
-fok.nl##+js(aeld, , DAB)
-fok.nl###wa_web_headertofloor
 *$image,redirect-rule=2x2.png,domain=tweakers.net
 tweakers.net##+js(aeld, /[\w]{16}/, /^e=>.*/)
 @@||tweakers.net^$ghide

@@ -1,15 +1,16 @@
-diff name:easydutch lines:384 checksum:30aedebefc
+diff name:easydutch lines:394 checksum:ced6ab7879
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
+! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.1294.patch#easydutch
+! Diff-Path: patches/2026.2.14.1348.patch#easydutch
 d57 9
 d98 2
 d101 1
 d108 1
-a146 27
+a146 28
+||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
@@ -61,13 +62,17 @@ d522 1
 d526 1
 d549 1
 d555 1
-d563 1
+d562 2
+a563 1
+@@||ad.cw^$ghide
 d569 1
 d573 1
 d579 2
 a588 1
 ##a[href^="https://partnerprogramma.bol.com/click/"]
-a594 139
+a594 141
+ad.cw##.ad-advertisement-link:upward(1)
+fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
@@ -218,6 +223,8 @@ atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##[id^="r89-"][id$="-wrapper"]
 ! End SportID
 d624 3
+a675 1
+moviemeter.nl##.rectangle-halfpage
 a680 1
 ! Mediahuis.be
 a685 1
@@ -256,6 +263,7 @@ d935 5
 d952 5
 d959 2
 d962 2
+d1038 1
 d1054 4
 d1095 1
 d1098 1
@@ -294,12 +302,14 @@ d1589 1
 d1612 1
 d1626 1
 d1632 1
+d1641 1
 d1643 2
 d1676 1
 d1680 1
 d1682 1
 d1695 1
 d1732 1
+d1770 2
 d1792 2
 a1793 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl

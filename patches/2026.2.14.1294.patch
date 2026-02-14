@@ -1,4 +1,4 @@
-diff name:easydutch lines:28 checksum:ced6ab7879
+diff name:easydutch lines:19 checksum:ced6ab7879
 d2 1
 a2 1
 ! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
@@ -18,12 +18,3 @@ moviemeter.nl##.rectangle-halfpage
 d1150 1
 d1713 1
 d1835 2
-a1886 1
-||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
-d1897 1
-a1941 1
-poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
-a1950 3
-sextube.nl##.tm-pp-models-container
-sextube.nl##.video-sidebar
-sextube.nl##.wps-player__happy-inside

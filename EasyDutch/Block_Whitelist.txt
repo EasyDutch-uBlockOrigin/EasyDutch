@@ -1,9 +1,11 @@
 ! Title: Block Whitelist
 ! Description: Whitelist for specific URLs on Dutch websites
-! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
+! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
 !
+! 2026-02-14
+@@||ad.cw^$ghide
 ! 2026-02-06
-@@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
+! @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
 ! 2023-10-23
 @@||vandale.*/*/images/*_300x250.$image,1p
 ! 2023-10-13

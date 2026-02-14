@@ -1,16 +1,22 @@
-diff name:easydutch lines:101 checksum:30aedebefc
+diff name:easydutch lines:112 checksum:ced6ab7879
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
+! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.1294.patch#easydutch
-a133 1
+! Diff-Path: patches/2026.2.14.1348.patch#easydutch
+a133 2
+||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d363 1
 d370 2
 d414 1
-a576 10
+d548 1
+a548 1
+@@||ad.cw^$ghide
+a576 12
+ad.cw##.ad-advertisement-link:upward(1)
+fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
@@ -21,12 +27,17 @@ ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
 ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
 ninefornews.nl###top-box:upward([id^="custom_html-"])
 ninefornews.nl##div[class^="mag-box"] + #adskeeper
+a786 1
+moviemeter.nl##.rectangle-halfpage
 d1066 5
+d1148 1
 d1594 1
 d1641 1
 d1665 1
 d1701 1
+d1715 1
 d1752 1
+d1838 2
 d1864 1
 a1864 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl

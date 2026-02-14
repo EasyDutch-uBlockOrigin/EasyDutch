@@ -1,16 +1,17 @@
-diff name:easydutch lines:479 checksum:30aedebefc
+diff name:easydutch lines:487 checksum:ced6ab7879
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 21:34:57 +0000
+! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.1294.patch#easydutch
+! Diff-Path: patches/2026.2.14.1348.patch#easydutch
 d57 9
 d77 1
 d99 2
 d102 1
 d109 1
-a147 37
+a147 38
+||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
@@ -84,13 +85,15 @@ d548 1
 d554 1
 d561 2
 a562 1
-@@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
+@@||ad.cw^$ghide
 d568 1
 d572 1
 d578 2
 a587 1
 ##a[href^="https://partnerprogramma.bol.com/click/"]
-a593 196
+a593 198
+ad.cw##.ad-advertisement-link:upward(1)
+fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
@@ -287,6 +290,8 @@ cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
 omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
 galaxyclub.nl##.bannercenter
+a617 1
+moviemeter.nl##.rectangle-halfpage
 a622 1
 ! Mediahuis.be
 a627 1
@@ -332,6 +337,7 @@ d933 1
 a933 1
 dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
 d940 3
+d987 1
 d1003 4
 d1044 1
 d1047 1
@@ -385,6 +391,7 @@ d1551 2
 d1575 2
 d1590 1
 d1596 1
+d1605 1
 d1607 2
 d1640 1
 d1644 1
@@ -395,6 +402,7 @@ d1692 1
 d1698 1
 a1718 1
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
+d1735 2
 d1757 2
 a1758 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
