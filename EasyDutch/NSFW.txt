@@ -45,10 +45,10 @@
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
-||xmissy.nl/*popscripts/$script,1p
-||xmissy.nl/skins/_customplayers/*/*overlay$image
-||xmissy.nl/skins/_customplayers/*/*top$image
-||xmissy.nl/skins/_customplayers/*footer.jpg$image
+||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/modules/content-processing/xcmvid/*/player$image
+||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
+||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
 
 ! Block_Whitelist
@@ -145,4 +145,6 @@ vagina.nl##.list-item:has(.card > script)
 vagina.nl##[href^="https://xltube.nl/click/"]
 vagina.nl##[id$="fish-hooks"]
 vagina.nl##div[id^=video-fish-hook]
-xmissy.nl##.rightbar > :has([src^="https://ads."])
+xmissy.nl##.right-adblock
+xmissy.nl##.playerbanner
+xmissy.nl##.galleryadbar
