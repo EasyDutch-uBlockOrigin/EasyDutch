@@ -101,6 +101,7 @@ opwindend.net##a[href*="?banner="]
 opwindend.net##.b > .profilethumb:upward(.tab)
 opwindend.net##.popup
 pikanterooieoortjes.nl##.widget_custom_html:has([src^="//aweproto.com/"])
+poldertube.nl##div.under-video-block:has(.tm-pp-models-container)
 pornoplekje.nl###exitpopup-modal
 sexervaringendelen.nl##iframe[data-src^="https://ads."]
 sexguide.nl##.blogBanners
