@@ -31,8 +31,6 @@
 ||outdoor-sex.nl/wp-content/uploads/*/Sexindeprovincie$image
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
-||seks.com/img/*.gif
-||seks.com/snacc.jpg
 ||sexervaringendelen.nl/porno/$image
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
@@ -118,7 +116,6 @@ opwindend.net##.popup
 pikanterooieoortjes.nl##.widget_custom_html:has([src^="//aweproto.com/"])
 pornoplekje.nl###exitpopup-modal
 pornozot.com##.abbcn-footer
-seks.com##.bannermid
 sexervaringendelen.nl##iframe[data-src^="https://ads."]
 sexguide.nl##.blogBanners
 sexguide.nl##.fBanners
