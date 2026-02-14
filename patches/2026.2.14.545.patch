@@ -1,0 +1,12 @@
+diff name:easydutch lines:11 checksum:86b7db26b5
+d2 1
+a2 1
+! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.2.14.555.patch#easydutch
+d1875 3
+d1936 6
+d1944 1
+a1944 1
+klapjes.nl##[id^="custom_html"]:has(script)

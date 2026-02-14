@@ -1,10 +1,10 @@
-diff name:easydutch lines:101 checksum:b0cb409e88
+diff name:easydutch lines:102 checksum:86b7db26b5
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
+! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.545.patch#easydutch
+! Diff-Path: patches/2026.2.14.555.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -57,7 +57,7 @@ d1894 2
 a1895 2
 /wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
-d1906 1
+d1906 4
 a1910 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1914 1
@@ -77,11 +77,12 @@ a1938 2
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
 d1952 1
-d1979 1
+d1973 7
 a1979 1
 privesexgids.nl###homebanners
-d1982 2
-a1983 1
+d1981 3
+a1983 2
+klapjes.nl##[id^="custom_html"]:has(script)
 nltube.com##.bottom-bns-block
 d1985 2
 a1986 1

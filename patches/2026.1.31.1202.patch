@@ -1,10 +1,10 @@
-diff name:easydutch lines:873 checksum:b0cb409e88
+diff name:easydutch lines:872 checksum:86b7db26b5
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
+! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.545.patch#easydutch
+! Diff-Path: patches/2026.2.14.555.patch#easydutch
 d54 2
 a55 2
 ||mooieplaatjes.bierdopje.nl^
@@ -806,8 +806,7 @@ a1855 2
 ||bdsmgirl.nl^*/banner/
 a1856 1
 ||cdn.escortspots.com/static/bn/$image,domain=escortgirls.be
-d1862 1
-d1866 1
+d1862 5
 a1866 2
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
@@ -840,11 +839,11 @@ escortgirls.be##.fBanner
 d1917 1
 a1917 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
-d1926 7
+d1920 13
 a1932 4
 privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
-klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
+klapjes.nl##[id^="custom_html"]:has(script)
 nltube.com##.bottom-bns-block
 d1934 2
 a1935 1

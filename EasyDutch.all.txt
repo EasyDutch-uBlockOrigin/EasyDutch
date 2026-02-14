@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
+! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.14.545.patch#easydutch
+! Diff-Path: patches/2026.2.14.555.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1872,9 +1872,6 @@ directwonen.nl#@#.adsbox
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
 ||gratissextube.be/banners/$image
-||kinkymedia.nl/wp-content/uploads/*vierkant*$image
-||kinkymedia.nl/wp-content/uploads/kousenenpanties-lingerie*.jpg$image
-||kinkymedia.nl/wp-content/uploads/stripchat-*.png$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 ||naaktkrant.nl/media/*/*.gif$image,1p
@@ -1933,15 +1930,9 @@ geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
 geile-sexverhalen.be##a[href*=".nl/x/"]
 gratissexverhalen.nu##[id^="block-"]:has([href^="https://www.dql2clk.com/"])
-kinkymedia.nl##.adguru-ad-banner
-kinkymedia.nl##.adguru-zone
-kinkymedia.nl##.adguru-zone-wrap
-kinkymedia.nl##[href^="https://mt67.net/c/"]
-kinkymedia.nl##[id^="adguru-zone-widget"]
-kinkymedia.nl##aside > .widget:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
 privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
-klapjes.nl##[id^="custom_html"]:has(a[href*=affref])
+klapjes.nl##[id^="custom_html"]:has(script)
 nltube.com##.bottom-bns-block
 nltube.com##.player-right
 onderdanigeman.nl##aside.widget:has(script)
