@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 14 Feb 2026 09:49:57 +0000
+! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.14.589.patch#easydutch
+! Diff-Path: patches/2026.2.14.599.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1858,7 +1858,7 @@ directwonen.nl#@#.adsbox
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
-/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
 ||bdsmgirl.nl/banners/
@@ -1911,7 +1911,7 @@ directwonen.nl#@#.adsbox
 ##.video-block-happy
 ###tracking-url
 ##a[href^="https://www.2k19.nl/"]
-amateursexstart.nl,seksmet.nl,sekswebsite.nl##.g
+amateursexstart.nl,naaktemilfs.nl,pornotube69.nl,seksmet.nl,sekswebsite.nl,sexenbabes.nl##.g
 escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
 gaynews.nl##.telefoon_verberg

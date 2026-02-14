@@ -1,10 +1,10 @@
-diff name:easydutch lines:472 checksum:1d09012a55
+diff name:easydutch lines:474 checksum:ea78524fbe
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:49:57 +0000
+! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.589.patch#easydutch
+! Diff-Path: patches/2026.2.14.599.patch#easydutch
 d57 9
 d77 1
 d99 2
@@ -402,7 +402,7 @@ a1757 2
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 d1760 2
 a1761 2
-/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
 a1770 4
 ||gaynews.nl/images/advertisement$image
@@ -433,7 +433,9 @@ a1804 2
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
 d1809 2
 d1818 1
-d1821 6
+d1820 7
+a1826 1
+amateursexstart.nl,naaktemilfs.nl,pornotube69.nl,seksmet.nl,sekswebsite.nl,sexenbabes.nl##.g
 d1829 1
 d1831 1
 a1831 1

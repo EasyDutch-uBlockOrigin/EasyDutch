@@ -1,4 +1,4 @@
-diff name:easydutch lines:28 checksum:ea78524fbe
+diff name:easydutch lines:12 checksum:ea78524fbe
 d2 1
 a2 1
 ! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
@@ -8,22 +8,6 @@ a4 1
 d1861 1
 a1861 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
-a1871 2
-||gaynews.nl/images/advertisement$image
-||gaynews.nl/images/_adv_txt$image
-d1888 2
-a1889 2
-||static.escortnews.com/new/banners$image,3p
-||static.escortnews.eu/new/banners$image,3p
-d1904 2
-d1914 7
-a1920 1
+d1914 1
+a1914 1
 amateursexstart.nl,naaktemilfs.nl,pornotube69.nl,seksmet.nl,sekswebsite.nl,sexenbabes.nl##.g
-d1923 1
-d1925 1
-a1925 1
-gaynews.nl##[class^="va"][class$="nab"]
-d1927 2
-a1928 2
-gaynews.nl##[id^="blaabri"]:upward(center)
-gaynews.nl##a[href^="/_global/lees"]

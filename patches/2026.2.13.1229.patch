@@ -1,10 +1,10 @@
-diff name:easydutch lines:77 checksum:1d09012a55
+diff name:easydutch lines:79 checksum:ea78524fbe
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:49:57 +0000
+! Last updated: Sat, 14 Feb 2026 09:59:12 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.589.patch#easydutch
+! Diff-Path: patches/2026.2.14.599.patch#easydutch
 d364 1
 d371 2
 d415 1
@@ -14,7 +14,7 @@ regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 d1598 1
 d1864 1
 a1864 1
-/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 a1874 4
 ||gaynews.nl/images/advertisement$image
 ||gaynews.nl/images/_adv_txt$image
@@ -40,7 +40,9 @@ a1904 4
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1912 2
 d1921 1
-d1924 6
+d1923 7
+a1929 1
+amateursexstart.nl,naaktemilfs.nl,pornotube69.nl,seksmet.nl,sekswebsite.nl,sexenbabes.nl##.g
 d1932 1
 d1934 1
 a1934 1
