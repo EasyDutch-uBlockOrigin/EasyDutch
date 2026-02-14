@@ -231,6 +231,7 @@ f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
 moviemeter.nl##.small-leaderboard
 buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
@@ -1357,4 +1358,3 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
