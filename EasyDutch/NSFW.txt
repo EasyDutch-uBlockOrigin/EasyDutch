@@ -146,6 +146,3 @@ vagina.nl##[href^="https://xltube.nl/click/"]
 vagina.nl##[id$="fish-hooks"]
 vagina.nl##div[id^=video-fish-hook]
 xmissy.nl##.rightbar > :has([src^="https://ads."])
-
-! Hide_Whitelist
-bekijkporno.nl#@#.bottom-adv
