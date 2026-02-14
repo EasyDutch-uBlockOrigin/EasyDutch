@@ -293,8 +293,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||linuxmag.nl/wp-content/uploads/*/*Rectangle*$image
 ||linuxmag.nl/wp-content/uploads/*banner
 ||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
-||gaynews.nl/images/advertisement$image
-||gaynews.nl/images/_adv_txt$image
 ||schie.nu/images/*banner
 ||fcgroningen.nl/websites/implementatie/website/img/sprite/sponsor-$image
 ||edelmetaal-info.nl/wp-content/uploads/*/*HollandGold*$image
