@@ -1,19 +1,22 @@
-diff name:easydutch lines:38 checksum:d50381d2ee
+diff name:easydutch lines:47 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 d364 1
 d415 1
 a577 2
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
+d1598 1
 d1876 1
 a1880 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1884 1
+a1885 1
+||pathxy.com/bn/generators/$script,3p
 d1888 2
 d1891 2
 d1901 4
@@ -23,6 +26,12 @@ a1904 4
 ||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1921 1
+d1951 2
+a1952 1
+nltube.com##.bottom-bns-block
+d1954 1
+a1954 1
+onderdanigeman.nl##aside.widget:has(script)
 d1965 2
 d1975 2
 d1978 2

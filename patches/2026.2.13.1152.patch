@@ -1,10 +1,10 @@
-diff name:easydutch lines:93 checksum:d50381d2ee
+diff name:easydutch lines:101 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -42,6 +42,7 @@ d1501 1
 d1569 1
 a1569 1
 formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
+d1622 1
 d1633 1
 d1645 1
 d1671 1
@@ -60,6 +61,8 @@ d1906 1
 a1910 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1914 1
+a1915 1
+||pathxy.com/bn/generators/$script,3p
 d1918 2
 d1921 2
 d1928 1
@@ -77,7 +80,12 @@ d1952 1
 d1979 1
 a1979 1
 privesexgids.nl###homebanners
-d1986 1
+d1982 2
+a1983 1
+nltube.com##.bottom-bns-block
+d1985 2
+a1986 1
+onderdanigeman.nl##aside.widget:has(script)
 d1997 2
 d2007 2
 d2010 3

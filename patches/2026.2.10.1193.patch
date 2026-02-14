@@ -1,10 +1,10 @@
-diff name:easydutch lines:344 checksum:d50381d2ee
+diff name:easydutch lines:352 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -284,6 +284,7 @@ a1488 1
 afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1495 1
 d1505 2
+d1513 1
 d1524 1
 d1536 1
 d1552 1
@@ -311,6 +312,8 @@ d1807 1
 a1811 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1815 1
+a1816 1
+||pathxy.com/bn/generators/$script,3p
 d1819 2
 d1822 2
 d1829 1
@@ -328,7 +331,12 @@ d1853 1
 d1880 1
 a1880 1
 privesexgids.nl###homebanners
-d1887 1
+d1883 2
+a1884 1
+nltube.com##.bottom-bns-block
+d1886 2
+a1887 1
+onderdanigeman.nl##aside.widget:has(script)
 d1898 2
 d1908 5
 a1912 3

@@ -1,10 +1,10 @@
-diff name:easydutch lines:558 checksum:d50381d2ee
+diff name:easydutch lines:565 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 d57 9
 d67 1
 d70 1
@@ -475,7 +475,7 @@ afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuw
 d1416 1
 d1420 1
 d1427 3
-d1437 1
+d1436 2
 d1442 2
 d1448 1
 d1451 1
@@ -522,6 +522,8 @@ d1747 1
 a1751 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1755 1
+a1756 1
+||pathxy.com/bn/generators/$script,3p
 d1759 2
 d1762 2
 d1769 1
@@ -542,7 +544,12 @@ geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
 d1820 1
 a1820 1
 privesexgids.nl###homebanners
-d1827 1
+d1823 2
+a1824 1
+nltube.com##.bottom-bns-block
+d1826 2
+a1827 1
+onderdanigeman.nl##aside.widget:has(script)
 d1838 2
 d1848 5
 a1852 3

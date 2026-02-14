@@ -1,10 +1,10 @@
-diff name:easydutch lines:54 checksum:d50381d2ee
+diff name:easydutch lines:63 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 a133 1
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d363 1
@@ -22,6 +22,7 @@ ninefornews.nl###top-box:upward([id^="custom_html-"])
 ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 d1065 5
+d1593 1
 d1640 1
 d1664 1
 d1700 1
@@ -30,6 +31,8 @@ d1875 1
 a1879 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1883 1
+a1884 1
+||pathxy.com/bn/generators/$script,3p
 d1887 2
 d1890 2
 d1900 4
@@ -39,6 +42,12 @@ a1903 4
 ||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1920 1
+d1950 2
+a1951 1
+nltube.com##.bottom-bns-block
+d1953 1
+a1953 1
+onderdanigeman.nl##aside.widget:has(script)
 d1964 2
 d1974 2
 d1977 2

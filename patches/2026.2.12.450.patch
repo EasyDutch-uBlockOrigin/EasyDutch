@@ -1,10 +1,10 @@
-diff name:easydutch lines:273 checksum:d50381d2ee
+diff name:easydutch lines:281 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -216,6 +216,7 @@ bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,per
 d1516 1
 d1527 1
 d1537 1
+d1544 1
 d1555 1
 d1567 1
 d1583 1
@@ -240,6 +241,8 @@ d1835 1
 a1839 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1843 1
+a1844 1
+||pathxy.com/bn/generators/$script,3p
 d1847 2
 d1850 2
 d1857 1
@@ -257,7 +260,12 @@ d1881 1
 d1908 1
 a1908 1
 privesexgids.nl###homebanners
-d1915 1
+d1911 2
+a1912 1
+nltube.com##.bottom-bns-block
+d1914 2
+a1915 1
+onderdanigeman.nl##aside.widget:has(script)
 d1926 2
 d1936 5
 a1940 3

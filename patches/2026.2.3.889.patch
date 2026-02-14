@@ -1,10 +1,10 @@
-diff name:easydutch lines:695 checksum:d50381d2ee
+diff name:easydutch lines:702 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 a53 1
 ||mooieplaatjes.bierdopje.nl^
 d56 9
@@ -594,7 +594,7 @@ a1455 1
 kbradio.nl##.banners
 d1460 4
 d1465 1
-d1472 1
+d1471 2
 d1477 2
 d1483 1
 d1486 1
@@ -659,6 +659,8 @@ d1803 1
 a1807 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1811 1
+a1812 1
+||pathxy.com/bn/generators/$script,3p
 d1815 2
 d1818 2
 d1825 1
@@ -679,7 +681,12 @@ geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
 d1876 1
 a1876 1
 privesexgids.nl###homebanners
-d1883 1
+d1879 2
+a1880 1
+nltube.com##.bottom-bns-block
+d1882 2
+a1883 1
+onderdanigeman.nl##aside.widget:has(script)
 d1894 2
 d1904 5
 a1908 3

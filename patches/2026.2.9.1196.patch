@@ -1,10 +1,10 @@
-diff name:easydutch lines:437 checksum:d50381d2ee
+diff name:easydutch lines:445 checksum:b0cb409e88
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.476.patch#easydutch
+! Diff-Path: patches/2026.2.14.545.patch#easydutch
 d57 9
 d77 1
 d99 2
@@ -371,6 +371,7 @@ afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuw
 d1455 1
 d1459 1
 d1466 3
+d1475 1
 d1486 1
 d1488 1
 d1499 1
@@ -404,6 +405,8 @@ d1774 1
 a1778 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
 d1782 1
+a1783 1
+||pathxy.com/bn/generators/$script,3p
 d1786 2
 d1789 2
 d1796 1
@@ -421,7 +424,12 @@ d1820 1
 d1847 1
 a1847 1
 privesexgids.nl###homebanners
-d1854 1
+d1850 2
+a1851 1
+nltube.com##.bottom-bns-block
+d1853 2
+a1854 1
+onderdanigeman.nl##aside.widget:has(script)
 d1865 2
 d1875 5
 a1879 3

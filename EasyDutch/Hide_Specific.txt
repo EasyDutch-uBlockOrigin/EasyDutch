@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
+! Last updated: Sat, 14 Feb 2026 09:05:38 +0000
 !
 ! 2026-02-13
 regio-voetbal.nl##article [class^="r89-"]
@@ -1161,7 +1161,6 @@ psv.nl##.block-sponsors--psv
 scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
-nltube.com##.bottom-bns-block
 racingnews365.nl##.branded-countdown__content__partner-wrapper
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
