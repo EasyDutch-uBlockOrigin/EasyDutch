@@ -1,4 +1,4 @@
-diff name:easydutch lines:28 checksum:0be990b045
+diff name:easydutch lines:16 checksum:0be990b045
 d2 1
 a2 1
 ! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
@@ -6,24 +6,12 @@ d4 1
 a4 1
 ! Diff-Path: patches/2026.2.14.569.patch#easydutch
 d370 2
-d1598 1
-a1874 2
+a1873 2
 ||geile-sexverhalen.be/images/foto-advertenties/$image
 ||geile-sexverhalen.nl/images/foto-advertenties/$image
-d1876 3
-a1884 1
-||pathxy.com/bn/generators/$script,3p
-a1931 1
+a1928 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
-d1933 2
-a1934 2
+d1930 2
+a1931 2
 geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
 geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
-d1936 6
-d1944 3
-a1946 2
-klapjes.nl##[id^="custom_html"]:has(script)
-nltube.com##.bottom-bns-block
-d1948 1
-a1948 1
-onderdanigeman.nl##aside.widget:has(script)

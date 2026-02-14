@@ -1,11 +1,15 @@
-diff name:easydutch lines:44 checksum:86b7db26b5
+diff name:easydutch lines:54 checksum:0be990b045
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
+! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.555.patch#easydutch
+! Diff-Path: patches/2026.2.14.569.patch#easydutch
+d370 2
 d1598 1
+a1874 2
+||geile-sexverhalen.be/images/foto-advertenties/$image
+||geile-sexverhalen.nl/images/foto-advertenties/$image
 d1876 4
 a1880 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
@@ -21,6 +25,12 @@ a1904 4
 ||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1921 1
+a1937 1
+geile-sexverhalen.be,geile-sexverhalen.nl##.banner
+d1939 2
+a1940 2
+geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
+geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 d1942 6
 d1950 3
 a1952 2

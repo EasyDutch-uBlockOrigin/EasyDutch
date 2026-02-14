@@ -1,10 +1,10 @@
-diff name:easydutch lines:566 checksum:86b7db26b5
+diff name:easydutch lines:573 checksum:0be990b045
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
+! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.555.patch#easydutch
+! Diff-Path: patches/2026.2.14.569.patch#easydutch
 d57 9
 d67 1
 d70 1
@@ -77,6 +77,7 @@ a306 1
 d319 2
 d348 1
 d354 1
+d361 2
 d365 3
 d375 1
 d382 2
@@ -518,6 +519,9 @@ d1735 2
 a1736 2
 /wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
+a1745 2
+||geile-sexverhalen.be/images/foto-advertenties/$image
+||geile-sexverhalen.nl/images/foto-advertenties/$image
 d1747 4
 a1751 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
@@ -538,9 +542,12 @@ a1779 2
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
 d1793 1
-d1811 1
-a1811 1
-geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
+a1809 1
+geile-sexverhalen.be,geile-sexverhalen.nl##.banner
+d1811 2
+a1812 2
+geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
+geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 d1814 7
 a1820 1
 privesexgids.nl###homebanners

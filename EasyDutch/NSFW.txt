@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
+! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -19,6 +19,8 @@
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
+||geile-sexverhalen.be/images/foto-advertenties/$image
+||geile-sexverhalen.nl/images/foto-advertenties/$image
 ||gratissextube.be/banners/$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
@@ -86,9 +88,10 @@ gaynews.nl##[class^="va"]:has([class*="banner"])
 gaynews.nl##[id^="abri"]
 gaynews.nl##[id^="fp"]
 gaynews.nl##a[href^="/_global/leesmeer.php?"]
+geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
-geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
-geile-sexverhalen.be##a[href*=".nl/x/"]
+geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
+geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 gratissexverhalen.nu##[id^="block-"]:has([href^="https://www.dql2clk.com/"])
 privesexgids.nl###homebanners
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])

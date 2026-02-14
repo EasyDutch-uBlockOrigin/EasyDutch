@@ -1,10 +1,10 @@
-diff name:easydutch lines:872 checksum:86b7db26b5
+diff name:easydutch lines:879 checksum:0be990b045
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
+! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.555.patch#easydutch
+! Diff-Path: patches/2026.2.14.569.patch#easydutch
 d54 2
 a55 2
 ||mooieplaatjes.bierdopje.nl^
@@ -121,6 +121,7 @@ d323 3
 d332 1
 d337 1
 d343 1
+d350 2
 d354 3
 d364 1
 d368 1
@@ -806,6 +807,9 @@ a1855 2
 ||bdsmgirl.nl^*/banner/
 a1856 1
 ||cdn.escortspots.com/static/bn/$image,domain=escortgirls.be
+a1860 2
+||geile-sexverhalen.be/images/foto-advertenties/$image
+||geile-sexverhalen.nl/images/foto-advertenties/$image
 d1862 5
 a1866 2
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
@@ -836,9 +840,12 @@ escortgirls.be##.side-banner
 escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
 escortgirls.be##.fBanner
-d1917 1
-a1917 1
-geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
+a1915 1
+geile-sexverhalen.be,geile-sexverhalen.nl##.banner
+d1917 2
+a1918 2
+geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
+geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 d1920 13
 a1932 4
 privesexgids.nl###homebanners

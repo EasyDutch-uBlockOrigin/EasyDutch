@@ -1,13 +1,14 @@
-diff name:easydutch lines:65 checksum:86b7db26b5
+diff name:easydutch lines:75 checksum:0be990b045
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 09:15:58 +0000
+! Last updated: Sat, 14 Feb 2026 09:29:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.555.patch#easydutch
+! Diff-Path: patches/2026.2.14.569.patch#easydutch
 a133 1
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d363 1
+d370 2
 d414 1
 a576 11
 regio-voetbal.nl##article [class^="r89-"]
@@ -27,6 +28,9 @@ d1640 1
 d1664 1
 d1700 1
 d1751 1
+a1873 2
+||geile-sexverhalen.be/images/foto-advertenties/$image
+||geile-sexverhalen.nl/images/foto-advertenties/$image
 d1875 4
 a1879 1
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
@@ -42,6 +46,12 @@ a1903 4
 ||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1920 1
+a1936 1
+geile-sexverhalen.be,geile-sexverhalen.nl##.banner
+d1938 2
+a1939 2
+geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
+geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 d1941 6
 d1949 3
 a1951 2
