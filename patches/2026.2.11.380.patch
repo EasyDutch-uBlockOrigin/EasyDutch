@@ -1,10 +1,10 @@
-diff name:easydutch lines:319 checksum:928f0bf76d
+diff name:easydutch lines:343 checksum:d50381d2ee
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
+! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1282.patch#easydutch
+! Diff-Path: patches/2026.2.14.476.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -306,15 +306,39 @@ d1796 2
 a1797 2
 /wp-content/uploads/*.gif$image,domain=beeldbelsex.com|bekijkporno.nl|geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 /wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
+d1808 1
+a1812 1
+||lekkereseks.nl/wp-content/uploads/*/adbanner
+d1816 1
+d1820 2
+d1823 2
 d1830 1
+d1834 4
+a1837 4
+||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/modules/content-processing/xcmvid/*/player$image
+||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
+||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1839 2
 a1840 2
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
+d1854 1
 d1881 1
 a1881 1
 privesexgids.nl###homebanners
 d1888 1
-a1910 1
+d1899 2
+d1909 5
+a1913 3
 sexverhalen.com##.header_banner
-d1913 1
+sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
+shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
+d1918 1
+a1918 1
+vagina.nl##.list-item:has(.card > ins)
+d1922 2
+a1923 3
+xmissy.nl##.right-adblock
+xmissy.nl##.playerbanner
+xmissy.nl##.galleryadbar

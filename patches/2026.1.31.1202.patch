@@ -1,10 +1,10 @@
-diff name:easydutch lines:849 checksum:928f0bf76d
+diff name:easydutch lines:869 checksum:d50381d2ee
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
+! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1282.patch#easydutch
+! Diff-Path: patches/2026.2.14.476.patch#easydutch
 d54 2
 a55 2
 ||mooieplaatjes.bierdopje.nl^
@@ -807,19 +807,28 @@ a1855 2
 ||bdsmgirl.nl^*/banner/
 a1856 1
 ||cdn.escortspots.com/static/bn/$image,domain=escortgirls.be
+d1862 1
 d1866 1
-a1866 1
+a1866 2
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
-a1869 1
-||opwindend.net/Promotie_Content/ban/$image
+||lekkereseks.nl/wp-content/uploads/*/adbanner
+d1873 2
+d1876 2
 d1881 1
 a1881 2
 ||static.escortnews.com/new/banners$image,domain=topescort.nl
 ||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
+d1885 4
+a1888 4
+||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/modules/content-processing/xcmvid/*/player$image
+||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
+||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 d1890 2
 a1891 2
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
+d1905 1
 a1910 6
 climaximaal.nl##[href^="https://partner.bol.com/click/click"]
 escortgirls.be##.escortAd
@@ -840,11 +849,22 @@ d1940 2
 a1941 2
 opwindend.net##a[href*="footer.profiel"]:upward(.tab)
 opwindend.net##a[href*="?banner="]
+d1946 2
 a1949 2
 sexguide.nl##.fBanners
 sexguide.nl##.link-buttons-container
-a1955 1
+d1954 5
+a1958 3
 sexverhalen.com##.header_banner
-d1958 1
+sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
+shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
 a1960 1
 topescort.nl##.ads:upward(.container)
+d1962 1
+a1962 1
+vagina.nl##.list-item:has(.card > ins)
+d1966 2
+a1967 3
+xmissy.nl##.right-adblock
+xmissy.nl##.playerbanner
+xmissy.nl##.galleryadbar

@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
+! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.13.1282.patch#easydutch
+! Diff-Path: patches/2026.2.14.476.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1873,23 +1873,18 @@ directwonen.nl#@#.adsbox
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
 ||gratissextube.be/banners/$image
-||images.islive.nl/snapshot/*/99x84.jpg$image,domain=sexverhalen.com
 ||kinkymedia.nl/wp-content/uploads/*vierkant*$image
 ||kinkymedia.nl/wp-content/uploads/kousenenpanties-lingerie*.jpg$image
 ||kinkymedia.nl/wp-content/uploads/stripchat-*.png$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
+||lekkereseks.nl/wp-content/uploads/*/adbanner
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
-||opwindend.net/Promotie_Content/ban/$image
 ||outdoor-sex.nl/wp-content/uploads/*/Sexindeprovincie$image
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
-||seks.com/img/*.gif
-||seks.com/snacc.jpg
 ||sexervaringendelen.nl/porno/$image
-||sexverhalen.com/vriendschap/
-||shespot.nl/wp-content/uploads/*/womanizer-*.jpg$image
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
@@ -1898,10 +1893,10 @@ directwonen.nl#@#.adsbox
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
-||xmissy.nl/*popscripts/$script,1p
-||xmissy.nl/skins/_customplayers/*/*overlay$image
-||xmissy.nl/skins/_customplayers/*/*top$image
-||xmissy.nl/skins/_customplayers/*footer.jpg$image
+||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/modules/content-processing/xcmvid/*/player$image
+||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
+||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
 @@/images/volgende.gif$image,1p,domain=privesexgids.nl
 @@/images/vorige.gif$image,1p,domain=privesexgids.nl
@@ -1918,7 +1913,6 @@ directwonen.nl#@#.adsbox
 ##.happy-footer
 ##.video-block-happy
 ###tracking-url
-##li a[href^="https://go2.go2cloud.org/"]
 ##a[href^="https://www.2k19.nl/"]
 amateursexstart.nl,seksmet.nl,sekswebsite.nl##.g
 beeldbelsex.com##a > img[src$="gif"]
@@ -1962,8 +1956,6 @@ opwindend.net##.b > .profilethumb:upward(.tab)
 opwindend.net##.popup
 pikanterooieoortjes.nl##.widget_custom_html:has([src^="//aweproto.com/"])
 pornoplekje.nl###exitpopup-modal
-pornozot.com##.abbcn-footer
-seks.com##.bannermid
 sexervaringendelen.nl##iframe[data-src^="https://ads."]
 sexguide.nl##.blogBanners
 sexguide.nl##.fBanners
@@ -1972,18 +1964,17 @@ sexguide.nl##.moreEscortM:has-text(Sponsors)
 sexguide.nl##.topBanners
 sexguide.nl##div.PREMEscorts:has-text(Sponsors)
 sexguide.nl##div.vipEscortModel:has-text(Sponsors)
-sexjobs.nl##.banner-wrapper
-sexjobs.nl##div[id^="banner-"]
 sexverhalen.com##.header_banner
-sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
-shespot.nl##[id^="add"]:upward(.dw-card)
+sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
+shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
 sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
 tiener-sexverhalen.nl##aside[id^="block"]:has([src*="/wp-content/uploads/"])
 topescort.nl##.ads:upward(.container)
 vagina.nl###partner-links
-vagina.nl##.list-item:has(.card > script)
+vagina.nl##.list-item:has(.card > ins)
 vagina.nl##[href^="https://xltube.nl/click/"]
 vagina.nl##[id$="fish-hooks"]
 vagina.nl##div[id^=video-fish-hook]
-xmissy.nl##.rightbar > :has([src^="https://ads."])
-bekijkporno.nl#@#.bottom-adv
+xmissy.nl##.right-adblock
+xmissy.nl##.playerbanner
+xmissy.nl##.galleryadbar

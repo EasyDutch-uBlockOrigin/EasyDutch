@@ -1,10 +1,10 @@
-diff name:easydutch lines:27 checksum:928f0bf76d
+diff name:easydutch lines:54 checksum:d50381d2ee
 d2 1
 a2 1
-! Last updated: Fri, 13 Feb 2026 21:22:59 +0000
+! Last updated: Sat, 14 Feb 2026 07:56:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.13.1282.patch#easydutch
+! Diff-Path: patches/2026.2.14.476.patch#easydutch
 a133 1
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d363 1
@@ -26,3 +26,30 @@ d1640 1
 d1664 1
 d1700 1
 d1751 1
+d1875 1
+a1879 1
+||lekkereseks.nl/wp-content/uploads/*/adbanner
+d1883 1
+d1887 2
+d1890 2
+d1900 4
+a1903 4
+||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/modules/content-processing/xcmvid/*/player$image
+||snapshots.wseengine.com/snapshots/$image,domain=xmissy.nl
+||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
+d1920 1
+d1964 2
+d1974 2
+d1977 2
+a1978 2
+sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
+shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
+d1983 1
+a1983 1
+vagina.nl##.list-item:has(.card > ins)
+d1987 2
+a1988 3
+xmissy.nl##.right-adblock
+xmissy.nl##.playerbanner
+xmissy.nl##.galleryadbar
