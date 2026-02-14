@@ -37,6 +37,7 @@
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
+||static.escortnews.com/new/banners$image,domain=escortgirls.be
 ||static.escortnews.com/new/banners$image,domain=topescort.nl
 ||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
@@ -80,11 +81,8 @@ beeldbelsex.com##a > img[src$="gif"]
 beeldbelsex.com##iframe[data-src^="https://tools.vpscash.nl/"][data-src*="/gif_banners/"]
 bekijkporno.nl##.player .fp-brand
 climaximaal.nl##[href^="https://partner.bol.com/click/click"]
-escortgirls.be##.escortAd
-escortgirls.be##.side-banner
 escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
-escortgirls.be##.fBanner
 gaynews.nl##.telefoon_verberg
 gaynews.nl##[class^="va"][class$="nab"]
 gaynews.nl##[id^="abri"]
