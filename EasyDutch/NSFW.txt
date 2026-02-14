@@ -111,6 +111,7 @@ sexguide.nl##.moreEscortM:has-text(Sponsors)
 sexguide.nl##.topBanners
 sexguide.nl##div.PREMEscorts:has-text(Sponsors)
 sexguide.nl##div.vipEscortModel:has-text(Sponsors)
+sextube.nl##.tm-pp-models-container
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has(a[href^="https://www.sexverhalen.com/o/?go2="])
 shespot.nl##[class^="bottom-section"]:has-text(/Advert/i):upward(.elementor-widget)
