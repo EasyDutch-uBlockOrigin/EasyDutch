@@ -2,6 +2,8 @@
 ! Description: Whitelist for specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-14
+@@||ad.cw^$ghide
 ! 2026-02-06
 ! @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
 ! 2023-10-23
