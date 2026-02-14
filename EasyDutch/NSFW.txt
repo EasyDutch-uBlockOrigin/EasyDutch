@@ -37,9 +37,8 @@
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
 ||srv69.eu/b/$image,3p
 ||srv69.eu/smartlink/banner/$3p
-||static.escortnews.com/new/banners$image,domain=escortgirls.be
-||static.escortnews.com/new/banners$image,domain=topescort.nl
-||static.escortnews.eu/new/banners$image,domain=escortgirls.be|topescort.nl
+||static.escortnews.com/new/banners$image,3p
+||static.escortnews.eu/new/banners$image,3p
 ||thekinkyweb.nl/wp-content/uploads/*/banner$image
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
