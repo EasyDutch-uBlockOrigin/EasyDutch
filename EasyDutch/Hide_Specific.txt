@@ -1161,7 +1161,6 @@ psv.nl##.block-sponsors--psv
 scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
-nltube.com##.bottom-bns-block
 racingnews365.nl##.branded-countdown__content__partner-wrapper
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
