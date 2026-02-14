@@ -28,7 +28,6 @@
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
-||opwindend.net/Promotie_Content/ban/$image
 ||outdoor-sex.nl/wp-content/uploads/*/Sexindeprovincie$image
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
