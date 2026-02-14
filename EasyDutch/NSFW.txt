@@ -19,6 +19,8 @@
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
+||gaynews.nl/images/advertisement$image
+||gaynews.nl/images/_adv_txt$image
 ||geile-sexverhalen.be/images/foto-advertenties/$image
 ||geile-sexverhalen.nl/images/foto-advertenties/$image
 ||gratissextube.be/banners/$image
@@ -84,10 +86,10 @@ escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
 escortgirls.be##.fBanner
 gaynews.nl##.telefoon_verberg
-gaynews.nl##[class^="va"]:has([class*="banner"])
+gaynews.nl##[class^="va"][class$="nab"]
 gaynews.nl##[id^="abri"]
-gaynews.nl##[id^="fp"]
-gaynews.nl##a[href^="/_global/leesmeer.php?"]
+gaynews.nl##[id^="blaabri"]:upward(center)
+gaynews.nl##a[href^="/_global/lees"]
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
 geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
