@@ -1,10 +1,10 @@
-diff name:easydutch lines:394 checksum:ced6ab7879
+diff name:easydutch lines:394 checksum:b4e48ba56b
 d2 1
 a2 1
-! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
+! Last updated: Mon, 16 Feb 2026 14:11:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.14.1348.patch#easydutch
+! Diff-Path: patches/2026.2.16.851.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -309,7 +309,7 @@ d1680 1
 d1682 1
 d1695 1
 d1732 1
-d1770 2
+d1768 4
 d1792 2
 a1793 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
