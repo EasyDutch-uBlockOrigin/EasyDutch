@@ -34,8 +34,6 @@ gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
 ! 2023-08-21 https://github.com/uBlockOrigin/uAssets/issues/19295
 @@||v.fwmrm.net/ad/$xhr,domain=vtmgo.be
-||gabe.hit.gemius.pl/gplayer.js$script,domain=vtmgo.be,redirect=noopjs,important
-||mssl.fwmrm.net/*/AdManager.js$script,domain=vtmgo.be,redirect=noopjs,important
 ! 2023-07-26
 ! https://github.com/AdguardTeam/AdguardFilters/commit/25e1c5f39ef9f3ff937db3d72ce1f05c599158c4
 ! https://github.com/AdguardTeam/AdguardFilters/commit/695532f6ed3a31648b16dcd9e680a04eb22e5c5d
