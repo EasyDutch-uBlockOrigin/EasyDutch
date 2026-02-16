@@ -1,10 +1,10 @@
-diff name:easydutch lines:113 checksum:b4e48ba56b
+diff name:easydutch lines:119 checksum:3f4d25811b
 d2 1
 a2 1
-! Last updated: Mon, 16 Feb 2026 14:11:41 +0000
+! Last updated: Mon, 16 Feb 2026 14:20:58 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.16.851.patch#easydutch
+! Diff-Path: patches/2026.2.16.860.patch#easydutch
 a133 2
 ||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
@@ -39,6 +39,12 @@ d1700 1
 d1714 1
 d1751 1
 d1835 4
+d1845 1
+a1845 1
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
+a1847 1
+@@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
+d1849 1
 d1863 1
 a1863 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl

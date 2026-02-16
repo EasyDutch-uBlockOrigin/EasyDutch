@@ -1,10 +1,10 @@
-diff name:easydutch lines:486 checksum:b4e48ba56b
+diff name:easydutch lines:492 checksum:3f4d25811b
 d2 1
 a2 1
-! Last updated: Mon, 16 Feb 2026 14:11:41 +0000
+! Last updated: Mon, 16 Feb 2026 14:20:58 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.16.851.patch#easydutch
+! Diff-Path: patches/2026.2.16.860.patch#easydutch
 d57 9
 d77 1
 d99 2
@@ -402,6 +402,12 @@ d1699 1
 a1719 1
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 d1734 4
+d1744 1
+a1744 1
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
+a1746 1
+@@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
+d1748 1
 d1758 2
 a1759 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl

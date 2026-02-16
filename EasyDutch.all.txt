@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 16 Feb 2026 14:11:41 +0000
+! Last updated: Mon, 16 Feb 2026 14:20:58 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.16.851.patch#easydutch
+! Diff-Path: patches/2026.2.16.860.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1838,11 +1838,11 @@ tweakers.net##+js(aeld, /[\w]{16}/, /^e=>.*/)
 tweakers.net###b_re:style(visibility: collapse !important; min-height: 1.5px !important;)
 aimsolutions.nl##+js(noeval-if, adsBlocked)
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect-rule,domain=vrt.be
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xhr,script,domain=vtm.be
 @@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
+@@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
 @@||v.fwmrm.net/ad/*&caid$xhr,domain=vtm.be
-@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
 citaten.net#@##bottom-ad
 notebookcheck.nl##+js(acis, document.getElementById, AAdsspaCe)
 @@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
