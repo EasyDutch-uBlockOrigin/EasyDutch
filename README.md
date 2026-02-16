@@ -62,7 +62,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > - Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
 > - Put here after the site url `spele.nl` (no `https://www.`) 
 > - Put after this the issue number. </br>
-> Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contains all the details.
+> Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
 > - If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
 > 
 > #### Hide General
