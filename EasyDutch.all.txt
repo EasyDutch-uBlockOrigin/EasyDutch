@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 16 Feb 2026 14:20:58 +0000
+! Last updated: Tue, 17 Feb 2026 13:53:41 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.16.860.patch#easydutch
+! Diff-Path: patches/2026.2.17.833.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1849,7 +1849,6 @@ notebookcheck.nl##+js(acis, document.getElementById, AAdsspaCe)
 @@||fwmrm.net/crossdomain.xml$xhr,domain=embed.viaplay.com|racingnews365.nl
 autoweek.nl##+js(set, isAdBlockActive, false)
 doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
-directwonen.nl#@#.adsbox
 ! *** EasyDutch:EasyDutch/NSFW.txt ***
 *$3p,image,domain=kinkymedia.nl|opwindend.net
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
