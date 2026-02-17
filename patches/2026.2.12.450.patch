@@ -1,10 +1,10 @@
-diff name:easydutch lines:331 checksum:37152bd11a
+diff name:easydutch lines:331 checksum:d3ec0ae989
 d2 1
 a2 1
-! Last updated: Tue, 17 Feb 2026 13:53:41 +0000
+! Last updated: Tue, 17 Feb 2026 13:59:23 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.17.833.patch#easydutch
+! Diff-Path: patches/2026.2.17.839.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -246,7 +246,7 @@ a1805 1
 a1807 1
 @@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
 d1809 1
-d1816 1
+d1815 2
 d1819 2
 a1820 2
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
