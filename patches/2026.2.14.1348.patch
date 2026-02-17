@@ -1,10 +1,10 @@
-diff name:easydutch lines:14 checksum:d3ec0ae989
+diff name:easydutch lines:15 checksum:850f78e446
 d2 1
 a2 1
-! Last updated: Tue, 17 Feb 2026 13:59:23 +0000
+! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.17.839.patch#easydutch
+! Diff-Path: patches/2026.2.17.848.patch#easydutch
 d1835 2
 d1843 1
 a1843 1
@@ -12,4 +12,5 @@ a1843 1
 a1845 1
 @@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
 d1847 1
+d1849 1
 d1853 2

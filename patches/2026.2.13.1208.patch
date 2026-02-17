@@ -1,10 +1,10 @@
-diff name:easydutch lines:120 checksum:d3ec0ae989
+diff name:easydutch lines:121 checksum:850f78e446
 d2 1
 a2 1
-! Last updated: Tue, 17 Feb 2026 13:59:23 +0000
+! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.17.839.patch#easydutch
+! Diff-Path: patches/2026.2.17.848.patch#easydutch
 a133 2
 ||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
@@ -45,6 +45,7 @@ a1845 1
 a1847 1
 @@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
 d1849 1
+d1851 1
 d1855 2
 d1863 1
 a1863 1
