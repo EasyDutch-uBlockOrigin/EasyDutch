@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
+! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.17.848.patch#easydutch
+! Diff-Path: patches/2026.2.20.1298.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
@@ -572,6 +573,8 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+f1maximaal.nl###article-blocks > .raw-html-component
+f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ad.cw##.ad-advertisement-link:upward(1)
 fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
@@ -790,7 +793,6 @@ tijd.be##[id^="sponsored"]:upward(div.c-articlelistitem)
 bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
-f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar

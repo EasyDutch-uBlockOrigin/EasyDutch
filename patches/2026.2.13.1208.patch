@@ -1,11 +1,12 @@
-diff name:easydutch lines:121 checksum:850f78e446
+diff name:easydutch lines:125 checksum:8ece272198
 d2 1
 a2 1
-! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
+! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.17.848.patch#easydutch
-a133 2
+! Diff-Path: patches/2026.2.20.1298.patch#easydutch
+a133 3
+||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 d363 1
@@ -14,7 +15,9 @@ d414 1
 d548 1
 a548 1
 @@||ad.cw^$ghide
-a576 13
+a576 15
+f1maximaal.nl###article-blocks > .raw-html-component
+f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ad.cw##.ad-advertisement-link:upward(1)
 fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
@@ -28,6 +31,7 @@ ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text
 ninefornews.nl###top-box:upward([id^="custom_html-"])
 ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
+d782 1
 a785 1
 moviemeter.nl##.rectangle-halfpage
 d1065 5

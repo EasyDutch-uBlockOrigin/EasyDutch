@@ -1,9 +1,15 @@
-diff name:easydutch lines:8 checksum:850f78e446
+diff name:easydutch lines:14 checksum:8ece272198
 d2 1
 a2 1
-! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
+! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.17.848.patch#easydutch
+! Diff-Path: patches/2026.2.20.1298.patch#easydutch
+a133 1
+||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
+a574 2
+f1maximaal.nl###article-blocks > .raw-html-component
+f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
+d793 1
 d1847 1
 d1851 2

@@ -1,15 +1,16 @@
-diff name:easydutch lines:335 checksum:850f78e446
+diff name:easydutch lines:339 checksum:8ece272198
 d2 1
 a2 1
-! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
+! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.17.848.patch#easydutch
+! Diff-Path: patches/2026.2.20.1298.patch#easydutch
 d57 9
 d98 2
 d101 1
 d108 1
-a146 19
+a146 20
+||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
@@ -55,7 +56,9 @@ a568 1
 d574 1
 d578 1
 d584 2
-a600 100
+a600 102
+f1maximaal.nl###article-blocks > .raw-html-component
+f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ad.cw##.ad-advertisement-link:upward(1)
 fok.nl##[id^="r89"]
 regio-voetbal.nl##article [class^="r89-"]
@@ -170,6 +173,7 @@ atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##[id^="r89-"][id$="-wrapper"]
 ! End SportID
 d671 3
+d719 1
 a722 1
 moviemeter.nl##.rectangle-halfpage
 a727 1

@@ -1,7 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
+! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
 !
+! 2026-02-20
+f1maximaal.nl###article-blocks > .raw-html-component
+f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ! 2026-02-14
 ad.cw##.ad-advertisement-link:upward(1)
 fok.nl##[id^="r89"]
@@ -228,7 +231,6 @@ bnr.nl##.ad
 ! 2026-02-07
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
-f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar
