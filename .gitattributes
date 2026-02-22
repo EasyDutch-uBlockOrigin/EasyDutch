@@ -1,2 +1,3 @@
 *.txt linguist-language=Adblock linguist-detectable
 * linguist-detectable
+* text=auto eol=lf
