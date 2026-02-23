@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-23
+||psalmboek.nl/banners/$image
 ! 2026-02-20
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ! 2026-02-14
