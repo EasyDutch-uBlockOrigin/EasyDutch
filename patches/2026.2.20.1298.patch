@@ -1,0 +1,11 @@
+diff name:easydutch lines:10 checksum:dfeafa91aa
+d2 1
+a2 1
+! Last updated: Mon, 23 Feb 2026 15:33:21 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.2.23.933.patch#easydutch
+a133 1
+||psalmboek.nl/banners/$image
+a575 1
+kerkliedwiki.nl##.div-adsense

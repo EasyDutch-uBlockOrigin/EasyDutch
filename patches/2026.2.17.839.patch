@@ -1,13 +1,15 @@
-diff name:easydutch lines:13 checksum:8ece272198
+diff name:easydutch lines:15 checksum:dfeafa91aa
 d2 1
 a2 1
-! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
+! Last updated: Mon, 23 Feb 2026 15:33:21 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.20.1298.patch#easydutch
-a133 1
+! Diff-Path: patches/2026.2.23.933.patch#easydutch
+a133 2
+||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
-a574 2
+a574 3
+kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 d793 1

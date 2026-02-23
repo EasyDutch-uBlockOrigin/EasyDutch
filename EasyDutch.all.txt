@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
+! Last updated: Mon, 23 Feb 2026 15:33:21 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.20.1298.patch#easydutch
+! Diff-Path: patches/2026.2.23.933.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||online.ad.cw/AdvertisementImages$image,1p
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
@@ -573,6 +574,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ad.cw##.ad-advertisement-link:upward(1)

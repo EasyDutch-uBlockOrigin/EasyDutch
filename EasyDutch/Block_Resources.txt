@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Fri, 20 Feb 2026 21:38:21 +0000
+! Last updated: Mon, 23 Feb 2026 15:33:21 +0000
 !
+! 2026-02-23
+||psalmboek.nl/banners/$image
 ! 2026-02-20
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ! 2026-02-14
