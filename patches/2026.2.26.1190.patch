@@ -1,18 +1,9 @@
-diff name:easydutch lines:17 checksum:df5b3b13c9
+diff name:easydutch lines:8 checksum:df5b3b13c9
 d2 1
 a2 1
 ! Last updated: Thu, 26 Feb 2026 19:56:17 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.2.26.1196.patch#easydutch
-a576 3
-pal.be##.advads-sidebar
-pal.be##.advads-cta-geen-advertenties
+a578 1
 pal.be##.inside-article .gb-container > iframe[src^="https://subscribe-forms.beehiiv.com/"]:style(height:auto !important;)
-d1291 1
-d1382 5
-d1469 1
-a1469 1
-maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
-d1810 4
-d1817 1
