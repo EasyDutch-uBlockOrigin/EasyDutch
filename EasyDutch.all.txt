@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Thu, 26 Feb 2026 19:56:17 +0000
+! Last updated: Thu, 26 Feb 2026 20:19:44 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.26.1196.patch#easydutch
+! Diff-Path: patches/2026.2.26.1219.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||online.ad.cw/AdvertisementImages$image,1p
@@ -311,10 +312,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||rickfm.nl/cwm/fm/userfiles/banner/foto/thumb$image
 ||rickfm.nl/views/rickfm/images/*.gif$image
 ||sedproductions.nl/ads/$image,3p
-/wp-content/uploads/*/banner.jpg$image,domain=radiozuidrand.be
-/wp-content/uploads/*/banner_reclame$image,domain=radiozuidrand.be
-/wp-content/uploads/*/banner-sponsors$image,domain=radiozuidrand.be
-||wp.com/cdn.onlineradiobox.com/img/b/$image,domain=radiozuidrand.be
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*week$image
 /images/banners/*$image,domain=bodemvondstenwereld.nl|drentsnieuws.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
 /wp-content/*banner$image,domain=retaildetail.be|retaildetail.nl
@@ -574,6 +571,9 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
+rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
+radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(PARTNERS))
 pal.be##.advads-sidebar
 pal.be##.advads-cta-geen-advertenties
 pal.be##.inside-article .gb-container > iframe[src^="https://subscribe-forms.beehiiv.com/"]:style(height:auto !important;)
@@ -1120,7 +1120,6 @@ omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 osurtv.nl##.wdslider:has-text(/Sponsor|partners/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
 riskcompliance.nl##a[onclick*="Banner"]:not(a[href*="riskcompliance.nl"]):upward(article)
-rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
 rtvgo.nl##.thanksto
 voetbalbelgie.be##div[class$="-atf"]
@@ -1492,8 +1491,6 @@ kalender-365.nl###dish-top-desktop
 feestdagen-nederland.nl###ad-top-desktop
 feestdagen-be.be,feestdagen-nl.nl##aside:has(.adsbygoogle)
 feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
-wereldklokken.nl##.adsbygoogle:style(visibility: collapse !important;)
-wereldklokken.nl##.klokken:style(transform: translateX(-180px ) !important;)
 duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/uploads/"])
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
@@ -1750,7 +1747,6 @@ geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-typ
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
-radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(ADVERTEERDERS))
 tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))
 goedkoopstekeukensduitsland.nl##[id^="text"]:has(a[href^="https://www.goedkoopstekeukensduitsland.nl"][href$="-bnr"])
@@ -1795,9 +1791,6 @@ leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 ! *** EasyDutch:EasyDutch/Hide_Whitelist.txt ***
 gratisaftehalen.nl#@#.ads-image
-rotterdam-nesselande.nl#@#ins.adsbygoogle
-gratis.nl#@#a[href^="https://ndt5.net/"]
-wereldklokken.nl#@#ins.adsbygoogle
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,lokerenrss.be,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 radiozuidrand.be#@#.advertisement_300x250
 radiozuidrand.be#@#.advertisement_728x90
