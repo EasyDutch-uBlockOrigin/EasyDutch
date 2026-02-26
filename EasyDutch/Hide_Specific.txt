@@ -1,8 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 26 Feb 2026 19:39:04 +0000
+! Last updated: Thu, 26 Feb 2026 19:50:06 +0000
 !
 ! 2026-02-26
+pal.be##.advads-sidebar
 pal.be##.advads-cta-geen-advertenties
 ! 2026-02-23
 kerkliedwiki.nl##.div-adsense
