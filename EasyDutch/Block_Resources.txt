@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-26
+||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ! 2026-02-23
 ||psalmboek.nl/banners/$image
 ! 2026-02-20
