@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-26
+pal.be##.advads-cta-geen-advertenties
 ! 2026-02-23
 kerkliedwiki.nl##.div-adsense
 ! 2026-02-20
