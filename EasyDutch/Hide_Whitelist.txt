@@ -22,8 +22,6 @@ radiozuidrand.be#@#.widget_300x250_advertisement
 ! 2022-06-28
 palnws.be#@#.adlink
 palnws.be#@#.ads-wrapper
-! 2022-06-14
-marktnet.nl#@#.ad-description
 ! 2022-04-14
 mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title
@@ -35,4 +33,5 @@ marktplaats.nl#@#.adSummary
 !#if env_mobile
 klusidee.nl#@#.header-ad
 !#endif
+
 
