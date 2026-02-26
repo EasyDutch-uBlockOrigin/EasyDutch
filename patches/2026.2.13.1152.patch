@@ -1,10 +1,10 @@
-diff name:easydutch lines:160 checksum:dfeafa91aa
+diff name:easydutch lines:168 checksum:3482fc6fda
 d2 1
 a2 1
-! Last updated: Mon, 23 Feb 2026 15:33:21 +0000
+! Last updated: Thu, 26 Feb 2026 19:39:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.23.933.patch#easydutch
+! Diff-Path: patches/2026.2.26.1179.patch#easydutch
 d57 9
 d98 2
 d101 1
@@ -30,7 +30,8 @@ a570 1
 d576 1
 d580 1
 d586 2
-a602 16
+a602 17
+pal.be##.advads-cta-geen-advertenties
 kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
@@ -53,7 +54,12 @@ moviemeter.nl##.rectangle-halfpage
 d1091 5
 d1173 1
 d1228 1
+d1308 1
 d1359 1
+d1400 5
+d1487 1
+a1487 1
+maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1501 1
 d1569 1
 a1569 1
@@ -66,6 +72,8 @@ d1695 1
 d1731 1
 d1745 1
 d1782 1
+d1837 4
+d1844 1
 d1866 4
 d1876 1
 a1876 1

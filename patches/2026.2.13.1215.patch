@@ -1,10 +1,10 @@
-diff name:easydutch lines:126 checksum:dfeafa91aa
+diff name:easydutch lines:134 checksum:3482fc6fda
 d2 1
 a2 1
-! Last updated: Mon, 23 Feb 2026 15:33:21 +0000
+! Last updated: Thu, 26 Feb 2026 19:39:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.23.933.patch#easydutch
+! Diff-Path: patches/2026.2.26.1179.patch#easydutch
 a133 4
 ||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
@@ -16,7 +16,8 @@ d414 1
 d548 1
 a548 1
 @@||ad.cw^$ghide
-a576 15
+a576 16
+pal.be##.advads-cta-geen-advertenties
 kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
@@ -37,12 +38,19 @@ a786 1
 moviemeter.nl##.rectangle-halfpage
 d1066 5
 d1148 1
+d1282 1
+d1373 5
+d1460 1
+a1460 1
+maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1594 1
 d1641 1
 d1665 1
 d1701 1
 d1715 1
 d1752 1
+d1807 4
+d1814 1
 d1836 4
 d1846 1
 a1846 1
