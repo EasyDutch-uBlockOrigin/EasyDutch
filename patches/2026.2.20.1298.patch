@@ -1,15 +1,16 @@
-diff name:easydutch lines:29 checksum:11efa40c5e
+diff name:easydutch lines:32 checksum:a363e58e5a
 d2 1
 a2 1
-! Last updated: Thu, 26 Feb 2026 20:19:44 +0000
+! Last updated: Thu, 26 Feb 2026 20:26:39 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.26.1219.patch#easydutch
+! Diff-Path: patches/2026.2.26.1226.patch#easydutch
 a133 2
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
 d313 4
-a575 7
+a575 8
+gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(PARTNERS))
@@ -24,7 +25,9 @@ d1467 1
 a1467 1
 maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1496 2
+d1683 1
 d1754 1
 d1799 3
 d1808 4
 d1815 1
+d1834 1

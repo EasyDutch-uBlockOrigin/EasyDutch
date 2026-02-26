@@ -1,8 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 26 Feb 2026 20:19:44 +0000
+! Last updated: Thu, 26 Feb 2026 20:26:39 +0000
 !
 ! 2026-02-26
+gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(PARTNERS))
@@ -1246,7 +1247,6 @@ feyenoord.nl##.partners
 golf.be##.partners-holder
 appletips.nl##.ph_upgreatest
 denachtvlinders.nl##.plek-boven-artikel
-gratisaftehalen.nl##.plistaAllOuter
 fhm500.nl##.powered_by_page
 fhm500.nl##.powered_by_profile
 koopplein.nl##.promobloc-desktop

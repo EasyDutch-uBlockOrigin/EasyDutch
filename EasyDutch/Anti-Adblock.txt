@@ -1,6 +1,6 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Tue, 17 Feb 2026 14:08:20 +0000
+! Last updated: Thu, 26 Feb 2026 20:26:39 +0000
 !
 ! 2026-02-10
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
@@ -29,7 +29,6 @@ meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; p
 ! https://github.com/NanoMeow/QuickReports/issues/1285
 @@||ah.nl^$ghide
 radiowereld.nl##+js(nosiif, adb)
-gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 ! 2023-10-06 https://github.com/AdguardTeam/AdguardFilters/issues/163031
 looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
 ! 2023-08-21 https://github.com/uBlockOrigin/uAssets/issues/19295
