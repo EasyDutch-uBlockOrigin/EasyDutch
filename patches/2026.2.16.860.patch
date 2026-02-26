@@ -1,10 +1,10 @@
-diff name:easydutch lines:38 checksum:a363e58e5a
+diff name:easydutch lines:40 checksum:4b5da05f9a
 d2 1
 a2 1
-! Last updated: Thu, 26 Feb 2026 20:26:39 +0000
+! Last updated: Thu, 26 Feb 2026 20:32:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.26.1226.patch#easydutch
+! Diff-Path: patches/2026.2.26.1231.patch#easydutch
 a133 3
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
@@ -34,6 +34,8 @@ d1752 1
 d1797 3
 d1806 4
 d1813 1
+a1819 1
+gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 d1832 1
 d1847 1
 d1851 2

@@ -1,13 +1,9 @@
-diff name:easydutch lines:12 checksum:4b5da05f9a
+diff name:easydutch lines:8 checksum:4b5da05f9a
 d2 1
 a2 1
 ! Last updated: Thu, 26 Feb 2026 20:32:01 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.2.26.1231.patch#easydutch
-a573 1
-gratisaftehalen.nl##[class^="r89-"]
-d1679 1
 a1808 1
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
-d1821 1
