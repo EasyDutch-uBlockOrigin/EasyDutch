@@ -30,8 +30,6 @@ wereldreizigers.nl#@#.gridlove-ad
 mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
-! 2022-01-14
-japan-webike.*#@#.img_ad
 ! 2021-08-04
 focus-wtv.be#@#.sponsored-article
 ! 2021-06-04
