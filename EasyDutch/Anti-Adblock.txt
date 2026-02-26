@@ -2,6 +2,8 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-02-26
+gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 ! 2026-02-10
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 ! 2026-02-06
