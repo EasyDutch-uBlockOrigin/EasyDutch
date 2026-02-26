@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-02-26
+pal.be##.advads-sidebar
 pal.be##.advads-cta-geen-advertenties
 ! 2026-02-23
 kerkliedwiki.nl##.div-adsense
