@@ -5,6 +5,7 @@
 ! 2026-02-26
 pal.be##.advads-sidebar
 pal.be##.advads-cta-geen-advertenties
+pal.be##.inside-article .gb-container > iframe[src^="https://subscribe-forms.beehiiv.com/"]:style(height:auto !important;)
 ! 2026-02-23
 kerkliedwiki.nl##.div-adsense
 ! 2026-02-20
