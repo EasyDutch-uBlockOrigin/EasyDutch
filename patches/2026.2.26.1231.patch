@@ -1,4 +1,4 @@
-diff name:easydutch lines:10 checksum:ea38deed4a
+diff name:easydutch lines:8 checksum:ea38deed4a
 d2 1
 a2 1
 ! Last updated: Fri, 27 Feb 2026 15:45:27 +0000
@@ -7,5 +7,3 @@ a4 1
 ! Diff-Path: patches/2026.2.27.945.patch#easydutch
 a573 1
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
-a1808 1
-gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)

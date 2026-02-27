@@ -1,14 +1,15 @@
-diff name:easydutch lines:24 checksum:4b5da05f9a
+diff name:easydutch lines:25 checksum:ea38deed4a
 d2 1
 a2 1
-! Last updated: Thu, 26 Feb 2026 20:32:01 +0000
+! Last updated: Fri, 27 Feb 2026 15:45:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.2.26.1231.patch#easydutch
+! Diff-Path: patches/2026.2.27.945.patch#easydutch
 a133 1
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 d314 4
-a576 4
+a576 5
+westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)

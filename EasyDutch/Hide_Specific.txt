@@ -1,7 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 26 Feb 2026 20:26:39 +0000
+! Last updated: Fri, 27 Feb 2026 15:45:27 +0000
 !
+! 2026-02-27
+westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 ! 2026-02-26
 gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
