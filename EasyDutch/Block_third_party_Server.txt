@@ -1,7 +1,10 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
+! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
 !
+! 2026-03-02
+||clkmg.com^$3p
+||lt45.net^$3p
 ! 2026-02-07
 ||cdn.aa.onstuimig.nl^$3p
 ||publize.net^$3p

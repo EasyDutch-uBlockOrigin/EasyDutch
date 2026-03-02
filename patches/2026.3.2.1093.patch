@@ -1,4 +1,4 @@
-diff name:easydutch lines:40 checksum:02e2f70ef2
+diff name:easydutch lines:31 checksum:02e2f70ef2
 d2 1
 a2 1
 ! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
@@ -13,29 +13,20 @@ a133 1
 d319 1
 a319 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
-d442 2
-d456 3
-d539 2
-d543 1
-d561 2
-a573 5
+d454 3
+d537 2
+a568 3
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
-westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
-gratisaftehalen.nl##[class^="r89-"]
-d1393 1
-d1501 1
-d1505 1
-d1679 1
-d1752 1
-d1782 1
-a1782 1
+d1390 1
+d1498 1
+d1502 1
+d1748 1
+d1778 1
+a1778 1
 kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)
-d1784 2
-a1785 1
+d1780 2
+a1781 1
 kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
-d1788 3
-a1808 1
-gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
-d1821 1
+d1784 3

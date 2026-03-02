@@ -1,23 +1,35 @@
-diff name:easydutch lines:70 checksum:ed5f6b3a72
+diff name:easydutch lines:93 checksum:02e2f70ef2
 d2 1
 a2 1
-! Last updated: Mon, 02 Mar 2026 18:13:03 +0000
+! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.2.1093.patch#easydutch
-a133 4
+! Diff-Path: patches/2026.3.2.1147.patch#easydutch
+a59 2
+||clkmg.com^$3p
+||lt45.net^$3p
+a133 5
+||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||online.ad.cw/AdvertisementImages$image,1p
 d311 4
+d319 1
+a319 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 d442 2
+d456 3
+d539 2
 d543 1
 d545 1
 a545 1
 @@||ad.cw^$ghide
 d561 2
-a573 13
+a573 16
+kinderspelletjes.nl##[class^="Ad-"]
+goedkoopstekeukensduitsland.nl###sidebar
+goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
@@ -38,13 +50,24 @@ d1112 1
 d1150 1
 d1284 1
 d1375 5
+d1390 1
 d1462 1
 a1462 1
 maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1491 2
+d1500 1
+d1504 1
 d1678 1
 d1713 1
 d1750 1
+d1753 1
+d1783 1
+a1783 1
+kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)
+d1785 2
+a1786 1
+kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
+d1789 3
 d1795 3
 d1804 4
 d1811 1

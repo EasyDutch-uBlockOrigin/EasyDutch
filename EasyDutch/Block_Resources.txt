@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Mon, 02 Mar 2026 18:13:03 +0000
+! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
 !
+! 2026-03-02
+||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ! 2026-02-26
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ! 2026-02-23
@@ -230,7 +232,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /images/banners/*$image,domain=bodemvondstenwereld.nl|drentsnieuws.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
 /wp-content/*banner$image,domain=retaildetail.be|retaildetail.nl
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|regionoordkop.nl|rtvlansingerland.nl|unitednews.sr
-/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
 /banner/*$image,1p,domain=alkmaarsdagblad.nl|almelosdagblad.nl|almeredagblad.nl|amstelveensdagblad.nl|amsterdamsdagblad.nl|arnhemmerdagblad.nl|assensdagblad.nl|bergensdagblad.nl|beverwijkerdagblad.nl|bloemendaalsdagblad.nl|bosschedagblad.nl|bredasdagblad.nl|castricumsdagblad.nl|dagbladdijkenwaard.nl|dagbladeindhoven.nl|dagbladgroningen.nl|dagbladutrecht.nl|denheldersdagblad.nl|deventersdagblad.nl|doetinchemsdagblad.nl|dokkumerdagblad.nl|dordrechtsdagblad.nl|drechterlandsdagblad.nl|drontensdagblad.nl|emmensdagblad.nl|enkhuizerdagblad.nl|enschedesdagblad.nl|gooischdagblad.nl|haagsdagblad.nl|haarlemmerdagblad.nl|haarlemmermeerdagblad.nl|harlingerdagblad.nl|heemskerkerdagblad.nl|heerenveensdagblad.nl|heerhugowaardsdagblad.nl|heerlensdagblad.nl|heilooerdagblad.nl|helmondsdagblad.nl|hilversumsdagblad.nl|hollandskroondagblad.nl|hoornsdagblad.nl|ijmuidensdagblad.nl|jouresdagblad.nl|katwijksdagblad.nl|kennemerdagblad.nl|koggenlandsdagblad.nl|langedijkerdagblad.nl|leeuwarderdagblad.nl|lelystadsdagblad.nl|lemsterdagblad.nl|maastrichterdagblad.nl|medembliksdagblad.nl|middelburgsdagblad.nl|nieuwsuitwestfriesland.nl|nijmeegsedagblad.nl|noordlimburgsdagblad.nl|noordoostpoldersdagblad.nl|noordwijkerdagblad.nl|nunspeetsdagblad.nl|opmeerderdagblad.nl|purmerendsdagblad.nl|rodensdagblad.nl|roermondsdagblad.nl|rotterdammerdagblad.nl|sassenheimsdagblad.nl|schagerdagblad.nl|schermerdagblad.nl|sittardsdagblad.nl|sneekerdagblad.nl|stedebroecsdagblad.nl|texelsdagblad.nl|tielsdagblad.nl|tilburgsdagblad.nl|uitgeesterdagblad.nl|volendamsdagblad.nl|wassenaarsdagblad.nl|waterlandsdagblad.nl|westlandsdagblad.nl|wieringerdagblad.nl|wormersdagblad.nl|zaandamsdagblad.nl|zandvoortsdagblad.nl|zeewoldesdagblad.nl|zwolledagblad.nl
 ! 2023-03-28
@@ -398,9 +400,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
 ||forum.spaarinformatie.nl/si-info.html
 ||fx.nl/_ext/widget/$3p
-||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukencoach-300x250.jpg
-||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
-||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
 ||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 ||greenkeeper.nl/upload/banners/
 ||greenkeeper.nl/upload/relaties/
@@ -481,7 +480,5 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
-||wietforum.nl/uploads/monthly_*/*_312x60*.jpg.*.jpg$image
-||wietforum.nl/uploads/monthly_*/ai_php.gif.*.gif$image
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl

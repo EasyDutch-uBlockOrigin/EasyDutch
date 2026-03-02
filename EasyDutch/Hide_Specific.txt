@@ -1,7 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 27 Feb 2026 15:45:27 +0000
+! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
 !
+! 2026-03-02
+kinderspelletjes.nl##[class^="Ad-"]
+goedkoopstekeukensduitsland.nl###sidebar
+goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 ! 2026-02-27
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 ! 2026-02-26
@@ -930,7 +934,6 @@ aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsorlinks
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
-apintie.sr##div[style*="width:300px; height:200px;"]
 ! 2022-06-22
 binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
 investmentofficer.nl##.region-banner
@@ -1071,11 +1074,9 @@ kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
 netonline.be##.tekstboldwit td:has-text(/advert/i)
 ! 2022-01-13
 morningstar.*###ad_top_page
-kinderspelletjes.nl###adBoven
 filmtotaal.nl###adf-rectangle
 marokko.nl###ad-rec-btf
 kinderspelletjes.be###adRechts
-kinderspelletjes.nl###adRechts2
 apintie.sr###ads
 m.radioluisteren.fm###adsense
 openingstijden.com###adsense_CSA
@@ -1321,7 +1322,6 @@ kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopene
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))
-goedkoopstekeukensduitsland.nl##[id^="text"]:has(a[href^="https://www.goedkoopstekeukensduitsland.nl"][href$="-bnr"])
 adbroere.nl##[id^="text-"]:has-text(adv)
 kledingmaten.nl##[id^="text-"]:has-text(Advert)
 senseigaming.be##[id^="text-"]:has-text(sponsors)
@@ -1351,13 +1351,9 @@ banknieuws.info##div[class="widget HTML"]
 basketball.nl##div[data-component="partner"]
 handbalinside.nl##div[id^="handb-"]
 apintie.sr##div[style*="width:300px; height:250px;"]
-kinderspelletjes.be,kinderspelletjes.nl##div[style*="width:970px"]:has-text(Reclame)
+kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)
 apintie.sr##div[style^="width:300px; height:180px;"]
-kinderspelletjes.be,kinderspelletjes.nl##div[style^="width:336px;height:290px"]:has-text(Reclame)
-gamereactor.nl##div[style="min-height: 600px; margin-bottom: 20px;"]
+kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
 rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
-goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
-wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
-leerzaam.com##p:has(.adsbygoogle)
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))

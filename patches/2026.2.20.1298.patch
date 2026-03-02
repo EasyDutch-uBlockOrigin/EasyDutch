@@ -1,18 +1,30 @@
-diff name:easydutch lines:38 checksum:ed5f6b3a72
+diff name:easydutch lines:61 checksum:02e2f70ef2
 d2 1
 a2 1
-! Last updated: Mon, 02 Mar 2026 18:13:03 +0000
+! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.2.1093.patch#easydutch
-a133 2
+! Diff-Path: patches/2026.3.2.1147.patch#easydutch
+a59 2
+||clkmg.com^$3p
+||lt45.net^$3p
+a133 3
+||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
 d313 4
+d321 1
+a321 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 d444 2
+d458 3
+d541 2
 d545 1
 d563 2
-a575 9
+a575 12
+kinderspelletjes.nl##[class^="Ad-"]
+goedkoopstekeukensduitsland.nl###sidebar
+goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
@@ -25,12 +37,23 @@ kerkliedwiki.nl##.div-adsense
 d1118 1
 d1289 1
 d1380 5
+d1395 1
 d1467 1
 a1467 1
 maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1496 2
+d1505 1
+d1509 1
 d1683 1
 d1754 1
+d1757 1
+d1787 1
+a1787 1
+kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)
+d1789 2
+a1790 1
+kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
+d1793 3
 d1799 3
 d1808 4
 d1815 1
