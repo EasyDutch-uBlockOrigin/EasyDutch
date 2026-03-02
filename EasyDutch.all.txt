@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 27 Feb 2026 15:45:27 +0000
+! Last updated: Mon, 02 Mar 2026 18:13:03 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.2.27.945.patch#easydutch
+! Diff-Path: patches/2026.3.2.1093.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -439,8 +439,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
 ||duurzaam-actueel.nl^*banner
 ||edelmetaal-info.nl/cdfund-336x280.html
-||edelmetaal-info.nl/images/$domain=zilverengoudkopen.nl
-||edelmetaal-info.nl/wp-content/uploads/images/$domain=zilverengoudkopen.nl
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
 ||elektormagazine.nl/assets/upload/banners/
 ||elektronicaforum.nl/banner*$image,1p
@@ -540,7 +538,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wietforum.nl/uploads/monthly_*/ai_php.gif.*.gif$image
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
-||zilverengoudkopen.nl/banners/
 ! *** EasyDutch:EasyDutch/Block_Whitelist.txt ***
 @@||ad.cw^$ghide
 @@||vandale.*/*/images/*_300x250.$image,1p
@@ -558,8 +555,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 @@||sliedrecht24.nl/wp-content/uploads/*/Banner-300x250*.jpg$image,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dailybuzz.nl
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
-@@||zilverengoudkopen.nl/banners/header.jpg
-@@||zilverengoudkopen.nl/banners/onder.jpg
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sportnieuws.nl
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php

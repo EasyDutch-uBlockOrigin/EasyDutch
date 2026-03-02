@@ -1,6 +1,6 @@
 ! Title: Block Whitelist
 ! Description: Whitelist for specific URLs on Dutch websites
-! Last updated: Sat, 14 Feb 2026 22:28:52 +0000
+! Last updated: Mon, 02 Mar 2026 18:13:03 +0000
 !
 ! 2026-02-14
 @@||ad.cw^$ghide
@@ -35,9 +35,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dailybuzz.nl
 ! 2021-12-14
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
-! 2021-12-02
-@@||zilverengoudkopen.nl/banners/header.jpg
-@@||zilverengoudkopen.nl/banners/onder.jpg
 ! 2021-11-03
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sportnieuws.nl
 ! 2021-04-27

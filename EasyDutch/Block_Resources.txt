@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Thu, 26 Feb 2026 20:19:44 +0000
+! Last updated: Mon, 02 Mar 2026 18:13:03 +0000
 !
 ! 2026-02-26
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
@@ -386,8 +386,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
 ||duurzaam-actueel.nl^*banner
 ||edelmetaal-info.nl/cdfund-336x280.html
-||edelmetaal-info.nl/images/$domain=zilverengoudkopen.nl
-||edelmetaal-info.nl/wp-content/uploads/images/$domain=zilverengoudkopen.nl
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
 ||elektormagazine.nl/assets/upload/banners/
 ||elektronicaforum.nl/banner*$image,1p
@@ -487,4 +485,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wietforum.nl/uploads/monthly_*/ai_php.gif.*.gif$image
 ||xingo.nl/bannermanagement/
 ||xsnews.nl/aff/$image,domain=nzbindex.nl
-||zilverengoudkopen.nl/banners/
