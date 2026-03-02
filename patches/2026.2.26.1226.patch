@@ -1,10 +1,10 @@
-diff name:easydutch lines:37 checksum:02e2f70ef2
+diff name:easydutch lines:38 checksum:4baa61d55b
 d2 1
 a2 1
-! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
+! Last updated: Mon, 02 Mar 2026 19:35:43 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.2.1147.patch#easydutch
+! Diff-Path: patches/2026.3.2.1175.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -18,7 +18,8 @@ d456 3
 d539 2
 d543 1
 d561 2
-a573 4
+a573 5
+sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
