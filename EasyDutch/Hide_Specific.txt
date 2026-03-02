@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-02
+sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
