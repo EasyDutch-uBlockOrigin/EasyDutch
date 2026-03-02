@@ -4,7 +4,7 @@
 !
 ! 2026-03-02
 ||clkmg.com^$3p
-||lt45.net^3p
+||lt45.net^$3p
 ! 2026-02-07
 ||cdn.aa.onstuimig.nl^$3p
 ||publize.net^$3p
