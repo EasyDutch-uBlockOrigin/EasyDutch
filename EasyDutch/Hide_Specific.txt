@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-02
+kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 ! 2026-02-27
@@ -1073,11 +1074,9 @@ kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
 netonline.be##.tekstboldwit td:has-text(/advert/i)
 ! 2022-01-13
 morningstar.*###ad_top_page
-kinderspelletjes.nl###adBoven
 filmtotaal.nl###adf-rectangle
 marokko.nl###ad-rec-btf
 kinderspelletjes.be###adRechts
-kinderspelletjes.nl###adRechts2
 apintie.sr###ads
 m.radioluisteren.fm###adsense
 openingstijden.com###adsense_CSA
@@ -1352,9 +1351,9 @@ banknieuws.info##div[class="widget HTML"]
 basketball.nl##div[data-component="partner"]
 handbalinside.nl##div[id^="handb-"]
 apintie.sr##div[style*="width:300px; height:250px;"]
-kinderspelletjes.be,kinderspelletjes.nl##div[style*="width:970px"]:has-text(Reclame)
+kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)
 apintie.sr##div[style^="width:300px; height:180px;"]
-kinderspelletjes.be,kinderspelletjes.nl##div[style^="width:336px;height:290px"]:has-text(Reclame)
+kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
 rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
