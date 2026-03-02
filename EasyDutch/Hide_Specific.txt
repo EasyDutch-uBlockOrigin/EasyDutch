@@ -933,7 +933,6 @@ aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsorlinks
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
-apintie.sr##div[style*="width:300px; height:200px;"]
 ! 2022-06-22
 binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
 investmentofficer.nl##.region-banner
