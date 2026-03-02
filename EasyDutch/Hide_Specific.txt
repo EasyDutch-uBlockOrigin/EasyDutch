@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-02
+goedkoopstekeukensduitsland.nl###sidebar
+goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 ! 2026-02-27
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 ! 2026-02-26
@@ -1321,7 +1324,6 @@ kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopene
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))
-goedkoopstekeukensduitsland.nl##[id^="text"]:has(a[href^="https://www.goedkoopstekeukensduitsland.nl"][href$="-bnr"])
 adbroere.nl##[id^="text-"]:has-text(adv)
 kledingmaten.nl##[id^="text-"]:has-text(Advert)
 senseigaming.be##[id^="text-"]:has-text(sponsors)
@@ -1357,6 +1359,4 @@ kinderspelletjes.be,kinderspelletjes.nl##div[style^="width:336px;height:290px"]:
 gamereactor.nl##div[style="min-height: 600px; margin-bottom: 20px;"]
 rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
-goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-
