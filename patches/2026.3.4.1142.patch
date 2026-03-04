@@ -1,14 +1,12 @@
-diff name:easydutch lines:13 checksum:16e03db12b
+diff name:easydutch lines:11 checksum:16e03db12b
 d2 1
 a2 1
 ! Last updated: Wed, 04 Mar 2026 19:18:23 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.3.4.1158.patch#easydutch
-a566 2
+a566 1
 meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
-sante.nl##[id^="adf-"]
-d1623 1
-d1764 3
-d1768 2
-d1772 1
+d1624 1
+d1765 3
+d1769 2

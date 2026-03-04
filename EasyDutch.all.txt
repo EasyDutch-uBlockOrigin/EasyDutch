@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 04 Mar 2026 19:02:23 +0000
+! Last updated: Wed, 04 Mar 2026 19:18:23 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.4.1142.patch#easydutch
+! Diff-Path: patches/2026.3.4.1158.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -564,6 +564,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
@@ -1621,7 +1622,6 @@ hyvesgames.nl##.gamereel_featured-ad
 fierljeppenwinsum.frl##.gdlr-sidebar:has-text(sponsoren)
 radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
-mariogames.be##.googleadvidx
 srherald.com##.gsrhera
 golf.be##.header__bottom
 ajax.nl##.header__partner-link
@@ -1762,12 +1762,7 @@ digitaalburg.com##aside[class^="widget widget_text"]
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
-mariogames.be##div.gameinfo:has-text(/sponsored links/i)
-meteovista.be##div[class*="AdWrapper"]
-reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
-weeronline.nl##div[class^="styled__AdWrapper-"]
-weeronline.nl##div[class^="styled__FooterAdWrapper-"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
 handbalinside.nl##div[id^="handb-"]
