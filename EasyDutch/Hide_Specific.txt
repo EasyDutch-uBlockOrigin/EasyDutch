@@ -1345,7 +1345,6 @@ classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 mariogames.be##div.gameinfo:has-text(/sponsored links/i)
 meteovista.be##div[class*="AdWrapper"]
-reclamefolder.nl##div[class^="ad_"]
 zoom.nl##div[class^="display-ad_container"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
