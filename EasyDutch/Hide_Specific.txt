@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-04
-weeronline.nl##.fullScreenAdWrapper:upward(1)
+meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 ! 2026-03-02
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
@@ -1344,7 +1344,6 @@ dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 mariogames.be##div.gameinfo:has-text(/sponsored links/i)
-meteovista.be##div[class*="AdWrapper"]
 zoom.nl##div[class^="display-ad_container"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
