@@ -1202,7 +1202,6 @@ hyvesgames.nl##.gamereel_featured-ad
 fierljeppenwinsum.frl##.gdlr-sidebar:has-text(sponsoren)
 radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
-mariogames.be##.googleadvidx
 srherald.com##.gsrhera
 golf.be##.header__bottom
 ajax.nl##.header__partner-link
@@ -1343,7 +1342,6 @@ digitaalburg.com##aside[class^="widget widget_text"]
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
-mariogames.be##div.gameinfo:has-text(/sponsored links/i)
 zoom.nl##div[class^="display-ad_container"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
