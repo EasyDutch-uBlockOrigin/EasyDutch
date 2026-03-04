@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 02 Mar 2026 19:35:43 +0000
+! Last updated: Wed, 04 Mar 2026 19:02:23 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.2.1175.patch#easydutch
+! Diff-Path: patches/2026.3.4.1142.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1770,7 +1770,6 @@ weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
-basketball.nl##div[data-component="partner"]
 handbalinside.nl##div[id^="handb-"]
 apintie.sr##div[style*="width:300px; height:250px;"]
 kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)

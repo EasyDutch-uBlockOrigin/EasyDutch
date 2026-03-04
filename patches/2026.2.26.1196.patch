@@ -1,10 +1,10 @@
-diff name:easydutch lines:50 checksum:4baa61d55b
+diff name:easydutch lines:51 checksum:0026b00269
 d2 1
 a2 1
-! Last updated: Mon, 02 Mar 2026 19:35:43 +0000
+! Last updated: Wed, 04 Mar 2026 19:02:23 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.2.1175.patch#easydutch
+! Diff-Path: patches/2026.3.4.1142.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -38,6 +38,7 @@ d1508 1
 d1682 1
 d1753 1
 d1756 1
+d1783 1
 d1786 1
 a1786 1
 kinderspelletjes.be##div[style*="width:970px"]:has-text(Reclame)
