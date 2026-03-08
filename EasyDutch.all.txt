@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
+! Last updated: Sun, 08 Mar 2026 14:17:53 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.8.849.patch#easydutch
+! Diff-Path: patches/2026.3.8.857.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -560,6 +560,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
@@ -1627,7 +1628,6 @@ ajax.nl##.header__partner-link
 eredivisie.nl##.header__top__partners
 koopplein.nl,televizier.nl,tvblik.nl##.header-banner
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
-weerplaza.nl##.hf-widget
 farm-date.com##.hide-for-small-only:has-text(Sponsors)
 oogtv.nl##.home-banner
 jan-magazine.nl##.homepage-marquee

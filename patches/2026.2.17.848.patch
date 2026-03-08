@@ -1,10 +1,10 @@
-diff name:easydutch lines:87 checksum:503352c0ff
+diff name:easydutch lines:89 checksum:78cdea420d
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
+! Last updated: Sun, 08 Mar 2026 14:17:53 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.849.patch#easydutch
+! Diff-Path: patches/2026.3.8.857.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -27,7 +27,8 @@ d540 2
 d544 1
 d550 2
 d562 2
-a574 23
+a574 24
+weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
@@ -67,6 +68,7 @@ d1503 1
 d1507 1
 d1599 1
 d1630 1
+d1637 1
 d1681 1
 d1752 1
 d1755 1
