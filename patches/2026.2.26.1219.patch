@@ -1,10 +1,10 @@
-diff name:easydutch lines:79 checksum:9813e061f5
+diff name:easydutch lines:94 checksum:a6bf1e2f62
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
+! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.902.patch#easydutch
+! Diff-Path: patches/2026.3.8.1025.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -12,6 +12,7 @@ a133 2
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 d235 1
+d265 1
 d319 1
 a319 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
@@ -20,11 +21,17 @@ d393 5
 d442 2
 d456 3
 d505 1
+d524 1
 d539 2
 d543 1
 d549 2
 d561 2
-a573 23
+a573 28
+appletips.nl##a[href^="/adverteren-"]
+appletips.nl##[class^="ph_block"]
+appletips.nl##.ph_appelhoes
+appletips.nl##.ttBlock
+bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
@@ -50,20 +57,27 @@ westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.ads
 gratisaftehalen.nl##[class^="r89-"]
 d1078 1
 d1133 1
+d1169 1
 d1236 1
+d1291 1
 d1393 1
 d1497 1
 d1501 1
 d1505 1
+d1540 1
 d1570 1
 d1572 1
 d1597 1
+d1618 1
 d1622 1
 d1628 1
 d1635 1
+d1677 1
 d1679 1
 d1729 1
+d1739 1
 d1752 1
+d1758 5
 d1765 3
 d1771 3
 d1775 2
@@ -75,6 +89,7 @@ d1784 2
 a1785 1
 kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
 d1788 3
+d1803 1
 a1808 1
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 d1821 1

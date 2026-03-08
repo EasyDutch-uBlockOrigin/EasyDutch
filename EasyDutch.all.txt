@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
+! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.8.902.patch#easydutch
+! Diff-Path: patches/2026.3.8.1025.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -265,7 +265,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||autonieuws.be/templates/yootheme/cache/*/Athlon_Banner$image
 ||autonieuws.be/templates/yootheme/cache/*/BEL_March23_B2C_XCEED_800x172_nl-*$image
 ||webstick.nl/images/images-ads/
-||i0.wp.com/www.appletips.nl/wp-content/uploads/hm.jpg$image
 ||onlinecorrectie.nl/cnc/$image
 ||boottesten.nl/wp-content/uploads/*/*Ad.gif
 ||boottesten.nl/wp-content/uploads/*/banner$image
@@ -512,7 +511,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||stepstone.be/*?event=widgettool.$3p
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
-||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
 ||tradeidee.nl/banners/
@@ -555,6 +553,11 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+appletips.nl##a[href^="/adverteren-"]
+appletips.nl##[class^="ph_block"]
+appletips.nl##.ph_appelhoes
+appletips.nl##.ttBlock
+bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
@@ -1171,7 +1174,6 @@ autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 gebruikershandleiding.com##[class^="adserver-container"]
 webstick.nl##p.center2:has-text(Advert)
 webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
-appletips.nl##.ph_appelhoes
 insideflyer.nl##.adsbymanatee
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 daemesenheeren.nl##.widget_media_image
@@ -1292,7 +1294,6 @@ gooieneembode.nl##[href^="/nieuws/advert"]:upward(2)
 minimumloon.nl##.header-widget-region > .col-full
 uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
-appletips.nl###aanbblok
 puuropreis.nl##.banneritem:not(:has([href^="/component/banners/click"]))
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
@@ -1537,7 +1538,6 @@ wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 112achterhoek-nieuws.nl###sidebar
 voetbal-vandaag.nl###sidebar_aanbevelen
-appletips.nl###singleab
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
 online-radio.nl###top_ad-360
@@ -1612,7 +1612,6 @@ paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
-ajax1.nl##.footer__footer-fat
 heracles.nl##.footer-blocks
 heracles.nl##.footer-sponsors
 handbal.be##.footer-top
@@ -1668,7 +1667,6 @@ interglot.nl##.pane_results > div:has-text(Ads)
 klokradio.nl##.panel-grid:has-text(Advertentie)
 feyenoord.nl##.partners
 golf.be##.partners-holder
-appletips.nl##.ph_upgreatest
 denachtvlinders.nl##.plek-boven-artikel
 fhm500.nl##.powered_by_page
 fhm500.nl##.powered_by_profile
@@ -1728,7 +1726,6 @@ hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
 infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,motocrossplanet.nl,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##[class^="banner"]
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
-appletips.nl##[class^="ph_block"]
 klimaatinfo.nl##[class^="space"]:has(.adsbygoogle)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 besteproduct.nl##[id^="ad-block"]
@@ -1746,11 +1743,6 @@ kledingmaten.nl##[id^="text-"]:has-text(Advert)
 senseigaming.be##[id^="text-"]:has-text(sponsors)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
-appletips.nl##a[href^="/adverteren-"]
-focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
-tennisplaza.be##a[href^="https://ds1.nl/"]
-ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]
-bollywood.nl##a[href^="https://www.onderdelenshop24.com/"]
 gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
@@ -1778,7 +1770,6 @@ radiozuidrand.be#@#.widget_300x250_advertisement
 mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
-focus-wtv.be#@#.sponsored-article
 marktplaats.nl#@#.adSummary
 !#if env_mobile
 klusidee.nl#@#.header-ad

@@ -1,10 +1,10 @@
-diff name:easydutch lines:90 checksum:9813e061f5
+diff name:easydutch lines:105 checksum:a6bf1e2f62
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
+! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.902.patch#easydutch
+! Diff-Path: patches/2026.3.8.1025.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -13,6 +13,7 @@ a133 3
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 d234 1
+d264 1
 d314 4
 d322 1
 a322 1
@@ -22,11 +23,17 @@ d396 5
 d445 2
 d459 3
 d508 1
+d527 1
 d542 2
 d546 1
 d552 2
 d564 2
-a576 26
+a576 31
+appletips.nl##a[href^="/adverteren-"]
+appletips.nl##[class^="ph_block"]
+appletips.nl##.ph_appelhoes
+appletips.nl##.ttBlock
+bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
@@ -58,22 +65,29 @@ pal.be##.inside-article .gb-container > iframe[src^="https://subscribe-forms.bee
 d1077 1
 d1122 1
 d1133 1
+d1169 1
 d1236 1
+d1291 1
 d1393 1
 d1494 2
 d1499 1
 d1503 1
 d1507 1
+d1542 1
 d1572 1
 d1574 1
 d1599 1
+d1620 1
 d1624 1
 d1630 1
 d1637 1
+d1679 1
 d1681 1
 d1731 1
+d1741 1
 d1752 1
 d1755 1
+d1761 5
 d1768 3
 d1774 3
 d1778 2
@@ -86,6 +100,7 @@ a1788 1
 kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
 d1791 3
 d1797 3
+d1809 1
 a1814 1
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 d1827 1

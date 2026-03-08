@@ -1,18 +1,25 @@
-diff name:easydutch lines:47 checksum:9813e061f5
+diff name:easydutch lines:62 checksum:a6bf1e2f62
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
+! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.902.patch#easydutch
+! Diff-Path: patches/2026.3.8.1025.patch#easydutch
 a135 1
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 d238 1
+d268 1
 d340 1
 d396 5
 d503 1
+d522 1
 d544 2
-a566 18
+a566 23
+appletips.nl##a[href^="/adverteren-"]
+appletips.nl##[class^="ph_block"]
+appletips.nl##.ph_appelhoes
+appletips.nl##.ttBlock
+bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
@@ -33,16 +40,24 @@ meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 sante.nl##[id^="adf-"]
 d1076 1
 d1131 1
+d1167 1
 d1234 1
+d1289 1
 d1494 1
+d1535 1
 d1565 1
 d1567 1
 d1592 1
+d1613 1
 d1617 1
 d1623 1
 d1630 1
+d1672 1
 d1723 1
+d1733 1
+d1751 5
 d1758 3
 d1764 3
 d1768 2
 d1772 1
+d1792 1

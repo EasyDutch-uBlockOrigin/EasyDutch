@@ -1,12 +1,19 @@
-diff name:easydutch lines:24 checksum:9813e061f5
+diff name:easydutch lines:39 checksum:a6bf1e2f62
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
+! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.902.patch#easydutch
+! Diff-Path: patches/2026.3.8.1025.patch#easydutch
+d268 1
 d395 5
-a562 9
+d520 1
+a562 14
+appletips.nl##a[href^="/adverteren-"]
+appletips.nl##[class^="ph_block"]
+appletips.nl##.ph_appelhoes
+appletips.nl##.ttBlock
+bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
@@ -16,10 +23,18 @@ zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
 zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
+d1170 1
+d1291 1
 d1496 1
+d1537 1
 d1567 1
 d1569 1
+d1614 1
 d1618 1
 d1630 1
+d1672 1
 d1723 1
+d1733 1
+d1751 5
 d1758 3
+d1786 1

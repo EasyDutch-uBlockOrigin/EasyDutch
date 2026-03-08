@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
+! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
 !
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
@@ -170,8 +170,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||autonieuws.be/templates/yootheme/cache/*/BEL_March23_B2C_XCEED_800x172_nl-*$image
 ! 2023-07-01
 ||webstick.nl/images/images-ads/
-! 2023-06-29
-||i0.wp.com/www.appletips.nl/wp-content/uploads/hm.jpg$image
 ! 2023-06-09
 ||onlinecorrectie.nl/cnc/$image
 ! 2023-05-26
@@ -458,7 +456,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||stepstone.be/*?event=widgettool.$3p
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
-||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
 ||tradeidee.nl/banners/

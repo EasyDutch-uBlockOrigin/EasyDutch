@@ -1,4 +1,4 @@
-diff name:easydutch lines:26 checksum:a6bf1e2f62
+diff name:easydutch lines:22 checksum:a6bf1e2f62
 d2 1
 a2 1
 ! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
@@ -7,21 +7,17 @@ a4 1
 ! Diff-Path: patches/2026.3.8.1025.patch#easydutch
 d268 1
 d515 1
-a557 7
+a557 5
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
 appletips.nl##.ttBlock
 bollywood.nl##.widget_links
-handbalstartpunt.nl##aside.widget-banner
-handbalstartpunt.nl###sidebar .widget-banner__img
-d1172 1
-d1293 1
-d1498 1
-d1539 1
-d1614 1
-d1670 1
-d1730 1
-d1748 5
-d1755 1
+d1174 1
+d1295 1
+d1540 1
+d1615 1
+d1671 1
+d1731 1
+d1749 5
 d1781 1
