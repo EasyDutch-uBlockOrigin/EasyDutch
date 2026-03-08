@@ -1201,7 +1201,6 @@ paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
-ajax1.nl##.footer__footer-fat
 heracles.nl##.footer-blocks
 heracles.nl##.footer-sponsors
 handbal.be##.footer-top
@@ -1338,7 +1337,6 @@ online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
 appletips.nl##a[href^="/adverteren-"]
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 tennisplaza.be##a[href^="https://ds1.nl/"]
-ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]
 gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
