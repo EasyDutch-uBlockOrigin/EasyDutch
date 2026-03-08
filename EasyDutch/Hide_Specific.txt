@@ -1325,7 +1325,6 @@ geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-typ
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
-tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 senseigaming.be##[id^="text-"]:has-text(sponsors)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
