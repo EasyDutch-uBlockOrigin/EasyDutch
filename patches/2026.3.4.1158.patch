@@ -1,20 +1,25 @@
-diff name:easydutch lines:56 checksum:a6bf1e2f62
+diff name:easydutch lines:62 checksum:7ab6dc6281
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
+! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.1025.patch#easydutch
+! Diff-Path: patches/2026.3.8.1049.patch#easydutch
+a59 1
+||partner-nl-be.hema.com^$3p
 a135 1
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 d238 1
 d268 1
 d340 1
 d396 5
+d438 2
 d503 1
 d522 1
+d526 1
 d544 2
-a566 21
+a566 22
+despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
@@ -52,6 +57,7 @@ d1631 1
 d1673 1
 d1724 1
 d1734 1
+d1745 4
 d1752 5
 d1759 3
 d1787 1

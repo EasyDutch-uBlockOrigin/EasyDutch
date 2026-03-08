@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
+! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.8.1025.patch#easydutch
+! Diff-Path: patches/2026.3.8.1049.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -57,6 +57,7 @@ _advertentieleaderboardhome.
 ||a.scholieren.com^
 ||content2.nrc.nl^
 ! *** EasyDutch:EasyDutch/Block_third_party_Server.txt ***
+||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
 ||lt45.net^$3p
 ||cdn.aa.onstuimig.nl^$3p
@@ -428,8 +429,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||dating.*.auroraobjects.eu/files/bans/*$image
 ||debestevpn.nl/wp-content/*-banner.
 ||denachtvlinders.nl/wp-content/uploads/*/bol-*.gif$image
-||despirituelewereld.be/wp-content/uploads/*/DrukZo-Korting-*$image
-||despirituelewereld.be/wp-content/uploads/*/hook-bottom-info-coronavirus*$image
 ||dewereldmorgen.be/wp-content/banners/$image
 ||digitalaudience.io/bakery/pix/$image,3p
 ||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
@@ -514,7 +513,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
 ||tradeidee.nl/banners/
-||tweedehandschristelijkeboeken.nl/wp-content/uploads/*/gratis-eo-visie.png$image
 ||ucl-voetbal.nl/derden/
 ||uecl-voetbal.nl/derden/
 ||uel-voetbal.nl/derden/
@@ -553,6 +551,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
@@ -1736,10 +1735,6 @@ geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-typ
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
-tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
-despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))
-adbroere.nl##[id^="text-"]:has-text(adv)
-kledingmaten.nl##[id^="text-"]:has-text(Advert)
 senseigaming.be##[id^="text-"]:has-text(sponsors)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)

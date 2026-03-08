@@ -1,11 +1,12 @@
-diff name:easydutch lines:114 checksum:a6bf1e2f62
+diff name:easydutch lines:117 checksum:7ab6dc6281
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
+! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.1025.patch#easydutch
-a59 2
+! Diff-Path: patches/2026.3.8.1049.patch#easydutch
+a59 3
+||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
 ||lt45.net^$3p
 a133 4
@@ -21,15 +22,18 @@ a321 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 d339 1
 d395 5
+d437 2
 d444 2
 d458 3
 d507 1
 d526 1
+d530 1
 d541 2
 d545 1
 d551 2
 d563 2
-a575 35
+a575 36
+despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
@@ -93,8 +97,7 @@ d1681 1
 d1683 1
 d1733 1
 d1743 1
-d1754 1
-d1757 1
+d1754 6
 d1763 5
 d1770 3
 d1776 3

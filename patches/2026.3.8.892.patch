@@ -1,13 +1,18 @@
-diff name:easydutch lines:26 checksum:a6bf1e2f62
+diff name:easydutch lines:32 checksum:7ab6dc6281
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
+! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.1025.patch#easydutch
+! Diff-Path: patches/2026.3.8.1049.patch#easydutch
+a59 1
+||partner-nl-be.hema.com^$3p
 d268 1
+d432 2
 d515 1
-a557 7
+d519 1
+a557 8
+despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
@@ -22,6 +27,7 @@ d1539 1
 d1614 1
 d1670 1
 d1730 1
+d1741 4
 d1748 5
 d1755 1
 d1781 1

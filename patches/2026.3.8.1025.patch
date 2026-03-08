@@ -1,0 +1,14 @@
+diff name:easydutch lines:13 checksum:7ab6dc6281
+d2 1
+a2 1
+! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.3.8.1049.patch#easydutch
+a59 1
+||partner-nl-be.hema.com^$3p
+d431 2
+d517 1
+a555 1
+despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
+d1739 4

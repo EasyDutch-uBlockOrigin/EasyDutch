@@ -1,7 +1,9 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Mon, 02 Mar 2026 19:07:49 +0000
+! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
 !
+! 2026-03-08
+||partner-nl-be.hema.com^$3p
 ! 2026-03-02
 ||clkmg.com^$3p
 ||lt45.net^$3p
