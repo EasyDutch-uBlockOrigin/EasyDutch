@@ -2,6 +2,14 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-08
+racingnews365.nl##.betting-close
+racingnews365.nl##.sponsor__unibet
+racingnews365.nl##.promo-container
+racingnews365.nl##.card[href$="-adv"]
+racingnews365.nl###betting-prefs
+racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
+racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
 ! 2026-03-04
 meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 ! 2026-03-02
@@ -547,8 +555,6 @@ rubenweytjens.be##.view-weather-ads-view
 sun.sr##app-money-exchange
 sun.sr##app-slider-add
 sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
-! 2023-10-05
-racingnews365.nl###betting-prefs
 ! 2023-11-03
 schie.nu##h6:has-text(/advert/i):upward(1)
 knvb.nl,onsoranje.nl##.SponsorBar
@@ -614,7 +620,6 @@ gewoonvoorhem.nl##[id^="below-article-rectangle"]
 gewoonvoorhem.nl##[id$="ad-desktop"]
 gewoonvoorhem.nl##[id$="leaderboard-article"]
 gewoonvoorhem.nl###below-article-leaderboard
-racingnews365.nl##.card[href$="-adv"]
 ! 2023-09-18
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
@@ -746,8 +751,6 @@ nederland.fm##[class*=adv]
 notebookcheck.nl###nbc_skys
 ! 2023-03-23
 allecijfers.nl##div.card:has(.adsbygoogle)
-! 2023-03-22
-racingnews365.nl##.meta-format:has-text(Advert):upward(.card)
 ! 2023-03-16
 agraaf.nl##.partners-carousel
 ! 2023-03-09
@@ -1171,7 +1174,6 @@ psv.nl##.block-sponsors--psv
 scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
-racingnews365.nl##.branded-countdown__content__partner-wrapper
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 rkcwaalwijk.nl##.carousel
