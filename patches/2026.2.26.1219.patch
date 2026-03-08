@@ -1,10 +1,10 @@
-diff name:easydutch lines:68 checksum:94a08aafc4
+diff name:easydutch lines:76 checksum:08576a5e3c
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
+! Last updated: Sun, 08 Mar 2026 14:52:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.880.patch#easydutch
+! Diff-Path: patches/2026.3.8.892.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -24,7 +24,12 @@ d539 2
 d543 1
 d549 2
 d561 2
-a573 16
+a573 21
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
@@ -47,13 +52,16 @@ d1236 1
 d1393 1
 d1501 1
 d1505 1
+d1570 1
+d1572 1
 d1597 1
+d1622 1
 d1628 1
 d1635 1
 d1679 1
 d1729 1
 d1752 1
-d1767 1
+d1766 2
 d1771 3
 d1775 2
 d1779 1

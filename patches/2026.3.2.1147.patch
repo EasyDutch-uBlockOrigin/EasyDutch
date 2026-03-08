@@ -1,10 +1,10 @@
-diff name:easydutch lines:36 checksum:94a08aafc4
+diff name:easydutch lines:44 checksum:08576a5e3c
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
+! Last updated: Sun, 08 Mar 2026 14:52:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.880.patch#easydutch
+! Diff-Path: patches/2026.3.8.892.patch#easydutch
 a135 1
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 d238 1
@@ -12,7 +12,12 @@ d340 1
 d396 5
 d503 1
 d544 2
-a566 11
+a566 16
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
@@ -27,11 +32,14 @@ sante.nl##[id^="adf-"]
 d1076 1
 d1131 1
 d1234 1
+d1565 1
+d1567 1
 d1592 1
+d1617 1
 d1623 1
 d1630 1
 d1723 1
-d1760 1
+d1759 2
 d1764 3
 d1768 2
 d1772 1

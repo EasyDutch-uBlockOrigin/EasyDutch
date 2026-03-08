@@ -1,10 +1,10 @@
-diff name:easydutch lines:89 checksum:94a08aafc4
+diff name:easydutch lines:97 checksum:08576a5e3c
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
+! Last updated: Sun, 08 Mar 2026 14:52:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.880.patch#easydutch
+! Diff-Path: patches/2026.3.8.892.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -27,7 +27,12 @@ d541 2
 d545 1
 d551 2
 d563 2
-a575 23
+a575 28
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
@@ -64,14 +69,17 @@ maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1496 2
 d1505 1
 d1509 1
+d1574 1
+d1576 1
 d1601 1
+d1626 1
 d1632 1
 d1639 1
 d1683 1
 d1733 1
 d1754 1
 d1757 1
-d1772 1
+d1771 2
 d1776 3
 d1780 2
 d1784 1
