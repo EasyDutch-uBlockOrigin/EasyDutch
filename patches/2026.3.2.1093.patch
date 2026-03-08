@@ -1,10 +1,10 @@
-diff name:easydutch lines:55 checksum:78cdea420d
+diff name:easydutch lines:59 checksum:94a08aafc4
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 14:17:53 +0000
+! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.857.patch#easydutch
+! Diff-Path: patches/2026.3.8.880.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
@@ -16,11 +16,13 @@ d319 1
 a319 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
 d337 1
+d393 5
 d454 3
 d503 1
 d537 2
 d546 2
-a568 13
+a568 14
+digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
@@ -43,7 +45,9 @@ d1502 1
 d1594 1
 d1625 1
 d1632 1
+d1725 1
 d1748 1
+d1763 1
 d1767 3
 d1771 2
 d1775 1

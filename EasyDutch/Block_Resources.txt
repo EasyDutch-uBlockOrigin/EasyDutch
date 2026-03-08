@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
+! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
 !
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
@@ -337,12 +337,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2022-01-18
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
-! 2022-01-14
-||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
-||digitaalburg.com/rn02/wp-content/uploads/*/uitwaard21.jpg
-||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-
-||digitaalburg.com/rn02/wp-content/uploads/*/verti*
-||digitaalburg.com/rn02/wp-content/uploads/*/webbanner-
 ! 2022-01-13
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ||2link.be/banners/

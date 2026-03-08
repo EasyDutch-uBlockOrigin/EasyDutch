@@ -1,4 +1,4 @@
-diff name:easydutch lines:13 checksum:94a08aafc4
+diff name:easydutch lines:11 checksum:94a08aafc4
 d2 1
 a2 1
 ! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
@@ -6,9 +6,7 @@ d4 1
 a4 1
 ! Diff-Path: patches/2026.3.8.880.patch#easydutch
 d395 5
-a562 2
+a562 1
 digitaalburg.com###container aside[class^="widget widget_text"]
-weerplaza.nl##.banner
-d1630 1
 d1723 1
 d1760 1

@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Mar 2026 14:17:53 +0000
+! Last updated: Sun, 08 Mar 2026 14:40:32 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.8.857.patch#easydutch
+! Diff-Path: patches/2026.3.8.880.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -392,11 +392,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||waarzo.nl/imagestore/site-banners/
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
-||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
-||digitaalburg.com/rn02/wp-content/uploads/*/uitwaard21.jpg
-||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-
-||digitaalburg.com/rn02/wp-content/uploads/*/verti*
-||digitaalburg.com/rn02/wp-content/uploads/*/webbanner-
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ||2link.be/banners/
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
@@ -560,6 +555,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
@@ -1720,7 +1716,6 @@ rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget
 emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
-digitaalburg.com##.widget-area-bottom.align-center:has(.adsbygoogle)
 onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
 onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 indebuurt.nl##.widget-tabs--partner
@@ -1757,7 +1752,6 @@ gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 handbalstartpunt.nl##aside.widget-banner
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
-digitaalburg.com##aside[class^="widget widget_text"]
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
