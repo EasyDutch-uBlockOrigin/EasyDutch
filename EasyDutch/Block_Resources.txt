@@ -458,7 +458,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||stepstone.be/*?event=widgettool.$3p
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
-||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
 ||tradeidee.nl/banners/
