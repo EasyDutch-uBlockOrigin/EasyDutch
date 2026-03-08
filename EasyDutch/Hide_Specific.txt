@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-08
+digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
@@ -1303,7 +1304,6 @@ rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget
 emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
-digitaalburg.com##.widget-area-bottom.align-center:has(.adsbygoogle)
 onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
 onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 indebuurt.nl##.widget-tabs--partner
@@ -1340,7 +1340,6 @@ gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 handbalstartpunt.nl##aside.widget-banner
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
-digitaalburg.com##aside[class^="widget widget_text"]
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
