@@ -1,17 +1,20 @@
-diff name:easydutch lines:16 checksum:08576a5e3c
+diff name:easydutch lines:19 checksum:9813e061f5
 d2 1
 a2 1
-! Last updated: Sun, 08 Mar 2026 14:52:55 +0000
+! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.8.892.patch#easydutch
-a557 5
+! Diff-Path: patches/2026.3.8.902.patch#easydutch
+a557 7
+handbalstartpunt.nl##aside.widget-banner
+handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
 zeelandnet.nl##.g_banner
 zeelandnet.nl##.as__topbanner
 zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
 zeelandnet.nl##.hero-banner
+d1493 1
 d1564 1
 d1566 1
 d1615 1
-d1754 1
+d1753 2

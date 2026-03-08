@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Mar 2026 14:52:55 +0000
+! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.8.892.patch#easydutch
+! Diff-Path: patches/2026.3.8.902.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -555,6 +555,8 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+handbalstartpunt.nl##aside.widget-banner
+handbalstartpunt.nl###sidebar .widget-banner__img
 zeelandnet.nl##.bnr-below
 zeelandnet.nl##.g_banner
 zeelandnet.nl##.as__topbanner
@@ -1495,7 +1497,6 @@ feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
 duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/uploads/"])
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
-handbalstartpunt.nl##aside > div[class]:has(> .adsbygoogle)
 kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
 netonline.be##.tekstboldwit td:has-text(/advert/i)
 morningstar.*###ad_top_page
@@ -1752,7 +1753,6 @@ ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]
 bollywood.nl##a[href^="https://www.onderdelenshop24.com/"]
 gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
-handbalstartpunt.nl##aside.widget-banner
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])

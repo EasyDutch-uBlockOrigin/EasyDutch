@@ -1,0 +1,12 @@
+diff name:easydutch lines:11 checksum:9813e061f5
+d2 1
+a2 1
+! Last updated: Sun, 08 Mar 2026 15:02:02 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.3.8.902.patch#easydutch
+a557 2
+handbalstartpunt.nl##aside.widget-banner
+handbalstartpunt.nl###sidebar .widget-banner__img
+d1498 1
+d1755 1
