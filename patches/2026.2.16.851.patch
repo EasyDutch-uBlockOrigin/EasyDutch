@@ -1,28 +1,40 @@
-diff name:easydutch lines:79 checksum:16e03db12b
+diff name:easydutch lines:95 checksum:503352c0ff
 d2 1
 a2 1
-! Last updated: Wed, 04 Mar 2026 19:18:23 +0000
+! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.4.1158.patch#easydutch
+! Diff-Path: patches/2026.3.8.849.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
-a133 4
+a133 5
+||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
+d232 1
 d312 4
 d320 1
 a320 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+d338 1
 d443 2
 d457 3
+d506 1
 d540 2
 d544 1
+d550 2
 d562 2
-a574 16
+a574 23
+racingnews365.nl##.betting-close
+racingnews365.nl##.sponsor__unibet
+racingnews365.nl##.promo-container
+racingnews365.nl##.card[href$="-adv"]
+racingnews365.nl###betting-prefs
+racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
+racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
 meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
@@ -40,7 +52,10 @@ kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 d793 1
+d1071 1
 d1116 1
+d1127 1
+d1230 1
 d1287 1
 d1378 5
 d1393 1
@@ -50,6 +65,7 @@ maaslandradio.nl,mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 d1494 2
 d1503 1
 d1507 1
+d1599 1
 d1630 1
 d1681 1
 d1752 1

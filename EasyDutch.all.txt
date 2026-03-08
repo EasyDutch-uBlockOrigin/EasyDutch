@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 04 Mar 2026 19:18:23 +0000
+! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.4.1158.patch#easydutch
+! Diff-Path: patches/2026.3.8.849.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -133,6 +133,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
@@ -235,7 +236,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||truck1-nl.be/st2/banners/
 ||feyenoord.nl/*/media/*partnerships/$image
 ||nnieuws.be/sites/default/files/images/ads/
-||racingnews365.nl/*/json/unibet/bet-offers.json$xhr,1p
 ||admin.ditjesendatjes.nl/wp-content/uploads/Vignet_Cover$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
@@ -337,7 +337,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ||itnijs.frl/wp-content/uploads/*/adfertinsje
 ||handbalstartpunt.nl/*/banner$image
-||racingnews365.nl/images/logos/odds/unibet/
 ||beveiligingnieuws.nl/banners/$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*webbanner$image
@@ -500,7 +499,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||psv.nl/upload/*_Soccerlab_Logo.png$image
 ||psv.nl/upload/*SponsorVrouwenGOED-300x75.jpg$image
 ||racexpress.nl/advertising/$image
-||racingnews365.nl/images/logos/partners/*/$image,1p
 ||radioacacia.nl/sponsoren/
 ||radiolelystad.nl/images/stories/Banners/
 ||radiovisie.eu/wp-content/banners/
@@ -541,8 +539,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 @@||vandale.*/*/images/*_300x250.$image,1p
 @@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 @@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
-@@||fundingchoicesmessages.google.com/*/$script,domain=racingnews365.nl
-@@||cdn.bluebillywig.com/scripts/prebid/$script,domain=geenstijl.nl
 @@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
@@ -564,6 +560,13 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+racingnews365.nl##.betting-close
+racingnews365.nl##.sponsor__unibet
+racingnews365.nl##.promo-container
+racingnews365.nl##.card[href$="-adv"]
+racingnews365.nl###betting-prefs
+racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
+racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
 meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
@@ -1075,7 +1078,6 @@ rubenweytjens.be##.view-weather-ads-view
 sun.sr##app-money-exchange
 sun.sr##app-slider-add
 sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
-racingnews365.nl###betting-prefs
 schie.nu##h6:has-text(/advert/i):upward(1)
 knvb.nl,onsoranje.nl##.SponsorBar
 ticketing.knvb.nl###footer-sponsors-wrapper
@@ -1130,7 +1132,6 @@ gewoonvoorhem.nl##[id^="below-article-rectangle"]
 gewoonvoorhem.nl##[id$="ad-desktop"]
 gewoonvoorhem.nl##[id$="leaderboard-article"]
 gewoonvoorhem.nl###below-article-leaderboard
-racingnews365.nl##.card[href$="-adv"]
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
 security.nl##.banner_leaderboard
@@ -1233,7 +1234,6 @@ pokeren.nl##.sidebaritem:has-text(/partners|online casino/i)
 nederland.fm##[class*=adv]
 notebookcheck.nl###nbc_skys
 allecijfers.nl##div.card:has(.adsbygoogle)
-racingnews365.nl##.meta-format:has-text(Advert):upward(.card)
 agraaf.nl##.partners-carousel
 alarmeringen.nl##.ad
 televizier.nl##.interstitial_banner
@@ -1591,7 +1591,6 @@ psv.nl##.block-sponsors--psv
 scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
-racingnews365.nl##.branded-countdown__content__partner-wrapper
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 rkcwaalwijk.nl##.carousel

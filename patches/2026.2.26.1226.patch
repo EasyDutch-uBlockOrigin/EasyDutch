@@ -1,33 +1,49 @@
-diff name:easydutch lines:43 checksum:16e03db12b
+diff name:easydutch lines:59 checksum:503352c0ff
 d2 1
 a2 1
-! Last updated: Wed, 04 Mar 2026 19:18:23 +0000
+! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.4.1158.patch#easydutch
+! Diff-Path: patches/2026.3.8.849.patch#easydutch
 a59 2
 ||clkmg.com^$3p
 ||lt45.net^$3p
-a133 1
+a133 2
+||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
+d235 1
 d319 1
 a319 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+d337 1
 d442 2
 d456 3
+d505 1
 d539 2
 d543 1
+d549 2
 d561 2
-a573 6
+a573 13
+racingnews365.nl##.betting-close
+racingnews365.nl##.sponsor__unibet
+racingnews365.nl##.promo-container
+racingnews365.nl##.card[href$="-adv"]
+racingnews365.nl###betting-prefs
+racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
+racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
 meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
+d1079 1
+d1134 1
+d1237 1
 d1394 1
 d1502 1
 d1506 1
+d1598 1
 d1629 1
 d1752 1
 d1771 3

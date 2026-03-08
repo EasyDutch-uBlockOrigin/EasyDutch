@@ -1,4 +1,4 @@
-diff name:easydutch lines:30 checksum:503352c0ff
+diff name:easydutch lines:24 checksum:503352c0ff
 d2 1
 a2 1
 ! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
@@ -11,7 +11,7 @@ d238 1
 d340 1
 d503 1
 d544 2
-a566 9
+a566 7
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
@@ -19,13 +19,7 @@ racingnews365.nl##.card[href$="-adv"]
 racingnews365.nl###betting-prefs
 racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
 racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
-meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
-sante.nl##[id^="adf-"]
-d1076 1
-d1131 1
-d1234 1
-d1592 1
-d1623 1
-d1764 3
-d1768 2
-d1772 1
+d1078 1
+d1133 1
+d1236 1
+d1594 1
