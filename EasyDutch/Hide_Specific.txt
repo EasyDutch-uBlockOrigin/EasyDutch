@@ -3,6 +3,11 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-08
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
@@ -1149,9 +1154,7 @@ goodbye.be##.advertising
 dagblad010.nl,voorburgsdagblad.nl##.advrow
 notebookcheck.nl##.amaz_el
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
-zeelandnet.nl##.article-bnr-first
 duic.nl##.article-excerpt--ad
-zeelandnet.nl##.as__bottom-banner
 nailtalk.nl##.ashe-widget
 klimaatinfo.nl##.aside__add
 afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
@@ -1200,7 +1203,6 @@ ajax1.nl##.footer__footer-fat
 heracles.nl##.footer-blocks
 heracles.nl##.footer-sponsors
 handbal.be##.footer-top
-zeelandnet.nl##.g_banner
 spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
 fierljeppenwinsum.frl##.gdlr-sidebar:has-text(sponsoren)
@@ -1339,7 +1341,6 @@ bollywood.nl##a[href^="https://www.onderdelenshop24.com/"]
 gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 handbalstartpunt.nl##aside.widget-banner
-zeelandnet.nl##aside:has([id^="div-gpt-ad"])
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
