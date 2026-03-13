@@ -16,7 +16,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see {http://www.gnu.org/licenses/}.
 
-    Home: https://github.com/gorhill/uBlock
+    Home: https://github.com/gorhill/uBlock --> https://github.com/uBlockOrigin/uAssets/blob/master/tools/make-easylist.mjs  (2026-03-13)
 */
 
 // jshint node:true, esversion:9
@@ -141,10 +141,10 @@ function trimSublist(text) {
 function minify(text) {
     // remove issue-related comments
     text = text.replace(/^! (?:[^A-Z*#]|Uitzondering|Block_|Hide_).*?[\n\r]+/gm, '');
+    // remove empty lines
+    text = text.replace(/^[\n\r]+/gm, '');
     // convert potentially present Windows-style newlines
     text = text.replace(/\r\n/g, '\n');
-    // remove empty lines
-    text = text.replace(/^[\n]+/gm, '');
     return text;
 }
 
@@ -157,6 +157,12 @@ function assemble(parts) {
         out.push(part);
     }
     return out.join('\n').trim() + '\n';
+}
+
+/******************************************************************************/
+
+function normalizeLineSeparators(text) {
+    return text.replace(/\n\r|\r\n|\r/g, '\n');
 }
 
 /******************************************************************************/
@@ -174,7 +180,12 @@ async function main() {
 
     console.info(`  Using template at ${inFile}`);
 
-    const inText = fs.readFile(`${workingDir}/${inFile}`, { encoding: 'utf8' });
+    const inText = fs.readFile(
+        `${workingDir}/${inFile}`,
+        { encoding: 'utf8' }
+    ).then(text =>
+        normalizeLineSeparators(text)
+    );
 
     let parts = [ inText ];
     do {
