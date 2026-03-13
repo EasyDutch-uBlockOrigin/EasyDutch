@@ -36,7 +36,7 @@ jobs:
         run: sleep 300s
         shell: bash
       - name: Clone EasyDutch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
       - name: Generate version string
