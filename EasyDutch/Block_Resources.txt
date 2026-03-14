@@ -1,7 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
+! Last updated: Sat, 14 Mar 2026 09:23:12 +0000
 !
+! 2026-03-14
+||onderwijsland.com/*/banners/
+||media.online-radio.nl/images/banner$image
+||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ! 2026-03-02
@@ -354,10 +358,8 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||bnpparibasmarkets.nl/widget/$3p
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/$image
-||bol-an.nl/wp-content/uploads/*/Adv_
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||buzzbie.nl/buzzbanners/*.js$script,1p
-||camping-frankrijk.nl/graphics/*/*600.$image
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
@@ -381,7 +383,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
 ||elektormagazine.nl/assets/upload/banners/
 ||elektronicaforum.nl/banner*$image,1p
-||emerce.nl/content/uploads/*/hosted-by-true-$image,1p
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ||fcupdate.nl/js/adslot.js
@@ -419,7 +420,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||netonline.be/slices/banners/
 ||nevobo.nl^*/sponsor/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
-||onderwijsland.com/files/partners/
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||openingsurengids.be/template/images/publi/

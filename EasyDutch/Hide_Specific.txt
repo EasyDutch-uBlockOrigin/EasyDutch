@@ -1,7 +1,18 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
+! Last updated: Sat, 14 Mar 2026 09:23:12 +0000
 !
+! 2026-03-14
+emerce.nl##[id*="_alpha_"]:upward(div[style])
+domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
+domstadradio.nl##span:has-text(Sponsors):upward(.elementor-element)
+hardnieuws.nl##.pgAdWrapper
+klimaatinfo.nl##.aside__add
+klimaatinfo.nl##[class^="space_"]
+onderwijsland.com##.banner-fullwidth
+onderwijsland.com##.banner-fullwidth:upward(.home-extended)
+online-radio.nl##[id^="containersitead"]
+online-radio.nl###top_ad-360
 ! 2026-03-08
 despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##a[href^="/adverteren-"]
@@ -434,6 +445,7 @@ demorgen.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.position-after-main-h
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
+indebuurt.nl##.dfp-space:upward(div._ztjuth1)
 livios.be##.block-leaderboard
 nu.nl##.banner
 qmusic.be,qmusic.nl##.c-banner
@@ -892,7 +904,6 @@ mijnserie.nl##.sponsors-billboard:upward(.fullWidthWhite)
 leerzaam.com##[id^="custom_html-"]:has(.adsbygoogle)
 midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
 ! 2022-06-29
-onderwijsland.com##.col-md-16:has([style*="greystripe"])
 persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
@@ -900,7 +911,6 @@ psv.nl##.toto
 kbradio.nl##a[href="../../omroep/adverteren/"]
 racexpress.nl##img[src^="/img/sponsors"]:upward(.article-photo)
 itnijs.frl##.banner:upward(.widget)
-infonu.nl###cc:has(a.product[href*="partnerprogramma.bol.com"])
 indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 simone.nl##section:has(div[class$="sponsors"])
 vakantieweb.be##.sponsor-sn
@@ -925,8 +935,6 @@ fleet-mobility.nl##.spotlight:has-text(Partners)
 risallah.com##[class^="zijbalk"] > table > tbody:has-text(Advertentie)
 fcgroningen.nl##.sponsors
 fd.nl##.noAdBlockDetected .fd-message
-emerce.nl##.m-banner-wrapper
-emerce.nl##.widget_text:has(a[href^="https://partner.bol.com/"])
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
 elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
 eurogamer.nl##.desktop_mpu
@@ -1011,7 +1019,6 @@ sc-heerenveen.nl##.partnerlink
 totoknvbbeker.nl##.SponsorBlock
 trappers.nl##.sponsors
 ! 2022-04-29
-besteproduct.nl##.ad
 xgn.nl##.bs
 ! 2022-04-28
 thatsgaming.nl##[id^="menu-item"]:has-text(/gokken|casino/i)
@@ -1023,8 +1030,6 @@ ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
 ! 2022-04-22
 anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
-! 2022-04-15
-kieskeurig.nl##div[id*="gpt-ad"]
 ! 2022-04-14
 finance.nl##div[style^="width:300px; height:250px;"]:has([id*="google"])
 fonkmagazine.nl###partners
@@ -1038,8 +1043,6 @@ scheepvaartkrant.nl###block-leaderboard
 scheepvaartkrant.nl###block-topbannersidebar
 vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
 vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]:not(a[href*="mailto"])
-! 2022-03-26
-hardnieuws.nl##[id*="ros-300x600"]:upward(1)
 ! 2022-03-22
 mariabode.nl##[id^="custom_html"]:has-text(/advert/i)
 historiek.net##div[id^="ai_widget"]:has-text(/advert/i)
@@ -1129,12 +1132,11 @@ wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 voetbal-vandaag.nl###sidebar_aanbevelen
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
-online-radio.nl###top_ad-360
 formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
-bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,indebuurt.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 bestereistijd.be##.ad + .card-divider
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
@@ -1158,7 +1160,6 @@ notebookcheck.nl##.amaz_el
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 duic.nl##.article-excerpt--ad
 nailtalk.nl##.ashe-widget
-klimaatinfo.nl##.aside__add
 afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
@@ -1305,25 +1306,12 @@ mannenstyle.nl##.widget_execphp
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget
-emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
-onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
-onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
-indebuurt.nl##.widget-tabs--partner
 camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
-domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
-hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
-infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,motocrossplanet.nl,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##[class^="banner"]
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
-klimaatinfo.nl##[class^="space"]:has(.adsbygoogle)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
-besteproduct.nl##[id^="ad-block"]
-online-radio.nl##[id^="AdvertMid"]
-bol-an.nl##[id^="block-"]:has([src*="_Banner"])
-online-radio.nl##[id^="containersitead"]
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
-kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 senseigaming.be##[id^="text-"]:has-text(sponsors)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
