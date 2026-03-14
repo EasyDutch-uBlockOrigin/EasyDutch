@@ -905,7 +905,6 @@ psv.nl##.toto
 kbradio.nl##a[href="../../omroep/adverteren/"]
 racexpress.nl##img[src^="/img/sponsors"]:upward(.article-photo)
 itnijs.frl##.banner:upward(.widget)
-infonu.nl###cc:has(a.product[href*="partnerprogramma.bol.com"])
 indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 simone.nl##section:has(div[class$="sponsors"])
 vakantieweb.be##.sponsor-sn
@@ -1312,7 +1311,6 @@ indebuurt.nl##.widget-tabs--partner
 camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
 domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
 hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
-infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,motocrossplanet.nl,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##[class^="banner"]
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
