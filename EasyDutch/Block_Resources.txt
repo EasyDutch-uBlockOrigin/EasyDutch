@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-14
+||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
 ||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ! 2026-03-08
@@ -420,7 +421,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||netonline.be/slices/banners/
 ||nevobo.nl^*/sponsor/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
-||onderwijsland.com/files/partners/
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||openingsurengids.be/template/images/publi/
