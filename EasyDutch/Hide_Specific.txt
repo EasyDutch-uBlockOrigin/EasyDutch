@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-14
+online-radio.nl##[id^="containersitead"]
+online-radio.nl###top_ad-360
 ! 2026-03-08
 despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##a[href^="/adverteren-"]
@@ -1129,7 +1132,6 @@ wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 voetbal-vandaag.nl###sidebar_aanbevelen
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
-online-radio.nl###top_ad-360
 formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
@@ -1318,9 +1320,7 @@ ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 klimaatinfo.nl##[class^="space"]:has(.adsbygoogle)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 besteproduct.nl##[id^="ad-block"]
-online-radio.nl##[id^="AdvertMid"]
 bol-an.nl##[id^="block-"]:has([src*="_Banner"])
-online-radio.nl##[id^="containersitead"]
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
