@@ -140,7 +140,7 @@ function trimSublist(text) {
 
 function minify(text) {
     // remove issue-related comments
-    text = text.replace(/^! (?!Title|Last updated|Expires|Diff|Description|Homepage|GitHub|Mailto\b).*?[\n\r]+/gm, '');
+    text = text.replace(/^! (?!Title|Last updated|Expires|Diff|Description|Homepage|GitHub|Mailto|\*\*\*).*?[\n\r]+/gm, '');
     // remove empty lines
     text = text.replace(/^[\n\r]+/gm, '');
     // convert potentially present Windows-style newlines
