@@ -1025,8 +1025,6 @@ ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
 ! 2022-04-22
 anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
-! 2022-04-15
-kieskeurig.nl##div[id*="gpt-ad"]
 ! 2022-04-14
 finance.nl##div[style^="width:300px; height:250px;"]:has([id*="google"])
 fonkmagazine.nl###partners
