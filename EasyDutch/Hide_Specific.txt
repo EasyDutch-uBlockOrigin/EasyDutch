@@ -1320,7 +1320,6 @@ ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 klimaatinfo.nl##[class^="space"]:has(.adsbygoogle)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 besteproduct.nl##[id^="ad-block"]
-bol-an.nl##[id^="block-"]:has([src*="_Banner"])
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
