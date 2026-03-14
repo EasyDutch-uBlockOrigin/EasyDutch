@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 14 Mar 2026 09:23:12 +0000
+! Last updated: Sat, 14 Mar 2026 21:15:44 +0000
 !
 ! 2026-03-14
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -428,7 +428,7 @@ carwashpro.nl,infrasite.nl,mobiliteit.nl,mobilityenergy.com,rijschoolpro.nl,spoo
 ! 2026-02-02
 ! DPGMedia
 ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,tubantia.nl##.advertisement
-ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space
+ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space:upward(div._ztjuth1)
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.tile:has(>.ankeiler--advertisement)
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##div.x-pack__tile:has(.dfp-space)
 autoweek.nl##.advertise
@@ -445,7 +445,6 @@ demorgen.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.position-after-main-h
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
-indebuurt.nl##.dfp-space:upward(div._ztjuth1)
 livios.be##.block-leaderboard
 nu.nl##.banner
 qmusic.be,qmusic.nl##.c-banner
