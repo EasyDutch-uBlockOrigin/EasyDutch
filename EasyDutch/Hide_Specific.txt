@@ -8,6 +8,8 @@ domstadradio.nl##span:has-text(Sponsors):upward(.elementor-element)
 hardnieuws.nl##.pgAdWrapper
 klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
+onderwijsland.com##.banner-fullwidth
+onderwijsland.com##.banner-fullwidth:upward(.home-extended)
 online-radio.nl##[id^="containersitead"]
 online-radio.nl###top_ad-360
 ! 2026-03-08
@@ -901,7 +903,6 @@ mijnserie.nl##.sponsors-billboard:upward(.fullWidthWhite)
 leerzaam.com##[id^="custom_html-"]:has(.adsbygoogle)
 midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
 ! 2022-06-29
-onderwijsland.com##.col-md-16:has([style*="greystripe"])
 persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
@@ -1307,8 +1308,6 @@ rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget
 emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
-onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
-onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,motocrossplanet.nl,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##[class^="banner"]
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
