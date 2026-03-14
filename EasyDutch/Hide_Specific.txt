@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-14
+klimaatinfo.nl##.aside__add
+klimaatinfo.nl##[class^="space_"]
 online-radio.nl##[id^="containersitead"]
 online-radio.nl###top_ad-360
 ! 2026-03-08
@@ -1157,7 +1159,6 @@ notebookcheck.nl##.amaz_el
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 duic.nl##.article-excerpt--ad
 nailtalk.nl##.ashe-widget
-klimaatinfo.nl##.aside__add
 afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
@@ -1314,7 +1315,6 @@ hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
 infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,motocrossplanet.nl,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##[class^="banner"]
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
-klimaatinfo.nl##[class^="space"]:has(.adsbygoogle)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
