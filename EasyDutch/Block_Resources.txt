@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-14
+||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ! 2026-03-02
