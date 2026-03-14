@@ -359,7 +359,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||bol.com/nl/upload/partnerprogramma/$image
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||buzzbie.nl/buzzbanners/*.js$script,1p
-||camping-frankrijk.nl/graphics/*/*600.$image
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
