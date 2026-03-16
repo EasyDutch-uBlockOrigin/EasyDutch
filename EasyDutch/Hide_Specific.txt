@@ -1298,7 +1298,6 @@ intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 mo.be##.view-id-banners_top
 transfermarkt.nl##.werbung
-baarsclassicrock.nl##.widebanner
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
 rtvideaal.nl##.widget_random_banner_widget
