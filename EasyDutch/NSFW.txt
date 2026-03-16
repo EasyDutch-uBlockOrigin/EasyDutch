@@ -82,6 +82,7 @@ gaynews.nl##[class^="va"][class$="nab"]
 gaynews.nl##[id^="abri"]
 gaynews.nl##[id^="blaabri"]:upward(center)
 gaynews.nl##a[href^="/_global/lees"]
+geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
 geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
