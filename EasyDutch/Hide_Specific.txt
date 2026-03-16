@@ -1299,7 +1299,6 @@ gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 mo.be##.view-id-banners_top
 transfermarkt.nl##.werbung
 baarsclassicrock.nl##.widebanner
-streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
 rtvideaal.nl##.widget_random_banner_widget
