@@ -1,10 +1,10 @@
-diff name:easydutch lines:160 checksum:8b184b2a01
+diff name:easydutch lines:164 checksum:a3661bceff
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 13:47:15 +0000
+! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.827.patch#easydutch
+! Diff-Path: patches/2026.3.16.1027.patch#easydutch
 a59 3
 ||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
@@ -36,7 +36,8 @@ d539 2
 d543 1
 d549 2
 d561 2
-a573 39
+a573 40
+mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
 domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
@@ -134,6 +135,7 @@ d1623 1
 d1629 1
 d1636 1
 d1678 1
+d1717 1
 d1719 2
 d1723 2
 d1728 5
@@ -159,3 +161,5 @@ a1808 1
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 a1854 1
 ||dronkenmokkels.nl/*.php$3p
+a1904 1
+geile-sexverhalen.be,geile-sexverhalen.nl##.adverten

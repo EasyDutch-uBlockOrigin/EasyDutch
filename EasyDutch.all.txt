@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 16 Mar 2026 13:47:15 +0000
+! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.16.827.patch#easydutch
+! Diff-Path: patches/2026.3.16.1027.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -550,6 +550,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
 domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
@@ -1679,7 +1680,6 @@ computable.be##.true-logo
 buzzbie.nl##.TS_Banner_Spot
 intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
-mo.be##.view-id-banners_top
 transfermarkt.nl##.werbung
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
@@ -1826,6 +1826,7 @@ gaynews.nl##[class^="va"][class$="nab"]
 gaynews.nl##[id^="abri"]
 gaynews.nl##[id^="blaabri"]:upward(center)
 gaynews.nl##a[href^="/_global/lees"]
+geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
 geile-sexverhalen.be,geile-sexverhalen.nl##.banner
 geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
 geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog

@@ -1,8 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 16 Mar 2026 13:47:15 +0000
+! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
 !
 ! 2026-03-16
+mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 ! 2026-03-14
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -1296,7 +1297,6 @@ computable.be##.true-logo
 buzzbie.nl##.TS_Banner_Spot
 intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
-mo.be##.view-id-banners_top
 transfermarkt.nl##.werbung
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
