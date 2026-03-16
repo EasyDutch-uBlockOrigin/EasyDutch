@@ -3,7 +3,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/EasyDutch-uBlockOrigin/EasyDutch?label=Last%20commit&color=informational)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/commits/)
 [![Issues](https://img.shields.io/github/issues/EasyDutch-uBlockOrigin/EasyDutch?label=Issues&color=red)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues)
 [![Issues](https://img.shields.io/github/issues-closed/EasyDutch-uBlockOrigin/EasyDutch?color=green&label=Issues)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues?q=is%3Aissue+is%3Aclosed)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/LICENSE) <br>
+[![License](https://img.shields.io/github/license/EasyDutch-uBlockOrigin/EasyDutch?label=License&color=lightgrey)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/LICENSE) <br>
 (( [EasyList Dutch](https://github.com/easylist/easylistdutch/):
 [![Commit rate](https://img.shields.io/github/commit-activity/y/easylist/easylistdutch?label=Commits&color=succes&style=plastic)](https://github.com/easylist/easylistdutch/commits/)
 [![Last commit](https://img.shields.io/github/last-commit/easylist/easylistdutch?label=Last%20commit&color=informational&style=plastic)](https://github.com/easylist/easylistdutch/commits/master)
