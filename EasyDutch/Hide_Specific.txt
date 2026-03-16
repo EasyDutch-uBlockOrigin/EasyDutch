@@ -1301,7 +1301,6 @@ streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
 amsterdamactueel.nl##.widget_alaya_ad
-mannenstyle.nl##.widget_execphp
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget
