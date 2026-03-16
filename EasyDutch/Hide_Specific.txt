@@ -1,7 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
+! Last updated: Mon, 16 Mar 2026 13:47:15 +0000
 !
+! 2026-03-16
+amsterdamactueel.nl##.ad-container
 ! 2026-03-14
 emerce.nl##[id*="_alpha_"]:upward(div[style])
 domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
@@ -1296,11 +1298,8 @@ intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 mo.be##.view-id-banners_top
 transfermarkt.nl##.werbung
-baarsclassicrock.nl##.widebanner
-streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
-amsterdamactueel.nl##.widget_alaya_ad
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget

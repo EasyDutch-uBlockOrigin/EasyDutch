@@ -1,10 +1,10 @@
-diff name:easydutch lines:1766 checksum:fead53f571
+diff name:easydutch lines:1764 checksum:8b184b2a01
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
+! Last updated: Mon, 16 Mar 2026 13:47:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.723.patch#easydutch
+! Diff-Path: patches/2026.3.16.827.patch#easydutch
 d15 1
 a15 38
 /reclame/*.gif$image,3p
@@ -550,7 +550,8 @@ a25 6
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 d27 1
-a27 1164
+a27 1162
+amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
 domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
 domstadradio.nl##span:has-text(Sponsors):upward(.elementor-element)
@@ -1681,11 +1682,8 @@ intikkertje.nl##.vc_cta3-container
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 mo.be##.view-id-banners_top
 transfermarkt.nl##.werbung
-baarsclassicrock.nl##.widebanner
-streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
-amsterdamactueel.nl##.widget_alaya_ad
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget

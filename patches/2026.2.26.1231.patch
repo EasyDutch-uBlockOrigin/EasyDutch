@@ -1,10 +1,10 @@
-diff name:easydutch lines:156 checksum:fead53f571
+diff name:easydutch lines:158 checksum:8b184b2a01
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
+! Last updated: Mon, 16 Mar 2026 13:47:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.723.patch#easydutch
+! Diff-Path: patches/2026.3.16.827.patch#easydutch
 a59 3
 ||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
@@ -36,7 +36,8 @@ d539 2
 d543 1
 d549 2
 d561 2
-a573 38
+a573 39
+amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
 domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
 domstadradio.nl##span:has-text(Sponsors):upward(.elementor-element)
@@ -133,7 +134,8 @@ d1623 1
 d1629 1
 d1636 1
 d1678 1
-d1724 1
+d1719 2
+d1723 2
 d1728 5
 d1734 3
 d1739 2
