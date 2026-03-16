@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 16 Mar 2026 10:41:54 +0000
+! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.16.641.patch#easydutch
+! Diff-Path: patches/2026.3.16.723.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1685,7 +1685,6 @@ streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
 amsterdamactueel.nl##.widget_alaya_ad
-mannenstyle.nl##.widget_execphp
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget

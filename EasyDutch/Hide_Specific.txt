@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 14 Mar 2026 21:15:44 +0000
+! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
 !
 ! 2026-03-14
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -1301,7 +1301,6 @@ streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##.widget:has-text(Sponsors)
 amsterdamactueel.nl##.widget_alaya_ad
-mannenstyle.nl##.widget_execphp
 rtvideaal.nl##.widget_random_banner_widget
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 radioreflex.be##.widget_sponsors_widget

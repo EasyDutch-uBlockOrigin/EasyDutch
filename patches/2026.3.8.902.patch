@@ -1,10 +1,10 @@
-diff name:easydutch lines:92 checksum:2deb90b48f
+diff name:easydutch lines:93 checksum:fead53f571
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 10:41:54 +0000
+! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.641.patch#easydutch
+! Diff-Path: patches/2026.3.16.723.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 3
@@ -81,6 +81,7 @@ bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tel
 d1572 1
 d1615 1
 d1671 1
+d1717 1
 d1721 4
 d1726 3
 d1731 2

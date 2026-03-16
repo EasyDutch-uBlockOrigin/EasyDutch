@@ -1,10 +1,10 @@
-diff name:easydutch lines:104 checksum:2deb90b48f
+diff name:easydutch lines:105 checksum:fead53f571
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 10:41:54 +0000
+! Last updated: Mon, 16 Mar 2026 12:03:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.641.patch#easydutch
+! Diff-Path: patches/2026.3.16.723.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 3
@@ -92,6 +92,7 @@ d1568 1
 d1611 1
 d1615 1
 d1668 1
+d1714 1
 d1718 4
 d1723 3
 d1728 2
