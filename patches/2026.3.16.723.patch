@@ -1,15 +1,17 @@
-diff name:easydutch lines:14 checksum:a3661bceff
+diff name:easydutch lines:16 checksum:7cf7e0a04f
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.1027.patch#easydutch
-a552 2
+! Diff-Path: patches/2026.3.18.1005.patch#easydutch
+a552 3
+klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 d1681 1
 d1683 2
 d1687 1
+d1729 3
 a1830 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten

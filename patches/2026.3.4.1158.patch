@@ -1,10 +1,10 @@
-diff name:easydutch lines:131 checksum:a3661bceff
+diff name:easydutch lines:133 checksum:7cf7e0a04f
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.1027.patch#easydutch
+! Diff-Path: patches/2026.3.18.1005.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 4
@@ -25,7 +25,8 @@ d503 1
 d522 1
 d526 1
 d544 2
-a566 34
+a566 35
+klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -126,6 +127,7 @@ d1745 4
 d1752 5
 d1759 3
 d1787 1
+d1789 3
 a1839 1
 ||dronkenmokkels.nl/*.php$3p
 a1889 1

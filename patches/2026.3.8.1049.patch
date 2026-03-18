@@ -1,10 +1,10 @@
-diff name:easydutch lines:79 checksum:a3661bceff
+diff name:easydutch lines:81 checksum:7cf7e0a04f
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.1027.patch#easydutch
+! Diff-Path: patches/2026.3.18.1005.patch#easydutch
 a136 3
 ||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
@@ -13,7 +13,8 @@ d413 1
 d416 1
 d440 1
 d478 1
-a553 12
+a553 13
+klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -74,6 +75,7 @@ d1723 3
 d1728 1
 d1730 4
 d1736 1
+d1769 3
 a1819 1
 ||dronkenmokkels.nl/*.php$3p
 a1869 1

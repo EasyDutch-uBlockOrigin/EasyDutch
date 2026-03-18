@@ -1,6 +1,6 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Sun, 08 Mar 2026 17:05:37 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 !
 ! 2023-10-13
 gratisaftehalen.nl#@#.ads-image
@@ -19,6 +19,3 @@ mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 ! 2021-06-04
 marktplaats.nl#@#.adSummary
-!#if env_mobile
-klusidee.nl#@#.header-ad
-!#endif

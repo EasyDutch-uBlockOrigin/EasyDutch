@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.16.1027.patch#easydutch
+! Diff-Path: patches/2026.3.18.1005.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -550,6 +550,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -1724,9 +1725,6 @@ mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
-!#if env_mobile
-klusidee.nl#@#.header-ad
-!#endif
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)

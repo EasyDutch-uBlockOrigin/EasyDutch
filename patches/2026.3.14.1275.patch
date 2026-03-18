@@ -1,10 +1,10 @@
-diff name:easydutch lines:1766 checksum:a3661bceff
+diff name:easydutch lines:1764 checksum:7cf7e0a04f
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.1027.patch#easydutch
+! Diff-Path: patches/2026.3.18.1005.patch#easydutch
 d15 1
 a15 38
 /reclame/*.gif$image,3p
@@ -550,7 +550,8 @@ a25 6
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 d27 1
-a27 1162
+a27 1163
+klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -1714,7 +1715,7 @@ rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 d29 1
-a29 14
+a29 11
 gratisaftehalen.nl#@#.ads-image
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,lokerenrss.be,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 radiozuidrand.be#@#.advertisement_300x250
@@ -1726,9 +1727,6 @@ mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
-!#if env_mobile
-klusidee.nl#@#.header-ad
-!#endif
 d31 1
 a31 30
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)

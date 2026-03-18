@@ -1,10 +1,10 @@
-diff name:easydutch lines:158 checksum:a3661bceff
+diff name:easydutch lines:160 checksum:7cf7e0a04f
 d2 1
 a2 1
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.16.1027.patch#easydutch
+! Diff-Path: patches/2026.3.18.1005.patch#easydutch
 a59 3
 ||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
@@ -33,7 +33,8 @@ d522 1
 d526 1
 d537 2
 d546 2
-a568 39
+a568 40
+klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
@@ -153,6 +154,7 @@ a1781 1
 kinderspelletjes.be##div[style^="width:336px;height:290px"]:has-text(Reclame)
 d1784 3
 d1799 1
+d1801 3
 a1851 1
 ||dronkenmokkels.nl/*.php$3p
 a1901 1
