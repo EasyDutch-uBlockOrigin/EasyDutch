@@ -831,8 +831,6 @@ jndkgrf.nl##.wp-block-image:has([href^="https://partner.bol.com/click/"])
 ! 2022-12-07
 flashscore.nl##.adsenvelope
 flashscore.nl##.oddsPlacement
-! 2022-11-29
-dissident.one##[id^="custom_html-"]:has-text(/advert/i)
 ! 2022-10-25
 autoscout24.be##.hf-top-ad
 autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
@@ -1150,7 +1148,6 @@ voetbalvandaag.be##.adds
 koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
 handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
-dissident.one##.adsbygoogle
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spelletje.nl##.adv
 folderz.nl,intermediair.nl,spel.nl,spelletjes.nl##.advert
@@ -1276,7 +1273,6 @@ omroephouten.nl##.sponsor-carousel
 volleybelgium.be##.sponsors
 detelefoongids.nl##.static-map
 glutenvrij.nl##.t-banner
-dissident.one##.td-adspot-title
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
