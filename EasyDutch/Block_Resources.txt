@@ -402,7 +402,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||kranenwebsite.nl/banners/$image
 ||landenweb.nl/imgBoeking/$image
 ||linqmedia.nl/cwm/fm/userfiles/banner/$image
-||live-voetbal.com/wp-content/themes/fed/js/jquery-*.js$script,1p
 ||luister.nl/wp-content/uploads/*/Banner_$image
 ||maaslandradio.nl/wp-content/uploads/*/autodoc.
 ||maaslandradio.nl/wp-content/uploads/*/Hekwerkland.
