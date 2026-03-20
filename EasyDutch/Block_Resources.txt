@@ -412,7 +412,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||mo.be/sites/default/files/banners/$image
 ||motocrossplanet.nl/banner/
 ||motocrossplanet.nl/wwwuploads/banners/
-||netonline.be/slices/banners/
 ||nevobo.nl^*/sponsor/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
