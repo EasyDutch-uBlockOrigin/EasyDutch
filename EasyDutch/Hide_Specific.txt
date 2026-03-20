@@ -893,7 +893,6 @@ omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
 nl.motorsport.com##.ms-side-widget--custom-links__wrapper
-detelefoongids.nl##.wrapper:has-text(Youvia)
 dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 nec-nijmegen.nl##.sponsors
@@ -1274,7 +1273,6 @@ solarmagazine.nl##.sols
 niburu.co##.sponsers
 omroephouten.nl##.sponsor-carousel
 volleybelgium.be##.sponsors
-detelefoongids.nl##.static-map
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
