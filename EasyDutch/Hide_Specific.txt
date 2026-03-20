@@ -1241,7 +1241,6 @@ sparta-rotterdam.nl##.logo_slider_logos
 greenkeeper.nl##.logoblok
 deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
-live-voetbal.com##.match-bet
 ga-eagles.nl##.match-sponsor
 wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
@@ -1273,7 +1272,6 @@ scholieren.com##.searchvertorial
 uitzendinggemist.net##.serie_info_adbox
 fcgroningen.nl##.sidebar__item--banner
 solarmagazine.nl##.sols
-live-voetbal.com##.special-offer
 niburu.co##.sponsers
 omroephouten.nl##.sponsor-carousel
 volleybelgium.be##.sponsors
@@ -1287,7 +1285,6 @@ netonline.be##.text_12_jobs_only
 fantv.nl##.tm-top-a
 fantv.nl##.tm-top-c
 startpagina.nl##.top-banner
-live-voetbal.com##.top-match
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 transfermarkt.nl##.werbung
