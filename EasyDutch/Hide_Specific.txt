@@ -1282,8 +1282,6 @@ dissident.one##.td-adspot-title
 netonline.be##.tekstboldwit:has-text(ADVERT)
 nos.nl##.teletekst__banner
 netonline.be##.text_12_jobs_only
-fantv.nl##.tm-top-a
-fantv.nl##.tm-top-c
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
