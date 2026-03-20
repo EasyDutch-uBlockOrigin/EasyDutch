@@ -243,7 +243,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||focusclub.nl/images/banners/
 ! 2023-01-27
 ||wieringernieuws.nl/gfx/ads/$domain=hollandskroonnieuws.nl|wieringernieuws.nl
-||viralize.tv/display/$domain=startpagina.nl
 /^https?:\/\/(?:www\.)?webcams?\-?[a-z]+\.nl\/media\/banners2?\//$1p,image
 ! 2022-12-09
 ||dewestkrant.nl/wp-content/uploads/*/*Banner
