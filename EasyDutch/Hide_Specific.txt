@@ -867,7 +867,6 @@ radio.nl###xbtm > .shadow
 radio.nl##[id^="takeover"]:has-text(Advert)
 cocamsterdam.nl,cochaaglanden.nl###banners
 cocdeventer.nl###ads
-omroephouten.nl##.bannerswidget
 omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
