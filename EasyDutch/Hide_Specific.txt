@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-20
+niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
 glutenvrij.nl##.t-banner
@@ -1225,7 +1226,6 @@ scholieren.com##.searchvertorial
 uitzendinggemist.net##.serie_info_adbox
 fcgroningen.nl##.sidebar__item--banner
 solarmagazine.nl##.sols
-niburu.co##.sponsers
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
