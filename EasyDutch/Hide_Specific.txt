@@ -1275,10 +1275,8 @@ niburu.co##.sponsers
 omroephouten.nl##.sponsor-carousel
 volleybelgium.be##.sponsors
 detelefoongids.nl##.static-map
-nos.nl##.ster-banner
 glutenvrij.nl##.t-banner
 dissident.one##.td-adspot-title
-nos.nl##.teletekst__banner
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
