@@ -1093,7 +1093,6 @@ duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/u
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
 kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
-netonline.be##.tekstboldwit td:has-text(/advert/i)
 ! 2022-01-13
 morningstar.*###ad_top_page
 filmtotaal.nl###adf-rectangle
@@ -1279,9 +1278,7 @@ detelefoongids.nl##.static-map
 nos.nl##.ster-banner
 glutenvrij.nl##.t-banner
 dissident.one##.td-adspot-title
-netonline.be##.tekstboldwit:has-text(ADVERT)
 nos.nl##.teletekst__banner
-netonline.be##.text_12_jobs_only
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
