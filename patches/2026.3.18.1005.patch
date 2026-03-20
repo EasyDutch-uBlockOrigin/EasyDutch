@@ -1,0 +1,69 @@
+diff name:easydutch lines:68 checksum:feb9c3fabc
+d2 1
+a2 1
+! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.3.20.1292.patch#easydutch
+a136 1
+||niburu.co/images/sidebanners/
+d241 1
+d330 1
+d424 2
+d463 1
+d475 1
+a552 4
+niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
+glutenvrij.nl##.t-banner
+d557 2
+d618 1
+d623 2
+d966 1
+d976 1
+d1025 1
+d1038 1
+d1040 1
+d1074 4
+d1114 1
+d1133 1
+d1136 1
+d1143 1
+d1172 1
+d1178 1
+d1259 1
+d1263 1
+d1288 1
+d1307 1
+d1311 1
+d1314 1
+d1323 1
+d1331 1
+d1334 2
+d1354 1
+d1392 1
+d1399 1
+d1401 1
+d1416 1
+d1423 2
+d1429 1
+d1480 1
+d1537 1
+d1546 1
+d1553 1
+d1566 2
+d1574 1
+d1584 1
+d1592 1
+d1596 1
+d1605 1
+d1622 2
+d1628 2
+d1644 1
+d1661 14
+d1676 5
+d1682 1
+d1686 1
+d1689 1
+d1697 1

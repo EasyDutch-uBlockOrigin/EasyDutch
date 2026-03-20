@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 14 Mar 2026 09:23:12 +0000
+! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
 !
+! 2026-03-20
+||niburu.co/images/sidebanners/
 ! 2026-03-14
 ||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
@@ -136,7 +138,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||truck1.nl/st2/banners/
 ||truck1-nl.be/st2/banners/
 ! 2023-11-01
-||feyenoord.nl/*/media/*partnerships/$image
 ||nnieuws.be/sites/default/files/images/ads/
 ! 2023-10-31
 ||admin.ditjesendatjes.nl/wp-content/uploads/Vignet_Cover$image
@@ -244,7 +245,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||focusclub.nl/images/banners/
 ! 2023-01-27
 ||wieringernieuws.nl/gfx/ads/$domain=hollandskroonnieuws.nl|wieringernieuws.nl
-||viralize.tv/display/$domain=startpagina.nl
 /^https?:\/\/(?:www\.)?webcams?\-?[a-z]+\.nl\/media\/banners2?\//$1p,image
 ! 2022-12-09
 ||dewestkrant.nl/wp-content/uploads/*/*Banner
@@ -366,8 +366,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||classicstogo.nl/files/*/*-banner-*$image,1p
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
-||computable.be/media/truelogo*$image,1p
-||computable.nl/media/truelogo*$image,1p
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
 ||dagbladdewest.com/wp-content/uploads*/*728x90px*.jpg$image
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
@@ -405,7 +403,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||kranenwebsite.nl/banners/$image
 ||landenweb.nl/imgBoeking/$image
 ||linqmedia.nl/cwm/fm/userfiles/banner/$image
-||live-voetbal.com/wp-content/themes/fed/js/jquery-*.js$script,1p
 ||luister.nl/wp-content/uploads/*/Banner_$image
 ||maaslandradio.nl/wp-content/uploads/*/autodoc.
 ||maaslandradio.nl/wp-content/uploads/*/Hekwerkland.
@@ -417,7 +414,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||mo.be/sites/default/files/banners/$image
 ||motocrossplanet.nl/banner/
 ||motocrossplanet.nl/wwwuploads/banners/
-||netonline.be/slices/banners/
 ||nevobo.nl^*/sponsor/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||ontdek-amerika.nl/marketing/bartsbanner.gif

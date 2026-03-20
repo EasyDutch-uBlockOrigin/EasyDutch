@@ -1,14 +1,75 @@
-diff name:easydutch lines:13 checksum:7cf7e0a04f
+diff name:easydutch lines:74 checksum:feb9c3fabc
 d2 1
 a2 1
-! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
+! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.18.1005.patch#easydutch
-a552 2
+! Diff-Path: patches/2026.3.20.1292.patch#easydutch
+a136 1
+||niburu.co/images/sidebanners/
+d241 1
+d330 1
+d424 2
+d463 1
+d475 1
+a552 6
+niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
+glutenvrij.nl##.t-banner
 klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
+d555 2
+d616 1
+d621 2
+d964 1
+d974 1
+d1023 1
+d1036 1
+d1038 1
+d1072 4
+d1112 1
+d1131 1
+d1134 1
+d1141 1
+d1170 1
+d1176 1
+d1257 1
+d1261 1
+d1286 1
+d1305 1
+d1309 1
+d1312 1
+d1321 1
+d1329 1
+d1332 2
+d1352 1
+d1390 1
+d1397 1
+d1399 1
+d1414 1
+d1421 2
+d1427 1
+d1478 1
+d1535 1
+d1544 1
+d1551 1
+d1564 2
+d1572 1
+d1582 1
+d1590 1
+d1594 1
+d1603 1
+d1620 2
+d1626 2
+d1642 1
+d1659 14
+d1674 5
+d1680 1
 d1682 1
+d1685 1
+d1688 1
+d1696 1
 d1727 3
 a1828 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten

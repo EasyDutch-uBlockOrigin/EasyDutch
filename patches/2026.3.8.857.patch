@@ -1,32 +1,40 @@
-diff name:easydutch lines:115 checksum:7cf7e0a04f
+diff name:easydutch lines:167 checksum:feb9c3fabc
 d2 1
 a2 1
-! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
+! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.18.1005.patch#easydutch
+! Diff-Path: patches/2026.3.20.1292.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
-a135 3
+a135 4
+||niburu.co/images/sidebanners/
 ||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
 ||kanaancourant.nl/wp-content/uploads/*advertentie.$image
+d237 1
 d268 1
+d327 1
 d395 5
 d418 1
 d421 1
+d428 2
 d437 2
 d447 1
+d470 1
+d482 1
 d485 1
 d520 1
 d524 1
-a562 27
+a562 29
+niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
+glutenvrij.nl##.t-banner
 klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
-domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
-domstadradio.nl##span:has-text(Sponsors):upward(.elementor-element)
 hardnieuws.nl##.pgAdWrapper
 klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
@@ -48,6 +56,8 @@ zeelandnet.nl##.as__topbanner
 zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
 zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
+d601 1
+d606 2
 d631 1
 d642 1
 d667 1
@@ -77,35 +87,77 @@ a942 1
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space:upward(div._ztjuth1)
 d965 1
 d972 1
+d975 1
+d985 1
+d1034 1
+d1047 1
+d1049 1
+d1083 4
+d1123 1
+d1142 1
+d1145 1
+d1152 1
 d1171 1
+d1182 1
+d1188 1
+d1269 1
+d1273 1
 d1292 1
+d1299 1
+d1318 1
+d1322 1
+d1325 1
+d1334 1
 d1337 1
+d1343 1
 d1345 1
+d1347 2
+d1367 1
 d1369 2
-d1440 1
+d1407 1
+d1414 1
+d1416 1
+d1431 1
+d1438 3
+d1445 1
 d1449 1
 d1460 1
 d1497 1
+d1499 1
 d1538 1
 d1541 1
 d1546 1
 a1546 1
 bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
-d1568 1
+d1558 1
+d1567 2
 d1570 1
 d1572 1
+d1577 1
+d1590 2
+d1598 1
+d1608 1
 d1615 1
+d1617 1
 d1619 1
+d1622 1
+d1631 1
+d1648 2
+d1654 2
+d1670 1
 d1672 1
+d1688 14
+d1703 5
+d1709 1
 d1711 1
 d1713 2
-d1717 2
-d1722 5
+d1716 3
+d1721 6
 d1728 3
 d1733 2
 d1736 4
 d1742 1
-d1744 4
+d1744 5
 d1751 5
 d1758 3
 d1786 1

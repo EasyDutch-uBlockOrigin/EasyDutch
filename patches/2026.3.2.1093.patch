@@ -1,45 +1,53 @@
-diff name:easydutch lines:160 checksum:7cf7e0a04f
+diff name:easydutch lines:211 checksum:feb9c3fabc
 d2 1
 a2 1
-! Last updated: Wed, 18 Mar 2026 16:45:57 +0000
+! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.18.1005.patch#easydutch
+! Diff-Path: patches/2026.3.20.1292.patch#easydutch
 a59 3
 ||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
 ||lt45.net^$3p
-a133 5
+a133 6
+||niburu.co/images/sidebanners/
 ||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
 ||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
+d233 1
 d235 1
 d265 1
 d319 1
 a319 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|sleutelstad.nl|unitednews.sr
+d324 1
 d337 1
 d393 5
 d416 1
 d419 1
+d426 2
 d435 2
 d445 1
 d454 3
+d471 1
+d483 1
 d486 1
 d503 1
 d522 1
 d526 1
 d537 2
 d546 2
-a568 40
+a568 42
+niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
+glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
+glutenvrij.nl##.t-banner
 klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
-domstadradio.nl##.elementor-element[class*="elementor-sponsors"]
-domstadradio.nl##span:has-text(Sponsors):upward(.elementor-element)
 hardnieuws.nl##.pgAdWrapper
 klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
@@ -74,6 +82,8 @@ sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
+d594 1
+d599 2
 d624 1
 d635 1
 d660 1
@@ -103,19 +113,47 @@ a935 1
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space:upward(div._ztjuth1)
 d958 1
 d965 1
+d968 1
+d978 1
+d1027 1
+d1040 1
+d1042 1
 d1075 1
+d1077 4
+d1117 1
 d1130 1
+d1137 1
+d1140 1
+d1147 1
 d1166 1
+d1177 1
+d1183 1
 d1233 1
+d1265 1
+d1269 1
 d1288 1
+d1295 1
+d1314 1
+d1318 1
+d1321 1
+d1330 1
 d1333 1
+d1339 1
 d1341 1
+d1343 2
+d1363 1
 d1365 2
 d1390 1
-d1437 1
+d1404 1
+d1411 1
+d1413 1
+d1428 1
+d1435 3
+d1442 1
 d1446 1
 d1457 1
 d1494 1
+d1496 1
 d1498 1
 d1502 1
 d1537 1
@@ -123,24 +161,37 @@ d1540 1
 d1545 1
 a1545 1
 bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
-d1567 1
+d1557 1
+d1566 2
 d1569 1
 d1571 1
+d1576 1
+d1589 2
 d1594 1
+d1598 1
+d1608 1
 d1615 1
+d1617 1
 d1619 1
+d1622 1
 d1625 1
-d1632 1
+d1632 2
+d1650 2
+d1656 2
+d1672 1
 d1674 1
+d1690 14
+d1705 5
+d1711 1
 d1713 1
 d1715 2
-d1719 2
-d1724 5
+d1718 3
+d1723 6
 d1730 3
 d1735 2
 d1738 4
 d1744 1
-d1746 5
+d1746 6
 d1754 5
 d1761 3
 d1767 3
