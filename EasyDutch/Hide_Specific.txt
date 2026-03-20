@@ -1167,7 +1167,6 @@ afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuw
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
-feyenoord.nl##.banner-carousel
 funnygames.be,funnygames.nl##.bannerContainer
 refoweb.nl##.bannercontainer
 tvblik.nl##.banner-fluid
@@ -1258,7 +1257,6 @@ jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
 ajax.nl##.page-footer__partners-block
 interglot.nl##.pane_results > div:has-text(Ads)
 klokradio.nl##.panel-grid:has-text(Advertentie)
-feyenoord.nl##.partners
 golf.be##.partners-holder
 denachtvlinders.nl##.plek-boven-artikel
 fhm500.nl##.powered_by_page
@@ -1290,7 +1288,6 @@ fantv.nl##.tm-top-a
 fantv.nl##.tm-top-c
 startpagina.nl##.top-banner
 live-voetbal.com##.top-match
-feyenoord.nl##.totoOdds
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 transfermarkt.nl##.werbung
