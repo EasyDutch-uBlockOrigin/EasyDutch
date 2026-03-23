@@ -1225,7 +1225,6 @@ regionoordkop.nl##.regio-widget
 softonic.nl##.sam-slot
 scholieren.com##.searchvertorial
 uitzendinggemist.net##.serie_info_adbox
-fcgroningen.nl##.sidebar__item--banner
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
