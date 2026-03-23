@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
+hetnieuwsvandaag.be##.banners
 softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
 scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
@@ -1109,7 +1110,7 @@ formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetb
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
-bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 bestereistijd.be##.ad + .card-divider
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
@@ -1220,7 +1221,7 @@ koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
 openingsurengids.be##.promSB
-hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
+mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
