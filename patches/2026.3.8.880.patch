@@ -1,31 +1,54 @@
-diff name:easydutch lines:165 checksum:feb9c3fabc
+diff name:easydutch lines:196 checksum:750a3926d5
 d2 1
 a2 1
-! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
+! Last updated: Mon, 23 Mar 2026 18:29:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.20.1292.patch#easydutch
+! Diff-Path: patches/2026.3.23.1109.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
-a135 4
+a135 8
+||openingsurengids.be/includes/js/ads.js
+||openingsurengids.be/includes/js/checkblockv2.js
+||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
+||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
 ||niburu.co/images/sidebanners/
 ||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
 ||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 d237 1
 d268 1
+d303 1
+d306 1
+d321 2
+a322 2
+/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|rtvlansingerland.nl|unitednews.sr
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
 d327 1
+d366 1
+a366 1
+/*/TOTO*banner$domain=willem-ii.nl
+d373 1
 d413 1
 d416 1
 d423 2
-d432 2
+d431 3
 d442 1
+d454 1
 d465 1
 d477 1
 d480 1
+d482 2
 d515 1
 d519 1
-a557 28
+a557 35
+openingsurengids.be##.adMobile
+openingsurengids.be##.promSB
+hetnieuwsvandaag.be##.banners
+softonic.nl##[data-label="Advertentie"]:upward(1)
+scholieren.com##.min-h-\[90px\]
+scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
+solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
@@ -105,11 +128,13 @@ d1295 1
 d1314 1
 d1318 1
 d1321 1
+d1323 1
 d1330 1
 d1333 1
 d1339 1
 d1341 1
 d1343 2
+d1346 1
 d1363 1
 d1365 2
 d1403 1
@@ -126,25 +151,31 @@ d1534 1
 d1537 1
 d1542 1
 a1542 1
-bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 d1554 1
 d1563 2
 d1566 1
 d1568 1
 d1573 1
-d1586 2
+d1586 3
 d1594 1
 d1604 1
 d1611 1
 d1613 1
 d1615 1
 d1618 1
+d1623 1
 d1627 1
 d1644 2
 d1650 2
-d1666 1
-d1668 1
-d1684 14
+d1654 1
+d1662 2
+d1665 2
+d1668 4
+d1675 2
+a1676 1
+mijn-tv-gids.be##.pub
+d1678 20
 d1699 5
 d1705 1
 d1707 1

@@ -1,7 +1,15 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 20 Mar 2026 21:32:52 +0000
+! Last updated: Mon, 23 Mar 2026 18:29:22 +0000
 !
+! 2026-03-23
+openingsurengids.be##.adMobile
+openingsurengids.be##.promSB
+hetnieuwsvandaag.be##.banners
+softonic.nl##[data-label="Advertentie"]:upward(1)
+scholieren.com##.min-h-\[90px\]
+scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
+solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 ! 2026-03-20
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
@@ -875,7 +883,6 @@ nl.motorsport.com##.ms-side-widget--custom-links__wrapper
 dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
-fhm500.nl##div.profiel:has-text(Powered by)
 flexnieuws.nl##.header-ads__custom-ad
 floranews.com##td[align="center"]:has(> hr):has([href^="/banner"])
 floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img[src*="Hier kan uw banner staan"]))
@@ -893,7 +900,6 @@ kbradio.nl##a[href="../../omroep/adverteren/"]
 itnijs.frl##.banner:upward(.widget)
 indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 sleutelstad.nl##.g
-solarmagazine.nl##[id]:has(.company-add)
 hollywoodhuizen.nl##rssapp-carousel
 historiek.net##.ablok
 h2owaternetwerk.nl##.bannergroup:upward(.module)
@@ -1105,7 +1111,7 @@ formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetb
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
-bestereistijd.be,hetnieuwsvandaag.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 bestereistijd.be##.ad + .card-divider
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
@@ -1143,7 +1149,6 @@ radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
 azerty.nl##.block.mod_article:has(.flexslider)
-scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
 volleybal.nl##.card-banner
@@ -1172,7 +1177,6 @@ radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
 srherald.com##.gsrhera
 golf.be##.header__bottom
-ajax.nl##.header__partner-link
 eredivisie.nl##.header__top__partners
 koopplein.nl,televizier.nl,tvblik.nl##.header-banner
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
@@ -1198,7 +1202,6 @@ deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
-scholieren.com##.min-h-90
 financialinvestigator.nl##.mpu
 nl.motorsport.com##.ms-hapb
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
@@ -1206,26 +1209,13 @@ dekattensite.nl##.nxs-default-p > p:has-text(advert)
 inmemoriam.be##.o-news__add
 cabla.nl##.ontwerp_ads
 classicstogo.nl##.owl-carousel
-jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
-ajax.nl##.page-footer__partners-block
 interglot.nl##.pane_results > div:has-text(Ads)
-klokradio.nl##.panel-grid:has-text(Advertentie)
 golf.be##.partners-holder
-denachtvlinders.nl##.plek-boven-artikel
-fhm500.nl##.powered_by_page
-fhm500.nl##.powered_by_profile
 koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
-openingsurengids.be##.promSB
-hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
+mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
-regionoordkop.nl##.regio-widget
-softonic.nl##.sam-slot
-scholieren.com##.searchvertorial
-uitzendinggemist.net##.serie_info_adbox
-fcgroningen.nl##.sidebar__item--banner
-solarmagazine.nl##.sols
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
