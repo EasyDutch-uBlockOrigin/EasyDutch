@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-23
+solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 ! 2026-03-20
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
@@ -893,7 +895,6 @@ kbradio.nl##a[href="../../omroep/adverteren/"]
 itnijs.frl##.banner:upward(.widget)
 indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 sleutelstad.nl##.g
-solarmagazine.nl##[id]:has(.company-add)
 hollywoodhuizen.nl##rssapp-carousel
 historiek.net##.ablok
 h2owaternetwerk.nl##.bannergroup:upward(.module)
@@ -1225,7 +1226,6 @@ softonic.nl##.sam-slot
 scholieren.com##.searchvertorial
 uitzendinggemist.net##.serie_info_adbox
 fcgroningen.nl##.sidebar__item--banner
-solarmagazine.nl##.sols
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
