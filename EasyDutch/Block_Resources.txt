@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
+||openingsurengids.be/includes/js/ads.js
+||openingsurengids.be/includes/js/checkblockv2.js
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
 ||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
 ! 2026-03-20
@@ -418,8 +420,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||nevobo.nl^*/sponsor/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
-||openingsurengids.be/includes/js/checkblockv2.js
-||openingsurengids.be/template/images/publi/
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
