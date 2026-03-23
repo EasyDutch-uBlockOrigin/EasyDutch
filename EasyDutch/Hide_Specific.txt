@@ -1215,7 +1215,6 @@ ajax.nl##.page-footer__partners-block
 interglot.nl##.pane_results > div:has-text(Ads)
 klokradio.nl##.panel-grid:has-text(Advertentie)
 golf.be##.partners-holder
-denachtvlinders.nl##.plek-boven-artikel
 koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
