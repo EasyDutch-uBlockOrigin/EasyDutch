@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
+softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
 scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
@@ -1222,7 +1223,6 @@ openingsurengids.be##.promSB
 hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
 regionoordkop.nl##.regio-widget
-softonic.nl##.sam-slot
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
