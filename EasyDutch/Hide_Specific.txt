@@ -3,7 +3,6 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
-jammfm.nl##.qt-slickslider:has(.qt-sponsor):upward(.qt-custom-composer)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
