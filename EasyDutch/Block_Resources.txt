@@ -223,7 +223,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||golf.be/files/BannerImage/$image,1p
 ||klasse.be/wp/wp-content/images/*_lb_*full.*$image
 ||kookboekennieuws.nl/wp-content/uploads/*/*BANNER*$image
-||wp.com/klokradio.nl/wp-content/uploads/*/adv-
 ||oisterwijknieuws.nl/wp-content/uploads/*/50-Plus-Makelaar-*.jpg$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/Boogaers-2018-125.png$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/MBA-regiobank-*.gif$image
