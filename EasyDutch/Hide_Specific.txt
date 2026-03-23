@@ -1177,7 +1177,6 @@ radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
 srherald.com##.gsrhera
 golf.be##.header__bottom
-ajax.nl##.header__partner-link
 eredivisie.nl##.header__top__partners
 koopplein.nl,televizier.nl,tvblik.nl##.header-banner
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
@@ -1211,7 +1210,6 @@ inmemoriam.be##.o-news__add
 cabla.nl##.ontwerp_ads
 classicstogo.nl##.owl-carousel
 jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
-ajax.nl##.page-footer__partners-block
 interglot.nl##.pane_results > div:has-text(Ads)
 golf.be##.partners-holder
 koopplein.nl##.promobloc-desktop
