@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-23
+||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
+||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
 ! 2026-03-20
 ||niburu.co/images/sidebanners/
 ! 2026-03-14
@@ -391,7 +394,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 ||greenkeeper.nl/upload/banners/
 ||greenkeeper.nl/upload/relaties/
-||hetnieuwsvandaag.be/media/cache/rectangle_image/media/image/*.$image
 ||hotradiohits.nl/image/picture/*_banner.
 ||htforum.nl/yabbse/*-banner2.gif
 ||htforum.nl/yabbse/banners/
