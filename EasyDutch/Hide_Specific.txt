@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
+jammfm.nl##.qt-slickslider:has(.qt-sponsor):upward(.qt-custom-composer)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
@@ -1209,7 +1210,6 @@ dekattensite.nl##.nxs-default-p > p:has-text(advert)
 inmemoriam.be##.o-news__add
 cabla.nl##.ontwerp_ads
 classicstogo.nl##.owl-carousel
-jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
 interglot.nl##.pane_results > div:has-text(Ads)
 golf.be##.partners-holder
 koopplein.nl##.promobloc-desktop
