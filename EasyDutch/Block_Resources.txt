@@ -294,7 +294,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||h2owaternetwerk.nl/images/*/*Banner$image
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
 ||tickers.zimmo.be/gva/$domain=gva.be
-/*/TOTO*banner$domain=fcgroningen.nl|willem-ii.nl
+/*/TOTO*banner$domain=willem-ii.nl
 ||voetbalrotterdam.nl/wp-content/uploads/*/*banner
 ||voetbalrotterdam.nl/wp-content/uploads/*/fidus
 ! 2022-06-28
@@ -302,7 +302,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||linuxmag.nl/wp-content/uploads/*banner
 ||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
 ||schie.nu/images/*banner
-||fcgroningen.nl/websites/implementatie/website/img/sprite/sponsor-$image
 ||edelmetaal-info.nl/wp-content/uploads/*/*HollandGold*$image
 ! 2022-06-27
 ||broadcastmagazine.nl/wp-content/uploads/*/SMPhomepagenw2.gif
