@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
+scholieren.com##.min-h-\[90px\]
+scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 ! 2026-03-20
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
@@ -1144,7 +1146,6 @@ radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
 azerty.nl##.block.mod_article:has(.flexslider)
-scholieren.com##.blockvertorial
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
 volleybal.nl##.card-banner
@@ -1199,7 +1200,6 @@ deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
-scholieren.com##.min-h-90
 financialinvestigator.nl##.mpu
 nl.motorsport.com##.ms-hapb
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
@@ -1223,7 +1223,6 @@ hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
 regionoordkop.nl##.regio-widget
 softonic.nl##.sam-slot
-scholieren.com##.searchvertorial
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
