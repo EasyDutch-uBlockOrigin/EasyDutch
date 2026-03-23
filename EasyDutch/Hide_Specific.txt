@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-23
+openingsurengids.be##.adMobile
+openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
 softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
@@ -1220,7 +1222,6 @@ fhm500.nl##.powered_by_profile
 koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
-openingsurengids.be##.promSB
 mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
 startpagina.nl##.top-banner
