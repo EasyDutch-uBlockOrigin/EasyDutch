@@ -1222,7 +1222,6 @@ synoniemen.net##.promoblok
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 iexgeld.nl##.Rectangle
-regionoordkop.nl##.regio-widget
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
