@@ -221,7 +221,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||acties.nl/uploads/nl/ckeditor/*-af-*$image,domain=frontline.digital
 ||kortingsimages.kortingscop.nl/banners/$image,domain=frontline.digital
 ||golf.be/files/BannerImage/$image,1p
-||golf.be/images/*_950x90_CTA$image
 ||klasse.be/wp/wp-content/images/*_lb_*full.*$image
 ||kookboekennieuws.nl/wp-content/uploads/*/*BANNER*$image
 ||wp.com/klokradio.nl/wp-content/uploads/*/adv-
