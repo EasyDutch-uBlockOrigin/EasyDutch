@@ -1213,7 +1213,6 @@ classicstogo.nl##.owl-carousel
 jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
 ajax.nl##.page-footer__partners-block
 interglot.nl##.pane_results > div:has-text(Ads)
-klokradio.nl##.panel-grid:has-text(Advertentie)
 golf.be##.partners-holder
 koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
