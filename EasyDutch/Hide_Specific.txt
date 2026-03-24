@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-24
+rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 ! 2026-03-23
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
