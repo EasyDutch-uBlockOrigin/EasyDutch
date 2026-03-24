@@ -1,0 +1,9 @@
+diff name:easydutch lines:8 checksum:cf22a9860d
+d2 1
+a2 1
+! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.3.24.470.patch#easydutch
+a544 1
+rtvconnect.nl##span:has-text(Advert):upward(div.widget)

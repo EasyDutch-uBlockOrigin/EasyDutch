@@ -1,10 +1,10 @@
-diff name:easydutch lines:198 checksum:750a3926d5
+diff name:easydutch lines:199 checksum:cf22a9860d
 d2 1
 a2 1
-! Last updated: Mon, 23 Mar 2026 18:29:22 +0000
+! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.23.1109.patch#easydutch
+! Diff-Path: patches/2026.3.24.470.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 8
@@ -42,7 +42,8 @@ d485 1
 d487 2
 d520 1
 d524 1
-a562 36
+a562 37
+rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners

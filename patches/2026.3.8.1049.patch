@@ -1,10 +1,10 @@
-diff name:easydutch lines:168 checksum:750a3926d5
+diff name:easydutch lines:169 checksum:cf22a9860d
 d2 1
 a2 1
-! Last updated: Mon, 23 Mar 2026 18:29:22 +0000
+! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.23.1109.patch#easydutch
+! Diff-Path: patches/2026.3.24.470.patch#easydutch
 a136 8
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
@@ -36,7 +36,8 @@ d463 1
 d475 1
 d478 1
 d480 2
-a553 22
+a553 23
+rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
