@@ -1207,7 +1207,6 @@ mijn-tv-gids.be##.midzone
 financialinvestigator.nl##.mpu
 nl.motorsport.com##.ms-hapb
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
-dekattensite.nl##.nxs-default-p > p:has-text(advert)
 inmemoriam.be##.o-news__add
 classicstogo.nl##.owl-carousel
 interglot.nl##.pane_results > div:has-text(Ads)
