@@ -1,11 +1,12 @@
-diff name:easydutch lines:48 checksum:cf22a9860d
+diff name:easydutch lines:60 checksum:35645af651
 d2 1
 a2 1
-! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
+! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.24.470.patch#easydutch
-a136 4
+! Diff-Path: patches/2026.3.24.1187.patch#easydutch
+a136 5
+||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
@@ -20,10 +21,13 @@ d368 1
 a368 1
 /*/TOTO*banner$domain=willem-ii.nl
 d375 1
+d420 1
 d429 1
-d449 1
+d448 2
 d474 2
-a547 8
+a547 10
+nl.motorsport.com##.ms-side-widget--custom-links
+nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
@@ -32,14 +36,22 @@ softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
 scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
+d1266 1
+d1285 1
 d1289 1
 d1306 1
+d1467 1
 d1485 1
 a1485 1
 bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+d1511 1
 d1523 1
+d1531 1
 d1552 1
-d1578 1
+d1572 2
+d1578 3
+d1582 1
+d1584 1
 d1586 2
 d1589 1
 d1591 3

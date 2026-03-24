@@ -1,13 +1,14 @@
-diff name:easydutch lines:197 checksum:cf22a9860d
+diff name:easydutch lines:206 checksum:35645af651
 d2 1
 a2 1
-! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
+! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.24.470.patch#easydutch
+! Diff-Path: patches/2026.3.24.1187.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
-a135 8
+a135 9
+||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
@@ -31,17 +32,20 @@ a366 1
 d373 1
 d413 1
 d416 1
+d420 1
 d423 2
 d431 3
 d442 1
-d454 1
+d453 2
 d465 1
 d477 1
 d480 1
 d482 2
 d515 1
 d519 1
-a557 36
+a557 38
+nl.motorsport.com##.ms-side-widget--custom-links
+nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
@@ -126,8 +130,9 @@ d1265 1
 d1269 1
 d1288 1
 d1295 1
+d1297 1
 d1314 1
-d1318 1
+d1317 2
 d1321 1
 d1323 1
 d1330 1
@@ -148,6 +153,7 @@ d1445 1
 d1456 1
 d1493 1
 d1495 1
+d1522 1
 d1534 1
 d1537 1
 d1542 1
@@ -157,9 +163,10 @@ d1554 1
 d1563 2
 d1566 1
 d1568 1
-d1573 1
+d1573 2
 d1586 3
 d1594 1
+d1597 1
 d1604 1
 d1611 1
 d1613 1
@@ -167,9 +174,11 @@ d1615 1
 d1618 1
 d1623 1
 d1627 1
-d1644 2
+d1644 4
 d1650 2
-d1654 1
+d1654 3
+d1658 1
+d1660 1
 d1662 2
 d1665 2
 d1668 4

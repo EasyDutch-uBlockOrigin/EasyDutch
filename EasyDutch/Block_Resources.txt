@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Mon, 23 Mar 2026 18:29:22 +0000
+! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
 !
+! 2026-03-24
+||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ! 2026-03-23
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
@@ -365,7 +367,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
-||classicstogo.nl/files/*/*-banner-*$image,1p
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
@@ -392,7 +393,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||fx.nl/_ext/widget/$3p
 ||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 ||greenkeeper.nl/upload/banners/
-||greenkeeper.nl/upload/relaties/
 ||hotradiohits.nl/image/picture/*_banner.
 ||htforum.nl/yabbse/*-banner2.gif
 ||htforum.nl/yabbse/banners/

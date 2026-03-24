@@ -1,13 +1,14 @@
-diff name:easydutch lines:173 checksum:cf22a9860d
+diff name:easydutch lines:182 checksum:35645af651
 d2 1
 a2 1
-! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
+! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.24.470.patch#easydutch
+! Diff-Path: patches/2026.3.24.1187.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
-a135 8
+a135 9
+||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
@@ -30,16 +31,19 @@ a365 1
 d372 1
 d412 1
 d415 1
+d419 1
 d422 2
 d430 3
 d441 1
-d453 1
+d452 2
 d464 1
 d476 1
 d479 1
 d481 2
 d517 1
-a555 24
+a555 26
+nl.motorsport.com##.ms-side-widget--custom-links
+nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
@@ -110,8 +114,9 @@ d1193 1
 d1274 1
 d1278 1
 d1303 1
+d1305 1
 d1322 1
-d1326 1
+d1325 2
 d1329 1
 d1331 1
 d1338 1
@@ -131,6 +136,7 @@ d1449 1
 d1453 1
 d1464 1
 d1502 1
+d1529 1
 d1543 1
 d1548 1
 a1548 1
@@ -138,17 +144,20 @@ bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl
 d1560 1
 d1569 1
 d1572 1
-d1577 1
+d1577 2
 d1590 3
 d1598 1
+d1601 1
 d1608 1
 d1616 1
 d1620 1
 d1625 1
 d1629 1
-d1646 2
+d1646 4
 d1652 2
-d1656 1
+d1656 3
+d1660 1
+d1662 1
 d1664 2
 d1667 2
 d1670 3

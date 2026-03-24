@@ -1,8 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 24 Mar 2026 07:50:37 +0000
+! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
 !
 ! 2026-03-24
+nl.motorsport.com##.ms-side-widget--custom-links
+nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 ! 2026-03-23
 openingsurengids.be##.adMobile
@@ -860,7 +862,6 @@ puurnaturisme.nl##aside div:has(.bannergroup_noborder)
 hollywoodhuizen.nl##.a-widget
 hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
 nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
-nl.motorsport.com##.ms-side-items--with-banner
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 vakantieweb.be##.partners-immo
 hvzeeland.nl##.advertisement
@@ -881,7 +882,6 @@ cocdeventer.nl###ads
 omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
-nl.motorsport.com##.ms-side-widget--custom-links__wrapper
 dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
@@ -1095,7 +1095,6 @@ bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
 eindexamens.nu###leaderboard
-greenkeeper.nl###lijst_logos
 schiedamsnieuws.nl###media_image-3
 schiedamsnieuws.nl###media_image-4
 surinameview.com###nav_menu-2
@@ -1139,7 +1138,6 @@ afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuw
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
-funnygames.be,funnygames.nl##.bannerContainer
 refoweb.nl##.bannercontainer
 tvblik.nl##.banner-fluid
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
@@ -1158,7 +1156,6 @@ volleybal.nl##.card-banner-large
 rkcwaalwijk.nl##.carousel
 online-omzetten.nl##.clearfix.entry > small
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
-financialinvestigator.nl##.c-newsList__story--partnernews
 tvgids.tv##.col-left
 tvgids.tv##.col-right
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
@@ -1198,18 +1195,12 @@ speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
 iexgeld.nl##.LeaderboardContainer
 webwereld.nl##.leaderBoardHolder
-sparta-rotterdam.nl##.logo_slider_logos
-greenkeeper.nl##.logoblok
 deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
-financialinvestigator.nl##.mpu
-nl.motorsport.com##.ms-hapb
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
-dekattensite.nl##.nxs-default-p > p:has-text(advert)
 inmemoriam.be##.o-news__add
-cabla.nl##.ontwerp_ads
 classicstogo.nl##.owl-carousel
 interglot.nl##.pane_results > div:has-text(Ads)
 golf.be##.partners-holder
