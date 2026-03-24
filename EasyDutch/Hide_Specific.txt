@@ -1158,7 +1158,6 @@ volleybal.nl##.card-banner-large
 rkcwaalwijk.nl##.carousel
 online-omzetten.nl##.clearfix.entry > small
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
-financialinvestigator.nl##.c-newsList__story--partnernews
 tvgids.tv##.col-left
 tvgids.tv##.col-right
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
@@ -1204,7 +1203,6 @@ deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
-financialinvestigator.nl##.mpu
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 inmemoriam.be##.o-news__add
 classicstogo.nl##.owl-carousel
