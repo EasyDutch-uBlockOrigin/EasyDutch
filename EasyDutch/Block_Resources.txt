@@ -393,7 +393,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||fx.nl/_ext/widget/$3p
 ||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 ||greenkeeper.nl/upload/banners/
-||greenkeeper.nl/upload/relaties/
 ||hotradiohits.nl/image/picture/*_banner.
 ||htforum.nl/yabbse/*-banner2.gif
 ||htforum.nl/yabbse/banners/
