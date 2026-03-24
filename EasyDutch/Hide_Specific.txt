@@ -1196,7 +1196,6 @@ speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
 iexgeld.nl##.LeaderboardContainer
 webwereld.nl##.leaderBoardHolder
-sparta-rotterdam.nl##.logo_slider_logos
 deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
