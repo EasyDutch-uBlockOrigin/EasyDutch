@@ -1095,7 +1095,6 @@ bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
 eindexamens.nu###leaderboard
-greenkeeper.nl###lijst_logos
 schiedamsnieuws.nl###media_image-3
 schiedamsnieuws.nl###media_image-4
 surinameview.com###nav_menu-2
@@ -1198,7 +1197,6 @@ rendez-vous.be##.leaderBoard
 iexgeld.nl##.LeaderboardContainer
 webwereld.nl##.leaderBoardHolder
 sparta-rotterdam.nl##.logo_slider_logos
-greenkeeper.nl##.logoblok
 deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
