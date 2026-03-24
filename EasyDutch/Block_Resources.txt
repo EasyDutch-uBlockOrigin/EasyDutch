@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-24
+||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ! 2026-03-23
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
@@ -365,7 +367,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
-||classicstogo.nl/files/*/*-banner-*$image,1p
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
