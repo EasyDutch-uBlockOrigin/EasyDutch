@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-24
+nl.motorsport.com##.ms-side-widget--custom-links
+nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
 ! 2026-03-23
 openingsurengids.be##.adMobile
@@ -860,7 +862,6 @@ puurnaturisme.nl##aside div:has(.bannergroup_noborder)
 hollywoodhuizen.nl##.a-widget
 hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
 nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
-nl.motorsport.com##.ms-side-items--with-banner
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 vakantieweb.be##.partners-immo
 hvzeeland.nl##.advertisement
@@ -881,7 +882,6 @@ cocdeventer.nl###ads
 omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
-nl.motorsport.com##.ms-side-widget--custom-links__wrapper
 dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
@@ -1205,7 +1205,6 @@ adultwebmaster.nl##.main-promo-bn-responsive
 wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
 financialinvestigator.nl##.mpu
-nl.motorsport.com##.ms-hapb
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 inmemoriam.be##.o-news__add
 classicstogo.nl##.owl-carousel
