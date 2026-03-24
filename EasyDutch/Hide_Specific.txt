@@ -1138,7 +1138,6 @@ afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuw
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
-funnygames.be,funnygames.nl##.bannerContainer
 refoweb.nl##.bannercontainer
 tvblik.nl##.banner-fluid
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
