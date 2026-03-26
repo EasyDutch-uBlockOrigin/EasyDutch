@@ -17,6 +17,7 @@
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
+||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||dronkenmokkels.nl/*.php$3p
 ||gaynews.nl/images/advertisement$image
 ||gaynews.nl/images/_adv_txt$image
