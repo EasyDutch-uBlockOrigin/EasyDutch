@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
+! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.3.24.1187.patch#easydutch
+! Diff-Path: patches/2026.3.26.1033.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -418,7 +418,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||buzzbie.nl/buzzbanners/*.js$script,1p
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||ciaotutti.nl/wp-content/uploads/Banner_
-||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
@@ -1661,14 +1660,12 @@ autoweek.nl##+js(set, isAdBlockActive, false)
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
-/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
-/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
 ||bdsmgirl.nl/banners/
 ||bdsmgirl.nl^*/banner/
 ||cdn.citytourgirls.com/static/bn/$image,domain=sexguide.nl
 ||cdn.escortspots.com/static/bn/$image,domain=escortgirls.be
-||cdn.seksmet.nl/wp-content/uploads/*/18-plus-sletjes-gespreid-klaar.webp
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p

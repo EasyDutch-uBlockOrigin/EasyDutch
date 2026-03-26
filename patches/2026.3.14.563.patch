@@ -1,10 +1,10 @@
-diff name:easydutch lines:1663 checksum:35645af651
+diff name:easydutch lines:1666 checksum:0a44cd84a4
 d2 1
 a2 1
-! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
+! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.24.1187.patch#easydutch
+! Diff-Path: patches/2026.3.26.1033.patch#easydutch
 d15 1
 a15 38
 /reclame/*.gif$image,3p
@@ -131,7 +131,7 @@ a19 76
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 d21 1
-a21 381
+a21 380
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
@@ -416,7 +416,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||buzzbie.nl/buzzbanners/*.js$script,1p
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||ciaotutti.nl/wp-content/uploads/Banner_
-||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
@@ -1658,6 +1657,10 @@ citaten.net#@##bottom-ad
 @@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
 @@||fwmrm.net/crossdomain.xml$xhr,domain=embed.viaplay.com|racingnews365.nl
 autoweek.nl##+js(set, isAdBlockActive, false)
+d38 2
+a39 1
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
+d45 1
 a48 1
 ||dronkenmokkels.nl/*.php$3p
 a98 1

@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Mon, 16 Mar 2026 17:07:08 +0000
+! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -8,14 +8,12 @@
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
-/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|pornokartel.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
-/wp-content/uploads/*/Neuk-test$image,domain=pornokartel.nl
+/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
 ||bdsmgirl.nl/banners/
 ||bdsmgirl.nl^*/banner/
 ||cdn.citytourgirls.com/static/bn/$image,domain=sexguide.nl
 ||cdn.escortspots.com/static/bn/$image,domain=escortgirls.be
-||cdn.seksmet.nl/wp-content/uploads/*/18-plus-sletjes-gespreid-klaar.webp
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
@@ -66,7 +64,7 @@
 ##.happy-section
 ! jongetienersex.nl,erotischemassages.com,poldertube.nl,pornoplekje.nl,sextube-18.com
 ##.happy-footer
-! fucking-tube.com,pornokartel.nl,seks-tube.be
+! fucking-tube.com,seks-tube.be
 ##.video-block-happy
 ! dikketietenneuken.nl,directpornofilmskijken.nl,hdtienersexfilms.nl,partytieners.nl,sexmetdikkewijven.nl,sexvideofilm.nl,strandmokkels.nl,studentesneuken.nl,tienersexfilmss.nl
 ###tracking-url
