@@ -15,7 +15,6 @@
 ||bdsmgirl.nl^*/banner/
 ||cdn.citytourgirls.com/static/bn/$image,domain=sexguide.nl
 ||cdn.escortspots.com/static/bn/$image,domain=escortgirls.be
-||cdn.seksmet.nl/wp-content/uploads/*/18-plus-sletjes-gespreid-klaar.webp
 ||cdn.streace.io/banner/$domain=camjam.nl|milflive.nl|sexverhalencams.com
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ||clubxmissy.nl/banners/*$image,3p
