@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-28
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
 tvblik.nl##.banner-fluid
 tvblik.nl##.header-banner
 tvblik.nl##.pgAdWrapper
@@ -1175,7 +1177,6 @@ spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
 radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
-srherald.com##.gsrhera
 golf.be##.header__bottom
 koopplein.nl,televizier.nl##.header-banner
 oogtv.nl##.home-banner
