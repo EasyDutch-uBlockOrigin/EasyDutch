@@ -73,6 +73,7 @@
 
 ! Hide_Specific.txt
 amateursexstart.nl,naaktemilfs.nl,pornotube69.nl,seksmet.nl,sekswebsite.nl,sexenbabes.nl##.g
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
 gaynews.nl##.telefoon_verberg
