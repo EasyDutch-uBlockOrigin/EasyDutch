@@ -1173,7 +1173,6 @@ deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.ban
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
 heracles.nl##.footer-blocks
-handbal.be##.footer-top
 spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
 belgischecasinos.be##.gofollow
