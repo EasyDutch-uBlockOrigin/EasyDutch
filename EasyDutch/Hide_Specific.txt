@@ -1183,7 +1183,6 @@ eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 oogtv.nl##.home-banner
 jan-magazine.nl##.homepage-marquee
 radiofm.nl##.hoofdAd2
-tcroomburg.nl##.hpitem:has(h3:has-text(Partner))
 dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
 funnygames.nl,funnygames.be,spele.be,spele.nl##.is-billboard
