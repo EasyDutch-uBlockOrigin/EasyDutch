@@ -25,6 +25,7 @@
 ||gratissextube.be/banners/$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
+||msa.imkru.nl/banners/$3p
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
