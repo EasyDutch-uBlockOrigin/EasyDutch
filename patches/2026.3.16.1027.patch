@@ -1,10 +1,10 @@
-diff name:easydutch lines:120 checksum:0a44cd84a4
+diff name:easydutch lines:149 checksum:665f3f8129
 d2 1
 a2 1
-! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.26.1033.patch#easydutch
+! Diff-Path: patches/2026.3.28.1100.patch#easydutch
 a136 6
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -31,7 +31,16 @@ d451 2
 d463 1
 d475 1
 d479 2
-a552 15
+a552 24
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
+tvblik.nl##.banner-fluid
+tvblik.nl##.header-banner
+tvblik.nl##.pgAdWrapper
+weertdegekste.nl##.pgAdWrapper
+frontpage.fok.nl##[class^="r89-"]
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
@@ -48,6 +57,7 @@ glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
 glutenvrij.nl##.t-banner
 klusidee.nl##[class^="r89-"]
 d556 2
+d604 1
 d617 1
 d622 2
 d965 1
@@ -75,7 +85,9 @@ d1330 1
 d1333 2
 d1336 1
 d1353 1
+d1368 1
 d1391 1
+d1393 1
 d1398 1
 d1400 1
 d1415 1
@@ -83,20 +95,31 @@ d1422 2
 d1428 1
 d1479 1
 d1506 1
+d1511 1
 d1524 1
 a1524 1
 bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 d1536 1
 d1545 1
+d1548 1
+a1548 1
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1552 2
+d1555 1
+d1558 1
 d1565 3
 d1573 1
 d1576 1
 d1583 1
-d1591 1
-d1595 1
-d1600 1
-d1604 1
+d1587 1
+d1591 2
+d1595 2
+d1598 1
+d1600 5
+a1604 1
+koopplein.nl,televizier.nl##.header-banner
+d1606 1
+d1608 3
 d1621 4
 d1627 2
 d1631 3
@@ -119,3 +142,9 @@ d1767 2
 a1768 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 d1774 1
+a1785 1
+||msa.imkru.nl/banners/$3p
+a1821 1
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
+a1835 1
+kinky.nl##.right-side-govazd

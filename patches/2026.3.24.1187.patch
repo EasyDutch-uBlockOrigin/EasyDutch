@@ -1,12 +1,46 @@
-diff name:easydutch lines:11 checksum:0a44cd84a4
+diff name:easydutch lines:45 checksum:665f3f8129
 d2 1
 a2 1
-! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.26.1033.patch#easydutch
+! Diff-Path: patches/2026.3.28.1100.patch#easydutch
 d421 1
+a543 9
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
+tvblik.nl##.banner-fluid
+tvblik.nl##.header-banner
+tvblik.nl##.pgAdWrapper
+weertdegekste.nl##.pgAdWrapper
+frontpage.fok.nl##[class^="r89-"]
+d608 1
+d1339 1
+d1363 1
+d1473 1
+d1508 1
+a1508 1
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
+d1513 1
+d1516 1
+d1539 1
+d1543 1
+d1546 1
+d1548 1
+d1550 3
+a1552 1
+koopplein.nl,televizier.nl##.header-banner
+d1554 1
+d1556 3
 d1664 2
 a1665 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 d1671 1
+a1682 1
+||msa.imkru.nl/banners/$3p
+a1718 1
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
+a1732 1
+kinky.nl##.right-side-govazd

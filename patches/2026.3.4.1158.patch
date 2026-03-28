@@ -1,10 +1,10 @@
-diff name:easydutch lines:229 checksum:0a44cd84a4
+diff name:easydutch lines:256 checksum:665f3f8129
 d2 1
 a2 1
-! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.26.1033.patch#easydutch
+! Diff-Path: patches/2026.3.28.1100.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 10
@@ -49,7 +49,16 @@ d503 1
 d522 1
 d526 1
 d544 2
-a566 47
+a566 56
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
+tvblik.nl##.banner-fluid
+tvblik.nl##.header-banner
+tvblik.nl##.pgAdWrapper
+weertdegekste.nl##.pgAdWrapper
+frontpage.fok.nl##[class^="r89-"]
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
@@ -97,6 +106,7 @@ racingnews365.nl##.card[href$="-adv"]
 racingnews365.nl###betting-prefs
 racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
 racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
+d584 1
 d597 1
 d602 2
 d627 1
@@ -161,7 +171,9 @@ d1346 2
 d1349 1
 d1366 1
 d1368 2
+d1383 1
 d1406 1
+d1408 1
 d1413 1
 d1415 1
 d1430 1
@@ -172,6 +184,7 @@ d1459 1
 d1496 1
 d1498 1
 d1525 1
+d1530 1
 d1537 1
 d1540 1
 d1545 1
@@ -180,19 +193,27 @@ bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl
 d1557 1
 d1566 2
 d1569 1
-d1571 1
+d1571 2
+a1572 1
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1576 2
+d1579 1
+d1582 1
 d1589 3
 d1594 1
 d1598 1
 d1601 1
 d1608 1
+d1612 1
 d1615 1
-d1617 1
-d1619 1
-d1622 1
-d1627 1
-d1631 2
+d1617 3
+d1622 2
+d1625 1
+d1627 6
+a1632 1
+koopplein.nl,televizier.nl##.header-banner
+d1634 1
+d1636 3
 d1649 4
 d1655 2
 d1659 3
@@ -226,5 +247,11 @@ a1830 1
 d1836 1
 a1839 1
 ||dronkenmokkels.nl/*.php$3p
+a1846 1
+||msa.imkru.nl/banners/$3p
+a1882 1
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 a1889 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
+a1895 1
+kinky.nl##.right-side-govazd

@@ -1,15 +1,11 @@
-diff name:easydutch lines:60 checksum:665f3f8129
+diff name:easydutch lines:40 checksum:665f3f8129
 d2 1
 a2 1
 ! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.3.28.1100.patch#easydutch
-a136 1
-||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
-d420 2
-d448 1
-a544 12
+a542 9
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
 srherald.com##.gsrhera
@@ -19,43 +15,27 @@ tvblik.nl##.header-banner
 tvblik.nl##.pgAdWrapper
 weertdegekste.nl##.pgAdWrapper
 frontpage.fok.nl##[class^="r89-"]
-nl.motorsport.com##.ms-side-widget--custom-links
-nl.motorsport.com##.ms-hapb
-rtvconnect.nl##span:has-text(Advert):upward(div.widget)
-d606 1
-d1270 1
-d1289 1
-d1339 1
-d1363 1
-d1469 1
-d1474 1
-d1509 1
-a1509 1
+d607 1
+d1338 1
+d1362 1
+d1472 1
+d1507 1
+a1507 1
 afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
-d1513 1
+d1512 1
 d1515 1
-d1518 1
-d1532 1
+d1538 1
 d1542 1
-d1546 1
-d1549 1
-d1551 1
-d1553 3
-a1555 1
+d1545 1
+d1547 1
+d1549 3
+a1551 1
 koopplein.nl,televizier.nl##.header-banner
-d1557 1
-d1559 3
-d1572 2
-d1578 2
-d1581 1
-d1583 1
-d1673 2
-a1674 1
-/wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
-d1680 1
-a1691 1
+d1553 1
+d1555 3
+a1679 1
 ||msa.imkru.nl/banners/$3p
-a1727 1
+a1715 1
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
-a1741 1
+a1729 1
 kinky.nl##.right-side-govazd

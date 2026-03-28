@@ -1,7 +1,17 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 24 Mar 2026 19:47:17 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 !
+! 2026-03-28
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
+tvblik.nl##.banner-fluid
+tvblik.nl##.header-banner
+tvblik.nl##.pgAdWrapper
+weertdegekste.nl##.pgAdWrapper
+frontpage.fok.nl##[class^="r89-"]
 ! 2026-03-24
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
@@ -80,7 +90,6 @@ f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ! 2026-02-14
 ad.cw##.ad-advertisement-link:upward(1)
-fok.nl##[id^="r89"]
 ! 2026-02-13
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
@@ -934,7 +943,6 @@ dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
 creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 ! 2022-06-27
-radiovisie.eu##[id^="custom_html"]:has(.adsbygoogle)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
 broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
@@ -963,7 +971,6 @@ wkdarts.nl##[href="https://www.loketkansspel.nl/"]
 indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.com/"])
 ! 2022-06-14
 streamwijzer.nl##.wp-block-buttons
-tvblik.nl##div[class^="r89-desktop"]
 vlaamskijken.nl##a[href^="https://partner.bol.com/"]
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
 ! 2022-06-07
@@ -1099,7 +1106,6 @@ schiedamsnieuws.nl###media_image-3
 schiedamsnieuws.nl###media_image-4
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
-eredivisie.nl###partner-bar
 elfvoetbal.nl###partners
 forum.scholieren.com###posts .thead:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
@@ -1134,15 +1140,13 @@ dagblad010.nl,voorburgsdagblad.nl##.advrow
 notebookcheck.nl##.amaz_el
 duic.nl##.article-excerpt--ad
 nailtalk.nl##.ashe-widget
-afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
-tvblik.nl##.banner-fluid
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
 prewarcar.nl##.banner-holder
-weertdegekste.nl##.banner-right
 kbradio.nl##.banners
 speeleiland.nl##.banner-sky
 radiomonique.am##.bannerswidget
@@ -1165,26 +1169,16 @@ knltb.nl,tennis.nl##.c-site-footer__partners
 menttv.be##.cta-container
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
-deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
 heracles.nl##.footer-blocks
-handbal.be##.footer-top
 spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
-radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
-srherald.com##.gsrhera
 golf.be##.header__bottom
-eredivisie.nl##.header__top__partners
-koopplein.nl,televizier.nl,tvblik.nl##.header-banner
-eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
+koopplein.nl,televizier.nl##.header-banner
 oogtv.nl##.home-banner
-jan-magazine.nl##.homepage-marquee
 radiofm.nl##.hoofdAd2
-tcroomburg.nl##.hpitem:has(h3:has-text(Partner))
-weertdegekste.nl##.infeed-outer
-weertdegekste.nl##.infeed-wrap
 dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
 funnygames.nl,funnygames.be,spele.be,spele.nl##.is-billboard

@@ -1,10 +1,10 @@
-diff name:easydutch lines:186 checksum:0a44cd84a4
+diff name:easydutch lines:214 checksum:665f3f8129
 d2 1
 a2 1
-! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.26.1033.patch#easydutch
+! Diff-Path: patches/2026.3.28.1100.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 9
@@ -41,7 +41,16 @@ d476 1
 d479 1
 d481 2
 d517 1
-a555 26
+a555 35
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
+tvblik.nl##.banner-fluid
+tvblik.nl##.header-banner
+tvblik.nl##.pgAdWrapper
+weertdegekste.nl##.pgAdWrapper
+frontpage.fok.nl##[class^="r89-"]
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
@@ -68,6 +77,7 @@ onderwijsland.com##.banner-fullwidth:upward(.home-extended)
 online-radio.nl##[id^="containersitead"]
 online-radio.nl###top_ad-360
 despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
+d594 1
 d607 1
 d612 2
 d637 1
@@ -127,7 +137,9 @@ d1351 2
 d1354 1
 d1371 1
 d1373 2
+d1388 1
 d1411 1
+d1413 1
 d1418 1
 d1420 1
 d1435 1
@@ -137,22 +149,32 @@ d1453 1
 d1464 1
 d1502 1
 d1529 1
+d1534 1
 d1543 1
 d1548 1
 a1548 1
 bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 d1560 1
 d1569 1
-d1572 1
+d1572 2
+a1573 1
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1577 2
+d1580 1
+d1583 1
 d1590 3
 d1598 1
 d1601 1
 d1608 1
-d1616 1
-d1620 1
-d1625 1
-d1629 1
+d1612 1
+d1616 2
+d1620 2
+d1623 1
+d1625 5
+a1629 1
+koopplein.nl,televizier.nl##.header-banner
+d1631 1
+d1633 3
 d1646 4
 d1652 2
 d1656 3
@@ -183,5 +205,11 @@ a1815 1
 d1821 1
 a1824 1
 ||dronkenmokkels.nl/*.php$3p
+a1831 1
+||msa.imkru.nl/banners/$3p
+a1867 1
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 a1874 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
+a1880 1
+kinky.nl##.right-side-govazd

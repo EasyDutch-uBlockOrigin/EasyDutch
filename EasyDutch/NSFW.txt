@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -25,6 +25,7 @@
 ||gratissextube.be/banners/$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
+||msa.imkru.nl/banners/$3p
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ||oops.nl/banner/$subdocument
@@ -73,6 +74,7 @@
 
 ! Hide_Specific.txt
 amateursexstart.nl,naaktemilfs.nl,pornotube69.nl,seksmet.nl,sekswebsite.nl,sexenbabes.nl##.g
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 escortgirls.be##.ads:upward(.container)
 escortgirls.be###ad-zone-templates
 gaynews.nl##.telefoon_verberg
@@ -87,6 +89,7 @@ geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
 geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 gratissexverhalen.nu##[id^="block-"]:has([href^="https://www.dql2clk.com/"])
 privesexgids.nl###homebanners
+kinky.nl##.right-side-govazd
 klapjes.nl##.elementor-widget-html:has(a[href*=affref])
 klapjes.nl##[id^="custom_html"]:has(script)
 nltube.com##.bottom-bns-block

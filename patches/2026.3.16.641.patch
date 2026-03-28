@@ -1,10 +1,10 @@
-diff name:easydutch lines:126 checksum:0a44cd84a4
+diff name:easydutch lines:155 checksum:665f3f8129
 d2 1
 a2 1
-! Last updated: Thu, 26 Mar 2026 17:13:20 +0000
+! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.26.1033.patch#easydutch
+! Diff-Path: patches/2026.3.28.1100.patch#easydutch
 a136 6
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -31,7 +31,16 @@ d451 2
 d463 1
 d475 1
 d479 2
-a552 17
+a552 26
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
+srherald.com##.gsrhera
+srherald.com##.elementor-heading-title:has-text(ADVERT)
+tvblik.nl##.banner-fluid
+tvblik.nl##.header-banner
+tvblik.nl##.pgAdWrapper
+weertdegekste.nl##.pgAdWrapper
+frontpage.fok.nl##[class^="r89-"]
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
 rtvconnect.nl##span:has-text(Advert):upward(div.widget)
@@ -50,6 +59,7 @@ klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 d554 2
+d602 1
 d615 1
 d620 2
 d963 1
@@ -77,7 +87,9 @@ d1328 1
 d1331 2
 d1334 1
 d1351 1
+d1366 1
 d1389 1
+d1391 1
 d1396 1
 d1398 1
 d1413 1
@@ -85,20 +97,31 @@ d1420 2
 d1426 1
 d1477 1
 d1504 1
+d1509 1
 d1522 1
 a1522 1
 bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 d1534 1
 d1543 1
+d1546 1
+a1546 1
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
 d1550 2
+d1553 1
+d1556 1
 d1563 3
 d1571 1
 d1574 1
 d1581 1
-d1589 1
-d1593 1
-d1598 1
-d1602 1
+d1585 1
+d1589 2
+d1593 2
+d1596 1
+d1598 5
+a1602 1
+koopplein.nl,televizier.nl##.header-banner
+d1604 1
+d1606 3
 d1619 4
 d1625 2
 d1629 3
@@ -123,5 +146,11 @@ d1770 2
 a1771 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 d1777 1
+a1788 1
+||msa.imkru.nl/banners/$3p
+a1824 1
+eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 a1831 1
 geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
+a1837 1
+kinky.nl##.right-side-govazd
