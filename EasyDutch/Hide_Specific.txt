@@ -1181,7 +1181,6 @@ eredivisie.nl##.header__top__partners
 koopplein.nl,televizier.nl,tvblik.nl##.header-banner
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 oogtv.nl##.home-banner
-jan-magazine.nl##.homepage-marquee
 radiofm.nl##.hoofdAd2
 dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
