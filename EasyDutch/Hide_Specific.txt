@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-03-28
+frontpage.fok.nl##[class^="r89-"]
 ! 2026-03-24
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
@@ -80,7 +82,6 @@ f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ! 2026-02-14
 ad.cw##.ad-advertisement-link:upward(1)
-fok.nl##[id^="r89"]
 ! 2026-02-13
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
