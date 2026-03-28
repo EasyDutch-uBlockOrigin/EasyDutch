@@ -1103,7 +1103,6 @@ schiedamsnieuws.nl###media_image-3
 schiedamsnieuws.nl###media_image-4
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
-eredivisie.nl###partner-bar
 elfvoetbal.nl###partners
 forum.scholieren.com###posts .thead:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
@@ -1178,7 +1177,6 @@ radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
 srherald.com##.gsrhera
 golf.be##.header__bottom
-eredivisie.nl##.header__top__partners
 koopplein.nl,televizier.nl##.header-banner
 oogtv.nl##.home-banner
 radiofm.nl##.hoofdAd2
