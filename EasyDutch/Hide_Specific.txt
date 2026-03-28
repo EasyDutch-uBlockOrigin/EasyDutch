@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-03-28
+radiovisie.eu##.gmillok
+radiovisie.eu##.widget:has(.adsbygoogle)
 srherald.com##.gsrhera
 srherald.com##.elementor-heading-title:has-text(ADVERT)
 tvblik.nl##.banner-fluid
@@ -941,7 +943,6 @@ dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
 creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 ! 2022-06-27
-radiovisie.eu##[id^="custom_html"]:has(.adsbygoogle)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
 broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
@@ -1175,7 +1176,6 @@ heracles.nl##.footer-blocks
 handbal.be##.footer-top
 spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
-radiovisie.eu##.gmollik
 belgischecasinos.be##.gofollow
 golf.be##.header__bottom
 koopplein.nl,televizier.nl##.header-banner
