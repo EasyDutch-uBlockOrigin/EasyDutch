@@ -1169,7 +1169,6 @@ knltb.nl,tennis.nl##.c-site-footer__partners
 menttv.be##.cta-container
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
-deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 radiocontinu.nl##.eskimo-carousel-container
 heracles.nl##.fixed-ads
 heracles.nl##.footer-blocks
