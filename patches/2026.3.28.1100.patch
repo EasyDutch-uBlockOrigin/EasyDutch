@@ -1,0 +1,16 @@
+diff name:easydutch lines:15 checksum:c8d9295656
+d2 1
+a2 1
+! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.3.31.1106.patch#easydutch
+d951 5
+a955 4
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class][tabindex]:matches-css(before, content: /Advertentie/)
+humo.be,parool.nl,trouw.nl##.oortje-wrapper
+parool.nl,trouw.nl##.position-after-main-home
+a959 2
+margriet.nl##[class$="__advertisement"]
+margriet.nl##[class$="__adblock"]

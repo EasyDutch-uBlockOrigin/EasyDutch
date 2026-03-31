@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
+! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
 !
 ! 2026-03-28
 radiovisie.eu##.gmillok
@@ -463,15 +463,16 @@ autowereld.nl###banner-lister-top
 autowereld.nl###mainbanner
 businesswise.nl,flair.nl,libelle.nl,oudersvannu.nl,story.nl##[class*="ArticleContentWrapper"] > div[class^="adBlock-module"]
 cinenews.be##.ads
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.mid1-container
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.top1-container
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##[id^="article_paragraph_"]
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.oortje-wrapper
-demorgen.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.position-after-main-home
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class][tabindex]:matches-css(before, content: /Advertentie/)
+humo.be,parool.nl,trouw.nl##.oortje-wrapper
+parool.nl,trouw.nl##.position-after-main-home
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
 livios.be##.block-leaderboard
+margriet.nl##[class$="__advertisement"]
+margriet.nl##[class$="__adblock"]
 nu.nl##.banner
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)

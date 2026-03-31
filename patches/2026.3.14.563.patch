@@ -1,10 +1,10 @@
-diff name:easydutch lines:1665 checksum:665f3f8129
+diff name:easydutch lines:1666 checksum:c8d9295656
 d2 1
 a2 1
-! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
+! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.28.1100.patch#easydutch
+! Diff-Path: patches/2026.3.31.1106.patch#easydutch
 d15 1
 a15 38
 /reclame/*.gif$image,3p
@@ -540,7 +540,7 @@ a25 6
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 d27 1
-a27 1064
+a27 1065
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
 srherald.com##.gsrhera
@@ -949,15 +949,16 @@ autowereld.nl###banner-lister-top
 autowereld.nl###mainbanner
 businesswise.nl,flair.nl,libelle.nl,oudersvannu.nl,story.nl##[class*="ArticleContentWrapper"] > div[class^="adBlock-module"]
 cinenews.be##.ads
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.mid1-container
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.top1-container
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##[id^="article_paragraph_"]
-demorgen.be,humo.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.oortje-wrapper
-demorgen.be,margriet.nl,parool.nl,trouw.nl,volkskrant.nl##.position-after-main-home
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class][tabindex]:matches-css(before, content: /Advertentie/)
+humo.be,parool.nl,trouw.nl##.oortje-wrapper
+parool.nl,trouw.nl##.position-after-main-home
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
 livios.be##.block-leaderboard
+margriet.nl##[class$="__advertisement"]
+margriet.nl##[class$="__adblock"]
 nu.nl##.banner
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)

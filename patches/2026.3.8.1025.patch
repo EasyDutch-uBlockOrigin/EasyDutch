@@ -1,10 +1,10 @@
-diff name:easydutch lines:214 checksum:665f3f8129
+diff name:easydutch lines:223 checksum:c8d9295656
 d2 1
 a2 1
-! Last updated: Sat, 28 Mar 2026 18:20:24 +0000
+! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.28.1100.patch#easydutch
+! Diff-Path: patches/2026.3.31.1106.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
 a135 9
@@ -107,6 +107,15 @@ d946 1
 d948 1
 a948 1
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space:upward(div._ztjuth1)
+d957 5
+a961 4
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class][tabindex]:matches-css(before, content: /Advertentie/)
+humo.be,parool.nl,trouw.nl##.oortje-wrapper
+parool.nl,trouw.nl##.position-after-main-home
+a965 2
+margriet.nl##[class$="__advertisement"]
+margriet.nl##[class$="__adblock"]
 d971 1
 d978 1
 d981 1
