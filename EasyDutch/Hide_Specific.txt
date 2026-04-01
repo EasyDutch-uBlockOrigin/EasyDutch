@@ -755,8 +755,6 @@ sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
 voetbalrotterdam.nl##.lshowcase-logos
 ! 2023-04-26
-frontline.digital##.featured-banner
-frontline.digital##.elementor-section:has(.elementor-widget-flip-box img[src*="banner"])
 kookboekennieuws.nl##.cb-sidebar-widget:has-text(Kijk ook eens op:)
 rtvmaastricht.nl##.prom
 tameteo.nl###bannerDerPC
@@ -925,7 +923,6 @@ voetbalrotterdam.nl##div[class^="r89-desktop"]
 golf.be##[class*="-ad-banner-box"]
 gids.tv##.advertisement:upward(1)
 geelfm.be##a[href="/adverteren/"]:upward(1)
-frontline.digital##p:has-text(,):not(:has-text(/[a-z]|[0-9]/i))
 fleet-mobility.nl##.spotlight:has-text(Partners)
 risallah.com##[class^="zijbalk"] > table > tbody:has-text(Advertentie)
 fd.nl##.noAdBlockDetected .fd-message
