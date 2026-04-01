@@ -220,8 +220,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||autosport.nl/dist/images/Banner$image
 ||autosport.nl/images/banner$image
 ||basketbal.vlaanderen/files/tmp/logo*.png$image
-||acties.nl/uploads/nl/ckeditor/*-af-*$image,domain=frontline.digital
-||kortingsimages.kortingscop.nl/banners/$image,domain=frontline.digital
 ||golf.be/files/BannerImage/$image,1p
 ||klasse.be/wp/wp-content/images/*_lb_*full.*$image
 ||kookboekennieuws.nl/wp-content/uploads/*/*BANNER*$image
