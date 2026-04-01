@@ -901,7 +901,6 @@ floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img
 gigantfm.nl##.onderdelenshop
 gowiththevlo.nl###omc-sidebar li.gowit-widget:has(img):not(:has(a[href*="gowiththevlo.nl"]))
 mijn-tv-gids.be##[id^="ads-row"]
-leerzaam.com##[id^="custom_html-"]:has(.adsbygoogle)
 midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
 ! 2022-06-29
 persberichten.com##[id^="PanelTopAds"]
