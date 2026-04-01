@@ -1,10 +1,10 @@
-diff name:easydutch lines:156 checksum:c8d9295656
+diff name:easydutch lines:162 checksum:731220125e
 d2 1
 a2 1
-! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
+! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.31.1106.patch#easydutch
+! Diff-Path: patches/2026.4.1.526.patch#easydutch
 a136 6
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -13,6 +13,7 @@ a136 6
 ||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
 ||niburu.co/images/sidebanners/
 d241 1
+d303 2
 d306 1
 d309 1
 d324 2
@@ -80,6 +81,7 @@ d1136 1
 d1143 1
 d1172 1
 d1178 1
+d1204 2
 d1259 1
 d1263 1
 d1288 1
@@ -88,10 +90,11 @@ d1307 1
 d1310 2
 d1314 1
 d1316 1
-d1323 1
+d1323 2
 d1331 1
 d1334 2
 d1337 1
+d1351 1
 d1354 1
 d1369 1
 d1392 1
@@ -145,6 +148,9 @@ d1682 1
 d1686 1
 d1689 1
 d1697 1
+d1718 1
+a1718 1
+adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 d1765 2
 a1766 1
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl

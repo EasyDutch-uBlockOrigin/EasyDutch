@@ -1,10 +1,11 @@
-diff name:easydutch lines:49 checksum:c8d9295656
+diff name:easydutch lines:56 checksum:731220125e
 d2 1
 a2 1
-! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
+! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.31.1106.patch#easydutch
+! Diff-Path: patches/2026.4.1.526.patch#easydutch
+d308 2
 a542 9
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
@@ -25,6 +26,9 @@ parool.nl,trouw.nl##.position-after-main-home
 a951 2
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
+d1188 2
+d1298 1
+d1321 1
 d1338 1
 d1362 1
 d1472 1
@@ -42,6 +46,9 @@ a1551 1
 koopplein.nl,televizier.nl##.header-banner
 d1553 1
 d1555 3
+d1616 1
+a1616 1
+adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 a1679 1
 ||msa.imkru.nl/banners/$3p
 a1715 1

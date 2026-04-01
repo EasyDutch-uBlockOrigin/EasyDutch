@@ -1,10 +1,10 @@
-diff name:easydutch lines:158 checksum:c8d9295656
+diff name:easydutch lines:164 checksum:731220125e
 d2 1
 a2 1
-! Last updated: Tue, 31 Mar 2026 18:26:08 +0000
+! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.3.31.1106.patch#easydutch
+! Diff-Path: patches/2026.4.1.526.patch#easydutch
 a136 6
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -13,6 +13,7 @@ a136 6
 ||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
 ||niburu.co/images/sidebanners/
 d241 1
+d303 2
 d306 1
 d309 1
 d324 2
@@ -81,6 +82,7 @@ d1135 1
 d1142 1
 d1171 1
 d1177 1
+d1203 2
 d1258 1
 d1262 1
 d1287 1
@@ -89,10 +91,11 @@ d1306 1
 d1309 2
 d1313 1
 d1315 1
-d1322 1
+d1322 2
 d1330 1
 d1333 2
 d1336 1
+d1350 1
 d1353 1
 d1368 1
 d1391 1
@@ -146,6 +149,9 @@ d1681 1
 d1685 1
 d1688 1
 d1696 1
+d1717 1
+a1717 1
+adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 d1727 3
 d1767 2
 a1768 1

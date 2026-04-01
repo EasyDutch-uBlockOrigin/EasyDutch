@@ -1,4 +1,4 @@
-diff name:easydutch lines:22 checksum:731220125e
+diff name:easydutch lines:13 checksum:731220125e
 d2 1
 a2 1
 ! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
@@ -6,18 +6,9 @@ d4 1
 a4 1
 ! Diff-Path: patches/2026.4.1.526.patch#easydutch
 d308 2
-d951 5
-a955 4
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class][tabindex]:matches-css(before, content: /Advertentie/)
-humo.be,parool.nl,trouw.nl##.oortje-wrapper
-parool.nl,trouw.nl##.position-after-main-home
-a959 2
-margriet.nl##[class$="__advertisement"]
-margriet.nl##[class$="__adblock"]
-d1196 2
-d1306 1
-d1329 1
-d1609 1
-a1609 1
+d1197 2
+d1307 1
+d1330 1
+d1610 1
+a1610 1
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
