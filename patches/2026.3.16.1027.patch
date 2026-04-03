@@ -1,10 +1,10 @@
-diff name:easydutch lines:164 checksum:731220125e
+diff name:easydutch lines:164 checksum:71b425cf0b
 d2 1
 a2 1
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.1.526.patch#easydutch
+! Diff-Path: patches/2026.4.3.411.patch#easydutch
 a136 6
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -50,7 +50,7 @@ openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
 softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
-scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
+scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)

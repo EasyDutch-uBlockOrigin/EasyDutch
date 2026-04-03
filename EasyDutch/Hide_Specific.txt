@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
 !
 ! 2026-03-28
 radiovisie.eu##.gmillok
@@ -22,7 +22,7 @@ openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
 softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
-scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
+scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 ! 2026-03-20
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)

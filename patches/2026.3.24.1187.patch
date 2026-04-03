@@ -1,10 +1,10 @@
-diff name:easydutch lines:61 checksum:731220125e
+diff name:easydutch lines:64 checksum:71b425cf0b
 d2 1
 a2 1
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.1.526.patch#easydutch
+! Diff-Path: patches/2026.4.3.411.patch#easydutch
 d308 2
 d421 1
 a543 9
@@ -17,6 +17,9 @@ tvblik.nl##.header-banner
 tvblik.nl##.pgAdWrapper
 weertdegekste.nl##.pgAdWrapper
 frontpage.fok.nl##[class^="r89-"]
+d552 1
+a552 1
+scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 d608 1
 d944 5
 a948 4

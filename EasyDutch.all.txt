@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.1.526.patch#easydutch
+! Diff-Path: patches/2026.4.3.411.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -555,7 +555,7 @@ openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
 softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
-scholieren.com##a[href^="https://a.scholieren.com"]:upward(1)
+scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)

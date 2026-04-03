@@ -1,11 +1,14 @@
-diff name:easydutch lines:13 checksum:731220125e
+diff name:easydutch lines:16 checksum:71b425cf0b
 d2 1
 a2 1
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.1.526.patch#easydutch
+! Diff-Path: patches/2026.4.3.411.patch#easydutch
 d308 2
+d560 1
+a560 1
+scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 d1197 2
 d1307 1
 d1330 1
