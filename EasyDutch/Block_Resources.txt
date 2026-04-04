@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-04
+||landenweb.nl/images/_Promotion/$image
 ! 2026-03-24
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ! 2026-03-23
@@ -397,7 +399,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||kavelplatform.nl/assets/uploads/banners/
 ||kicxstart.nl/wp-content/uploads/*/*1300x150$image
 ||kranenwebsite.nl/banners/$image
-||landenweb.nl/imgBoeking/$image
 ||linqmedia.nl/cwm/fm/userfiles/banner/$image
 ||luister.nl/wp-content/uploads/*/Banner_$image
 ||maaslandradio.nl/wp-content/uploads/*/autodoc.
