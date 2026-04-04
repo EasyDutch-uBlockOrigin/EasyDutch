@@ -1162,7 +1162,6 @@ nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
 tvgids.tv##.col-left
 tvgids.tv##.col-right
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
-ditjesendatjes.nl##.c-partners
 tameteo.nl##.creatividad
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
