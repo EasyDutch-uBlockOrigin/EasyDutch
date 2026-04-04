@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-04
+ment55.be##[id^="text-"]:has-text(advert)
 ! 2026-03-28
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
@@ -1163,7 +1165,6 @@ landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 ditjesendatjes.nl##.c-partners
 tameteo.nl##.creatividad
 knltb.nl,tennis.nl##.c-site-footer__partners
-menttv.be##.cta-container
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 radiocontinu.nl##.eskimo-carousel-container
