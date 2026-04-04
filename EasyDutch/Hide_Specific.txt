@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-04
+tvgids.nl###hourbanner
+tvgids.nl##.section-banner
+tvgids.nl##.square-item:has( > .banner)
 ment55.be##[id^="text-"]:has-text(advert)
 ! 2026-03-28
 radiovisie.eu##.gmillok
@@ -1048,8 +1051,6 @@ maarkelsnieuws.nl##.banners-weekad
 maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
-! 2022-03-02
-tvgids.nl##.square-item:has( > .banner)
 ! 2022-02-25
 racesport.nl##.hthb-notification
 racesport.nl##.rs_sponsorbanners_widget:upward(1)
@@ -1139,7 +1140,7 @@ dagblad010.nl,voorburgsdagblad.nl##.advrow
 notebookcheck.nl##.amaz_el
 duic.nl##.article-excerpt--ad
 nailtalk.nl##.ashe-widget
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
@@ -1159,8 +1160,6 @@ volleybal.nl##.card-banner-large
 rkcwaalwijk.nl##.carousel
 online-omzetten.nl##.clearfix.entry > small
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
-tvgids.tv##.col-left
-tvgids.tv##.col-right
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 tameteo.nl##.creatividad
 turksemedia.nl##.easingslider
