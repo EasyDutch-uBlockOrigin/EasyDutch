@@ -1153,7 +1153,6 @@ prewarcar.nl##.banner-holder
 kbradio.nl##.banners
 speeleiland.nl##.banner-sky
 berekenhet.nl##.bh-ads
-bieos-omroep.nl##.bieos-widget
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
