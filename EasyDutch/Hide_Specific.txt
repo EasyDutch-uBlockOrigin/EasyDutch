@@ -1152,7 +1152,6 @@ antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.b
 prewarcar.nl##.banner-holder
 kbradio.nl##.banners
 speeleiland.nl##.banner-sky
-radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
