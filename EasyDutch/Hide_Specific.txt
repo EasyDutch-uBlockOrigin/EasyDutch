@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-04
+rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
 tvgids.nl###hourbanner
 tvgids.nl##.section-banner
 tvgids.nl##.square-item:has( > .banner)
@@ -1157,7 +1158,6 @@ voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 bodylifebenelux.nl##.bnrrow
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
-rkcwaalwijk.nl##.carousel
 online-omzetten.nl##.clearfix.entry > small
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 tameteo.nl##.creatividad
