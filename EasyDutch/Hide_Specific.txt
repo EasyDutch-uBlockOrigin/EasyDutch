@@ -1159,7 +1159,6 @@ volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 rkcwaalwijk.nl##.carousel
 online-omzetten.nl##.clearfix.entry > small
-nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 tameteo.nl##.creatividad
 turksemedia.nl##.easingslider
