@@ -1,16 +1,26 @@
-diff name:easydutch lines:78 checksum:71b425cf0b
+diff name:easydutch lines:95 checksum:f181250bac
 d2 1
 a2 1
-! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
+! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.3.411.patch#easydutch
-a136 1
+! Diff-Path: patches/2026.4.4.673.patch#easydutch
+a136 2
+||landenweb.nl/images/_Promotion/$image
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 d307 2
+d359 1
 d420 2
 d448 1
-a544 11
+d457 1
+a544 18
+gyminsider.nl##.bnrrow
+gyminsider.nl###headlines > .bnrln
+rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
+tvgids.nl###hourbanner
+tvgids.nl##.section-banner
+tvgids.nl##.square-item:has( > .banner)
+ment55.be##[id^="text-"]:has-text(advert)
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
 srherald.com##.gsrhera
@@ -42,15 +52,22 @@ d1300 1
 d1323 1
 d1340 1
 d1364 1
+d1425 1
 d1470 1
 d1475 1
 d1510 1
 a1510 1
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 d1514 1
 d1516 1
 d1519 1
-d1533 1
+d1522 1
+d1524 2
+d1527 1
+d1530 1
+d1532 4
+d1537 1
+d1539 2
 d1543 1
 d1547 1
 d1550 1

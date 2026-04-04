@@ -1,13 +1,14 @@
-diff name:easydutch lines:242 checksum:71b425cf0b
+diff name:easydutch lines:256 checksum:f181250bac
 d2 1
 a2 1
-! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
+! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.3.411.patch#easydutch
+! Diff-Path: patches/2026.4.4.673.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
-a135 9
+a135 10
+||landenweb.nl/images/_Promotion/$image
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
@@ -27,6 +28,7 @@ a322 2
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|rtvlansingerland.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
 d327 1
+d355 1
 d366 1
 a366 1
 /*/TOTO*banner$domain=willem-ii.nl
@@ -38,13 +40,21 @@ d423 2
 d431 3
 d442 1
 d453 2
+d463 1
 d465 1
 d477 1
 d480 1
 d482 2
 d515 1
 d519 1
-a557 40
+a557 47
+gyminsider.nl##.bnrrow
+gyminsider.nl###headlines > .bnrln
+rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
+tvgids.nl###hourbanner
+tvgids.nl##.section-banner
+tvgids.nl##.square-item:has( > .banner)
+ment55.be##[id^="text-"]:has-text(advert)
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
 srherald.com##.gsrhera
@@ -168,6 +178,7 @@ d1441 3
 d1448 1
 d1452 1
 d1463 1
+d1482 1
 d1501 1
 d1528 1
 d1533 1
@@ -180,14 +191,17 @@ d1560 1
 d1569 1
 d1572 2
 a1573 1
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 d1577 2
 d1580 1
 d1583 1
-d1590 3
-d1598 1
-d1601 1
-d1608 1
+d1586 1
+d1588 5
+d1594 1
+d1597 2
+d1600 4
+d1605 1
+d1607 3
 d1612 1
 d1615 1
 d1617 2

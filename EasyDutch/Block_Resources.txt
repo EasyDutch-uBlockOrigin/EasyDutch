@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
 !
+! 2026-04-04
+||landenweb.nl/images/_Promotion/$image
 ! 2026-03-24
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ! 2026-03-23
@@ -285,7 +287,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||floranews.com/img/banner/Floranews
 ||gigantfm.nl/assets/images/autoonderdelen$image
 ||gigantfm.nl/assets/images/onderdelenshop$image
-||menttv.be/wp-content/uploads/*/*-br.$image
 ||motokicx.com/wp-content/uploads/*RAD
 ||noordkopcentraal.nl/wp-content/uploads/*/Vrienden-van
 ! 2022-06-29
@@ -398,7 +399,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||kavelplatform.nl/assets/uploads/banners/
 ||kicxstart.nl/wp-content/uploads/*/*1300x150$image
 ||kranenwebsite.nl/banners/$image
-||landenweb.nl/imgBoeking/$image
 ||linqmedia.nl/cwm/fm/userfiles/banner/$image
 ||luister.nl/wp-content/uploads/*/Banner_$image
 ||maaslandradio.nl/wp-content/uploads/*/autodoc.

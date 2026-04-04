@@ -1,7 +1,15 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 03 Apr 2026 06:51:15 +0000
+! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
 !
+! 2026-04-04
+gyminsider.nl##.bnrrow
+gyminsider.nl###headlines > .bnrln
+rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
+tvgids.nl###hourbanner
+tvgids.nl##.section-banner
+tvgids.nl##.square-item:has( > .banner)
+ment55.be##[id^="text-"]:has-text(advert)
 ! 2026-03-28
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
@@ -1046,8 +1054,6 @@ maarkelsnieuws.nl##.banners-weekad
 maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
-! 2022-03-02
-tvgids.nl##.square-item:has( > .banner)
 ! 2022-02-25
 racesport.nl##.hthb-notification
 racesport.nl##.rs_sponsorbanners_widget:upward(1)
@@ -1137,7 +1143,7 @@ dagblad010.nl,voorburgsdagblad.nl##.advrow
 notebookcheck.nl##.amaz_el
 duic.nl##.article-excerpt--ad
 nailtalk.nl##.ashe-widget
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
@@ -1146,24 +1152,13 @@ antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.b
 prewarcar.nl##.banner-holder
 kbradio.nl##.banners
 speeleiland.nl##.banner-sky
-radiomonique.am##.bannerswidget
 berekenhet.nl##.bh-ads
-bieos-omroep.nl##.bieos-widget
-azerty.nl##.block.mod_article:has(.flexslider)
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
-bodylifebenelux.nl##.bnrrow
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
-rkcwaalwijk.nl##.carousel
 online-omzetten.nl##.clearfix.entry > small
-nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
-tvgids.tv##.col-left
-tvgids.tv##.col-right
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
-ditjesendatjes.nl##.c-partners
 tameteo.nl##.creatividad
-knltb.nl,tennis.nl##.c-site-footer__partners
-menttv.be##.cta-container
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 radiocontinu.nl##.eskimo-carousel-container

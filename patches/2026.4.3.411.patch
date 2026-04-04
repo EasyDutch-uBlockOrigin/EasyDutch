@@ -1,4 +1,4 @@
-diff name:easydutch lines:32 checksum:f181250bac
+diff name:easydutch lines:29 checksum:f181250bac
 d2 1
 a2 1
 ! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
@@ -17,9 +17,6 @@ tvgids.nl###hourbanner
 tvgids.nl##.section-banner
 tvgids.nl##.square-item:has( > .banner)
 ment55.be##[id^="text-"]:has-text(advert)
-d558 1
-a558 1
-scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 d1424 1
 d1507 1
 a1507 1
