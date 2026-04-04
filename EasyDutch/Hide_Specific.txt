@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-04
+gyminsider.nl##.bnrrow
+gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
 tvgids.nl###hourbanner
 tvgids.nl##.section-banner
@@ -1155,7 +1157,6 @@ berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
 azerty.nl##.block.mod_article:has(.flexslider)
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
-bodylifebenelux.nl##.bnrrow
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 online-omzetten.nl##.clearfix.entry > small
