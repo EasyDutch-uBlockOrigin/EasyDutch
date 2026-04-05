@@ -431,7 +431,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||psv.nl/upload/*SponsorVrouwenGOED-300x75.jpg$image
 ||racexpress.nl/advertising/$image
 ||radioacacia.nl/sponsoren/
-||radiolelystad.nl/images/stories/Banners/
 ||radiovisie.eu/wp-content/banners/
 ||recreatief.nl/kerstarrangementen.gif
 ||resellers.viboshop.nl/promoimages/
