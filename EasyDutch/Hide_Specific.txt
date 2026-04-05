@@ -1136,7 +1136,7 @@ westerwoldeactueel.nl##.adr-wrapper
 handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spelletje.nl##.adv
-folderz.nl,intermediair.nl,spel.nl,spelletjes.nl##.advert
+folderz.nl,spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
 allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
