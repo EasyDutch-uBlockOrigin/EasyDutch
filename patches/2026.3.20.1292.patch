@@ -1,11 +1,13 @@
-diff name:easydutch lines:128 checksum:f181250bac
+diff name:easydutch lines:134 checksum:fb086ab6ca
 d2 1
 a2 1
-! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
+! Last updated: Sun, 05 Apr 2026 06:12:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.4.673.patch#easydutch
-a136 6
+! Diff-Path: patches/2026.4.5.372.patch#easydutch
+a136 8
+||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
+||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ||landenweb.nl/images/_Promotion/$image
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -29,7 +31,9 @@ d429 1
 d448 2
 d458 1
 d474 2
-a547 26
+a547 28
+hetkontakt.nl##.pgAdWrapper
+nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
 gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
@@ -68,6 +72,7 @@ margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
 d1183 2
 d1266 1
+d1276 1
 d1285 1
 d1289 1
 d1296 1
@@ -76,6 +81,7 @@ d1320 1
 d1337 1
 d1361 1
 d1422 1
+d1462 1
 d1467 1
 d1472 1
 d1485 1
@@ -83,7 +89,7 @@ a1485 1
 bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
 d1507 1
 a1507 1
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 d1511 1
 d1513 1
 d1516 1

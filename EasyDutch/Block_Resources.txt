@@ -1,7 +1,10 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
+! Last updated: Sun, 05 Apr 2026 06:12:28 +0000
 !
+! 2026-04-05
+||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
+||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ! 2026-04-04
 ||landenweb.nl/images/_Promotion/$image
 ! 2026-03-24

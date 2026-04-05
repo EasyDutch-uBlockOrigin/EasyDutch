@@ -1,13 +1,15 @@
-diff name:easydutch lines:243 checksum:f181250bac
+diff name:easydutch lines:249 checksum:fb086ab6ca
 d2 1
 a2 1
-! Last updated: Sat, 04 Apr 2026 11:13:24 +0000
+! Last updated: Sun, 05 Apr 2026 06:12:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.4.673.patch#easydutch
+! Diff-Path: patches/2026.4.5.372.patch#easydutch
 a59 1
 ||partner-nl-be.hema.com^$3p
-a135 10
+a135 12
+||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
+||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ||landenweb.nl/images/_Promotion/$image
 ||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
@@ -45,7 +47,9 @@ d476 1
 d479 1
 d481 2
 d517 1
-a555 42
+a555 44
+hetkontakt.nl##.pgAdWrapper
+nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
 gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
@@ -146,6 +150,7 @@ d1274 1
 d1278 1
 d1303 1
 d1305 1
+d1315 1
 d1322 1
 d1325 2
 d1329 1
@@ -171,6 +176,7 @@ d1453 1
 d1464 1
 d1483 1
 d1502 1
+d1524 1
 d1529 1
 d1534 1
 d1543 1
@@ -181,7 +187,7 @@ d1560 1
 d1569 1
 d1572 2
 a1573 1
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 d1577 2
 d1580 1
 d1583 1
