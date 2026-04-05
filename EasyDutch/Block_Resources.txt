@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+||tvgids24.nl/ads/
 ||truck1.be/st2/banners/
 ||truck1.nl/st2/banners/
 ||truck1-nl.be/st2/banners/
