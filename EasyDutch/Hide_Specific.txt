@@ -944,8 +944,6 @@ edelmetaal-info.nl##section:has(.masonry-item:not(:has(a[href*="edelmetaal-info.
 edelmetaal-info.nl##.figure-image[data-links=""]:not(a[href*="edelmetaal-info.nl"])
 edelmetaal-info.nl##div[class^=" element-short"] a[onclick*="outgoing"]:has(img[width="180"]):not(:has([href*="edelmetaal-info.nl"]))
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
-dolcevia.com##.affiliatelink
-dolcevia.com##.bookingaff:upward(.card)
 dekrantvantynaarlo.nl##.et_pb_ads_agsdcm_0
 dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
 creditexpo.nl##.banner
@@ -1150,7 +1148,7 @@ vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
-antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl##.bannergroup
+antilliaansdagblad.com,lokaleomroepzeewolde.nl##.bannergroup
 prewarcar.nl##.banner-holder
 speeleiland.nl##.banner-sky
 berekenhet.nl##.bh-ads
