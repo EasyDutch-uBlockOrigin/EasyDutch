@@ -46,7 +46,11 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > The reason is to provide an easy way to check whether a filter is still relevant. The filters at the end of the file will be the oldest filters, and also the most likely to maybe be obsolete.
 > 
 > Old filters which are confirmed to still be required must be moved to the top of the list.
+>
+> ##### Grouped Website
 > 
+> If a website is grouped, like: `! Digitaal Dagblad B.V.` - `! End Digitaal Dagblad B.V.`, keep them grouped.
+>
 > #### Issue number association
 > 
 > **All** added filters must be associated with a formal issue number or date, example:
