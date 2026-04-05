@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-05
+||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
+||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ! 2026-04-04
 ||landenweb.nl/images/_Promotion/$image
 ! 2026-03-24
