@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]
 ! Digitaal Dagblad B.V.
@@ -1129,7 +1130,7 @@ marokko.nl##.ad_inner
 tvgids24.nl##.adBoxbig
 filmtotaal.nl##.ad-centering
 sozio.nl##.adchannel
-bruzz.be,omroepflevoland.nl,sportuitslagen.org##.ad-container
+bruzz.be,omroepflevoland.nl##.ad-container
 koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
