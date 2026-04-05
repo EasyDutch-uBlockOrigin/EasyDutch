@@ -1,11 +1,20 @@
-diff name:easydutch lines:184 checksum:fb086ab6ca
+diff name:easydutch lines:226 checksum:fbde4c3e59
 d2 1
 a2 1
-! Last updated: Sun, 05 Apr 2026 06:12:28 +0000
+! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.5.372.patch#easydutch
-a136 9
+! Diff-Path: patches/2026.4.5.736.patch#easydutch
+a136 18
+||bestereistijd.be/inc/promo-*.php
+||tvgids24.nl/ads/
+||truck1.be/st2/banners/
+||truck1.nl/st2/banners/
+||truck1-nl.be/st2/banners/
+||truck1.be/st2/_BANNERS_/
+||truck1.nl/st2/_BANNERS_/
+||truck1-nl.be/st2/_BANNERS_
+||online.ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
 ||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ||landenweb.nl/images/_Promotion/$image
@@ -15,20 +24,24 @@ a136 9
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
 ||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
 ||niburu.co/images/sidebanners/
-d241 1
+d145 1
+d238 4
+d299 1
 d303 2
-d306 1
+d306 2
 d309 1
 d324 2
 a325 2
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|rtvlansingerland.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
 d330 1
+d340 1
 d358 1
 d369 1
 a369 1
 /*/TOTO*banner$domain=willem-ii.nl
 d376 1
+d403 1
 d420 2
 d424 2
 d432 1
@@ -37,7 +50,22 @@ d461 1
 d463 1
 d475 1
 d479 2
-a552 33
+d495 1
+a527 1
+@@||antilliaansdagblad.com^$ghide
+a552 45
+sportuitslagen.org##.advert
+folderz.nl##[class^="add_"]:has(> .advert)
+deoudrotterdammer.nl##[id^="netta-"]
+albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goudsdagblad.nl,ridderkerksdagblad.nl,rijswijksdagblad.nl,voorburgsdagblad.nl,zoetermeersdagblad.nl##.advrow
+albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goudsdagblad.nl,ridderkerksdagblad.nl,rijswijksdagblad.nl,voorburgsdagblad.nl,zoetermeersdagblad.nl##.ddbad_wrapper
+afkortingen.nu##.banner
+afkortingen.nu##.banner_container
+filmladder.nl##.banner
+filmladder.nl##[class^="r89-"]
+ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
+studiokaagenbraassem.nl##.banners
+studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
 hetkontakt.nl##.pgAdWrapper
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
@@ -72,7 +100,7 @@ glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
 glutenvrij.nl##.t-banner
 klusidee.nl##[class^="r89-"]
 d556 2
-d604 1
+d603 2
 d617 1
 d622 2
 d943 5
@@ -93,12 +121,15 @@ d1073 4
 d1113 1
 d1132 1
 d1135 1
+d1139 1
 d1142 1
 d1171 1
 d1177 1
 d1203 2
+d1221 1
 d1258 1
 d1262 1
+d1276 1
 d1287 1
 d1289 1
 d1299 1
@@ -107,12 +138,14 @@ d1309 2
 d1313 1
 d1315 1
 d1322 2
-d1330 1
+d1329 2
 d1333 2
 d1336 1
 d1350 1
 d1353 1
+d1362 2
 d1368 1
+d1384 1
 d1391 1
 d1393 1
 d1398 1
@@ -122,20 +155,29 @@ d1422 2
 d1428 1
 d1460 1
 d1479 1
+d1490 3
 d1501 1
 d1506 1
 d1511 1
-d1524 1
-a1524 1
-bestereistijd.be,hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
-d1536 1
-d1545 1
-d1548 1
+d1524 2
+a1525 1
+hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+d1531 2
+a1532 1
+omroepflevoland.nl##.ad-container
+d1535 2
+d1538 3
+a1540 1
+spel.nl,spelletjes.nl##.advert
+d1543 6
 a1548 1
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nrc.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+d1550 1
 d1552 2
-d1555 1
-d1558 1
+d1555 2
+a1556 1
+lokaleomroepzeewolde.nl##.bannergroup
+d1558 2
 d1561 1
 d1563 5
 d1569 1

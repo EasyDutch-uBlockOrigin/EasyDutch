@@ -1,11 +1,11 @@
-diff name:easydutch lines:91 checksum:fbde4c3e59
+diff name:easydutch lines:64 checksum:fbde4c3e59
 d2 1
 a2 1
 ! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.4.5.736.patch#easydutch
-a136 12
+a136 9
 ||bestereistijd.be/inc/promo-*.php
 ||tvgids24.nl/ads/
 ||truck1.be/st2/banners/
@@ -15,21 +15,16 @@ a136 12
 ||truck1.nl/st2/_BANNERS_/
 ||truck1-nl.be/st2/_BANNERS_
 ||online.ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
-||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
-||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
-||landenweb.nl/images/_Promotion/$image
-d151 1
-d244 3
-d304 1
-d309 1
-d340 1
-d358 1
-d402 1
-d453 1
-d483 1
-a515 1
+d154 1
+d247 3
+d307 1
+d312 1
+d343 1
+d404 1
+d484 1
+a516 1
 @@||antilliaansdagblad.com^$ghide
-a540 21
+a541 12
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]
@@ -42,51 +37,29 @@ filmladder.nl##[class^="r89-"]
 ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
-hetkontakt.nl##.pgAdWrapper
-nieuws.nl##.ad2-position:upward(.raw-html-component)
-gyminsider.nl##.bnrrow
-gyminsider.nl###headlines > .bnrln
-rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
-tvgids.nl###hourbanner
-tvgids.nl##.section-banner
-tvgids.nl##.square-item:has( > .banner)
-ment55.be##[id^="text-"]:has-text(advert)
-d558 1
-a558 1
-scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
-d613 1
-d1134 1
-d1211 1
-d1264 1
-d1285 1
-d1308 1
-d1335 2
-d1356 1
-d1424 1
-d1453 3
-d1464 1
-d1485 2
-a1486 1
-hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+d623 1
+d1144 1
+d1221 1
+d1274 1
+d1317 1
+d1344 2
+d1365 1
+d1461 3
 d1492 2
 a1493 1
-omroepflevoland.nl##.ad-container
-d1496 1
-d1498 3
+hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+d1499 2
 a1500 1
-spel.nl,spelletjes.nl##.advert
-d1503 5
+omroepflevoland.nl##.ad-container
+d1503 1
+d1505 3
 a1507 1
+spel.nl,spelletjes.nl##.advert
+d1510 5
+a1514 1
 allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
-d1509 1
-d1512 1
-a1512 1
-lokaleomroepzeewolde.nl##.bannergroup
-d1514 1
 d1516 1
-d1518 2
+d1519 1
+a1519 1
+lokaleomroepzeewolde.nl##.bannergroup
 d1521 1
-d1524 1
-d1526 3
-d1530 1
-d1532 2

@@ -1,8 +1,17 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 05 Apr 2026 06:12:28 +0000
+! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
 !
 ! 2026-04-05
+||bestereistijd.be/inc/promo-*.php
+||tvgids24.nl/ads/
+||truck1.be/st2/banners/
+||truck1.nl/st2/banners/
+||truck1-nl.be/st2/banners/
+||truck1.be/st2/_BANNERS_/
+||truck1.nl/st2/_BANNERS_/
+||truck1-nl.be/st2/_BANNERS_
+||online.ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
 ||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ! 2026-04-04
@@ -30,8 +39,6 @@
 ||psalmboek.nl/banners/$image
 ! 2026-02-20
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
-! 2026-02-14
-||online.ad.cw/AdvertisementImages$image,1p
 ! 2026-02-13
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
@@ -146,9 +153,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||nubeterduits.nl/afbeeldingen/banner$image
 ||nubeterfrans.nl/afbeeldingen/banner$image
 ||nubeterspaans.nl/afbeeldingen/banner$image
-||truck1.be/st2/banners/
-||truck1.nl/st2/banners/
-||truck1-nl.be/st2/banners/
 ! 2023-11-01
 ||nnieuws.be/sites/default/files/images/ads/
 ! 2023-10-31
@@ -221,12 +225,10 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ||zwartewaterfm.nl/wp-content/uploads/*/SponsorenZwarteWaterFM
 ! 2023-04-26
-||402automotive.com/files/*/files/images/banners/*.$image,domain=402online.com
 ||autosport.nl/dist/images/Banner$image
 ||autosport.nl/images/banner$image
 ||basketbal.vlaanderen/files/tmp/logo*.png$image
 ||golf.be/files/BannerImage/$image,1p
-||klasse.be/wp/wp-content/images/*_lb_*full.*$image
 ||kookboekennieuws.nl/wp-content/uploads/*/*BANNER*$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/50-Plus-Makelaar-*.jpg$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/Boogaers-2018-125.png$image
@@ -268,8 +270,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||minimumloon.nl/wp-content/uploads/*/*.gif
 ! 2022-07-13
 ||cdn-webcam-harlingen.nl/adv/
-! 2022-07-06
-||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ! 2022-07-05
 ||itnijs.frl/wp-content/uploads/*/adfertinsje
 ! 2022-07-01
@@ -351,7 +351,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
-||antilliaansdagblad.com/images/banners/
 ||apintie.sr/bannerz$image
 ||b-cdn.net/w_/s3-roulettefm/*.$image,domain=roulettefm.nl
 ||b-cdn.net/w_/s3-rtvstichtsevecht/*.$image,domain=rtvstichtsevecht.nl
@@ -431,7 +430,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||psv.nl/upload/*SponsorVrouwenGOED-300x75.jpg$image
 ||racexpress.nl/advertising/$image
 ||radioacacia.nl/sponsoren/
-||radiolelystad.nl/images/stories/Banners/
 ||radiovisie.eu/wp-content/banners/
 ||recreatief.nl/kerstarrangementen.gif
 ||resellers.viboshop.nl/promoimages/

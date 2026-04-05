@@ -1,7 +1,9 @@
 ! Title: Block Whitelist
 ! Description: Whitelist for specific URLs on Dutch websites
-! Last updated: Sun, 08 Mar 2026 14:09:04 +0000
+! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
 !
+! 2026-04-05
+@@||antilliaansdagblad.com^$ghide
 ! 2026-02-14
 @@||ad.cw^$ghide
 ! 2026-02-06
