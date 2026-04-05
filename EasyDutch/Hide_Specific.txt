@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+filmladder.nl##.banner
+filmladder.nl##[class^="r89-"]
 ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
@@ -1142,7 +1144,7 @@ dagblad010.nl,voorburgsdagblad.nl##.advrow
 notebookcheck.nl##.amaz_el
 duic.nl##.article-excerpt--ad
 nailtalk.nl##.ashe-widget
-afkortingen.nu,allradio.nl,elkspel.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
