@@ -1136,7 +1136,6 @@ koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
 handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
-spelletje.nl##.adv
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
