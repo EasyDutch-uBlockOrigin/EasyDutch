@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+hetkontakt.nl##.pgAdWrapper
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 ! 2026-04-04
 gyminsider.nl##.bnrrow
