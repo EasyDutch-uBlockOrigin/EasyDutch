@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]
