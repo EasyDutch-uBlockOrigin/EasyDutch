@@ -2,6 +2,8 @@
 ! Description: Whitelist for specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-05
+@@||antilliaansdagblad.com^$ghide
 ! 2026-02-14
 @@||ad.cw^$ghide
 ! 2026-02-06
