@@ -1,0 +1,11 @@
+diff name:easydutch lines:10 checksum:c3ebf3eea9
+d2 1
+a2 1
+! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.5.848.patch#easydutch
+a136 1
+||weerenradar.nl/*/ad/$image
+a542 1
+weerenradar.nl##wo-ad

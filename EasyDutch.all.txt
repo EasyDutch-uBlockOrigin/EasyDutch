@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
+! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.5.736.patch#easydutch
+! Diff-Path: patches/2026.4.5.848.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -134,6 +134,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
 ||tvgids24.nl/ads/
 ||truck1.be/st2/banners/
@@ -540,6 +541,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]

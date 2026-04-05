@@ -1,11 +1,12 @@
-diff name:easydutch lines:287 checksum:fbde4c3e59
+diff name:easydutch lines:289 checksum:c3ebf3eea9
 d2 1
 a2 1
-! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
+! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.5.736.patch#easydutch
-a136 21
+! Diff-Path: patches/2026.4.5.848.patch#easydutch
+a136 22
+||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
 ||tvgids24.nl/ads/
 ||truck1.be/st2/banners/
@@ -60,7 +61,8 @@ d480 2
 d496 1
 a528 1
 @@||antilliaansdagblad.com^$ghide
-a553 55
+a553 56
+weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]
