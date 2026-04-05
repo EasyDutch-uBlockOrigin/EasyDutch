@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+studiokaagenbraassem.nl##.banners
+studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
 hetkontakt.nl##.pgAdWrapper
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 ! 2026-04-04
@@ -915,7 +917,6 @@ persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
 psv.nl##.toto
-kbradio.nl##a[href="../../omroep/adverteren/"]
 itnijs.frl##.banner:upward(.widget)
 indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 sleutelstad.nl##.g
@@ -1151,7 +1152,6 @@ speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
 prewarcar.nl##.banner-holder
-kbradio.nl##.banners
 speeleiland.nl##.banner-sky
 berekenhet.nl##.bh-ads
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
