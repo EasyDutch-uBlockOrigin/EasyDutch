@@ -1150,7 +1150,7 @@ vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
-antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
+antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl##.bannergroup
 prewarcar.nl##.banner-holder
 speeleiland.nl##.banner-sky
 berekenhet.nl##.bh-ads
