@@ -1130,7 +1130,7 @@ marokko.nl##.ad_inner
 tvgids24.nl##.adBoxbig
 filmtotaal.nl##.ad-centering
 sozio.nl##.adchannel
-bruzz.be,omroepflevoland.nl##.ad-container
+omroepflevoland.nl##.ad-container
 koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
