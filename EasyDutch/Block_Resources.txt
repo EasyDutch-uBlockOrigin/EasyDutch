@@ -3,6 +3,12 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+||truck1.be/st2/banners/
+||truck1.nl/st2/banners/
+||truck1-nl.be/st2/banners/
+||truck1.be/st2/_BANNERS_/
+||truck1.nl/st2/_BANNERS_/
+||truck1-nl.be/st2/_BANNERS_
 ||online.ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
 ||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
@@ -145,9 +151,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||nubeterduits.nl/afbeeldingen/banner$image
 ||nubeterfrans.nl/afbeeldingen/banner$image
 ||nubeterspaans.nl/afbeeldingen/banner$image
-||truck1.be/st2/banners/
-||truck1.nl/st2/banners/
-||truck1-nl.be/st2/banners/
 ! 2023-11-01
 ||nnieuws.be/sites/default/files/images/ads/
 ! 2023-10-31
