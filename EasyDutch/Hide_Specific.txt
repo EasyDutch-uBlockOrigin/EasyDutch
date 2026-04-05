@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-05
+ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
 hetkontakt.nl##.pgAdWrapper
@@ -101,8 +102,6 @@ kerkliedwiki.nl##.div-adsense
 ! 2026-02-20
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
-! 2026-02-14
-ad.cw##.ad-advertisement-link:upward(1)
 ! 2026-02-13
 regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
@@ -1148,7 +1147,7 @@ vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
-antilliaansdagblad.com,lokaleomroepzeewolde.nl##.bannergroup
+lokaleomroepzeewolde.nl##.bannergroup
 prewarcar.nl##.banner-holder
 speeleiland.nl##.banner-sky
 berekenhet.nl##.bh-ads
