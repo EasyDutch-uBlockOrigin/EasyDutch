@@ -11,6 +11,10 @@ The reason is to provide an easy way to check whether a filter is still relevant
 
 Old filters which are confirmed to still be required must be moved to the top of the list.
 
+##### Grouped Website
+
+If a website is grouped, like: `! Digitaal Dagblad B.V.` - `! End Digitaal Dagblad B.V.`, keep them grouped.
+
 #### Issue number association
 
 **All** added filters must be associated with a formal issue number or date, example:
@@ -32,7 +36,7 @@ Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all t
 
 #### Hide General
 
-You may only make General Hiding rules, if it applies to tree or more websites
+You may only make General Hiding rules, if it applies to four or more websites
 
 *******
 #### What you might do or not do as a contributor
