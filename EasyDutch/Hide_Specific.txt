@@ -1134,7 +1134,7 @@ bruzz.be,omroepflevoland.nl,sportuitslagen.org,trendalert.nl##.ad-container
 voetbalvandaag.be##.adds
 koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
-handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
+handbal.nl,openrotterdam.nl##.ads
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
