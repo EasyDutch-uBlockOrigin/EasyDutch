@@ -1140,7 +1140,6 @@ deoudrotterdammer.nl##.advertentie
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
 dagblad010.nl,voorburgsdagblad.nl##.advrow
-notebookcheck.nl##.amaz_el
 allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
