@@ -1,10 +1,10 @@
-diff name:easydutch lines:182 checksum:c3ebf3eea9
+diff name:easydutch lines:190 checksum:2b30d60239
 d2 1
 a2 1
-! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
+! Last updated: Mon, 06 Apr 2026 16:21:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.5.848.patch#easydutch
+! Diff-Path: patches/2026.4.6.981.patch#easydutch
 a136 18
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -49,7 +49,14 @@ d474 2
 d490 1
 a522 1
 @@||antilliaansdagblad.com^$ghide
-a547 41
+a547 48
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.hero-banner
+zeelandnet.nl##[class^="article-bnr-"]
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##.as__bottom-banner
 weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
@@ -91,6 +98,7 @@ softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
 scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
+d571 5
 d601 2
 d938 5
 a942 4

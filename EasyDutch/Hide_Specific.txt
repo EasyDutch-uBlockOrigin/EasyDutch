@@ -1,7 +1,15 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
+! Last updated: Mon, 06 Apr 2026 16:21:47 +0000
 !
+! 2026-04-6
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.hero-banner
+zeelandnet.nl##[class^="article-bnr-"]
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##.as__bottom-banner
 ! 2026-04-05
 weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
@@ -78,11 +86,6 @@ appletips.nl##.ttBlock
 bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
-zeelandnet.nl##.bnr-below
-zeelandnet.nl##.g_banner
-zeelandnet.nl##.as__topbanner
-zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
-zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close

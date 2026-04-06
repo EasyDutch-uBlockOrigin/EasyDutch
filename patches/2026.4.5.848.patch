@@ -1,13 +1,11 @@
-diff name:easydutch lines:18 checksum:2b30d60239
+diff name:easydutch lines:15 checksum:2b30d60239
 d2 1
 a2 1
 ! Last updated: Mon, 06 Apr 2026 16:21:47 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.4.6.981.patch#easydutch
-a136 1
-||weerenradar.nl/*/ad/$image
-a542 8
+a543 7
 zeelandnet.nl##.bnr-below
 zeelandnet.nl##.g_banner
 zeelandnet.nl##.hero-banner
@@ -15,5 +13,4 @@ zeelandnet.nl##[class^="article-bnr-"]
 zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
 zeelandnet.nl##.as__topbanner
 zeelandnet.nl##.as__bottom-banner
-weerenradar.nl##wo-ad
-d606 5
+d608 5

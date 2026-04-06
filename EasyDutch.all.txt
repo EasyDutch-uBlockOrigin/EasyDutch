@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
+! Last updated: Mon, 06 Apr 2026 16:21:47 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.5.848.patch#easydutch
+! Diff-Path: patches/2026.4.6.981.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -541,6 +541,13 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.hero-banner
+zeelandnet.nl##[class^="article-bnr-"]
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##.as__bottom-banner
 weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
@@ -605,11 +612,6 @@ appletips.nl##.ttBlock
 bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
-zeelandnet.nl##.bnr-below
-zeelandnet.nl##.g_banner
-zeelandnet.nl##.as__topbanner
-zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
-zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close

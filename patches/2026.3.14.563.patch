@@ -1,10 +1,10 @@
-diff name:easydutch lines:1649 checksum:c3ebf3eea9
+diff name:easydutch lines:1651 checksum:2b30d60239
 d2 1
 a2 1
-! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
+! Last updated: Mon, 06 Apr 2026 16:21:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.5.848.patch#easydutch
+! Diff-Path: patches/2026.4.6.981.patch#easydutch
 d15 1
 a15 38
 /reclame/*.gif$image,3p
@@ -541,7 +541,14 @@ a25 6
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 d27 1
-a27 1047
+a27 1049
+zeelandnet.nl##.bnr-below
+zeelandnet.nl##.g_banner
+zeelandnet.nl##.hero-banner
+zeelandnet.nl##[class^="article-bnr-"]
+zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
+zeelandnet.nl##.as__topbanner
+zeelandnet.nl##.as__bottom-banner
 weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
@@ -606,11 +613,6 @@ appletips.nl##.ttBlock
 bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
-zeelandnet.nl##.bnr-below
-zeelandnet.nl##.g_banner
-zeelandnet.nl##.as__topbanner
-zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
-zeelandnet.nl##.hero-banner
 digitaalburg.com###container aside[class^="widget widget_text"]
 weerplaza.nl##.banner
 racingnews365.nl##.betting-close
