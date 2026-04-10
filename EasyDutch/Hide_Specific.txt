@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-10
+1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
 ! 2026-04-6
 zeelandnet.nl##.bnr-below
 zeelandnet.nl##.g_banner
