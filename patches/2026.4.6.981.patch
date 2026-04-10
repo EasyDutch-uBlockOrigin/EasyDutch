@@ -1,0 +1,10 @@
+diff name:easydutch lines:9 checksum:2c7e2b4687
+d2 1
+a2 1
+! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.10.1149.patch#easydutch
+a543 2
+1achterhoek.nl##.footer-widgets
+1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)

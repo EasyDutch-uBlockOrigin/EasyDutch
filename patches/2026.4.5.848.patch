@@ -1,11 +1,13 @@
-diff name:easydutch lines:15 checksum:2b30d60239
+diff name:easydutch lines:17 checksum:2c7e2b4687
 d2 1
 a2 1
-! Last updated: Mon, 06 Apr 2026 16:21:47 +0000
+! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.6.981.patch#easydutch
-a543 7
+! Diff-Path: patches/2026.4.10.1149.patch#easydutch
+a543 9
+1achterhoek.nl##.footer-widgets
+1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
 zeelandnet.nl##.bnr-below
 zeelandnet.nl##.g_banner
 zeelandnet.nl##.hero-banner
