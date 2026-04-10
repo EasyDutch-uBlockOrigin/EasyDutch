@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-10
+1achterhoek.nl##.footer-widgets
 1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
 ! 2026-04-6
 zeelandnet.nl##.bnr-below
