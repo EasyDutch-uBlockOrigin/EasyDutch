@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-11
+||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 ! 2026-04-05
 ||weerenradar.nl/*/ad/$image
