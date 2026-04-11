@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
+! Last updated: Sat, 11 Apr 2026 06:03:44 +0000
 !
 ! 2026-04-10
 1achterhoek.nl##.footer-widgets
@@ -394,7 +394,7 @@ bingofm.nl,denhaagfm.nl,gld.nl,l1.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland
 omroepbrabant.nl##div[class^="ad_"]
 omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
 ! 2026-02-05
-rd.nl##div.flex-col:has(> div > div.codalt-container)
+rd.nl##.ad-container-print-hide
 rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
 buienradar.nl##.br-ad-slot

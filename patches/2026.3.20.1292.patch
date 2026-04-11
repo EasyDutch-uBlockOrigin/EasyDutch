@@ -1,10 +1,10 @@
-diff name:easydutch lines:192 checksum:2c7e2b4687
+diff name:easydutch lines:195 checksum:d1dbddf91c
 d2 1
 a2 1
-! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
+! Last updated: Sat, 11 Apr 2026 06:03:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.10.1149.patch#easydutch
+! Diff-Path: patches/2026.4.11.363.patch#easydutch
 a136 18
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -102,6 +102,9 @@ scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
 d571 5
 d601 2
+d854 1
+a854 1
+rd.nl##.ad-container-print-hide
 d938 5
 a942 4
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))

@@ -1,10 +1,10 @@
-diff name:easydutch lines:151 checksum:2c7e2b4687
+diff name:easydutch lines:154 checksum:d1dbddf91c
 d2 1
 a2 1
-! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
+! Last updated: Sat, 11 Apr 2026 06:03:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.10.1149.patch#easydutch
+! Diff-Path: patches/2026.4.11.363.patch#easydutch
 a136 13
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -78,6 +78,9 @@ a552 1
 scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 d577 5
 d607 2
+d860 1
+a860 1
+rd.nl##.ad-container-print-hide
 d944 5
 a948 4
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))

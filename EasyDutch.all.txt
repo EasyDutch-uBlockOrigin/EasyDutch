@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
+! Last updated: Sat, 11 Apr 2026 06:03:44 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.10.1149.patch#easydutch
+! Diff-Path: patches/2026.4.11.363.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -890,7 +890,7 @@ lovereality.nl##div[class^="r89-"]:upward(section[data-settings])
 bingofm.nl,denhaagfm.nl,gld.nl,l1.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland.nl,oost.nl,rijnmond.nl,rtvdrenthe.nl,rtvnoord.nl,rtvutrecht.nl##.groei-ad
 omroepbrabant.nl##div[class^="ad_"]
 omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
-rd.nl##div.flex-col:has(> div > div.codalt-container)
+rd.nl##.ad-container-print-hide
 rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
 buienradar.nl##.br-ad-slot

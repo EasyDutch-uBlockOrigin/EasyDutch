@@ -1,10 +1,10 @@
-diff name:easydutch lines:82 checksum:2c7e2b4687
+diff name:easydutch lines:85 checksum:d1dbddf91c
 d2 1
 a2 1
-! Last updated: Fri, 10 Apr 2026 19:09:54 +0000
+! Last updated: Sat, 11 Apr 2026 06:03:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.10.1149.patch#easydutch
+! Diff-Path: patches/2026.4.11.363.patch#easydutch
 a136 12
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -54,6 +54,9 @@ hetkontakt.nl##.pgAdWrapper
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 d589 5
 d619 1
+d871 1
+a871 1
+rd.nl##.ad-container-print-hide
 d1140 1
 d1217 1
 d1270 1
