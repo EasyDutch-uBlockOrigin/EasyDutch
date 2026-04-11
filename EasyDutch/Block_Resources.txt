@@ -463,4 +463,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wanttoknow.nl^*Banner
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
 ||xingo.nl/bannermanagement/
-||xsnews.nl/aff/$image,domain=nzbindex.nl
