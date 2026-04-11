@@ -460,6 +460,7 @@ rd.nl##.ad-container-print-hide
 rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
 buienradar.nl##.br-ad-slot
+gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
 gpfans.com##.ads-columns
