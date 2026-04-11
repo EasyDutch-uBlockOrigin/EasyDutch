@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-11
+waterweg-actueel.nl##aside [id^="media_image"]
 elfvoetbal.nl##column-right .fake-division
 elfvoetbal.nl##column-right #partners
 starnieuws.com##.ads
