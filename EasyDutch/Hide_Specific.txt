@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-11
+starnieuws.com##.ads
 xgn.nl##[class^="r89-"]:upward(.raw-html-component)
 ! Telstar Mediagroep
 ! Zeeuwsch Vlaams Advertentieblad
@@ -1169,7 +1170,6 @@ voetbal-vandaag.nl###sidebar_aanbevelen
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
 formule1.ws,giganieuws.nl,grandprix.ws,jupilerproleague.eu,nieuwsgigant.nl,voetbal-vandaag.nl###topbox
-starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 petities.com###visible_ad_1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
