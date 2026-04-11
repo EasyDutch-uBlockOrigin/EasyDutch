@@ -1160,8 +1160,6 @@ bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
 eindexamens.nu###leaderboard
-schiedamsnieuws.nl###media_image-3
-schiedamsnieuws.nl###media_image-4
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
 forum.scholieren.com###posts .thead:has-text(Advert)
