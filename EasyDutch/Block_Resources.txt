@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-11
+||persinfo.org/nl/ads$xhr
 ! 2026-04-05
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -237,7 +239,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||oisterwijknieuws.nl/wp-content/uploads/*/ondernemers-oisterwijk.png$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/steenwitgoed-270x324-*.jpg$image
 ||persberichten.com/Actueel_Images*/*.gif$image
-||persinfo.org/assets/front/images/website/multimmo*.mp4
 ||reliwiki.nl/img/banner$image
 ||rickfm.nl/cwm/fm/userfiles/banner/foto/thumb$image
 ||rickfm.nl/views/rickfm/images/*.gif$image
