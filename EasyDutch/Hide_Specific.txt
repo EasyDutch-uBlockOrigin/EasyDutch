@@ -1,8 +1,52 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 11 Apr 2026 11:48:49 +0000
+! Last updated: Sat, 11 Apr 2026 14:11:05 +0000
 !
 ! 2026-04-11
+! Telstar Mediagroep
+! Zeeuwsch Vlaams Advertentieblad
+borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##div[id]:upward(.component__plugin)
+borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##.component__pubble-banner
+borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Arena Mediacentrum
+arenalokaal.nl##div[id]:upward(.component__plugin)
+arenalokaal.nl##.component__pubble-banner
+arenalokaal.nl##.component__pubble-banner:upward(.bg-gray-100)
+! DAS Mediacentrum
+hetcontact.nl,middenstandsbelangen.nl,peelbelangonline.nl,valkenswaardsweekblad.nl,weekbladdeschakel.nl,weekbladvoordeurne.nl##div[id]:upward(.component__plugin)
+hetcontact.nl,middenstandsbelangen.nl,peelbelangonline.nl,valkenswaardsweekblad.nl,weekbladdeschakel.nl,weekbladvoordeurne.nl##.component__pubble-banner
+hetcontact.nl,middenstandsbelangen.nl,peelbelangonline.nl,valkenswaardsweekblad.nl,weekbladdeschakel.nl,weekbladvoordeurne.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Talvi Mediacentrum
+kliknieuwsdemaasdriehoek.nl,kliknieuwsdenbosch.nl,kliknieuwsmaasenniersbode.nl,kliknieuwsoss.nl,kliknieuwsuden.nl,kliknieuwsveghel.nl##div[id]:upward(.component__plugin)
+kliknieuwsdemaasdriehoek.nl,kliknieuwsdenbosch.nl,kliknieuwsmaasenniersbode.nl,kliknieuwsoss.nl,kliknieuwsuden.nl,kliknieuwsveghel.nl##.component__pubble-banner
+kliknieuwsdemaasdriehoek.nl,kliknieuwsdenbosch.nl,kliknieuwsmaasenniersbode.nl,kliknieuwsoss.nl,kliknieuwsuden.nl,kliknieuwsveghel.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Schijndel Mediacentrum
+mooischijndel.nl##div[id]:upward(.component__plugin)
+mooischijndel.nl##.component__pubble-banner
+mooischijndel.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Groot Hellevoet Mediacentrum
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
+! De Havenloods Mediacentrum
+dehavenloods.nl##div[id]:upward(.component__plugin)
+dehavenloods.nl##.component__pubble-banner
+dehavenloods.nl##.component__pubble-banner:upward(.bg-gray-100)
+! De Heraut Mediacentrum
+herautonline.nl##div[id]:upward(.component__plugin)
+herautonline.nl##.component__pubble-banner
+herautonline.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Telstar Mediacentrum
+hetkrantje-online.nl,streekbladzoetermeer.nl,telstar-online.nl##div[id]:upward(.component__plugin)
+hetkrantje-online.nl,streekbladzoetermeer.nl,telstar-online.nl##.component__pubble-banner
+hetkrantje-online.nl,streekbladzoetermeer.nl,telstar-online.nl##.component__pubble-banner:upward(.bg-gray-100)
+! Others
+leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
+leiderdorpsweekblad.nl##.component__pubble-banner
+leiderdorpsweekblad.nl##.component__pubble-banner:upward(.bg-gray-100)
+grooteindhoven.nl##.bannerheight
+grooteindhoven.nl##.hypr_banner
+! End Telstar Mediagroep
 ! Pijper Media
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##[data-aa-adunit]:upward(div:not([class],[id]))
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##[data-aa-adunit]:upward(.bg-reserved)
@@ -216,16 +260,15 @@ aalsmeervandaag.nl##[data-widget_type^="vertical-slider"]:upward(.elementor-widg
 kn.nl##.elementor-widget-heading:has-text(/advert/i):upward([data-element_type="container"])
 ! NoordPers
 eemslander.info,inmidden-drenthe.info,koerier.info,nieuwsbode.info,ommelander.info,oostermoer.info,regiokrant.info,schakel.info##.component__pubble-banner
+! End NoordPers
 ! Media Totaal Noord BV
 dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner:upward(.builder__row:not(.grid))
 dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner
 ! End Media Totaal Noord BV
-arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
-arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner
-arenalokaal.nl,dehavenloods.nl,hetkrantje-online.nl,leiderdorpsweekblad.nl##.component__pubble-banner:upward(.bg-gray-100)
 ! Entermedia
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##.component__pubble-banner:has-text(/Uit de krant|advert/)
+! End EnterMedia
 ! Achterhoeknieuws
 achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
 achterhoekagenda.nl##.component__page-snippet
