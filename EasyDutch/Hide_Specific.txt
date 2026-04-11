@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-11
+! Avant digitale steden
+alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
+! End Avant
 waterweg-actueel.nl##aside [id^="media_image"]
 elfvoetbal.nl##column-right .fake-division
 elfvoetbal.nl##column-right #partners
