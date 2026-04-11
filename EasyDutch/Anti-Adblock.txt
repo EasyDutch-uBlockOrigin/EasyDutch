@@ -1,6 +1,6 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Thu, 26 Feb 2026 20:32:01 +0000
+! Last updated: Sat, 11 Apr 2026 11:48:49 +0000
 !
 ! 2026-02-26
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
@@ -15,8 +15,6 @@ embed.kijk.nl##body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.
 mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
-! 2026-02-02
-||html-load.com/player/$script,domain=tipsenweetjes.nl,redirect=noopjs
 ! 2026-01-31
 touretappe.nl##+js(set, adBlocker, 0)
 ! 2023-10-17
