@@ -1,10 +1,10 @@
-diff name:easydutch lines:171 checksum:0fbeceb282
+diff name:easydutch lines:172 checksum:72c8f62b62
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
+! Last updated: Sat, 11 Apr 2026 19:36:51 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1149.patch#easydutch
+! Diff-Path: patches/2026.4.11.1176.patch#easydutch
 a136 16
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
@@ -33,6 +33,7 @@ d402 1
 d453 1
 d483 1
 d502 1
+d514 1
 a515 1
 @@||antilliaansdagblad.com^$ghide
 a540 81

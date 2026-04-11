@@ -1,16 +1,17 @@
-diff name:easydutch lines:64 checksum:0fbeceb282
+diff name:easydutch lines:65 checksum:72c8f62b62
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
+! Last updated: Sat, 11 Apr 2026 19:36:51 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1149.patch#easydutch
+! Diff-Path: patches/2026.4.11.1176.patch#easydutch
 a136 3
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 d324 1
 d504 1
+d516 1
 a543 38
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
 waterweg-actueel.nl##aside [id^="media_image"]

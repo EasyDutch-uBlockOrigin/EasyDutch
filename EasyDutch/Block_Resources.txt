@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
+! Last updated: Sat, 11 Apr 2026 19:36:51 +0000
 !
 ! 2026-04-11
 ||elfvoetbal.nl/photos/dynamic/
@@ -463,4 +463,3 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||wanttoknow.nl^*Banner
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
 ||xingo.nl/bannermanagement/
-||xsnews.nl/aff/$image,domain=nzbindex.nl
