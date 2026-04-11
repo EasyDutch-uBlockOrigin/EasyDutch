@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-11
+elfvoetbal.nl##column-right .fake-division
+elfvoetbal.nl##column-right #partners
 starnieuws.com##.ads
 xgn.nl##[class^="r89-"]:upward(.raw-html-component)
 ! Telstar Mediagroep
@@ -1162,7 +1164,6 @@ schiedamsnieuws.nl###media_image-3
 schiedamsnieuws.nl###media_image-4
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
-elfvoetbal.nl###partners
 forum.scholieren.com###posts .thead:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
