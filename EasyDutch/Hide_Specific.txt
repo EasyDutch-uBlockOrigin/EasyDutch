@@ -34,8 +34,8 @@ mooischijndel.nl##.component__pubble-banner
 mooischijndel.nl##.component__pubble-banner:upward(.bg-gray-100)
 ! Groot Hellevoet Mediacentrum
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
-brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
-brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 ! De Havenloods Mediacentrum
 dehavenloods.nl##div[id]:upward(.component__plugin)
 dehavenloods.nl##.component__pubble-banner
