@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-11
+exxact.nl##[id^="text-"]:has-text(Advert)
 ! Avant digitale steden
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
 ! End Avant
