@@ -1,11 +1,14 @@
-diff name:easydutch lines:243 checksum:3b270407eb
+diff name:easydutch lines:261 checksum:0fbeceb282
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 14:11:05 +0000
+! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.851.patch#easydutch
-a136 18
+! Diff-Path: patches/2026.4.11.1149.patch#easydutch
+a136 21
+||elfvoetbal.nl/photos/dynamic/
+||112achterhoek-nieuws.nl/images/blocks/*_
+||persinfo.org/nl/ads$xhr
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
 ||tvgids24.nl/ads/
@@ -30,6 +33,7 @@ d299 1
 d303 2
 d306 2
 d309 1
+d316 1
 d324 2
 a325 2
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|ciaotutti.nl|edelmetaal-info.nl|rtvlansingerland.nl|unitednews.sr
@@ -47,9 +51,16 @@ d448 2
 d458 1
 d474 2
 d490 1
+d509 1
 a522 1
 @@||antilliaansdagblad.com^$ghide
-a547 94
+a547 100
+alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
+waterweg-actueel.nl##aside [id^="media_image"]
+elfvoetbal.nl##column-right .fake-division
+elfvoetbal.nl##column-right #partners
+starnieuws.com##.ads
+xgn.nl##[class^="r89-"]:upward(.raw-html-component)
 borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##div[id]:upward(.component__plugin)
 borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##.component__pubble-banner
 borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##.component__pubble-banner:upward(.bg-gray-100)
@@ -151,6 +162,8 @@ d854 1
 a854 1
 rd.nl##.ad-container-print-hide
 d858 8
+a865 1
+gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d938 5
 a942 4
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
@@ -177,14 +190,19 @@ d1331 2
 d1337 1
 d1353 1
 d1361 1
+d1387 1
 d1422 1
 d1451 3
 d1462 1
-d1467 1
-d1472 1
+d1467 3
+d1472 2
+d1478 1
+d1481 2
+a1482 1
+formule1.ws,giganieuws.nl###topbox
 d1485 2
 a1486 1
-hyvesgames.nl,koopplein.nl,persinfo.org,tellows.nl,tradeidee.nl,tripadvisor.be,tripadvisor.nl,xgn.nl##.ad
+hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
 d1492 2
 a1493 1
 omroepflevoland.nl##.ad-container

@@ -1,7 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 05 Apr 2026 14:08:32 +0000
+! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
 !
+! 2026-04-11
+||elfvoetbal.nl/photos/dynamic/
+||112achterhoek-nieuws.nl/images/blocks/*_
+||persinfo.org/nl/ads$xhr
 ! 2026-04-05
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -237,7 +241,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||oisterwijknieuws.nl/wp-content/uploads/*/ondernemers-oisterwijk.png$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/steenwitgoed-270x324-*.jpg$image
 ||persberichten.com/Actueel_Images*/*.gif$image
-||persinfo.org/assets/front/images/website/multimmo*.mp4
 ||reliwiki.nl/img/banner$image
 ||rickfm.nl/cwm/fm/userfiles/banner/foto/thumb$image
 ||rickfm.nl/views/rickfm/images/*.gif$image
@@ -449,7 +452,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||te-les-koop.nl/images/B_
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
-||tradeidee.nl/banners/
 ||ucl-voetbal.nl/derden/
 ||uecl-voetbal.nl/derden/
 ||uel-voetbal.nl/derden/

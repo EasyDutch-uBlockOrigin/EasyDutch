@@ -1,0 +1,32 @@
+diff name:easydutch lines:31 checksum:0fbeceb282
+d2 1
+a2 1
+! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.11.1149.patch#easydutch
+a136 3
+||elfvoetbal.nl/photos/dynamic/
+||112achterhoek-nieuws.nl/images/blocks/*_
+||persinfo.org/nl/ads$xhr
+d324 1
+d504 1
+a543 6
+alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
+waterweg-actueel.nl##aside [id^="media_image"]
+elfvoetbal.nl##column-right .fake-division
+elfvoetbal.nl##column-right #partners
+starnieuws.com##.ads
+xgn.nl##[class^="r89-"]:upward(.raw-html-component)
+a937 1
+gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
+d1436 1
+d1511 2
+d1515 1
+d1520 1
+d1523 2
+a1524 1
+formule1.ws,giganieuws.nl###topbox
+d1527 1
+a1527 1
+hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad

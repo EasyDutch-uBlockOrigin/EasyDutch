@@ -1,11 +1,23 @@
-diff name:easydutch lines:55 checksum:3b270407eb
+diff name:easydutch lines:79 checksum:0fbeceb282
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 14:11:05 +0000
+! Last updated: Sat, 11 Apr 2026 19:09:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.851.patch#easydutch
-a543 44
+! Diff-Path: patches/2026.4.11.1149.patch#easydutch
+a136 3
+||elfvoetbal.nl/photos/dynamic/
+||112achterhoek-nieuws.nl/images/blocks/*_
+||persinfo.org/nl/ads$xhr
+d324 1
+d504 1
+a543 50
+alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
+waterweg-actueel.nl##aside [id^="media_image"]
+elfvoetbal.nl##column-right .fake-division
+elfvoetbal.nl##column-right #partners
+starnieuws.com##.ads
+xgn.nl##[class^="r89-"]:upward(.raw-html-component)
 borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##div[id]:upward(.component__plugin)
 borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##.component__pubble-banner
 borselsebode.nl,hetgelekrantje.nl,goesebode.nl,middelburgseveersebode.nl,reimerswaalsebode.nl,scheldepost.nl,vlissingsebode.nl,zva-online.nl##.component__pubble-banner:upward(.bg-gray-100)
@@ -52,5 +64,17 @@ autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.
 autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
 d718 3
 d897 8
+a904 1
+gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d992 6
+d1409 1
+d1484 2
+d1488 1
+d1493 1
+d1496 2
+a1497 1
+formule1.ws,giganieuws.nl###topbox
+d1500 1
+a1500 1
+hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
 d1615 1
