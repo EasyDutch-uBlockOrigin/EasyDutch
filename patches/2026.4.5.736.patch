@@ -1,17 +1,19 @@
-diff name:easydutch lines:95 checksum:72c8f62b62
+diff name:easydutch lines:97 checksum:2279cc39ea
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 19:36:51 +0000
+! Last updated: Sat, 11 Apr 2026 19:45:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1176.patch#easydutch
-a136 4
+! Diff-Path: patches/2026.4.11.1185.patch#easydutch
+a136 5
+||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 ||weerenradar.nl/*/ad/$image
 d323 1
 d503 1
+d508 1
 d515 1
 a542 60
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image

@@ -1,11 +1,12 @@
-diff name:easydutch lines:233 checksum:72c8f62b62
+diff name:easydutch lines:235 checksum:2279cc39ea
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 19:36:51 +0000
+! Last updated: Sat, 11 Apr 2026 19:45:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1176.patch#easydutch
-a136 17
+! Diff-Path: patches/2026.4.11.1185.patch#easydutch
+a136 18
+||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
@@ -37,6 +38,7 @@ d448 1
 d457 1
 d487 1
 d506 1
+d511 1
 d518 1
 a519 1
 @@||antilliaansdagblad.com^$ghide
