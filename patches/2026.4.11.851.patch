@@ -1,10 +1,10 @@
-diff name:easydutch lines:34 checksum:2279cc39ea
+diff name:easydutch lines:38 checksum:92d2f4ab9f
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 19:45:14 +0000
+! Last updated: Sat, 11 Apr 2026 20:10:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1185.patch#easydutch
+! Diff-Path: patches/2026.4.11.1210.patch#easydutch
 a136 4
 ||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
@@ -21,6 +21,10 @@ elfvoetbal.nl##column-right .fake-division
 elfvoetbal.nl##column-right #partners
 starnieuws.com##.ads
 xgn.nl##[class^="r89-"]:upward(.raw-html-component)
+d560 2
+a561 2
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 a937 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d1436 1

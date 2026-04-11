@@ -1,15 +1,11 @@
-diff name:easydutch lines:14 checksum:92d2f4ab9f
+diff name:easydutch lines:10 checksum:92d2f4ab9f
 d2 1
 a2 1
 ! Last updated: Sat, 11 Apr 2026 20:10:09 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.4.11.1210.patch#easydutch
-a136 1
-||verkeerplaza.nl/js/ads
-d510 1
-d517 1
-d567 2
-a568 2
+d566 2
+a567 2
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)

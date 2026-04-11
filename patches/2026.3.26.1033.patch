@@ -1,10 +1,10 @@
-diff name:easydutch lines:219 checksum:2279cc39ea
+diff name:easydutch lines:219 checksum:92d2f4ab9f
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 19:45:14 +0000
+! Last updated: Sat, 11 Apr 2026 20:10:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1185.patch#easydutch
+! Diff-Path: patches/2026.4.11.1210.patch#easydutch
 a136 17
 ||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
@@ -62,8 +62,8 @@ mooischijndel.nl##div[id]:upward(.component__plugin)
 mooischijndel.nl##.component__pubble-banner
 mooischijndel.nl##.component__pubble-banner:upward(.bg-gray-100)
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
-brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
-brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##div[id]:upward(.component__plugin)
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
+brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 dehavenloods.nl##div[id]:upward(.component__plugin)
 dehavenloods.nl##.component__pubble-banner
 dehavenloods.nl##.component__pubble-banner:upward(.bg-gray-100)
