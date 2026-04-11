@@ -1,16 +1,10 @@
-diff name:easydutch lines:15 checksum:457ef4c806
+diff name:easydutch lines:9 checksum:457ef4c806
 d2 1
 a2 1
 ! Last updated: Sat, 11 Apr 2026 08:16:01 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.4.11.496.patch#easydutch
-a543 2
-1achterhoek.nl##.footer-widgets
-1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
-d891 1
-a891 1
-rd.nl##.ad-container-print-hide
-d994 1
-a994 1
+d996 1
+a996 1
 autobahn.eu,elegance.nl,gezondnu.nl,happyinshape.nl,wielerrevue.nl,panorama.nl,playboy.nl,nouveau.nl,upcoming.nl###SHOWHEROES_VIDEO_PLAYER_TARGET:upward(.showheroes-unit)

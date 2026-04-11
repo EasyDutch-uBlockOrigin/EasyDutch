@@ -1,10 +1,10 @@
-diff name:easydutch lines:167 checksum:d1dbddf91c
+diff name:easydutch lines:170 checksum:457ef4c806
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 06:03:44 +0000
+! Last updated: Sat, 11 Apr 2026 08:16:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.363.patch#easydutch
+! Diff-Path: patches/2026.4.11.496.patch#easydutch
 a136 14
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -95,6 +95,9 @@ parool.nl,trouw.nl##.position-after-main-home
 a950 2
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
+d960 1
+a960 1
+autobahn.eu,elegance.nl,gezondnu.nl,happyinshape.nl,wielerrevue.nl,panorama.nl,playboy.nl,nouveau.nl,upcoming.nl###SHOWHEROES_VIDEO_PLAYER_TARGET:upward(.showheroes-unit)
 d1126 1
 d1187 2
 d1205 1
