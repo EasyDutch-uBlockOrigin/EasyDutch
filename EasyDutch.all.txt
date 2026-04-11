@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 11 Apr 2026 08:16:01 +0000
+! Last updated: Sat, 11 Apr 2026 08:56:04 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.11.496.patch#easydutch
+! Diff-Path: patches/2026.4.11.536.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -541,6 +541,12 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+babybytes.nl##.ad-container
+scientias.nl##[class^="ndm"]:has(div[id^="scientias.nl_"])
+scientias.nl##[id^="block-"]:has(div[id^="scientias.nl_"])
+autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##aside[class^="ExternalSnippet_external-snippet"]
+autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad
+autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
 1achterhoek.nl##.footer-widgets
 1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
 zeelandnet.nl##.bnr-below
@@ -894,14 +900,6 @@ rd.nl##.ad-container-print-hide
 rd.nl##.ad
 buienradar.be,buienradar.nl###adholderContainerHeader
 buienradar.nl##.br-ad-slot
-babybytes.nl##.ad-container
-scientias.nl##[class^="ndm"]:has(div[id^="scientias.nl_"])
-scientias.nl##[id^="block-"]:has(div[id^="scientias.nl_"])
-bicycling.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##aside[class^="ExternalSnippet_external-snippet"]
-bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad
-bicycling.nl,menshealth.nl,runners.nl,voetbalnieuws.nl,vi.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
-autoblog.nl##div[class^="ndm-min-"]
-autoblog.nl##.widget_ab_sidebar
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 gpfans.com##.ads-columns
 gpfans.com##.taboonews

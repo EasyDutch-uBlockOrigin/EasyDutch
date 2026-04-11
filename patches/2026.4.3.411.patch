@@ -1,10 +1,10 @@
-diff name:easydutch lines:106 checksum:457ef4c806
+diff name:easydutch lines:113 checksum:b9316545fc
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 08:16:01 +0000
+! Last updated: Sat, 11 Apr 2026 08:56:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.496.patch#easydutch
+! Diff-Path: patches/2026.4.11.536.patch#easydutch
 a136 13
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
@@ -30,7 +30,13 @@ d453 1
 d483 1
 a515 1
 @@||antilliaansdagblad.com^$ghide
-a540 31
+a540 37
+babybytes.nl##.ad-container
+scientias.nl##[class^="ndm"]:has(div[id^="scientias.nl_"])
+scientias.nl##[id^="block-"]:has(div[id^="scientias.nl_"])
+autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##aside[class^="ExternalSnippet_external-snippet"]
+autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad
+autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
 1achterhoek.nl##.footer-widgets
 1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
 zeelandnet.nl##.bnr-below
@@ -67,6 +73,7 @@ d613 1
 d865 1
 a865 1
 rd.nl##.ad-container-print-hide
+d869 8
 d968 1
 a968 1
 autobahn.eu,elegance.nl,gezondnu.nl,happyinshape.nl,wielerrevue.nl,panorama.nl,playboy.nl,nouveau.nl,upcoming.nl###SHOWHEROES_VIDEO_PLAYER_TARGET:upward(.showheroes-unit)
