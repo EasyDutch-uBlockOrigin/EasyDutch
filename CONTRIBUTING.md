@@ -1,5 +1,3 @@
-### EasyDutch
-
 Important note: </br>
 We, **[@Ignotum77](https://github.com/Ignotum77)** and **[@JohnyP36](https://github.com/JohnyP36)**, owners of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`
 
@@ -19,25 +17,27 @@ If a website is grouped, like: `! Digitaal Dagblad B.V.` - `! End Digitaal Dagbl
 
 **All** added filters must be associated with a formal issue number or date, example:
 
-    ! https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/3
-    ||data.inertanceretinallaurel.com^
-    ! 2021-04-27
-    ||androidplanet.nl,iphoned.nl##.dynamic-content-native
-
+     ! https://github.com/AdguardTeam/AdguardFilters/issues/228857
+     ||zsp1.ah.be^
+     ! https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/3
+     ||data.inertanceretinallaurel.com^
+     ! 2021-04-27
+     ||androidplanet.nl,iphoned.nl##.dynamic-content-native
+ 
 This way we know why a filter was added, and how to verify whether an old filter is still needed. The comment line preceding the filter(s) to solve a specific issue should be only a URL to the issue. The issue itself can contains all the details about how the issue was solved, and why it was solved this way, etc.
-
+ 
 #### Commit message
-
+ 
 - Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
 - Put here after the site url `spele.nl` (no `https://www.`) 
 - Put after this the issue number. </br>
 Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
 - If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
+- If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
 
 #### Hide General
 
-You may only make General Hiding rules, if it applies to four or more websites
-
+You may only make General Hiding rules, if it applies to tree or more websites
 *******
 #### What you might do or not do as a contributor
 
