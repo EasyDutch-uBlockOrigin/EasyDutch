@@ -2,6 +2,10 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2025-04-12
+||ucl-voetbal.nl/go/
+||uecl-voetbal.nl/go/
+||uel-voetbal.nl/go/
 ! 2026-04-11
 ||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
@@ -453,9 +457,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||te-les-koop.nl/images/B_
 ||totaalwijzer.nl/widget/$3p
 ||touretappe.nl/images/xtra/
-||ucl-voetbal.nl/derden/
-||uecl-voetbal.nl/derden/
-||uel-voetbal.nl/derden/
 ||vbro.be/wp-content/uploads/*/autoonderdelen24_$image
 ||vlietnieuws.nl/wp-content/plugins/custom-banners/*$script,1p
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
