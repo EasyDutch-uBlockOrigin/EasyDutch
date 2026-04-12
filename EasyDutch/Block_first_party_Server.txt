@@ -2,6 +2,7 @@
 ! Description: Filters for blocking first-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-12
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228857
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
