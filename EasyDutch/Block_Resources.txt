@@ -2,7 +2,10 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
-! 2025-04-12
+! 2026-04-12
+||simone.nl/wp-content/uploads/*onderdelen
+||simone.nl/wp-content/uploads/*502x190px
+||simone.nl/wp-content/uploads/*banner
 ||swpportal.com/upload/squarebanners/$3p
 ||ucl-voetbal.nl/go/
 ||uecl-voetbal.nl/go/
@@ -304,7 +307,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||noordkopcentraal.nl/wp-content/uploads/*/Vrienden-van
 ! 2022-06-29
 ||racexpress.nl/img/sponsors/
-||simone.nl/wp-content/uploads/*besteonderdelen.nl
 ||rss.app/api/widget/$domain=hollywoodhuizen.nl
 ||sponsorlink.nl/js/snippet.js$script,domain=handbalstartpunt.nl
 ||h2owaternetwerk.nl/images/banners/$image
@@ -445,7 +447,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||resellers.viboshop.nl/promoimages/
 ||risallah.com/multimedia/images/banners/$image
 ||sedproductions.nl/banners/$image,3p
-||simone.nl/wp-content/uploads/*-onderdelenexpert.nl-
 ||solarmagazine.nl/u/edwin/$image
 ||srherald.com/wp-content/banners/
 ||stepstone.be/*?event=widgettool.$3p
