@@ -1159,7 +1159,6 @@ brandweerspotters.nl,coc.nl,fanclubbarcelona.nl###banners
 takecare4.eu###branding > .clearfix
 indiexl.nl###carousel-indiexl_partners_carousel_widget
 vnexplorer.net###div_the_mgid
-538.nl###eCommerce
 bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
