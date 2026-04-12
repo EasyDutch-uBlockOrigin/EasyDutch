@@ -1,10 +1,13 @@
-diff name:easydutch lines:39 checksum:14bfc852cf
+diff name:easydutch lines:42 checksum:0e4be4aaf3
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 11:17:28 +0000
+! Last updated: Sun, 12 Apr 2026 11:27:39 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.677.patch#easydutch
+! Diff-Path: patches/2026.4.12.687.patch#easydutch
+a53 2
+||zsp1.ah.be^
+||zsp1.ah.nl^
 a136 11
 ||profielactueel.nl/media/*.gif
 ||racexpress.nl/img/sponsors/

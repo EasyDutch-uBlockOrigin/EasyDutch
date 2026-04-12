@@ -1,7 +1,10 @@
 ! Title: Block First-Party Server
 ! Description: Filters for blocking first-party servers on Dutch websites
-! Last updated: Fri, 13 Feb 2026 20:09:01 +0000
+! Last updated: Sun, 12 Apr 2026 11:27:39 +0000
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228857
+||zsp1.ah.be^
+||zsp1.ah.nl^
 ! 2026-02-04
 ||mooieplaatjes.bierdopje.nl^
 ! 2026-02-03
