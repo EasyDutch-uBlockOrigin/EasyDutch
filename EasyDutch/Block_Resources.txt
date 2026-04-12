@@ -443,7 +443,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||psv.nl/upload/*SponsorVrouwenGOED-300x75.jpg$image
 ||radiovisie.eu/wp-content/banners/
 ||recreatief.nl/kerstarrangementen.gif
-||resellers.viboshop.nl/promoimages/
 ||risallah.com/multimedia/images/banners/$image
 ||sedproductions.nl/banners/$image,3p
 ||solarmagazine.nl/u/edwin/$image
