@@ -456,7 +456,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
 ||totaalwijzer.nl/widget/$3p
-||touretappe.nl/images/xtra/
 ||vbro.be/wp-content/uploads/*/autoonderdelen24_$image
 ||vlietnieuws.nl/wp-content/plugins/custom-banners/*$script,1p
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
