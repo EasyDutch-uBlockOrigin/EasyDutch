@@ -14,5 +14,6 @@
 ||freewheel-jitt.dpgmedia.be^
 ! 2021-12-04
 ||a.scholieren.com^
+! 2021-05-05
 ! https://github.com/Nomes77/AdBlockFilters/issues/16
 ||content2.nrc.nl^
