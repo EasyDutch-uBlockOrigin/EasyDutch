@@ -447,7 +447,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||simone.nl/wp-content/uploads/*-onderdelenexpert.nl-
 ||sociaaldigitaal.nl/img/Banner-$3p
 ||solarmagazine.nl/u/edwin/$image
-||speurdeals.nl/uploads/banners$image
 ||srherald.com/wp-content/banners/
 ||stepstone.be/*?event=widgettool.$3p
 ||swpportal.com/upload/squarebanners/
