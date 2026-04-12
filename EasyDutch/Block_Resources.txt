@@ -451,7 +451,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||spike-source.com/wp-admin/admin-ajax.php?action=select&p=onder-filmpje$subdocument
 ||spike-source.com/wp-admin/admin-ajax.php?action=select&p=rechts-menu-onder$subdocument
 ||srherald.com/wp-content/banners/
-||static.qmusic.*/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
 ||stepstone.be/*?event=widgettool.$3p
 ||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
