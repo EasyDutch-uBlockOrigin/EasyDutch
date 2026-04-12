@@ -1,10 +1,10 @@
-diff name:easydutch lines:94 checksum:0e4be4aaf3
+diff name:easydutch lines:103 checksum:95e762309c
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 11:27:39 +0000
+! Last updated: Sun, 12 Apr 2026 17:42:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.687.patch#easydutch
+! Diff-Path: patches/2026.4.12.1062.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -24,7 +24,9 @@ a136 14
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 d324 1
+d354 1
 d366 2
+d415 1
 d478 1
 d481 5
 d488 1
@@ -80,8 +82,15 @@ d730 3
 a908 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d1079 1
+d1312 2
 d1329 1
+d1340 1
 d1407 1
+d1460 1
+d1469 1
+d1472 6
+a1477 1
+brandweerspotters.nl,fanclubbarcelona.nl###banners
 d1482 2
 d1486 1
 d1491 1

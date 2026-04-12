@@ -1,10 +1,10 @@
-diff name:easydutch lines:40 checksum:0e4be4aaf3
+diff name:easydutch lines:49 checksum:95e762309c
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 11:27:39 +0000
+! Last updated: Sun, 12 Apr 2026 17:42:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.687.patch#easydutch
+! Diff-Path: patches/2026.4.12.1062.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -19,7 +19,9 @@ a136 10
 ||ucl-voetbal.nl/go/
 ||uecl-voetbal.nl/go/
 ||uel-voetbal.nl/go/
+d357 1
 d369 2
+d418 1
 d481 1
 d484 5
 d491 1
@@ -36,6 +38,13 @@ a567 2
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 d1115 1
+d1348 2
 d1365 1
+d1376 1
+d1495 1
+d1504 1
+d1507 6
+a1512 1
+brandweerspotters.nl,fanclubbarcelona.nl###banners
 a1635 1
 ||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png

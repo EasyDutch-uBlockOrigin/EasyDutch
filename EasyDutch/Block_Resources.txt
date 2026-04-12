@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 12 Apr 2026 11:17:28 +0000
+! Last updated: Sun, 12 Apr 2026 17:42:36 +0000
 !
 ! 2026-04-12
 ||profielactueel.nl/media/*.gif
@@ -295,7 +295,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||beveiligingnieuws.nl/wp-content/uploads/*webbanner$image
 ||ciaotutti.nl/wp-content/uploads/*/italmania$image
 ||radio.nl/i/banners/
-/wp-content/uploads/*.gif$image,domain=cocamsterdam.nl|cocdeventer.nl|cochaaglanden.nl
 ||omroepeemsdelta.nl/wp-content/uploads/*/mw-bedrijfskleding-1.png
 ||omroepeemsdelta.nl/wp-content/uploads/*/deltaglasvezel*.jpeg
 ||curacao.nu/wp-content/uploads/*/*WebAD$image
@@ -373,7 +372,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||belgiancycling.be^*/Logo%27s%20partners/
 ||bitvavo.com/assets/static/widget/$subdocument,domain=cryptosjop.nl
 ||blablacar.nl/widget-driver/$3p
-||bloovi.be/frontend/files/banners/
 ||bnpparibasmarkets.nl/widget/$3p
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/$image

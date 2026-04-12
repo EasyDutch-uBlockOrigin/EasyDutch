@@ -1,10 +1,10 @@
-diff name:easydutch lines:175 checksum:0e4be4aaf3
+diff name:easydutch lines:183 checksum:95e762309c
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 11:27:39 +0000
+! Last updated: Sun, 12 Apr 2026 17:42:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.687.patch#easydutch
+! Diff-Path: patches/2026.4.12.1062.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -39,8 +39,10 @@ d307 1
 d312 1
 d320 1
 d343 1
+d351 1
 d363 2
 d404 1
+d413 1
 d476 1
 d479 6
 d487 1
@@ -142,11 +144,17 @@ d1063 1
 d1144 1
 d1221 1
 d1274 1
+d1299 2
 d1316 2
+d1328 1
 d1344 2
 d1365 1
 d1398 1
-d1461 3
+d1451 1
+d1460 4
+d1466 6
+a1471 1
+brandweerspotters.nl,fanclubbarcelona.nl###banners
 d1476 2
 d1480 1
 d1485 1

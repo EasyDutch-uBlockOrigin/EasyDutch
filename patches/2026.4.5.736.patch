@@ -1,10 +1,10 @@
-diff name:easydutch lines:124 checksum:0e4be4aaf3
+diff name:easydutch lines:133 checksum:95e762309c
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 11:27:39 +0000
+! Last updated: Sun, 12 Apr 2026 17:42:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.687.patch#easydutch
+! Diff-Path: patches/2026.4.12.1062.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -25,7 +25,9 @@ a136 15
 ||persinfo.org/nl/ads$xhr
 ||weerenradar.nl/*/ad/$image
 d323 1
+d353 1
 d365 2
+d414 1
 d477 1
 d480 5
 d487 1
@@ -109,8 +111,15 @@ a898 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d986 6
 d1075 1
+d1308 2
 d1325 1
+d1336 1
 d1403 1
+d1456 1
+d1465 1
+d1468 6
+a1473 1
+brandweerspotters.nl,fanclubbarcelona.nl###banners
 d1478 2
 d1482 1
 d1487 1
