@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2025-04-12
+||swpportal.com/upload/squarebanners/$3p
 ||ucl-voetbal.nl/go/
 ||uecl-voetbal.nl/go/
 ||uel-voetbal.nl/go/
@@ -445,11 +446,9 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||risallah.com/multimedia/images/banners/$image
 ||sedproductions.nl/banners/$image,3p
 ||simone.nl/wp-content/uploads/*-onderdelenexpert.nl-
-||sociaaldigitaal.nl/img/Banner-$3p
 ||solarmagazine.nl/u/edwin/$image
 ||srherald.com/wp-content/banners/
 ||stepstone.be/*?event=widgettool.$3p
-||swpportal.com/upload/squarebanners/
 ||te-les-koop.nl/images/B_
 ||totaalwijzer.nl/widget/$3p
 ||vbro.be/wp-content/uploads/*/autoonderdelen24_$image
