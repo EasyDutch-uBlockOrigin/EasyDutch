@@ -54,7 +54,9 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > #### Issue number association
 > 
 > **All** added filters must be associated with a formal issue number or date, example:
-> 
+>
+>     ! https://github.com/AdguardTeam/AdguardFilters/issues/228857
+>     ||zsp1.ah.be^
 >     ! https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/3
 >     ||data.inertanceretinallaurel.com^
 >     ! 2021-04-27
@@ -69,6 +71,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > - Put after this the issue number. </br>
 > Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
 > - If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
+> - If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
 > 
 > #### Hide General
 > 
