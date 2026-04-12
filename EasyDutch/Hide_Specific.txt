@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-12
+profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
 ! 2026-04-11
 ! Avant digitale steden
@@ -660,7 +661,6 @@ motocrossplanet.nl##[class*="banner_count"]
 motocrossplanet.nl##.artikel-banners
 motocrossplanet.nl##.rcol-titel:has-text(Advert)
 poki.com##.sc-tbf0fc-2:has-text(/Advert/i):upward(div[class])
-profielactueel.nl##div.cube.banners
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
 weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
