@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-12
+||profielactueel.nl/media/*.gif
 ||racexpress.nl/img/sponsors/
 ||racexpress.nl/img_sponsors/
 ||simone.nl/wp-content/uploads/*onderdelen
@@ -435,7 +436,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||peoplesphere.be/img/logo/financemanagement.png$image
 ||powerconnect.be^*/poweractie.jpg$3p
 ||prm03.wlresources.com/$script,3p
-||profielactueel.nl/content/modules/catalog/4/*.gif$image
 ||promootjesite.nl/images/affliateBanner/
 ||promootjesite.nl/images/banners/
 ||radiovisie.eu/wp-content/banners/
