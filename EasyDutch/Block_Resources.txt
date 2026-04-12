@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-12
+||racexpress.nl/img/sponsors/
+||racexpress.nl/img_sponsors/
 ||simone.nl/wp-content/uploads/*onderdelen
 ||simone.nl/wp-content/uploads/*502x190px
 ||simone.nl/wp-content/uploads/*banner
@@ -306,7 +308,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||motokicx.com/wp-content/uploads/*RAD
 ||noordkopcentraal.nl/wp-content/uploads/*/Vrienden-van
 ! 2022-06-29
-||racexpress.nl/img/sponsors/
 ||rss.app/api/widget/$domain=hollywoodhuizen.nl
 ||sponsorlink.nl/js/snippet.js$script,domain=handbalstartpunt.nl
 ||h2owaternetwerk.nl/images/banners/$image
@@ -440,7 +441,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||psv.nl/upload/*_image*.gif$image
 ||psv.nl/upload/*_Soccerlab_Logo.png$image
 ||psv.nl/upload/*SponsorVrouwenGOED-300x75.jpg$image
-||racexpress.nl/advertising/$image
 ||radiovisie.eu/wp-content/banners/
 ||recreatief.nl/kerstarrangementen.gif
 ||resellers.viboshop.nl/promoimages/
