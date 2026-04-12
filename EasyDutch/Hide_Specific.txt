@@ -1155,7 +1155,6 @@ bloovi.be###advertising
 marketingtribune.nl###banner-billboard
 kranenwebsite.nl###bannerdiv
 brandweerspotters.nl,coc.nl,fanclubbarcelona.nl###banners
-takecare4.eu###branding > .clearfix
 bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
