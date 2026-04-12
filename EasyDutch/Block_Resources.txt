@@ -441,7 +441,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||psv.nl/upload/*_Soccerlab_Logo.png$image
 ||psv.nl/upload/*SponsorVrouwenGOED-300x75.jpg$image
 ||racexpress.nl/advertising/$image
-||radioacacia.nl/sponsoren/
 ||radiovisie.eu/wp-content/banners/
 ||recreatief.nl/kerstarrangementen.gif
 ||resellers.viboshop.nl/promoimages/
