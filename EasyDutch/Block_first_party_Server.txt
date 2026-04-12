@@ -2,6 +2,9 @@
 ! Description: Filters for blocking first-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-12
+||zsp1.ah.be^
+||zsp1.ah.nl^
 ! 2026-02-04
 ||mooieplaatjes.bierdopje.nl^
 ! 2026-02-03
