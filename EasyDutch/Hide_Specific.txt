@@ -1149,7 +1149,6 @@ m.radioluisteren.fm###adsense
 openingstijden.com###adsense_CSA
 rickfm.nl###advertisement
 alle-tests.nl###advertising
-bloovi.be###advertising
 marketingtribune.nl###banner-billboard
 kranenwebsite.nl###bannerdiv
 brandweerspotters.nl,fanclubbarcelona.nl###banners
