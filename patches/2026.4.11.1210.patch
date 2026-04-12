@@ -1,4 +1,4 @@
-diff name:easydutch lines:37 checksum:14bfc852cf
+diff name:easydutch lines:33 checksum:14bfc852cf
 d2 1
 a2 1
 ! Last updated: Sun, 12 Apr 2026 11:17:28 +0000
@@ -28,10 +28,6 @@ d506 4
 a543 2
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
-d566 2
-a567 2
-brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
-brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 d1115 1
 d1365 1
 a1635 1

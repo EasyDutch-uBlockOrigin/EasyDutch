@@ -1,11 +1,21 @@
-diff name:easydutch lines:193 checksum:92d2f4ab9f
+diff name:easydutch lines:215 checksum:14bfc852cf
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 20:10:09 +0000
+! Last updated: Sun, 12 Apr 2026 11:17:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1210.patch#easydutch
-a136 17
+! Diff-Path: patches/2026.4.12.677.patch#easydutch
+a136 27
+||profielactueel.nl/media/*.gif
+||racexpress.nl/img/sponsors/
+||racexpress.nl/img_sponsors/
+||simone.nl/wp-content/uploads/*onderdelen
+||simone.nl/wp-content/uploads/*502x190px
+||simone.nl/wp-content/uploads/*banner
+||swpportal.com/upload/squarebanners/$3p
+||ucl-voetbal.nl/go/
+||uecl-voetbal.nl/go/
+||uel-voetbal.nl/go/
 ||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
@@ -31,15 +41,24 @@ d311 1
 d319 1
 d342 1
 d360 1
+d363 2
 d404 1
 d455 1
-d485 1
-d504 1
+d477 1
+d480 6
+d488 1
+d491 2
+d494 3
+d498 1
+d500 1
+d503 5
 d509 1
 d516 1
 a517 1
 @@||antilliaansdagblad.com^$ghide
-a542 81
+a542 83
+profielactueel.nl##.ads
+simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
 waterweg-actueel.nl##aside [id^="media_image"]
 elfvoetbal.nl##column-right .fake-division
@@ -143,13 +162,14 @@ a959 2
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
 d965 6
+d1054 1
 d1135 1
 d1196 2
 d1214 1
 d1267 1
 d1288 1
 d1306 1
-d1312 1
+d1311 2
 d1329 1
 d1340 2
 d1361 1
@@ -191,4 +211,6 @@ d1537 2
 d1609 1
 a1609 1
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
+a1619 1
+||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
 d1627 1

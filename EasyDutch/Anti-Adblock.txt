@@ -1,7 +1,9 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Sat, 11 Apr 2026 11:48:49 +0000
+! Last updated: Sun, 12 Apr 2026 11:17:28 +0000
 !
+! 2026-04-12
+||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
 ! 2026-02-26
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 ! 2026-02-10

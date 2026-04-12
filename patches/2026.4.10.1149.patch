@@ -1,20 +1,40 @@
-diff name:easydutch lines:85 checksum:92d2f4ab9f
+diff name:easydutch lines:109 checksum:14bfc852cf
 d2 1
 a2 1
-! Last updated: Sat, 11 Apr 2026 20:10:09 +0000
+! Last updated: Sun, 12 Apr 2026 11:17:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.11.1210.patch#easydutch
-a136 4
+! Diff-Path: patches/2026.4.12.677.patch#easydutch
+a136 14
+||profielactueel.nl/media/*.gif
+||racexpress.nl/img/sponsors/
+||racexpress.nl/img_sponsors/
+||simone.nl/wp-content/uploads/*onderdelen
+||simone.nl/wp-content/uploads/*502x190px
+||simone.nl/wp-content/uploads/*banner
+||swpportal.com/upload/squarebanners/$3p
+||ucl-voetbal.nl/go/
+||uecl-voetbal.nl/go/
+||uel-voetbal.nl/go/
 ||verkeerplaza.nl/js/ads
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 d324 1
-d504 1
+d366 2
+d478 1
+d481 5
+d488 1
+d491 2
+d494 3
+d498 1
+d500 1
+d503 5
 d509 1
 d516 1
-a543 50
+a543 52
+profielactueel.nl##.ads
+simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
 waterweg-actueel.nl##aside [id^="media_image"]
 elfvoetbal.nl##column-right .fake-division
@@ -73,6 +93,8 @@ d897 8
 a904 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d992 6
+d1081 1
+d1331 1
 d1409 1
 d1484 2
 d1488 1
@@ -83,4 +105,6 @@ formule1.ws,giganieuws.nl###topbox
 d1500 1
 a1500 1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
+a1607 1
+||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
 d1615 1
