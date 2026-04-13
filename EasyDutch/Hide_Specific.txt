@@ -1,7 +1,15 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sun, 12 Apr 2026 17:42:36 +0000
+! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
 !
+! 2026-04-13
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
 ! 2026-04-12
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
@@ -377,11 +385,6 @@ tostrams.nl##[class*="banner"]
 tostrams.nl##[id*="banner"]
 drimble.nl##[id^="drimble.nl_web_"]
 gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
-www.iex.nl##.banner
-www.iex.nl##.js-banner
-www.iex.nl##.network:has-text(Gesponsorde links)
-www.iex.nl##.publisher-sh-spot
-www.iex.nl##.rectanglewrap
 monitor.iex.nl##.centerbanner
 monitor.iex.nl##.leaderboard-down
 monitor.iex.nl##.publisher-sh-spot

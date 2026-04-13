@@ -1,12 +1,21 @@
-diff name:easydutch lines:15 checksum:5a0b40cfae
+diff name:easydutch lines:24 checksum:229652ab0f
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 17:53:24 +0000
+! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.1073.patch#easydutch
+! Diff-Path: patches/2026.4.13.957.patch#easydutch
 d369 1
 d428 1
+a535 7
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
+d853 5
 d1341 2
 d1368 1
 d1487 1

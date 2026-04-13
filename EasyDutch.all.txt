@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 12 Apr 2026 17:53:24 +0000
+! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.12.1073.patch#easydutch
+! Diff-Path: patches/2026.4.13.957.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -531,6 +531,13 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
@@ -848,11 +855,6 @@ tostrams.nl##[class*="banner"]
 tostrams.nl##[id*="banner"]
 drimble.nl##[id^="drimble.nl_web_"]
 gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
-www.iex.nl##.banner
-www.iex.nl##.js-banner
-www.iex.nl##.network:has-text(Gesponsorde links)
-www.iex.nl##.publisher-sh-spot
-www.iex.nl##.rectanglewrap
 monitor.iex.nl##.centerbanner
 monitor.iex.nl##.leaderboard-down
 monitor.iex.nl##.publisher-sh-spot

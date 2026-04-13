@@ -1,10 +1,10 @@
-diff name:easydutch lines:118 checksum:5a0b40cfae
+diff name:easydutch lines:126 checksum:229652ab0f
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 17:53:24 +0000
+! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.1073.patch#easydutch
+! Diff-Path: patches/2026.4.13.957.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -37,7 +37,14 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 52
+a543 59
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
@@ -91,6 +98,7 @@ autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.
 autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad
 autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
 d718 3
+d812 5
 d897 8
 a904 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)

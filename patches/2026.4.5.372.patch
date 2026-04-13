@@ -1,10 +1,10 @@
-diff name:easydutch lines:183 checksum:5a0b40cfae
+diff name:easydutch lines:191 checksum:229652ab0f
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 17:53:24 +0000
+! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.1073.patch#easydutch
+! Diff-Path: patches/2026.4.13.957.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -55,7 +55,14 @@ d508 1
 d515 1
 a516 1
 @@||antilliaansdagblad.com^$ghide
-a541 74
+a541 81
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
@@ -133,6 +140,7 @@ studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
 d593 5
 d623 1
 d700 3
+d794 5
 d875 1
 a875 1
 rd.nl##.ad-container-print-hide

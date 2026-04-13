@@ -1,10 +1,10 @@
-diff name:easydutch lines:131 checksum:5a0b40cfae
+diff name:easydutch lines:139 checksum:229652ab0f
 d2 1
 a2 1
-! Last updated: Sun, 12 Apr 2026 17:53:24 +0000
+! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.12.1073.patch#easydutch
+! Diff-Path: patches/2026.4.13.957.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -37,7 +37,14 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 61
+a543 68
+www.iex.nl##.banner
+www.iex.nl##.js-banner
+www.iex.nl##.network:has-text(Gesponsorde links)
+www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
+www.iex.nl##.publisher-sh-spot
+www.iex.nl##.rectanglewrap
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
@@ -101,6 +108,7 @@ zeelandnet.nl##.as__topbanner
 zeelandnet.nl##.as__bottom-banner
 d608 5
 d714 3
+d808 5
 d889 1
 a889 1
 rd.nl##.ad-container-print-hide
