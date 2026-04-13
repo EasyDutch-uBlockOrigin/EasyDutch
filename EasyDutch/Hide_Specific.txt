@@ -7,6 +7,7 @@ www.iex.nl##.banner
 www.iex.nl##.js-banner
 www.iex.nl##.network:has-text(Gesponsorde links)
 www.iex.nl##.native_positie
+www.iex.nl##.pgAdWrapper
 www.iex.nl##.publisher-sh-spot
 www.iex.nl##.rectanglewrap
 ! 2026-04-12
