@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-17
+security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 ! 2026-04-13
 www.iex.nl##.banner
 www.iex.nl##.js-banner
@@ -754,7 +756,6 @@ gewoonvoorhem.nl###below-article-leaderboard
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
 ! 2023-09-01
-security.nl##.banner_leaderboard
 sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
 ! 2023-08-29
 wibnet.nl##.default-banner-size
