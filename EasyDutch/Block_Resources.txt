@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-17
+||maarkelsnieuws.nl/banners/$image
+||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
 ||oud.startlinken.nl/images/banner$image,1p
 ||oud.startlinken.nl/javascript*Banner$script,1p
 ! 2026-04-12
@@ -350,8 +352,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||farmaline.be/assets/banners/
 ! 2022-04-02
 ||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
-! 2022-03-11
-||maarkelsnieuws.nl/banners/$image
 ! 2022-02-14
 ||123inkt.nl/images/oren/*$image
 ! 2022-02-08
