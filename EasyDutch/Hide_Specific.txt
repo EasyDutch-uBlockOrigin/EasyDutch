@@ -1124,10 +1124,6 @@ nieuwsuitdelden.nl##.gesponsord_blokje
 ! 2022-02-25
 racesport.nl##.hthb-notification
 racesport.nl##.rs_sponsorbanners_widget:upward(1)
-! 2022-02-14
-studylibnl.com##.above-content
-studylibnl.com##.below-content
-studylibnl.com##.sidebar-top-content
 ! 2022-02-08
 startlinken.nl##td[class]:has(a[href*="robohost.nl/clients/aff.php"]):upward(2)
 spidersolitairespelen.nl##.spel_b1
