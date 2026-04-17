@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-17
+maarkelsnieuws.nl##.banner-widget
+maarkelsnieuws.nl##.in-slider-ad
+maarkelsnieuws.nl##.three-banners
 racesport.nl##.hthb-notification
 racesport.nl##.kg_custom_partner_widget_main
 racesport.nl##.pnvp-ad-wrap ~ hr
@@ -1117,10 +1120,6 @@ podcastluisteren.nl##.bnr
 spreekbuis.nl##.widget_media_image:not(:has(img[src*="vierkant-spreekbuis"]))
 spreekbuis.nl##.widget_spreekbuis_partners
 ! 2022-03-11
-maarkelsnieuws.nl##.banner-widget
-maarkelsnieuws.nl##.banner-secondary-sidebar:not(:has(img[src*="weerbanner"]))
-maarkelsnieuws.nl##.banners-weekad
-maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
 ! 2022-02-08
