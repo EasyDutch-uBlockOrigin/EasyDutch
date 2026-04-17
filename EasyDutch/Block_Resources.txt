@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-17
+||oud.startlinken.nl/images/banner$image,1p
+||oud.startlinken.nl/javascript*Banner$script,1p
 ! 2026-04-12
 ||profielactueel.nl/media/*.gif
 ||racexpress.nl/img/sponsors/
@@ -182,8 +185,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||alphens.nl/upload/*/*banner$image
 ||cvandaag.nl/api/advertise-deliver/deliver?adtypes=banners$xhr
 ||hockey.be/wp-content/uploads/Banners/$image
-||startlinken.nl/oud/images/banner-$image,1p
-||startlinken.nl/oud/javascript/BannerRotation*$script,1p
 ||uitslagen.nl/banner/img$image
 ! 2023-10-23
 ||b-cdn.net/w_/*-banner-$image,domain=dtvnieuws.nl|omroephorstaandemaas.nl|omroepvenlo.nl|roulettefm.nl|rtvstichtsevecht.nl
