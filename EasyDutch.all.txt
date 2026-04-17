@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
+! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.13.957.patch#easydutch
+! Diff-Path: patches/2026.4.17.1101.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -531,6 +531,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 www.iex.nl##.banner
 www.iex.nl##.js-banner
 www.iex.nl##.network:has-text(Gesponsorde links)
@@ -1177,7 +1178,6 @@ gewoonvoorhem.nl##[id$="leaderboard-article"]
 gewoonvoorhem.nl###below-article-leaderboard
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
-security.nl##.banner_leaderboard
 sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
 wibnet.nl##.default-banner-size
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)

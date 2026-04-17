@@ -1,0 +1,10 @@
+diff name:easydutch lines:9 checksum:70761cd142
+d2 1
+a2 1
+! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.17.1101.patch#easydutch
+a533 1
+security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
+d1180 1

@@ -1,10 +1,10 @@
-diff name:easydutch lines:60 checksum:229652ab0f
+diff name:easydutch lines:62 checksum:70761cd142
 d2 1
 a2 1
-! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
+! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.13.957.patch#easydutch
+! Diff-Path: patches/2026.4.17.1101.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -33,7 +33,8 @@ d502 1
 d505 4
 d510 1
 d517 1
-a544 9
+a544 10
+security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 www.iex.nl##.banner
 www.iex.nl##.js-banner
 www.iex.nl##.network:has-text(Gesponsorde links)
@@ -49,6 +50,7 @@ brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 d860 5
 d1116 1
+d1188 1
 d1349 2
 d1366 1
 d1377 1

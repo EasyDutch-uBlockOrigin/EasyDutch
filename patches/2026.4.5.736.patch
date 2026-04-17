@@ -1,10 +1,10 @@
-diff name:easydutch lines:141 checksum:229652ab0f
+diff name:easydutch lines:143 checksum:70761cd142
 d2 1
 a2 1
-! Last updated: Mon, 13 Apr 2026 15:57:24 +0000
+! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.13.957.patch#easydutch
+! Diff-Path: patches/2026.4.17.1101.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -38,7 +38,8 @@ d499 1
 d502 5
 d508 1
 d515 1
-a542 69
+a542 70
+security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 www.iex.nl##.banner
 www.iex.nl##.js-banner
 www.iex.nl##.network:has-text(Gesponsorde links)
@@ -119,6 +120,7 @@ a898 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d986 6
 d1075 1
+d1147 1
 d1308 2
 d1325 1
 d1336 1
