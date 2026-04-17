@@ -1,14 +1,18 @@
-diff name:easydutch lines:61 checksum:70761cd142
+diff name:easydutch lines:82 checksum:0069e98d29
 d2 1
 a2 1
-! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
+! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.17.1101.patch#easydutch
+! Diff-Path: patches/2026.4.17.1151.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
-a136 11
+a136 15
+||maarkelsnieuws.nl/banners/$image
+||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
+||oud.startlinken.nl/images/banner$image,1p
+||oud.startlinken.nl/javascript*Banner$script,1p
 ||profielactueel.nl/media/*.gif
 ||racexpress.nl/img/sponsors/
 ||racexpress.nl/img_sponsors/
@@ -20,9 +24,12 @@ a136 11
 ||uecl-voetbal.nl/go/
 ||uel-voetbal.nl/go/
 ||verkeerplaza.nl/js/ads
+d269 2
 d356 1
 d368 2
+d399 1
 d417 1
+d436 1
 d480 1
 d483 5
 d490 1
@@ -32,7 +39,16 @@ d500 1
 d502 1
 d505 4
 d510 1
-a543 10
+a543 19
+binnenlandsbestuur.nl##[class$="ad-slot"]
+maarkelsnieuws.nl##.banner-widget
+maarkelsnieuws.nl##.in-slider-ad
+maarkelsnieuws.nl##.three-banners
+racesport.nl##.hthb-notification
+racesport.nl##.kg_custom_partner_widget_main
+racesport.nl##.pnvp-ad-wrap ~ hr
+kalender-365.nl##[id^="dish-"]
+kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 www.iex.nl##.banner
 www.iex.nl##.js-banner
@@ -49,11 +65,16 @@ brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 d859 5
 d1115 1
+d1148 1
 d1187 1
 d1348 2
 d1365 1
 d1376 1
-d1495 1
+d1467 2
+d1471 4
+d1477 5
+d1487 1
+d1494 2
 d1504 1
 d1507 6
 a1512 1

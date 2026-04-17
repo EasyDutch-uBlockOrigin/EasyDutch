@@ -1,14 +1,18 @@
-diff name:easydutch lines:141 checksum:70761cd142
+diff name:easydutch lines:162 checksum:0069e98d29
 d2 1
 a2 1
-! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
+! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.17.1101.patch#easydutch
+! Diff-Path: patches/2026.4.17.1151.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
-a136 14
+a136 18
+||maarkelsnieuws.nl/banners/$image
+||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
+||oud.startlinken.nl/images/banner$image,1p
+||oud.startlinken.nl/javascript*Banner$script,1p
 ||profielactueel.nl/media/*.gif
 ||racexpress.nl/img/sponsors/
 ||racexpress.nl/img_sponsors/
@@ -23,10 +27,13 @@ a136 14
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
+d266 2
 d324 1
 d354 1
 d366 2
+d397 1
 d415 1
+d434 1
 d478 1
 d481 5
 d488 1
@@ -37,7 +44,16 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 69
+a543 78
+binnenlandsbestuur.nl##[class$="ad-slot"]
+maarkelsnieuws.nl##.banner-widget
+maarkelsnieuws.nl##.in-slider-ad
+maarkelsnieuws.nl##.three-banners
+racesport.nl##.hthb-notification
+racesport.nl##.kg_custom_partner_widget_main
+racesport.nl##.pnvp-ad-wrap ~ hr
+kalender-365.nl##[id^="dish-"]
+kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 www.iex.nl##.banner
 www.iex.nl##.js-banner
@@ -118,12 +134,17 @@ a900 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d988 6
 d1077 1
+d1110 1
 d1149 1
 d1310 2
 d1327 1
 d1338 1
 d1405 1
-d1458 1
+d1430 2
+d1434 4
+d1440 5
+d1450 1
+d1457 2
 d1467 1
 d1470 6
 a1475 1

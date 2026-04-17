@@ -1,8 +1,17 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
+! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
 !
 ! 2026-04-17
+binnenlandsbestuur.nl##[class$="ad-slot"]
+maarkelsnieuws.nl##.banner-widget
+maarkelsnieuws.nl##.in-slider-ad
+maarkelsnieuws.nl##.three-banners
+racesport.nl##.hthb-notification
+racesport.nl##.kg_custom_partner_widget_main
+racesport.nl##.pnvp-ad-wrap ~ hr
+kalender-365.nl##[id^="dish-"]
+kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 ! 2026-04-13
 www.iex.nl##.banner
@@ -707,7 +716,6 @@ ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
 footballtransfers.com##div[id*="leaderboard-billboard"]
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
 hockey.nl##[class^="advertisement"]:upward(li.card)
-racesport.nl##a[class*="image-wrapper"] img[src*="racesport.nl/wp-content/uploads/"][src*="1120x250"]:upward(.tdc-row)
 truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
@@ -1108,24 +1116,11 @@ maaslandradio.nl###header-text-nav-container > .inner-wrap > .clearfix
 pen.nl##.rclm_row:has-text(advert)
 pen.nl##.widget_sp_image-image-link:not(a[href*="www.pen.nl"]):upward(1)
 ! 2022-03-17
-binnenlandsbestuur.nl##aside div[class="c-teaser"]:not(:has(a[href*="binnenlandsbestuur.nl"]))
-podcastluisteren.nl##.bnr
 spreekbuis.nl##.widget_media_image:not(:has(img[src*="vierkant-spreekbuis"]))
 spreekbuis.nl##.widget_spreekbuis_partners
 ! 2022-03-11
-maarkelsnieuws.nl##.banner-widget
-maarkelsnieuws.nl##.banner-secondary-sidebar:not(:has(img[src*="weerbanner"]))
-maarkelsnieuws.nl##.banners-weekad
-maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
-! 2022-02-25
-racesport.nl##.hthb-notification
-racesport.nl##.rs_sponsorbanners_widget:upward(1)
-! 2022-02-14
-studylibnl.com##.above-content
-studylibnl.com##.below-content
-studylibnl.com##.sidebar-top-content
 ! 2022-02-08
 startlinken.nl##td[class]:has(a[href*="robohost.nl/clients/aff.php"]):upward(2)
 spidersolitairespelen.nl##.spel_b1
@@ -1133,7 +1128,6 @@ spidersolitairespelen.nl##.spel_b2
 ! 2022-01-19
 wettelijke-feestdagen.nl##.advertentieBanner
 wettelijke-feestdagen.nl###reclame
-kalender-365.nl###dish-top-desktop
 feestdagen-nederland.nl###ad-top-desktop
 ! 2022-01-18
 feestdagen-be.be,feestdagen-nl.nl##aside:has(.adsbygoogle)
@@ -1142,7 +1136,6 @@ feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
 duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/uploads/"])
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
-kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
 ! 2022-01-13
 filmtotaal.nl###adf-rectangle
 marokko.nl###ad-rec-btf

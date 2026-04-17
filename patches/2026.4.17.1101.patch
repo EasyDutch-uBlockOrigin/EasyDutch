@@ -1,4 +1,4 @@
-diff name:easydutch lines:48 checksum:0069e98d29
+diff name:easydutch lines:30 checksum:0069e98d29
 d2 1
 a2 1
 ! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
@@ -11,11 +11,9 @@ a138 4
 ||oud.startlinken.nl/images/banner$image,1p
 ||oud.startlinken.nl/javascript*Banner$script,1p
 d282 2
-d369 1
-d410 1
-d428 1
-d447 1
-a535 17
+d409 1
+d445 1
+a533 9
 binnenlandsbestuur.nl##[class$="ad-slot"]
 maarkelsnieuws.nl##.banner-widget
 maarkelsnieuws.nl##.in-slider-ad
@@ -25,25 +23,9 @@ racesport.nl##.kg_custom_partner_widget_main
 racesport.nl##.pnvp-ad-wrap ~ hr
 kalender-365.nl##[id^="dish-"]
 kalender-365.nl##.box_ag
-security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
-www.iex.nl##.banner
-www.iex.nl##.js-banner
-www.iex.nl##.network:has-text(Gesponsorde links)
-www.iex.nl##.native_positie
-www.iex.nl##.pgAdWrapper
-www.iex.nl##.publisher-sh-spot
-www.iex.nl##.rectanglewrap
-d853 5
-d1141 1
-d1180 1
-d1341 2
-d1368 1
-d1459 2
-d1463 4
-d1469 5
-d1479 1
-d1486 2
-d1496 1
-d1499 6
-a1504 1
-brandweerspotters.nl,fanclubbarcelona.nl###banners
+d1142 1
+d1456 2
+d1460 4
+d1466 5
+d1476 1
+d1483 1

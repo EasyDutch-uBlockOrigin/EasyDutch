@@ -1,11 +1,28 @@
-diff name:easydutch lines:17 checksum:70761cd142
+diff name:easydutch lines:40 checksum:0069e98d29
 d2 1
 a2 1
-! Last updated: Fri, 17 Apr 2026 18:21:41 +0000
+! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.17.1101.patch#easydutch
-a533 8
+! Diff-Path: patches/2026.4.17.1151.patch#easydutch
+a138 4
+||maarkelsnieuws.nl/banners/$image
+||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
+||oud.startlinken.nl/images/banner$image,1p
+||oud.startlinken.nl/javascript*Banner$script,1p
+d282 2
+d409 1
+d445 1
+a533 17
+binnenlandsbestuur.nl##[class$="ad-slot"]
+maarkelsnieuws.nl##.banner-widget
+maarkelsnieuws.nl##.in-slider-ad
+maarkelsnieuws.nl##.three-banners
+racesport.nl##.hthb-notification
+racesport.nl##.kg_custom_partner_widget_main
+racesport.nl##.pnvp-ad-wrap ~ hr
+kalender-365.nl##[id^="dish-"]
+kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
 www.iex.nl##.banner
 www.iex.nl##.js-banner
@@ -15,4 +32,10 @@ www.iex.nl##.pgAdWrapper
 www.iex.nl##.publisher-sh-spot
 www.iex.nl##.rectanglewrap
 d851 5
+d1139 1
 d1178 1
+d1454 2
+d1458 4
+d1464 5
+d1474 1
+d1481 1
