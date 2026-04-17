@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-17
+racesport.nl##.hthb-notification
+racesport.nl##.kg_custom_partner_widget_main
+racesport.nl##.pnvp-ad-wrap ~ hr
 kalender-365.nl##[id^="dish-"]
 kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
@@ -709,7 +712,6 @@ ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
 footballtransfers.com##div[id*="leaderboard-billboard"]
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
 hockey.nl##[class^="advertisement"]:upward(li.card)
-racesport.nl##a[class*="image-wrapper"] img[src*="racesport.nl/wp-content/uploads/"][src*="1120x250"]:upward(.tdc-row)
 truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
@@ -1121,9 +1123,6 @@ maarkelsnieuws.nl##.banners-weekad
 maarkelsnieuws.nl##.in-slider-ad
 wegdamnieuws.nl##.ads
 nieuwsuitdelden.nl##.gesponsord_blokje
-! 2022-02-25
-racesport.nl##.hthb-notification
-racesport.nl##.rs_sponsorbanners_widget:upward(1)
 ! 2022-02-08
 startlinken.nl##td[class]:has(a[href*="robohost.nl/clients/aff.php"]):upward(2)
 spidersolitairespelen.nl##.spel_b1
