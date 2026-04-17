@@ -1142,7 +1142,6 @@ feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
 duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/uploads/"])
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
-kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
 ! 2022-01-13
 filmtotaal.nl###adf-rectangle
 marokko.nl###ad-rec-btf
