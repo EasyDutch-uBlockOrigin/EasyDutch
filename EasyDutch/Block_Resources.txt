@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-18
+||ontdek-amerika.nl/images/pictureyes.jpg
+||ontdek-amerika.nl/marketing/bartsbanner.gif
 ! 2026-04-17
 ||maarkelsnieuws.nl/banners/$image
 ||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
@@ -427,7 +430,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||motocrossplanet.nl/wwwuploads/banners/
 ||nevobo.nl^*/sponsor/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
-||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
