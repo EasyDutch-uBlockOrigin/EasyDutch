@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
+midvliet.nl##.bannergroup:upward(div[class^="wrap"])
 motocrossplanet.com##.penci-banner-box
 nevobo.nl##.js-banner-slot:upward(.content-block)
 omroepzilt.nl##.ziltad-adwrapper
@@ -991,7 +993,6 @@ floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img
 gigantfm.nl##.onderdelenshop
 gowiththevlo.nl###omc-sidebar li.gowit-widget:has(img):not(:has(a[href*="gowiththevlo.nl"]))
 mijn-tv-gids.be##[id^="ads-row"]
-midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
 ! 2022-06-29
 persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
