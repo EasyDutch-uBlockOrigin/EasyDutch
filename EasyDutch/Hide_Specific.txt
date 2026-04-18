@@ -944,9 +944,6 @@ voetbalindebollenstreek.nl##.partners
 ensie.nl##.advertisement
 ensie.nl##.bottom-banner
 ensie.nl##.top-banner:style(min-height: 0px !important)
-! 2022-10-14
-vastgoedjournaal.nl##[href]:has([src*="media.prdn.nl"])
-vastgoedjournaal.nl##aside:has([class]:has-text(/advert/i)):has([href]:has([src*="media.prdn.nl"]))
 ! 2022-10-04
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
