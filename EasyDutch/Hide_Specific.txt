@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+mariabode.nl##[id^="custom_html"]:has-text(/(reclame|advert)/i)
+mariabode.nl##[id^="media_image"]:has-text(/(reclame|advert)/i)
 pen.nl##.site-branding tr
 pen.nl##aside #rclm_block:has-text(advert)
 pen.nl##.rclm_row:has-text(advert)
@@ -1110,10 +1112,8 @@ scheepvaartkrant.nl###block-topbannersidebar
 vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
 vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]:not(a[href*="mailto"])
 ! 2022-03-22
-mariabode.nl##[id^="custom_html"]:has-text(/advert/i)
 historiek.net##div[id^="ai_widget"]:has-text(/advert/i)
 hvzeeland.nl##.affiliates
-mariabode.nl##[id^="media_image"]:has-text(/advert/i)
 ! 2022-03-17
 spreekbuis.nl##.widget_media_image:not(:has(img[src*="vierkant-spreekbuis"]))
 spreekbuis.nl##.widget_spreekbuis_partners
