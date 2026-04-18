@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-18
+opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
 ! 2026-04-17
 binnenlandsbestuur.nl##[class$="ad-slot"]
 maarkelsnieuws.nl##.banner-widget
@@ -1246,7 +1248,6 @@ gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
-opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 zoom.nl##div[class^="display-ad_container"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
