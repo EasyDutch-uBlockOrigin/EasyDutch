@@ -353,8 +353,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||anoniem-surfen.nl/wp-content/uploads/*/Flavour-balls.gif$image
 ! 2022-04-14
 ||fonkmagazine.nl/adds/
-! 2022-04-12
-||farmaline.be/assets/banners/
 ! 2022-02-14
 ||123inkt.nl/images/oren/*$image
 ! 2022-02-08
