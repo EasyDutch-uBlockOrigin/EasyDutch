@@ -1110,8 +1110,6 @@ nieuweoogst.nl##.logolinks-wrapper
 farmaline.be##.c-scroll-list:has(img[src*="farmaline.be/assets/banners/"])
 ! 2022-04-02
 mr-online.nl##.elementor-widget-container:has-text(Advertentie):upward(2)
-scheepvaartkrant.nl###block-leaderboard
-scheepvaartkrant.nl###block-topbannersidebar
 vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
 vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]:not(a[href*="mailto"])
 ! 2022-03-22
