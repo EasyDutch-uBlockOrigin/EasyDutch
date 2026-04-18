@@ -426,7 +426,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||maaslandradio.nl/wp-content/uploads/*/Hekwerkland.
 ||media.biertijd.com/galleries/*/banners/$image,3p
 ||media.prdn.nl/retailtrends/images/thumbnail_bnr-*$domain=retailtrends.nl
-||meerdangewenst.nl^*/sponsors/
 ||metalfan.nl/banners/
 ||midvliet.nl/images/advertenties-$image
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
