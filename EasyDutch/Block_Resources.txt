@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+||motocrossplanet.com/wp-content/uploads/*banner
+||motocrossplanet.com/wp-content/uploads/*.gif
 ||cdn.nevobo.nl/banners/$image,1p
 ||omroepzilt.nl/wp-content/uploads/*.gif
 ||ontdek-amerika.nl/images/pictureyes.jpg
@@ -428,8 +430,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||metalfan.nl/banners/
 ||midvliet.nl/images/advertenties-$image
 ||mo.be/sites/default/files/banners/$image
-||motocrossplanet.nl/banner/
-||motocrossplanet.nl/wwwuploads/banners/
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
