@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+||omroepzilt.nl/wp-content/uploads/*.gif
 ||ontdek-amerika.nl/images/pictureyes.jpg
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
 ! 2026-04-17
@@ -429,7 +430,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||motocrossplanet.nl/banner/
 ||motocrossplanet.nl/wwwuploads/banners/
 ||nevobo.nl^*/sponsor/
-||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
