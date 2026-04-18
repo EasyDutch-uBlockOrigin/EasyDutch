@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
+vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]
+vlootschouw.nl##div[id^="media_image"]:has(a > img)
 historiek.net##.ablok:not(:has(.zoekside))
 mariabode.nl##[id^="custom_html"]:has-text(/(reclame|advert)/i)
 mariabode.nl##[id^="media_image"]:has-text(/(reclame|advert)/i)
