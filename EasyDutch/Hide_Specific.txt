@@ -1104,7 +1104,6 @@ ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
 anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
 ! 2022-04-14
-finance.nl##div[style^="width:300px; height:250px;"]:has([id*="google"])
 nieuweoogst.nl##.logolinks-wrapper
 ! 2022-04-02
 mr-online.nl##.elementor-widget-container:has-text(Advertentie):upward(2)
