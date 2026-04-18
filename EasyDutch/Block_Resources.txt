@@ -429,7 +429,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||meerdangewenst.nl^*/sponsors/
 ||metalfan.nl/banners/
 ||midvliet.nl/images/advertenties-$image
-||mo.be/sites/default/files/banners/$image
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
