@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
 ||vlootschouw.nl/wp-content/uploads/*/vs_banner_
 ||motocrossplanet.com/wp-content/uploads/*banner
 ||motocrossplanet.com/wp-content/uploads/*.gif
