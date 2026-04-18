@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+nevobo.nl##.js-banner-slot:upward(.content-block)
 omroepzilt.nl##.ziltad-adwrapper
 opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
 ! 2026-04-17
