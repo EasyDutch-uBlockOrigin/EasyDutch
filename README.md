@@ -9,7 +9,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/easylist/easylistdutch?label=Last%20commit&color=informational&style=plastic)](https://github.com/easylist/easylistdutch/commits/master)
 [![Issues](https://img.shields.io/github/issues/easylist/easylistdutch?label=Issues&color=red&style=plastic)](https://github.com/easylist/easylistdutch/issues)
 [![Issues](https://img.shields.io/github/issues-closed/easylist/easylistdutch?color=green&label=Issues&style=plastic)](https://github.com/easylist/easylistdutch/issues?q=is%3Aissue+is%3Aclosed) )) <br>
-(( [AdGuard Dutch](https://github.com/AdguardTeam/AdguardFilters/tree/master/DutchFilter/sections): [Last commit checked](https://github.com/AdguardTeam/AdguardFilters/commits/master/DutchFilter/sections?since=2026-04-16) ))
+(( [AdGuard Dutch](https://github.com/AdguardTeam/AdguardFilters/tree/master/DutchFilter/sections): [Last commit checked](https://github.com/AdguardTeam/AdguardFilters/commits/master/DutchFilter/sections?since=2026-04-18) ))
 
 ***
 # EasyDutch
