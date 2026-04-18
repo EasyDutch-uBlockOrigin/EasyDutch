@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+fonkmagazine.com###partner-carrousel
+fonkmagazine.com##[id^="fonkmagazine_"]:upward(.centered)
 vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
 vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]
 vlootschouw.nl##div[id^="media_image"]:has(a > img)
@@ -1103,8 +1105,6 @@ anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
 ! 2022-04-14
 finance.nl##div[style^="width:300px; height:250px;"]:has([id*="google"])
-fonkmagazine.nl###partners
-fonkmagazine.nl##.advertisement
 nieuweoogst.nl##.logolinks-wrapper
 ! 2022-04-02
 mr-online.nl##.elementor-widget-container:has-text(Advertentie):upward(2)
