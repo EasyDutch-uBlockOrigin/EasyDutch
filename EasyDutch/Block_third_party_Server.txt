@@ -1,7 +1,10 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Sun, 08 Mar 2026 17:29:07 +0000
+! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
 !
+! 2026-04-18
+! retailtrends.nl,vastgoedjournaal.nl
+||cdn.prdn.nl^$3p
 ! 2026-03-08
 ||partner-nl-be.hema.com^$3p
 ! 2026-03-02

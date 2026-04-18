@@ -1,16 +1,13 @@
-diff name:easydutch lines:101 checksum:0ae7d98738
+diff name:easydutch lines:60 checksum:0ae7d98738
 d2 1
 a2 1
 ! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.4.18.872.patch#easydutch
-a53 2
-||zsp1.ah.be^
-||zsp1.ah.nl^
-a59 1
+a61 1
 ||cdn.prdn.nl^$3p
-a136 14
+a138 10
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
 ||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
@@ -21,24 +18,16 @@ a136 14
 ||omroepzilt.nl/wp-content/uploads/*.gif
 ||ontdek-amerika.nl/images/pictureyes.jpg
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
-||maarkelsnieuws.nl/banners/$image
-||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
-||oud.startlinken.nl/images/banner$image,1p
-||oud.startlinken.nl/javascript*Banner$script,1p
-d280 2
-d314 1
-d346 1
-a346 1
+d318 1
+d350 1
+a350 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
-d355 2
-d367 1
-d403 6
-d426 1
-d445 1
+d359 2
+d406 5
 d469 3
 d473 2
 d477 6
-a533 37
+a533 20
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
 anoniem-surfen.nl##.footer-widget-1
 fonkmagazine.com###partner-carrousel
@@ -59,44 +48,14 @@ motocrossplanet.com##.penci-banner-box
 nevobo.nl##.js-banner-slot:upward(.content-block)
 omroepzilt.nl##.ziltad-adwrapper
 opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
-binnenlandsbestuur.nl##[class$="ad-slot"]
-maarkelsnieuws.nl##.banner-widget
-maarkelsnieuws.nl##.in-slider-ad
-maarkelsnieuws.nl##.three-banners
-racesport.nl##.hthb-notification
-racesport.nl##.kg_custom_partner_widget_main
-racesport.nl##.pnvp-ad-wrap ~ hr
-kalender-365.nl##[id^="dish-"]
-kalender-365.nl##.box_ag
-security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
-www.iex.nl##.banner
-www.iex.nl##.js-banner
-www.iex.nl##.network:has-text(Gesponsorde links)
-www.iex.nl##.native_positie
-www.iex.nl##.pgAdWrapper
-www.iex.nl##.publisher-sh-spot
-www.iex.nl##.rectanglewrap
-d851 5
-d1103 3
-d1139 1
-d1178 1
-d1226 1
-d1309 2
-d1339 2
-d1352 1
+d1115 3
+d1236 1
+d1319 2
 d1360 1
-d1366 1
-d1437 5
-d1443 1
-d1445 2
-d1449 2
-d1452 7
-d1461 4
-d1467 5
-d1477 1
-d1484 2
-d1494 1
-d1497 6
-a1502 1
-brandweerspotters.nl,fanclubbarcelona.nl###banners
-d1601 1
+d1368 1
+d1444 5
+d1450 1
+d1452 2
+d1456 2
+d1459 5
+d1588 1

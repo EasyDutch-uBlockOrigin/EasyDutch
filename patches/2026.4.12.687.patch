@@ -1,21 +1,61 @@
-diff name:easydutch lines:48 checksum:0069e98d29
+diff name:easydutch lines:98 checksum:0ae7d98738
 d2 1
 a2 1
-! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
+! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.17.1151.patch#easydutch
-a138 4
+! Diff-Path: patches/2026.4.18.872.patch#easydutch
+a61 1
+||cdn.prdn.nl^$3p
+a138 14
+/wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
+||fonkmagazine.com/adds/
+||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
+||vlootschouw.nl/wp-content/uploads/*/vs_banner_
+||motocrossplanet.com/wp-content/uploads/*banner
+||motocrossplanet.com/wp-content/uploads/*.gif
+||cdn.nevobo.nl/banners/$image,1p
+||omroepzilt.nl/wp-content/uploads/*.gif
+||ontdek-amerika.nl/images/pictureyes.jpg
+||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||maarkelsnieuws.nl/banners/$image
 ||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
 ||oud.startlinken.nl/images/banner$image,1p
 ||oud.startlinken.nl/javascript*Banner$script,1p
 d282 2
+d316 1
+d348 1
+a348 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
+d357 2
 d369 1
-d410 1
+d405 6
 d428 1
 d447 1
-a535 17
+d471 3
+d475 2
+d479 6
+a535 37
+anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
+anoniem-surfen.nl##.footer-widget-1
+fonkmagazine.com###partner-carrousel
+fonkmagazine.com##[id^="fonkmagazine_"]:upward(.centered)
+vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
+vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]
+vlootschouw.nl##div[id^="media_image"]:has(a > img)
+historiek.net##.ablok:not(:has(.zoekside))
+mariabode.nl##[id^="custom_html"]:has-text(/(reclame|advert)/i)
+mariabode.nl##[id^="media_image"]:has-text(/(reclame|advert)/i)
+pen.nl##.site-branding tr
+pen.nl##aside #rclm_block:has-text(advert)
+pen.nl##.rclm_row:has-text(advert)
+pen.nl##.widget_sp_image-image-link:not(a[href*="www.pen.nl"]):upward(1)
+midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
+midvliet.nl##.bannergroup:upward(div[class^="wrap"])
+motocrossplanet.com##.penci-banner-box
+nevobo.nl##.js-banner-slot:upward(.content-block)
+omroepzilt.nl##.ziltad-adwrapper
+opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
 binnenlandsbestuur.nl##[class$="ad-slot"]
 maarkelsnieuws.nl##.banner-widget
 maarkelsnieuws.nl##.in-slider-ad
@@ -34,11 +74,20 @@ www.iex.nl##.pgAdWrapper
 www.iex.nl##.publisher-sh-spot
 www.iex.nl##.rectanglewrap
 d853 5
+d1105 3
 d1141 1
 d1180 1
+d1228 1
+d1311 2
 d1341 2
+d1354 1
+d1362 1
 d1368 1
-d1459 2
+d1439 5
+d1445 1
+d1447 2
+d1451 2
+d1454 7
 d1463 4
 d1469 5
 d1479 1
@@ -47,3 +96,4 @@ d1496 1
 d1499 6
 a1504 1
 brandweerspotters.nl,fanclubbarcelona.nl###banners
+d1603 1

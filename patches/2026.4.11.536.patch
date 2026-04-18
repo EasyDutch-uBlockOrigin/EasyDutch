@@ -1,14 +1,26 @@
-diff name:easydutch lines:142 checksum:0069e98d29
+diff name:easydutch lines:192 checksum:0ae7d98738
 d2 1
 a2 1
-! Last updated: Fri, 17 Apr 2026 19:11:48 +0000
+! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.17.1151.patch#easydutch
+! Diff-Path: patches/2026.4.18.872.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
-a136 18
+a59 1
+||cdn.prdn.nl^$3p
+a136 28
+/wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
+||fonkmagazine.com/adds/
+||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
+||vlootschouw.nl/wp-content/uploads/*/vs_banner_
+||motocrossplanet.com/wp-content/uploads/*banner
+||motocrossplanet.com/wp-content/uploads/*.gif
+||cdn.nevobo.nl/banners/$image,1p
+||omroepzilt.nl/wp-content/uploads/*.gif
+||ontdek-amerika.nl/images/pictureyes.jpg
+||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||maarkelsnieuws.nl/banners/$image
 ||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
 ||oud.startlinken.nl/images/banner$image,1p
@@ -28,12 +40,20 @@ a136 18
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 d266 2
+d300 1
 d324 1
+d333 1
+a333 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
+d342 2
 d354 1
 d366 2
-d397 1
+d392 6
 d415 1
 d434 1
+d458 3
+d462 2
+d466 6
 d478 1
 d481 5
 d488 1
@@ -44,7 +64,27 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 63
+a543 83
+anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
+anoniem-surfen.nl##.footer-widget-1
+fonkmagazine.com###partner-carrousel
+fonkmagazine.com##[id^="fonkmagazine_"]:upward(.centered)
+vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
+vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]
+vlootschouw.nl##div[id^="media_image"]:has(a > img)
+historiek.net##.ablok:not(:has(.zoekside))
+mariabode.nl##[id^="custom_html"]:has-text(/(reclame|advert)/i)
+mariabode.nl##[id^="media_image"]:has-text(/(reclame|advert)/i)
+pen.nl##.site-branding tr
+pen.nl##aside #rclm_block:has-text(advert)
+pen.nl##.rclm_row:has-text(advert)
+pen.nl##.widget_sp_image-image-link:not(a[href*="www.pen.nl"]):upward(1)
+midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
+midvliet.nl##.bannergroup:upward(div[class^="wrap"])
+motocrossplanet.com##.penci-banner-box
+nevobo.nl##.js-banner-slot:upward(.content-block)
+omroepzilt.nl##.ziltad-adwrapper
+opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
 binnenlandsbestuur.nl##[class$="ad-slot"]
 maarkelsnieuws.nl##.banner-widget
 maarkelsnieuws.nl##.in-slider-ad
@@ -113,14 +153,23 @@ d818 5
 a902 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d990 6
+d1075 3
 d1079 1
 d1112 1
 d1151 1
+d1199 1
+d1282 2
 d1312 2
+d1325 1
 d1329 1
+d1334 1
 d1340 1
 d1407 1
-d1432 2
+d1412 5
+d1418 1
+d1420 2
+d1424 2
+d1427 7
 d1436 4
 d1442 5
 d1452 1
@@ -138,6 +187,7 @@ formule1.ws,giganieuws.nl###topbox
 d1498 1
 a1498 1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
+d1581 1
 a1605 1
 ||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
 d1613 1
