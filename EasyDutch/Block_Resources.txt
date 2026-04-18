@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+/wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
 ||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
 ||vlootschouw.nl/wp-content/uploads/*/vs_banner_
@@ -349,9 +350,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||pubble.nl/Content.svc/getAdCollection?
 ! 2022-04-26
 ||onderwegonline.nl/app/uploads/*/Banner$image
-! 2022-04-22
-||anoniem-surfen.nl/wp-content/uploads/*/aff3-*.png$image
-||anoniem-surfen.nl/wp-content/uploads/*/Flavour-balls.gif$image
 ! 2022-02-14
 ||123inkt.nl/images/oren/*$image
 ! 2022-02-08
