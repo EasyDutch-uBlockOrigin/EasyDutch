@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-18
+motocrossplanet.com##.penci-banner-box
 nevobo.nl##.js-banner-slot:upward(.content-block)
 omroepzilt.nl##.ziltad-adwrapper
 opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
@@ -675,9 +676,6 @@ itdaily.be###itdaily-article-sidebar
 itdaily.be###itdaily-article-top
 itdaily.be###itdaily-footer
 itdaily.be##[id^="itdaily-home"]
-motocrossplanet.nl##[class*="banner_count"]
-motocrossplanet.nl##.artikel-banners
-motocrossplanet.nl##.rcol-titel:has-text(Advert)
 poki.com##.sc-tbf0fc-2:has-text(/Advert/i):upward(div[class])
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
