@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-19
+||wradio.be/uploads/logos/$image
 ||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 ! 2026-04-18
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
