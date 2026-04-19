@@ -8,6 +8,8 @@ fcupdate.nl##.betting_partner
 fcupdate.nl##.outstream-ad
 fcupdate.nl##.pgAdWrapper
 fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
 meemetoranje.nl##.web-top-container
 meemetoranje.nl##.web-mid-container
 moviemeter.nl##.autoaddiv
@@ -523,8 +525,6 @@ buienradar.nl##.br-ad-slot
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
-gpfans.com##.ads-columns
-gpfans.com##.taboonews
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl##div[class^="r89-"]
