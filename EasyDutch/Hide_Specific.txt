@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-19
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
 fotografie.nl##.banner-ad
 ! 2026-04-18
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
@@ -1054,7 +1057,6 @@ investmentofficer.nl##.region-banner
 investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > .col)
 investmentofficer.nl##.io-tape-card[href^="/partner"]
 streekstadcentraal.nl##[class$="-banners-wrapper"]
-techradar.com###article-body > aside.hawk-nest:has([class^="hawk-affiliate"])
 ! 2022-06-16
 dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
@@ -1081,10 +1083,6 @@ infinance.nl##.slickcarousel
 infinance.nl##.widget:has-text(links)
 omrekenen.org##.widget:has-text(/Gesponsoord/i)
 omrekenen.org##a[href^="https://www.onlinebingokaart.nl/"]
-! 2022-05-16
-techradar.com###taboola-below-article-thumbnails
-techradar.com##.dfp-leaderboard-container
-techradar.com##[class$="ad-unit"]
 ! 2022-05-09
 welklidwoord.nl###ad-takeover
 ! 2022-05-04
