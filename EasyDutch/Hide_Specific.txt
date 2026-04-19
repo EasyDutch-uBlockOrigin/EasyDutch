@@ -4,6 +4,10 @@
 !
 ! 2026-04-19
 ! Real Times Network
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
 meemetoranje.nl##.web-top-container
 meemetoranje.nl##.web-mid-container
 moviemeter.nl##.autoaddiv
@@ -818,9 +822,6 @@ zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 ! 2023-07-12
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
 buttkicken.nl##p.has-small-font-size:has-text(Advertentie)
-! 2023-07-11
-fcupdate.nl##.betting_partner
-fcupdate.nl##[id*="web_billboard"]
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
 ! 2023-07-04
