@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-19
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 ! 2026-04-18
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
