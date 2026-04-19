@@ -4,6 +4,8 @@
 !
 ! 2026-04-19
 ! Real Times Network
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
 moviemeter.nl##.autoaddiv
 moviemeter.nl##.fcp-player
 moviemeter.nl##.leaderboard-bar
