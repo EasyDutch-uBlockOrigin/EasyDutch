@@ -1092,7 +1092,7 @@ ijshockeynederland.nl##footer > .container > div:nth-of-type(1)
 ijshockeynederland.nl##.adswiper:upward(1)
 ijshockeynederland.nl##div[class^="column col"]:has(img[src*="/uploads/ads"])
 ! 2022-05-04
-cryptoclan.nl,cryptonieuws.nl##div[data-elementor-type="popup"]
+cryptoclan.nl##div[data-elementor-type="popup"]
 hyc.be##div[class*="slider"]:has([class*="sliderwidget"])
 ! 2022-04-26
 ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
