@@ -1096,8 +1096,6 @@ hyc.be##div[class*="slider"]:has([class*="sliderwidget"])
 nummerzoeker.com##a[href^="/out/"]
 sc-heerenveen.nl##.partner-grid:upward(2)
 sc-heerenveen.nl##.partnerlink
-! 2022-04-28
-thatsgaming.nl##[id^="menu-item"]:has-text(/gokken|casino/i)
 ! 2022-04-26
 ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
 ! 2022-04-14
