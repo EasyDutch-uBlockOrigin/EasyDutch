@@ -346,8 +346,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ! 2022-05-27
 ||mandelnieuws.be^*/Sponsors/
-! 2022-05-05 
-||imagekit.io/ijnl*/uploads/other/*?tr=w-20$image,domain=ijshockeynederland.nl
 ! 2022-05-04 on internetbode.nl
 ||pubble.nl/Content.svc/getAdCollection?
 ! 2022-04-26
