@@ -1080,7 +1080,6 @@ feijenoordnieuws.nl##li:has(div[class$="left"]:has-text(/gokkasten|online casino
 musicmeter.nl##.external
 ! 2022-05-23
 infinance.nl##.slickcarousel
-infinance.nl##.widget:has-text(links)
 ! 2022-05-09
 welklidwoord.nl###ad-takeover
 ! 2022-05-04
