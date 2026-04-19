@@ -4,6 +4,11 @@
 !
 ! 2026-04-19
 ! Real Times Network
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
 musicmeter.nl##.external:has-text(Partners)
 musicmeter.nl##.pgAdWrapper:upward(1)
 ! End Real Times Network
@@ -456,10 +461,6 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-moviemeter.nl##.fcp-player
-moviemeter.nl##.leaderboard-bar
-moviemeter.nl##.rectangle-halfpage
-moviemeter.nl##.small-leaderboard
 buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
