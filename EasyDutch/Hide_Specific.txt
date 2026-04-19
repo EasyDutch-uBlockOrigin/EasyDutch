@@ -1,7 +1,29 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
 !
+! 2026-04-19
+! Real Times Network
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
+musicmeter.nl##.external:has-text(Partners)
+musicmeter.nl##.pgAdWrapper:upward(1)
+! End Real Times Network
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
+fotografie.nl##.banner-ad
 ! 2026-04-18
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
 anoniem-surfen.nl##.footer-widget-1
@@ -447,10 +469,6 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-moviemeter.nl##.fcp-player
-moviemeter.nl##.leaderboard-bar
-moviemeter.nl##.rectangle-halfpage
-moviemeter.nl##.small-leaderboard
 buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
@@ -507,8 +525,6 @@ buienradar.nl##.br-ad-slot
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
-gpfans.com##.ads-columns
-gpfans.com##.taboonews
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl##div[class^="r89-"]
@@ -806,9 +822,6 @@ zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 ! 2023-07-12
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
 buttkicken.nl##p.has-small-font-size:has-text(Advertentie)
-! 2023-07-11
-fcupdate.nl##.betting_partner
-fcupdate.nl##[id*="web_billboard"]
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
 ! 2023-07-04
@@ -1052,7 +1065,6 @@ investmentofficer.nl##.region-banner
 investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > .col)
 investmentofficer.nl##.io-tape-card[href^="/partner"]
 streekstadcentraal.nl##[class$="-banners-wrapper"]
-techradar.com###article-body > aside.hawk-nest:has([class^="hawk-affiliate"])
 ! 2022-06-16
 dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
@@ -1071,35 +1083,13 @@ radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
 ! 2022-05-27
 radioviainternet.be##.banner-size-leaderbord
 wradio.be##.c-advertiser-logos
-! 2022-05-25
-feijenoordnieuws.nl##li:has(div[class$="left"]:has-text(/gokkasten|online casino|casino|sportwedden/i):not(:has(a[href^="https://feijenoordnieuws.nl/"])))
-musicmeter.nl##.external
 ! 2022-05-23
 infinance.nl##.slickcarousel
-infinance.nl##.widget:has-text(links)
-omrekenen.org##.widget:has-text(/Gesponsoord/i)
-omrekenen.org##a[href^="https://www.onlinebingokaart.nl/"]
-! 2022-05-16
-techradar.com###taboola-below-article-thumbnails
-techradar.com##.dfp-leaderboard-container
-techradar.com##[class$="ad-unit"]
 ! 2022-05-09
 welklidwoord.nl###ad-takeover
-! 2022-05-05
-ijshockeynederland.nl##footer > .container > div:nth-of-type(1)
-ijshockeynederland.nl##.adswiper:upward(1)
-ijshockeynederland.nl##div[class^="column col"]:has(img[src*="/uploads/ads"])
 ! 2022-05-04
-cryptoclan.nl,cryptonieuws.nl##div[data-elementor-type="popup"]
-fotografie.nl##.section-partners
+cryptoclan.nl##div[data-elementor-type="popup"]
 hyc.be##div[class*="slider"]:has([class*="sliderwidget"])
-nummerzoeker.com##a[href^="/out/"]
-sc-heerenveen.nl##.partner-grid:upward(2)
-sc-heerenveen.nl##.partnerlink
-! 2022-04-28
-thatsgaming.nl##[id^="menu-item"]:has-text(/gokken|casino/i)
-yourlittleblackbook.me##.simple-image > [href^="https://www.nsinternational.com/traintracker/"]
-yourlittleblackbook.me##[id*="banner"]
 ! 2022-04-26
 ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
 ! 2022-04-14

@@ -1,0 +1,42 @@
+diff name:easydutch lines:41 checksum:68dbe9a40c
+d2 1
+a2 1
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.19.408.patch#easydutch
+a139 2
+||wradio.be/uploads/logos/$image
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
+d411 1
+d455 1
+a525 19
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
+musicmeter.nl##.external:has-text(Partners)
+musicmeter.nl##.pgAdWrapper:upward(1)
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
+fotografie.nl##.banner-ad
+d908 4
+d962 2
+d1219 2
+d1411 1
+d1425 2
+d1428 6
+d1435 5
+a1439 1
+cryptoclan.nl##div[data-elementor-type="popup"]
+d1441 6

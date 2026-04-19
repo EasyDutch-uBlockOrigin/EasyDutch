@@ -1,16 +1,18 @@
-diff name:easydutch lines:202 checksum:0ae7d98738
+diff name:easydutch lines:234 checksum:68dbe9a40c
 d2 1
 a2 1
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.18.872.patch#easydutch
+! Diff-Path: patches/2026.4.19.408.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
 a59 1
 ||cdn.prdn.nl^$3p
-a136 28
+a136 30
+||wradio.be/uploads/logos/$image
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
 ||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
@@ -48,9 +50,11 @@ a333 1
 d342 2
 d354 1
 d366 2
+d389 1
 d392 6
 d415 1
 d434 1
+d441 1
 d458 3
 d462 2
 d466 6
@@ -64,7 +68,26 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 89
+a543 108
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
+musicmeter.nl##.external:has-text(Partners)
+musicmeter.nl##.pgAdWrapper:upward(1)
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
+fotografie.nl##.banner-ad
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
 anoniem-surfen.nl##.footer-widget-1
 fonkmagazine.com###partner-carrousel
@@ -156,17 +179,20 @@ autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.
 autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.nl,voetbalprimeur.nl,womenshealthmag.nl##.ad:upward([class^="NewsList_injection"])
 d718 3
 d812 5
+d845 4
 d893 1
 a893 1
 rd.nl##.ad-container-print-hide
 d897 8
 a904 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
+d906 2
 d992 6
 d1077 3
 d1081 1
 d1114 1
 d1153 1
+d1175 2
 d1201 1
 d1284 2
 d1314 2
@@ -174,7 +200,13 @@ d1327 1
 d1331 1
 d1336 1
 d1342 1
-d1409 1
+d1376 1
+d1390 2
+d1393 6
+d1400 5
+a1404 1
+cryptoclan.nl##div[data-elementor-type="popup"]
+d1406 7
 d1414 5
 d1420 1
 d1422 2

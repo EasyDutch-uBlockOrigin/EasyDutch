@@ -1,16 +1,18 @@
-diff name:easydutch lines:132 checksum:0ae7d98738
+diff name:easydutch lines:165 checksum:68dbe9a40c
 d2 1
 a2 1
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.18.872.patch#easydutch
+! Diff-Path: patches/2026.4.19.408.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
 a59 1
 ||cdn.prdn.nl^$3p
-a136 25
+a136 27
+||wradio.be/uploads/logos/$image
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
 ||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
@@ -44,9 +46,11 @@ a335 1
 d344 2
 d356 1
 d368 2
+d391 1
 d394 6
 d417 1
 d436 1
+d443 1
 d460 3
 d464 2
 d468 6
@@ -59,7 +63,26 @@ d500 1
 d502 1
 d505 4
 d510 1
-a543 39
+a543 58
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
+musicmeter.nl##.external:has-text(Partners)
+musicmeter.nl##.pgAdWrapper:upward(1)
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
+fotografie.nl##.banner-ad
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
 anoniem-surfen.nl##.footer-widget-1
 fonkmagazine.com###partner-carrousel
@@ -104,10 +127,13 @@ a567 2
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
 d859 5
+d892 4
+d946 2
 d1111 3
 d1115 1
 d1148 1
 d1187 1
+d1209 2
 d1235 1
 d1318 2
 d1348 2
@@ -115,6 +141,13 @@ d1361 1
 d1365 1
 d1370 1
 d1376 1
+d1410 1
+d1424 2
+d1427 6
+d1434 5
+a1438 1
+cryptoclan.nl##div[data-elementor-type="popup"]
+d1440 6
 d1447 5
 d1453 1
 d1455 2

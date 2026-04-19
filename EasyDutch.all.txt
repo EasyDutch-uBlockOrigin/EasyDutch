@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.18.872.patch#easydutch
+! Diff-Path: patches/2026.4.19.408.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -137,6 +137,8 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||wradio.be/uploads/logos/$image
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
 ||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
@@ -408,7 +410,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||streekstadcentraal.nl/images/banners/$image
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ||mandelnieuws.be^*/Sponsors/
-||imagekit.io/ijnl*/uploads/other/*?tr=w-20$image,domain=ijshockeynederland.nl
 ||pubble.nl/Content.svc/getAdCollection?
 ||onderwegonline.nl/app/uploads/*/Banner$image
 ||123inkt.nl/images/oren/*$image
@@ -452,7 +453,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||elektronicaforum.nl/banner*$image,1p
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
-||fcupdate.nl/js/adslot.js
 ||feenstra-internetservices.nl/?_dnid=$3p
 ||fiets.nl/app/uploads/*-Webbanner-*$image,1p
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
@@ -523,6 +523,25 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
+musicmeter.nl##.external:has-text(Partners)
+musicmeter.nl##.pgAdWrapper:upward(1)
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
+fotografie.nl##.banner-ad
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
 anoniem-surfen.nl##.footer-widget-1
 fonkmagazine.com###partner-carrousel
@@ -905,10 +924,6 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-moviemeter.nl##.fcp-player
-moviemeter.nl##.leaderboard-bar
-moviemeter.nl##.rectangle-halfpage
-moviemeter.nl##.small-leaderboard
 buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
@@ -959,8 +974,6 @@ buienradar.be,buienradar.nl###adholderContainerHeader
 buienradar.nl##.br-ad-slot
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
-gpfans.com##.ads-columns
-gpfans.com##.taboonews
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl##div[class^="r89-"]
@@ -1216,8 +1229,6 @@ zita.be###shopsuiteApplication
 zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
 buttkicken.nl##p.has-small-font-size:has-text(Advertentie)
-fcupdate.nl##.betting_partner
-fcupdate.nl##[id*="web_billboard"]
 vriendin.nl##[id^="adf-autonative"]
 autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 gebruikershandleiding.com##[class^="adserver-container"]
@@ -1408,7 +1419,6 @@ investmentofficer.nl##.region-banner
 investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > .col)
 investmentofficer.nl##.io-tape-card[href^="/partner"]
 streekstadcentraal.nl##[class$="-banners-wrapper"]
-techradar.com###article-body > aside.hawk-nest:has([class^="hawk-affiliate"])
 dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
@@ -1422,28 +1432,10 @@ guidinc.nl##.promotion_link
 radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
 radioviainternet.be##.banner-size-leaderbord
 wradio.be##.c-advertiser-logos
-feijenoordnieuws.nl##li:has(div[class$="left"]:has-text(/gokkasten|online casino|casino|sportwedden/i):not(:has(a[href^="https://feijenoordnieuws.nl/"])))
-musicmeter.nl##.external
 infinance.nl##.slickcarousel
-infinance.nl##.widget:has-text(links)
-omrekenen.org##.widget:has-text(/Gesponsoord/i)
-omrekenen.org##a[href^="https://www.onlinebingokaart.nl/"]
-techradar.com###taboola-below-article-thumbnails
-techradar.com##.dfp-leaderboard-container
-techradar.com##[class$="ad-unit"]
 welklidwoord.nl###ad-takeover
-ijshockeynederland.nl##footer > .container > div:nth-of-type(1)
-ijshockeynederland.nl##.adswiper:upward(1)
-ijshockeynederland.nl##div[class^="column col"]:has(img[src*="/uploads/ads"])
-cryptoclan.nl,cryptonieuws.nl##div[data-elementor-type="popup"]
-fotografie.nl##.section-partners
+cryptoclan.nl##div[data-elementor-type="popup"]
 hyc.be##div[class*="slider"]:has([class*="sliderwidget"])
-nummerzoeker.com##a[href^="/out/"]
-sc-heerenveen.nl##.partner-grid:upward(2)
-sc-heerenveen.nl##.partnerlink
-thatsgaming.nl##[id^="menu-item"]:has-text(/gokken|casino/i)
-yourlittleblackbook.me##.simple-image > [href^="https://www.nsinternational.com/traintracker/"]
-yourlittleblackbook.me##[id*="banner"]
 ontdek-amerika.nl##[href^="https://www.reisburobartlimburg.nl/"]
 nieuweoogst.nl##.logolinks-wrapper
 mr-online.nl##.elementor-widget-container:has-text(Advertentie):upward(2)

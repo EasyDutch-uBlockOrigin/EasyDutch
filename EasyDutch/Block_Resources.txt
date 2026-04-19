@@ -1,7 +1,10 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
 !
+! 2026-04-19
+||wradio.be/uploads/logos/$image
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 ! 2026-04-18
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
@@ -344,8 +347,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ! 2022-05-27
 ||mandelnieuws.be^*/Sponsors/
-! 2022-05-05 
-||imagekit.io/ijnl*/uploads/other/*?tr=w-20$image,domain=ijshockeynederland.nl
 ! 2022-05-04 on internetbode.nl
 ||pubble.nl/Content.svc/getAdCollection?
 ! 2022-04-26
@@ -395,7 +396,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||elektronicaforum.nl/banner*$image,1p
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
-||fcupdate.nl/js/adslot.js
 ||feenstra-internetservices.nl/?_dnid=$3p
 ||fiets.nl/app/uploads/*-Webbanner-*$image,1p
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image

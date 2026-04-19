@@ -1,13 +1,15 @@
-diff name:easydutch lines:82 checksum:0ae7d98738
+diff name:easydutch lines:115 checksum:68dbe9a40c
 d2 1
 a2 1
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.18.872.patch#easydutch
+! Diff-Path: patches/2026.4.19.408.patch#easydutch
 a61 1
 ||cdn.prdn.nl^$3p
-a138 14
+a138 16
+||wradio.be/uploads/logos/$image
+||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
 ||fonkmagazine.com/adds/
 ||api.epublisher.world/Ads.ashx$domain=scheepvaartkrant.nl
@@ -28,12 +30,33 @@ d348 1
 a348 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
 d357 2
+d401 1
 d404 6
 d445 1
+d452 1
 d469 3
 d473 2
 d477 6
-a533 30
+a533 49
+fcupdate.nl##.betting_partner
+fcupdate.nl##.outstream-ad
+fcupdate.nl##.pgAdWrapper
+fcupdate.nl##[id^="footballco-video-player"]:upward(1)
+gpfans.com##.ads-columns
+gpfans.com##.taboonews
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+moviemeter.nl##.autoaddiv
+moviemeter.nl##.fcp-player
+moviemeter.nl##.leaderboard-bar
+moviemeter.nl##.rectangle-halfpage
+moviemeter.nl##.small-leaderboard
+musicmeter.nl##.external:has-text(Partners)
+musicmeter.nl##.pgAdWrapper:upward(1)
+techradar.com##.dfp-leaderboard-container
+techradar.com##.sponsored-post:upward(.listingResult)
+techradar.com##[class$="ad-unit"]
+fotografie.nl##.banner-ad
 anoniem-surfen.nl##.inside-right-sidebar > aside[id^="custom_html"]
 anoniem-surfen.nl##.footer-widget-1
 fonkmagazine.com###partner-carrousel
@@ -64,13 +87,23 @@ racesport.nl##.pnvp-ad-wrap ~ hr
 kalender-365.nl##[id^="dish-"]
 kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
+d886 4
+d940 2
 d1105 3
 d1141 1
 d1180 1
+d1202 2
 d1228 1
 d1311 2
 d1352 1
 d1360 1
+d1399 1
+d1413 2
+d1416 6
+d1423 5
+a1427 1
+cryptoclan.nl##div[data-elementor-type="popup"]
+d1429 6
 d1436 5
 d1442 1
 d1444 2
