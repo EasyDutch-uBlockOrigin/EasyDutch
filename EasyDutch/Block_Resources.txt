@@ -392,7 +392,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
 ||dagbladdewest.com/wp-content/uploads/*/*-AD*.jpg$image
 ||dating.*.auroraobjects.eu/files/bans/*$image
-||debestevpn.nl/wp-content/*-banner.
 ||digitalaudience.io/bakery/pix/$image,3p
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
