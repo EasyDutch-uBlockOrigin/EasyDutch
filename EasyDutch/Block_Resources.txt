@@ -404,7 +404,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
 ||forum.spaarinformatie.nl/si-info.html
 ||fx.nl/_ext/widget/$3p
-||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 ||greenkeeper.nl/upload/banners/
 ||hotradiohits.nl/image/picture/*_banner.
 ||itnijs.frl/wp-content/uploads/*/bannerItNijs
