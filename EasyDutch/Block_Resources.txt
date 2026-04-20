@@ -387,9 +387,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||apintie.sr/bannerz$image
 ||b-cdn.net/w_/s3-roulettefm/*.$image,domain=roulettefm.nl
 ||b-cdn.net/w_/s3-rtvstichtsevecht/*.$image,domain=rtvstichtsevecht.nl
-||belgiancycling.be/resize.asp?w=120&file=*.gif
-||belgiancycling.be^*/Banners/
-||belgiancycling.be^*/Logo%27s%20partners/
 ||blablacar.nl/widget-driver/$3p
 ||bnpparibasmarkets.nl/widget/$3p
 ||bol.com/nl/upload/banners/
