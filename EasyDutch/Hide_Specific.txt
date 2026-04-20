@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-20
+kicxstart.nl##[id^="bannerhome"]
 ! 2026-04-19
 ! Real Times Network
 fcupdate.nl##.betting_partner
@@ -873,7 +875,6 @@ cryptosjop.nl##iframe[src^="https://bitvavo.com/assets/static/widget/trade.html"
 nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
 ! 2023-04-27
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
-kicxstart.nl##.elementor-widget-container > a:not([href*="https://kicxstart.nl/"]) > img:upward(.elementor-widget-image)
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 pu.nl##.ad-container
 sliedrecht24.nl##[id$="random_ads"]
