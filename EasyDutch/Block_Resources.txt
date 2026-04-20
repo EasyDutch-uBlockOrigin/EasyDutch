@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+||am-forum.nl/images/banner/$image
 ||puuropreis.nl/images/banners/
 ||ciaotutti.nl/wp-content/uploads/*.gif$image
 ||ciaotutti.nl/wp-content/uploads/Banner$image
@@ -383,7 +384,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ||2link.be/banners/
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
-||am-forum.nl/upload/logo_elektrodump.png
 ||apintie.sr/bannerz$image
 ||b-cdn.net/w_/s3-roulettefm/*.$image,domain=roulettefm.nl
 ||b-cdn.net/w_/s3-rtvstichtsevecht/*.$image,domain=rtvstichtsevecht.nl
