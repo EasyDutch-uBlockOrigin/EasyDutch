@@ -395,7 +395,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||debestevpn.nl/wp-content/*-banner.
 ||dewereldmorgen.be/wp-content/banners/$image
 ||digitalaudience.io/bakery/pix/$image,3p
-||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ||feenstra-internetservices.nl/?_dnid=$3p
