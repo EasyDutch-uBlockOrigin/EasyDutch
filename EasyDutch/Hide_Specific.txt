@@ -777,7 +777,7 @@ wijwedden.net##.top-bookmaker-widget
 top40.nl##.in-house-ad
 top40.nl##[id^="sky"]:has(script:has-text(AdvertSlot))
 ! 2023-10-23
-omroephorstaandemaas.nl,roulettefm.nl##span:has-text(advert):upward(div)
+roulettefm.nl##span:has-text(advert):upward(div)
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
 dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
