@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+flexnieuws.nl##.ts-advertisment
+flexnieuws.nl##.widget_ts_ads_widget
 goeie.frl##.wp-caption:has-text(Advert)
 kicxstart.nl##[id^="bannerhome"]
 ! 2026-04-19
@@ -1012,7 +1014,6 @@ commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.co
 dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
-flexnieuws.nl##.header-ads__custom-ad
 floranews.com##td[align="center"]:has(> hr):has([href^="/banner"])
 floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img[src*="Hier kan uw banner staan"]))
 gigantfm.nl##.onderdelenshop
