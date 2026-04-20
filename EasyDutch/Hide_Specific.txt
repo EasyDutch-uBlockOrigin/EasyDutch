@@ -5,6 +5,7 @@
 ! 2026-04-20
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
+rtvstichtsevecht.nl##h3:has-text(Advert):upward(1)
 puuropreis.nl##.bannergroup:upward(1)
 ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
 jonet.nl##.gpoepie
@@ -775,7 +776,7 @@ wijwedden.net##.top-bookmaker-widget
 top40.nl##.in-house-ad
 top40.nl##[id^="sky"]:has(script:has-text(AdvertSlot))
 ! 2023-10-23
-omroephorstaandemaas.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
+omroephorstaandemaas.nl,roulettefm.nl##span:has-text(advert):upward(div)
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
 dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
