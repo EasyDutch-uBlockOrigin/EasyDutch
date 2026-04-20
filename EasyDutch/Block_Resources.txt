@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+||htforum.nl/yabbse/topframe_v3.php
+||htforum.nl/Banners/$image
 ||kicxstart.nl/wp-content/uploads/*/*banner$image
 ! 2026-04-19
 ||wradio.be/uploads/logos/$image
@@ -405,9 +407,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 ||greenkeeper.nl/upload/banners/
 ||hotradiohits.nl/image/picture/*_banner.
-||htforum.nl/yabbse/*-banner2.gif
-||htforum.nl/yabbse/banners/
-||htforum.nl/yabbse/topframe_v3.php
 ||itnijs.frl/wp-content/uploads/*/bannerItNijs
 ||kavelplatform.nl/assets/uploads/banners/
 ||kranenwebsite.nl/banners/$image
