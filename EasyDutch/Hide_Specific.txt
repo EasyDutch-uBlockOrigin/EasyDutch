@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+jonet.nl##.gpoepie
 edelmetaal-info.nl##.dfad
 edelmetaal-info.nl##aside > [id^="text-"]:has(.dfad)
 flexnieuws.nl##.ts-advertisment
