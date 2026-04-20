@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+edelmetaal-info.nl##.dfad
+edelmetaal-info.nl##aside > [id^="text-"]:has(.dfad)
 flexnieuws.nl##.ts-advertisment
 flexnieuws.nl##.widget_ts_ads_widget
 goeie.frl##.wp-caption:has-text(Advert)
@@ -896,7 +898,6 @@ ecommercenews.nl##.widget-partners
 dknieuws.nl##[id^="dknie-grid-"]:has(.adv-link)
 dknieuws.nl##.dknie-widget:has(.adv-link)
 dordtcentraal.nl##.g
-edelmetaal-info.nl##.dfad
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
 ! Regiodagbladen.nl
@@ -1043,9 +1044,6 @@ fd.nl##.noAdBlockDetected .fd-message
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
 elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
 eurogamer.nl##.desktop_mpu
-edelmetaal-info.nl##section:has(.masonry-item:not(:has(a[href*="edelmetaal-info.nl"])))
-edelmetaal-info.nl##.figure-image[data-links=""]:not(a[href*="edelmetaal-info.nl"])
-edelmetaal-info.nl##div[class^=" element-short"] a[onclick*="outgoing"]:has(img[width="180"]):not(:has([href*="edelmetaal-info.nl"]))
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
 dekrantvantynaarlo.nl##.et_pb_ads_agsdcm_0
 dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
