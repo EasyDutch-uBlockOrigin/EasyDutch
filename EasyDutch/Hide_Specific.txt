@@ -1012,7 +1012,6 @@ radio.nl##[id^="takeover"]:has-text(Advert)
 omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
-dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
 floranews.com##td[align="center"]:has(> hr):has([href^="/banner"])
