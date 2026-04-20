@@ -5,6 +5,7 @@
 ! 2026-04-20
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
+omroepzout.nl##.elementor-element:matches-css(before, content: /advertentie/):upward(.elementor-element)
 rtvstichtsevecht.nl##h3:has-text(Advert):upward(1)
 puuropreis.nl##.bannergroup:upward(1)
 ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
