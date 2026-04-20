@@ -386,7 +386,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ||clubbrugge.be^*/partner/$image
 ||coastline945fm.nl/cache/partners/$image
-||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
 ||dating.*.auroraobjects.eu/files/bans/*$image
 ||digitalaudience.io/bakery/pix/$image,3p
 ||enviedeplus.be^*_banner_$3p
