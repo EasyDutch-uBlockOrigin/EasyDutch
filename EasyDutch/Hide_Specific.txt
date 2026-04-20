@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+puuropreis.nl##.bannergroup:upward(1)
 ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
 jonet.nl##.gpoepie
 edelmetaal-info.nl##.dfad
@@ -987,7 +988,6 @@ minimumloon.nl##.header-widget-region > .col-full
 uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 ! 2022-07-06
-puuropreis.nl##.banneritem:not(:has([href^="/component/banners/click"]))
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
