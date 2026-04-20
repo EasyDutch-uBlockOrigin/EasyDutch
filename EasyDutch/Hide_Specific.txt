@@ -710,7 +710,6 @@ twentefm.nl##.advertisement
 112-ov.nl##.adsbygoogle:upward([id^="custom_html"])
 agriline.be,agriline.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.agency-banner
 baanwacht.nl##.banner-image
-clubbrugge.be##h4:has-text(Partners):upward(section)
 itdaily.be##.ad
 itdaily.be###itdaily-article-sidebar
 itdaily.be###itdaily-article-top
