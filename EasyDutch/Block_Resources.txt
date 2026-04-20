@@ -401,7 +401,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ||feenstra-internetservices.nl/?_dnid=$3p
-||fiets.nl/app/uploads/*-Webbanner-*$image,1p
 ||forum.spaarinformatie.nl/si-info.html
 ||fx.nl/_ext/widget/$3p
 ||greenkeeper.nl/upload/banners/
