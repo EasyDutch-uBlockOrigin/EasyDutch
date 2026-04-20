@@ -397,7 +397,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
 ||elektormagazine.nl/assets/upload/banners/
-||elektronicaforum.nl/banner*$image,1p
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ||feenstra-internetservices.nl/?_dnid=$3p
