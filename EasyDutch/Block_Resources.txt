@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
 ||flexnieuws.nl/wp-content/uploads/*/*banner$image
 ||htforum.nl/yabbse/topframe_v3.php
 ||htforum.nl/Banners/$image
@@ -396,7 +397,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
-||elektormagazine.nl/assets/upload/banners/
 ||enviedeplus.be^*_banner_$3p
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ||feenstra-internetservices.nl/?_dnid=$3p
