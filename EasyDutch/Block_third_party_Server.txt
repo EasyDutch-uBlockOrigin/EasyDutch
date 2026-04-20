@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Sat, 18 Apr 2026 14:32:11 +0000
+! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
 !
 ! 2026-04-18
 ! retailtrends.nl,vastgoedjournaal.nl
@@ -67,8 +67,6 @@
 ! 2021-09-03
 ! parool.nl
 ||advertising-cdn.dpgmedia.cloud^$3p
-! https://github.com/easylist/easylistdutch/commit/b04939fcc2b0a2564a46143939a15f95b3b30985
-||widgets.skyscanner.net^$domain=puuropreis.nl
 ! 2021-07-28
 ||gratis-neuken.com^$3p
 ! 2021-06-29

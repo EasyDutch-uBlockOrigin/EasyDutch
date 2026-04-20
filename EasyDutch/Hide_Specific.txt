@@ -1,7 +1,21 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
+! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
 !
+! 2026-04-20
+dtvnieuws.nl##span:has-text(Advert):upward(.widget)
+omroepvenlo.nl##span:has-text(Advert):upward(.widget)
+omroepzout.nl##.elementor-element:matches-css(before, content: /advertentie/):upward(.elementor-element)
+rtvstichtsevecht.nl##h3:has-text(Advert):upward(1)
+puuropreis.nl##.bannergroup:upward(1)
+ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
+jonet.nl##.gpoepie
+edelmetaal-info.nl##.dfad
+edelmetaal-info.nl##aside > [id^="text-"]:has(.dfad)
+flexnieuws.nl##.ts-advertisment
+flexnieuws.nl##.widget_ts_ads_widget
+goeie.frl##.wp-caption:has-text(Advert)
+kicxstart.nl##[id^="bannerhome"]
 ! 2026-04-19
 ! Real Times Network
 fcupdate.nl##.betting_partner
@@ -444,7 +458,6 @@ monitor.iex.nl##.leaderboard-down
 monitor.iex.nl##.publisher-sh-spot
 cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
-omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
 galaxyclub.nl##.bannercenter
 ! 2026-02-09
 terdege.nl###fallback-:upward(div.flex-col)
@@ -586,8 +599,6 @@ thehike.nl,theoutdoors.nl##.g-single
 dartfreakz.nl##.sda
 dartfreakz.nl,puna.nl##div[class^="r89-"]:upward(.raw-html-component)
 christelijknieuws.nl##.a-single
-ciaotutti.nl###b_searchboxInc
-ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"])):not(:has(a[href^="http://eepurl.com/"])):not(:has(a[href*="/blogciaotutti"]))
 ! Koninklijke BDU Holding B.V
 amstelveensnieuwsblad.nl,baarnschecourant.nl,barneveldsekrant.nl,bennekomsnieuwsblad.nl,biltschecourant.nl,deputtenaer.nl,derijnpost.nl,destadamersfoort.nl,destadgorinchem.nl,dewoudenberger.nl,edestad.nl,ermelosweekblad.nl,harderwijkercourant.nl,hcnieuws.nl,hetkompashardinxveld-giessendam.nl,hetkompassliedrecht.nl,houtensnieuws.nl,huisaanhuiselburg.nl,huisaanhuisoldebroek.nl,leusderkrant.nl,nieuwsbladdekaap.nl,nunspeethuisaanhuis.nl,recreatiekrantveluwe.nl,regiosportveenendaal.nl,rijnenveluwe.nl,scherpenzeelsekrant.nl,soestercourant.nl,stadnijkerk.nl,stadwageningen.nl,weekbladvoorouderamstel.nl,wijksnieuws.nl##[id^="div-gpt-ad"]:upward(.component__plugin)
 ! End Koninklijke BDU Holding B.V
@@ -702,7 +713,6 @@ twentefm.nl##.advertisement
 112-ov.nl##.adsbygoogle:upward([id^="custom_html"])
 agriline.be,agriline.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.agency-banner
 baanwacht.nl##.banner-image
-clubbrugge.be##h4:has-text(Partners):upward(section)
 itdaily.be##.ad
 itdaily.be###itdaily-article-sidebar
 itdaily.be###itdaily-article-top
@@ -767,7 +777,6 @@ wijwedden.net##.top-bookmaker-widget
 top40.nl##.in-house-ad
 top40.nl##[id^="sky"]:has(script:has-text(AdvertSlot))
 ! 2023-10-23
-dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
 dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
@@ -866,14 +875,10 @@ waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Adds By Google)
 wegdamnieuws.nl##.ads-stack
-! 2023-05-01
-belgiancycling.be##.logo-slider
-cryptosjop.nl##iframe[src^="https://bitvavo.com/assets/static/widget/trade.html"]:upward(.td_block_wrap)
 ! 2023-04-28
 nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
 ! 2023-04-27
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
-kicxstart.nl##.elementor-widget-container > a:not([href*="https://kicxstart.nl/"]) > img:upward(.elementor-widget-image)
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 pu.nl##.ad-container
 sliedrecht24.nl##[id$="random_ads"]
@@ -892,7 +897,6 @@ ecommercenews.nl##.widget-partners
 dknieuws.nl##[id^="dknie-grid-"]:has(.adv-link)
 dknieuws.nl##.dknie-widget:has(.adv-link)
 dordtcentraal.nl##.g
-edelmetaal-info.nl##.dfad
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
 ! Regiodagbladen.nl
@@ -983,7 +987,6 @@ minimumloon.nl##.header-widget-region > .col-full
 uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 ! 2022-07-06
-puuropreis.nl##.banneritem:not(:has([href^="/component/banners/click"]))
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
@@ -997,7 +1000,6 @@ hvzeeland.nl##.advertisement
 forum.scholieren.com##div[data-advert-placeholder-size]
 basketballbelgium.be##.sidebar-inner aside:has(.carousel.slide)
 basketballbelgium.be###sidebar-top-content > .widget-area:has(img[width="970"][height="250"])
-magazine.belgiancycling.be###section--banner
 beveiligingnieuws.nl##.widget:has(img[src^="https://beveiligingnieuws.nl/banners/"])
 beveiligingnieuws.nl##.widget:has(.widget-title:has-text(/Partners/i))
 oogtv.nl##.g
@@ -1007,14 +1009,11 @@ radio.nl##[id^="takeover"]:has-text(Advert)
 omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
-dutchcryptotalk.com##.hootslider-image-wrapper
 nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
-flexnieuws.nl##.header-ads__custom-ad
 floranews.com##td[align="center"]:has(> hr):has([href^="/banner"])
 floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img[src*="Hier kan uw banner staan"]))
 gigantfm.nl##.onderdelenshop
-gowiththevlo.nl###omc-sidebar li.gowit-widget:has(img):not(:has(a[href*="gowiththevlo.nl"]))
 mijn-tv-gids.be##[id^="ads-row"]
 ! 2022-06-29
 persberichten.com##[id^="PanelTopAds"]
@@ -1041,9 +1040,6 @@ fd.nl##.noAdBlockDetected .fd-message
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
 elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
 eurogamer.nl##.desktop_mpu
-edelmetaal-info.nl##section:has(.masonry-item:not(:has(a[href*="edelmetaal-info.nl"])))
-edelmetaal-info.nl##.figure-image[data-links=""]:not(a[href*="edelmetaal-info.nl"])
-edelmetaal-info.nl##div[class^=" element-short"] a[onclick*="outgoing"]:has(img[width="180"]):not(:has([href*="edelmetaal-info.nl"]))
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
 dekrantvantynaarlo.nl##.et_pb_ads_agsdcm_0
 dekrantvantynaarlo.nl###text-2:has-text(Advertentie)

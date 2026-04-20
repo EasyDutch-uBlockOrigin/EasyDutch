@@ -1,16 +1,45 @@
-diff name:easydutch lines:236 checksum:68dbe9a40c
+diff name:easydutch lines:309 checksum:271e20943f
 d2 1
 a2 1
-! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
+! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.19.408.patch#easydutch
+! Diff-Path: patches/2026.4.20.1021.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
 a59 1
 ||cdn.prdn.nl^$3p
-a136 30
+d87 1
+a136 58
+||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
+||cdn.dtvnieuws.nl/*/w_*/banner-$image
+||b-cdn.net/*.gif$image,domain=rtvstichtsevecht.nl
+||zorgkaartnederland.nl/cache/*.gif$image
+||am-forum.nl/images/banner/$image
+||puuropreis.nl/images/banners/
+||ciaotutti.nl/wp-content/uploads/*.gif$image
+||ciaotutti.nl/wp-content/uploads/Banner$image
+||ciaotutti.nl/wp-content/smush-webp/*banner$image
+||ciaotutti.nl/wp-content/smush-webp/*/olive-travel-italie$image
+||ciaotutti.nl/wp-content/smush-webp/*/italmania$image
+||ciaotutti.nl/wp-content/smush-webp/*/koffiecentrale-$image
+||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
+||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
+||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
+||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
+||dagbladdewest.com/wp-content/uploads/*/*300x250$image
+||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
+||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
+||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
+||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
+||edelmetaal-info.nl/app/uploads/*/*.gif
+||edelmetaal-info.nl/cdfund-336x280.html
+||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
+||flexnieuws.nl/wp-content/uploads/*/*banner$image
+||htforum.nl/yabbse/topframe_v3.php
+||htforum.nl/Banners/$image
+||kicxstart.nl/wp-content/uploads/*/*banner$image
 ||wradio.be/uploads/logos/$image
 ||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
@@ -42,20 +71,35 @@ a136 30
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
 d266 2
+d269 1
 d300 1
 d324 1
-d333 1
-a333 1
+d332 2
+a333 2
+/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|rtvlansingerland.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
 d342 2
+d352 1
 d354 1
+d359 1
 d366 2
+d381 1
 d389 1
 d392 6
+d404 3
+d410 4
 d415 1
-d434 1
+d419 1
+d422 2
+d425 4
+d430 2
+d433 6
 d441 1
-d458 3
+d443 2
+d447 1
+d450 3
+d455 1
+d457 4
 d462 2
 d466 6
 d478 1
@@ -68,7 +112,20 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 110
+a543 123
+dtvnieuws.nl##span:has-text(Advert):upward(.widget)
+omroepvenlo.nl##span:has-text(Advert):upward(.widget)
+omroepzout.nl##.elementor-element:matches-css(before, content: /advertentie/):upward(.elementor-element)
+rtvstichtsevecht.nl##h3:has-text(Advert):upward(1)
+puuropreis.nl##.bannergroup:upward(1)
+ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
+jonet.nl##.gpoepie
+edelmetaal-info.nl##.dfad
+edelmetaal-info.nl##aside > [id^="text-"]:has(.dfad)
+flexnieuws.nl##.ts-advertisment
+flexnieuws.nl##.widget_ts_ads_widget
+goeie.frl##.wp-caption:has-text(Advert)
+kicxstart.nl##[id^="bannerhome"]
 fcupdate.nl##.betting_partner
 fcupdate.nl##.outstream-ad
 fcupdate.nl##.pgAdWrapper
@@ -181,6 +238,7 @@ autoblog.nl,bicycling.nl,bright.nl,menshealth.nl,runners.nl,vi.nl,voetbalnieuws.
 1achterhoek.nl##.sidebar .adsbygoogle:upward(.widget)
 d716 3
 d810 5
+d820 1
 d843 4
 d891 1
 a891 1
@@ -189,19 +247,31 @@ d895 8
 a902 1
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 d904 2
+d960 2
 d990 6
+d1069 1
 d1075 3
 d1079 1
 d1112 1
+d1127 1
 d1151 1
 d1173 2
 d1199 1
+d1210 2
+d1214 1
+d1230 1
 d1282 2
+d1292 1
+d1305 1
 d1312 2
+d1316 1
+d1319 1
+d1323 1
 d1325 1
 d1329 1
 d1334 1
 d1340 1
+d1352 3
 d1374 1
 d1388 2
 d1391 6
@@ -232,6 +302,9 @@ d1498 1
 a1498 1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
 d1581 1
+a1593 2
+ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
+ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
 a1605 1
 ||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
 d1613 1

@@ -1,7 +1,10 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Wed, 01 Apr 2026 08:46:32 +0000
+! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
 !
+! 2026-04-20
+ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
+ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
 ! 2023-10-13
 gratisaftehalen.nl#@#.ads-image
 ! Uitzonderingen voor EasyList

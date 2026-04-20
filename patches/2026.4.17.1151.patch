@@ -1,13 +1,42 @@
-diff name:easydutch lines:93 checksum:68dbe9a40c
+diff name:easydutch lines:167 checksum:271e20943f
 d2 1
 a2 1
-! Last updated: Sun, 19 Apr 2026 06:48:07 +0000
+! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.19.408.patch#easydutch
+! Diff-Path: patches/2026.4.20.1021.patch#easydutch
 a61 1
 ||cdn.prdn.nl^$3p
-a138 12
+d89 1
+a138 40
+||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
+||cdn.dtvnieuws.nl/*/w_*/banner-$image
+||b-cdn.net/*.gif$image,domain=rtvstichtsevecht.nl
+||zorgkaartnederland.nl/cache/*.gif$image
+||am-forum.nl/images/banner/$image
+||puuropreis.nl/images/banners/
+||ciaotutti.nl/wp-content/uploads/*.gif$image
+||ciaotutti.nl/wp-content/uploads/Banner$image
+||ciaotutti.nl/wp-content/smush-webp/*banner$image
+||ciaotutti.nl/wp-content/smush-webp/*/olive-travel-italie$image
+||ciaotutti.nl/wp-content/smush-webp/*/italmania$image
+||ciaotutti.nl/wp-content/smush-webp/*/koffiecentrale-$image
+||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
+||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
+||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
+||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
+||dagbladdewest.com/wp-content/uploads/*/*300x250$image
+||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
+||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
+||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
+||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
+||edelmetaal-info.nl/app/uploads/*/*.gif
+||edelmetaal-info.nl/cdfund-336x280.html
+||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
+||flexnieuws.nl/wp-content/uploads/*/*banner$image
+||htforum.nl/yabbse/topframe_v3.php
+||htforum.nl/Banners/$image
+||kicxstart.nl/wp-content/uploads/*/*banner$image
 ||wradio.be/uploads/logos/$image
 ||cdn.prod.website-files.com/*/*banner$image,domain=fotografie.nl
 /wp-content/uploads/*.gif$image,domain=anoniem-surfen.nl
@@ -20,18 +49,47 @@ a138 12
 ||omroepzilt.nl/wp-content/uploads/*.gif
 ||ontdek-amerika.nl/images/pictureyes.jpg
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
+d287 1
 d318 1
-d350 1
-a350 1
+d349 2
+a350 2
+/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|rtvlansingerland.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
 d359 2
+d369 1
+d375 1
+d395 1
 d403 1
 d406 5
+d417 3
+d423 4
+d431 1
+d434 2
+d437 4
+d442 2
+d445 5
 d452 1
-d469 3
+d454 2
+d458 1
+d461 3
+d466 1
+d468 4
 d473 2
 d477 6
-a533 39
+a533 52
+dtvnieuws.nl##span:has-text(Advert):upward(.widget)
+omroepvenlo.nl##span:has-text(Advert):upward(.widget)
+omroepzout.nl##.elementor-element:matches-css(before, content: /advertentie/):upward(.elementor-element)
+rtvstichtsevecht.nl##h3:has-text(Advert):upward(1)
+puuropreis.nl##.bannergroup:upward(1)
+ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
+jonet.nl##.gpoepie
+edelmetaal-info.nl##.dfad
+edelmetaal-info.nl##aside > [id^="text-"]:has(.dfad)
+flexnieuws.nl##.ts-advertisment
+flexnieuws.nl##.widget_ts_ads_widget
+goeie.frl##.wp-caption:has-text(Advert)
+kicxstart.nl##[id^="bannerhome"]
 fcupdate.nl##.betting_partner
 fcupdate.nl##.outstream-ad
 fcupdate.nl##.pgAdWrapper
@@ -71,14 +129,27 @@ motocrossplanet.com##.penci-banner-box
 nevobo.nl##.js-banner-slot:upward(.content-block)
 omroepzilt.nl##.ziltad-adwrapper
 opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
+d873 1
 d896 4
 d950 2
+d1006 2
+d1109 1
 d1115 3
+d1165 1
 d1210 2
 d1236 1
+d1247 2
+d1251 1
+d1267 1
 d1319 2
+d1329 1
+d1342 1
+d1351 1
+d1354 1
+d1358 1
 d1360 1
 d1368 1
+d1385 3
 d1407 1
 d1421 2
 d1424 6
@@ -92,3 +163,6 @@ d1452 2
 d1456 2
 d1459 5
 d1588 1
+a1600 2
+ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
+ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
