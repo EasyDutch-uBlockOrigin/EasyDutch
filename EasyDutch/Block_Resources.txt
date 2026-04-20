@@ -232,7 +232,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
 ! 2023-10-23
-||b-cdn.net/w_/*-banner-$image,domain=omroephorstaandemaas.nl|omroepvenlo.nl|roulettefm.nl
 ||ecdn.menselijklichaam.nl/banners/$image
 /production/uploads/partners/*$image,domain=dutchitchannel.nl
 ||nieuwrechts.nl/api/advertise-deliver/$xhr,1p
