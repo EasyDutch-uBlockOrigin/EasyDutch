@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+goeie.frl##.wp-caption:has-text(Advert)
 kicxstart.nl##[id^="bannerhome"]
 ! 2026-04-19
 ! Real Times Network
