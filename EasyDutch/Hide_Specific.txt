@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
 jonet.nl##.gpoepie
 edelmetaal-info.nl##.dfad
 edelmetaal-info.nl##aside > [id^="text-"]:has(.dfad)
@@ -594,8 +595,6 @@ thehike.nl,theoutdoors.nl##.g-single
 dartfreakz.nl##.sda
 dartfreakz.nl,puna.nl##div[class^="r89-"]:upward(.raw-html-component)
 christelijknieuws.nl##.a-single
-ciaotutti.nl###b_searchboxInc
-ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"])):not(:has(a[href^="http://eepurl.com/"])):not(:has(a[href*="/blogciaotutti"]))
 ! Koninklijke BDU Holding B.V
 amstelveensnieuwsblad.nl,baarnschecourant.nl,barneveldsekrant.nl,bennekomsnieuwsblad.nl,biltschecourant.nl,deputtenaer.nl,derijnpost.nl,destadamersfoort.nl,destadgorinchem.nl,dewoudenberger.nl,edestad.nl,ermelosweekblad.nl,harderwijkercourant.nl,hcnieuws.nl,hetkompashardinxveld-giessendam.nl,hetkompassliedrecht.nl,houtensnieuws.nl,huisaanhuiselburg.nl,huisaanhuisoldebroek.nl,leusderkrant.nl,nieuwsbladdekaap.nl,nunspeethuisaanhuis.nl,recreatiekrantveluwe.nl,regiosportveenendaal.nl,rijnenveluwe.nl,scherpenzeelsekrant.nl,soestercourant.nl,stadnijkerk.nl,stadwageningen.nl,weekbladvoorouderamstel.nl,wijksnieuws.nl##[id^="div-gpt-ad"]:upward(.component__plugin)
 ! End Koninklijke BDU Holding B.V
