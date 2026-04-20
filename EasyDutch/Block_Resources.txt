@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-20
+||flexnieuws.nl/wp-content/uploads/*/*banner$image
 ||htforum.nl/yabbse/topframe_v3.php
 ||htforum.nl/Banners/$image
 ||kicxstart.nl/wp-content/uploads/*/*banner$image
@@ -401,7 +402,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ||feenstra-internetservices.nl/?_dnid=$3p
 ||fiets.nl/app/uploads/*-Webbanner-*$image,1p
-||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
 ||forum.spaarinformatie.nl/si-info.html
 ||fx.nl/_ext/widget/$3p
 ||greenkeeper.nl/upload/banners/
