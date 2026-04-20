@@ -4,6 +4,7 @@
 !
 ! 2026-04-20
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
+omroepvenlo.nl##span:has-text(Advert):upward(.widget)
 puuropreis.nl##.bannergroup:upward(1)
 ciaotutti.nl##[id*="widget_advert"]:not(:has(a[href^="https://ciaotutti.nl/"], a[href^="http://eepurl.com/"], a[href*="/blogciaotutti"], a[href*="app.gohere.app"]))
 jonet.nl##.gpoepie
@@ -455,7 +456,6 @@ monitor.iex.nl##.leaderboard-down
 monitor.iex.nl##.publisher-sh-spot
 cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
-omroepvenlo.nl##.widget.rounded-lg:has-text(Advert)
 galaxyclub.nl##.bannercenter
 ! 2026-02-09
 terdege.nl###fallback-:upward(div.flex-col)
@@ -775,7 +775,7 @@ wijwedden.net##.top-bookmaker-widget
 top40.nl##.in-house-ad
 top40.nl##[id^="sky"]:has(script:has-text(AdvertSlot))
 ! 2023-10-23
-omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
+omroephorstaandemaas.nl,roulettefm.nl,rtvstichtsevecht.nl##span:has-text(advert):upward(div)
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
 dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
