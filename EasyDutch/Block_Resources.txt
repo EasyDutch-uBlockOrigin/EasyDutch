@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
 !
 ! 2026-04-20
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
@@ -180,7 +180,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||boek9.nl/sites/default/files/advertisements/
 ||boek9.nl/sites/default/files/rotating-banners/
 ||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
-||psalmboek.nl/banners/*advertentie$image
 ! 2026-01-31
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
 ! 2024-01-16

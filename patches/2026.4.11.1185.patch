@@ -1,16 +1,18 @@
-diff name:easydutch lines:236 checksum:271e20943f
+diff name:easydutch lines:239 checksum:1a84eb608f
 d2 1
 a2 1
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.20.1021.patch#easydutch
+! Diff-Path: patches/2026.4.21.617.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
 a59 1
 ||cdn.prdn.nl^$3p
 d87 1
+d90 1
+d111 1
 a136 54
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
@@ -66,6 +68,7 @@ a136 54
 ||ucl-voetbal.nl/go/
 ||uecl-voetbal.nl/go/
 ||uel-voetbal.nl/go/
+d231 1
 d270 2
 d273 1
 d304 1

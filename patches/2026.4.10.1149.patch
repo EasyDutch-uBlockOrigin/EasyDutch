@@ -1,16 +1,18 @@
-diff name:easydutch lines:307 checksum:271e20943f
+diff name:easydutch lines:310 checksum:1a84eb608f
 d2 1
 a2 1
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.20.1021.patch#easydutch
+! Diff-Path: patches/2026.4.21.617.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
 a59 1
 ||cdn.prdn.nl^$3p
 d87 1
+d90 1
+d111 1
 a136 58
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
@@ -70,6 +72,7 @@ a136 58
 ||elfvoetbal.nl/photos/dynamic/
 ||112achterhoek-nieuws.nl/images/blocks/*_
 ||persinfo.org/nl/ads$xhr
+d227 1
 d266 2
 d269 1
 d300 1

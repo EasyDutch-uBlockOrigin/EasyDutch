@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.20.1021.patch#easydutch
+! Diff-Path: patches/2026.4.21.617.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -89,7 +89,6 @@ _advertentieleaderboardhome.
 ||advertising-cdn.dpgmedia.cloud^$3p
 ||gratis-neuken.com^$3p
 ||2k19.nl^$3p
-||2k19.nl^$popup
 ||2k21.nl^$3p
 ||adconfigproxy.azurewebsites.net^$3p
 ||adquick.nl^$3p
@@ -110,7 +109,6 @@ _advertentieleaderboardhome.
 ||euroclix.nl^$3p,domain=~panelclix.com|~panelclix.nl
 ||extremecash.nl^$3p
 ||go2.go2cloud.org^$3p
-||go2.go2cloud.org^$popup
 ||hotlinkie.com^$3p
 ||klikbonus.com^$3p
 ||lauwebut.nl^$3p
@@ -284,7 +282,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||boek9.nl/sites/default/files/advertisements/
 ||boek9.nl/sites/default/files/rotating-banners/
 ||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
-||psalmboek.nl/banners/*advertentie$image
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
 .be/la_custom/get_banners_cache$xhr,1p,domain=hagelandactueel.be|leuvenactueel.be
 ||grandprixradio.nl/*/advertisements/

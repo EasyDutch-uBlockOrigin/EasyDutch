@@ -1,13 +1,15 @@
-diff name:easydutch lines:196 checksum:271e20943f
+diff name:easydutch lines:199 checksum:1a84eb608f
 d2 1
 a2 1
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.20.1021.patch#easydutch
+! Diff-Path: patches/2026.4.21.617.patch#easydutch
 a61 1
 ||cdn.prdn.nl^$3p
 d89 1
+d92 1
+d113 1
 a138 44
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
@@ -53,6 +55,7 @@ a138 44
 ||maarkelsnieuws.nl/wp-content/uploads/*.gif$image
 ||oud.startlinken.nl/images/banner$image,1p
 ||oud.startlinken.nl/javascript*Banner$script,1p
+d243 1
 d282 2
 d285 1
 d316 1

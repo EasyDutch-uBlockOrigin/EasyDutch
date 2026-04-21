@@ -1,13 +1,15 @@
-diff name:easydutch lines:167 checksum:271e20943f
+diff name:easydutch lines:170 checksum:1a84eb608f
 d2 1
 a2 1
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.20.1021.patch#easydutch
+! Diff-Path: patches/2026.4.21.617.patch#easydutch
 a61 1
 ||cdn.prdn.nl^$3p
 d89 1
+d92 1
+d113 1
 a138 40
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
@@ -49,6 +51,7 @@ a138 40
 ||omroepzilt.nl/wp-content/uploads/*.gif
 ||ontdek-amerika.nl/images/pictureyes.jpg
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
+d247 1
 d287 1
 d318 1
 d349 2
