@@ -1,10 +1,10 @@
-diff name:easydutch lines:307 checksum:1a84eb608f
+diff name:easydutch lines:308 checksum:20ed7b09fa
 d2 1
 a2 1
-! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
+! Last updated: Thu, 23 Apr 2026 17:29:56 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.21.617.patch#easydutch
+! Diff-Path: patches/2026.4.23.1049.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -115,7 +115,8 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 121
+a543 122
+ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
 omroepzout.nl##.elementor-element:matches-css(before, content: /advertentie/):upward(.elementor-element)
