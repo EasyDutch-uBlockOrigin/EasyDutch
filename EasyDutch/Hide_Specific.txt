@@ -1,8 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
 !
 ! 2026-04-25
+mandelnieuws.be##[class*="blocksponsors-block"]
+internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]
 tvgids.nl##.square-item:has( > .banner)
 fd.nl##.fd-message
@@ -756,8 +758,6 @@ rubenweytjens.be##.view-weather-ads-view
 sun.sr##app-money-exchange
 sun.sr##app-slider-add
 sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
-! 2023-11-03
-schie.nu##h6:has-text(/advert/i):upward(1)
 ! 2023-11-01
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
@@ -884,7 +884,6 @@ republikein.com.na##.hidden-xs.az-adverts > aside:has(a[href*="//nmh.my.na/adver
 republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
-waarzo.nl##.smallbox:has-text(Adds By Google)
 wegdamnieuws.nl##.ads-stack
 ! 2023-04-28
 nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
@@ -1202,7 +1201,6 @@ amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,in
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
-aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)

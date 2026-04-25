@@ -1,17 +1,22 @@
-diff name:easydutch lines:213 checksum:10e7b130d6
+diff name:easydutch lines:225 checksum:c3c553207c
 d2 1
 a2 1
-! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.25.597.patch#easydutch
+! Diff-Path: patches/2026.4.25.789.patch#easydutch
 a61 2
 ||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
 d89 1
 d92 1
 d113 1
-a138 42
+a138 47
+||123inkt.nl/images/oren/*$image
+||123accu.nl/images/oren/*$image
+||123led.nl/images/oren/*$image
+||123-3d.nl/images/oren/*$image
+||123schoon.nl/images/oren/*$image
 ||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
 ||247spice.com/images/*/uploads/partners/$image
 ||dbsuriname.com/wp-content/uploads/*/*banner$image
@@ -65,10 +70,10 @@ a348 2
 d357 2
 d367 1
 d373 1
-d393 2
-d396 1
+d389 9
+d399 1
 d401 1
-d404 6
+d403 8
 d416 3
 d422 4
 d430 1
@@ -84,7 +89,9 @@ d466 1
 d468 4
 d473 2
 d477 6
-a533 73
+a533 75
+mandelnieuws.be##[class*="blocksponsors-block"]
+internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]
 tvgids.nl##.square-item:has( > .banner)
 fd.nl##.fd-message
@@ -165,10 +172,12 @@ d941 2
 d997 2
 d1100 1
 d1106 3
+d1130 1
 d1142 1
 d1157 1
 d1202 2
 d1228 1
+d1237 1
 d1239 2
 d1243 1
 d1259 1
@@ -208,7 +217,10 @@ d1460 4
 d1466 5
 d1476 1
 d1483 1
+d1585 1
 d1593 1
 a1605 2
 ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
 ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
+a1606 1
+lflmagazine.nl#@#.header-advert

@@ -1,8 +1,13 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
 !
 ! 2026-04-25
+||123inkt.nl/images/oren/*$image
+||123accu.nl/images/oren/*$image
+||123led.nl/images/oren/*$image
+||123-3d.nl/images/oren/*$image
+||123schoon.nl/images/oren/*$image
 ||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
 ||247spice.com/images/*/uploads/partners/$image
 ||dbsuriname.com/wp-content/uploads/*/*banner$image
@@ -354,26 +359,12 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /*/TOTO*banner$domain=willem-ii.nl
 ||voetbalrotterdam.nl/wp-content/uploads/*/*banner
 ||voetbalrotterdam.nl/wp-content/uploads/*/fidus
-! 2022-06-28
-||linuxmag.nl/wp-content/uploads/*/*Rectangle*$image
-||linuxmag.nl/wp-content/uploads/*banner
-||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
-||schie.nu/images/*banner
-! 2022-06-27
-||aafm.nl/cms/wp-content/*/banners/$image
 ! 2022-06-22
-||upload.gscdn.nl/uploads/*_Kansino_Feed$image,domain=geenstijl.nl
 ||streekstadcentraal.nl/images/banners/$image
-! 2022-06-21
-||ouders.nl/uploads/alt/$domain=viafora.nl
 ! 2022-05-27
 ||mandelnieuws.be^*/Sponsors/
 ! 2022-05-04 on internetbode.nl
 ||pubble.nl/Content.svc/getAdCollection?
-! 2022-04-26
-||onderwegonline.nl/app/uploads/*/Banner$image
-! 2022-02-14
-||123inkt.nl/images/oren/*$image
 ! 2022-02-08
 ||waarzo.nl/imagestore/site-banners/
 ! 2022-01-18

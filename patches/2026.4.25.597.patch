@@ -1,0 +1,24 @@
+diff name:easydutch lines:23 checksum:c3c553207c
+d2 1
+a2 1
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.25.789.patch#easydutch
+a137 5
+||123inkt.nl/images/oren/*$image
+||123accu.nl/images/oren/*$image
+||123led.nl/images/oren/*$image
+||123-3d.nl/images/oren/*$image
+||123schoon.nl/images/oren/*$image
+d421 6
+d428 1
+d431 2
+a513 2
+mandelnieuws.be##[class*="blocksponsors-block"]
+internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
+d1167 1
+d1269 1
+d1528 1
+a1550 1
+lflmagazine.nl#@#.header-advert

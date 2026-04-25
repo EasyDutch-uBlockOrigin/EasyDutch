@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.25.597.patch#easydutch
+! Diff-Path: patches/2026.4.25.789.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -135,6 +135,11 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||123inkt.nl/images/oren/*$image
+||123accu.nl/images/oren/*$image
+||123led.nl/images/oren/*$image
+||123-3d.nl/images/oren/*$image
+||123schoon.nl/images/oren/*$image
 ||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
 ||247spice.com/images/*/uploads/partners/$image
 ||dbsuriname.com/wp-content/uploads/*/*banner$image
@@ -418,18 +423,9 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /*/TOTO*banner$domain=willem-ii.nl
 ||voetbalrotterdam.nl/wp-content/uploads/*/*banner
 ||voetbalrotterdam.nl/wp-content/uploads/*/fidus
-||linuxmag.nl/wp-content/uploads/*/*Rectangle*$image
-||linuxmag.nl/wp-content/uploads/*banner
-||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
-||schie.nu/images/*banner
-||aafm.nl/cms/wp-content/*/banners/$image
-||upload.gscdn.nl/uploads/*_Kansino_Feed$image,domain=geenstijl.nl
 ||streekstadcentraal.nl/images/banners/$image
-||ouders.nl/uploads/alt/$domain=viafora.nl
 ||mandelnieuws.be^*/Sponsors/
 ||pubble.nl/Content.svc/getAdCollection?
-||onderwegonline.nl/app/uploads/*/Banner$image
-||123inkt.nl/images/oren/*$image
 ||waarzo.nl/imagestore/site-banners/
 ||wettelijke-feestdagen.nl/Images/advertentie$image
 ||wettelijke-feestdagen.nl/Images/banner$image
@@ -511,6 +507,8 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+mandelnieuws.be##[class*="blocksponsors-block"]
+internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]
 tvgids.nl##.square-item:has( > .banner)
 fd.nl##.fd-message
@@ -1164,7 +1162,6 @@ rubenweytjens.be##.view-weather-ads-view
 sun.sr##app-money-exchange
 sun.sr##app-slider-add
 sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
-schie.nu##h6:has-text(/advert/i):upward(1)
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
 nzbindex.nl##form + div a[href^="/"]:has(img)
@@ -1266,7 +1263,6 @@ republikein.com.na##.hidden-xs.az-adverts > aside:has(a[href*="//nmh.my.na/adver
 republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
-waarzo.nl##.smallbox:has-text(Adds By Google)
 wegdamnieuws.nl##.ads-stack
 nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
@@ -1525,7 +1521,6 @@ amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,in
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
-aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
@@ -1548,6 +1543,7 @@ radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
 ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
 gratisaftehalen.nl#@#.ads-image
+lflmagazine.nl#@#.header-advert
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 radiozuidrand.be#@#.advertisement_300x250
 radiozuidrand.be#@#.advertisement_728x90

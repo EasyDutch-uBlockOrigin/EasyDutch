@@ -1,6 +1,6 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Mon, 20 Apr 2026 17:01:54 +0000
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
 !
 ! 2026-04-20
 ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
@@ -8,6 +8,8 @@ ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
 ! 2023-10-13
 gratisaftehalen.nl#@#.ads-image
 ! Uitzonderingen voor EasyList
+! 2026-04-25
+lflmagazine.nl#@#.header-advert
 ! 2026-02-03
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 ! 2022-07-05

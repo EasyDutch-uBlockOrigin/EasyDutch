@@ -1,21 +1,29 @@
-diff name:easydutch lines:43 checksum:10e7b130d6
+diff name:easydutch lines:56 checksum:c3c553207c
 d2 1
 a2 1
-! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
+! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.25.597.patch#easydutch
+! Diff-Path: patches/2026.4.25.789.patch#easydutch
 a61 1
 ||sponsorlink.nl^$3p
-a136 4
+a136 9
+||123inkt.nl/images/oren/*$image
+||123accu.nl/images/oren/*$image
+||123led.nl/images/oren/*$image
+||123-3d.nl/images/oren/*$image
+||123schoon.nl/images/oren/*$image
 ||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
 ||247spice.com/images/*/uploads/partners/$image
 ||dbsuriname.com/wp-content/uploads/*/*banner$image
 ||welkominzuidhorn.nl/*/banner$image
 d152 6
-d426 1
-d428 1
-a516 12
+d422 8
+d431 1
+d434 2
+a516 14
+mandelnieuws.be##[class*="blocksponsors-block"]
+internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]
 tvgids.nl##.square-item:has( > .banner)
 fd.nl##.fd-message
@@ -29,6 +37,8 @@ dartsnieuws.com##.raw-html-component
 welkominzuidhorn.nl###bannerrow
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 d665 3
+d1161 1
+d1263 1
 d1371 1
 d1382 1
 d1384 1
@@ -42,3 +52,6 @@ a1409 1
 binnenvaartkrant.nl,westerwoldeactueel.nl##.g
 d1411 6
 d1418 2
+d1548 1
+a1570 1
+lflmagazine.nl#@#.header-advert
