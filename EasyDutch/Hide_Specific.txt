@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+broadcastmagazine.nl##.advertisement
 247spice.com##section:has-text(Partners)
 dbsuriname.com##.adcmdr-group
 investmentofficer.nl##.region-banner
@@ -1056,7 +1057,6 @@ creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 ! 2022-06-27
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
-broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
 123geldzaken.nl##.widget_sponsor
 123geldzaken.nl##.widget_sponsorlinks
