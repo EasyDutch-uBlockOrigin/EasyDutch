@@ -1043,7 +1043,6 @@ voetbalnederland.nl###submenubanner
 voetbalrotterdam.nl##div[class^="r89-desktop"]
 ! 2022-06-28
 golf.be##[class*="-ad-banner-box"]
-gids.tv##.advertisement:upward(1)
 geelfm.be##a[href="/adverteren/"]:upward(1)
 risallah.com##[class^="zijbalk"] > table > tbody:has-text(Advertentie)
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
