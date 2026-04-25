@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+tvgids.nl##section[class$="banner"]
+tvgids.nl##.square-item:has( > .banner)
 fd.nl##.fd-message
 broadcastmagazine.nl##.advertisement
 247spice.com##section:has-text(Partners)
@@ -195,9 +197,6 @@ nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
 gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
-tvgids.nl###hourbanner
-tvgids.nl##.section-banner
-tvgids.nl##.square-item:has( > .banner)
 ment55.be##[id^="text-"]:has-text(advert)
 ! 2026-03-28
 radiovisie.eu##.gmillok
