@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+dbsuriname.com##.adcmdr-group
 investmentofficer.nl##.region-banner
 investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
 streekstadcentraal.nl##.promo-wrapper
@@ -1063,7 +1064,7 @@ aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
 ! 2022-06-22
-binnenvaartkrant.nl,dbsuriname.com,westerwoldeactueel.nl##.g
+binnenvaartkrant.nl,westerwoldeactueel.nl##.g
 ! 2022-06-16
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 ! 2022-06-14
