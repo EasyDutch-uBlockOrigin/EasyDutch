@@ -2,6 +2,9 @@
 ! Description: Filters for blocking only general third-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-25
+! streekstadcentraal.nl
+||sponsorlink.nl^$3p
 ! 2026-04-18
 ! retailtrends.nl,vastgoedjournaal.nl
 ||cdn.prdn.nl^$3p
