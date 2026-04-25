@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+investmentofficer.nl##.region-banner
+investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
 streekstadcentraal.nl##.promo-wrapper
 dartsnieuws.com##.raw-html-component
 welkominzuidhorn.nl###bannerrow
@@ -1062,9 +1064,6 @@ aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
 ! 2022-06-22
 binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
-investmentofficer.nl##.region-banner
-investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > .col)
-investmentofficer.nl##.io-tape-card[href^="/partner"]
 ! 2022-06-16
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 ! 2022-06-14
