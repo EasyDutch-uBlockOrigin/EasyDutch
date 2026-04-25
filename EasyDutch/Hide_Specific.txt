@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+247spice.com##section:has-text(Partners)
 dbsuriname.com##.adcmdr-group
 investmentofficer.nl##.region-banner
 investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
@@ -1061,8 +1062,6 @@ autozine.nl##.ad300x1050
 aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsor
 123geldzaken.nl##.widget_sponsorlinks
-247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
-247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
 ! 2022-06-22
 binnenvaartkrant.nl,westerwoldeactueel.nl##.g
 ! 2022-06-16
