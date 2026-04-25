@@ -367,7 +367,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2022-06-27
 ||aafm.nl/cms/wp-content/*/banners/$image
 ! 2022-06-22
-||upload.gscdn.nl/uploads/*_Kansino_Feed$image,domain=geenstijl.nl
 ||streekstadcentraal.nl/images/banners/$image
 ! 2022-05-27
 ||mandelnieuws.be^*/Sponsors/
