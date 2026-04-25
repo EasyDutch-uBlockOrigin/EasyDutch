@@ -363,7 +363,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||linuxmag.nl/wp-content/uploads/*/*Rectangle*$image
 ||linuxmag.nl/wp-content/uploads/*banner
 ||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
-||schie.nu/images/*banner
 ! 2022-06-22
 ||streekstadcentraal.nl/images/banners/$image
 ! 2022-05-27
