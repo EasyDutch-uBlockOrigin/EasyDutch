@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-25
+||welkominzuidhorn.nl/*/banner$image
 ! 2026-04-20
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
