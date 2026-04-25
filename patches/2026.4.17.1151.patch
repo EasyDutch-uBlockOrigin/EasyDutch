@@ -1,16 +1,21 @@
-diff name:easydutch lines:171 checksum:20ed7b09fa
+diff name:easydutch lines:194 checksum:10e7b130d6
 d2 1
 a2 1
-! Last updated: Thu, 23 Apr 2026 17:29:56 +0000
+! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.23.1049.patch#easydutch
-a61 1
+! Diff-Path: patches/2026.4.25.597.patch#easydutch
+a61 2
+||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
 d89 1
 d92 1
 d113 1
-a138 40
+a138 38
+||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
+||247spice.com/images/*/uploads/partners/$image
+||dbsuriname.com/wp-content/uploads/*/*banner$image
+||welkominzuidhorn.nl/*/banner$image
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
 ||b-cdn.net/*.gif$image,domain=rtvstichtsevecht.nl
@@ -26,12 +31,6 @@ a138 40
 ||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
-||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
-||dagbladdewest.com/wp-content/uploads/*/*300x250$image
-||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
-||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
 ||edelmetaal-info.nl/app/uploads/*/*.gif
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
@@ -61,7 +60,8 @@ a350 2
 d359 2
 d369 1
 d375 1
-d395 1
+d395 2
+d398 1
 d403 1
 d406 5
 d417 3
@@ -79,7 +79,18 @@ d466 1
 d468 4
 d473 2
 d477 6
-a533 53
+a533 64
+tvgids.nl##section[class$="banner"]
+tvgids.nl##.square-item:has( > .banner)
+fd.nl##.fd-message
+broadcastmagazine.nl##.advertisement
+247spice.com##section:has-text(Partners)
+dbsuriname.com##.adcmdr-group
+investmentofficer.nl##.region-banner
+investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
+streekstadcentraal.nl##.promo-wrapper
+dartsnieuws.com##.raw-html-component
+welkominzuidhorn.nl###bannerrow
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
@@ -133,6 +144,7 @@ motocrossplanet.com##.penci-banner-box
 nevobo.nl##.js-banner-slot:upward(.content-block)
 omroepzilt.nl##.ziltad-adwrapper
 opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
+d630 3
 d873 1
 d896 4
 d950 2
@@ -152,9 +164,20 @@ d1351 1
 d1354 1
 d1358 1
 d1360 1
+d1365 1
 d1368 1
-d1385 3
-d1407 1
+d1377 1
+d1379 1
+d1381 1
+d1383 5
+d1389 2
+d1394 1
+d1396 2
+d1400 9
+a1408 1
+binnenvaartkrant.nl,westerwoldeactueel.nl##.g
+d1410 6
+d1417 2
 d1421 2
 d1424 6
 d1431 5

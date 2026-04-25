@@ -1,16 +1,21 @@
-diff name:easydutch lines:190 checksum:20ed7b09fa
+diff name:easydutch lines:213 checksum:10e7b130d6
 d2 1
 a2 1
-! Last updated: Thu, 23 Apr 2026 17:29:56 +0000
+! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.23.1049.patch#easydutch
-a61 1
+! Diff-Path: patches/2026.4.25.597.patch#easydutch
+a61 2
+||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
 d89 1
 d92 1
 d113 1
-a138 44
+a138 42
+||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
+||247spice.com/images/*/uploads/partners/$image
+||dbsuriname.com/wp-content/uploads/*/*banner$image
+||welkominzuidhorn.nl/*/banner$image
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
 ||b-cdn.net/*.gif$image,domain=rtvstichtsevecht.nl
@@ -26,12 +31,6 @@ a138 44
 ||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
-||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
-||dagbladdewest.com/wp-content/uploads/*/*300x250$image
-||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
-||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
 ||edelmetaal-info.nl/app/uploads/*/*.gif
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
@@ -66,7 +65,8 @@ a348 2
 d357 2
 d367 1
 d373 1
-d393 1
+d393 2
+d396 1
 d401 1
 d404 6
 d416 3
@@ -84,7 +84,18 @@ d466 1
 d468 4
 d473 2
 d477 6
-a533 62
+a533 73
+tvgids.nl##section[class$="banner"]
+tvgids.nl##.square-item:has( > .banner)
+fd.nl##.fd-message
+broadcastmagazine.nl##.advertisement
+247spice.com##section:has-text(Partners)
+dbsuriname.com##.adcmdr-group
+investmentofficer.nl##.region-banner
+investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
+streekstadcentraal.nl##.promo-wrapper
+dartsnieuws.com##.raw-html-component
+welkominzuidhorn.nl###bannerrow
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
@@ -147,6 +158,7 @@ racesport.nl##.kg_custom_partner_widget_main
 racesport.nl##.pnvp-ad-wrap ~ hr
 kalender-365.nl##[id^="dish-"]
 kalender-365.nl##.box_ag
+d621 3
 d864 1
 d887 4
 d941 2
@@ -167,9 +179,20 @@ d1343 1
 d1346 1
 d1350 1
 d1352 1
+d1357 1
 d1360 1
-d1377 3
-d1399 1
+d1369 1
+d1371 1
+d1373 1
+d1375 5
+d1381 2
+d1386 1
+d1388 2
+d1392 9
+a1400 1
+binnenvaartkrant.nl,westerwoldeactueel.nl##.g
+d1402 6
+d1409 2
 d1413 2
 d1416 6
 d1423 5

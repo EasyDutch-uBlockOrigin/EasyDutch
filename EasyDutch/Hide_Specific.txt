@@ -1,7 +1,19 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 23 Apr 2026 17:29:56 +0000
+! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
 !
+! 2026-04-25
+tvgids.nl##section[class$="banner"]
+tvgids.nl##.square-item:has( > .banner)
+fd.nl##.fd-message
+broadcastmagazine.nl##.advertisement
+247spice.com##section:has-text(Partners)
+dbsuriname.com##.adcmdr-group
+investmentofficer.nl##.region-banner
+investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
+streekstadcentraal.nl##.promo-wrapper
+dartsnieuws.com##.raw-html-component
+welkominzuidhorn.nl###bannerrow
 ! 2026-04-23
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 ! 2026-04-20
@@ -185,9 +197,6 @@ nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
 gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
-tvgids.nl###hourbanner
-tvgids.nl##.section-banner
-tvgids.nl##.square-item:has( > .banner)
 ment55.be##[id^="text-"]:has-text(advert)
 ! 2026-03-28
 radiovisie.eu##.gmillok
@@ -1022,7 +1031,6 @@ persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
 itnijs.frl##.banner:upward(.widget)
-indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 sleutelstad.nl##.g
 hollywoodhuizen.nl##rssapp-carousel
 h2owaternetwerk.nl##.bannergroup:upward(.module)
@@ -1034,50 +1042,23 @@ voetbalnederland.nl###submenubanner
 voetbalrotterdam.nl##div[class^="r89-desktop"]
 ! 2022-06-28
 golf.be##[class*="-ad-banner-box"]
-gids.tv##.advertisement:upward(1)
 geelfm.be##a[href="/adverteren/"]:upward(1)
-fleet-mobility.nl##.spotlight:has-text(Partners)
 risallah.com##[class^="zijbalk"] > table > tbody:has-text(Advertentie)
-fd.nl##.noAdBlockDetected .fd-message
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
-elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
-eurogamer.nl##.desktop_mpu
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
-dekrantvantynaarlo.nl##.et_pb_ads_agsdcm_0
-dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
 creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 ! 2022-06-27
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
-broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
-autozine.nl##.ad300x1050
-aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsor
 123geldzaken.nl##.widget_sponsorlinks
-247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
-247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
 ! 2022-06-22
-binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
-investmentofficer.nl##.region-banner
-investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > .col)
-investmentofficer.nl##.io-tape-card[href^="/partner"]
-streekstadcentraal.nl##[class$="-banners-wrapper"]
+binnenvaartkrant.nl,westerwoldeactueel.nl##.g
 ! 2022-06-16
-dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
-dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
-wkdarts.nl##.vcex-module:has-text(advert)
-wkdarts.nl##[href="https://www.loketkansspel.nl/"]
-! 2022-06-15
-indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.com/"])
 ! 2022-06-14
-streamwijzer.nl##.wp-block-buttons
-vlaamskijken.nl##a[href^="https://partner.bol.com/"]
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
-! 2022-06-07
-guidinc.nl##.promotion_link
-radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
 ! 2022-05-27
 radioviainternet.be##.banner-size-leaderbord
 wradio.be##.c-advertiser-logos

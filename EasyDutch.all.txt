@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Thu, 23 Apr 2026 17:29:56 +0000
+! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.23.1049.patch#easydutch
+! Diff-Path: patches/2026.4.25.597.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -59,6 +59,7 @@ _advertentieleaderboardhome.
 ||a.scholieren.com^
 ||content2.nrc.nl^
 ! *** EasyDutch:EasyDutch/Block_third_party_Server.txt ***
+||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
 ||partner-nl-be.hema.com^$3p
 ||clkmg.com^$3p
@@ -134,6 +135,10 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
+||247spice.com/images/*/uploads/partners/$image
+||dbsuriname.com/wp-content/uploads/*/*banner$image
+||welkominzuidhorn.nl/*/banner$image
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
 ||b-cdn.net/*.gif$image,domain=rtvstichtsevecht.nl
@@ -149,12 +154,6 @@ _advertentieleaderboardhome.
 ||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
-||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
-||dagbladdewest.com/wp-content/uploads/*/*300x250$image
-||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
-||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
 ||edelmetaal-info.nl/app/uploads/*/*.gif
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
@@ -423,9 +422,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||linuxmag.nl/wp-content/uploads/*banner
 ||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
 ||schie.nu/images/*banner
-||broadcastmagazine.nl/wp-content/uploads/*/SMPhomepagenw2.gif
 ||aafm.nl/cms/wp-content/*/banners/$image
-||aavisie.nl/cms/wp-content/*/banners/$image
 ||upload.gscdn.nl/uploads/*_Kansino_Feed$image,domain=geenstijl.nl
 ||streekstadcentraal.nl/images/banners/$image
 ||ouders.nl/uploads/alt/$domain=viafora.nl
@@ -514,6 +511,17 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+tvgids.nl##section[class$="banner"]
+tvgids.nl##.square-item:has( > .banner)
+fd.nl##.fd-message
+broadcastmagazine.nl##.advertisement
+247spice.com##section:has-text(Partners)
+dbsuriname.com##.adcmdr-group
+investmentofficer.nl##.region-banner
+investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
+streekstadcentraal.nl##.promo-wrapper
+dartsnieuws.com##.raw-html-component
+welkominzuidhorn.nl###bannerrow
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
@@ -663,9 +671,6 @@ nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
 gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
-tvgids.nl###hourbanner
-tvgids.nl##.section-banner
-tvgids.nl##.square-item:has( > .banner)
 ment55.be##[id^="text-"]:has-text(advert)
 radiovisie.eu##.gmillok
 radiovisie.eu##.widget:has(.adsbygoogle)
@@ -1369,7 +1374,6 @@ persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
 itnijs.frl##.banner:upward(.widget)
-indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 sleutelstad.nl##.g
 hollywoodhuizen.nl##rssapp-carousel
 h2owaternetwerk.nl##.bannergroup:upward(.module)
@@ -1380,44 +1384,19 @@ vitesse.nl##.row [id^="form"] + .box > .box-body:has(img)
 voetbalnederland.nl###submenubanner
 voetbalrotterdam.nl##div[class^="r89-desktop"]
 golf.be##[class*="-ad-banner-box"]
-gids.tv##.advertisement:upward(1)
 geelfm.be##a[href="/adverteren/"]:upward(1)
-fleet-mobility.nl##.spotlight:has-text(Partners)
 risallah.com##[class^="zijbalk"] > table > tbody:has-text(Advertentie)
-fd.nl##.noAdBlockDetected .fd-message
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
-elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
-eurogamer.nl##.desktop_mpu
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
-dekrantvantynaarlo.nl##.et_pb_ads_agsdcm_0
-dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
 creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
-broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
-autozine.nl##.ad300x1050
-aavisie.nl##[id^="loaBlock"]:has-text(Advertentie)
 123geldzaken.nl##.widget_sponsor
 123geldzaken.nl##.widget_sponsorlinks
-247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/)
-247spice.com##.elementor-widget-heading:has-text(/Partners|Advert/) + section
-binnenvaartkrant.nl,dbsuriname.com,regioinbedrijf.nl,westerwoldeactueel.nl##.g
-investmentofficer.nl##.region-banner
-investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > .col)
-investmentofficer.nl##.io-tape-card[href^="/partner"]
-streekstadcentraal.nl##[class$="-banners-wrapper"]
-dartsnieuws.com##.sda
+binnenvaartkrant.nl,westerwoldeactueel.nl##.g
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
-dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
-wkdarts.nl##.vcex-module:has-text(advert)
-wkdarts.nl##[href="https://www.loketkansspel.nl/"]
-indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.com/"])
-streamwijzer.nl##.wp-block-buttons
-vlaamskijken.nl##a[href^="https://partner.bol.com/"]
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
-guidinc.nl##.promotion_link
-radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
 radioviainternet.be##.banner-size-leaderbord
 wradio.be##.c-advertiser-logos
 infinance.nl##.slickcarousel

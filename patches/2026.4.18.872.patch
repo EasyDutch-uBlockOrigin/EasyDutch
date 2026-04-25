@@ -1,14 +1,20 @@
-diff name:easydutch lines:122 checksum:20ed7b09fa
+diff name:easydutch lines:146 checksum:10e7b130d6
 d2 1
 a2 1
-! Last updated: Thu, 23 Apr 2026 17:29:56 +0000
+! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.23.1049.patch#easydutch
+! Diff-Path: patches/2026.4.25.597.patch#easydutch
+a61 1
+||sponsorlink.nl^$3p
 d90 1
 d93 1
 d114 1
-a139 30
+a139 28
+||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
+||247spice.com/images/*/uploads/partners/$image
+||dbsuriname.com/wp-content/uploads/*/*banner$image
+||welkominzuidhorn.nl/*/banner$image
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
 ||b-cdn.net/*.gif$image,domain=rtvstichtsevecht.nl
@@ -24,12 +30,6 @@ a139 30
 ||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
-||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
-||dagbladdewest.com/wp-content/uploads/*/*300x250$image
-||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
-||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
 ||edelmetaal-info.nl/app/uploads/*/*.gif
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
@@ -46,7 +46,8 @@ a359 1
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|rtvlansingerland.nl|unitednews.sr
 d377 1
 d383 1
-d403 1
+d403 2
+d406 1
 d411 1
 d420 3
 d426 4
@@ -61,7 +62,18 @@ d461 1
 d464 3
 d469 1
 d471 1
-a525 33
+a525 44
+tvgids.nl##section[class$="banner"]
+tvgids.nl##.square-item:has( > .banner)
+fd.nl##.fd-message
+broadcastmagazine.nl##.advertisement
+247spice.com##section:has-text(Partners)
+dbsuriname.com##.adcmdr-group
+investmentofficer.nl##.region-banner
+investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
+streekstadcentraal.nl##.promo-wrapper
+dartsnieuws.com##.raw-html-component
+welkominzuidhorn.nl###bannerrow
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 dtvnieuws.nl##span:has-text(Advert):upward(.widget)
 omroepvenlo.nl##span:has-text(Advert):upward(.widget)
@@ -95,6 +107,7 @@ techradar.com##.dfp-leaderboard-container
 techradar.com##.sponsored-post:upward(.listingResult)
 techradar.com##[class$="ad-unit"]
 fotografie.nl##.banner-ad
+d642 3
 d885 1
 d908 4
 d962 2
@@ -110,8 +123,19 @@ d1348 1
 d1357 1
 d1360 1
 d1364 1
-d1389 3
-d1411 1
+d1370 1
+d1381 1
+d1383 1
+d1385 1
+d1387 5
+d1393 2
+d1398 1
+d1400 2
+d1404 9
+a1412 1
+binnenvaartkrant.nl,westerwoldeactueel.nl##.g
+d1414 6
+d1421 2
 d1425 2
 d1428 6
 d1435 5

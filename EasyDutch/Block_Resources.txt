@@ -1,7 +1,12 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 21 Apr 2026 10:18:01 +0000
+! Last updated: Sat, 25 Apr 2026 09:57:40 +0000
 !
+! 2026-04-25
+||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
+||247spice.com/images/*/uploads/partners/$image
+||dbsuriname.com/wp-content/uploads/*/*banner$image
+||welkominzuidhorn.nl/*/banner$image
 ! 2026-04-20
 ||b-cdn.net/*.gif$image,domain=dtvnieuws.nl
 ||cdn.dtvnieuws.nl/*/w_*/banner-$image
@@ -18,12 +23,6 @@
 ||ciaotutti.nl/wp-content/smush-webp/*/ghiacci-vecchi-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/villa-in-umbria-$image
 ||ciaotutti.nl/wp-content/smush-webp/*/the-vespa-trip$image
-||dagbladdewest.com/wp-content/uploads/*/*1080.jpg$image
-||dagbladdewest.com/wp-content/uploads/*/*300x250$image
-||dagbladdewest.com/wp-content/uploads/2020/10/Grand-Prix-Bulletliner-2024.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/10/SELFRELIANCE-WEBSITE-Reisverzekering-3.jpg$image
-||dagbladdewest.com/wp-content/uploads/2020/06/NV-Grand-Prix-Suriname-ROPS.jpg$image
-||dagbladdewest.com/wp-content/uploads/2024/04/GOW2-Energy-to-go-ad.png$image
 ||edelmetaal-info.nl/app/uploads/*/*.gif
 ||edelmetaal-info.nl/cdfund-336x280.html
 ||elektormagazine.nl/waitress/serve?__callback=waitress&*=advertisement$xhr
@@ -361,9 +360,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||lflmagazine.nl/wp-content/uploads/*300x250*.gif$image,1p
 ||schie.nu/images/*banner
 ! 2022-06-27
-||broadcastmagazine.nl/wp-content/uploads/*/SMPhomepagenw2.gif
 ||aafm.nl/cms/wp-content/*/banners/$image
-||aavisie.nl/cms/wp-content/*/banners/$image
 ! 2022-06-22
 ||upload.gscdn.nl/uploads/*_Kansino_Feed$image,domain=geenstijl.nl
 ||streekstadcentraal.nl/images/banners/$image
