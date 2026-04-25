@@ -1049,7 +1049,6 @@ risallah.com##[class^="zijbalk"] > table > tbody:has-text(Advertentie)
 fd.nl##.noAdBlockDetected .fd-message
 europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrachtwagens.nl##.pt-3.height-90:has([id^="div-gpt-ad"])
 elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
-eurogamer.nl##.desktop_mpu
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
 creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
