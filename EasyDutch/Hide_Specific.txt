@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+dartsnieuws.com##.raw-html-component
 welkominzuidhorn.nl###bannerrow
 ! 2026-04-23
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
@@ -1065,7 +1066,6 @@ investmentofficer.nl##[id*="dfptaghomeadvertorial"]:upward(.views-rows > .row > 
 investmentofficer.nl##.io-tape-card[href^="/partner"]
 streekstadcentraal.nl##[class$="-banners-wrapper"]
 ! 2022-06-16
-dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 ! 2022-06-14
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
