@@ -1074,7 +1074,6 @@ wkdarts.nl##[href="https://www.loketkansspel.nl/"]
 ! 2022-06-15
 indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.com/"])
 ! 2022-06-14
-streamwijzer.nl##.wp-block-buttons
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
 ! 2022-05-27
 radioviainternet.be##.banner-size-leaderbord
