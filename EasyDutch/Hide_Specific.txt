@@ -1058,7 +1058,6 @@ dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
 broadcastmagazine.nl##.banner
 participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
-autozine.nl##.ad300x1050
 123geldzaken.nl##.widget_sponsor
 123geldzaken.nl##.widget_sponsorlinks
 ! 2022-06-22
