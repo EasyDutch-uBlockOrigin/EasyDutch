@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-04-25
+welkominzuidhorn.nl###bannerrow
 ! 2026-04-23
 ah.be,ah.nl##div[data-testid="spotlight-ahrms"]
 ! 2026-04-20
