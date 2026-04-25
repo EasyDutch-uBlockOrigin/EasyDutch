@@ -1067,7 +1067,6 @@ streekstadcentraal.nl##[class$="-banners-wrapper"]
 ! 2022-06-16
 dartsnieuws.com##.sda
 dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
-dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
 ! 2022-06-14
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
 ! 2022-05-27
