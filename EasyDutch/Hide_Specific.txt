@@ -1024,7 +1024,6 @@ persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
 itnijs.frl##.banner:upward(.widget)
-indignatie.nl###mvp-content-main .adsbygoogle:upward(1)
 sleutelstad.nl##.g
 hollywoodhuizen.nl##rssapp-carousel
 h2owaternetwerk.nl##.bannergroup:upward(.module)
@@ -1071,8 +1070,6 @@ dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
 dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
 wkdarts.nl##.vcex-module:has-text(advert)
 wkdarts.nl##[href="https://www.loketkansspel.nl/"]
-! 2022-06-15
-indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.com/"])
 ! 2022-06-14
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
 ! 2022-05-27
