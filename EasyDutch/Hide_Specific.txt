@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-25
+mandelnieuws.be##[class*="blocksponsors-block"]
 internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]
 tvgids.nl##.square-item:has( > .banner)
