@@ -884,7 +884,6 @@ republikein.com.na##.hidden-xs.az-adverts > aside:has(a[href*="//nmh.my.na/adver
 republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
-waarzo.nl##.smallbox:has-text(Adds By Google)
 wegdamnieuws.nl##.ads-stack
 ! 2023-04-28
 nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
