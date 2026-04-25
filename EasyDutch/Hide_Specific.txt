@@ -758,8 +758,6 @@ rubenweytjens.be##.view-weather-ads-view
 sun.sr##app-money-exchange
 sun.sr##app-slider-add
 sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
-! 2023-11-03
-schie.nu##h6:has-text(/advert/i):upward(1)
 ! 2023-11-01
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
