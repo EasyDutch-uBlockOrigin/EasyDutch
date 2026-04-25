@@ -1051,8 +1051,6 @@ europa-bouwmachines.nl,europa-heftruck.nl,europa-landbouwmachines.nl,europa-vrac
 elegance.nl##div[class^="vc_row"]:has(.wpb_wrapper .adsbygoogle):not(:has([href]))
 eurogamer.nl##.desktop_mpu
 drentsnieuws.nl##.shadow:has(#bannerCarousel)
-dekrantvantynaarlo.nl##.et_pb_ads_agsdcm_0
-dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
 creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 ! 2022-06-27
