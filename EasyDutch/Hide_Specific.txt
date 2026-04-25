@@ -1077,8 +1077,6 @@ indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.
 streamwijzer.nl##.wp-block-buttons
 vlaamskijken.nl##a[href^="https://partner.bol.com/"]
 vlaamskijken.nl##div[class^="col"]:has([class^="add"])
-! 2022-06-07
-guidinc.nl##.promotion_link
 ! 2022-05-27
 radioviainternet.be##.banner-size-leaderbord
 wradio.be##.c-advertiser-logos
