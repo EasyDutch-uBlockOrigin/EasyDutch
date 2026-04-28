@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-28
+voetbalgelderland.nl##div[class^="r89-"]
+voetbalgelderland.nl##div[id^="r89-"]
 welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 groningsnieuws.nl###posts .in-feed
 hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
