@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-28
+hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
+hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
 ! Pijper Media
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##body > div:has(> div[data-aa-adunit])
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##center:has(> div[data-aa-adunit])
@@ -1000,8 +1002,6 @@ webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
-hollywoodhuizen.nl##.a-widget
-hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
 nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 vakantieweb.be##.partners-immo
@@ -1031,7 +1031,6 @@ kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
 itnijs.frl##.banner:upward(.widget)
 sleutelstad.nl##.g
-hollywoodhuizen.nl##rssapp-carousel
 h2owaternetwerk.nl##.bannergroup:upward(.module)
 h2owaternetwerk.nl##.ja-banner
 groningsnieuws.nl##aside.widget:has(figure img)
