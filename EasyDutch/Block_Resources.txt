@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-28
+||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
 ||persberichten.com/*.gif$image
 ||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
 ! 2026-04-25
