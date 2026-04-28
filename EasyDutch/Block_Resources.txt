@@ -357,8 +357,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
 ||tickers.zimmo.be/gva/$domain=gva.be
 /*/TOTO*banner$domain=willem-ii.nl
-||voetbalrotterdam.nl/wp-content/uploads/*/*banner
-||voetbalrotterdam.nl/wp-content/uploads/*/fidus
 ! 2022-06-22
 ||streekstadcentraal.nl/images/banners/$image
 ! 2022-05-27
