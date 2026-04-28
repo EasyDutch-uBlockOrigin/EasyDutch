@@ -1028,7 +1028,6 @@ floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img
 gigantfm.nl##.onderdelenshop
 mijn-tv-gids.be##[id^="ads-row"]
 ! 2022-06-29
-persberichten.com##[id^="PanelTopAds"]
 kekmama.nl##[id^="section-ad-banner"]
 sleutelstad.nl##.g
 h2owaternetwerk.nl##.bannergroup:upward(.module)
