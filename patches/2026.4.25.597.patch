@@ -1,20 +1,37 @@
-diff name:easydutch lines:29 checksum:dc578c89eb
+diff name:easydutch lines:56 checksum:b7dcd42693
 d2 1
 a2 1
-! Last updated: Tue, 28 Apr 2026 15:50:54 +0000
+! Last updated: Tue, 28 Apr 2026 17:41:31 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.28.950.patch#easydutch
-a137 5
+! Diff-Path: patches/2026.4.28.1061.patch#easydutch
+a137 8
+||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
+||persberichten.com/*.gif$image
+||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
 ||123inkt.nl/images/oren/*$image
 ||123accu.nl/images/oren/*$image
 ||123led.nl/images/oren/*$image
 ||123-3d.nl/images/oren/*$image
 ||123schoon.nl/images/oren/*$image
-d421 6
+d375 1
+d384 1
+a384 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
+d396 1
+d412 1
+d417 10
 d428 1
 d431 2
-a513 7
+d457 1
+a513 14
+jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
+voetbalgelderland.nl##div[id^="r89-"]
+voetbalrotterdam.nl##.lshowcase-logos
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
+groningsnieuws.nl###posts .in-feed
+hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
+hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##body > div:has(> div[data-aa-adunit])
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##center:has(> div[data-aa-adunit])
 dingenvoorvrouwen.nl###WB_VIDEO_PLAYER_TARGET:upward(div)
@@ -23,8 +40,18 @@ tipsenweetjes.nl##[data-aa-adunit]:upward(.widget)
 mandelnieuws.be##[class*="blocksponsors-block"]
 internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 d635 6
+a1059 1
+kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 d1167 1
 d1269 1
+d1277 1
+d1350 2
+d1373 2
+d1376 1
+d1378 1
+d1381 1
+d1383 1
+d1385 1
 d1528 1
 a1550 1
 lflmagazine.nl#@#.header-advert

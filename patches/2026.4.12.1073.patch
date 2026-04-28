@@ -1,17 +1,20 @@
-diff name:easydutch lines:241 checksum:dc578c89eb
+diff name:easydutch lines:261 checksum:b7dcd42693
 d2 1
 a2 1
-! Last updated: Tue, 28 Apr 2026 15:50:54 +0000
+! Last updated: Tue, 28 Apr 2026 17:41:31 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.28.950.patch#easydutch
+! Diff-Path: patches/2026.4.28.1061.patch#easydutch
 a61 2
 ||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
 d89 1
 d92 1
 d113 1
-a138 47
+a138 50
+||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
+||persberichten.com/*.gif$image
+||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
 ||123inkt.nl/images/oren/*$image
 ||123accu.nl/images/oren/*$image
 ||123led.nl/images/oren/*$image
@@ -63,14 +66,17 @@ d243 1
 d282 2
 d285 1
 d316 1
+d339 1
 d347 2
 a348 2
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|rtvlansingerland.nl|unitednews.sr
-/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|sleutelstad.nl|unitednews.sr
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
 d357 2
+d362 1
 d367 1
 d373 1
-d389 9
+d380 1
+d385 13
 d399 1
 d401 1
 d403 8
@@ -84,12 +90,19 @@ d444 6
 d452 1
 d454 2
 d458 1
-d461 3
+d461 4
 d466 1
 d468 4
 d473 2
 d477 6
-a533 88
+a533 95
+jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
+voetbalgelderland.nl##div[id^="r89-"]
+voetbalrotterdam.nl##.lshowcase-logos
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
+groningsnieuws.nl###posts .in-feed
+hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
+hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##body > div:has(> div[data-aa-adunit])
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##center:has(> div[data-aa-adunit])
 dingenvoorvrouwen.nl###WB_VIDEO_PLAYER_TARGET:upward(div)
@@ -185,6 +198,8 @@ d861 1
 d884 4
 d938 2
 d994 2
+a1015 1
+kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 d1097 1
 d1103 3
 d1127 1
@@ -196,16 +211,21 @@ d1226 1
 d1235 1
 d1237 2
 d1241 1
+d1246 1
 d1257 1
 d1309 2
 d1319 1
+d1323 2
 d1332 1
 d1341 1
 d1344 1
 d1348 1
-d1350 1
-d1355 1
-d1358 1
+d1350 3
+d1354 2
+d1357 2
+d1361 1
+d1363 1
+d1365 1
 d1367 1
 d1369 1
 d1371 1

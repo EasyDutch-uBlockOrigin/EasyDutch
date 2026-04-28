@@ -1,8 +1,15 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 28 Apr 2026 15:50:54 +0000
+! Last updated: Tue, 28 Apr 2026 17:41:31 +0000
 !
 ! 2026-04-28
+jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
+voetbalgelderland.nl##div[id^="r89-"]
+voetbalrotterdam.nl##.lshowcase-logos
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
+groningsnieuws.nl###posts .in-feed
+hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
+hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
 ! Pijper Media
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##body > div:has(> div[data-aa-adunit])
 autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##center:has(> div[data-aa-adunit])
@@ -637,6 +644,7 @@ parool.nl,trouw.nl##.position-after-main-home
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 hln.be###temptation-position-OORTJE
+kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
@@ -893,7 +901,6 @@ motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.
 pu.nl##.ad-container
 sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
-voetbalrotterdam.nl##.lshowcase-logos
 ! 2023-04-26
 kookboekennieuws.nl##.cb-sidebar-widget:has-text(Kijk ook eens op:)
 rtvmaastricht.nl##.prom
@@ -1000,8 +1007,6 @@ webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
-hollywoodhuizen.nl##.a-widget
-hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
 nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 vakantieweb.be##.partners-immo
@@ -1026,19 +1031,12 @@ floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img
 gigantfm.nl##.onderdelenshop
 mijn-tv-gids.be##[id^="ads-row"]
 ! 2022-06-29
-persberichten.com##[id^="PanelTopAds"]
-kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
-itnijs.frl##.banner:upward(.widget)
 sleutelstad.nl##.g
-hollywoodhuizen.nl##rssapp-carousel
 h2owaternetwerk.nl##.bannergroup:upward(.module)
 h2owaternetwerk.nl##.ja-banner
-groningsnieuws.nl##aside.widget:has(figure img)
 unitednews.sr##.slider-container
-vitesse.nl##.row [id^="form"] + .box > .box-body:has(img)
 voetbalnederland.nl###submenubanner
-voetbalrotterdam.nl##div[class^="r89-desktop"]
 ! 2022-06-28
 golf.be##[class*="-ad-banner-box"]
 geelfm.be##a[href="/adverteren/"]:upward(1)
