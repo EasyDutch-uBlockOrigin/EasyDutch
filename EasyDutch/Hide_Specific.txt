@@ -1030,7 +1030,6 @@ mijn-tv-gids.be##[id^="ads-row"]
 persberichten.com##[id^="PanelTopAds"]
 kidsweek.nl##.node-advertorial:upward(1)
 kekmama.nl##[id^="section-ad-banner"]
-itnijs.frl##.banner:upward(.widget)
 sleutelstad.nl##.g
 h2owaternetwerk.nl##.bannergroup:upward(.module)
 h2owaternetwerk.nl##.ja-banner
