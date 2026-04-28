@@ -1,10 +1,10 @@
-diff name:easydutch lines:328 checksum:c3c553207c
+diff name:easydutch lines:332 checksum:dc578c89eb
 d2 1
 a2 1
-! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
+! Last updated: Tue, 28 Apr 2026 15:50:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.25.789.patch#easydutch
+! Diff-Path: patches/2026.4.28.950.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -120,7 +120,11 @@ d500 1
 d503 5
 d509 1
 d516 1
-a543 123
+d544 3
+a546 2
+autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##body > div:has(> div[data-aa-adunit])
+autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##center:has(> div[data-aa-adunit])
+a549 123
 mandelnieuws.be##[class*="blocksponsors-block"]
 internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]

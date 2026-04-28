@@ -1,10 +1,10 @@
-diff name:easydutch lines:278 checksum:c3c553207c
+diff name:easydutch lines:284 checksum:dc578c89eb
 d2 1
 a2 1
-! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
+! Last updated: Tue, 28 Apr 2026 15:50:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.25.789.patch#easydutch
+! Diff-Path: patches/2026.4.28.950.patch#easydutch
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -116,7 +116,12 @@ d502 1
 d505 4
 d510 1
 d517 1
-a544 85
+a544 90
+autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##body > div:has(> div[data-aa-adunit])
+autobahn.eu,beaumonde.nl,dingenvoorvrouwen.nl,elegance.nl,golfersmagazine.nl,gezondnu.nl,grazia.nl,happyinshape.nl,marieclaire.nl,nautique.nl,noorderland.nl,nouveau.nl,panorama.nl,playboy.nl,revu.nl,upcoming.nl,wielerrevue.nl,zeilen.nl##center:has(> div[data-aa-adunit])
+dingenvoorvrouwen.nl###WB_VIDEO_PLAYER_TARGET:upward(div)
+autobahn.eu,elegance.nl,gezondnu.nl,happyinshape.nl,wielerrevue.nl,panorama.nl,playboy.nl,nouveau.nl,upcoming.nl###SHOWHEROES_VIDEO_PLAYER_TARGET:upward(.showheroes-unit)
+tipsenweetjes.nl##[data-aa-adunit]:upward(.widget)
 mandelnieuws.be##[class*="blocksponsors-block"]
 internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 tvgids.nl##section[class$="banner"]
@@ -206,6 +211,7 @@ d567 2
 a568 2
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner
 brielsnieuwsland.nl,ggof.nl,groothellevoet.nl,grootnissewaard.nl,hetkompasonline.nl,weekbladwestvoorne.nl##.component__pubble-banner:upward(.bg-gray-100)
+d583 6
 d622 3
 d860 5
 d870 1
