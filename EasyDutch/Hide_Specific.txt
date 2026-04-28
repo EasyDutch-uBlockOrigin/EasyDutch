@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-04-28
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 groningsnieuws.nl###posts .in-feed
 hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
 hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
