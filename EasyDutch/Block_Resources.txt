@@ -355,7 +355,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||h2owaternetwerk.nl/images/banners/$image
 ||h2owaternetwerk.nl/images/*/*Banner$image
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
-||tickers.zimmo.be/gva/$domain=gva.be
 ! 2022-06-22
 ||streekstadcentraal.nl/images/banners/$image
 ! 2022-05-27
