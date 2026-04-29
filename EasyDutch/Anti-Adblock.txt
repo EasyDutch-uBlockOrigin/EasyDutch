@@ -2,8 +2,8 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
-! 2026-04-12
-||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
+! 2026-04-29
+solarmagazine.nl##+js(no-xhr-if, ads)
 ! 2026-02-26
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 ! 2026-02-10
