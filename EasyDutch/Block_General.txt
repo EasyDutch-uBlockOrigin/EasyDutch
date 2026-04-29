@@ -1,6 +1,6 @@
 ! Title: Block General
 ! Description: Filters to block general URLs on Dutch websites
-! Last updated: Wed, 10 Jan 2024 10:07:26 +0000
+! Last updated: Wed, 29 Apr 2026 15:35:15 +0000
 !
 ! 2023-10-16
 /reclame/*.gif$image,3p
@@ -20,7 +20,7 @@
 /adv_tekstlinks.
 /adverteerders/*
 /advertentie-banner-
-/advertentie.*
+/advertentie.$domain=~advertentie.rd.nl
 /advertentie/*
 /advertentie1.
 /advertentie2/*

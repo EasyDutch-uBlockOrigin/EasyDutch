@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 28 Apr 2026 17:41:31 +0000
+! Last updated: Wed, 29 Apr 2026 15:35:15 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.28.1061.patch#easydutch
+! Diff-Path: patches/2026.4.29.935.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -24,7 +24,7 @@
 /adv_tekstlinks.
 /adverteerders/*
 /advertentie-banner-
-/advertentie.*
+/advertentie.$domain=~advertentie.rd.nl
 /advertentie/*
 /advertentie1.
 /advertentie2/*
@@ -1547,7 +1547,7 @@ mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
-||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
+solarmagazine.nl##+js(no-xhr-if, ads)
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)

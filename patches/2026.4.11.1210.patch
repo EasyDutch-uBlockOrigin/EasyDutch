@@ -1,10 +1,13 @@
-diff name:easydutch lines:294 checksum:b7dcd42693
+diff name:easydutch lines:297 checksum:789ea5cff2
 d2 1
 a2 1
-! Last updated: Tue, 28 Apr 2026 17:41:31 +0000
+! Last updated: Wed, 29 Apr 2026 15:35:15 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.28.1061.patch#easydutch
+! Diff-Path: patches/2026.4.29.935.patch#easydutch
+d27 1
+a27 1
+/advertentie.$domain=~advertentie.rd.nl
 a53 2
 ||zsp1.ah.be^
 ||zsp1.ah.nl^
@@ -292,4 +295,4 @@ ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
 a1624 1
 lflmagazine.nl#@#.header-advert
 a1635 1
-||solarmagazine.nl/u/edwin/$image,redirect-rule=2x2.png
+solarmagazine.nl##+js(no-xhr-if, ads)

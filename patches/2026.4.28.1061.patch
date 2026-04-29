@@ -1,0 +1,13 @@
+diff name:easydutch lines:12 checksum:789ea5cff2
+d2 1
+a2 1
+! Last updated: Wed, 29 Apr 2026 15:35:15 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.4.29.935.patch#easydutch
+d27 1
+a27 1
+/advertentie.$domain=~advertentie.rd.nl
+d1550 1
+a1550 1
+solarmagazine.nl##+js(no-xhr-if, ads)
