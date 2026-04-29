@@ -20,7 +20,7 @@
 /adv_tekstlinks.
 /adverteerders/*
 /advertentie-banner-
-/advertentie.*
+/advertentie.$domain=~advertentie.rd.nl
 /advertentie/*
 /advertentie1.
 /advertentie2/*
