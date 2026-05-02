@@ -1018,7 +1018,6 @@ qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
 nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
-vakantieweb.be##.partners-immo
 hvzeeland.nl##.advertisement
 ! 2022-07-01
 forum.scholieren.com##div[data-advert-placeholder-size]
