@@ -3,9 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
-radio.nl##body> div[id^="takeover"]
-radio.nl#bannerbg
-radio.nl#leaderboardbg
+nederland.fm,radio.nl##body> div[id^="takeover"]
+radio.nl###bannerbg
+radio.nl###leaderboardbg
 omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
@@ -935,7 +935,6 @@ allesoveropeningstijden.nl##p:has-text(advertentie)
 ! 2023-03-28
 pokeren.nl##.sidebaritem:has-text(/partners|online casino/i)
 ! 2023-03-27
-nederland.fm##[class*=adv]
 notebookcheck.nl###nbc_skys
 ! 2023-03-23
 allecijfers.nl##div.card:has(.adsbygoogle)
