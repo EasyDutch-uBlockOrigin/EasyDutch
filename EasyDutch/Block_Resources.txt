@@ -290,7 +290,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
 ||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
-||motokicx.com/wp-content/uploads/*/Motokicx*.gif$image
 ||msa.paginabanner.nl/banners/$image
 ||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ||zwartewaterfm.nl/wp-content/uploads/*/SponsorenZwarteWaterFM
@@ -347,7 +346,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||floranews.com/img/banner/Floranews
 ||gigantfm.nl/assets/images/autoonderdelen$image
 ||gigantfm.nl/assets/images/onderdelenshop$image
-||motokicx.com/wp-content/uploads/*RAD
 ! 2022-06-29
 ||sponsorlink.nl/js/snippet.js$script,domain=handbalstartpunt.nl
 ||h2owaternetwerk.nl/images/banners/$image
