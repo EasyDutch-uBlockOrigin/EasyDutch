@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
+||omroephethogeland.nl/wp-content/uploads/2019/03/AH_Winsum_banner_125x300.jpg
 ||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
 ||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
 ||floranews.com/img/banner/$image
