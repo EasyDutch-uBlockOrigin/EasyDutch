@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+||nederland.fm/i/banners/
+||radio.nl/i/banners/
 ||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
 ||omroephethogeland.nl/wp-content/uploads/2019/03/AH_Winsum_banner_125x300.jpg
 ||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
@@ -342,7 +344,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||beveiligingnieuws.nl/banners/$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*webbanner$image
-||radio.nl/i/banners/
 ||succesboeken.nl/api/public/images/branding/$image,domain=commonsensetv.nl
 ! 2022-06-30
 ||gigantfm.nl/assets/images/autoonderdelen$image
