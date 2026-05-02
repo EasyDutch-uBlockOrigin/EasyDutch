@@ -333,8 +333,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||medialaancdn.be/vtm_od/prerolls/$media,domain=vtm.be,redirect=noopmp3-0.1s
 ! 2022-09-01
 ||minimumloon.nl/wp-content/uploads/*/*.gif
-! 2022-07-13
-||cdn-webcam-harlingen.nl/adv/
 ! 2022-07-01
 ||handbalstartpunt.nl/*/banner$image
 ||beveiligingnieuws.nl/banners/$image
