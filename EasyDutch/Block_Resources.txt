@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+||static.fd.nl/assets/fdmg-ads/
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/
