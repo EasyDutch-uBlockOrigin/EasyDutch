@@ -1,27 +1,48 @@
-diff name:easydutch lines:52 checksum:cbf6333d8c
+diff name:easydutch lines:80 checksum:6086286d9f
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 06:36:48 +0000
+! Last updated: Sat, 02 May 2026 09:33:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.396.patch#easydutch
+! Diff-Path: patches/2026.5.2.573.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
-a137 4
+a137 13
+||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
+||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
+||nederland.fm/i/banners/
+||radio.nl/i/banners/
+||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
+||omroephethogeland.nl/wp-content/uploads/2019/03/AH_Winsum_banner_125x300.jpg
+||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
+||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
+||floranews.com/img/banner/$image
 ||fruitteeltonline.nl/images/slideshows/*.gif$image
 ||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
 ||persberichten.com/*.gif$image
 ||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
+d366 1
 d380 1
 d389 1
 a389 1
-/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
-d401 1
-d417 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
+d400 2
+d403 7
+d411 2
+d415 3
 d422 4
 d453 1
-a509 15
+a509 24
+nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
+beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
+beveiligingnieuws.nl##.sr-premium-partners
+nederland.fm,radio.nl##body> div[id^="takeover"]
+radio.nl###bannerbg
+radio.nl###leaderboardbg
+omroephethogeland.nl##.featured-sidebar
+nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
+aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 lekkerder.nl##[class^="r89-"]
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
 fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
@@ -40,8 +61,15 @@ tipsenweetjes.nl##[data-aa-adunit]:upward(.widget)
 d633 6
 a1057 1
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
+d1267 1
 d1273 1
-d1346 2
+d1291 1
+d1344 1
+d1346 3
+d1350 1
+d1353 4
+d1358 4
+d1363 1
 d1369 2
 d1372 1
 d1374 1

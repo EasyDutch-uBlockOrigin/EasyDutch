@@ -1,10 +1,10 @@
-diff name:easydutch lines:166 checksum:cbf6333d8c
+diff name:easydutch lines:189 checksum:6086286d9f
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 06:36:48 +0000
+! Last updated: Sat, 02 May 2026 09:33:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.396.patch#easydutch
+! Diff-Path: patches/2026.5.2.573.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -13,7 +13,16 @@ a61 1
 d90 1
 d93 1
 d114 1
-a139 35
+a139 44
+||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
+||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
+||nederland.fm/i/banners/
+||radio.nl/i/banners/
+||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
+||omroephethogeland.nl/wp-content/uploads/2019/03/AH_Winsum_banner_125x300.jpg
+||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
+||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
+||floranews.com/img/banner/$image
 ||fruitteeltonline.nl/images/slideshows/*.gif$image
 ||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
 ||persberichten.com/*.gif$image
@@ -51,15 +60,16 @@ a139 35
 ||kicxstart.nl/wp-content/uploads/*/*banner$image
 d260 1
 d300 1
+d339 1
 d353 1
 d361 2
 a362 2
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|rtvlansingerland.nl|unitednews.sr
-/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|curacao.nu|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
-d374 1
-d379 1
-d385 1
-d392 1
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
+d373 2
+d376 8
+d385 3
+d390 3
 d397 13
 d411 1
 d414 2
@@ -75,7 +85,16 @@ d461 1
 d464 4
 d469 1
 d471 1
-a525 42
+a525 51
+nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
+beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
+beveiligingnieuws.nl##.sr-premium-partners
+nederland.fm,radio.nl##body> div[id^="takeover"]
+radio.nl###bannerbg
+radio.nl###leaderboardbg
+omroephethogeland.nl##.featured-sidebar
+nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
+aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 lekkerder.nl##[class^="r89-"]
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
 fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
@@ -128,14 +147,18 @@ d1134 1
 d1161 1
 d1187 1
 d1264 1
-d1266 2
+d1266 3
 d1270 1
 d1275 1
 d1286 1
+d1294 1
 d1346 1
-d1350 2
-d1359 1
-d1368 1
+d1348 1
+d1350 3
+d1354 1
+d1357 5
+d1363 4
+d1368 2
 d1371 1
 d1375 1
 d1377 2

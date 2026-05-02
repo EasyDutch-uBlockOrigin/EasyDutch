@@ -1,8 +1,17 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 02 May 2026 06:36:48 +0000
+! Last updated: Sat, 02 May 2026 09:33:41 +0000
 !
 ! 2026-05-02
+nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
+beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
+beveiligingnieuws.nl##.sr-premium-partners
+nederland.fm,radio.nl##body> div[id^="takeover"]
+radio.nl###bannerbg
+radio.nl###leaderboardbg
+omroephethogeland.nl##.featured-sidebar
+nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
+aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 lekkerder.nl##[class^="r89-"]
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
 fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
@@ -897,8 +906,6 @@ republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack
-! 2023-04-28
-nieuwsfiets.nu##.adv-link:upward(.wpb_wrapper)
 ! 2023-04-27
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
@@ -931,7 +938,6 @@ allesoveropeningstijden.nl##p:has-text(advertentie)
 ! 2023-03-28
 pokeren.nl##.sidebaritem:has-text(/partners|online casino/i)
 ! 2023-03-27
-nederland.fm##[class*=adv]
 notebookcheck.nl###nbc_skys
 ! 2023-03-23
 allecijfers.nl##div.card:has(.adsbygoogle)
@@ -1009,26 +1015,14 @@ uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 ! 2022-07-06
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
-qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
-nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
-vakantieweb.be##.partners-immo
 hvzeeland.nl##.advertisement
 ! 2022-07-01
 forum.scholieren.com##div[data-advert-placeholder-size]
-basketballbelgium.be##.sidebar-inner aside:has(.carousel.slide)
-basketballbelgium.be###sidebar-top-content > .widget-area:has(img[width="970"][height="250"])
-beveiligingnieuws.nl##.widget:has(img[src^="https://beveiligingnieuws.nl/banners/"])
-beveiligingnieuws.nl##.widget:has(.widget-title:has-text(/Partners/i))
 oogtv.nl##.g
-radio.nl###xttm > .shadow
-radio.nl###xbtm > .shadow
-radio.nl##[id^="takeover"]:has-text(Advert)
-omroepeemsdelta.nl###qtFooterWidgets:has(.gs_logo_single--wrapper)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
-nieuwsfiets.nu###banner
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
 floranews.com##td[align="center"]:has(> hr):has([href^="/banner"])
 floranews.com##td[rowspan="2"][width="590"]:has(a[href^="/banner"]):not(:has(img[src*="Hier kan uw banner staan"]))

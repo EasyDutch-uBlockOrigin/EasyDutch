@@ -1,14 +1,11 @@
-diff name:easydutch lines:74 checksum:6086286d9f
+diff name:easydutch lines:42 checksum:6086286d9f
 d2 1
 a2 1
 ! Last updated: Sat, 02 May 2026 09:33:41 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.5.2.573.patch#easydutch
-d27 1
-a27 1
-/advertentie.$domain=~advertentie.rd.nl
-a137 13
+a137 9
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/
@@ -18,22 +15,15 @@ a137 13
 ||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
 ||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
 ||floranews.com/img/banner/$image
-||fruitteeltonline.nl/images/slideshows/*.gif$image
-||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
-||persberichten.com/*.gif$image
-||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
-d366 1
-d380 1
-d389 1
-a389 1
+d370 1
+d392 1
+a392 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
-d400 2
-d403 7
-d411 2
-d415 3
-d422 4
-d453 1
-a509 19
+d403 1
+d405 7
+d413 2
+d417 2
+a505 9
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
 beveiligingnieuws.nl##.sr-premium-partners
@@ -43,33 +33,11 @@ radio.nl###leaderboardbg
 omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
-lekkerder.nl##[class^="r89-"]
-fruitteeltonline.nl##[class^="slideshow"]:upward(1)
-fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
-jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
-voetbalgelderland.nl##div[id^="r89-"]
-voetbalrotterdam.nl##.lshowcase-logos
-welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
-groningsnieuws.nl###posts .in-feed
-hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
-hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
-a1056 1
-kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
-d1266 1
-d1272 1
-d1290 1
-d1343 1
-d1345 3
+d1273 1
+d1296 1
 d1349 1
-d1352 4
-d1357 4
-d1362 1
-d1368 2
-d1371 1
-d1373 1
-d1376 1
-d1378 1
-d1380 1
-d1557 1
-a1557 1
-solarmagazine.nl##+js(no-xhr-if, ads)
+d1351 1
+d1353 1
+d1356 4
+d1361 4
+d1366 1
