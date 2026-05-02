@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
 beveiligingnieuws.nl##.sr-premium-partners
 nederland.fm,radio.nl##body> div[id^="takeover"]
@@ -1016,7 +1017,6 @@ webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
-nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 hvzeeland.nl##.advertisement
 ! 2022-07-01
