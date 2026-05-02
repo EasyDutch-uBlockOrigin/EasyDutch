@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 02 May 2026 09:33:41 +0000
+! Last updated: Sat, 02 May 2026 11:52:05 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.2.573.patch#easydutch
+! Diff-Path: patches/2026.5.2.712.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -135,6 +135,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||static.fd.nl/assets/fdmg-ads/
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/

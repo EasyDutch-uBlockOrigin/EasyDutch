@@ -1,11 +1,12 @@
-diff name:easydutch lines:46 checksum:6086286d9f
+diff name:easydutch lines:47 checksum:af7a808e96
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 09:33:41 +0000
+! Last updated: Sat, 02 May 2026 11:52:05 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.573.patch#easydutch
-a137 10
+! Diff-Path: patches/2026.5.2.712.patch#easydutch
+a137 11
+||static.fd.nl/assets/fdmg-ads/
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/
