@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-02
+fruitteeltonline.nl##[class^="slideshow"]:upward(1)
+fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 ! 2026-04-28
 jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]
