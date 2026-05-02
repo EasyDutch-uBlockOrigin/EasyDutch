@@ -1,14 +1,15 @@
-diff name:easydutch lines:48 checksum:563b6aad6d
+diff name:easydutch lines:52 checksum:cbf6333d8c
 d2 1
 a2 1
-! Last updated: Wed, 29 Apr 2026 15:40:33 +0000
+! Last updated: Sat, 02 May 2026 06:36:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.29.940.patch#easydutch
+! Diff-Path: patches/2026.5.2.396.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
-a137 3
+a137 4
+||fruitteeltonline.nl/images/slideshows/*.gif$image
 ||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
 ||persberichten.com/*.gif$image
 ||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
@@ -20,7 +21,10 @@ d401 1
 d417 1
 d422 4
 d453 1
-a509 12
+a509 15
+lekkerder.nl##[class^="r89-"]
+fruitteeltonline.nl##[class^="slideshow"]:upward(1)
+fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]
 voetbalrotterdam.nl##.lshowcase-logos

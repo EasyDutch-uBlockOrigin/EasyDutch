@@ -1,7 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 28 Apr 2026 17:41:31 +0000
+! Last updated: Sat, 02 May 2026 06:36:48 +0000
 !
+! 2026-05-02
+lekkerder.nl##[class^="r89-"]
+fruitteeltonline.nl##[class^="slideshow"]:upward(1)
+fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 ! 2026-04-28
 jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]

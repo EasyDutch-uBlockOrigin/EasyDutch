@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 29 Apr 2026 15:40:33 +0000
+! Last updated: Sat, 02 May 2026 06:36:48 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.4.29.940.patch#easydutch
+! Diff-Path: patches/2026.5.2.396.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -135,6 +135,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||fruitteeltonline.nl/images/slideshows/*.gif$image
 ||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
 ||persberichten.com/*.gif$image
 ||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
@@ -502,6 +503,9 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+lekkerder.nl##[class^="r89-"]
+fruitteeltonline.nl##[class^="slideshow"]:upward(1)
+fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]
 voetbalrotterdam.nl##.lshowcase-logos

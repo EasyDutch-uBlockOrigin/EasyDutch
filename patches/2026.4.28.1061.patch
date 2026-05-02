@@ -1,13 +1,19 @@
-diff name:easydutch lines:12 checksum:563b6aad6d
+diff name:easydutch lines:18 checksum:cbf6333d8c
 d2 1
 a2 1
-! Last updated: Wed, 29 Apr 2026 15:40:33 +0000
+! Last updated: Sat, 02 May 2026 06:36:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.4.29.940.patch#easydutch
+! Diff-Path: patches/2026.5.2.396.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+a137 1
+||fruitteeltonline.nl/images/slideshows/*.gif$image
+a504 3
+lekkerder.nl##[class^="r89-"]
+fruitteeltonline.nl##[class^="slideshow"]:upward(1)
+fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 d1550 1
 a1550 1
 solarmagazine.nl##+js(no-xhr-if, ads)
