@@ -1015,7 +1015,6 @@ uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 ! 2022-07-06
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
-qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 hvzeeland.nl##.advertisement
