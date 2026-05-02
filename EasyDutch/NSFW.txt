@@ -67,7 +67,7 @@
 ##.happy-footer
 ! fucking-tube.com,seks-tube.be
 ##.video-block-happy
-! dikketietenneuken.nl,directpornofilmskijken.nl,hdtienersexfilms.nl,partytieners.nl,sexmetdikkewijven.nl,sexvideofilm.nl,strandmokkels.nl,studentesneuken.nl,tienersexfilmss.nl
+! partytieners.nl,sexmetdikkewijven.nl,strandmokkels.nl,tienersexfilmss.nl
 ###tracking-url
 ! sexvideofilm.nl,tienersexfilmss.nl
 ##a[href^="https://www.2k19.nl/"]
