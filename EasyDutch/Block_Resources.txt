@@ -343,7 +343,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||omroepeemsdelta.nl/wp-content/uploads/*/deltaglasvezel*.jpeg
 ||succesboeken.nl/api/public/images/branding/$image,domain=commonsensetv.nl
 ! 2022-06-30
-||nieuwsfiets.nu/wp-content/uploads/2021/03/Hulphond*.jpg
 ||gigantfm.nl/assets/images/autoonderdelen$image
 ||gigantfm.nl/assets/images/onderdelenshop$image
 ! 2022-06-29
