@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
+beveiligingnieuws.nl##.sr-premium-partners
 nederland.fm,radio.nl##body> div[id^="takeover"]
 radio.nl###bannerbg
 radio.nl###leaderboardbg
@@ -1022,8 +1024,6 @@ hvzeeland.nl##.advertisement
 forum.scholieren.com##div[data-advert-placeholder-size]
 basketballbelgium.be##.sidebar-inner aside:has(.carousel.slide)
 basketballbelgium.be###sidebar-top-content > .widget-area:has(img[width="970"][height="250"])
-beveiligingnieuws.nl##.widget:has(img[src^="https://beveiligingnieuws.nl/banners/"])
-beveiligingnieuws.nl##.widget:has(.widget-title:has-text(/Partners/i))
 oogtv.nl##.g
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
