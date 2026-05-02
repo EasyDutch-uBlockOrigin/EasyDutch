@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Sat, 02 May 2026 12:36:02 +0000
+! Last updated: Sat, 02 May 2026 12:52:12 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -33,6 +33,7 @@
 ||pathxy.com/bn/generators/$script,3p
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
+||securetool.nl/data/mouse-out/$script,3p
 ||sexervaringendelen.nl/porno/$image
 ||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
@@ -58,14 +59,14 @@
 @@||naaktkrant.nl/media/*/*-gifs-*.gif$image,1p
 
 ! Hide_General
-! gratispornofilm.nl,jongetienersex.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl
+! gratispornofilm.nl,jongetienersex.nl,lekkerewebcams.nl
 ##.happy-header
 ##.happy-sidebar
-! bejaardensextube.nl,creampiesex.nl,fucking-tube.com,rapesextube.be,rapetube.be
+! bejaardensextube.nl,creampiesex.nl,rapesextube.be,rapetube.be
 ##.happy-section
-! jongetienersex.nl,erotischemassages.com,poldertube.nl,pornoplekje.nl,sextube-18.com
+! jongetienersex.nl,poldertube.nl,pornoplekje.nl
 ##.happy-footer
-! fucking-tube.com,seks-tube.be
+! seks-tube.be
 ##.video-block-happy
 ! partytieners.nl,sexmetdikkewijven.nl,strandmokkels.nl,tienersexfilmss.nl
 ###tracking-url

@@ -1,0 +1,9 @@
+diff name:easydutch lines:8 checksum:dee7f27000
+d2 1
+a2 1
+! Last updated: Sat, 02 May 2026 12:52:12 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.5.2.772.patch#easydutch
+a1602 1
+||securetool.nl/data/mouse-out/$script,3p
