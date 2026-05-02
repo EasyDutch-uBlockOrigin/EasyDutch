@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+radio.nl##body> div[id^="takeover"]
+radio.nl#bannerbg
+radio.nl#leaderboardbg
 omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
@@ -1023,9 +1026,6 @@ basketballbelgium.be###sidebar-top-content > .widget-area:has(img[width="970"][h
 beveiligingnieuws.nl##.widget:has(img[src^="https://beveiligingnieuws.nl/banners/"])
 beveiligingnieuws.nl##.widget:has(.widget-title:has-text(/Partners/i))
 oogtv.nl##.g
-radio.nl###xttm > .shadow
-radio.nl###xbtm > .shadow
-radio.nl##[id^="takeover"]:has-text(Advert)
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
