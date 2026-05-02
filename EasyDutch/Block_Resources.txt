@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
+||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/
 ||radio.nl/i/banners/
 ||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
@@ -341,9 +343,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||minimumloon.nl/wp-content/uploads/*/*.gif
 ! 2022-07-01
 ||handbalstartpunt.nl/*/banner$image
-||beveiligingnieuws.nl/banners/$image
-||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
-||beveiligingnieuws.nl/wp-content/uploads/*webbanner$image
 ||succesboeken.nl/api/public/images/branding/$image,domain=commonsensetv.nl
 ! 2022-06-30
 ||gigantfm.nl/assets/images/autoonderdelen$image
