@@ -1,13 +1,14 @@
-diff name:easydutch lines:95 checksum:af7a808e96
+diff name:easydutch lines:105 checksum:89c75b776b
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+d54 1
 a137 19
 ||static.fd.nl/assets/fdmg-ads/
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
@@ -69,6 +70,9 @@ tipsenweetjes.nl##[data-aa-adunit]:upward(.widget)
 mandelnieuws.be##[class*="blocksponsors-block"]
 internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
 d635 6
+d889 1
+a889 1
+twenteinsite.nl##.sda
 a1059 1
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 d1167 1
@@ -94,3 +98,9 @@ lflmagazine.nl#@#.header-advert
 d1562 1
 a1562 1
 solarmagazine.nl##+js(no-xhr-if, ads)
+d1576 1
+d1585 1
+d1587 1
+d1594 1
+a1594 1
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

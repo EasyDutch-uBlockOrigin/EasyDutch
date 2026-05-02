@@ -1,13 +1,14 @@
-diff name:easydutch lines:295 checksum:af7a808e96
+diff name:easydutch lines:305 checksum:89c75b776b
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+d54 1
 a61 2
 ||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
@@ -220,6 +221,9 @@ www.iex.nl##.publisher-sh-spot
 www.iex.nl##.rectanglewrap
 d574 6
 d613 3
+d831 1
+a831 1
+twenteinsite.nl##.sda
 d851 5
 d861 1
 d884 4
@@ -294,3 +298,9 @@ lflmagazine.nl#@#.header-advert
 d1616 1
 a1616 1
 solarmagazine.nl##+js(no-xhr-if, ads)
+d1630 1
+d1639 1
+d1641 1
+d1648 1
+a1648 1
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 02 May 2026 09:33:41 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 !
 ! 2026-05-02
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
@@ -466,7 +466,7 @@ faillissementsdossier.nl##.adsbybinq
 faillissementsdossier.nl##.billboard
 fcutrecht.net###reclame
 techzine.nl##.chimney
-twenteinsite.nl,vechtsportinfo.nl##.sda
+twenteinsite.nl##.sda
 androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
 androidworld.be,androidworld.nl##.widget_offers
 androidworld.be,androidworld.nl##header[data-name="featured-header"]

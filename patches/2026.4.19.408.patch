@@ -1,13 +1,14 @@
-diff name:easydutch lines:190 checksum:af7a808e96
+diff name:easydutch lines:200 checksum:89c75b776b
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+d54 1
 a61 1
 ||sponsorlink.nl^$3p
 d90 1
@@ -140,6 +141,9 @@ goeie.frl##.wp-caption:has-text(Advert)
 kicxstart.nl##[id^="bannerhome"]
 d622 6
 d661 3
+d879 1
+a879 1
+twenteinsite.nl##.sda
 d904 1
 d1031 2
 a1052 1
@@ -189,3 +193,9 @@ lflmagazine.nl#@#.header-advert
 d1593 1
 a1593 1
 solarmagazine.nl##+js(no-xhr-if, ads)
+d1607 1
+d1616 1
+d1618 1
+d1625 1
+a1625 1
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

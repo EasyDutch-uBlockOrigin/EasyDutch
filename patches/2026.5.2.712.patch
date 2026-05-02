@@ -1,4 +1,4 @@
-diff name:easydutch lines:18 checksum:89c75b776b
+diff name:easydutch lines:16 checksum:89c75b776b
 d2 1
 a2 1
 ! Last updated: Sat, 02 May 2026 12:36:02 +0000
@@ -6,14 +6,12 @@ d4 1
 a4 1
 ! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d54 1
-a137 1
-||static.fd.nl/assets/fdmg-ads/
-d897 1
-a897 1
+d898 1
+a898 1
 twenteinsite.nl##.sda
-d1559 1
-d1568 1
-d1570 1
-d1577 1
-a1577 1
+d1560 1
+d1569 1
+d1571 1
+d1578 1
+a1578 1
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

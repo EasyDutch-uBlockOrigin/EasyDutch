@@ -1,13 +1,14 @@
-diff name:easydutch lines:126 checksum:af7a808e96
+diff name:easydutch lines:136 checksum:89c75b776b
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+d54 1
 a61 1
 ||sponsorlink.nl^$3p
 a136 23
@@ -88,6 +89,9 @@ dartsnieuws.com##.raw-html-component
 welkominzuidhorn.nl###bannerrow
 d627 6
 d666 3
+d884 1
+a884 1
+twenteinsite.nl##.sda
 a1054 1
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 d1162 1
@@ -125,3 +129,9 @@ lflmagazine.nl#@#.header-advert
 d1583 1
 a1583 1
 solarmagazine.nl##+js(no-xhr-if, ads)
+d1597 1
+d1606 1
+d1608 1
+d1615 1
+a1615 1
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

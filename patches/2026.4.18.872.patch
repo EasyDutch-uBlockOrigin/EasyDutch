@@ -1,13 +1,14 @@
-diff name:easydutch lines:222 checksum:af7a808e96
+diff name:easydutch lines:232 checksum:89c75b776b
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+d54 1
 a61 1
 ||sponsorlink.nl^$3p
 d90 1
@@ -163,6 +164,9 @@ techradar.com##[class$="ad-unit"]
 fotografie.nl##.banner-ad
 d603 6
 d642 3
+d860 1
+a860 1
+twenteinsite.nl##.sda
 d885 1
 d908 4
 d962 2
@@ -221,3 +225,9 @@ lflmagazine.nl#@#.header-advert
 d1601 1
 a1601 1
 solarmagazine.nl##+js(no-xhr-if, ads)
+d1615 1
+d1624 1
+d1626 1
+d1633 1
+a1633 1
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

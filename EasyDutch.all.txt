@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -51,7 +51,6 @@
 _advertentie300x250_
 _advertentieleaderboardhome.
 ! *** EasyDutch:EasyDutch/Block_first_party_Server.txt ***
-||zsp1.ah.be^
 ||zsp1.ah.nl^
 ||mooieplaatjes.bierdopje.nl^
 ||adv.noordkop247.nl^
@@ -895,7 +894,7 @@ faillissementsdossier.nl##.adsbybinq
 faillissementsdossier.nl##.billboard
 fcutrecht.net###reclame
 techzine.nl##.chimney
-twenteinsite.nl,vechtsportinfo.nl##.sda
+twenteinsite.nl##.sda
 androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
 androidworld.be,androidworld.nl##.widget_offers
 androidworld.be,androidworld.nl##header[data-name="featured-header"]
@@ -1557,7 +1556,6 @@ meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; p
 @@||ah.nl^$ghide
 radiowereld.nl##+js(nosiif, adb)
 looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
-@@||v.fwmrm.net/ad/$xhr,domain=vtmgo.be
 *$image,redirect-rule=2x2.png,domain=tweakers.net
 tweakers.net##+js(aeld, /[\w]{16}/, /^e=>.*/)
 @@||tweakers.net^$ghide
@@ -1566,16 +1564,14 @@ aimsolutions.nl##+js(noeval-if, adsBlocked)
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xhr,script,domain=vtm.be
-@@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
 @@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
-@@||v.fwmrm.net/ad/*&caid$xhr,domain=vtm.be
 citaten.net#@##bottom-ad
 @@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
 @@||fwmrm.net/crossdomain.xml$xhr,domain=embed.viaplay.com|racingnews365.nl
 autoweek.nl##+js(set, isAdBlockActive, false)
 ! *** EasyDutch:EasyDutch/NSFW.txt ***
 *$3p,image,domain=kinkymedia.nl|opwindend.net
-/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl|topswingersites.nl
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl
 /images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be

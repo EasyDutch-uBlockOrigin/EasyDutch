@@ -1,13 +1,14 @@
-diff name:easydutch lines:266 checksum:af7a808e96
+diff name:easydutch lines:276 checksum:89c75b776b
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Sat, 02 May 2026 12:36:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.712.patch#easydutch
+! Diff-Path: patches/2026.5.2.756.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
+d54 1
 a61 2
 ||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
@@ -198,6 +199,9 @@ omroepzilt.nl##.ziltad-adwrapper
 opiniepeilers.nl##div.contentContainer:has(> div > img[src^="/content/"])
 d591 6
 d630 3
+d848 1
+a848 1
+twenteinsite.nl##.sda
 d873 1
 d896 4
 d950 2
@@ -265,3 +269,9 @@ lflmagazine.nl#@#.header-advert
 d1613 1
 a1613 1
 solarmagazine.nl##+js(no-xhr-if, ads)
+d1627 1
+d1636 1
+d1638 1
+d1645 1
+a1645 1
+/banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl
