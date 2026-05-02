@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-02
+||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
+||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
 ||floranews.com/img/banner/$image
 ||fruitteeltonline.nl/images/slideshows/*.gif$image
 ! 2026-04-28
@@ -339,8 +341,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*webbanner$image
 ||radio.nl/i/banners/
-||omroepeemsdelta.nl/wp-content/uploads/*/mw-bedrijfskleding-1.png
-||omroepeemsdelta.nl/wp-content/uploads/*/deltaglasvezel*.jpeg
 ||succesboeken.nl/api/public/images/branding/$image,domain=commonsensetv.nl
 ! 2022-06-30
 ||gigantfm.nl/assets/images/autoonderdelen$image
