@@ -1022,8 +1022,6 @@ vakantieweb.be##.partners-immo
 hvzeeland.nl##.advertisement
 ! 2022-07-01
 forum.scholieren.com##div[data-advert-placeholder-size]
-basketballbelgium.be##.sidebar-inner aside:has(.carousel.slide)
-basketballbelgium.be###sidebar-top-content > .widget-area:has(img[width="970"][height="250"])
 oogtv.nl##.g
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
