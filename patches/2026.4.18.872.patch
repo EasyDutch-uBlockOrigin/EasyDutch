@@ -1,10 +1,10 @@
-diff name:easydutch lines:234 checksum:dee7f27000
+diff name:easydutch lines:239 checksum:4ca21e39d2
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 12:52:12 +0000
+! Last updated: Sun, 03 May 2026 09:28:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.772.patch#easydutch
+! Diff-Path: patches/2026.5.3.568.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -171,6 +171,11 @@ d885 1
 d908 4
 d962 2
 d1018 2
+d1035 2
+a1036 2
+humo.be##.oortje-wrapper
+parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
+d1039 1
 a1039 1
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 d1121 1

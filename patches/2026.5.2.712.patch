@@ -1,14 +1,19 @@
-diff name:easydutch lines:18 checksum:dee7f27000
+diff name:easydutch lines:23 checksum:4ca21e39d2
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 12:52:12 +0000
+! Last updated: Sun, 03 May 2026 09:28:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.772.patch#easydutch
+! Diff-Path: patches/2026.5.3.568.patch#easydutch
 d54 1
 d898 1
 a898 1
 twenteinsite.nl##.sda
+d1064 2
+a1065 2
+humo.be##.oortje-wrapper
+parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
+d1068 1
 d1560 1
 d1569 1
 d1571 1

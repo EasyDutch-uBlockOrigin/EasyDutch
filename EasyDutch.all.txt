@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 02 May 2026 12:52:12 +0000
+! Last updated: Sun, 03 May 2026 09:28:44 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.2.772.patch#easydutch
+! Diff-Path: patches/2026.5.3.568.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1060,11 +1060,10 @@ businesswise.nl,flair.nl,libelle.nl,oudersvannu.nl,story.nl##[class*="ArticleCon
 cinenews.be##.ads
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class][tabindex]:matches-css(before, content: /Advertentie/)
-humo.be,parool.nl,trouw.nl##.oortje-wrapper
-parool.nl,trouw.nl##.position-after-main-home
+humo.be##.oortje-wrapper
+parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
-hln.be###temptation-position-OORTJE
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]

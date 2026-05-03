@@ -1,10 +1,10 @@
-diff name:easydutch lines:55 checksum:dee7f27000
+diff name:easydutch lines:60 checksum:4ca21e39d2
 d2 1
 a2 1
-! Last updated: Sat, 02 May 2026 12:52:12 +0000
+! Last updated: Sun, 03 May 2026 09:28:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.2.772.patch#easydutch
+! Diff-Path: patches/2026.5.3.568.patch#easydutch
 d54 1
 a137 10
 ||static.fd.nl/assets/fdmg-ads/
@@ -38,6 +38,11 @@ aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 d892 1
 a892 1
 twenteinsite.nl##.sda
+d1058 2
+a1059 2
+humo.be##.oortje-wrapper
+parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
+d1062 1
 d1273 1
 d1296 1
 d1349 1
