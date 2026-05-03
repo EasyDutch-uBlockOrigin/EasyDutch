@@ -1,10 +1,10 @@
-diff name:easydutch lines:92 checksum:4ca21e39d2
+diff name:easydutch lines:94 checksum:3173be6389
 d2 1
 a2 1
-! Last updated: Sun, 03 May 2026 09:28:44 +0000
+! Last updated: Sun, 03 May 2026 09:37:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.3.568.patch#easydutch
+! Diff-Path: patches/2026.5.3.577.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -58,13 +58,15 @@ hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
 d886 1
 a886 1
 twenteinsite.nl##.sda
-d1052 2
-a1053 2
+d1051 3
+a1053 3
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
 humo.be##.oortje-wrapper
-parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
 d1056 1
 a1056 1
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
+d1064 1
 d1266 1
 d1272 1
 d1290 1

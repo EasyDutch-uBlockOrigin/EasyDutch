@@ -1,12 +1,14 @@
-diff name:easydutch lines:11 checksum:4ca21e39d2
+diff name:easydutch lines:13 checksum:3173be6389
 d2 1
 a2 1
-! Last updated: Sun, 03 May 2026 09:28:44 +0000
+! Last updated: Sun, 03 May 2026 09:37:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.3.568.patch#easydutch
-d1063 2
-a1064 2
+! Diff-Path: patches/2026.5.3.577.patch#easydutch
+d1062 3
+a1064 3
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
 humo.be##.oortje-wrapper
-parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
 d1067 1
+d1076 1

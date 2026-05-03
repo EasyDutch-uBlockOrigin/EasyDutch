@@ -1,10 +1,10 @@
-diff name:easydutch lines:64 checksum:4ca21e39d2
+diff name:easydutch lines:66 checksum:3173be6389
 d2 1
 a2 1
-! Last updated: Sun, 03 May 2026 09:28:44 +0000
+! Last updated: Sun, 03 May 2026 09:37:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.3.568.patch#easydutch
+! Diff-Path: patches/2026.5.3.577.patch#easydutch
 d54 1
 a137 11
 ||static.fd.nl/assets/fdmg-ads/
@@ -42,11 +42,13 @@ fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 d888 1
 a888 1
 twenteinsite.nl##.sda
-d1054 2
-a1055 2
+d1053 3
+a1055 3
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
 humo.be##.oortje-wrapper
-parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
 d1058 1
+d1067 1
 d1269 1
 d1292 1
 d1345 1
