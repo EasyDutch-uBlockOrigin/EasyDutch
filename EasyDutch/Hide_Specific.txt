@@ -656,7 +656,6 @@ humo.be##.oortje-wrapper
 parool.nl,trouw.nl##[data-temptation-position="OORTJE"]
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
-hln.be###temptation-position-OORTJE
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
