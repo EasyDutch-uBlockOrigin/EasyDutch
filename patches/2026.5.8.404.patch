@@ -1,4 +1,4 @@
-diff name:easydutch lines:22 checksum:c773b4c26a
+diff name:easydutch lines:13 checksum:c773b4c26a
 d2 1
 a2 1
 ! Last updated: Fri, 08 May 2026 06:51:56 +0000
@@ -12,12 +12,3 @@ a136 6
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Martin-Koopman-Eibergen.png$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
-a501 1
-nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
-d1062 3
-a1064 3
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
-humo.be##.oortje-wrapper
-d1067 1
-d1076 1

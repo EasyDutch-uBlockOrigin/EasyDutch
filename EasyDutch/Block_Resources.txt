@@ -1,7 +1,14 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 02 May 2026 11:52:05 +0000
+! Last updated: Fri, 08 May 2026 06:51:56 +0000
 !
+! 2026-05-08
+||nieuwsuitberkelland.nl/wp-content/uploads/*/IMG_$image
+||nieuwsuitberkelland.nl/wp-content/uploads/*/WhatsApp-Image$image
+||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/*.gif$image
+||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Martin-Koopman-Eibergen.png$image
+||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
+||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
 ! 2026-05-02
 ||static.fd.nl/assets/fdmg-ads/
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
