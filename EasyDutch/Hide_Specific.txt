@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-08
+nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
 ! 2026-05-02
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
