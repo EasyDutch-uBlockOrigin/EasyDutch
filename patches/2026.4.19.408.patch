@@ -1,10 +1,10 @@
-diff name:easydutch lines:209 checksum:3173be6389
+diff name:easydutch lines:210 checksum:0346664b55
 d2 1
 a2 1
-! Last updated: Sun, 03 May 2026 09:37:55 +0000
+! Last updated: Fri, 08 May 2026 06:45:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.3.577.patch#easydutch
+! Diff-Path: patches/2026.5.8.404.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -87,7 +87,8 @@ d461 1
 d464 4
 d469 1
 d471 1
-a525 51
+a525 52
+nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
 beveiligingnieuws.nl##.sr-premium-partners
