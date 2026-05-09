@@ -1,7 +1,9 @@
 ! Title: Hide General
 ! Description: Filters for hiding general elements on Dutch websites
-! Last updated: Wed, 11 Feb 2026 20:03:50 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 !
+! 2026-05-09
+##.pgAdWrapper
 ! 2026-03-11
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 ! 2026-02-03

@@ -1,10 +1,10 @@
-diff name:easydutch lines:243 checksum:cce0d570c3
+diff name:easydutch lines:250 checksum:ceabd77e68
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.608.patch#easydutch
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -100,11 +100,12 @@ d464 4
 d469 1
 d471 1
 d509 1
-a525 64
+a518 1
+##.pgAdWrapper
+a525 63
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -165,8 +166,14 @@ flexnieuws.nl##.ts-advertisment
 flexnieuws.nl##.widget_ts_ads_widget
 goeie.frl##.wp-caption:has-text(Advert)
 kicxstart.nl##[id^="bannerhome"]
+d528 1
+d579 1
 d622 6
+d656 1
 d661 3
+d671 2
+d692 1
+d821 1
 d879 1
 a879 1
 twenteinsite.nl##.sda

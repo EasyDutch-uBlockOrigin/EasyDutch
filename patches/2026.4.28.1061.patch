@@ -1,10 +1,10 @@
-diff name:easydutch lines:106 checksum:cce0d570c3
+diff name:easydutch lines:113 checksum:ceabd77e68
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.608.patch#easydutch
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -42,11 +42,12 @@ d404 7
 d412 2
 d416 2
 d488 1
-a504 25
+a497 1
+##.pgAdWrapper
+a504 24
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -68,6 +69,12 @@ aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 lekkerder.nl##[class^="r89-"]
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
 fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
+d546 1
+d597 1
+d668 1
+d680 2
+d701 1
+d830 1
 d888 1
 a888 1
 twenteinsite.nl##.sda

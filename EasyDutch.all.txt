@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.9.608.patch#easydutch
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -495,6 +495,7 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php
 ! *** EasyDutch:EasyDutch/Hide_General.txt ***
+##.pgAdWrapper
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 ##a[href^="https://partner.bol.com/click/"]
 ##.article__component--outstream-advertisement
@@ -505,7 +506,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -568,7 +568,6 @@ goeie.frl##.wp-caption:has-text(Advert)
 kicxstart.nl##[id^="bannerhome"]
 fcupdate.nl##.betting_partner
 fcupdate.nl##.outstream-ad
-fcupdate.nl##.pgAdWrapper
 fcupdate.nl##[id^="footballco-video-player"]:upward(1)
 gpfans.com##.ads-columns
 gpfans.com##.taboonews
@@ -619,7 +618,6 @@ www.iex.nl##.banner
 www.iex.nl##.js-banner
 www.iex.nl##.network:has-text(Gesponsorde links)
 www.iex.nl##.native_positie
-www.iex.nl##.pgAdWrapper
 www.iex.nl##.publisher-sh-spot
 www.iex.nl##.rectanglewrap
 profielactueel.nl##.ads
@@ -690,7 +688,6 @@ filmladder.nl##[class^="r89-"]
 ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
-hetkontakt.nl##.pgAdWrapper
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 gyminsider.nl##.bnrrow
 gyminsider.nl###headlines > .bnrln
@@ -702,8 +699,6 @@ srherald.com##.gsrhera
 srherald.com##.elementor-heading-title:has-text(ADVERT)
 tvblik.nl##.banner-fluid
 tvblik.nl##.header-banner
-tvblik.nl##.pgAdWrapper
-weertdegekste.nl##.pgAdWrapper
 frontpage.fok.nl##[class^="r89-"]
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
@@ -723,7 +718,6 @@ klusidee.nl##[class^="r89-"]
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
-hardnieuws.nl##.pgAdWrapper
 klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
 onderwijsland.com##.banner-fullwidth
@@ -852,7 +846,6 @@ nieuwnieuws.nl##.uk-text-center[style^="min-height"]
 zelfmaak-ideetjes.nl##[id^="r89-"]
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 meemetoranje.nl##.outstream-ad
-meemetoranje.nl##.pgAdWrapper
 meemetoranje.nl##.player-container-article
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 waterkant.net##.td-all-devices

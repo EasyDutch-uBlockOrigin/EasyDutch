@@ -1,10 +1,10 @@
-diff name:easydutch lines:148 checksum:cce0d570c3
+diff name:easydutch lines:155 checksum:ceabd77e68
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.608.patch#easydutch
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -55,11 +55,12 @@ d428 1
 d431 2
 d457 1
 d497 1
-a513 39
+a506 1
+##.pgAdWrapper
+a513 38
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -95,7 +96,13 @@ autobahn.eu,elegance.nl,gezondnu.nl,happyinshape.nl,wielerrevue.nl,panorama.nl,p
 tipsenweetjes.nl##[data-aa-adunit]:upward(.widget)
 mandelnieuws.be##[class*="blocksponsors-block"]
 internetbode.nl##.OUTBRAIN:upward(div[style^="min-height:"])
+d541 1
+d592 1
 d635 6
+d669 1
+d681 2
+d702 1
+d831 1
 d889 1
 a889 1
 twenteinsite.nl##.sda

@@ -1,10 +1,10 @@
-diff name:easydutch lines:179 checksum:cce0d570c3
+diff name:easydutch lines:186 checksum:ceabd77e68
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.608.patch#easydutch
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -62,11 +62,12 @@ d431 1
 d434 2
 d460 1
 d500 1
-a516 50
+a509 1
+##.pgAdWrapper
+a516 49
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -113,8 +114,14 @@ investmentofficer.nl##[id*="advertorial"]:upward(.views-rows > .row > .col)
 streekstadcentraal.nl##.promo-wrapper
 dartsnieuws.com##.raw-html-component
 welkominzuidhorn.nl###bannerrow
+d533 1
+d584 1
 d627 6
+d661 1
 d666 3
+d676 2
+d697 1
+d826 1
 d884 1
 a884 1
 twenteinsite.nl##.sda

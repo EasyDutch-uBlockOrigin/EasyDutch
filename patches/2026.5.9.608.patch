@@ -1,0 +1,16 @@
+diff name:easydutch lines:15 checksum:ceabd77e68
+d2 1
+a2 1
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
+a497 1
+##.pgAdWrapper
+d508 1
+d571 1
+d622 1
+d693 1
+d705 2
+d726 1
+d855 1

@@ -1,10 +1,10 @@
-diff name:easydutch lines:53 checksum:cce0d570c3
+diff name:easydutch lines:60 checksum:ceabd77e68
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.608.patch#easydutch
+! Diff-Path: patches/2026.5.9.661.patch#easydutch
 d78 2
 a136 11
 ||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
@@ -20,11 +20,12 @@ a136 11
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
 d406 5
 d485 1
-a501 13
+a494 1
+##.pgAdWrapper
+a501 12
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -34,6 +35,12 @@ autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
 autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
 minimumloon.nl###custom_html-8
 nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
+d555 1
+d606 1
+d677 1
+d689 2
+d710 1
+d839 1
 d933 1
 d1062 3
 a1064 3

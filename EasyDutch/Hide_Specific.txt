@@ -1,12 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Sat, 09 May 2026 11:01:22 +0000
 !
 ! 2026-05-08
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
-rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -78,7 +77,6 @@ kicxstart.nl##[id^="bannerhome"]
 ! Real Times Network
 fcupdate.nl##.betting_partner
 fcupdate.nl##.outstream-ad
-fcupdate.nl##.pgAdWrapper
 fcupdate.nl##[id^="footballco-video-player"]:upward(1)
 gpfans.com##.ads-columns
 gpfans.com##.taboonews
@@ -133,7 +131,6 @@ www.iex.nl##.banner
 www.iex.nl##.js-banner
 www.iex.nl##.network:has-text(Gesponsorde links)
 www.iex.nl##.native_positie
-www.iex.nl##.pgAdWrapper
 www.iex.nl##.publisher-sh-spot
 www.iex.nl##.rectanglewrap
 ! 2026-04-12
@@ -227,7 +224,6 @@ filmladder.nl##[class^="r89-"]
 ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
-hetkontakt.nl##.pgAdWrapper
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 ! 2026-04-04
 gyminsider.nl##.bnrrow
@@ -241,8 +237,6 @@ srherald.com##.gsrhera
 srherald.com##.elementor-heading-title:has-text(ADVERT)
 tvblik.nl##.banner-fluid
 tvblik.nl##.header-banner
-tvblik.nl##.pgAdWrapper
-weertdegekste.nl##.pgAdWrapper
 frontpage.fok.nl##[class^="r89-"]
 ! 2026-03-24
 nl.motorsport.com##.ms-side-widget--custom-links
@@ -268,7 +262,6 @@ mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
 ! 2026-03-14
 emerce.nl##[id*="_alpha_"]:upward(div[style])
-hardnieuws.nl##.pgAdWrapper
 klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
 onderwijsland.com##.banner-fullwidth
@@ -417,7 +410,6 @@ nieuwnieuws.nl##.uk-text-center[style^="min-height"]
 zelfmaak-ideetjes.nl##[id^="r89-"]
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 meemetoranje.nl##.outstream-ad
-meemetoranje.nl##.pgAdWrapper
 meemetoranje.nl##.player-container-article
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 waterkant.net##.td-all-devices
