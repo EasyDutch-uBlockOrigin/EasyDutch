@@ -2,6 +2,8 @@
 ! Description: Filters for hiding general elements on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-09
+##.pgAdWrapper
 ! 2026-03-11
 ##a[href^="https://partnerprogramma.bol.com/click/"]
 ! 2026-02-03
