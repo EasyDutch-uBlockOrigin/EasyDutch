@@ -998,10 +998,6 @@ autoscout24.be##.hf-top-ad
 autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
 autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
 voetbalindebollenstreek.nl##.partners
-! 2022-10-19
-ensie.nl##.advertisement
-ensie.nl##.bottom-banner
-ensie.nl##.top-banner:style(min-height: 0px !important)
 ! 2022-10-04
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
