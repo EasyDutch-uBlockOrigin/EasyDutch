@@ -979,9 +979,6 @@ hardware.info##+js(nostif, .call(null), 10)
 hardware.info##article.overview-item:has-text(Sponsored)
 ! 2023-01-09
 stopdebankiers.com##.adsbygoogle:upward([id^="custom_html"])
-! 2023-01-06
-loonwijzer.be##.main__bottom:has(div[id*="gpt-ad-"])
-loonwijzer.be##[class^="article__ad"]
 ! 2022-12-30
 wordfeudwoorden.nl##.mobblue
 ! 2022-12-09
