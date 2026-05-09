@@ -993,9 +993,6 @@ accountancyvanmorgen.nl##.rc-banner-inner-wrapper
 accountancyvanmorgen.nl,salarisvanmorgen.nl##.rc-banner-leaderboard
 accountancyvanmorgen.nl,pensioenvanmorgen.nl,salarisvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 jndkgrf.nl##.wp-block-image:has([href^="https://partner.bol.com/click/"])
-! 2022-12-07
-flashscore.nl##.adsenvelope
-flashscore.nl##.oddsPlacement
 ! 2022-10-04
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
