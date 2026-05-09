@@ -131,6 +131,6 @@ vagina.nl##.list-item:has(.card > ins)
 vagina.nl##[href^="https://xltube.nl/click/"]
 vagina.nl##[id$="fish-hooks"]
 vagina.nl##div[id^=video-fish-hook]
-xmissy.nl##.right-adblock
+xmissy.nl,nederporn.tv##.right-adblock
 xmissy.nl##.playerbanner
 xmissy.nl##.galleryadbar
