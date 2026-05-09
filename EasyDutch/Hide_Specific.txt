@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-08
+rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
 salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
@@ -987,8 +988,6 @@ blikopzeewolde.nl##.fusion-flex-container.fullwidth-box.fusion-fullwidth:has(:no
 wordfeudwoorden.nl##.mobblue
 ! 2022-12-09
 wijkkrantzuid.nl##.widget_media_image:not(:has(a[href^="https://wijkkrantzuid.nl"]))
-rodi.nl##[id^="gtm-article-lb"]
-rodi.nl##[id^="gtm-article-mpu"]
 ! 2022-10-04
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
