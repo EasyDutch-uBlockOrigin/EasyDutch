@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-09
+||dewestkrant.nl/wp-content/uploads/*/*Banner$image
+||dewestkrant.nl/wp-content/uploads/*/*.gif$image
 ! 2026-05-08
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/IMG_$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/WhatsApp-Image$image
@@ -340,8 +343,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ! 2023-01-27
 ||wieringernieuws.nl/gfx/ads/$domain=hollandskroonnieuws.nl|wieringernieuws.nl
 /^https?:\/\/(?:www\.)?webcams?\-?[a-z]+\.nl\/media\/banners2?\//$1p,image
-! 2022-12-09
-||dewestkrant.nl/wp-content/uploads/*/*Banner
 ! 2022-12-08
 /wp-content/uploads/*/Banner$domain=accountancyvanmorgen.nl|salarisvanmorgen.nl
 ! 2022-09-01
