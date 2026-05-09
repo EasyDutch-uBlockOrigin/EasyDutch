@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Sat, 09 May 2026 11:25:25 +0000
+! Last updated: Sat, 09 May 2026 14:44:44 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -46,6 +46,7 @@
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/adman-files/*/banners/$image
 ||xmissy.nl/modules/content-processing/xcmvid/*/player$image
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl

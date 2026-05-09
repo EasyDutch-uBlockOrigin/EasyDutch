@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 09 May 2026 11:25:25 +0000
+! Last updated: Sat, 09 May 2026 14:44:44 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.9.685.patch#easydutch
+! Diff-Path: patches/2026.5.9.884.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1588,6 +1588,7 @@ autoweek.nl##+js(set, isAdBlockActive, false)
 ||thekinkyweb.nl/wp-content/uploads/*/Logo-RedRopes-Erotische-verhale$image
 ||vagina.nl/fish-hooks/fetch.json
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
+||xmissy.nl/adman-files/*/banners/$image
 ||xmissy.nl/modules/content-processing/xcmvid/*/player$image
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
