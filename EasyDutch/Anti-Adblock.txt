@@ -2,6 +2,10 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-09
+!#if env_firefox
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
+!#endif
 ! 2026-04-29
 solarmagazine.nl##+js(no-xhr-if, ads)
 ! 2026-02-26
