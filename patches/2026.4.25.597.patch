@@ -1,15 +1,21 @@
-diff name:easydutch lines:121 checksum:c773b4c26a
+diff name:easydutch lines:148 checksum:cce0d570c3
 d2 1
 a2 1
-! Last updated: Fri, 08 May 2026 06:51:56 +0000
+! Last updated: Sat, 09 May 2026 10:08:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.8.411.patch#easydutch
+! Diff-Path: patches/2026.5.9.608.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
 d54 1
-a137 25
+d79 2
+a137 30
+||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
+||accountancyvanmorgen.nl/wp-content/uploads/sites/*/*-week-$image
+/wp-content/uploads/*/*.gif$domain=minimumloon.nl
+||dewestkrant.nl/wp-content/uploads/*/*Banner$image
+||dewestkrant.nl/wp-content/uploads/*/*.gif$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/IMG_$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/WhatsApp-Image$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/*.gif$image
@@ -40,7 +46,7 @@ d375 1
 d384 1
 a384 1
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
-d395 2
+d390 7
 d398 7
 d406 2
 d410 3
@@ -48,7 +54,20 @@ d417 10
 d428 1
 d431 2
 d457 1
-a513 27
+d497 1
+a513 39
+welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
+welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
+hardware.info##div[class^="bnr-"]
+rodi.nl##.pgAdWrapper
+accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
+salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
+buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
+buttkicken.nl##.wp-block-paragraph:has-text((Advertentie))
+autoscout24.be,autoscout24.nl##[class^="AdTop_"]
+autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
+autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
+minimumloon.nl###custom_html-8
 nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
@@ -80,6 +99,7 @@ d635 6
 d889 1
 a889 1
 twenteinsite.nl##.sda
+d925 1
 d1054 3
 a1056 3
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
@@ -89,11 +109,16 @@ d1059 1
 a1059 1
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 d1067 1
+d1123 2
 d1167 1
+d1235 2
 d1269 1
 d1271 1
 d1277 1
 d1295 1
+d1312 10
+d1324 15
+d1343 2
 d1348 1
 d1350 3
 d1354 1
@@ -110,11 +135,13 @@ d1528 1
 a1550 1
 lflmagazine.nl#@#.header-advert
 d1562 1
-a1562 1
+a1562 4
+!#if env_firefox
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
+!#endif
 solarmagazine.nl##+js(no-xhr-if, ads)
 d1576 1
-d1585 1
-d1587 1
+d1584 4
 d1594 1
 a1594 1
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

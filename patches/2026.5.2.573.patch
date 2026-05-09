@@ -1,12 +1,18 @@
-diff name:easydutch lines:35 checksum:c773b4c26a
+diff name:easydutch lines:64 checksum:cce0d570c3
 d2 1
 a2 1
-! Last updated: Fri, 08 May 2026 06:51:56 +0000
+! Last updated: Sat, 09 May 2026 10:08:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.8.411.patch#easydutch
+! Diff-Path: patches/2026.5.9.608.patch#easydutch
 d54 1
-a137 7
+d79 2
+a137 12
+||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
+||accountancyvanmorgen.nl/wp-content/uploads/sites/*/*-week-$image
+/wp-content/uploads/*/*.gif$domain=minimumloon.nl
+||dewestkrant.nl/wp-content/uploads/*/*Banner$image
+||dewestkrant.nl/wp-content/uploads/*/*.gif$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/IMG_$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/WhatsApp-Image$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/*.gif$image
@@ -14,11 +20,26 @@ a137 7
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
 ||static.fd.nl/assets/fdmg-ads/
-a501 1
+d406 5
+d485 1
+a501 13
+welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
+welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
+hardware.info##div[class^="bnr-"]
+rodi.nl##.pgAdWrapper
+accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
+salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
+buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
+buttkicken.nl##.wp-block-paragraph:has-text((Advertentie))
+autoscout24.be,autoscout24.nl##[class^="AdTop_"]
+autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
+autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
+minimumloon.nl###custom_html-8
 nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
 d897 1
 a897 1
 twenteinsite.nl##.sda
+d933 1
 d1062 3
 a1064 3
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
@@ -26,9 +47,17 @@ demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position=
 humo.be##.oortje-wrapper
 d1067 1
 d1076 1
+d1132 2
+d1243 2
+d1316 10
+d1328 15
+d1347 2
+a1544 3
+!#if env_firefox
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
+!#endif
 d1559 1
-d1568 1
-d1570 1
+d1567 4
 d1577 1
 a1577 1
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl

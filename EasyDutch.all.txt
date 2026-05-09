@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 08 May 2026 06:51:56 +0000
+! Last updated: Sat, 09 May 2026 10:08:55 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.8.411.patch#easydutch
+! Diff-Path: patches/2026.5.9.608.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -75,8 +75,6 @@ _advertentieleaderboardhome.
 ||pornokartel.nl^$3p
 ||adverteren.rd.nl^$strict3p
 ||adcdn.ster.nl^$3p
-||spott.ai^$domain=vtm.be
-||gemius.pl^$important,domain=vtm.be
 ||believe-the-hype.be^$3p
 ||nojazz.eu^$3p
 ||travelads.be^$3p
@@ -134,6 +132,11 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
+||accountancyvanmorgen.nl/wp-content/uploads/sites/*/*-week-$image
+/wp-content/uploads/*/*.gif$domain=minimumloon.nl
+||dewestkrant.nl/wp-content/uploads/*/*Banner$image
+||dewestkrant.nl/wp-content/uploads/*/*.gif$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/IMG_$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/*/WhatsApp-Image$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/*.gif$image
@@ -409,11 +412,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||focusclub.nl/images/banners/
 ||wieringernieuws.nl/gfx/ads/$domain=hollandskroonnieuws.nl|wieringernieuws.nl
 /^https?:\/\/(?:www\.)?webcams?\-?[a-z]+\.nl\/media\/banners2?\//$1p,image
-||dewestkrant.nl/wp-content/uploads/*/*Banner
-||rotterdam-nesselande.nl/*/wp-content/webpc-passthru.php?src=*.gif
-/wp-content/uploads/*/Banner$domain=accountancyvanmorgen.nl|salarisvanmorgen.nl
-||medialaancdn.be/vtm_od/prerolls/$media,domain=vtm.be,redirect=noopmp3-0.1s
-||minimumloon.nl/wp-content/uploads/*/*.gif
 ||handbalstartpunt.nl/*/banner$image
 ||succesboeken.nl/api/public/images/branding/$image,domain=commonsensetv.nl
 ||gigantfm.nl/assets/images/autoonderdelen$image
@@ -488,7 +486,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
-@@||salarisvanmorgen.nl/wp-content/uploads/*abonneer-nieuwsbrief
 @@||images.2dehands.com/api/v1/listing-twh-p/images/ad/$image,domain=2dehands.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=skoften.net
 @@||sliedrecht24.nl/wp-content/uploads/*/Banner-300x250*.jpg$image,1p
@@ -505,6 +502,18 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
+welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
+hardware.info##div[class^="bnr-"]
+rodi.nl##.pgAdWrapper
+accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
+salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
+buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
+buttkicken.nl##.wp-block-paragraph:has-text((Advertentie))
+autoscout24.be,autoscout24.nl##[class^="AdTop_"]
+autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
+autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
+minimumloon.nl###custom_html-8
 nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
@@ -937,7 +946,6 @@ fem-fem.nl##.sh-player-container
 newsbit.nl##.highlight-strip
 newsbit.nl##.acf-block-cta-conversion-rating
 newsbit.nl###h2-cta-alinea
-welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 nieuwdezeweek.nl##.mid-ad
 wordfeudhelp.nl##.hoog.text-center
 nd.nl##.component__pubble-banner
@@ -1134,8 +1142,6 @@ decibel.nl##.edgtf-carousel-holder
 decibel.nl##div[aria-label="Slider"]:not(:has([data-href*="decibel.nl"]))
 fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 grandprixradio.nl##.advertisements
-hardware.info##.sidebar-item > a.sidebar-item__content:has-text(adv:)
-hardware.info##.category:has-text(Advert):upward(article.overview-item)
 janvissersweer.nl##img[width="300"][height="250"]:upward(aside.widget)
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
 luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
@@ -1245,8 +1251,6 @@ zakenreisnieuws.nl##[id*="web_hpa"]:upward(.block)
 zakenreisnieuws.nl##[id*="web_partners"]:upward(.block)
 zita.be###shopsuiteApplication
 zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
-buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
-buttkicken.nl##p.has-small-font-size:has-text(Advertentie)
 vriendin.nl##[id^="adf-autonative"]
 autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 gebruikershandleiding.com##[class^="adserver-container"]
@@ -1318,39 +1322,12 @@ hollandskroonnieuws.nl,wieringernieuws.nl##div#block-blue:has-text(advert)
 hollandskroonnieuws.nl,wieringernieuws.nl###navleft > center:has-text(advert)
 webcam-harlingen.nl,webcam-maastricht.nl##.carousel
 webcam-aalsmeer.nl,webcam-airport.nl,webcam-binnenvaart.nl,webcam-blokzijl.nl,webcam-brandaris.nl,webcam-delfzijl.nl,webcam-denhelder.nl,webcam-denoever.nl,webcam-dokkum.nl,webcam-dordrecht.nl,webcam-enkhuizen.nl,webcam-friesemeren.nl,webcam-grou.nl,webcam-havenijmuiden.nl,webcam-hindeloopen.nl,webcam-hoekvanholland.nl,webcam-kampen.nl,webcam-lauwersoog.nl,webcam-leeuwarden.nl,webcam-lelystad.nl,webcam-maassluis.nl,webcam-marken.nl,webcam-monnickendam.nl,webcam-rotterdam.nl,webcam-sneek.nl,webcam-terneuzen.nl,webcam-vlaardingen.nl,webcam-volendam.nl,webcam-workum.nl,webcam-zaanzicht.nl,webcam-zoutkamp.nl,webcam-zwartsluis.nl,webcams-ameland.nl,webcams-scheveningen.nl,webcams-texel.nl,webcams-vlissingen.nl,webcamschiermonnikoog.nl,webcamvlieland.nl##.flexslider
-hardware.info##div[class^="bnr-"]
-hardware.info##.sidebar_right_bottom
-hardware.info##[data-testid^="banner"]
-hardware.info##^script:has-text(Inject=!)
-hardware.info##+js(nostif, .call(null), 10)
-hardware.info##article.overview-item:has-text(Sponsored)
-stopdebankiers.com##.adsbygoogle:upward([id^="custom_html"])
-loonwijzer.be##.main__bottom:has(div[id*="gpt-ad-"])
-loonwijzer.be##[class^="article__ad"]
-blikopzeewolde.nl##.fusion-flex-container.fullwidth-box.fusion-fullwidth:has(:not(a[href^="https://www.blikopzeewolde.nl/"]) > .fusion-column-inner-bg-image)
 wordfeudwoorden.nl##.mobblue
 wijkkrantzuid.nl##.widget_media_image:not(:has(a[href^="https://wijkkrantzuid.nl"]))
-rodi.nl##[id^="gtm-article-lb"]
-rodi.nl##[id^="gtm-article-mpu"]
-accountancyvanmorgen.nl##.rc-banner-inner-wrapper
-accountancyvanmorgen.nl,salarisvanmorgen.nl##.rc-banner-leaderboard
-accountancyvanmorgen.nl,pensioenvanmorgen.nl,salarisvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
-jndkgrf.nl##.wp-block-image:has([href^="https://partner.bol.com/click/"])
-flashscore.nl##.adsenvelope
-flashscore.nl##.oddsPlacement
-autoscout24.be##.hf-top-ad
-autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
-autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
-voetbalindebollenstreek.nl##.partners
-ensie.nl##.advertisement
-ensie.nl##.bottom-banner
-ensie.nl##.top-banner:style(min-height: 0px !important)
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
 mijnwoordenboek.nl##div[style] [id*="728x90"]:upward(1)
 woorden.org##div[style] [id*="728x90"]:upward(3)
-gooieneembode.nl##[href^="/nieuws/advert"]:upward(2)
-minimumloon.nl##.header-widget-region > .col-full
 uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
 radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
@@ -1547,6 +1524,9 @@ mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
+!#if env_firefox
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
+!#endif
 solarmagazine.nl##+js(no-xhr-if, ads)
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
@@ -1568,8 +1548,6 @@ tweakers.net###b_re:style(visibility: collapse !important; min-height: 1.5px !im
 aimsolutions.nl##+js(noeval-if, adsBlocked)
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$xhr,script,domain=vtm.be
-@@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
 citaten.net#@##bottom-ad
 @@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
 @@||fwmrm.net/crossdomain.xml$xhr,domain=embed.viaplay.com|racingnews365.nl

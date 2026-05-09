@@ -1,6 +1,6 @@
 ! Title: Block Whitelist
 ! Description: Whitelist for specific URLs on Dutch websites
-! Last updated: Sun, 05 Apr 2026 12:16:22 +0000
+! Last updated: Sat, 09 May 2026 10:08:55 +0000
 !
 ! 2026-04-05
 @@||antilliaansdagblad.com^$ghide
@@ -21,8 +21,6 @@
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
 ! 2022-12-30
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
-! 2022-12-08
-@@||salarisvanmorgen.nl/wp-content/uploads/*abonneer-nieuwsbrief
 ! 2022-06-22
 @@||images.2dehands.com/api/v1/listing-twh-p/images/ad/$image,domain=2dehands.be
 ! 2022-03-18
