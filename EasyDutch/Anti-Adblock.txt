@@ -51,12 +51,6 @@ aimsolutions.nl##+js(noeval-if, adsBlocked)
 ! 2022-11-14
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
 ! 2022-10-12
-! https://github.com/uBlockOrigin/uAssets/issues/12572
-! https://github.com/NanoMeow/QuickReports/issues/911
-! https://github.com/uBlockOrigin/uAssets/issues/14999
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$xhr,script,domain=vtm.be
-@@||videoplayer.dpgmedia.net/*/ad_smartads_.js$xhr,domain=vtm.be
-! 2022-10-12
 citaten.net#@##bottom-ad
 ! 2022-05-28 racingnews365.nl
 @@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
