@@ -977,8 +977,6 @@ hardware.info##[data-testid^="banner"]
 hardware.info##^script:has-text(Inject=!)
 hardware.info##+js(nostif, .call(null), 10)
 hardware.info##article.overview-item:has-text(Sponsored)
-! 2023-01-09
-stopdebankiers.com##.adsbygoogle:upward([id^="custom_html"])
 ! 2022-12-30
 wordfeudwoorden.nl##.mobblue
 ! 2022-12-09
