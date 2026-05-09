@@ -1,10 +1,10 @@
-diff name:easydutch lines:52 checksum:ceabd77e68
+diff name:easydutch lines:55 checksum:57b8e48388
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 11:01:22 +0000
+! Last updated: Sat, 09 May 2026 11:25:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.661.patch#easydutch
+! Diff-Path: patches/2026.5.9.685.patch#easydutch
 d78 2
 a136 11
 ||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
@@ -19,6 +19,7 @@ a136 11
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
 d406 5
+d448 1
 d485 1
 a494 1
 ##.pgAdWrapper
@@ -51,3 +52,5 @@ a1543 3
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
 !#endif
 d1565 2
+a1593 1
+||media.biertijd.com/galleries/*/banners/$image,3p

@@ -1,10 +1,10 @@
-diff name:easydutch lines:190 checksum:ceabd77e68
+diff name:easydutch lines:193 checksum:57b8e48388
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 11:01:22 +0000
+! Last updated: Sat, 09 May 2026 11:25:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.661.patch#easydutch
+! Diff-Path: patches/2026.5.9.685.patch#easydutch
 d27 1
 a27 1
 /advertentie.$domain=~advertentie.rd.nl
@@ -64,6 +64,7 @@ d421 12
 d434 1
 d437 2
 d463 1
+d466 1
 d503 1
 a512 1
 ##.pgAdWrapper
@@ -187,5 +188,7 @@ d1607 4
 d1617 1
 a1617 1
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl
+a1637 1
+||media.biertijd.com/galleries/*/banners/$image,3p
 a1645 1
 ||securetool.nl/data/mouse-out/$script,3p

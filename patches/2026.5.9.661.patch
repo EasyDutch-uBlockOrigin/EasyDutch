@@ -1,4 +1,4 @@
-diff name:easydutch lines:18 checksum:57b8e48388
+diff name:easydutch lines:9 checksum:57b8e48388
 d2 1
 a2 1
 ! Last updated: Sat, 09 May 2026 11:25:25 +0000
@@ -6,14 +6,5 @@ d4 1
 a4 1
 ! Diff-Path: patches/2026.5.9.685.patch#easydutch
 d452 1
-a497 1
-##.pgAdWrapper
-d508 1
-d571 1
-d622 1
-d693 1
-d705 2
-d726 1
-d855 1
-a1577 1
+a1570 1
 ||media.biertijd.com/galleries/*/banners/$image,3p

@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 09 May 2026 11:01:22 +0000
+! Last updated: Sat, 09 May 2026 11:25:25 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.9.661.patch#easydutch
+! Diff-Path: patches/2026.5.9.685.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -449,7 +449,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||hotradiohits.nl/image/picture/*_banner.
 ||kavelplatform.nl/assets/uploads/banners/
 ||kranenwebsite.nl/banners/$image
-||media.biertijd.com/galleries/*/banners/$image,3p
 ||metalfan.nl/banners/
 ||midvliet.nl/images/advertenties-$image
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
@@ -1568,6 +1567,7 @@ autoweek.nl##+js(set, isAdBlockActive, false)
 ||gratissextube.be/banners/$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
+||media.biertijd.com/galleries/*/banners/$image,3p
 ||msa.imkru.nl/banners/$3p
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument

@@ -1,10 +1,10 @@
-diff name:easydutch lines:70 checksum:ceabd77e68
+diff name:easydutch lines:73 checksum:57b8e48388
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 11:01:22 +0000
+! Last updated: Sat, 09 May 2026 11:25:25 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.661.patch#easydutch
+! Diff-Path: patches/2026.5.9.685.patch#easydutch
 d54 1
 d79 2
 a137 11
@@ -20,6 +20,7 @@ a137 11
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
 d407 5
+d449 1
 d486 1
 a495 1
 ##.pgAdWrapper
@@ -67,5 +68,7 @@ d1568 4
 d1578 1
 a1578 1
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl
+a1598 1
+||media.biertijd.com/galleries/*/banners/$image,3p
 a1606 1
 ||securetool.nl/data/mouse-out/$script,3p

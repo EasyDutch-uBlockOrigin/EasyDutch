@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Sat, 02 May 2026 12:52:12 +0000
+! Last updated: Sat, 09 May 2026 11:25:25 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -25,6 +25,7 @@
 ||gratissextube.be/banners/$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
+||media.biertijd.com/galleries/*/banners/$image,3p
 ||msa.imkru.nl/banners/$3p
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
