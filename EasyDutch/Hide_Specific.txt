@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-08
+welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
+welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
 rodi.nl##.pgAdWrapper
 accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
@@ -515,7 +517,6 @@ fem-fem.nl##.sh-player-container
 newsbit.nl##.highlight-strip
 newsbit.nl##.acf-block-cta-conversion-rating
 newsbit.nl###h2-cta-alinea
-welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 nieuwdezeweek.nl##.mid-ad
 wordfeudhelp.nl##.hoog.text-center
 nd.nl##.component__pubble-banner
