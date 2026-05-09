@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-08
+accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
+salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
 buttkicken.nl##.wp-block-paragraph:has-text((Advertentie))
 autoscout24.be,autoscout24.nl##[class^="AdTop_"]
@@ -987,10 +989,6 @@ wordfeudwoorden.nl##.mobblue
 wijkkrantzuid.nl##.widget_media_image:not(:has(a[href^="https://wijkkrantzuid.nl"]))
 rodi.nl##[id^="gtm-article-lb"]
 rodi.nl##[id^="gtm-article-mpu"]
-! 2022-12-08
-accountancyvanmorgen.nl##.rc-banner-inner-wrapper
-accountancyvanmorgen.nl,salarisvanmorgen.nl##.rc-banner-leaderboard
-accountancyvanmorgen.nl,pensioenvanmorgen.nl,salarisvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
 ! 2022-10-04
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
