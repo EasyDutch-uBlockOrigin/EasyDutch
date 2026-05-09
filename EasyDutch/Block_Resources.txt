@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-09
+||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
 ||accountancyvanmorgen.nl/wp-content/uploads/sites/*/*-week-$image
 /wp-content/uploads/*/*.gif$domain=minimumloon.nl
 ||dewestkrant.nl/wp-content/uploads/*/*Banner$image
