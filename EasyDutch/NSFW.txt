@@ -1,6 +1,6 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Sat, 09 May 2026 14:44:44 +0000
+! Last updated: Sat, 09 May 2026 14:54:27 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
@@ -47,7 +47,7 @@
 ||vagina.nl/fish-hooks/fetch.json
 ||xmissy.nl/adman-files/scripts/layerpop/$script,1p
 ||xmissy.nl/adman-files/*/banners/$image
-||xmissy.nl/modules/content-processing/xcmvid/*/player$image
+||xmissy.nl/modules/content-processing/xcmvid/branding/*player$image
 ||xmissy.nl/modules/content-processing/xcmgallery/adfiles/*banner$image
 ||photo.xmissymedia.nl/pictures/*/banners/$image,domain=xmissy.nl
 
@@ -131,6 +131,6 @@ vagina.nl##.list-item:has(.card > ins)
 vagina.nl##[href^="https://xltube.nl/click/"]
 vagina.nl##[id$="fish-hooks"]
 vagina.nl##div[id^=video-fish-hook]
-xmissy.nl##.right-adblock
+xmissy.nl,nederporn.tv##.right-adblock
 xmissy.nl##.playerbanner
 xmissy.nl##.galleryadbar

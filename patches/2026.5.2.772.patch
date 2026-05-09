@@ -1,10 +1,10 @@
-diff name:easydutch lines:65 checksum:25e24437a9
+diff name:easydutch lines:70 checksum:d9f9efccb8
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 14:44:44 +0000
+! Last updated: Sat, 09 May 2026 14:54:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.884.patch#easydutch
+! Diff-Path: patches/2026.5.9.894.patch#easydutch
 d78 2
 a136 11
 ||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
@@ -62,5 +62,10 @@ autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
 d1566 2
 a1594 1
 ||media.biertijd.com/galleries/*/banners/$image,3p
-a1614 1
+d1615 1
+a1615 2
 ||xmissy.nl/adman-files/*/banners/$image
+||xmissy.nl/modules/content-processing/xcmvid/branding/*player$image
+d1687 1
+a1687 1
+xmissy.nl,nederporn.tv##.right-adblock

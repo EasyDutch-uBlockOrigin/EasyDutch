@@ -1,12 +1,17 @@
-diff name:easydutch lines:11 checksum:25e24437a9
+diff name:easydutch lines:16 checksum:d9f9efccb8
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 14:44:44 +0000
+! Last updated: Sat, 09 May 2026 14:54:27 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.884.patch#easydutch
+! Diff-Path: patches/2026.5.9.894.patch#easydutch
 d452 1
 a1570 1
 ||media.biertijd.com/galleries/*/banners/$image,3p
-a1590 1
+d1591 1
+a1591 2
 ||xmissy.nl/adman-files/*/banners/$image
+||xmissy.nl/modules/content-processing/xcmvid/branding/*player$image
+d1663 1
+a1663 1
+xmissy.nl,nederporn.tv##.right-adblock

@@ -1,14 +1,13 @@
-diff name:easydutch lines:13 checksum:d9f9efccb8
+diff name:easydutch lines:12 checksum:d9f9efccb8
 d2 1
 a2 1
 ! Last updated: Sat, 09 May 2026 14:54:27 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.5.9.894.patch#easydutch
-d1591 1
-a1591 2
-||xmissy.nl/adman-files/*/banners/$image
+d1592 1
+a1592 1
 ||xmissy.nl/modules/content-processing/xcmvid/branding/*player$image
-d1663 1
-a1663 1
+d1664 1
+a1664 1
 xmissy.nl,nederporn.tv##.right-adblock
