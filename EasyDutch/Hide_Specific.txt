@@ -1007,8 +1007,6 @@ encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
 mijnwoordenboek.nl##div[style] [id*="728x90"]:upward(1)
 woorden.org##div[style] [id*="728x90"]:upward(3)
-! 2022-09-09
-gooieneembode.nl##[href^="/nieuws/advert"]:upward(2)
 ! 2022-07-13
 uw-folder.nl##.banner
 webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
