@@ -17,8 +17,6 @@
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
 ! 2022-12-30
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
-! 2022-06-22
-@@||images.2dehands.com/api/v1/listing-twh-p/images/ad/$image,domain=2dehands.be
 ! 2022-03-18
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=skoften.net
 ! 2022-03-17
