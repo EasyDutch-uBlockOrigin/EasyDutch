@@ -1,10 +1,10 @@
-diff name:easydutch lines:118 checksum:d9f9efccb8
+diff name:easydutch lines:120 checksum:4053196643
 d2 1
 a2 1
-! Last updated: Sat, 09 May 2026 14:54:27 +0000
+! Last updated: Mon, 11 May 2026 17:46:23 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.9.894.patch#easydutch
+! Diff-Path: patches/2026.5.11.1066.patch#easydutch
 d54 1
 d79 2
 a137 22
@@ -39,7 +39,9 @@ d404 7
 d412 2
 d416 2
 d451 1
-d488 1
+d482 1
+d484 1
+d488 2
 a497 1
 ##.pgAdWrapper
 a504 24

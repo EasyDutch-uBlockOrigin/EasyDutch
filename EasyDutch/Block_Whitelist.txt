@@ -1,6 +1,6 @@
 ! Title: Block Whitelist
 ! Description: Whitelist for specific URLs on Dutch websites
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Mon, 11 May 2026 17:46:23 +0000
 !
 ! 2026-04-05
 @@||antilliaansdagblad.com^$ghide
@@ -10,19 +10,13 @@
 ! @@/^https:\/\/(tags\.refinery89\.com\/.*(nl|be|com)\.js)/$script
 ! 2023-10-23
 @@||vandale.*/*/images/*_300x250.$image,1p
-! 2023-10-13
-@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 ! 2023-08-01
 @@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
-! 2023-01-14
-@@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
 ! 2023-01-12 https://github.com/uBlockOrigin/uAssets/commit/943cc256a43b4aa5c20f2898860279629abd72b2
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
 ! 2022-12-30
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=weerplaza.nl
-! 2022-06-22
-@@||images.2dehands.com/api/v1/listing-twh-p/images/ad/$image,domain=2dehands.be
 ! 2022-03-18
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=skoften.net
 ! 2022-03-17
