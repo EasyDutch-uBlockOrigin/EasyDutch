@@ -14,8 +14,6 @@
 @@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 ! 2023-08-01
 @@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
-! 2023-01-14
-@@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
 ! 2023-01-12 https://github.com/uBlockOrigin/uAssets/commit/943cc256a43b4aa5c20f2898860279629abd72b2
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
