@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-10
+||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
+||dknieuws.nl/wp-content/uploads/*/*banner$image
+||dknieuws.nl/wp-content/uploads/*/*.gif$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/*-140.$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/adverteer-hier$image
 ||oisterwijknieuws.nl/wp-content/uploads/2026/04/vlinder.png
