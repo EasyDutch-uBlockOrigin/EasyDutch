@@ -2,6 +2,11 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-14
+hoekschnieuws.nl,strijen.info##body > center:has(img)
+hoekschnieuws.nl,strijen.info##.g
+hoekschnieuws.nl,strijen.info##.rbct > a > img
+hoekschnieuws.nl,strijen.info##.widget-heading:has-text(/advert/i)
 ! 2026-05-08
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
@@ -426,10 +431,6 @@ tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.c
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)
-hoekschnieuws.nl##body > center:has(img)
-hoekschnieuws.nl##.g
-hoekschnieuws.nl##.rbct > a > img
-hoekschnieuws.nl##.widget-heading:has-text(Advert)
 dagelijkseverhalen.nl##.ads
 loten.nl###advbottom
 guruwatch.nl##.Billboard
