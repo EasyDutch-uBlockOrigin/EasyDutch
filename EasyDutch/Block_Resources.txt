@@ -343,7 +343,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
 ||msa.paginabanner.nl/banners/$image
-||wp.com/gostreaming.nl/wp-content/uploads/*.gif$image
 ! 2023-04-26
 ||autosport.nl/images/banner$image
 ||golf.be/files/BannerImage/$image,1p
