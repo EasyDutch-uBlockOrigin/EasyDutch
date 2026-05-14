@@ -916,7 +916,6 @@ tameteo.nl##.megabanner
 ! 2023-04-25
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
-ecommercenews.nl##.widget-partners
 ! 2023-04-24
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
