@@ -362,7 +362,7 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ! 2023-02-02
 ||focusclub.nl/images/banners/
 ! 2023-01-27
-||wieringernieuws.nl/gfx/ads/$domain=hollandskroonnieuws.nl|wieringernieuws.nl
+||wieringernieuws.nl/gfx/ads/$image
 /^https?:\/\/(?:www\.)?webcams?\-?[a-z]+\.nl\/media\/banners2?\//$1p,image
 ! 2022-07-01
 ||handbalstartpunt.nl/*/banner$image
