@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-14
+genemuidenactueel.nl##.ads
 hoekschnieuws.nl,strijen.info##body > center:has(img)
 hoekschnieuws.nl,strijen.info##.g
 hoekschnieuws.nl,strijen.info##.rbct > a > img
