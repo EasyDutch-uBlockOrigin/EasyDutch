@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-14
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
 grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
@@ -791,8 +793,6 @@ nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
 nzbindex.nl##form + div a[href^="/"]:has(img)
 ! 2023-10-31
-cvandaag.nl##a[href^="https://cvandaag.nl/api/advertise-deliver/click/"]:upward(app-article-presentation)
-cvandaag.nl##div.sponsored:has-text(Gerelateerd)
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
