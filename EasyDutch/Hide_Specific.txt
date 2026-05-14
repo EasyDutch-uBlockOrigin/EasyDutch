@@ -924,7 +924,6 @@ ecommercenews.nl##.widget-partners
 ! 2023-04-24
 dknieuws.nl##[id^="dknie-grid-"]:has(.adv-link)
 dknieuws.nl##.dknie-widget:has(.adv-link)
-dordtcentraal.nl##.g
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
 ! Regiodagbladen.nl
