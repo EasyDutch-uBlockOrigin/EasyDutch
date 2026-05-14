@@ -1,11 +1,12 @@
-diff name:easydutch lines:92 checksum:c7acc9c8be
+diff name:easydutch lines:100 checksum:4e0b2d8c0d
 d2 1
 a2 1
-! Last updated: Thu, 14 May 2026 16:08:07 +0000
+! Last updated: Thu, 14 May 2026 17:49:12 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.14.968.patch#easydutch
-a134 32
+! Diff-Path: patches/2026.5.14.1069.patch#easydutch
+a134 33
+||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
 ||dknieuws.nl/wp-content/uploads/*/*banner$image
 ||dknieuws.nl/wp-content/uploads/*/*.gif$image
@@ -54,7 +55,12 @@ a413 1
 d482 1
 d484 1
 d488 1
-a504 16
+a504 21
+orgelnieuws.nl##.mh-widget:has(.g)
+orgelnieuws.nl##.g
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
+grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
 ecommercenews.nl##.widget-partners:has([data-track-click*="banner_ad"])
@@ -71,12 +77,14 @@ hoekschnieuws.nl,strijen.info##body > center:has(img)
 hoekschnieuws.nl,strijen.info##.g
 hoekschnieuws.nl,strijen.info##.rbct > a > img
 hoekschnieuws.nl,strijen.info##.widget-heading:has-text(/advert/i)
+d778 1
 d864 4
 d985 2
 a1061 1
 alarmeringen.nl##.ad
 d1126 4
 d1133 2
+d1182 2
 d1202 2
 d1264 2
 d1281 1

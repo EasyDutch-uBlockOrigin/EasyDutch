@@ -1,0 +1,17 @@
+diff name:easydutch lines:16 checksum:4e0b2d8c0d
+d2 1
+a2 1
+! Last updated: Thu, 14 May 2026 17:49:12 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.5.14.1069.patch#easydutch
+a134 1
+||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
+a519 5
+orgelnieuws.nl##.mh-widget:has(.g)
+orgelnieuws.nl##.g
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
+grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
+d809 1
+d1202 2

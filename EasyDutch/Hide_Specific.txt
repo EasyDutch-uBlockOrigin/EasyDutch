@@ -1,8 +1,13 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 14 May 2026 16:08:07 +0000
+! Last updated: Thu, 14 May 2026 17:49:12 +0000
 !
 ! 2026-05-14
+orgelnieuws.nl##.mh-widget:has(.g)
+orgelnieuws.nl##.g
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
+grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
 ecommercenews.nl##.widget-partners:has([data-track-click*="banner_ad"])
@@ -345,7 +350,6 @@ vmlnieuws.nl,weertfm.nl##aside [id^="custom_html-"]:has-text(Advert)
 rtvalbrandswaard.com##.widget-title:has-text(/Advert/i):upward([id^="media_image"])
 rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
 omroeptholen.nl##.block-title:has-text(Advert):upward(.widget)
-grootnieuwsradio.nl##[class^="Ads-module-"]:upward(section)
 sunrisefm.eu##.elementor-widget[class*="elementor-element-ad"]
 linqmedia.nl##.header-banner
 rtvridderkerk.nl##.cm-top-bar
@@ -791,8 +795,6 @@ nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
 nzbindex.nl##form + div a[href^="/"]:has(img)
 ! 2023-10-31
-cvandaag.nl##a[href^="https://cvandaag.nl/api/advertise-deliver/click/"]:upward(app-article-presentation)
-cvandaag.nl##div.sponsored:has-text(Gerelateerd)
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)

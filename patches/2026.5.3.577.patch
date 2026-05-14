@@ -1,12 +1,13 @@
-diff name:easydutch lines:146 checksum:c7acc9c8be
+diff name:easydutch lines:154 checksum:4e0b2d8c0d
 d2 1
 a2 1
-! Last updated: Thu, 14 May 2026 16:08:07 +0000
+! Last updated: Thu, 14 May 2026 17:49:12 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.14.968.patch#easydutch
+! Diff-Path: patches/2026.5.14.1069.patch#easydutch
 d78 2
-a136 43
+a136 44
+||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
 ||dknieuws.nl/wp-content/uploads/*/*banner$image
 ||dknieuws.nl/wp-content/uploads/*/*.gif$image
@@ -70,7 +71,12 @@ d481 1
 d485 2
 a494 1
 ##.pgAdWrapper
-a501 28
+a501 33
+orgelnieuws.nl##.mh-widget:has(.g)
+orgelnieuws.nl##.g
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
+grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
 ecommercenews.nl##.widget-partners:has([data-track-click*="banner_ad"])
@@ -104,6 +110,7 @@ d606 1
 d677 1
 d689 2
 d710 1
+d769 1
 d839 1
 d856 4
 d933 1
@@ -113,6 +120,7 @@ alarmeringen.nl##.ad
 d1119 4
 d1126 2
 d1130 2
+d1177 2
 d1197 2
 d1241 2
 d1261 2
