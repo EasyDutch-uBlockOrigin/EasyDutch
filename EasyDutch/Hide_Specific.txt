@@ -913,7 +913,6 @@ pu.nl##.ad-container
 sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
 ! 2023-04-26
-kookboekennieuws.nl##.cb-sidebar-widget:has-text(Kijk ook eens op:)
 tameteo.nl###bannerDerPC
 tameteo.nl##.megabanner
 ! 2023-04-24
