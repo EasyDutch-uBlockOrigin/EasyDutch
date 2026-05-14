@@ -2,7 +2,7 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
-! 2026-05-10
+! 2026-05-14
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
 ||dknieuws.nl/wp-content/uploads/*/*banner$image
 ||dknieuws.nl/wp-content/uploads/*/*.gif$image
