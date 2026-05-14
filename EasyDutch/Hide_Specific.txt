@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-14
+grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
 ecommercenews.nl##.widget-partners:has([data-track-click*="banner_ad"])
@@ -345,7 +346,6 @@ vmlnieuws.nl,weertfm.nl##aside [id^="custom_html-"]:has-text(Advert)
 rtvalbrandswaard.com##.widget-title:has-text(/Advert/i):upward([id^="media_image"])
 rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
 omroeptholen.nl##.block-title:has-text(Advert):upward(.widget)
-grootnieuwsradio.nl##[class^="Ads-module-"]:upward(section)
 sunrisefm.eu##.elementor-widget[class*="elementor-element-ad"]
 linqmedia.nl##.header-banner
 rtvridderkerk.nl##.cm-top-bar
