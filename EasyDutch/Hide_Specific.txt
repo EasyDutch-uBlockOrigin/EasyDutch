@@ -942,8 +942,6 @@ televizier.nl##.interstitial_banner
 ! 2023-02-18
 reclamefolder.nl##[class*="folderRowAd"]
 redbot.frl##.slider.container:has(.twelvecol:has-text(partners))
-! 2023-02-10 https://github.com/uBlockOrigin/uAssets/issues/9705
-modekoninginmaxima.nl##.adsbygoogle
 ! 2023-01-27
 wieringernieuws.nl##div#block-blue:has-text(advert)
 wieringernieuws.nl###navleft > center:has-text(advert)
