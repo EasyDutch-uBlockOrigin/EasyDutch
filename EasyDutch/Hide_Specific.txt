@@ -934,8 +934,6 @@ pokeren.nl##.sidebaritem:has-text(/partners|online casino/i)
 notebookcheck.nl###nbc_skys
 ! 2023-03-23
 allecijfers.nl##div.card:has(.adsbygoogle)
-! 2023-03-16
-agraaf.nl##.partners-carousel
 ! 2023-02-28
 televizier.nl##.interstitial_banner
 ! 2023-02-18
