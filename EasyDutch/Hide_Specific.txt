@@ -722,7 +722,6 @@ dvo.be##.advertisement
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
 apparata.nl##.widget:has(h2:has-text(/Partners/i))
-basketbal.vlaanderen##.footer-partners
 blikopnieuws.nl##aside div[id^="block-block-"]:has(a[target="_blank"] > img)
 robtv.be,tvl.be,tvoost.be##.c-ad-cba-row + .botGutter
 ! 2023-12-20
