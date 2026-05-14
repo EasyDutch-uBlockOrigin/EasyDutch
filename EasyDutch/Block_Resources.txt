@@ -340,7 +340,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||culturescope.nl/wp-content/uploads/2016/11/FAIRY-*.png$image
 ! 2023-04-28
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
-||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
 ||msa.paginabanner.nl/banners/$image
 ! 2023-04-26
