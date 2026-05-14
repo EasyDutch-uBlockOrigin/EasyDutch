@@ -656,6 +656,7 @@ ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,tubantia.nl##.advertisemen
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space:upward(div._ztjuth1)
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.tile:has(>.ankeiler--advertisement)
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##div.x-pack__tile:has(.dfp-space)
+alarmeringen.nl##.ad
 autoweek.nl##.advertise
 autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
 autowereld.nl###banner-lister-top
@@ -935,8 +936,6 @@ notebookcheck.nl###nbc_skys
 allecijfers.nl##div.card:has(.adsbygoogle)
 ! 2023-03-16
 agraaf.nl##.partners-carousel
-! 2023-03-09
-alarmeringen.nl##.ad
 ! 2023-02-28
 televizier.nl##.interstitial_banner
 ! 2023-02-18
