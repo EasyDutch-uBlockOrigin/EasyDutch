@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-14
+dknieuws.nl##.elementor-widget-container:has([id^="dknie-"])
+dknieuws.nl##.dknie-widget
 jmonline.nl##.content_blok_reclame
 juf-milou.nl##.adverteerdersblok
 juf-milou.nl##div[id^="content"]:not(:has(a[href^="index.php?"])):not(:has-text(/\b/i))
@@ -916,8 +918,6 @@ ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
 ecommercenews.nl##.widget-partners
 ! 2023-04-24
-dknieuws.nl##[id^="dknie-grid-"]:has(.adv-link)
-dknieuws.nl##.dknie-widget:has(.adv-link)
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
 ! Regiodagbladen.nl
