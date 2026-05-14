@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-10
+||hoekschnieuws.nl/wp-content/uploads/$image,domain=strijen.info
+||strijen.info/wp-content/uploads/*/advertentie$image
+||strijen.info/wp-content/uploads/*/banner$image
 ||strijen.info/wp-content/uploads/$image,domain=hoekschnieuws.nl
 ||hoekschnieuws.nl/wp-content/uploads/*/*banner$image
 ||hoekschnieuws.nl/wp-content/uploads/*/banner$image
