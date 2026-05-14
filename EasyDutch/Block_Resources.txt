@@ -3,6 +3,12 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-10
+||oisterwijknieuws.nl/wp-content/uploads/*/*-140.$image
+||oisterwijknieuws.nl/wp-content/uploads/*/adverteer-hier$image
+||oisterwijknieuws.nl/wp-content/uploads/2026/04/vlinder.png
+||oisterwijknieuws.nl/wp-content/uploads/2026/03/engelen.png
+||oisterwijknieuws.nl/wp-content/uploads/2026/03/eventgoodz.png
+||oisterwijknieuws.nl/wp-content/uploads/2026/01/boogaers.jpg
 ||rtvlansingerland.nl/wp-content/uploads/*/*reclame$image
 ||deoudrotterdammer.nl/wp-content/uploads/*/*banner$image
 ||deoudrotterdammer.nl/wp-content/uploads/*/*.gif$image
@@ -345,11 +351,6 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ||basketbal.vlaanderen/files/tmp/logo*.png$image
 ||golf.be/files/BannerImage/$image,1p
 ||kookboekennieuws.nl/wp-content/uploads/*/*BANNER*$image
-||oisterwijknieuws.nl/wp-content/uploads/*/50-Plus-Makelaar-*.jpg$image
-||oisterwijknieuws.nl/wp-content/uploads/*/Boogaers-2018-125.png$image
-||oisterwijknieuws.nl/wp-content/uploads/*/MBA-regiobank-*.gif$image
-||oisterwijknieuws.nl/wp-content/uploads/*/ondernemers-oisterwijk.png$image
-||oisterwijknieuws.nl/wp-content/uploads/*/steenwitgoed-270x324-*.jpg$image
 ||rickfm.nl/cwm/fm/userfiles/banner/foto/thumb$image
 ||rickfm.nl/views/rickfm/images/*.gif$image
 ||sedproductions.nl/ads/$image,3p
