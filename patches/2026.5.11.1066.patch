@@ -1,12 +1,11 @@
-diff name:easydutch lines:153 checksum:c7acc9c8be
+diff name:easydutch lines:89 checksum:c7acc9c8be
 d2 1
 a2 1
 ! Last updated: Thu, 14 May 2026 16:08:07 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.5.14.968.patch#easydutch
-d78 2
-a136 43
+a134 32
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
 ||dknieuws.nl/wp-content/uploads/*/*banner$image
 ||dknieuws.nl/wp-content/uploads/*/*.gif$image
@@ -39,38 +38,20 @@ a136 43
 ||omroepalmere.nl/wp-content/uploads/*/advertentie$image
 ||omroepalmere.nl/wp-content/uploads/*/*banner$image
 ||omroepalmere.nl/wp-content/uploads/*.gif$image
-||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
-||accountancyvanmorgen.nl/wp-content/uploads/sites/*/*-week-$image
-/wp-content/uploads/*/*.gif$domain=minimumloon.nl
-||dewestkrant.nl/wp-content/uploads/*/*Banner$image
-||dewestkrant.nl/wp-content/uploads/*/*.gif$image
-||nieuwsuitberkelland.nl/wp-content/uploads/*/IMG_$image
-||nieuwsuitberkelland.nl/wp-content/uploads/*/WhatsApp-Image$image
-||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/*.gif$image
-||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Martin-Koopman-Eibergen.png$image
-||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
-||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
-d345 1
-d378 1
-d380 3
-d384 1
-d386 7
-d399 2
-a400 2
+d354 1
+d387 1
+d389 3
+d393 1
+d395 7
+d408 2
+a409 2
 /wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|unitednews.sr
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|mannennieuws.nl|railhobby.nl|unitednews.sr
-d402 1
-d404 1
-a404 1
+d411 1
+d413 1
+a413 1
 ||wieringernieuws.nl/gfx/ads/$image
-d406 5
-d448 1
-d479 1
-d481 1
-d485 2
-a494 1
-##.pgAdWrapper
-a501 28
+a501 16
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
 ecommercenews.nl##.widget-partners:has([data-track-click*="banner_ad"])
@@ -87,68 +68,23 @@ hoekschnieuws.nl,strijen.info##body > center:has(img)
 hoekschnieuws.nl,strijen.info##.g
 hoekschnieuws.nl,strijen.info##.rbct > a > img
 hoekschnieuws.nl,strijen.info##.widget-heading:has-text(/advert/i)
-welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
-welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
-hardware.info##div[class^="bnr-"]
-accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl,pensioenvanmorgen.nl##section[id^="rc_banner_widget"]
-salarisvanmorgen.nl,pensioenvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
-buttkicken.nl##a[href] > img[src*="wp.com"]:upward(.wp-block-image):not(:has(a[href*="backme.org"]))
-buttkicken.nl##.wp-block-paragraph:has-text((Advertentie))
-autoscout24.be,autoscout24.nl##[class^="AdTop_"]
-autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
-autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
-minimumloon.nl###custom_html-8
-nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
-d555 1
-d606 1
-d677 1
-d689 2
-d710 1
-d839 1
-d856 4
-d933 1
-d978 2
-a1054 1
+d861 4
+d982 2
+a1058 1
 alarmeringen.nl##.ad
-d1062 3
-a1064 3
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
-humo.be##.oortje-wrapper
-d1067 1
-d1076 1
-d1121 4
-d1128 2
-d1132 2
+d1123 4
+d1130 2
 d1199 2
-d1243 2
-d1263 2
-d1280 1
-d1283 2
-d1287 6
-d1300 1
-d1302 2
-d1306 8
-a1313 2
+d1261 2
+d1278 1
+d1281 2
+d1285 6
+d1298 1
+d1300 2
+d1304 8
+a1311 2
 wieringernieuws.nl##div#block-blue:has-text(advert)
 wieringernieuws.nl###navleft > center:has-text(advert)
-d1316 10
-d1328 15
-d1347 2
-d1514 1
-a1529 1
+d1485 1
+a1500 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-a1544 3
-!#if env_firefox
-autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
-!#endif
-d1566 2
-a1594 1
-||media.biertijd.com/galleries/*/banners/$image,3p
-d1615 1
-a1615 2
-||xmissy.nl/adman-files/*/banners/$image
-||xmissy.nl/modules/content-processing/xcmvid/branding/*player$image
-d1687 1
-a1687 1
-xmissy.nl,nederporn.tv##.right-adblock

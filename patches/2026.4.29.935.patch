@@ -1,13 +1,45 @@
-diff name:easydutch lines:120 checksum:4053196643
+diff name:easydutch lines:196 checksum:c7acc9c8be
 d2 1
 a2 1
-! Last updated: Mon, 11 May 2026 17:46:23 +0000
+! Last updated: Thu, 14 May 2026 16:08:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.11.1066.patch#easydutch
+! Diff-Path: patches/2026.5.14.968.patch#easydutch
 d54 1
 d79 2
-a137 22
+a137 54
+||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
+||dknieuws.nl/wp-content/uploads/*/*banner$image
+||dknieuws.nl/wp-content/uploads/*/*.gif$image
+||oisterwijknieuws.nl/wp-content/uploads/*/*-140.$image
+||oisterwijknieuws.nl/wp-content/uploads/*/adverteer-hier$image
+||oisterwijknieuws.nl/wp-content/uploads/2026/04/vlinder.png
+||oisterwijknieuws.nl/wp-content/uploads/2026/03/engelen.png
+||oisterwijknieuws.nl/wp-content/uploads/2026/03/eventgoodz.png
+||oisterwijknieuws.nl/wp-content/uploads/2026/01/boogaers.jpg
+||rtvlansingerland.nl/wp-content/uploads/*/*reclame$image
+||deoudrotterdammer.nl/wp-content/uploads/*/*banner$image
+||deoudrotterdammer.nl/wp-content/uploads/*/*.gif$image
+||deoudrotterdammer.nl/wp-content/uploads/*/DOR-Advertentie$image
+||genemuidenactueel.nl/app/uploads/*/*banner$image
+||genemuidenactueel.nl/app/uploads/*/*.gif$image
+||genemuidenactueel.nl/app/uploads/2025/02/mulder-jumbo-def.jpg$image
+||hoekschnieuws.nl/wp-content/uploads/$image,domain=strijen.info
+||strijen.info/wp-content/uploads/*/advertentie$image
+||strijen.info/wp-content/uploads/*/banner$image
+||strijen.info/wp-content/uploads/$image,domain=hoekschnieuws.nl
+||hoekschnieuws.nl/wp-content/uploads/*/banner$image
+||hoekschnieuws.nl/wp-content/uploads/*/Schermafbeelding-2014-10-$image
+||hoekschnieuws.nl/wp-content/uploads/*/*logo*.*.$image
+||hoekschnieuws.nl/wp-content/uploads/2015/01/6446228.jpg
+||hoekschnieuws.nl/wp-content/uploads/2016/07/spiritual.jpg
+||hoekschnieuws.nl/wp-content/uploads/2017/09/afvalbox-297x300.jpg.webp
+||hoekschnieuws.nl/wp-content/uploads/2017/10/kleur_04-300x300.png
+||hoekschnieuws.nl/wp-content/uploads/2023/05/striensche-scaled.jpg.webp
+||hoekschnieuws.nl/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-21-at-17.32.26.jpeg
+||omroepalmere.nl/wp-content/uploads/*/advertentie$image
+||omroepalmere.nl/wp-content/uploads/*/*banner$image
+||omroepalmere.nl/wp-content/uploads/*.gif$image
 ||wijkkrantzuid.nl/wp-content/uploads/2021/02/$image
 ||accountancyvanmorgen.nl/wp-content/uploads/sites/*/*-week-$image
 /wp-content/uploads/*/*.gif$domain=minimumloon.nl
@@ -30,10 +62,19 @@ a137 22
 ||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
 ||floranews.com/img/banner/$image
 ||fruitteeltonline.nl/images/slideshows/*.gif$image
-d369 1
-d391 1
-a391 1
-/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|biflatie.nl|decibel.nl|deoudrotterdammer.nl|dordtcentraal.nl|genemuidenactueel.nl|hoekschnieuws.nl|mannennieuws.nl|omroepalmere.nl|radiocontinu.nl|railhobby.nl|unitednews.sr
+d335 1
+d368 2
+d371 3
+d375 1
+d377 7
+d390 2
+a391 2
+/wp-content/uploads/*.gif$image,domain=alblasserdamsnieuws.nl|unitednews.sr
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|mannennieuws.nl|railhobby.nl|unitednews.sr
+d393 1
+d395 1
+a395 1
+||wieringernieuws.nl/gfx/ads/$image
 d397 6
 d404 7
 d412 2
@@ -44,7 +85,23 @@ d484 1
 d488 2
 a497 1
 ##.pgAdWrapper
-a504 24
+a504 40
+ecommercenews.nl##.ldrtop
+ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
+ecommercenews.nl##.widget-partners:has([data-track-click*="banner_ad"])
+ecommercenews.nl##[class$="_ad"]
+dknieuws.nl##.elementor-widget-container:has([id^="dknie-"])
+dknieuws.nl##.dknie-widget
+jmonline.nl##.content_blok_reclame
+juf-milou.nl##.adverteerdersblok
+juf-milou.nl##div[id^="content"]:not(:has(a[href^="index.php?"])):not(:has-text(/\b/i))
+oisterwijknieuws.nl##.vc_widget_sidebar .widget:has(img)
+oisterwijknieuws.nl##.tdi_42.vc_row.td-pb-row
+genemuidenactueel.nl##.ads
+hoekschnieuws.nl,strijen.info##body > center:has(img)
+hoekschnieuws.nl,strijen.info##.g
+hoekschnieuws.nl,strijen.info##.rbct > a > img
+hoekschnieuws.nl,strijen.info##.widget-heading:has-text(/advert/i)
 welingelichtekringen.nl###end_of_article:upward(.raw-html-component)
 welingelichtekringen.nl##[id^="div-gpt-ad"]:upward(.raw-html-component)
 hardware.info##div[class^="bnr-"]
@@ -75,10 +132,14 @@ d668 1
 d680 2
 d701 1
 d830 1
+d847 4
 d888 1
 a888 1
 twenteinsite.nl##.sda
 d924 1
+d969 2
+a1045 1
+alarmeringen.nl##.ad
 d1053 3
 a1055 3
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
@@ -86,10 +147,22 @@ demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position=
 humo.be##.oortje-wrapper
 d1058 1
 d1067 1
+d1112 4
+d1119 2
 d1123 2
+d1190 2
 d1234 2
+d1254 2
 d1269 1
-d1292 1
+d1272 1
+d1275 2
+d1279 6
+d1292 2
+d1295 2
+d1299 8
+a1306 2
+wieringernieuws.nl##div#block-blue:has-text(advert)
+wieringernieuws.nl###navleft > center:has-text(advert)
 d1309 10
 d1321 15
 d1340 2
@@ -99,6 +172,9 @@ d1349 1
 d1352 4
 d1357 4
 d1362 1
+d1519 1
+a1534 1
+kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
 a1549 3
 !#if env_firefox
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 

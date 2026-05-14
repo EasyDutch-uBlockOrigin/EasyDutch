@@ -1,7 +1,9 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Sat, 25 Apr 2026 13:09:56 +0000
+! Last updated: Thu, 14 May 2026 16:08:07 +0000
 !
+! 2026-05-14
+kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
 ! 2026-04-20
 ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
 ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
