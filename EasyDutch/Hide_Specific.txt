@@ -1154,7 +1154,6 @@ geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-typ
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
-gostreaming.nl##a[rel*="sponsored"]
 autozine.nl##aside > .ad
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 classic.nl##div.brievenbus
