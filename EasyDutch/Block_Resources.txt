@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-14
+||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
 ||dknieuws.nl/wp-content/uploads/*/*banner$image
 ||dknieuws.nl/wp-content/uploads/*/*.gif$image
