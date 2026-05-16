@@ -1,17 +1,24 @@
-diff name:easydutch lines:16 checksum:4e0b2d8c0d
+diff name:easydutch lines:23 checksum:c908fbc9cc
 d2 1
 a2 1
-! Last updated: Thu, 14 May 2026 17:49:12 +0000
+! Last updated: Sat, 16 May 2026 08:31:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.14.1069.patch#easydutch
+! Diff-Path: patches/2026.5.16.511.patch#easydutch
 a134 1
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
+a181 1
+||radio.be/i/banners/
 a519 5
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)
 grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
+d551 3
+a553 3
+nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
+radio.be,radio.nl###bannerbg
+radio.be,radio.nl###leaderboardbg
 d809 1
 d1202 2

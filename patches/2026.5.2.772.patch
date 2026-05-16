@@ -1,10 +1,10 @@
-diff name:easydutch lines:161 checksum:4e0b2d8c0d
+diff name:easydutch lines:168 checksum:c908fbc9cc
 d2 1
 a2 1
-! Last updated: Thu, 14 May 2026 17:49:12 +0000
+! Last updated: Sat, 16 May 2026 08:31:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.14.1069.patch#easydutch
+! Diff-Path: patches/2026.5.16.511.patch#easydutch
 d78 2
 a136 44
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
@@ -51,6 +51,8 @@ a136 44
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Martin-Koopman-Eibergen.png$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/hofstede_tweewielers.jpg$image
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
+a140 1
+||radio.be/i/banners/
 d345 1
 d378 1
 d380 3
@@ -105,6 +107,11 @@ autoscout24.be##[type="doubleclick"][ad-unit-path][ad-label-text="Advertentie"]
 autoscout24.nl##[type="doubleclick"][ad-unit-path][ad-label-text="Reclame"]
 minimumloon.nl###custom_html-8
 nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
+d505 3
+a507 3
+nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
+radio.be,radio.nl###bannerbg
+radio.be,radio.nl###leaderboardbg
 d555 1
 d606 1
 d677 1

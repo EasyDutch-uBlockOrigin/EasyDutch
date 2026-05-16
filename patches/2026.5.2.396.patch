@@ -1,13 +1,13 @@
-diff name:easydutch lines:200 checksum:4e0b2d8c0d
+diff name:easydutch lines:201 checksum:c908fbc9cc
 d2 1
 a2 1
-! Last updated: Thu, 14 May 2026 17:49:12 +0000
+! Last updated: Sat, 16 May 2026 08:31:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.14.1069.patch#easydutch
+! Diff-Path: patches/2026.5.16.511.patch#easydutch
 d54 1
 d79 2
-a137 54
+a137 55
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
 ||dknieuws.nl/wp-content/uploads/*/*banner$image
@@ -56,6 +56,7 @@ a137 54
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/
+||radio.be/i/banners/
 ||radio.nl/i/banners/
 ||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
 ||omroephethogeland.nl/wp-content/uploads/2019/03/AH_Winsum_banner_125x300.jpg
@@ -122,9 +123,9 @@ nieuwsuitberkelland.nl##.elementor-widget-container:has([class*="-advert"])
 nl-nieuwsonline.nl##[id^="custom_html"]:has(img[src*="a.impactradius-go.com"])
 beveiligingnieuws.nl##.sr-partners:upward(div:has(h2))
 beveiligingnieuws.nl##.sr-premium-partners
-nederland.fm,radio.nl##body> div[id^="takeover"]
-radio.nl###bannerbg
-radio.nl###leaderboardbg
+nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
+radio.be,radio.nl###bannerbg
+radio.be,radio.nl###leaderboardbg
 omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner

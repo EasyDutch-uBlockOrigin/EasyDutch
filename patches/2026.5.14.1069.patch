@@ -1,0 +1,14 @@
+diff name:easydutch lines:13 checksum:c908fbc9cc
+d2 1
+a2 1
+! Last updated: Sat, 16 May 2026 08:31:28 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.5.16.511.patch#easydutch
+a182 1
+||radio.be/i/banners/
+d557 3
+a559 3
+nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
+radio.be,radio.nl###bannerbg
+radio.be,radio.nl###leaderboardbg

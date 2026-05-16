@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Thu, 14 May 2026 17:49:12 +0000
+! Last updated: Sat, 16 May 2026 08:31:28 +0000
 !
 ! 2026-05-14
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
@@ -54,6 +54,7 @@
 ||beveiligingnieuws.nl/wp-content/uploads/*/*.gif$image
 ||beveiligingnieuws.nl/wp-content/uploads/*/*banner$image
 ||nederland.fm/i/banners/
+||radio.be/i/banners/
 ||radio.nl/i/banners/
 ||omroephethogeland.nl/wp-content/uploads/2019/03/Veldman-vandijk.png
 ||omroephethogeland.nl/wp-content/uploads/2019/03/AH_Winsum_banner_125x300.jpg

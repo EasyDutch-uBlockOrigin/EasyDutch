@@ -1,10 +1,10 @@
-diff name:easydutch lines:110 checksum:4e0b2d8c0d
+diff name:easydutch lines:117 checksum:c908fbc9cc
 d2 1
 a2 1
-! Last updated: Thu, 14 May 2026 17:49:12 +0000
+! Last updated: Sat, 16 May 2026 08:31:28 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.14.1069.patch#easydutch
+! Diff-Path: patches/2026.5.16.511.patch#easydutch
 a134 33
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
@@ -39,6 +39,8 @@ a134 33
 ||omroepalmere.nl/wp-content/uploads/*/advertentie$image
 ||omroepalmere.nl/wp-content/uploads/*/*banner$image
 ||omroepalmere.nl/wp-content/uploads/*.gif$image
+a149 1
+||radio.be/i/banners/
 d354 1
 d387 1
 d389 3
@@ -78,6 +80,11 @@ hoekschnieuws.nl,strijen.info##body > center:has(img)
 hoekschnieuws.nl,strijen.info##.g
 hoekschnieuws.nl,strijen.info##.rbct > a > img
 hoekschnieuws.nl,strijen.info##.widget-heading:has-text(/advert/i)
+d521 3
+a523 3
+nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
+radio.be,radio.nl###bannerbg
+radio.be,radio.nl###leaderboardbg
 d779 1
 d865 4
 d986 2
