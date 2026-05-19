@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 19 May 2026 17:08:13 +0000
+! Last updated: Tue, 19 May 2026 17:39:28 +0000
 !
+! 2026-05-19
+||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
 ! 2026-05-14
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
