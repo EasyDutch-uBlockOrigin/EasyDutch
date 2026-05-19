@@ -1,10 +1,10 @@
-diff name:easydutch lines:182 checksum:274d371e19
+diff name:easydutch lines:184 checksum:c7588759b7
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 16:36:38 +0000
+! Last updated: Tue, 19 May 2026 16:53:26 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.996.patch#easydutch
+! Diff-Path: patches/2026.5.19.1013.patch#easydutch
 d54 1
 d79 2
 a137 44
@@ -164,7 +164,9 @@ a1545 5
 !#if env_firefox
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
 !#endif
-d1550 1
+d1550 2
+a1551 1
+mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 d1560 1
 d1568 4
 d1578 1

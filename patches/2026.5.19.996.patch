@@ -1,12 +1,10 @@
-diff name:easydutch lines:11 checksum:c7588759b7
+diff name:easydutch lines:9 checksum:c7588759b7
 d2 1
 a2 1
 ! Last updated: Tue, 19 May 2026 16:53:26 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.5.19.1013.patch#easydutch
-a521 1
-luisterradio.fm##div.max-w-full:has-text(Adv)
-d1530 1
-a1530 1
+d1531 1
+a1531 1
 mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)

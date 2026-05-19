@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 19 May 2026 16:36:38 +0000
+! Last updated: Tue, 19 May 2026 16:53:26 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.19.996.patch#easydutch
+! Diff-Path: patches/2026.5.19.1013.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1528,7 +1528,7 @@ solarmagazine.nl##+js(no-xhr-if, ads)
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
-mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
+mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 touretappe.nl##+js(set, adBlocker, 0)
