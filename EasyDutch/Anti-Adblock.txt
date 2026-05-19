@@ -24,7 +24,7 @@ androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
 ! @@/ads-frontend.min.js$script,domain=androidplanet.nl|iphoned.nl
 ! androidplanet.nl,iphoned.nl##+js(trusted-create-html, body, <div id="advertisement__element" class="hidden">)
 ! 2026-02-04
-mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
+mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 ! 2026-01-31
