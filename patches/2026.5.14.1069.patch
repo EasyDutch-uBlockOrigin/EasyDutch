@@ -1,12 +1,14 @@
-diff name:easydutch lines:17 checksum:80507d47b6
+diff name:easydutch lines:19 checksum:274d371e19
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 16:10:08 +0000
+! Last updated: Tue, 19 May 2026 16:36:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.970.patch#easydutch
+! Diff-Path: patches/2026.5.19.996.patch#easydutch
 a182 1
 ||radio.be/i/banners/
+a520 1
+luisterradio.fm##div.max-w-full:has-text(Adv)
 d557 3
 a559 3
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]

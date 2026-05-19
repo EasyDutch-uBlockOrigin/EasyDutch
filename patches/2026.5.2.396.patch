@@ -1,10 +1,10 @@
-diff name:easydutch lines:204 checksum:80507d47b6
+diff name:easydutch lines:205 checksum:274d371e19
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 16:10:08 +0000
+! Last updated: Tue, 19 May 2026 16:36:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.970.patch#easydutch
+! Diff-Path: patches/2026.5.19.996.patch#easydutch
 d54 1
 d79 2
 a137 55
@@ -86,7 +86,8 @@ d485 1
 d489 2
 a498 1
 ##.pgAdWrapper
-a505 42
+a505 43
+luisterradio.fm##div.max-w-full:has-text(Adv)
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
 cvandaag.nl##.sponsored

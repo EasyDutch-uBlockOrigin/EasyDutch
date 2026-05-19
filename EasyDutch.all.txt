@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 19 May 2026 16:10:08 +0000
+! Last updated: Tue, 19 May 2026 16:36:38 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.19.970.patch#easydutch
+! Diff-Path: patches/2026.5.19.996.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -519,6 +519,7 @@ avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fet
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+luisterradio.fm##div.max-w-full:has-text(Adv)
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
 cvandaag.nl##.sponsored
