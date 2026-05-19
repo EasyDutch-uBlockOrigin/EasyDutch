@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-19
+||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
 ! 2026-05-14
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
