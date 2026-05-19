@@ -2,6 +2,13 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-19
+! 538.nl,hartvannederland.nl,kijk.nl,nieuwsvandedag.nl,radio10.nl,shownieuws.nl,vandaaginside.nl##+js(set, Object.prototype.ADBLOCK_DETECTION, '')
+! 538.nl,hartvannederland.nl,kijk.nl,nieuwsvandedag.nl,radio10.nl,shownieuws.nl,vandaaginside.nl##+js(trusted-json-edit, .features.*[?.slug=="adblock-detection"].enabled=false)
+! 538.nl,hartvannederland.nl,kijk.nl,nieuwsvandedag.nl,radio10.nl,shownieuws.nl,vandaaginside.nl##+js(no-xhr-if, url:/ad)
+! embed.kijk.nl##body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: initial !important;)
+@@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
+||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 ! 2026-05-09
 !#if env_firefox
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
@@ -17,7 +24,6 @@ androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
 ! @@/ads-frontend.min.js$script,domain=androidplanet.nl|iphoned.nl
 ! androidplanet.nl,iphoned.nl##+js(trusted-create-html, body, <div id="advertisement__element" class="hidden">)
 ! 2026-02-04
-embed.kijk.nl##body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: initial !important;)
 mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
