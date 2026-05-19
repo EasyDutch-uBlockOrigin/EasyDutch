@@ -1,10 +1,10 @@
-diff name:easydutch lines:173 checksum:c7588759b7
+diff name:easydutch lines:177 checksum:7276998651
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 16:53:26 +0000
+! Last updated: Tue, 19 May 2026 17:08:13 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.1013.patch#easydutch
+! Diff-Path: patches/2026.5.19.1028.patch#easydutch
 d78 2
 a136 44
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
@@ -53,6 +53,9 @@ a136 44
 ||nieuwsuitberkelland.nl/wp-content/uploads/2023/07/Logo-Waltakke_200.jpg$image
 a140 1
 ||radio.be/i/banners/
+a285 2
+||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
+nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 d345 1
 d378 1
 d380 3
@@ -153,7 +156,8 @@ d1346 2
 d1513 1
 a1528 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-a1543 5
+a1543 6
+alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 !#if env_firefox

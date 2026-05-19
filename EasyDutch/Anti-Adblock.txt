@@ -1,11 +1,17 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Tue, 19 May 2026 16:53:26 +0000
+! Last updated: Tue, 19 May 2026 17:08:13 +0000
 !
 ! 2026-05-19
+! https://github.com/uBlockOrigin/uAssets/issues/29345
+alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
+! https://www.reddit.com/r/uBlockOrigin/comments/1dglzes/any_solution_to_bypass_adblock_detection_on/
+! https://github.com/uBlockOrigin/uAssets/issues/25254
+! https://github.com/uBlockOrigin/uAssets/issues/13260
 ! 538.nl,hartvannederland.nl,kijk.nl,nieuwsvandedag.nl,radio10.nl,shownieuws.nl,vandaaginside.nl##+js(set, Object.prototype.ADBLOCK_DETECTION, '')
 ! 538.nl,hartvannederland.nl,kijk.nl,nieuwsvandedag.nl,radio10.nl,shownieuws.nl,vandaaginside.nl##+js(trusted-json-edit, .features.*[?.slug=="adblock-detection"].enabled=false)
 ! 538.nl,hartvannederland.nl,kijk.nl,nieuwsvandedag.nl,radio10.nl,shownieuws.nl,vandaaginside.nl##+js(no-xhr-if, url:/ad)
+! ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr
 ! embed.kijk.nl##body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: initial !important;)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter

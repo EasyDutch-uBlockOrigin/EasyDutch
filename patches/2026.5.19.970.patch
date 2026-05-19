@@ -1,12 +1,17 @@
-diff name:easydutch lines:11 checksum:c7588759b7
+diff name:easydutch lines:16 checksum:7276998651
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 16:53:26 +0000
+! Last updated: Tue, 19 May 2026 17:08:13 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.1013.patch#easydutch
+! Diff-Path: patches/2026.5.19.1028.patch#easydutch
+a328 2
+||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
+nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 a521 1
 luisterradio.fm##div.max-w-full:has-text(Adv)
+a1520 1
+alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 d1530 1
 a1530 1
 mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)

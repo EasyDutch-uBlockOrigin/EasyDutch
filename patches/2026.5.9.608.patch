@@ -1,10 +1,10 @@
-diff name:easydutch lines:133 checksum:c7588759b7
+diff name:easydutch lines:137 checksum:7276998651
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 16:53:26 +0000
+! Last updated: Tue, 19 May 2026 17:08:13 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.1013.patch#easydutch
+! Diff-Path: patches/2026.5.19.1028.patch#easydutch
 a134 33
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
@@ -41,6 +41,9 @@ a134 33
 ||omroepalmere.nl/wp-content/uploads/*.gif$image
 a149 1
 ||radio.be/i/banners/
+a294 2
+||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
+nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 d354 1
 d387 1
 d389 3
@@ -117,7 +120,8 @@ wieringernieuws.nl###navleft > center:has-text(advert)
 d1496 1
 a1511 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-a1526 2
+a1526 3
+alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 d1534 2

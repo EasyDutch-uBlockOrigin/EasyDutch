@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 19 May 2026 16:53:26 +0000
+! Last updated: Tue, 19 May 2026 17:08:13 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.19.1013.patch#easydutch
+! Diff-Path: patches/2026.5.19.1028.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -326,6 +326,8 @@ _advertentieleaderboardhome.
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
 avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
+nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 ||biernet.nl/site/plugins/bja_new/bja$script,1p
 ||biernet.nl/images/extra-bja_camp-bnr/$image
 ||gic.nl/assets/src/pages/index/index.page.ad*.js$script,1p
@@ -1519,6 +1521,7 @@ mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
+alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 !#if env_firefox

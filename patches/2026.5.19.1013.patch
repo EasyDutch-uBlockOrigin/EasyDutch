@@ -1,4 +1,4 @@
-diff name:easydutch lines:14 checksum:7276998651
+diff name:easydutch lines:11 checksum:7276998651
 d2 1
 a2 1
 ! Last updated: Tue, 19 May 2026 17:08:13 +0000
@@ -10,6 +10,3 @@ a328 2
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 a1521 1
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
-d1531 1
-a1531 1
-mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)

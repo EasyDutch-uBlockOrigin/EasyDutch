@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 16 May 2026 08:31:28 +0000
+! Last updated: Tue, 19 May 2026 17:08:13 +0000
 !
 ! 2026-05-14
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
@@ -229,6 +229,10 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215616
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
 avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+! https://www.reddit.com/r/uBlockOrigin/comments/1cmanh5/nosnl_videos_show_ads_suddenly/
+! https://github.com/uBlockOrigin/uAssets/issues/30053
+||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
+nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 ||biernet.nl/site/plugins/bja_new/bja$script,1p
 ||biernet.nl/images/extra-bja_camp-bnr/$image
 ||gic.nl/assets/src/pages/index/index.page.ad*.js$script,1p
