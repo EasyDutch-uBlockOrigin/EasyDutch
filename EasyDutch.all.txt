@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 16 May 2026 08:31:28 +0000
+! Last updated: Tue, 19 May 2026 16:10:08 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.16.511.patch#easydutch
+! Diff-Path: patches/2026.5.19.970.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1518,6 +1518,8 @@ mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
+@@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
+||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 !#if env_firefox
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
 !#endif
@@ -1525,7 +1527,6 @@ solarmagazine.nl##+js(no-xhr-if, ads)
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
-embed.kijk.nl##body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: initial !important;)
 mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)

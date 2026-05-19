@@ -1,10 +1,10 @@
-diff name:easydutch lines:179 checksum:c908fbc9cc
+diff name:easydutch lines:182 checksum:80507d47b6
 d2 1
 a2 1
-! Last updated: Sat, 16 May 2026 08:31:28 +0000
+! Last updated: Tue, 19 May 2026 16:10:08 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.16.511.patch#easydutch
+! Diff-Path: patches/2026.5.19.970.patch#easydutch
 d54 1
 d79 2
 a137 45
@@ -158,10 +158,13 @@ d1347 2
 d1514 1
 a1529 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-a1544 3
+a1544 5
+@@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
+||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 !#if env_firefox
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
 !#endif
+d1549 1
 d1559 1
 d1567 4
 d1577 1

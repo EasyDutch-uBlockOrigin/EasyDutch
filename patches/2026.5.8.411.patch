@@ -1,10 +1,10 @@
-diff name:easydutch lines:154 checksum:c908fbc9cc
+diff name:easydutch lines:157 checksum:80507d47b6
 d2 1
 a2 1
-! Last updated: Sat, 16 May 2026 08:31:28 +0000
+! Last updated: Tue, 19 May 2026 16:10:08 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.16.511.patch#easydutch
+! Diff-Path: patches/2026.5.19.970.patch#easydutch
 d78 2
 a136 38
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
@@ -139,10 +139,13 @@ d1352 2
 d1519 1
 a1534 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-a1549 3
+a1549 5
+@@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
+||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 !#if env_firefox
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
 !#endif
+d1554 1
 d1571 2
 a1599 1
 ||media.biertijd.com/galleries/*/banners/$image,3p

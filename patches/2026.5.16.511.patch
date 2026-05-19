@@ -1,18 +1,11 @@
-diff name:easydutch lines:17 checksum:80507d47b6
+diff name:easydutch lines:10 checksum:80507d47b6
 d2 1
 a2 1
 ! Last updated: Tue, 19 May 2026 16:10:08 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.5.19.970.patch#easydutch
-a182 1
-||radio.be/i/banners/
-d557 3
-a559 3
-nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
-radio.be,radio.nl###bannerbg
-radio.be,radio.nl###leaderboardbg
-a1519 2
+a1520 2
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
-d1527 1
+d1528 1
