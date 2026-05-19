@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-19
+luisterradio.fm##div.max-w-full:has-text(Adv)
 ! 2026-05-14
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
