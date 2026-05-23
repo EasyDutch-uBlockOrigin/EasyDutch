@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+||boottesten.nl/wp-content/uploads/*/banner$image
+||boottesten.nl/wp-content/uploads/2026/01/vaarmarkt.jpg$image
+||boottesten.nl/wp-content/uploads/2021/11/Topcraft.png$image
+||boottesten.nl/wp-content/uploads/2021/11/Oud-Huijzer.png$image
 ||cmtt.nl/Advertisement/$image,domain=advocatie.nl
 ||advocatie.nl/content/uploads//Banner*.gif$image
 ||diecourant.co.za/wp-content/uploads/*/*-banner$image
@@ -334,8 +338,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ! 2023-06-09
 ||onlinecorrectie.nl/cnc/$image
 ! 2023-05-26
-||boottesten.nl/wp-content/uploads/*/*Ad.gif
-||boottesten.nl/wp-content/uploads/*/banner$image
 ||dehavengids.nl/wordpress/wp-content/uploads/*/*Banner$image
 ||motorboot.com/wp-content/uploads/*/*banner
 ||motorboot.com/wp-content/uploads/*/ad-logo
