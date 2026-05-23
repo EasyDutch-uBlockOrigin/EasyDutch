@@ -892,8 +892,6 @@ gebruikershandleiding.com##[class^="adserver-container"]
 ! 2023-07-01
 webstick.nl##p.center2:has-text(Advert)
 webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
-! 2023-06-16
-insideflyer.nl##.adsbymanatee
 ! 2023-05-26
 daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
