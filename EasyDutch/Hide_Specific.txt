@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
+vaarmarkt.nl##.a2t-link
 yachtfocus.com##.bdp-top-ad
 alphens.nl##[href^="/banner-click.html"]:upward(1):not(:upward(.side-item > .specials))
 pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
@@ -897,8 +899,6 @@ daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
 dehavengids.nl##.g
 motorboot.com##.logo
-nauticlink.com##.adv-link
-nauticlink.com##.elementor-section:has-text(partners)
 ! 2023-05-04
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
 recreatief.nl##.widget-a-wrap
