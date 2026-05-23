@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+yachtfocus.com##.bdp-top-ad
 alphens.nl##[href^="/banner-click.html"]:upward(1):not(:upward(.side-item > .specials))
 pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
 republikein.com.na##.topBanner
@@ -898,7 +899,6 @@ dehavengids.nl##.g
 motorboot.com##.logo
 nauticlink.com##.adv-link
 nauticlink.com##.elementor-section:has-text(partners)
-yachtfocus.com##.av
 ! 2023-05-04
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
 recreatief.nl##.widget-a-wrap
