@@ -905,7 +905,6 @@ recreatief.nl##.widget-a-wrap
 srnieuws.com##div.card-view:has([id^="taboola"])
 ! 2023-05-02
 alphens.nl##[href^="/banner-click.html"]:upward(1)
-overstrandherald.co.za##.wpb_widgetised_column .widget_text
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack
