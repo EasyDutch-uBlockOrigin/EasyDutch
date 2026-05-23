@@ -1,7 +1,24 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 19 May 2026 17:39:28 +0000
+! Last updated: Sat, 23 May 2026 10:10:55 +0000
 !
+! 2026-05-23
+||claimingo.nl/banners/domain=insideflyer.nl
+||daemesenheeren.nl/wp-content/uploads/*/*banner$image
+||vaarmarkt.nl/wp-content/uploads/*/*banner$image
+||alphens.nl/upload/*/*/*.gifimage
+||alphens.nl/upload/*/*banner$image
+||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
+||cdn.nmh.com.na:2083/S3Server/mynamibia-eu/assets/images/$image,domain=republikein.com.na
+||boottesten.nl/wp-content/uploads/*/banner$image
+||boottesten.nl/wp-content/uploads/2026/01/vaarmarkt.jpg$image
+||boottesten.nl/wp-content/uploads/2021/11/Topcraft.png$image
+||boottesten.nl/wp-content/uploads/2021/11/Oud-Huijzer.png$image
+||cmtt.nl/Advertisement/$image,domain=advocatie.nl
+||advocatie.nl/content/uploads//Banner*.gif$image
+||diecourant.co.za/wp-content/uploads/*/*-banner$image
+||diecourant.co.za/wp-content/uploads/*/*Ads$image
+||diecourant.co.za/wp-content/uploads/*/*advert$image
 ! 2026-05-19
 ||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
 ! 2026-05-14
@@ -298,9 +315,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||alphens.nl/resize/upload/*/*banner$image
-||alphens.nl/resize/upload/*/*Leaderbord$image
-||alphens.nl/upload/*/*banner$image
 ||cvandaag.nl/api/advertise-deliver/deliver?adtypes=banners$xhr
 ||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
@@ -328,23 +342,12 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ! 2023-06-09
 ||onlinecorrectie.nl/cnc/$image
 ! 2023-05-26
-||boottesten.nl/wp-content/uploads/*/*Ad.gif
-||boottesten.nl/wp-content/uploads/*/banner$image
 ||dehavengids.nl/wordpress/wp-content/uploads/*/*Banner$image
-||motorboot.com/wp-content/uploads/*/*banner
-||motorboot.com/wp-content/uploads/*/ad-logo
-||nauticlink.com/wp-content/uploads/*/*banner
 ||watersport-tv.nl/content/*/pages/clnt/*_org$image
-||yachtfocus.com/wp-content/*/images/bnr/
 ||zeilwereld.nl/wp-content/uploads/*/*banner
 ! 2023-05-02
-||cmtt.nl/Advertisement/$image,domain=advocatie.nl
-||advocatie.nl/content/uploads//Mediation-Basis$image
-||diecourant.co.za/wp-content/uploads/*-20*-1024x*.jpg^$image
-||diecourant.co.za/wp-content/uploads/*/*-banner
 ||pen.nl/wp-content/uploads/*/banner*$image
 ||pen.nl/wp-content/uploads/*/*adv$image
-||racesport.nl/wp-content/uploads/*/*Banner$image
 ||racesport.nl/wp-content/uploads/*/*.gif$image
 ||wegdamnieuws.nl/wp-content/uploads/*/*/*.gif$image
 ! 2023-05-01

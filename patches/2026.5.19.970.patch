@@ -1,17 +1,60 @@
-diff name:easydutch lines:18 checksum:11b7d192c3
+diff name:easydutch lines:61 checksum:7385e3f055
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 17:39:28 +0000
+! Last updated: Sat, 23 May 2026 10:10:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.1059.patch#easydutch
-a134 1
+! Diff-Path: patches/2026.5.23.610.patch#easydutch
+a134 17
+||claimingo.nl/banners/domain=insideflyer.nl
+||daemesenheeren.nl/wp-content/uploads/*/*banner$image
+||vaarmarkt.nl/wp-content/uploads/*/*banner$image
+||alphens.nl/upload/*/*/*.gifimage
+||alphens.nl/upload/*/*banner$image
+||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
+||cdn.nmh.com.na:2083/S3Server/mynamibia-eu/assets/images/$image,domain=republikein.com.na
+||boottesten.nl/wp-content/uploads/*/banner$image
+||boottesten.nl/wp-content/uploads/2026/01/vaarmarkt.jpg$image
+||boottesten.nl/wp-content/uploads/2021/11/Topcraft.png$image
+||boottesten.nl/wp-content/uploads/2021/11/Oud-Huijzer.png$image
+||cmtt.nl/Advertisement/$image,domain=advocatie.nl
+||advocatie.nl/content/uploads//Banner*.gif$image
+||diecourant.co.za/wp-content/uploads/*/*-banner$image
+||diecourant.co.za/wp-content/uploads/*/*Ads$image
+||diecourant.co.za/wp-content/uploads/*/*advert$image
 ||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
 a328 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
-a521 1
+d378 3
+d400 2
+d403 3
+d407 1
+d409 4
+d415 1
+a521 17
+calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
+calorieenverbranden.nl##.adsense-section
+vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
+vaarmarkt.nl##.a2t-link
+yachtfocus.com##.bdp-top-ad
+alphens.nl##[href^="/banner-click.html"]:upward(1):not(:upward(.side-item > .specials))
+pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
+republikein.com.na##.topBanner
+republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
+republikein.com.na##.sideAds
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p)
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + p
+zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
+diecourant.co.za##.n2-section-smartslider
+diecourant.co.za##.cm-secondary
 luisterradio.fm##div.max-w-full:has-text(Adv)
+d1222 2
+d1273 2
+d1277 5
+d1283 1
+d1285 11
 a1520 1
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 d1530 1

@@ -1,7 +1,24 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 19 May 2026 16:36:38 +0000
+! Last updated: Sat, 23 May 2026 10:10:55 +0000
 !
+! 2026-05-23
+calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
+calorieenverbranden.nl##.adsense-section
+vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
+vaarmarkt.nl##.a2t-link
+yachtfocus.com##.bdp-top-ad
+alphens.nl##[href^="/banner-click.html"]:upward(1):not(:upward(.side-item > .specials))
+pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
+republikein.com.na##.topBanner
+republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
+republikein.com.na##.sideAds
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p)
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + p
+zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
+diecourant.co.za##.n2-section-smartslider
+diecourant.co.za##.cm-secondary
 ! 2026-05-19
 luisterradio.fm##div.max-w-full:has-text(Adv)
 ! 2026-05-14
@@ -811,8 +828,6 @@ wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.nl##.widget-container:has(.h3:has-text(Wielerdeals))
 wielerflits.nl##li.list-item.list-item-aside:has(.badge:has-text(Ad))
 wielerflits.nl##li.list-item.list-item-default:has(span:has-text(Ad))
-zeilwereld.nl##.adv-link:upward([id^="zeilw"])
-zeilwereld.nl##.adv-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 ! 2023-10-30
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
@@ -877,34 +892,13 @@ gebruikershandleiding.com##[class^="adserver-container"]
 ! 2023-07-01
 webstick.nl##p.center2:has-text(Advert)
 webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
-! 2023-06-16
-insideflyer.nl##.adsbymanatee
-! 2023-05-27
-calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 ! 2023-05-26
 daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
-dehavengids.nl##.g
-motorboot.com##.logo
-nauticlink.com##.adv-link
-nauticlink.com##.elementor-section:has-text(partners)
-yachtfocus.com##.av
 ! 2023-05-04
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
-radioeenhoorn.nl##.module_round_box:not(:has([href*="/word-donateur"]))
 recreatief.nl##.widget-a-wrap
-srnieuws.com##div.card-view:has([id^="taboola"])
 ! 2023-05-02
-alphens.nl##[href^="/banner-click.html"]:upward(1)
-diecourant.co.za##section[id^=smartslider]
-diecourant.co.za###secondary
-overstrandherald.co.za##.wpb_widgetised_column .widget_text
-pretoriafm.co.za##.bannerswidget
-republikein.com.na##.articleBody > aside
-republikein.com.na##.topBanner
-republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
-republikein.com.na##.hidden-xs.az-adverts > aside:has(a[href*="//nmh.my.na/advert"])
-republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack

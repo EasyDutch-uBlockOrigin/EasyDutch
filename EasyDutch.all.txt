@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 19 May 2026 17:39:28 +0000
+! Last updated: Sat, 23 May 2026 10:10:55 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.19.1059.patch#easydutch
+! Diff-Path: patches/2026.5.23.610.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -132,6 +132,22 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||claimingo.nl/banners/domain=insideflyer.nl
+||daemesenheeren.nl/wp-content/uploads/*/*banner$image
+||vaarmarkt.nl/wp-content/uploads/*/*banner$image
+||alphens.nl/upload/*/*/*.gifimage
+||alphens.nl/upload/*/*banner$image
+||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
+||cdn.nmh.com.na:2083/S3Server/mynamibia-eu/assets/images/$image,domain=republikein.com.na
+||boottesten.nl/wp-content/uploads/*/banner$image
+||boottesten.nl/wp-content/uploads/2026/01/vaarmarkt.jpg$image
+||boottesten.nl/wp-content/uploads/2021/11/Topcraft.png$image
+||boottesten.nl/wp-content/uploads/2021/11/Oud-Huijzer.png$image
+||cmtt.nl/Advertisement/$image,domain=advocatie.nl
+||advocatie.nl/content/uploads//Banner*.gif$image
+||diecourant.co.za/wp-content/uploads/*/*-banner$image
+||diecourant.co.za/wp-content/uploads/*/*Ads$image
+||diecourant.co.za/wp-content/uploads/*/*advert$image
 ||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
@@ -378,9 +394,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||alphens.nl/resize/upload/*/*banner$image
-||alphens.nl/resize/upload/*/*Leaderbord$image
-||alphens.nl/upload/*/*banner$image
 ||cvandaag.nl/api/advertise-deliver/deliver?adtypes=banners$xhr
 ||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
@@ -400,22 +413,11 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||autonieuws.be/templates/yootheme/cache/*/BEL_March23_B2C_XCEED_800x172_nl-*$image
 ||webstick.nl/images/images-ads/
 ||onlinecorrectie.nl/cnc/$image
-||boottesten.nl/wp-content/uploads/*/*Ad.gif
-||boottesten.nl/wp-content/uploads/*/banner$image
 ||dehavengids.nl/wordpress/wp-content/uploads/*/*Banner$image
-||motorboot.com/wp-content/uploads/*/*banner
-||motorboot.com/wp-content/uploads/*/ad-logo
-||nauticlink.com/wp-content/uploads/*/*banner
 ||watersport-tv.nl/content/*/pages/clnt/*_org$image
-||yachtfocus.com/wp-content/*/images/bnr/
 ||zeilwereld.nl/wp-content/uploads/*/*banner
-||cmtt.nl/Advertisement/$image,domain=advocatie.nl
-||advocatie.nl/content/uploads//Mediation-Basis$image
-||diecourant.co.za/wp-content/uploads/*-20*-1024x*.jpg^$image
-||diecourant.co.za/wp-content/uploads/*/*-banner
 ||pen.nl/wp-content/uploads/*/banner*$image
 ||pen.nl/wp-content/uploads/*/*adv$image
-||racesport.nl/wp-content/uploads/*/*Banner$image
 ||racesport.nl/wp-content/uploads/*/*.gif$image
 ||wegdamnieuws.nl/wp-content/uploads/*/*/*.gif$image
 ||culturescope.nl/wp-content/uploads/2016/11/FAIRY-*.png$image
@@ -522,6 +524,22 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
+calorieenverbranden.nl##.adsense-section
+vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
+vaarmarkt.nl##.a2t-link
+yachtfocus.com##.bdp-top-ad
+alphens.nl##[href^="/banner-click.html"]:upward(1):not(:upward(.side-item > .specials))
+pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
+republikein.com.na##.topBanner
+republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
+republikein.com.na##.sideAds
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p)
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + p
+zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
+diecourant.co.za##.n2-section-smartslider
+diecourant.co.za##.cm-secondary
 luisterradio.fm##div.max-w-full:has-text(Adv)
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
@@ -1223,8 +1241,6 @@ wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.nl##.widget-container:has(.h3:has-text(Wielerdeals))
 wielerflits.nl##li.list-item.list-item-aside:has(.badge:has-text(Ad))
 wielerflits.nl##li.list-item.list-item-default:has(span:has-text(Ad))
-zeilwereld.nl##.adv-link:upward([id^="zeilw"])
-zeilwereld.nl##.adv-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
@@ -1274,29 +1290,10 @@ autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 gebruikershandleiding.com##[class^="adserver-container"]
 webstick.nl##p.center2:has-text(Advert)
 webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
-insideflyer.nl##.adsbymanatee
-calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
-dehavengids.nl##.g
-motorboot.com##.logo
-nauticlink.com##.adv-link
-nauticlink.com##.elementor-section:has-text(partners)
-yachtfocus.com##.av
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
-radioeenhoorn.nl##.module_round_box:not(:has([href*="/word-donateur"]))
 recreatief.nl##.widget-a-wrap
-srnieuws.com##div.card-view:has([id^="taboola"])
-alphens.nl##[href^="/banner-click.html"]:upward(1)
-diecourant.co.za##section[id^=smartslider]
-diecourant.co.za###secondary
-overstrandherald.co.za##.wpb_widgetised_column .widget_text
-pretoriafm.co.za##.bannerswidget
-republikein.com.na##.articleBody > aside
-republikein.com.na##.topBanner
-republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
-republikein.com.na##.hidden-xs.az-adverts > aside:has(a[href*="//nmh.my.na/advert"])
-republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack

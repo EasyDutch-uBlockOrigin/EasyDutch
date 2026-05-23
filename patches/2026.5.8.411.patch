@@ -1,12 +1,28 @@
-diff name:easydutch lines:165 checksum:11b7d192c3
+diff name:easydutch lines:207 checksum:7385e3f055
 d2 1
 a2 1
-! Last updated: Tue, 19 May 2026 17:39:28 +0000
+! Last updated: Sat, 23 May 2026 10:10:55 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.19.1059.patch#easydutch
+! Diff-Path: patches/2026.5.23.610.patch#easydutch
 d78 2
-a136 39
+a136 55
+||claimingo.nl/banners/domain=insideflyer.nl
+||daemesenheeren.nl/wp-content/uploads/*/*banner$image
+||vaarmarkt.nl/wp-content/uploads/*/*banner$image
+||alphens.nl/upload/*/*/*.gifimage
+||alphens.nl/upload/*/*banner$image
+||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
+||cdn.nmh.com.na:2083/S3Server/mynamibia-eu/assets/images/$image,domain=republikein.com.na
+||boottesten.nl/wp-content/uploads/*/banner$image
+||boottesten.nl/wp-content/uploads/2026/01/vaarmarkt.jpg$image
+||boottesten.nl/wp-content/uploads/2021/11/Topcraft.png$image
+||boottesten.nl/wp-content/uploads/2021/11/Oud-Huijzer.png$image
+||cmtt.nl/Advertisement/$image,domain=advocatie.nl
+||advocatie.nl/content/uploads//Banner*.gif$image
+||diecourant.co.za/wp-content/uploads/*/*-banner$image
+||diecourant.co.za/wp-content/uploads/*/*Ads$image
+||diecourant.co.za/wp-content/uploads/*/*advert$image
 ||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
 ||wp.com/www.orgelnieuws.nl/wp-content/uploads/*banner$image,domain=orgelnieuws.nl
 ||dknieuws.nl/wp-content/uploads/*/*_dknieuws*.jpg$image
@@ -51,7 +67,13 @@ a146 1
 a291 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
+d341 3
 d351 1
+d364 2
+d367 3
+d371 1
+d373 4
+d379 1
 d384 1
 d386 3
 d390 1
@@ -71,7 +93,23 @@ d487 1
 d491 2
 a500 1
 ##.pgAdWrapper
-a507 33
+a507 49
+calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
+calorieenverbranden.nl##.adsense-section
+vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
+vaarmarkt.nl##.a2t-link
+yachtfocus.com##.bdp-top-ad
+alphens.nl##[href^="/banner-click.html"]:upward(1):not(:upward(.side-item > .specials))
+pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
+republikein.com.na##.topBanner
+republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
+republikein.com.na##.sideAds
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p)
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + p
+zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
+diecourant.co.za##.n2-section-smartslider
+diecourant.co.za##.cm-secondary
 luisterradio.fm##div.max-w-full:has-text(Adv)
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
@@ -126,9 +164,13 @@ d1126 4
 d1133 2
 d1137 2
 d1184 2
+d1200 2
 d1204 2
 d1248 2
-d1268 2
+d1255 2
+d1259 5
+d1265 1
+d1267 13
 d1285 1
 d1288 2
 d1292 6
