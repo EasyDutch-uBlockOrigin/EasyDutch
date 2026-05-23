@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+||vaarmarkt.nl/wp-content/uploads/*/*banner$image
 ||alphens.nl/upload/*/*/*.gifimage
 ||alphens.nl/upload/*/*banner$image
 ||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
@@ -342,7 +343,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||dehavengids.nl/wordpress/wp-content/uploads/*/*Banner$image
 ||motorboot.com/wp-content/uploads/*/*banner
 ||motorboot.com/wp-content/uploads/*/ad-logo
-||nauticlink.com/wp-content/uploads/*/*banner
 ||watersport-tv.nl/content/*/pages/clnt/*_org$image
 ||zeilwereld.nl/wp-content/uploads/*/*banner
 ! 2023-05-02
