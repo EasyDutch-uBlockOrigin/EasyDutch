@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p)
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr
+watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + p
 zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 diecourant.co.za##.n2-section-smartslider
 diecourant.co.za##.cm-secondary
