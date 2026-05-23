@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
+calorieenverbranden.nl##.adsense-section
 vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
 vaarmarkt.nl##.a2t-link
 yachtfocus.com##.bdp-top-ad
@@ -892,8 +894,6 @@ webstick.nl##p.center2:has-text(Advert)
 webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
 ! 2023-06-16
 insideflyer.nl##.adsbymanatee
-! 2023-05-27
-calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 ! 2023-05-26
 daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
