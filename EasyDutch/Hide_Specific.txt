@@ -897,7 +897,6 @@ calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 ! 2023-05-26
 daemesenheeren.nl##.widget_media_image
 dehavengids.nl##.elementor-widget-container:has(.g)
-dehavengids.nl##.g
 ! 2023-05-04
 duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
 recreatief.nl##.widget-a-wrap
