@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-23
+diecourant.co.za##.n2-section-smartslider
+diecourant.co.za##.cm-secondary
 ! 2026-05-19
 luisterradio.fm##div.max-w-full:has-text(Adv)
 ! 2026-05-14
@@ -896,8 +899,6 @@ recreatief.nl##.widget-a-wrap
 srnieuws.com##div.card-view:has([id^="taboola"])
 ! 2023-05-02
 alphens.nl##[href^="/banner-click.html"]:upward(1)
-diecourant.co.za##section[id^=smartslider]
-diecourant.co.za###secondary
 overstrandherald.co.za##.wpb_widgetised_column .widget_text
 pretoriafm.co.za##.bannerswidget
 republikein.com.na##.articleBody > aside
