@@ -344,7 +344,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||diecourant.co.za/wp-content/uploads/*/*-banner
 ||pen.nl/wp-content/uploads/*/banner*$image
 ||pen.nl/wp-content/uploads/*/*adv$image
-||racesport.nl/wp-content/uploads/*/*Banner$image
 ||racesport.nl/wp-content/uploads/*/*.gif$image
 ||wegdamnieuws.nl/wp-content/uploads/*/*/*.gif$image
 ! 2023-05-01
