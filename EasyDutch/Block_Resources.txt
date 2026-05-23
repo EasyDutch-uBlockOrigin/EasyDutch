@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+||alphens.nl/upload/*/*/*.gifimage
+||alphens.nl/upload/*/*banner$image
 ||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
 ||cdn.nmh.com.na:2083/S3Server/mynamibia-eu/assets/images/$image,domain=republikein.com.na
 ||boottesten.nl/wp-content/uploads/*/banner$image
@@ -310,9 +312,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||alphens.nl/resize/upload/*/*banner$image
-||alphens.nl/resize/upload/*/*Leaderbord$image
-||alphens.nl/upload/*/*banner$image
 ||cvandaag.nl/api/advertise-deliver/deliver?adtypes=banners$xhr
 ||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
