@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
 ||vaarmarkt.nl/wp-content/uploads/*/*banner$image
 ||alphens.nl/upload/*/*/*.gifimage
