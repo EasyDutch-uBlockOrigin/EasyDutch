@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+republikein.com.na##.topBanner
+republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
+republikein.com.na##.sideAds
 watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p)
 watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr
 watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + p
@@ -903,11 +906,6 @@ srnieuws.com##div.card-view:has([id^="taboola"])
 alphens.nl##[href^="/banner-click.html"]:upward(1)
 overstrandherald.co.za##.wpb_widgetised_column .widget_text
 pretoriafm.co.za##.bannerswidget
-republikein.com.na##.articleBody > aside
-republikein.com.na##.topBanner
-republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
-republikein.com.na##.hidden-xs.az-adverts > aside:has(a[href*="//nmh.my.na/advert"])
-republikein.com.na##aside[style] ~ aside:not([style])
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack
