@@ -344,7 +344,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||motorboot.com/wp-content/uploads/*/ad-logo
 ||nauticlink.com/wp-content/uploads/*/*banner
 ||watersport-tv.nl/content/*/pages/clnt/*_org$image
-||yachtfocus.com/wp-content/*/images/bnr/
 ||zeilwereld.nl/wp-content/uploads/*/*banner
 ! 2023-05-02
 ||pen.nl/wp-content/uploads/*/banner*$image
