@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 diecourant.co.za##.n2-section-smartslider
 diecourant.co.za##.cm-secondary
 ! 2026-05-19
@@ -814,8 +815,6 @@ wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.nl##.widget-container:has(.h3:has-text(Wielerdeals))
 wielerflits.nl##li.list-item.list-item-aside:has(.badge:has-text(Ad))
 wielerflits.nl##li.list-item.list-item-default:has(span:has-text(Ad))
-zeilwereld.nl##.adv-link:upward([id^="zeilw"])
-zeilwereld.nl##.adv-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 ! 2023-10-30
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
