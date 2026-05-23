@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+pretoriafm.co.za###banner-wrap:upward(.elementor-widget)
 republikein.com.na##.topBanner
 republikein.com.na##.hidden-xs.az-adverts h2:has-text(/Advert/i)
 republikein.com.na##.sideAds
@@ -905,7 +906,6 @@ srnieuws.com##div.card-view:has([id^="taboola"])
 ! 2023-05-02
 alphens.nl##[href^="/banner-click.html"]:upward(1)
 overstrandherald.co.za##.wpb_widgetised_column .widget_text
-pretoriafm.co.za##.bannerswidget
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack
