@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-23
+||pretoriafm.co.za/wp-content/uploads/*/*-banner$image
 ||cdn.nmh.com.na:2083/S3Server/mynamibia-eu/assets/images/$image,domain=republikein.com.na
 ||boottesten.nl/wp-content/uploads/*/banner$image
 ||boottesten.nl/wp-content/uploads/2026/01/vaarmarkt.jpg$image
