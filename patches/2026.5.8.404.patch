@@ -1,10 +1,10 @@
-diff name:easydutch lines:218 checksum:7f7310b58f
+diff name:easydutch lines:223 checksum:eb930ec048
 d2 1
 a2 1
-! Last updated: Sun, 24 May 2026 09:59:09 +0000
+! Last updated: Sun, 24 May 2026 18:00:18 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.24.599.patch#easydutch
+! Diff-Path: patches/2026.5.24.1080.patch#easydutch
 d78 2
 a136 61
 ||claimingo.nl/banners/domain=insideflyer.nl
@@ -169,6 +169,11 @@ d840 1
 d857 4
 d934 1
 d979 2
+d1025 1
+a1026 3
+dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
+dumpert.nl##aside .ad:upward(2)
+dumpert.nl##article .ad:upward(2)
 a1055 1
 alarmeringen.nl##.ad
 d1120 4

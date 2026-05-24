@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 24 May 2026 09:59:09 +0000
+! Last updated: Sun, 24 May 2026 18:00:18 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.24.599.patch#easydutch
+! Diff-Path: patches/2026.5.24.1080.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1085,8 +1085,10 @@ autovisie.nl,bedrock.nl,culy.nl,jmouders.nl,manners.nl,metronieuws.nl,nsmbl.nl,w
 sikkom.nl##.ad-sticky-parent
 sikkom.nl##[id^="ad_"][aria-label="Advertentie"]
 sikkom.nl##[id^="ad_native"]:upward(.column)
-dumpert.nl##[id^="ad_"]:upward(2)
 dumpert.nl##[class^="css-"] [id^="ad_leaderboardwallpaper-"]:upward(3)
+dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
+dumpert.nl##aside .ad:upward(2)
+dumpert.nl##article .ad:upward(2)
 funda.nl##.justify-center[role="complementary"]:has-text(Advert)
 marktplaats.nl,2dehands.be###adsense-container
 marktplaats.nl,2dehands.be###banner-top-dt
