@@ -1,10 +1,10 @@
-diff name:easydutch lines:56 checksum:35be73d762
+diff name:easydutch lines:57 checksum:7f7310b58f
 d2 1
 a2 1
-! Last updated: Sun, 24 May 2026 05:28:01 +0000
+! Last updated: Sun, 24 May 2026 09:59:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.24.327.patch#easydutch
+! Diff-Path: patches/2026.5.24.599.patch#easydutch
 a134 17
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
@@ -29,7 +29,8 @@ d405 3
 d409 1
 d411 4
 d417 1
-a523 16
+a523 17
+nieuwslens.nl##.ad-slot-outer
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 calorieenverbranden.nl##.adsense-section
 vaarmarkt.nl##.elementor-widget-container > p:has-text(Advert)
