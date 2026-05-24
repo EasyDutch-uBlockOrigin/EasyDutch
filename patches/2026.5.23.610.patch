@@ -1,0 +1,11 @@
+diff name:easydutch lines:10 checksum:35be73d762
+d2 1
+a2 1
+! Last updated: Sun, 24 May 2026 05:28:01 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.5.24.327.patch#easydutch
+a761 3
+!#if env_mobile
+frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
+!#endif

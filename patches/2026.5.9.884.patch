@@ -1,10 +1,10 @@
-diff name:easydutch lines:167 checksum:7385e3f055
+diff name:easydutch lines:171 checksum:35be73d762
 d2 1
 a2 1
-! Last updated: Sat, 23 May 2026 10:10:55 +0000
+! Last updated: Sun, 24 May 2026 05:28:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.23.610.patch#easydutch
+! Diff-Path: patches/2026.5.24.327.patch#easydutch
 a134 50
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
@@ -127,6 +127,10 @@ a522 3
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
 radio.be,radio.nl###bannerbg
 radio.be,radio.nl###leaderboardbg
+a701 3
+!#if env_mobile
+frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
+!#endif
 d778 1
 d864 4
 d985 2

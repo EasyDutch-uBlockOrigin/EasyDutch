@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 23 May 2026 10:10:55 +0000
+! Last updated: Sun, 24 May 2026 05:28:01 +0000
 !
 ! 2026-05-23
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
@@ -279,6 +279,9 @@ srherald.com##.elementor-heading-title:has-text(ADVERT)
 tvblik.nl##.banner-fluid
 tvblik.nl##.header-banner
 frontpage.fok.nl##[class^="r89-"]
+!#if env_mobile
+frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
+!#endif
 ! 2026-03-24
 nl.motorsport.com##.ms-side-widget--custom-links
 nl.motorsport.com##.ms-hapb
