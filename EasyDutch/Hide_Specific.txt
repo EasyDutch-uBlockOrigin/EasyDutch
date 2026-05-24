@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2025-05-24
+nieuwslens.nl##.ad-slot-outer
 ! 2026-05-23
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 calorieenverbranden.nl##.adsense-section
