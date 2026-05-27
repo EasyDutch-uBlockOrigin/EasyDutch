@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 23 May 2026 10:10:55 +0000
+! Last updated: Wed, 27 May 2026 16:41:07 +0000
 !
+! 2026-05-27
+||cvandaag.nl/api/advertise-deliver/
 ! 2026-05-23
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
@@ -315,7 +317,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||cvandaag.nl/api/advertise-deliver/deliver?adtypes=banners$xhr
 ||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
 ! 2023-10-23

@@ -1,7 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sun, 24 May 2026 18:00:18 +0000
+! Last updated: Wed, 27 May 2026 16:41:07 +0000
 !
+! 2025-05-27
+cvandaag.nl##app-banner-display
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
 ! 2025-05-24
 nieuwslens.nl##.ad-slot-outer
 ! 2026-05-23
@@ -26,8 +30,6 @@ luisterradio.fm##div.max-w-full:has-text(Adv)
 ! 2026-05-14
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
-cvandaag.nl##.sponsored
-cvandaag.nl##.sponsored:upward(app-article-presentation)
 grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))

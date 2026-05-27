@@ -1,11 +1,12 @@
-diff name:easydutch lines:70 checksum:eb930ec048
+diff name:easydutch lines:76 checksum:dca22911ca
 d2 1
 a2 1
-! Last updated: Sun, 24 May 2026 18:00:18 +0000
+! Last updated: Wed, 27 May 2026 16:41:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.24.1080.patch#easydutch
-a134 17
+! Diff-Path: patches/2026.5.27.1001.patch#easydutch
+a134 18
+||cvandaag.nl/api/advertise-deliver/
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
 ||vaarmarkt.nl/wp-content/uploads/*/*banner$image
@@ -26,13 +27,16 @@ a134 17
 a328 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
-d378 3
+d378 4
 d400 2
 d403 3
 d407 1
 d409 4
 d415 1
-a521 17
+a521 20
+cvandaag.nl##app-banner-display
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
 nieuwslens.nl##.ad-slot-outer
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 calorieenverbranden.nl##.adsense-section
@@ -50,6 +54,7 @@ watersport-tv.nl##p > a > img[src*="pages/clnt/"][src*="_org"]:upward(p) + hr + 
 zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 diecourant.co.za##.n2-section-smartslider
 diecourant.co.za##.cm-secondary
+d525 2
 a740 3
 !#if env_mobile
 frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
@@ -64,7 +69,8 @@ d1274 2
 d1278 5
 d1284 1
 d1286 11
-a1521 1
+a1521 2
+dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 d1531 1
 a1531 1

@@ -1,11 +1,12 @@
-diff name:easydutch lines:168 checksum:eb930ec048
+diff name:easydutch lines:171 checksum:dca22911ca
 d2 1
 a2 1
-! Last updated: Sun, 24 May 2026 18:00:18 +0000
+! Last updated: Wed, 27 May 2026 16:41:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.24.1080.patch#easydutch
-a134 50
+! Diff-Path: patches/2026.5.27.1001.patch#easydutch
+a134 51
+||cvandaag.nl/api/advertise-deliver/
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
 ||vaarmarkt.nl/wp-content/uploads/*/*banner$image
@@ -61,7 +62,7 @@ a149 1
 a294 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
-d344 3
+d344 4
 d354 1
 d367 2
 d370 3
@@ -80,7 +81,10 @@ d411 1
 d413 1
 a413 1
 ||wieringernieuws.nl/gfx/ads/$image
-a501 39
+a501 40
+cvandaag.nl##app-banner-display
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
 nieuwslens.nl##.ad-slot-outer
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 calorieenverbranden.nl##.adsense-section
@@ -101,8 +105,6 @@ diecourant.co.za##.cm-secondary
 luisterradio.fm##div.max-w-full:has-text(Adv)
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
-cvandaag.nl##.sponsored
-cvandaag.nl##.sponsored:upward(app-article-presentation)
 grootnieuwsradio.nl##[class^="Ads-module-"]:nth-of-type(1):upward(section):not(:has(article))
 ecommercenews.nl##.ldrtop
 ecommercenews.nl##.sidebar > .widget-image-content-button:not(:has(a[href*="ecommercenews.nl"]))
@@ -160,7 +162,8 @@ wieringernieuws.nl###navleft > center:has-text(advert)
 d1485 1
 a1500 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-a1515 3
+a1515 4
+dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter

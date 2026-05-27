@@ -1,4 +1,4 @@
-diff name:easydutch lines:21 checksum:dca22911ca
+diff name:easydutch lines:16 checksum:dca22911ca
 d2 1
 a2 1
 ! Last updated: Wed, 27 May 2026 16:41:07 +0000
@@ -13,10 +13,5 @@ cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)
 d547 2
-d1088 1
-a1089 3
-dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
-dumpert.nl##aside .ad:upward(2)
-dumpert.nl##article .ad:upward(2)
-a1525 1
+a1527 1
 dumpert.nl##+js(set-constant, fetch, true)

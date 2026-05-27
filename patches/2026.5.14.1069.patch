@@ -1,11 +1,12 @@
-diff name:easydutch lines:80 checksum:eb930ec048
+diff name:easydutch lines:87 checksum:dca22911ca
 d2 1
 a2 1
-! Last updated: Sun, 24 May 2026 18:00:18 +0000
+! Last updated: Wed, 27 May 2026 16:41:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.24.1080.patch#easydutch
-a134 17
+! Diff-Path: patches/2026.5.27.1001.patch#easydutch
+a134 18
+||cvandaag.nl/api/advertise-deliver/
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
 ||vaarmarkt.nl/wp-content/uploads/*/*banner$image
@@ -28,13 +29,16 @@ a182 1
 a327 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
-d377 3
+d377 4
 d399 2
 d402 3
 d406 1
 d408 4
 d414 1
-a520 18
+d521 2
+a522 1
+cvandaag.nl##app-banner-display
+a524 20
 nieuwslens.nl##.ad-slot-outer
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
 calorieenverbranden.nl##.adsense-section
@@ -53,6 +57,8 @@ zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 diecourant.co.za##.n2-section-smartslider
 diecourant.co.za##.cm-secondary
 luisterradio.fm##div.max-w-full:has-text(Adv)
+orgelnieuws.nl##.mh-widget:has(.g)
+orgelnieuws.nl##.g
 d557 3
 a559 3
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
@@ -72,7 +78,8 @@ d1272 2
 d1276 5
 d1282 1
 d1284 11
-a1519 3
+a1519 4
+dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
