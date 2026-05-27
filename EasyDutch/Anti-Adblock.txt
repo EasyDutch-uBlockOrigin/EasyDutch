@@ -2,6 +2,8 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-27
+dumpert.nl##+js(set-constant, fetch, true)
 ! 2026-05-19
 ! https://github.com/uBlockOrigin/uAssets/issues/29345
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
