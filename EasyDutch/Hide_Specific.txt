@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-29
+wibnet.nl##.banner-aside
 retaildetail.be,retaildetail.nl##.ad-web.ad-page
 retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
 tvgids24.nl##.adsbygoogle:upward(1)
@@ -882,8 +883,6 @@ ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
 ! 2023-09-01
 sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
-! 2023-08-29
-wibnet.nl##.default-banner-size
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
