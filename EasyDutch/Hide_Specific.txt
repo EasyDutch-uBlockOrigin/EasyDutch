@@ -881,8 +881,6 @@ gewoonvoorhem.nl###below-article-leaderboard
 ! 2023-09-18
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
-! 2023-09-01
-sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
