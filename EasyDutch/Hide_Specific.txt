@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-29
+retaildetail.be,retaildetail.nl##.ad-web.ad-page
+retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
 tvgids24.nl##.adsbygoogle:upward(1)
 tvgids24.nl##.adBoxbig
 tvgids24.nl###shortads
@@ -885,7 +887,6 @@ wibnet.nl##.default-banner-size
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
-retaildetail.be,retaildetail.nl##.ad-web.ad-page
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 villamedia.nl##.header-intro
 wintersport.nl##.wintersport-banner
