@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-29
+watchfaces.be##.widget:has(.adsbygoogle)
 zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
 zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
 zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
@@ -886,7 +887,6 @@ tvgids24.nl###shortads
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 villamedia.nl##.header-intro
 wasmachines.nl##.adunitContainer:upward(.items-center)
-watchfaces.be##[id^="custom_html"]:has(.adsbygoogle)
 wintersport.nl##.wintersport-banner
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
