@@ -896,8 +896,6 @@ zita.be###shopsuiteApplication
 zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
-! 2023-07-04
-autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 ! 2023-07-03
 gebruikershandleiding.com##[class^="adserver-container"]
 ! 2023-07-01
