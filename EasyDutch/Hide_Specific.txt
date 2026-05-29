@@ -886,7 +886,6 @@ retaildetail.be,retaildetail.nl##.ad-web.ad-page
 tvgids24.nl###shortads
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 villamedia.nl##.header-intro
-wasmachines.nl##.adunitContainer:upward(.items-center)
 wintersport.nl##.wintersport-banner
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
