@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-29
+zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
+zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
+zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
 ! 2026-05-27
 cvandaag.nl##app-banner-display
@@ -886,11 +889,6 @@ wasmachines.nl##.adunitContainer:upward(.items-center)
 watchfaces.be##[id^="custom_html"]:has(.adsbygoogle)
 wintersport.nl##.wintersport-banner
 metrotime.be##.r-pub
-zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_billboard"]:upward(article > .field)
-zakenreisnieuws.nl##[id*="web_halfpage"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_hpa"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_partners"]:upward(.block)
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
 ! 2023-07-03
