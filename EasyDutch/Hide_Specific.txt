@@ -2,11 +2,13 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
-! 2025-05-27
+! 2026-05-29
+redactie24.be###Mobile-Rectangle-Article-Low
+! 2026-05-27
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)
-! 2025-05-24
+! 2026-05-24
 nieuwslens.nl##.ad-slot-outer
 ! 2026-05-23
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
