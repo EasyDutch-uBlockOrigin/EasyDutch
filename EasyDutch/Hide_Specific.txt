@@ -888,7 +888,6 @@ villamedia.nl##.header-intro
 wasmachines.nl##.adunitContainer:upward(.items-center)
 watchfaces.be##[id^="custom_html"]:has(.adsbygoogle)
 wintersport.nl##.wintersport-banner
-metrotime.be##.r-pub
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
 ! 2023-07-03
