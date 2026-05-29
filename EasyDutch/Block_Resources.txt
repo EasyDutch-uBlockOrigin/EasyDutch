@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-29
+||villamedia.nl/images/*/*banner$image
+||villamedia.nl/images/uploads/*leaderboard$image
 ! 2026-05-27
 ||cvandaag.nl/api/advertise-deliver/
 ! 2026-05-23
@@ -330,7 +333,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ! 2023-08-01
 ||riskcompliance.nl/wp-content/uploads/*/*banner.gif
-||villamedia.nl/images/banners/
 ! 2023-07-01
 ||webstick.nl/images/images-ads/
 ! 2023-06-09
