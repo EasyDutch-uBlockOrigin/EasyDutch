@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-05-29
+tvgids24.nl##.adsbygoogle:upward(1)
+tvgids24.nl##.adBoxbig
+tvgids24.nl###shortads
 watchfaces.be##.widget:has(.adsbygoogle)
 zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
 zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
@@ -883,7 +886,6 @@ wibnet.nl##.default-banner-size
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
 retaildetail.be,retaildetail.nl##.ad-web.ad-page
-tvgids24.nl###shortads
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 villamedia.nl##.header-intro
 wintersport.nl##.wintersport-banner
@@ -1060,7 +1062,6 @@ petities.com###visible_ad_1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
-tvgids24.nl##.adBoxbig
 filmtotaal.nl##.ad-centering
 sozio.nl##.adchannel
 omroepflevoland.nl##.ad-container
