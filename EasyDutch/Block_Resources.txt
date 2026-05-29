@@ -1,7 +1,10 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Wed, 27 May 2026 16:41:07 +0000
+! Last updated: Fri, 29 May 2026 19:24:38 +0000
 !
+! 2026-05-29
+||villamedia.nl/images/*/*banner$image
+||villamedia.nl/images/uploads/*leaderboard$image
 ! 2026-05-27
 ||cvandaag.nl/api/advertise-deliver/
 ! 2026-05-23
@@ -328,16 +331,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||rtvideaal.nl/wp-content/uploads/*/banner$image
 ! 2023-09-18
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
-! 2023-08-01
-||riskcompliance.nl/wp-content/uploads/*/*banner.gif
-||villamedia.nl/images/banners/
-! 2023-07-04
-||autonieuws.be/templates/yootheme/cache/*/1MG_Banni%C3%A8re_Autonieuws_V1-*$image
-||autonieuws.be/templates/yootheme/cache/*/325_x_325_NL-*$image
-||autonieuws.be/templates/yootheme/cache/*/800_x_172_px_NL-*$image
-||autonieuws.be/templates/yootheme/cache/*/Athlon_logo-*$image
-||autonieuws.be/templates/yootheme/cache/*/Athlon_Banner$image
-||autonieuws.be/templates/yootheme/cache/*/BEL_March23_B2C_XCEED_800x172_nl-*$image
 ! 2023-07-01
 ||webstick.nl/images/images-ads/
 ! 2023-06-09

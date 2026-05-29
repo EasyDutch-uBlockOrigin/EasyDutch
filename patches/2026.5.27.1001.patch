@@ -1,9 +1,30 @@
-diff name:easydutch lines:8 checksum:d5dbfa96fb
+diff name:easydutch lines:29 checksum:504295887c
 d2 1
 a2 1
-! Last updated: Fri, 29 May 2026 18:33:03 +0000
+! Last updated: Fri, 29 May 2026 19:24:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.29.1113.patch#easydutch
-a526 1
+! Diff-Path: patches/2026.5.29.1164.patch#easydutch
+a134 2
+||villamedia.nl/images/*/*banner$image
+||villamedia.nl/images/uploads/*leaderboard$image
+d406 8
+a526 11
+wibnet.nl##.banner-aside
+retaildetail.be,retaildetail.nl##.ad-web.ad-page
+retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
+tvgids24.nl##.adsbygoogle:upward(1)
+tvgids24.nl##.adBoxbig
+tvgids24.nl###shortads
+watchfaces.be##.widget:has(.adsbygoogle)
+zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
+zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
+zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
+d1263 1
+d1276 2
+d1280 2
+d1284 2
+d1287 8
+d1296 1
+d1423 1

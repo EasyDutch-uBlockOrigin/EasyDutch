@@ -1,8 +1,18 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 29 May 2026 18:33:03 +0000
+! Last updated: Fri, 29 May 2026 19:24:38 +0000
 !
 ! 2026-05-29
+wibnet.nl##.banner-aside
+retaildetail.be,retaildetail.nl##.ad-web.ad-page
+retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
+tvgids24.nl##.adsbygoogle:upward(1)
+tvgids24.nl##.adBoxbig
+tvgids24.nl###shortads
+watchfaces.be##.widget:has(.adsbygoogle)
+zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
+zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
+zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
 ! 2026-05-27
 cvandaag.nl##app-banner-display
@@ -855,7 +865,6 @@ moppen.nl##.banner
 omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.nl"])):not(:has-text(/Informatie/i))
 omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
-riskcompliance.nl##a[onclick*="Banner"]:not(a[href*="riskcompliance.nl"]):upward(article)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
 rtvgo.nl##.thanksto
 voetbalbelgie.be##div[class$="-atf"]
@@ -872,32 +881,14 @@ gewoonvoorhem.nl###below-article-leaderboard
 ! 2023-09-18
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
-! 2023-09-01
-sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
-! 2023-08-29
-wibnet.nl##.default-banner-size
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
-retaildetail.be,retaildetail.nl##.ad-web.ad-page
-tvgids24.nl###shortads
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 villamedia.nl##.header-intro
-wasmachines.nl##.adunitContainer:upward(.items-center)
-watchfaces.be##[id^="custom_html"]:has(.adsbygoogle)
 wintersport.nl##.wintersport-banner
-metrotime.be##.r-pub
-zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_billboard"]:upward(article > .field)
-zakenreisnieuws.nl##[id*="web_halfpage"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_hpa"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_partners"]:upward(.block)
-zita.be###shopsuiteApplication
-zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
-! 2023-07-04
-autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 ! 2023-07-03
 gebruikershandleiding.com##[class^="adserver-container"]
 ! 2023-07-01
@@ -1069,7 +1060,6 @@ petities.com###visible_ad_1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
-tvgids24.nl##.adBoxbig
 filmtotaal.nl##.ad-centering
 sozio.nl##.adchannel
 omroepflevoland.nl##.ad-container

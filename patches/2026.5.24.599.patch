@@ -1,14 +1,27 @@
-diff name:easydutch lines:22 checksum:d5dbfa96fb
+diff name:easydutch lines:42 checksum:504295887c
 d2 1
 a2 1
-! Last updated: Fri, 29 May 2026 18:33:03 +0000
+! Last updated: Fri, 29 May 2026 19:24:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.29.1113.patch#easydutch
-a134 1
+! Diff-Path: patches/2026.5.29.1164.patch#easydutch
+a134 3
+||villamedia.nl/images/*/*banner$image
+||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
 d397 1
-a526 4
+d406 8
+a526 14
+wibnet.nl##.banner-aside
+retaildetail.be,retaildetail.nl##.ad-web.ad-page
+retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
+tvgids24.nl##.adsbygoogle:upward(1)
+tvgids24.nl##.adBoxbig
+tvgids24.nl###shortads
+watchfaces.be##.widget:has(.adsbygoogle)
+zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
+zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
+zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
@@ -19,5 +32,12 @@ a1089 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
+d1260 1
+d1273 2
+d1277 2
+d1281 2
+d1284 8
+d1293 1
+d1420 1
 a1525 1
 dumpert.nl##+js(set-constant, fetch, true)

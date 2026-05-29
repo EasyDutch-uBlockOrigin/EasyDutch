@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 29 May 2026 18:33:03 +0000
+! Last updated: Fri, 29 May 2026 19:24:38 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.29.1113.patch#easydutch
+! Diff-Path: patches/2026.5.29.1164.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -132,6 +132,8 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||villamedia.nl/images/*/*banner$image
+||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
@@ -403,14 +405,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||rushcommerce.com/banners*$3p
 ||rtvideaal.nl/wp-content/uploads/*/banner$image
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
-||riskcompliance.nl/wp-content/uploads/*/*banner.gif
-||villamedia.nl/images/banners/
-||autonieuws.be/templates/yootheme/cache/*/1MG_Banni%C3%A8re_Autonieuws_V1-*$image
-||autonieuws.be/templates/yootheme/cache/*/325_x_325_NL-*$image
-||autonieuws.be/templates/yootheme/cache/*/800_x_172_px_NL-*$image
-||autonieuws.be/templates/yootheme/cache/*/Athlon_logo-*$image
-||autonieuws.be/templates/yootheme/cache/*/Athlon_Banner$image
-||autonieuws.be/templates/yootheme/cache/*/BEL_March23_B2C_XCEED_800x172_nl-*$image
 ||webstick.nl/images/images-ads/
 ||onlinecorrectie.nl/cnc/$image
 ||dehavengids.nl/wordpress/wp-content/uploads/*/*Banner$image
@@ -524,6 +518,16 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+wibnet.nl##.banner-aside
+retaildetail.be,retaildetail.nl##.ad-web.ad-page
+retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
+tvgids24.nl##.adsbygoogle:upward(1)
+tvgids24.nl##.adBoxbig
+tvgids24.nl###shortads
+watchfaces.be##.widget:has(.adsbygoogle)
+zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
+zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
+zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
@@ -1261,7 +1265,6 @@ moppen.nl##.banner
 omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.nl"])):not(:has-text(/Informatie/i))
 omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
-riskcompliance.nl##a[onclick*="Banner"]:not(a[href*="riskcompliance.nl"]):upward(article)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
 rtvgo.nl##.thanksto
 voetbalbelgie.be##div[class$="-atf"]
@@ -1274,27 +1277,12 @@ gewoonvoorhem.nl##[id$="leaderboard-article"]
 gewoonvoorhem.nl###below-article-leaderboard
 ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
 ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
-sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
-wibnet.nl##.default-banner-size
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
-retaildetail.be,retaildetail.nl##.ad-web.ad-page
-tvgids24.nl###shortads
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 villamedia.nl##.header-intro
-wasmachines.nl##.adunitContainer:upward(.items-center)
-watchfaces.be##[id^="custom_html"]:has(.adsbygoogle)
 wintersport.nl##.wintersport-banner
-metrotime.be##.r-pub
-zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_billboard"]:upward(article > .field)
-zakenreisnieuws.nl##[id*="web_halfpage"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_hpa"]:upward(.block)
-zakenreisnieuws.nl##[id*="web_partners"]:upward(.block)
-zita.be###shopsuiteApplication
-zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 vriendin.nl##[id^="adf-autonative"]
-autonieuws.be##.uk-width-1-2\@m:has(.uk-slider-items [target="_blank"] picture)
 gebruikershandleiding.com##[class^="adserver-container"]
 webstick.nl##p.center2:has-text(Advert)
 webstick.nl##p > a[href][rel$="sponsored"]:upward(aside > section)
@@ -1421,7 +1409,6 @@ petities.com###visible_ad_1
 hyvesgames.nl,koopplein.nl,tellows.nl,tripadvisor.be,tripadvisor.nl##.ad
 marokko.nl##.ad_between
 marokko.nl##.ad_inner
-tvgids24.nl##.adBoxbig
 filmtotaal.nl##.ad-centering
 sozio.nl##.adchannel
 omroepflevoland.nl##.ad-container

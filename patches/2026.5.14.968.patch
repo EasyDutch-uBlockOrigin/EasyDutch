@@ -1,11 +1,13 @@
-diff name:easydutch lines:92 checksum:d5dbfa96fb
+diff name:easydutch lines:112 checksum:504295887c
 d2 1
 a2 1
-! Last updated: Fri, 29 May 2026 18:33:03 +0000
+! Last updated: Fri, 29 May 2026 19:24:38 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.29.1113.patch#easydutch
-a134 19
+! Diff-Path: patches/2026.5.29.1164.patch#easydutch
+a134 21
+||villamedia.nl/images/*/*banner$image
+||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
@@ -31,12 +33,23 @@ a326 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 d376 4
+d388 8
 d398 2
 d401 3
 d405 1
 d407 4
 d413 1
-a519 25
+a519 35
+wibnet.nl##.banner-aside
+retaildetail.be,retaildetail.nl##.ad-web.ad-page
+retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)
+tvgids24.nl##.adsbygoogle:upward(1)
+tvgids24.nl##.adBoxbig
+tvgids24.nl###shortads
+watchfaces.be##.widget:has(.adsbygoogle)
+zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
+zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
+zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
@@ -79,10 +92,17 @@ dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
 d1202 2
 d1218 2
+d1232 1
+d1245 2
+d1249 2
+d1253 2
+d1256 8
+d1265 1
 d1269 2
 d1273 5
 d1279 1
 d1281 11
+d1411 1
 a1516 4
 dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
