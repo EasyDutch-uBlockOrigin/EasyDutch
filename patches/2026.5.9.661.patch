@@ -1,10 +1,10 @@
-diff name:easydutch lines:184 checksum:dca22911ca
+diff name:easydutch lines:185 checksum:d5dbfa96fb
 d2 1
 a2 1
-! Last updated: Wed, 27 May 2026 16:41:07 +0000
+! Last updated: Fri, 29 May 2026 18:33:03 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.27.1001.patch#easydutch
+! Diff-Path: patches/2026.5.29.1113.patch#easydutch
 a134 51
 ||cvandaag.nl/api/advertise-deliver/
 ||claimingo.nl/banners/domain=insideflyer.nl
@@ -85,7 +85,8 @@ d452 1
 d483 1
 d485 1
 d489 1
-a505 40
+a505 41
+redactie24.be###Mobile-Rectangle-Article-Low
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)

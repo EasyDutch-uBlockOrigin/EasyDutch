@@ -1,10 +1,10 @@
-diff name:easydutch lines:220 checksum:dca22911ca
+diff name:easydutch lines:221 checksum:d5dbfa96fb
 d2 1
 a2 1
-! Last updated: Wed, 27 May 2026 16:41:07 +0000
+! Last updated: Fri, 29 May 2026 18:33:03 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.27.1001.patch#easydutch
+! Diff-Path: patches/2026.5.29.1113.patch#easydutch
 d78 2
 a136 56
 ||cvandaag.nl/api/advertise-deliver/
@@ -94,7 +94,8 @@ d487 1
 d491 2
 a500 1
 ##.pgAdWrapper
-a507 51
+a507 52
+redactie24.be###Mobile-Rectangle-Article-Low
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)

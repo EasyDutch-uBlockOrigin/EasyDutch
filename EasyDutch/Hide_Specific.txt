@@ -1,12 +1,14 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 27 May 2026 16:41:07 +0000
+! Last updated: Fri, 29 May 2026 18:33:03 +0000
 !
-! 2025-05-27
+! 2026-05-29
+redactie24.be###Mobile-Rectangle-Article-Low
+! 2026-05-27
 cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)
-! 2025-05-24
+! 2026-05-24
 nieuwslens.nl##.ad-slot-outer
 ! 2026-05-23
 calorieenverbranden.nl##[id^="amzn-assoc-ad"]:upward([id^="block"])
