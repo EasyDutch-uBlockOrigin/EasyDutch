@@ -891,8 +891,6 @@ zakenreisnieuws.nl##[id*="web_billboard"]:upward(article > .field)
 zakenreisnieuws.nl##[id*="web_halfpage"]:upward(.block)
 zakenreisnieuws.nl##[id*="web_hpa"]:upward(.block)
 zakenreisnieuws.nl##[id*="web_partners"]:upward(.block)
-zita.be###shopsuiteApplication
-zita.be##[id^="rossel-leaderboard"]:upward(.tdc-row)
 ! 2023-07-05
 vriendin.nl##[id^="adf-autonative"]
 ! 2023-07-03
