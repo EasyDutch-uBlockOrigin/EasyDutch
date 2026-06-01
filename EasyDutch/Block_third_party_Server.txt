@@ -88,7 +88,6 @@
 ||dt51.net^$3p
 ||dt61.net^$3p
 ||dt71.net^$3p
-||elitedating.nl^$3p
 ||euroclix.nl^$3p,domain=~panelclix.com|~panelclix.nl
 ||extremecash.nl^$3p
 ||go2.go2cloud.org^$3p
