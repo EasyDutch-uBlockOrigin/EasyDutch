@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 29 May 2026 19:24:38 +0000
+! Last updated: Mon, 01 Jun 2026 15:43:05 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.5.29.1164.patch#easydutch
+! Diff-Path: patches/2026.6.1.943.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -103,7 +103,6 @@ _advertentieleaderboardhome.
 ||dt51.net^$3p
 ||dt61.net^$3p
 ||dt71.net^$3p
-||elitedating.nl^$3p
 ||euroclix.nl^$3p,domain=~panelclix.com|~panelclix.nl
 ||extremecash.nl^$3p
 ||go2.go2cloud.org^$3p
@@ -1548,7 +1547,7 @@ autoweek.nl##+js(set, isAdBlockActive, false)
 ! *** EasyDutch:EasyDutch/NSFW.txt ***
 *$3p,image,domain=kinkymedia.nl|opwindend.net
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl
-/images/*.gif$image,domain=geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
+/images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
 /images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl

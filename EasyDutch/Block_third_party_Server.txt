@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Sat, 09 May 2026 10:08:55 +0000
+! Last updated: Mon, 01 Jun 2026 15:43:05 +0000
 !
 ! 2026-04-25
 ! streekstadcentraal.nl
@@ -88,7 +88,6 @@
 ||dt51.net^$3p
 ||dt61.net^$3p
 ||dt71.net^$3p
-||elitedating.nl^$3p
 ||euroclix.nl^$3p,domain=~panelclix.com|~panelclix.nl
 ||extremecash.nl^$3p
 ||go2.go2cloud.org^$3p

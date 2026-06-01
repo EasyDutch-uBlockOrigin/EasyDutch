@@ -1,10 +1,11 @@
-diff name:easydutch lines:42 checksum:504295887c
+diff name:easydutch lines:46 checksum:a554fb2452
 d2 1
 a2 1
-! Last updated: Fri, 29 May 2026 19:24:38 +0000
+! Last updated: Mon, 01 Jun 2026 15:43:05 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.5.29.1164.patch#easydutch
+! Diff-Path: patches/2026.6.1.943.patch#easydutch
+d106 1
 a134 3
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
@@ -41,3 +42,6 @@ d1293 1
 d1420 1
 a1525 1
 dumpert.nl##+js(set-constant, fetch, true)
+d1559 1
+a1559 1
+/images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
