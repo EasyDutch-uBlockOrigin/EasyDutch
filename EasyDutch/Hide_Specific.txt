@@ -2,6 +2,10 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-04
+voetbalflitsen.nl##.banner > .parentgpt
+voetbalflitsen.nl##.banner > #navbar_ad_below
+voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
 ! 2026-05-29
 wibnet.nl##.banner-aside
 retaildetail.be,retaildetail.nl##.ad-web.ad-page
