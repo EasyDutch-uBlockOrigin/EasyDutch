@@ -1,10 +1,10 @@
-diff name:easydutch lines:206 checksum:a554fb2452
+diff name:easydutch lines:209 checksum:60ec8e108b
 d2 1
 a2 1
-! Last updated: Mon, 01 Jun 2026 15:43:05 +0000
+! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.1.943.patch#easydutch
+! Diff-Path: patches/2026.6.4.887.patch#easydutch
 d106 1
 a134 53
 ||villamedia.nl/images/*/*banner$image
@@ -88,7 +88,10 @@ a413 1
 d482 1
 d484 1
 d488 1
-a504 51
+a504 54
+voetbalflitsen.nl##.banner > .parentgpt
+voetbalflitsen.nl##.banner > #navbar_ad_below
+voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
 wibnet.nl##.banner-aside
 retaildetail.be,retaildetail.nl##.ad-web.ad-page
 retaildetail.be,retaildetail.nl##div.fly-module-holder:has(.ad-sidebar)

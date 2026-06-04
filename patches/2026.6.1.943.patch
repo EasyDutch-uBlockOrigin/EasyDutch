@@ -1,15 +1,11 @@
-diff name:easydutch lines:14 checksum:60ec8e108b
+diff name:easydutch lines:10 checksum:60ec8e108b
 d2 1
 a2 1
 ! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.6.4.887.patch#easydutch
-d106 1
-a520 3
+a519 3
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
-d1551 1
-a1551 1
-/images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
