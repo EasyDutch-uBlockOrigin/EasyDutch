@@ -1,16 +1,33 @@
-diff name:easydutch lines:35 checksum:60ec8e108b
+diff name:easydutch lines:63 checksum:eda0a3f79e
 d2 1
 a2 1
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.4.887.patch#easydutch
+! Diff-Path: patches/2026.6.6.563.patch#easydutch
 d106 1
-a134 2
+a134 3
+||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
 d406 8
-a526 13
+a526 29
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -24,13 +41,24 @@ watchfaces.be##.widget:has(.adsbygoogle)
 zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
 zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
 zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
+d740 1
+d801 1
+d809 1
+d924 1
+d1012 1
+d1039 2
+d1056 2
+d1193 1
+d1217 1
 d1264 1
 d1277 2
 d1281 2
 d1285 2
 d1288 8
 d1297 1
+d1312 2
 d1424 1
+d1447 1
 d1564 1
 a1564 1
 /images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl

@@ -1,12 +1,13 @@
-diff name:easydutch lines:97 checksum:60ec8e108b
+diff name:easydutch lines:125 checksum:eda0a3f79e
 d2 1
 a2 1
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.4.887.patch#easydutch
+! Diff-Path: patches/2026.6.6.563.patch#easydutch
 d106 1
-a134 20
+a134 21
+||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
@@ -34,7 +35,23 @@ d405 3
 d409 1
 d411 4
 d417 1
-a523 34
+a523 50
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -70,15 +87,24 @@ zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 diecourant.co.za##.n2-section-smartslider
 diecourant.co.za##.cm-secondary
 d527 2
+d718 1
 a742 3
 !#if env_mobile
 frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
 !#endif
+d776 1
+d784 1
+d899 1
+d987 1
+d1014 2
+d1031 2
 d1065 1
 a1066 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
+d1166 1
+d1190 1
 d1225 2
 d1239 1
 d1252 2
@@ -90,7 +116,9 @@ d1276 2
 d1280 5
 d1286 1
 d1288 11
+d1306 2
 d1418 1
+d1441 1
 a1523 1
 dumpert.nl##+js(set-constant, fetch, true)
 d1557 1

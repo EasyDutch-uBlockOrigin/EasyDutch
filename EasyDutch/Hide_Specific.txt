@@ -1,7 +1,26 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 !
+! 2026-06-06
+! InfoPlaza.com
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+! End InfoPlaza.com
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 ! 2026-06-04
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
@@ -270,7 +289,6 @@ zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
 zeelandnet.nl##.as__topbanner
 zeelandnet.nl##.as__bottom-banner
 ! 2026-04-05
-weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]
@@ -342,7 +360,6 @@ bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 digitaalburg.com###container aside[class^="widget widget_text"]
-weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
@@ -350,8 +367,6 @@ racingnews365.nl##.card[href$="-adv"]
 racingnews365.nl###betting-prefs
 racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
 racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
-! 2026-03-04
-meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 ! 2026-03-02
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
@@ -484,7 +499,6 @@ duurzaamnieuws.nl##aside section[class$="widget_text"]:has-text(wordt mede mogel
 duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk gemaakt door)
 crimesite.nl##[class*="r89"]
 crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
-weer.nl##[data-advert-placeholder-collapses]:upward(1)
 tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.com/click/"])
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
@@ -579,7 +593,6 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 axed.nl##[class^="r89-desktop"]:upward(.raw-html-component)
@@ -609,8 +622,6 @@ marktnet.nl##.nav.nav-tabs > .nav-item:nth-of-type(2)
 nieuwspaal.nl###abovecontent-widget-area
 nieuwspaal.nl##[id^="NieuwspaalSide"]:upward([id^="custom_html-"])
 ! 2026-02-06
-9292.nl##[data-testid="ad-root"]
-9292.nl##astro-island[component-export="Ad"]
 techgaming.nl##.code-block
 androidplanet.nl,iphoned.nl##.no-content-styles:has(.adblock-detect)
 androidplanet.nl,iphoned.nl##.widget_offers
@@ -628,8 +639,6 @@ omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type
 ! 2026-02-05
 rd.nl##.ad-container-print-hide
 rd.nl##.ad
-buienradar.be,buienradar.nl###adholderContainerHeader
-buienradar.nl##.br-ad-slot
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
@@ -785,7 +794,6 @@ computable.nl##.banner-wrapper
 fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 ! 2023-12-19
 grandprixradio.nl##.advertisements
-janvissersweer.nl##img[width="300"][height="250"]:upward(aside.widget)
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
 luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
@@ -810,7 +818,6 @@ itdaily.be##[id^="itdaily-home"]
 poki.com##.sc-tbf0fc-2:has-text(/Advert/i):upward(div[class])
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
-weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
 ! 2023-12-13
 fr12.nl##div[class$="-atf"]
 fr12.nl##[class*="r89-desktop"][class*="-btf"]
@@ -913,9 +920,6 @@ apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
-! 2023-04-26
-tameteo.nl###bannerDerPC
-tameteo.nl##.megabanner
 ! 2023-04-24
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 ! 2023-04-24 https://github.com/uBlockOrigin/uAssets/issues/17747
@@ -1086,7 +1090,6 @@ volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 online-omzetten.nl##.clearfix.entry > small
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
-tameteo.nl##.creatividad
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 radiocontinu.nl##.eskimo-carousel-container

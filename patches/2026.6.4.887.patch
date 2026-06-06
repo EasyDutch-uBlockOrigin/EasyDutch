@@ -1,4 +1,4 @@
-diff name:easydutch lines:39 checksum:eda0a3f79e
+diff name:easydutch lines:36 checksum:eda0a3f79e
 d2 1
 a2 1
 ! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
@@ -7,7 +7,7 @@ a4 1
 ! Diff-Path: patches/2026.6.6.563.patch#easydutch
 a133 1
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
-a519 19
+a519 16
 9292.nl##[data-testid="ad-root"]
 9292.nl##astro-island[component-export="Ad"]
 buienalarm.nl##.banner
@@ -24,17 +24,14 @@ tameteo.nl##.megabanner
 weerenradar.nl##wo-ad
 weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
 janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
-voetbalflitsen.nl##.banner > .parentgpt
-voetbalflitsen.nl##.banner > #navbar_ad_below
-voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
-d743 1
-d804 1
-d812 1
-d927 1
-d1015 1
-d1042 2
-d1059 2
-d1196 1
-d1220 1
-d1299 2
-d1433 1
+d746 1
+d807 1
+d815 1
+d930 1
+d1018 1
+d1045 2
+d1062 2
+d1199 1
+d1223 1
+d1302 2
+d1436 1

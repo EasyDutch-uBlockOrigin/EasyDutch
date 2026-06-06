@@ -1,18 +1,35 @@
-diff name:easydutch lines:50 checksum:60ec8e108b
+diff name:easydutch lines:78 checksum:eda0a3f79e
 d2 1
 a2 1
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.4.887.patch#easydutch
+! Diff-Path: patches/2026.6.6.563.patch#easydutch
 d106 1
-a134 3
+a134 4
+||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
 d397 1
 d406 8
-a526 18
+a526 34
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -32,18 +49,29 @@ cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)
 nieuwslens.nl##.ad-slot-outer
 d546 2
+d737 1
+d798 1
+d806 1
+d921 1
+d1009 1
+d1036 2
+d1053 2
 d1087 1
 a1088 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
+d1188 1
+d1212 1
 d1259 1
 d1272 2
 d1276 2
 d1280 2
 d1283 8
 d1292 1
+d1307 2
 d1419 1
+d1442 1
 a1524 1
 dumpert.nl##+js(set-constant, fetch, true)
 d1558 1

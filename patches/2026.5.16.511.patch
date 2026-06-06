@@ -1,12 +1,13 @@
-diff name:easydutch lines:108 checksum:60ec8e108b
+diff name:easydutch lines:136 checksum:eda0a3f79e
 d2 1
 a2 1
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.4.887.patch#easydutch
+! Diff-Path: patches/2026.6.6.563.patch#easydutch
 d106 1
-a134 20
+a134 21
+||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
@@ -38,7 +39,23 @@ d407 1
 d409 4
 d415 1
 d522 2
-a523 15
+a523 31
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -75,15 +92,24 @@ diecourant.co.za##.cm-secondary
 luisterradio.fm##div.max-w-full:has-text(Adv)
 orgelnieuws.nl##.mh-widget:has(.g)
 orgelnieuws.nl##.g
+d715 1
 a739 3
 !#if env_mobile
 frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
 !#endif
+d773 1
+d781 1
+d896 1
+d984 1
+d1011 2
+d1028 2
 d1062 1
 a1063 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
+d1163 1
+d1187 1
 d1222 2
 d1236 1
 d1249 2
@@ -95,7 +121,9 @@ d1273 2
 d1277 5
 d1283 1
 d1285 11
+d1303 2
 d1415 1
+d1438 1
 a1520 4
 dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)

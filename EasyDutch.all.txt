@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.6.4.887.patch#easydutch
+! Diff-Path: patches/2026.6.6.563.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
@@ -517,6 +518,22 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -743,7 +760,6 @@ zeelandnet.nl##[class^="article-bnr-"]
 zeelandnet.nl##[data-advert-placeholder-size]:upward(1)
 zeelandnet.nl##.as__topbanner
 zeelandnet.nl##.as__bottom-banner
-weerenradar.nl##wo-ad
 sportuitslagen.org##.advert
 folderz.nl##[class^="add_"]:has(> .advert)
 deoudrotterdammer.nl##[id^="netta-"]
@@ -804,7 +820,6 @@ bollywood.nl##.widget_links
 handbalstartpunt.nl##aside.widget-banner
 handbalstartpunt.nl###sidebar .widget-banner__img
 digitaalburg.com###container aside[class^="widget widget_text"]
-weerplaza.nl##.banner
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
@@ -812,7 +827,6 @@ racingnews365.nl##.card[href$="-adv"]
 racingnews365.nl###betting-prefs
 racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
 racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
-meteovista.be,weeronline.nl##.fullScreenAdWrapper:upward(1)
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
@@ -927,7 +941,6 @@ duurzaamnieuws.nl##aside section[class$="widget_text"]:has-text(wordt mede mogel
 duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk gemaakt door)
 crimesite.nl##[class*="r89"]
 crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
-weer.nl##[data-advert-placeholder-collapses]:upward(1)
 tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.com/click/"])
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
@@ -1015,7 +1028,6 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-buienalarm.nl##.banner
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 axed.nl##[class^="r89-desktop"]:upward(.raw-html-component)
@@ -1042,8 +1054,6 @@ marktnet.nl##app-banner:upward(.row:not(:has(.description)))
 marktnet.nl##.nav.nav-tabs > .nav-item:nth-of-type(2)
 nieuwspaal.nl###abovecontent-widget-area
 nieuwspaal.nl##[id^="NieuwspaalSide"]:upward([id^="custom_html-"])
-9292.nl##[data-testid="ad-root"]
-9292.nl##astro-island[component-export="Ad"]
 techgaming.nl##.code-block
 androidplanet.nl,iphoned.nl##.no-content-styles:has(.adblock-detect)
 androidplanet.nl,iphoned.nl##.widget_offers
@@ -1059,8 +1069,6 @@ omroepbrabant.nl##div[class^="ad_"]
 omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
 rd.nl##.ad-container-print-hide
 rd.nl##.ad
-buienradar.be,buienradar.nl###adholderContainerHeader
-buienradar.nl##.br-ad-slot
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
@@ -1196,7 +1204,6 @@ robtv.be,tvl.be,tvoost.be##.c-ad-cba-row + .botGutter
 computable.nl##.banner-wrapper
 fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 grandprixradio.nl##.advertisements
-janvissersweer.nl##img[width="300"][height="250"]:upward(aside.widget)
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
 luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
@@ -1220,7 +1227,6 @@ itdaily.be##[id^="itdaily-home"]
 poki.com##.sc-tbf0fc-2:has-text(/Advert/i):upward(div[class])
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
-weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
 fr12.nl##div[class$="-atf"]
 fr12.nl##[class*="r89-desktop"][class*="-btf"]
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Reclame)
@@ -1299,8 +1305,6 @@ apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
-tameteo.nl###bannerDerPC
-tameteo.nl##.megabanner
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
 alkmaarsdagblad.nl,almelosdagblad.nl,almeredagblad.nl,amstelveensdagblad.nl,amsterdamsdagblad.nl,arnhemmerdagblad.nl,assensdagblad.nl,bergensdagblad.nl,beverwijkerdagblad.nl,bloemendaalsdagblad.nl,bosschedagblad.nl,bredasdagblad.nl,castricumsdagblad.nl,dagbladdijkenwaard.nl,dagbladeindhoven.nl,dagbladgroningen.nl,dagbladutrecht.nl,denheldersdagblad.nl,deventersdagblad.nl,doetinchemsdagblad.nl,dokkumerdagblad.nl,dordrechtsdagblad.nl,drechterlandsdagblad.nl,drontensdagblad.nl,emmensdagblad.nl,enkhuizerdagblad.nl,enschedesdagblad.nl,gooischdagblad.nl,haagsdagblad.nl,haarlemmerdagblad.nl,haarlemmermeerdagblad.nl,harlingerdagblad.nl,heemskerkerdagblad.nl,heerenveensdagblad.nl,heerhugowaardsdagblad.nl,heerlensdagblad.nl,heilooerdagblad.nl,helmondsdagblad.nl,hilversumsdagblad.nl,hollandskroondagblad.nl,hoornsdagblad.nl,ijmuidensdagblad.nl,jouresdagblad.nl,katwijksdagblad.nl,kennemerdagblad.nl,koggenlandsdagblad.nl,langedijkerdagblad.nl,leeuwarderdagblad.nl,lelystadsdagblad.nl,lemsterdagblad.nl,maastrichterdagblad.nl,medembliksdagblad.nl,middelburgsdagblad.nl,nieuwsuitwestfriesland.nl,nijmeegsedagblad.nl,noordlimburgsdagblad.nl,noordoostpoldersdagblad.nl,noordwijkerdagblad.nl,nunspeetsdagblad.nl,opmeerderdagblad.nl,purmerendsdagblad.nl,rodensdagblad.nl,roermondsdagblad.nl,rotterdammerdagblad.nl,sassenheimsdagblad.nl,schagerdagblad.nl,schermerdagblad.nl,sittardsdagblad.nl,sneekerdagblad.nl,stedebroecsdagblad.nl,texelsdagblad.nl,tielsdagblad.nl,tilburgsdagblad.nl,uitgeesterdagblad.nl,volendamsdagblad.nl,wassenaarsdagblad.nl,waterlandsdagblad.nl,westlandsdagblad.nl,wieringerdagblad.nl,wormersdagblad.nl,zaandamsdagblad.nl,zandvoortsdagblad.nl,zeewoldesdagblad.nl,zwolledagblad.nl##.banner
 alkmaarsdagblad.nl,almelosdagblad.nl,almeredagblad.nl,amstelveensdagblad.nl,amsterdamsdagblad.nl,arnhemmerdagblad.nl,assensdagblad.nl,bergensdagblad.nl,beverwijkerdagblad.nl,bloemendaalsdagblad.nl,bosschedagblad.nl,bredasdagblad.nl,castricumsdagblad.nl,dagbladdijkenwaard.nl,dagbladeindhoven.nl,dagbladgroningen.nl,dagbladutrecht.nl,denheldersdagblad.nl,deventersdagblad.nl,doetinchemsdagblad.nl,dokkumerdagblad.nl,dordrechtsdagblad.nl,drechterlandsdagblad.nl,drontensdagblad.nl,emmensdagblad.nl,enkhuizerdagblad.nl,enschedesdagblad.nl,gooischdagblad.nl,haagsdagblad.nl,haarlemmerdagblad.nl,haarlemmermeerdagblad.nl,harlingerdagblad.nl,heemskerkerdagblad.nl,heerenveensdagblad.nl,heerhugowaardsdagblad.nl,heerlensdagblad.nl,heilooerdagblad.nl,helmondsdagblad.nl,hilversumsdagblad.nl,hollandskroondagblad.nl,hoornsdagblad.nl,ijmuidensdagblad.nl,jouresdagblad.nl,katwijksdagblad.nl,kennemerdagblad.nl,koggenlandsdagblad.nl,langedijkerdagblad.nl,leeuwarderdagblad.nl,lelystadsdagblad.nl,lemsterdagblad.nl,maastrichterdagblad.nl,medembliksdagblad.nl,middelburgsdagblad.nl,nieuwsuitwestfriesland.nl,nijmeegsedagblad.nl,noordlimburgsdagblad.nl,noordoostpoldersdagblad.nl,noordwijkerdagblad.nl,nunspeetsdagblad.nl,opmeerderdagblad.nl,purmerendsdagblad.nl,rodensdagblad.nl,roermondsdagblad.nl,rotterdammerdagblad.nl,sassenheimsdagblad.nl,schagerdagblad.nl,schermerdagblad.nl,sittardsdagblad.nl,sneekerdagblad.nl,stedebroecsdagblad.nl,texelsdagblad.nl,tielsdagblad.nl,tilburgsdagblad.nl,uitgeesterdagblad.nl,volendamsdagblad.nl,wassenaarsdagblad.nl,waterlandsdagblad.nl,westlandsdagblad.nl,wieringerdagblad.nl,wormersdagblad.nl,zaandamsdagblad.nl,zandvoortsdagblad.nl,zeewoldesdagblad.nl,zwolledagblad.nl##.banners
@@ -1433,7 +1437,6 @@ volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 online-omzetten.nl##.clearfix.entry > small
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
-tameteo.nl##.creatividad
 turksemedia.nl##.easingslider
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 radiocontinu.nl##.eskimo-carousel-container

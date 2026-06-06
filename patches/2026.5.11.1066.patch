@@ -1,12 +1,13 @@
-diff name:easydutch lines:199 checksum:60ec8e108b
+diff name:easydutch lines:225 checksum:eda0a3f79e
 d2 1
 a2 1
-! Last updated: Thu, 04 Jun 2026 14:47:11 +0000
+! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.4.887.patch#easydutch
+! Diff-Path: patches/2026.6.6.563.patch#easydutch
 d106 1
-a134 53
+a134 54
+||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
 ||cvandaag.nl/api/advertise-deliver/
@@ -85,7 +86,23 @@ d411 1
 d413 1
 a413 1
 ||wieringernieuws.nl/gfx/ads/$image
-a501 54
+a501 70
+9292.nl##[data-testid="ad-root"]
+9292.nl##astro-island[component-export="Ad"]
+buienalarm.nl##.banner
+weerplaza.nl##.banner
+meteovista.be,weeronline.nl##.fullScreenAdWrapper
+meteovista.be,weeronline.nl##.fullScreenAdWrapper + div
+meteox.com,weerslag.be,weerslag.nl##.banner
+buienradar.be###adholderContainerHeader
+buienradar.nl##.br-ad-slot
+weer.nl##[data-advert-placeholder-collapses]:upward(1)
+tameteo.nl###bannerDerPC
+tameteo.nl##.creatividad
+tameteo.nl##.megabanner
+weerenradar.nl##wo-ad
+weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
+janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -145,13 +162,20 @@ a519 3
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
 radio.be,radio.nl###bannerbg
 radio.be,radio.nl###leaderboardbg
+d674 1
 a698 3
 !#if env_mobile
 frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
 !#endif
+d732 1
+d740 1
 d775 1
+d856 1
 d861 4
+d948 1
+d975 2
 d982 2
+d994 2
 d1028 1
 a1029 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
@@ -161,6 +185,8 @@ a1058 1
 alarmeringen.nl##.ad
 d1123 4
 d1130 2
+d1134 1
+d1158 1
 d1179 2
 d1195 2
 d1199 2
@@ -175,8 +201,7 @@ d1252 5
 d1258 1
 d1260 13
 d1278 1
-d1281 2
-d1285 6
+d1281 10
 d1298 1
 d1300 2
 d1304 8
@@ -184,6 +209,7 @@ a1311 2
 wieringernieuws.nl##div#block-blue:has-text(advert)
 wieringernieuws.nl###navleft > center:has-text(advert)
 d1410 1
+d1433 1
 d1485 1
 a1500 1
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
