@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-11
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
 voetbalbelgie.be##[class^="r89-"]
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
 menselijklichaam.nl##div[id^="ad"]
@@ -861,11 +863,6 @@ hockey.nl##[class^="advertisement"]:upward(li.card)
 truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
-wielerflits.be,wielerflits.nl###mm_hpa
-wielerflits.be,wielerflits.nl##.advertisement
-wielerflits.nl##.widget-container:has(.h3:has-text(Wielerdeals))
-wielerflits.nl##li.list-item.list-item-aside:has(.badge:has-text(Ad))
-wielerflits.nl##li.list-item.list-item-default:has(span:has-text(Ad))
 ! 2023-10-30
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
