@@ -853,7 +853,6 @@ sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
 ! 2023-11-01
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
-nzbindex.nl##form + div a[href^="/"]:has(img)
 ! 2023-10-31
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
