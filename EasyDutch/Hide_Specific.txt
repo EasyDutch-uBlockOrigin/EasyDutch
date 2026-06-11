@@ -858,7 +858,6 @@ nzbindex.nl##form + div a[href^="/"]:has(img)
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
-footballtransfers.com##div[id*="leaderboard-billboard"]
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
