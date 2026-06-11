@@ -326,7 +326,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
 ! 2023-10-23
 ||ecdn.menselijklichaam.nl/banners/$image
