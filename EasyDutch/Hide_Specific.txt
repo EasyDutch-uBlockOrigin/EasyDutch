@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-11
+voetbalbelgie.be##[class^="r89-"]
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
 menselijklichaam.nl##div[id^="ad"]
 rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
@@ -883,7 +884,6 @@ omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
 rtvgo.nl##.thanksto
-voetbalbelgie.be##div[class$="-atf"]
 ! 2023-10-13
 citaten.net##.adsense
 citaten.net##.googleinpage
