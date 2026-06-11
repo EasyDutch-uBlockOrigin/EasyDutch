@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-11
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 ! 2026-06-06
 ! InfoPlaza.com
 9292.nl##[data-testid="ad-root"]
