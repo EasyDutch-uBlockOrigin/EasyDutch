@@ -871,7 +871,6 @@ wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
 ! 2023-10-23
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
-dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 dutchitleaders.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 serietotaal.nl##div[id^="ad"]
