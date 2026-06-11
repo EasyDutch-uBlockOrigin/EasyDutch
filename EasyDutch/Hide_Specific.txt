@@ -875,7 +875,6 @@ dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 dutchitleaders.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 serietotaal.nl##div[id^="ad"]
-serietotaal.nl##.rect-in-headlines
 ! 2023-10-17
 moppen.nl##.banner
 ! 2023-10-16
