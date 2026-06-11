@@ -1,12 +1,15 @@
-diff name:easydutch lines:125 checksum:eda0a3f79e
+diff name:easydutch lines:148 checksum:62f17bde9a
 d2 1
 a2 1
-! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.6.563.patch#easydutch
+! Diff-Path: patches/2026.6.11.1017.patch#easydutch
 d106 1
-a134 21
+a134 24
+||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
+||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
+||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
@@ -28,14 +31,23 @@ a134 21
 ||diecourant.co.za/wp-content/uploads/*/*Ads$image
 ||diecourant.co.za/wp-content/uploads/*/*advert$image
 ||fokstatic.nl/fp/global/*adshield.js$domain=fok.nl
-d380 4
-d392 8
+d363 5
+d380 5
+d387 2
+d390 10
 d402 2
 d405 3
 d409 1
 d411 4
 d417 1
-a523 50
+a523 57
+hockey.nl##[data-gtm-component="ad-banner"]
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
+voetbalbelgie.be##[class^="r89-"]
+ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
+menselijklichaam.nl##div[id^="ad"]
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 9292.nl##[data-testid="ad-root"]
 9292.nl##astro-island[component-export="Ad"]
 buienalarm.nl##.banner
@@ -103,11 +115,20 @@ a1066 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
+a1113 1
+nu.nl##aside .banner + .app-divider
 d1166 1
 d1190 1
-d1225 2
+d1210 1
+d1214 1
+d1216 1
+d1220 7
+d1230 1
+d1234 1
+d1237 1
 d1239 1
-d1252 2
+d1241 2
+d1246 8
 d1256 2
 d1260 2
 d1263 8
@@ -119,8 +140,10 @@ d1288 11
 d1306 2
 d1418 1
 d1441 1
-a1523 1
+a1523 2
+@@||moppen.nl^$ghide
 dumpert.nl##+js(set-constant, fetch, true)
+d1538 1
 d1557 1
 a1557 1
 /images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl

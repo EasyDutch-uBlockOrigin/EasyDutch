@@ -1,7 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 !
+! 2026-06-11
+||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
+||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
+||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 ! 2026-06-06
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ! 2026-05-29
@@ -301,12 +305,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ! 2023-11-07 https://github.com/EasyDutch-uBO/EasyDutch/issues/93
 /Images/*Ad$image,domain=sun.sr
 /Images/*Banner$image,domain=sun.sr
-! 2023-11-03
-/js-betting.$script,1p,domain=ajaxfanatics.nl|cambuurfront.nl|feanonline.nl|feyenoordpings.nl|fcgfans.nl|nacfans.nl|psvfans.nl|twentefans.nl|utrechtfans.nl|vitesseinside.nl|voetbalverslaafd.nl|vrouwenvoetbalnieuws.nl
-/js/partner-bar.$script,1p,domain=ajaxfanatics.nl|cambuurfront.nl|feanonline.nl|feyenoordpings.nl|fcgfans.nl|psvfans.nl|twentefans.nl|utrechtfans.nl|voetbalverslaafd.nl|vrouwenvoetbalnieuws.nl
-/images/sponsors/*$image,domain=ticketing.knvb.nl
-/images/sponsorlogos/*$image,domain=knvb.nl|onsoranje.nl|totoknvbbeker.nl
-||vrouweneredivisie.nl/*/vrouweneredivisie/img/*-ghost.png$image
 ! 2023-11-02
 ||beterbijbel.nl/afbeeldingen/banner$image
 ||beterrekenen.nl/afbeeldingen/banner$image
@@ -322,17 +320,11 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
 ! 2023-10-23
 ||ecdn.menselijklichaam.nl/banners/$image
-/production/uploads/partners/*$image,domain=dutchitchannel.nl
-||nieuwrechts.nl/api/advertise-deliver/$xhr,1p
 ! 2023-10-16
 ||rushcommerce.com/banners*$3p
-||rtvideaal.nl/wp-content/uploads/*/banner$image
-! 2023-09-18
-||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ! 2023-07-01
 ||webstick.nl/images/images-ads/
 ! 2023-06-09

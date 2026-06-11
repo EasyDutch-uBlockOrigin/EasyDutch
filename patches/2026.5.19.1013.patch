@@ -1,12 +1,15 @@
-diff name:easydutch lines:129 checksum:eda0a3f79e
+diff name:easydutch lines:152 checksum:62f17bde9a
 d2 1
 a2 1
-! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.6.563.patch#easydutch
+! Diff-Path: patches/2026.6.11.1017.patch#easydutch
 d106 1
-a134 21
+a134 24
+||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
+||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
+||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
@@ -31,14 +34,23 @@ a134 21
 a328 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
-d378 4
-d390 8
+d361 5
+d378 5
+d385 2
+d388 10
 d400 2
 d403 3
 d407 1
 d409 4
 d415 1
-a521 50
+a521 57
+hockey.nl##[data-gtm-component="ad-banner"]
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
+voetbalbelgie.be##[class^="r89-"]
+ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
+menselijklichaam.nl##div[id^="ad"]
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 9292.nl##[data-testid="ad-root"]
 9292.nl##astro-island[component-export="Ad"]
 buienalarm.nl##.banner
@@ -106,11 +118,20 @@ a1064 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
+a1111 1
+nu.nl##aside .banner + .app-divider
 d1164 1
 d1188 1
-d1223 2
+d1208 1
+d1212 1
+d1214 1
+d1218 7
+d1228 1
+d1232 1
+d1235 1
 d1237 1
-d1250 2
+d1239 2
+d1244 8
 d1254 2
 d1258 2
 d1261 8
@@ -122,9 +143,11 @@ d1286 11
 d1304 2
 d1416 1
 d1439 1
-a1521 2
+a1521 3
+@@||moppen.nl^$ghide
 dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
+d1535 1
 d1554 1
 a1554 1
 /images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl

@@ -1,7 +1,15 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 !
+! 2026-06-11
+hockey.nl##[data-gtm-component="ad-banner"]
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
+voetbalbelgie.be##[class^="r89-"]
+ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
+menselijklichaam.nl##div[id^="ad"]
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 ! 2026-06-06
 ! InfoPlaza.com
 9292.nl##[data-testid="ad-root"]
@@ -735,6 +743,7 @@ livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
 nu.nl##.banner
+nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
 tweakers.net##.top-banner
@@ -844,54 +853,33 @@ sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
 ! 2023-11-01
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
-nzbindex.nl##form + div a[href^="/"]:has(img)
 ! 2023-10-31
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
-footballtransfers.com##div[id*="leaderboard-billboard"]
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
-hockey.nl##[class^="advertisement"]:upward(li.card)
 truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
-wielerflits.be,wielerflits.nl###mm_hpa
-wielerflits.be,wielerflits.nl##.advertisement
-wielerflits.nl##.widget-container:has(.h3:has-text(Wielerdeals))
-wielerflits.nl##li.list-item.list-item-aside:has(.badge:has-text(Ad))
-wielerflits.nl##li.list-item.list-item-default:has(span:has-text(Ad))
 ! 2023-10-30
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
 ! 2023-10-23
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
-dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 dutchitleaders.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 serietotaal.nl##div[id^="ad"]
-serietotaal.nl##.rect-in-headlines
 ! 2023-10-17
 moppen.nl##.banner
 ! 2023-10-16
 omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.nl"])):not(:has-text(/Informatie/i))
-omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
-rtvgo.nl##.thanksto
-voetbalbelgie.be##div[class$="-atf"]
 ! 2023-10-13
 citaten.net##.adsense
 citaten.net##.googleinpage
 ! 2023-10-10
 wegdamnieuws.nl##.fixed-ad
-! 2023-09-23
-gewoonvoorhem.nl##[id^="below-article-rectangle"]
-gewoonvoorhem.nl##[id$="ad-desktop"]
-gewoonvoorhem.nl##[id$="leaderboard-article"]
-gewoonvoorhem.nl###below-article-leaderboard
-! 2023-09-18
-ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
-ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
 ! 2023-08-01
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container

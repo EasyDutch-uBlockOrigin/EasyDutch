@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.6.6.563.patch#easydutch
+! Diff-Path: patches/2026.6.11.1017.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,9 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
+||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
+||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
@@ -380,11 +383,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||rubenweytjens.be/sites/default/*/ads_$image
 /Images/*Ad$image,domain=sun.sr
 /Images/*Banner$image,domain=sun.sr
-/js-betting.$script,1p,domain=ajaxfanatics.nl|cambuurfront.nl|feanonline.nl|feyenoordpings.nl|fcgfans.nl|nacfans.nl|psvfans.nl|twentefans.nl|utrechtfans.nl|vitesseinside.nl|voetbalverslaafd.nl|vrouwenvoetbalnieuws.nl
-/js/partner-bar.$script,1p,domain=ajaxfanatics.nl|cambuurfront.nl|feanonline.nl|feyenoordpings.nl|fcgfans.nl|psvfans.nl|twentefans.nl|utrechtfans.nl|voetbalverslaafd.nl|vrouwenvoetbalnieuws.nl
-/images/sponsors/*$image,domain=ticketing.knvb.nl
-/images/sponsorlogos/*$image,domain=knvb.nl|onsoranje.nl|totoknvbbeker.nl
-||vrouweneredivisie.nl/*/vrouweneredivisie/img/*-ghost.png$image
 ||beterbijbel.nl/afbeeldingen/banner$image
 ||beterrekenen.nl/afbeeldingen/banner$image
 ||beterspellen.nl/afbeeldingen/banner$image
@@ -397,14 +395,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/*-footer-DenD.png$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
-||hockey.be/wp-content/uploads/Banners/$image
 ||uitslagen.nl/banner/img$image
 ||ecdn.menselijklichaam.nl/banners/$image
-/production/uploads/partners/*$image,domain=dutchitchannel.nl
-||nieuwrechts.nl/api/advertise-deliver/$xhr,1p
 ||rushcommerce.com/banners*$3p
-||rtvideaal.nl/wp-content/uploads/*/banner$image
-||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ||webstick.nl/images/images-ads/
 ||onlinecorrectie.nl/cnc/$image
 ||dehavengids.nl/wordpress/wp-content/uploads/*/*Banner$image
@@ -518,6 +511,13 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+hockey.nl##[data-gtm-component="ad-banner"]
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
+voetbalbelgie.be##[class^="r89-"]
+ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
+menselijklichaam.nl##div[id^="ad"]
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 9292.nl##[data-testid="ad-root"]
 9292.nl##astro-island[component-export="Ad"]
 buienalarm.nl##.banner
@@ -1152,6 +1152,7 @@ livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
 nu.nl##.banner
+nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
 tweakers.net##.top-banner
@@ -1246,45 +1247,26 @@ sun.sr##app-slider-add
 sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
-nzbindex.nl##form + div a[href^="/"]:has(img)
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
-footballtransfers.com##div[id*="leaderboard-billboard"]
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
-hockey.nl##[class^="advertisement"]:upward(li.card)
 truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
-wielerflits.be,wielerflits.nl###mm_hpa
-wielerflits.be,wielerflits.nl##.advertisement
-wielerflits.nl##.widget-container:has(.h3:has-text(Wielerdeals))
-wielerflits.nl##li.list-item.list-item-aside:has(.badge:has-text(Ad))
-wielerflits.nl##li.list-item.list-item-default:has(span:has-text(Ad))
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
-dutchitchannel.nl##.partners-swiper
 dutchitchannel.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 dutchitleaders.nl##a[href][target][onclick*="trackBannerClick"]:not(a[href*="dutchitchannel.nl"]) > img:upward(a)
 serietotaal.nl##div[id^="ad"]
-serietotaal.nl##.rect-in-headlines
 moppen.nl##.banner
 omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.nl"])):not(:has-text(/Informatie/i))
-omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
-rtvgo.nl##.thanksto
-voetbalbelgie.be##div[class$="-atf"]
 citaten.net##.adsense
 citaten.net##.googleinpage
 wegdamnieuws.nl##.fixed-ad
-gewoonvoorhem.nl##[id^="below-article-rectangle"]
-gewoonvoorhem.nl##[id$="ad-desktop"]
-gewoonvoorhem.nl##[id$="leaderboard-article"]
-gewoonvoorhem.nl###below-article-leaderboard
-ecobioliving.eu##.ezoic-adpicker-ad:upward(.section)
-ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
 cyclingmedia.eu##div[class*="section-sidebar"] figure:has-text(/advert/i)
 riskcompliance.nl##.banner-container
 ucl-voetbal.nl,uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
@@ -1519,6 +1501,7 @@ mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 marktplaats.nl#@#.adSummary
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
+@@||moppen.nl^$ghide
 dumpert.nl##+js(set-constant, fetch, true)
 alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
@@ -1534,7 +1517,6 @@ mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 touretappe.nl##+js(set, adBlocker, 0)
-moppen.nl#@#ins.adsbygoogle
 meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; position: fixed;)
 @@||ah.nl^$ghide
 radiowereld.nl##+js(nosiif, adb)

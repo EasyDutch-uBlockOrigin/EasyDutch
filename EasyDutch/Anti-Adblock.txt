@@ -1,7 +1,9 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Wed, 27 May 2026 16:41:07 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 !
+! 2026-06-11
+@@||moppen.nl^$ghide
 ! 2026-05-27
 dumpert.nl##+js(set-constant, fetch, true)
 ! 2026-05-19
@@ -37,8 +39,6 @@ marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 ! 2026-01-31
 touretappe.nl##+js(set, adBlocker, 0)
-! 2023-10-17
-moppen.nl#@#ins.adsbygoogle
 ! 2023-10-13 https://github.com/easylist/easylistdutch/issues/47
 ! meerdangewenst.nl##.sponsoren:upward(1)
 ! meerdangewenst.nl##+js(aopw, gtag)

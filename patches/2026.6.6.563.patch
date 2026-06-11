@@ -1,0 +1,37 @@
+diff name:easydutch lines:36 checksum:62f17bde9a
+d2 1
+a2 1
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.6.11.1017.patch#easydutch
+a133 3
+||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
+||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
+||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
+d383 5
+d400 1
+d403 2
+d406 2
+a520 7
+hockey.nl##[data-gtm-component="ad-banner"]
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
+voetbalbelgie.be##[class^="r89-"]
+ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
+menselijklichaam.nl##div[id^="ad"]
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
+a1154 1
+nu.nl##aside .banner + .app-divider
+d1249 1
+d1253 1
+d1255 1
+d1259 5
+d1267 1
+d1271 1
+d1274 1
+d1277 2
+d1282 6
+a1521 1
+@@||moppen.nl^$ghide
+d1537 1

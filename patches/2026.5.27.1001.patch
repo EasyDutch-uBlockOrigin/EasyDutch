@@ -1,17 +1,30 @@
-diff name:easydutch lines:64 checksum:eda0a3f79e
+diff name:easydutch lines:90 checksum:62f17bde9a
 d2 1
 a2 1
-! Last updated: Sat, 06 Jun 2026 09:23:47 +0000
+! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.6.563.patch#easydutch
+! Diff-Path: patches/2026.6.11.1017.patch#easydutch
 d106 1
-a134 3
+a134 6
+||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
+||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
+||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
-d406 8
-a526 30
+d381 5
+d398 1
+d401 2
+d404 10
+a526 37
+hockey.nl##[data-gtm-component="ad-banner"]
+wielerflits.be,wielerflits.nl##.advertisement
+wielerflits.be,wielerflits.nl##[class^="r89-"]
+voetbalbelgie.be##[class^="r89-"]
+ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
+menselijklichaam.nl##div[id^="ad"]
+rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 9292.nl##[data-testid="ad-root"]
 9292.nl##astro-island[component-export="Ad"]
 buienalarm.nl##.banner
@@ -49,10 +62,20 @@ d923 1
 d1011 1
 d1038 2
 d1055 2
+a1139 1
+nu.nl##aside .banner + .app-divider
 d1192 1
 d1216 1
+d1236 1
+d1240 1
+d1242 1
+d1246 5
+d1254 1
+d1258 1
+d1261 1
 d1263 1
-d1276 2
+d1265 2
+d1270 8
 d1280 2
 d1284 2
 d1287 8
@@ -60,6 +83,9 @@ d1296 1
 d1311 2
 d1423 1
 d1446 1
+a1528 1
+@@||moppen.nl^$ghide
+d1544 1
 d1563 1
 a1563 1
 /images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
