@@ -327,7 +327,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ! 2023-10-23
 ||ecdn.menselijklichaam.nl/banners/$image
 /production/uploads/partners/*$image,domain=dutchitchannel.nl
-||nieuwrechts.nl/api/advertise-deliver/$xhr,1p
 ! 2023-10-16
 ||rushcommerce.com/banners*$3p
 ! 2023-09-18
