@@ -883,7 +883,6 @@ omroepalmere.nl##aside.widget_block[id^="block"]:not(:has([href*="omroepalmere.n
 omroepzilt.nl##[id^="custom_html"]:has-text(/advert/i)
 radiozenders.fm##[id^="div-gpt-rectangle"]:upward(.banner-rectangle)
 rtveen.nl##.row [id^="block"]:not(:has(a[href*="rtveen.nl"])):not(:has(.popular-posts))
-rtvgo.nl##.thanksto
 ! 2023-10-13
 citaten.net##.adsense
 citaten.net##.googleinpage
