@@ -330,7 +330,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||nieuwrechts.nl/api/advertise-deliver/$xhr,1p
 ! 2023-10-16
 ||rushcommerce.com/banners*$3p
-||rtvideaal.nl/wp-content/uploads/*/banner$image
 ! 2023-09-18
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ! 2023-07-01
