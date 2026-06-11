@@ -739,6 +739,7 @@ livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
 margriet.nl##[class$="__adblock"]
 nu.nl##.banner
+nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
 tweakers.net##.top-banner
