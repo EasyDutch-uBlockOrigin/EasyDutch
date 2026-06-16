@@ -1,11 +1,12 @@
-diff name:easydutch lines:36 checksum:62f17bde9a
+diff name:easydutch lines:40 checksum:eb04cf271e
 d2 1
 a2 1
-! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.11.1017.patch#easydutch
-a133 3
+! Diff-Path: patches/2026.6.16.1045.patch#easydutch
+a133 4
+||welkevogelisdit.nl/sites/*/advertentie$image
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
 ||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
@@ -13,7 +14,9 @@ d383 5
 d400 1
 d403 2
 d406 2
-a520 7
+a520 9
+welkevogelisdit.nl##[id*="-advertentie-"]
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.be,wielerflits.nl##[class^="r89-"]
@@ -21,6 +24,7 @@ voetbalbelgie.be##[class^="r89-"]
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
 menselijklichaam.nl##div[id^="ad"]
 rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
+d618 1
 a1154 1
 nu.nl##aside .banner + .app-divider
 d1249 1

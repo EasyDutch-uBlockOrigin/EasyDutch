@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
 !
+! 2026-06-16
+||welkevogelisdit.nl/sites/*/advertentie$image
 ! 2026-06-11
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl

@@ -1,12 +1,13 @@
-diff name:easydutch lines:246 checksum:62f17bde9a
+diff name:easydutch lines:250 checksum:eb04cf271e
 d2 1
 a2 1
-! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.11.1017.patch#easydutch
+! Diff-Path: patches/2026.6.16.1045.patch#easydutch
 d106 1
-a134 57
+a134 58
+||welkevogelisdit.nl/sites/*/advertentie$image
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
 ||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
@@ -90,7 +91,9 @@ d411 1
 d413 1
 a413 1
 ||wieringernieuws.nl/gfx/ads/$image
-a501 77
+a501 79
+welkevogelisdit.nl##[id*="-advertentie-"]
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.be,wielerflits.nl##[class^="r89-"]
@@ -173,6 +176,7 @@ a519 3
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
 radio.be,radio.nl###bannerbg
 radio.be,radio.nl###leaderboardbg
+d529 1
 d674 1
 a698 3
 !#if env_mobile

@@ -1,12 +1,13 @@
-diff name:easydutch lines:101 checksum:62f17bde9a
+diff name:easydutch lines:105 checksum:eb04cf271e
 d2 1
 a2 1
-! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.11.1017.patch#easydutch
+! Diff-Path: patches/2026.6.16.1045.patch#easydutch
 d106 1
-a134 7
+a134 8
+||welkevogelisdit.nl/sites/*/advertentie$image
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
 ||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
@@ -18,7 +19,9 @@ d380 5
 d397 2
 d401 2
 d404 10
-a526 40
+a526 42
+welkevogelisdit.nl##[id*="-advertentie-"]
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.be,wielerflits.nl##[class^="r89-"]
@@ -60,6 +63,7 @@ cvandaag.nl##app-banner-display
 cvandaag.nl##.sponsored
 cvandaag.nl##.sponsored:upward(app-article-presentation)
 d547 2
+d593 1
 d738 1
 d799 1
 d807 1

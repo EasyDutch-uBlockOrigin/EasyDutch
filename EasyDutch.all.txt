@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.6.11.1017.patch#easydutch
+! Diff-Path: patches/2026.6.16.1045.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||welkevogelisdit.nl/sites/*/advertentie$image
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
 ||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
@@ -511,6 +512,8 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+welkevogelisdit.nl##[id*="-advertentie-"]
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
 wielerflits.be,wielerflits.nl##[class^="r89-"]
@@ -615,7 +618,6 @@ fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]
 voetbalrotterdam.nl##.lshowcase-logos
-welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 groningsnieuws.nl###posts .in-feed
 hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
 hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))

@@ -1,0 +1,13 @@
+diff name:easydutch lines:12 checksum:eb04cf271e
+d2 1
+a2 1
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.6.16.1045.patch#easydutch
+a133 1
+||welkevogelisdit.nl/sites/*/advertentie$image
+a513 2
+welkevogelisdit.nl##[id*="-advertentie-"]
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
+d618 1

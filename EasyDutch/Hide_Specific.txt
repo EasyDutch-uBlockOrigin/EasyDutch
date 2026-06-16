@@ -1,7 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 11 Jun 2026 16:57:51 +0000
+! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
 !
+! 2026-06-16
+welkevogelisdit.nl##[id*="-advertentie-"]
+welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 ! 2026-06-11
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
@@ -120,7 +123,6 @@ fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]
 voetbalrotterdam.nl##.lshowcase-logos
-welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 groningsnieuws.nl###posts .in-feed
 hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
 hollywoodhuizen.nl##[id^="taboola"]:upward(div:not([id]))
