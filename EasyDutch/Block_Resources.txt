@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-16
+||welkevogelisdit.nl/sites/*/advertentie$image
 ! 2026-06-11
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
