@@ -127,7 +127,6 @@ aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
 fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 ! 2026-04-28
-voetbalgelderland.nl##div[id^="r89-"]
 voetbalrotterdam.nl##.lshowcase-logos
 groningsnieuws.nl###posts .in-feed
 hollywoodhuizen.nl##.adsbygoogle:upward(div:not([id]))
@@ -493,9 +492,7 @@ nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
 gratisoptehalen.nl##.headerAdWrap
 soccernews.nl##.ad-container
 ! 2026-02-11
-loesoe.nl##[id^="r89-"]
 nieuwnieuws.nl##.uk-text-center[style^="min-height"]
-zelfmaak-ideetjes.nl##[id^="r89-"]
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 meemetoranje.nl##.outstream-ad
 meemetoranje.nl##.player-container-article
@@ -529,7 +526,6 @@ waldnet.nl##.banner
 waldnet.nl##.adsbygoogle:upward(div[style])
 nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upward(.piep)
 ! 2026-02-10
-upinthesky.nl##[id^="r89-"]
 upinthesky.nl##.a-wrap
 ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
@@ -545,7 +541,6 @@ peoplesphere.be,sciencelink.net##.leaderboard
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be###ad-intro-text
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
-atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##[id^="r89-"][id$="-wrapper"]
 ! End SportID
 spellingoefenen.nl##[class^="r89-"]:upward(div[style])
 faillissementsdossier.nl##.adcontainer
@@ -774,7 +769,7 @@ beursduivel.be##.banner
 beursduivel.be##.publisher-sh-spote
 iexprofs.nl##.banner
 iexprofs.nl##[class*="banner"]:not(.banner)
-looopings.nl,soccernews.nl,tpo.nl##div[id^="r89-"]
+tpo.nl##div[id^="r89-"]
 iculture.nl###fh-placeholder
 iculture.nl##.ad-top-desktop
 iculture.nl##.feed-ad-wrapper
