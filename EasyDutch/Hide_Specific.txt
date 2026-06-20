@@ -15,8 +15,6 @@ welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 ! 2026-06-11
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
-wielerflits.be,wielerflits.nl##[class^="r89-"]
-voetbalbelgie.be##[class^="r89-"]
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
 menselijklichaam.nl##div[id^="ad"]
 rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
@@ -126,11 +124,9 @@ radio.be,radio.nl###leaderboardbg
 omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
-lekkerder.nl##[class^="r89-"]
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
 fruitteeltonline.nl##body > div#gallery:has(> a[onclick*="Uitgaande Links"])
 ! 2026-04-28
-jeugdvoetbaluitslagen.nl,voetbalindebollenstreek.nl,voetbalbrabant.nl,voetbalgelderland.nl,voetbalrotterdam.nl##div[class^="r89-"]
 voetbalgelderland.nl##div[id^="r89-"]
 voetbalrotterdam.nl##.lshowcase-logos
 groningsnieuws.nl###posts .in-feed
@@ -319,7 +315,6 @@ albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goud
 afkortingen.nu##.banner
 afkortingen.nu##.banner_container
 filmladder.nl##.banner
-filmladder.nl##[class^="r89-"]
 ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
@@ -336,7 +331,6 @@ srherald.com##.gsrhera
 srherald.com##.elementor-heading-title:has-text(ADVERT)
 tvblik.nl##.banner-fluid
 tvblik.nl##.header-banner
-frontpage.fok.nl##[class^="r89-"]
 !#if env_mobile
 frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
 !#endif
@@ -357,8 +351,6 @@ niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
 glutenvrij.nl##.t-banner
-! 2026-03-18
-klusidee.nl##[class^="r89-"]
 ! 2026-03-16
 mo.be##[class^="Ads_ContentWrapper__"]
 amsterdamactueel.nl##.ad-container
@@ -395,7 +387,6 @@ goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 ! 2026-02-27
 westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 ! 2026-02-26
-gratisaftehalen.nl##[class^="r89-"]
 rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(PARTNERS))
@@ -408,7 +399,6 @@ kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ! 2026-02-13
-regio-voetbal.nl##article [class^="r89-"]
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
 ninefornews.nl##.gofollow
 ninefornews.nl##.gofollow:upward([id^="custom_html-"])
@@ -534,7 +524,6 @@ rkvvo.nl##.divHeaderBanner
 112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
 ! 112Press
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl###bottom > h4:has-text(Ads)
-112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl##[class^="r89-"]
 ! End 112Press
 waldnet.nl##.banner
 waldnet.nl##.adsbygoogle:upward(div[style])
@@ -542,7 +531,6 @@ nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upwa
 ! 2026-02-10
 upinthesky.nl##[id^="r89-"]
 upinthesky.nl##.a-wrap
-1908.nl##[class^="r89-"]
 ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
 psvinside.nl##div.raw-html-component:not(:has(.font-bold))
@@ -650,7 +638,6 @@ androidplanet.nl,iphoned.nl##header[data-name="featured-header"]
 ajax1.nl,feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.bn__wrapper
 ajax1.nl,feanonline.nl,feyenoordpings.nl,fcgfans.nl,nacfans.nl,psvfans.nl,twentefans.nl,utrechtfans.nl,vitesseinside.nl,vrouwenvoetbalnieuws.nl##.breakingbar--betting
 voetbalverslaafd.nl##[class*="r89-"]:upward(.raw-html-component)
-lovereality.nl##div[class^="r89-"]
 lovereality.nl##div[class^="r89-"]:upward(section[data-settings])
 ! Regiogroei.nl / StichtingRPO.nl
 bingofm.nl,denhaagfm.nl,gld.nl,l1.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland.nl,oost.nl,rijnmond.nl,rtvdrenthe.nl,rtvnoord.nl,rtvutrecht.nl##.groei-ad
@@ -664,7 +651,6 @@ gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
-headliner.nl##div[class^="r89-"]
 headliner.nl###flex_left:has(div[class^="r89-"])
 autosport.nl##.active.first:style(margin-top: 0px !important;)
 autosport.nl##.advertentie_links
@@ -782,7 +768,6 @@ telefoonboek.nl##.contentbox__adsense
 telefoonboek.nl###tbresult-top
 techpulse.be##.magazine-sidebar-block
 techpulse.be##.wpb_wrapper:has( > div[class^="g"]):upward(section[class$="wpb_row height_small"]):not(:nth-of-type(1))
-gpinfo.com,voetbalnieuws.be,webwoordenboek.nl,wielernieuws.be##div[class*="r89-"]
 mannenzaken.nl##[class*="r89-"]:upward(.raw-html-component)
 hagelandactueel.be,leuvenactueel.be##div[onclick="hideAdPopup()"]:upward(.component__pubble-banner)
 beursduivel.be##.banner
