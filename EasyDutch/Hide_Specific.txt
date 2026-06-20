@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+voetbalgelderland.nl##.competition-banner-card
+voetbalgelderland.nl##.article-inline-banner
 soccernews.nl##[id^="pb-slot-"]
 fr12.nl##.sda
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$)
