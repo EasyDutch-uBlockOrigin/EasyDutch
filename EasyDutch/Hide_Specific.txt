@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-20
+sun.sr##[class*="Sibebar_sideBannerBox"]
+sun.sr##[class^="TopBanner_"] a
 ! 2026-06-16
 welkevogelisdit.nl##[id*="-advertentie-"]
 welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
@@ -847,10 +850,6 @@ fwd.nl##[class^="advertisement"]
 rubenweytjens.be##.block-ad-banner
 rubenweytjens.be##.lecture-wrapper
 rubenweytjens.be##.view-weather-ads-view
-! 2023-11-07 https://github.com/EasyDutch-uBO/EasyDutch/issues/93
-sun.sr##app-money-exchange
-sun.sr##app-slider-add
-sun.sr##.bannerslid-add:upward(.container):has(app-topleft)
 ! 2023-11-01
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
