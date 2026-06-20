@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+webwoordenboek.nl##.layout__main-ads
 voetbalgelderland.nl##.competition-banner-card
 voetbalgelderland.nl##.article-inline-banner
 soccernews.nl##[id^="pb-slot-"]
