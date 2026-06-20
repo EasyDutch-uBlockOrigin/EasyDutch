@@ -295,7 +295,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||radioluisteren.fm/ads/
 ||1twente.nl/Ads/$image,domain=twentefm.nl
 ! 2023-12-18
-||rivierenland-radio.nl/banners/$image
 ||tennisenpadelvlaanderen.be/*/23Banner_$image
 ! 2023-11-24
 ||doorbraak.be/wp-json/api/*/ads$xhr
