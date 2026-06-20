@@ -660,7 +660,6 @@ autosport.nl##.active.first:style(margin-top: 0px !important;)
 autosport.nl##.advertentie_links
 autosport.nl##.bigbanner
 autosport.nl##.horizontal
-rivierenland-radio.nl##.aba
 motorblog.nl##.sale
 ! NPO
 nporadio1.nl,nporadio2.nl,npo3fm.nl,npoklassiek.nl,nporadio5.nl,funx.nl##[id^="adid"]:upward(2)
