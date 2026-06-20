@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-20
+||rubenweytjens.be/wp-content/uploads/Banner$image
 ! 2026-06-16
 ||welkevogelisdit.nl/sites/*/advertentie$image
 ! 2026-06-11
@@ -300,8 +302,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||doorbraak.be/wp-json/api/*/ads$xhr
 ||grootnieuwsradio.nl/advertisements$xhr
 ||grootnieuwsradio.nl/cache/*/advertisements/$image
-! 2023-11-08
-||rubenweytjens.be/sites/default/*/ads_$image
 ! 2023-11-07 https://github.com/EasyDutch-uBO/EasyDutch/issues/93
 /Images/*Ad$image,domain=sun.sr
 /Images/*Banner$image,domain=sun.sr
