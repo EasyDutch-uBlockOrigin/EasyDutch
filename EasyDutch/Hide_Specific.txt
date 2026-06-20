@@ -35,6 +35,9 @@ tameteo.nl##.megabanner
 weerenradar.nl##wo-ad
 weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
 janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
+rubenweytjens.be###highlightedad
+rubenweytjens.be##.skyscraper
+rubenweytjens.be##.ad
 ! 2026-06-04
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
@@ -847,9 +850,6 @@ goudengids.be##.banner-boxes-holder
 abcsuriname.com##.banner_wrapper
 dwtonline.com##[id^="div-gpt-ad"]:upward(.elementor-column):not(:has(article))
 fwd.nl##[class^="advertisement"]
-rubenweytjens.be##.block-ad-banner
-rubenweytjens.be##.lecture-wrapper
-rubenweytjens.be##.view-weather-ads-view
 ! 2023-11-01
 nnieuws.be##[class*="blockpartners"]
 nnieuws.be##[id^="block-billboard"]:has([class*="banner"])
