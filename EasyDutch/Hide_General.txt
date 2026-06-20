@@ -2,6 +2,9 @@
 ! Description: Filters for hiding general elements on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-05-20
+##div[class^="r89-desktop-"]
+##div[class^="r89-mobile-"]
 ! 2026-05-09
 ##.pgAdWrapper
 ! 2026-03-11
