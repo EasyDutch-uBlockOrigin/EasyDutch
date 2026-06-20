@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+fr12.nl##.sda
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$)
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$) + div:has(.flexslider)
 eemland1.nl##.page-content .elementor-widget-image:has(> [href])
@@ -818,9 +819,6 @@ itdaily.be##[id^="itdaily-home"]
 poki.com##.sc-tbf0fc-2:has-text(/Advert/i):upward(div[class])
 spaargids.be##.card-articles:has-text(/gesponsord/i)
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
-! 2023-12-13
-fr12.nl##div[class$="-atf"]
-fr12.nl##[class*="r89-desktop"][class*="-btf"]
 ! 2023-11-20
 nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
 ! 2023-11-09
