@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
-eemland1.nl##.elementor-widget-image
+eemland1.nl##.page-content .elementor-widget-image:has(> [href])
 goudengids.be##.banner-zone
 sun.sr##[class*="Sibebar_sideBannerBox"]
 sun.sr##[class^="TopBanner_"] a
