@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+eemland1.nl##.elementor-widget-image
 goudengids.be##.banner-zone
 sun.sr##[class*="Sibebar_sideBannerBox"]
 sun.sr##[class^="TopBanner_"] a
@@ -841,7 +842,6 @@ fr12.nl##[class*="r89-desktop"][class*="-btf"]
 ! 2023-12-12
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Reclame)
 bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Reclame) + div:has(.owl-item)
-eemland1.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has(.owl-item)
 ! 2023-11-20
 nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
 ! 2023-11-09
