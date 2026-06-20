@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+! Start Linemedia
+agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+! End Linemedia
 itdaily.be##.cb[data-ad-unit]
 poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)
 gpinfo.com##.ad-reservation
@@ -815,7 +818,6 @@ twentefm.nl##.advertisement
 ! 2023-12-18
 112-ov.nl##h4:has-text(Advert):upward(.widget_text)
 112-ov.nl##.adsbygoogle:upward([id^="custom_html"])
-agriline.be,agriline.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.agency-banner
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
 ! 2023-11-20
