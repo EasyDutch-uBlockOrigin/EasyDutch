@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
 ||rubenweytjens.be/wp-content/uploads/Banner$image
 ! 2026-06-16
 ||welkevogelisdit.nl/sites/*/advertentie$image
