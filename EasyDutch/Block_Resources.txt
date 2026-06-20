@@ -1,7 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
+! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
 !
+! 2026-06-20
+||tennisenpadelvlaanderen.be/*/*Banner_$image
+||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
+||rubenweytjens.be/wp-content/uploads/Banner$image
 ! 2026-06-16
 ||welkevogelisdit.nl/sites/*/advertentie$image
 ! 2026-06-11
@@ -294,16 +298,10 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 /wp-content/plugins/age-gate*$domain=nieuwslog.nl
 ||radioluisteren.fm/ads/
 ||1twente.nl/Ads/$image,domain=twentefm.nl
-! 2023-12-18
-||rivierenland-radio.nl/banners/$image
-||tennisenpadelvlaanderen.be/*/23Banner_$image
-||ipon.nl/wp-content/uploads/*/*banner$image
 ! 2023-11-24
 ||doorbraak.be/wp-json/api/*/ads$xhr
 ||grootnieuwsradio.nl/advertisements$xhr
 ||grootnieuwsradio.nl/cache/*/advertisements/$image
-! 2023-11-08
-||rubenweytjens.be/sites/default/*/ads_$image
 ! 2023-11-07 https://github.com/EasyDutch-uBO/EasyDutch/issues/93
 /Images/*Ad$image,domain=sun.sr
 /Images/*Banner$image,domain=sun.sr

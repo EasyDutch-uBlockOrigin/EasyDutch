@@ -1,12 +1,15 @@
-diff name:easydutch lines:159 checksum:eb04cf271e
+diff name:easydutch lines:211 checksum:db56b1e1fb
 d2 1
 a2 1
-! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
+! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.16.1045.patch#easydutch
+! Diff-Path: patches/2026.6.20.837.patch#easydutch
 d106 1
-a134 25
+a134 28
+||tennisenpadelvlaanderen.be/*/*Banner_$image
+||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
+||rubenweytjens.be/wp-content/uploads/Banner$image
 ||welkevogelisdit.nl/sites/*/advertentie$image
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
@@ -35,6 +38,8 @@ a134 25
 a328 2
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
+d352 3
+d358 1
 d361 5
 d378 5
 d385 2
@@ -44,13 +49,29 @@ d403 3
 d407 1
 d409 4
 d415 1
-a521 59
+a513 2
+##div[class^="r89-desktop-"]
+##div[class^="r89-mobile-"]
+a521 75
+agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+itdaily.be##.cb[data-ad-unit]
+poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)
+gpinfo.com##.ad-reservation
+webwoordenboek.nl##.layout__main-ads
+voetbalgelderland.nl##.competition-banner-card
+voetbalgelderland.nl##.article-inline-banner
+soccernews.nl##[id^="pb-slot-"]
+fr12.nl##.sda
+bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$)
+bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$) + div:has(.flexslider)
+eemland1.nl##.page-content .elementor-widget-image:has(> [href])
+goudengids.be##.banner-zone
+sun.sr##[class*="Sibebar_sideBannerBox"]
+sun.sr##[class^="TopBanner_"] a
 welkevogelisdit.nl##[id*="-advertentie-"]
 welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
-wielerflits.be,wielerflits.nl##[class^="r89-"]
-voetbalbelgie.be##[class^="r89-"]
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
 menselijklichaam.nl##div[id^="ad"]
 rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
@@ -70,6 +91,9 @@ tameteo.nl##.megabanner
 weerenradar.nl##wo-ad
 weerstationleeuwarden.nl##ins.adsbygoogle:upward(.card)
 janvissersweer.nl##img[src*="/EerlijkenHeerlijkAppelsPerenStreekgroenten"]:upward(aside.widget)
+rubenweytjens.be###highlightedad
+rubenweytjens.be##.skyscraper
+rubenweytjens.be##.ad
 voetbalflitsen.nl##.banner > .parentgpt
 voetbalflitsen.nl##.banner > #navbar_ad_below
 voetbalflitsen.nl##[id^="voetbalflitsen_ros_"]
@@ -105,18 +129,38 @@ zeilwereld.nl##.a2t-link:upward(.fl-row):has-text(/advert/i):not(:has(article))
 diecourant.co.za##.n2-section-smartslider
 diecourant.co.za##.cm-secondary
 d525 2
+d565 1
+d568 2
 d571 1
 d716 1
+d725 1
+d740 1
 a740 3
 !#if env_mobile
 frontpage.fok.nl###pageWrapper:style(top: 5px !important;)
 !#endif
+d755 1
 d774 1
 d782 1
+d788 1
+d798 1
+d880 2
+d883 1
 d897 1
+d909 2
+a910 2
+112brabant.nl,112nederland.nl,112-ov.nl,gelrenieuws.nl,noordernieuws.nl###ads
+112brabant.nl,112nederland.nl,112-ov.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
+d912 1
+d916 1
+d918 1
+d932 1
 d985 1
 d1012 2
+d1022 1
 d1029 2
+d1035 1
+d1041 1
 d1063 1
 a1064 3
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
@@ -124,8 +168,16 @@ dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
 a1111 1
 nu.nl##aside .banner + .app-divider
+d1136 1
+d1143 1
+a1143 1
+tpo.nl##div[id^="r89-"]
 d1164 1
-d1188 1
+d1176 3
+d1180 7
+d1188 7
+d1196 1
+d1200 6
 d1208 1
 d1212 1
 d1214 1

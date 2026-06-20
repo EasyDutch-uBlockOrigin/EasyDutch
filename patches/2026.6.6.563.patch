@@ -1,32 +1,86 @@
-diff name:easydutch lines:40 checksum:eb04cf271e
+diff name:easydutch lines:94 checksum:db56b1e1fb
 d2 1
 a2 1
-! Last updated: Tue, 16 Jun 2026 17:25:48 +0000
+! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.16.1045.patch#easydutch
-a133 4
+! Diff-Path: patches/2026.6.20.837.patch#easydutch
+a133 7
+||tennisenpadelvlaanderen.be/*/*Banner_$image
+||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
+||rubenweytjens.be/wp-content/uploads/Banner$image
 ||welkevogelisdit.nl/sites/*/advertentie$image
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
 ||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
+d374 3
+d380 1
 d383 5
 d400 1
 d403 2
 d406 2
-a520 9
+a512 2
+##div[class^="r89-desktop-"]
+##div[class^="r89-mobile-"]
+a520 22
+agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+itdaily.be##.cb[data-ad-unit]
+poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)
+gpinfo.com##.ad-reservation
+webwoordenboek.nl##.layout__main-ads
+voetbalgelderland.nl##.competition-banner-card
+voetbalgelderland.nl##.article-inline-banner
+soccernews.nl##[id^="pb-slot-"]
+fr12.nl##.sda
+bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$)
+bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$) + div:has(.flexslider)
+eemland1.nl##.page-content .elementor-widget-image:has(> [href])
+goudengids.be##.banner-zone
+sun.sr##[class*="Sibebar_sideBannerBox"]
+sun.sr##[class^="TopBanner_"] a
 welkevogelisdit.nl##[id*="-advertentie-"]
 welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
-wielerflits.be,wielerflits.nl##[class^="r89-"]
-voetbalbelgie.be##[class^="r89-"]
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
 menselijklichaam.nl##div[id^="ad"]
 rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
+a536 3
+rubenweytjens.be###highlightedad
+rubenweytjens.be##.skyscraper
+rubenweytjens.be##.ad
+d612 1
+d615 2
 d618 1
+d771 1
+d786 1
+d804 1
+d835 1
+d845 1
+d927 2
+d930 1
+d955 2
+a956 2
+112brabant.nl,112nederland.nl,112-ov.nl,gelrenieuws.nl,noordernieuws.nl###ads
+112brabant.nl,112nederland.nl,112-ov.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
+d958 1
+d962 1
+d964 1
+d978 1
+d1065 1
+d1076 1
+d1082 1
 a1154 1
 nu.nl##aside .banner + .app-divider
+d1179 1
+d1186 1
+a1186 1
+tpo.nl##div[id^="r89-"]
+d1218 3
+d1222 7
+d1230 6
+d1237 1
+d1241 6
 d1249 1
 d1253 1
 d1255 1
