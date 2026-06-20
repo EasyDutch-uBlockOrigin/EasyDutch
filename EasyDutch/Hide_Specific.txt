@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+goudengids.be##.banner-zone
 sun.sr##[class*="Sibebar_sideBannerBox"]
 sun.sr##[class^="TopBanner_"] a
 ! 2026-06-16
@@ -845,7 +846,6 @@ eemland1.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has(.owl-item)
 doorbraak.be##a[href^="https://vnz.be"]:upward(div)
 ! 2023-11-20
 nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
-goudengids.be##.banner-boxes-holder
 ! 2023-11-09
 abcsuriname.com##.banner_wrapper
 dwtonline.com##[id^="div-gpt-ad"]:upward(.elementor-column):not(:has(article))
