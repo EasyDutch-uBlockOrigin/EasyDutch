@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
+bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$)
+bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(/Reclame/$) + div:has(.flexslider)
 eemland1.nl##.page-content .elementor-widget-image:has(> [href])
 goudengids.be##.banner-zone
 sun.sr##[class*="Sibebar_sideBannerBox"]
@@ -839,9 +841,6 @@ tennisenpadelvlaanderen.be##.aca-header__row--commercial
 ! 2023-12-13
 fr12.nl##div[class$="-atf"]
 fr12.nl##[class*="r89-desktop"][class*="-btf"]
-! 2023-12-12
-bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Reclame)
-bollenstreekomroep.nl##.wpb_wrapper > [data-td-block-uid^="tdi_"]:has-text(Reclame) + div:has(.owl-item)
 ! 2023-11-20
 nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
 ! 2023-11-09
