@@ -3,7 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-20
-! Start Linemedia
+! Linemedia
 agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 ! End Linemedia
 itdaily.be##.cb[data-ad-unit]
@@ -527,8 +527,10 @@ guruwatch.nl##.LargeRectangle
 guruwatch.nl##[class^="publisher-sh-spot"]
 rkvvo.nl##.divFooterBanner
 rkvvo.nl##.divHeaderBanner
-112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl###ads
-112brabant.nl,112nederland.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
+! Mundaro
+112brabant.nl,112nederland.nl,112-ov.nl,gelrenieuws.nl,noordernieuws.nl###ads
+112brabant.nl,112nederland.nl,112-ov.nl,gelrenieuws.nl,noordernieuws.nl##div.banner_online
+! End Mundaro
 ! 112Press
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl###bottom > h4:has-text(Ads)
 ! End 112Press
@@ -816,8 +818,6 @@ spelersvrouw.nl##.gridlove-inject
 surfplaza.be##.google
 twentefm.nl##.advertisement
 ! 2023-12-18
-112-ov.nl##h4:has-text(Advert):upward(.widget_text)
-112-ov.nl##.adsbygoogle:upward([id^="custom_html"])
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
 ! 2023-11-20
