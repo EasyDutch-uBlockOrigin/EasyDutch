@@ -44,12 +44,6 @@ jobs:
           TAGNAME=$(date -u "+%Y.%-m.%-d.")$(date -u "+%H*60+%M" | bc)
           echo "TAGNAME=$TAGNAME" >> $GITHUB_ENV
           echo "Version string is $TAGNAME"
-      - name: Copy shell script from uBlockOrigin/uAssets
-        run: |
-          TMPDIR="$(mktemp -d)"
-          git clone --depth=1 --single-branch --branch=master https://github.com/uBlockOrigin/uAssets.git "$TMPDIR"
-          cp -v "$TMPDIR"/tools/make-diffpatch.sh .
-          cp -v "$TMPDIR"/tools/update-diffpatches.sh .
       - name: Copy filter lists to gh-pages
         run: |
           TMPFILE="$(mktemp -d)"
@@ -74,15 +68,15 @@ jobs:
           done
       - name: Create new patch
         run: |
-          chmod 755 ./make-diffpatch.sh
+          chmod 755 ./tools/make-diffpatch.sh
           PATCHES_DIR="patches"
-          ./make-diffpatch.sh "${{ env.TAGNAME }}" "$PATCHES_DIR"
+          ./tools/make-diffpatch.sh "${{ env.TAGNAME }}" "$PATCHES_DIR"
       - name: Update existing patch
         run: |
-          chmod 755 ./update-diffpatches.sh
+          chmod 755 ./tools/update-diffpatches.sh
           PATCHES_DIR="patches"
           FILTER_FILES=$(git ls-files --exclude-standard -- EasyDutch.all.txt)
-          ./update-diffpatches.sh "$GITHUB_REPOSITORY" "$PATCHES_DIR" "$FILTER_FILES"
+          ./tools/update-diffpatches.sh "$GITHUB_REPOSITORY" "$PATCHES_DIR" "$FILTER_FILES"
       - name: Commit changes (if any)
         run: |
           if [[ -z $(git diff --name-only --cached) ]]; then exit 0; fi
