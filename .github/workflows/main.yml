@@ -68,15 +68,15 @@ jobs:
           done
       - name: Create new patch
         run: |
-          chmod 755 ./tools/make-diffpatch.sh
+          chmod 755 "$TMPFILE"/tools/make-diffpatch.sh
           PATCHES_DIR="patches"
-          ./tools/make-diffpatch.sh "${{ env.TAGNAME }}" "$PATCHES_DIR"
+          "$TMPFILE"/tools/make-diffpatch.sh "${{ env.TAGNAME }}" "$PATCHES_DIR"
       - name: Update existing patch
         run: |
-          chmod 755 ./tools/update-diffpatches.sh
+          chmod 755 "$TMPFILE"/tools/update-diffpatches.sh
           PATCHES_DIR="patches"
           FILTER_FILES=$(git ls-files --exclude-standard -- EasyDutch.all.txt)
-          ./tools/update-diffpatches.sh "$GITHUB_REPOSITORY" "$PATCHES_DIR" "$FILTER_FILES"
+          "$TMPFILE"/tools/update-diffpatches.sh "$GITHUB_REPOSITORY" "$PATCHES_DIR" "$FILTER_FILES"
       - name: Commit changes (if any)
         run: |
           if [[ -z $(git diff --name-only --cached) ]]; then exit 0; fi
