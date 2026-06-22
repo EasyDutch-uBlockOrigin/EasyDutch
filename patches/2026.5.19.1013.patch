@@ -1,10 +1,10 @@
-diff name:easydutch lines:208 checksum:db56b1e1fb
+diff name:easydutch lines:209 checksum:4c1376af24
 d2 1
 a2 1
-! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
+! Last updated: Mon, 22 Jun 2026 09:14:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.20.837.patch#easydutch
+! Diff-Path: patches/2026.6.22.554.patch#easydutch
 d106 1
 a134 28
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
@@ -199,6 +199,7 @@ d1286 11
 d1304 2
 d1416 1
 d1439 1
+d1512 5
 a1521 3
 @@||moppen.nl^$ghide
 dumpert.nl##+js(set-constant, fetch, true)

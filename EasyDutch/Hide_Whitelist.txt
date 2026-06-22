@@ -1,6 +1,6 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Thu, 14 May 2026 16:08:07 +0000
+! Last updated: Mon, 22 Jun 2026 09:14:09 +0000
 !
 ! 2026-05-14
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
@@ -14,12 +14,6 @@ gratisaftehalen.nl#@#.ads-image
 lflmagazine.nl#@#.header-advert
 ! 2026-02-03
 adorss.nl,ajaxreport.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordreport.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
-! 2022-07-05
-radiozuidrand.be#@#.advertisement_300x250
-radiozuidrand.be#@#.advertisement_728x90
-radiozuidrand.be#@#.advertisement-content
-radiozuidrand.be#@#.single_ad_300x250
-radiozuidrand.be#@#.widget_300x250_advertisement
 ! 2022-04-14
 mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title

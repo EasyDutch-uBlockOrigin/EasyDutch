@@ -1,10 +1,10 @@
-diff name:easydutch lines:94 checksum:db56b1e1fb
+diff name:easydutch lines:95 checksum:4c1376af24
 d2 1
 a2 1
-! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
+! Last updated: Mon, 22 Jun 2026 09:14:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.20.837.patch#easydutch
+! Diff-Path: patches/2026.6.22.554.patch#easydutch
 a133 7
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
@@ -90,6 +90,7 @@ d1271 1
 d1274 1
 d1277 2
 d1282 6
+d1512 5
 a1521 1
 @@||moppen.nl^$ghide
 d1537 1
