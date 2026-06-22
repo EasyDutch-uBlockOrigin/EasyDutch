@@ -86,3 +86,35 @@ jobs:
           git push origin gh-pages
           git tag ${{ env.TAGNAME }}
           git push origin ${{ env.TAGNAME }}
+      - name: Remove obsolete tags
+        run: |
+          git fetch --tags
+          mapfile -t PATCHES < <(
+            ls -1v patches/*.patch |
+            sed 's|^.*/||; s|\.patch$||'
+          )
+          KEEP_TAGS=()
+          # Keep all retained patch versions
+          for tag in "${PATCHES[@]}"; do
+            KEEP_TAGS+=("$tag")
+          done
+          # Keep current version
+          KEEP_TAGS+=("$(cat version)")
+          # Keep one version older than the oldest retained patch
+          if [[ ${#PATCHES[@]} -gt 0 ]]; then
+            OLDEST_PATCH="${PATCHES[0]}"
+            PREVIOUS_TAG=$(
+              git tag --sort=v:refname |
+              awk -v oldest="$OLDEST_PATCH" '$0 < oldest { prev=$0 } END { print prev }'
+            )
+            if [[ -n "$PREVIOUS_TAG" ]]; then
+              KEEP_TAGS+=("$PREVIOUS_TAG")
+            fi
+          fi
+          for tag in $(git tag); do
+            if ! printf '%s\n' "${KEEP_TAGS[@]}" | grep -qxF "$tag"; then
+              echo "Removing obsolete tag $tag"
+              git tag -d "$tag"
+              git push origin ":refs/tags/$tag"
+            fi
+          done
