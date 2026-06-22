@@ -83,9 +83,9 @@ jobs:
           git config user.name "GitHub-Actions"
           git config user.email "<>"
           git commit -m "Update modified filter lists to ${{ env.TAGNAME }}"
-          git push origin gh-pages --force
+          git push origin gh-pages
           git tag ${{ env.TAGNAME }}
-          git push origin ${{ env.TAGNAME }} --force
+          git push origin ${{ env.TAGNAME }}
       - name: Remove obsolete tags
         run: |
           git fetch --force --tags
