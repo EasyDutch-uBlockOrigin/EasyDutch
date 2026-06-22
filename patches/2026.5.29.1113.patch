@@ -1,10 +1,10 @@
-diff name:easydutch lines:146 checksum:4c1376af24
+diff name:easydutch lines:146 checksum:050cdb325c
 d2 1
 a2 1
-! Last updated: Mon, 22 Jun 2026 09:14:09 +0000
+! Last updated: Mon, 22 Jun 2026 11:04:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.22.554.patch#easydutch
+! Diff-Path: patches/2026.6.22.664.patch#easydutch
 d106 1
 a134 10
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
