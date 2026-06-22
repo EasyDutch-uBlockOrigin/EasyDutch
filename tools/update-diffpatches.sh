@@ -28,7 +28,7 @@ if [[ -z $FILTER_FILES ]]; then
 fi
 FILTER_FILES=( "$FILTER_FILES" )
 
-# Keep only the most recent (5-day x 2-per-day) patches
+# Keep only the most recent (7-day x 1or2-per-day) patches
 OBSOLETE_PATCHES=( $(ls -1v "$PATCHES_DIR"/*.patch | head -n -10) )
 for FILE in "${OBSOLETE_PATCHES[@]}"; do
     echo "Removing obsolete patch $FILE"
