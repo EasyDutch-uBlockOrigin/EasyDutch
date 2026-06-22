@@ -88,20 +88,17 @@ jobs:
           git push origin ${{ env.TAGNAME }}
       - name: Remove obsolete tags
         run: |
-          git fetch --tags
+          git fetch --force --tags
           mapfile -t PATCHES < <(
             ls -1v patches/*.patch |
             sed 's|^.*/||; s|\.patch$||'
           )
-          KEEP_TAGS=()
-          # Keep all retained patch versions
+          KEEP_TAGS=() # Keep all retained patch versions
           for tag in "${PATCHES[@]}"; do
             KEEP_TAGS+=("$tag")
           done
-          # Keep current version
-          KEEP_TAGS+=("$(cat version)")
-          # Keep one version older than the oldest retained patch
-          if [[ ${#PATCHES[@]} -gt 0 ]]; then
+          KEEP_TAGS+=("$(cat version)") # Keep current version
+          if [[ ${#PATCHES[@]} -gt 0 ]]; then # Keep one version older than the oldest retained patch
             OLDEST_PATCH="${PATCHES[0]}"
             PREVIOUS_TAG=$(
               git tag --sort=v:refname |
