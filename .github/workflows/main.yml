@@ -47,6 +47,7 @@ jobs:
       - name: Copy filter lists to gh-pages
         run: |
           TMPFILE="$(mktemp -d)"
+          echo "TMPFILE=$TMPFILE" >> "$GITHUB_ENV"
           git clone --depth=1 https://github.com/EasyDutch-uBlockOrigin/EasyDutch.git "$TMPFILE"
           pushd "$TMPFILE" > /dev/null
           echo "*** EasyDutch: Assembling EasyDutch.txt"
