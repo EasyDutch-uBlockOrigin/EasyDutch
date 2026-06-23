@@ -692,6 +692,7 @@ sikkom.nl##[id^="ad_native"]:upward(.column)
 ! https://github.com/EasyDutch-uBO/EasyDutch/issues/121
 dumpert.nl##[class^="css-"] [id^="ad_leaderboardwallpaper-"]:upward(3)
 dumpert.nl##[class^="css-"] [id^="ad_billboardrectangle"]:upward(3)
+dumpert.nl##[class^="css-"] [id^="ad_interscroller"]:upward(2)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
 ! End Mediahuis.nl
