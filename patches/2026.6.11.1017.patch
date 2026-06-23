@@ -1,10 +1,10 @@
-diff name:easydutch lines:70 checksum:f6399ba7df
+diff name:easydutch lines:72 checksum:fa099e52fa
 d2 1
 a2 1
-! Last updated: Mon, 22 Jun 2026 15:32:59 +0000
+! Last updated: Tue, 23 Jun 2026 19:51:49 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.22.932.patch#easydutch
+! Diff-Path: patches/2026.6.23.1191.patch#easydutch
 a133 4
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
@@ -59,6 +59,8 @@ d978 1
 d1065 1
 d1076 1
 d1082 1
+a1105 1
+dumpert.nl##[class^="css-"] [id^="ad_interscroller"]:upward(2)
 d1180 1
 d1187 1
 a1187 1
