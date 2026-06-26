@@ -6,7 +6,7 @@
 almelo1.nl##.wpcp-carousel-wrapper
 ! 2026-06-20
 ! Linemedia
-agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 ! End Linemedia
 itdaily.be##.cb[data-ad-unit]
 poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)
