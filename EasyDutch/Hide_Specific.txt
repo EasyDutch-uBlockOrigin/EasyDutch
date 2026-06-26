@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-26
+luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
 nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 ! 2026-06-20
@@ -811,9 +812,6 @@ fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 ! 2023-12-19
 grandprixradio.nl##.advertisements
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
-luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
-luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
-luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
 ! 2023-12-18
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
