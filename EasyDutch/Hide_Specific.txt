@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-26
+almelo1.nl##.wpcp-carousel-wrapper
 ! 2026-06-20
 ! Linemedia
 agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
