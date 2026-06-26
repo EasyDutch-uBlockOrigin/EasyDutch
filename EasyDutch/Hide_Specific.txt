@@ -808,7 +808,6 @@ blikopnieuws.nl##aside div[id^="block-block-"]:has(a[target="_blank"] > img)
 robtv.be,tvl.be,tvoost.be##.c-ad-cba-row + .botGutter
 ! 2023-12-20
 computable.nl##.banner-wrapper
-fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 ! 2023-12-19
 grandprixradio.nl##.advertisements
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
