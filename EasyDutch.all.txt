@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
+! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.6.26.745.patch#easydutch
+! Diff-Path: patches/2026.6.26.896.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -131,6 +131,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
 ||rubenweytjens.be/wp-content/uploads/Banner$image
@@ -372,12 +373,10 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||boek9.nl/sites/default/files/rotating-banners/
 ||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
-.be/la_custom/get_banners_cache$xhr,1p,domain=hagelandactueel.be|leuvenactueel.be
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
 /wp-content/plugins/age-gate*$domain=nieuwslog.nl
 ||radioluisteren.fm/ads/
-||1twente.nl/Ads/$image,domain=twentefm.nl
 ||doorbraak.be/wp-json/api/*/ads$xhr
 ||grootnieuwsradio.nl/advertisements$xhr
 ||grootnieuwsradio.nl/cache/*/advertisements/$image
@@ -513,6 +512,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
+luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
+nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 itdaily.be##.cb[data-ad-unit]
@@ -1201,23 +1203,9 @@ messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="m
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"]) + div[id^="block-"]
 dvo.be##.advertisement
 agconnect.nl##[class$="_ad-slot"]
-apparata.nl##.widget:has(h2:has-text(/Partners/i))
-blikopnieuws.nl##aside div[id^="block-block-"]:has(a[target="_blank"] > img)
-robtv.be,tvl.be,tvoost.be##.c-ad-cba-row + .botGutter
 computable.nl##.banner-wrapper
-fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 grandprixradio.nl##.advertisements
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
-luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
-luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
-luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
-nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
-nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
-nieuwsmotor.nl##.add-background
-nieuwsmotor.nl##a[href*="nieuwsmotor.nl/url/"]:upward(.uk-grid)
-spelersvrouw.nl##.gridlove-inject
-surfplaza.be##.google
-twentefm.nl##.advertisement
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
 nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)

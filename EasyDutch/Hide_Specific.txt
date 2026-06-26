@@ -1,8 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
+! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
 !
 ! 2026-06-26
+blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
+luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
+nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 ! 2026-06-20
 ! Linemedia
@@ -801,25 +804,11 @@ messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="m
 dvo.be##.advertisement
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
-apparata.nl##.widget:has(h2:has-text(/Partners/i))
-blikopnieuws.nl##aside div[id^="block-block-"]:has(a[target="_blank"] > img)
-robtv.be,tvl.be,tvoost.be##.c-ad-cba-row + .botGutter
 ! 2023-12-20
 computable.nl##.banner-wrapper
-fcutrecht.nl##section[class^="container nesteditem"]:has-text(/deals/i)
 ! 2023-12-19
 grandprixradio.nl##.advertisements
 knhs.nl##section.grid-row:has(.row section.ads img[src*="banner"])
-luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[style])
-luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
-luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
-nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
-nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
-nieuwsmotor.nl##.add-background
-nieuwsmotor.nl##a[href*="nieuwsmotor.nl/url/"]:upward(.uk-grid)
-spelersvrouw.nl##.gridlove-inject
-surfplaza.be##.google
-twentefm.nl##.advertisement
 ! 2023-12-18
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial

@@ -1,13 +1,23 @@
-diff name:easydutch lines:12 checksum:5f99d46678
+diff name:easydutch lines:22 checksum:d10e9796b7
 d2 1
 a2 1
-! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
+! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.26.745.patch#easydutch
+! Diff-Path: patches/2026.6.26.896.patch#easydutch
+a133 1
+||nieuwsmotor.nl/wp-content/uploads/*banner$image
+d375 1
+d380 1
 d516 1
-a516 2
+a516 5
+blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
+luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
+nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 a1106 1
 dumpert.nl##[class^="css-"] [id^="ad_interscroller"]:upward(2)
+d1202 3
+d1206 1
+d1209 10

@@ -1,21 +1,26 @@
-diff name:easydutch lines:73 checksum:5f99d46678
+diff name:easydutch lines:80 checksum:d10e9796b7
 d2 1
 a2 1
-! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
+! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.26.745.patch#easydutch
-a133 4
+! Diff-Path: patches/2026.6.26.896.patch#easydutch
+a133 5
+||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
 ||rubenweytjens.be/wp-content/uploads/Banner$image
 ||welkevogelisdit.nl/sites/*/advertentie$image
-d377 3
+d371 1
+d376 4
 d383 1
 a505 2
 ##div[class^="r89-desktop-"]
 ##div[class^="r89-mobile-"]
-a513 18
+a513 21
+blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
+luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
+nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 itdaily.be##.cb[data-ad-unit]
@@ -66,7 +71,9 @@ d1180 1
 d1187 1
 a1187 1
 tpo.nl##div[id^="r89-"]
-d1219 3
+d1202 3
+d1206 1
+d1209 13
 d1223 7
 d1231 6
 d1238 1

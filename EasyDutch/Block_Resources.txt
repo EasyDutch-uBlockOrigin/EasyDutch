@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
+! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
 !
+! 2026-06-26
+||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ! 2026-06-20
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
@@ -290,14 +292,11 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
 ! 2026-01-31
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
-! 2024-01-16
-.be/la_custom/get_banners_cache$xhr,1p,domain=hagelandactueel.be|leuvenactueel.be
 ! 2023-12-19
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
 /wp-content/plugins/age-gate*$domain=nieuwslog.nl
 ||radioluisteren.fm/ads/
-||1twente.nl/Ads/$image,domain=twentefm.nl
 ! 2023-11-24
 ||doorbraak.be/wp-json/api/*/ads$xhr
 ||grootnieuwsradio.nl/advertisements$xhr

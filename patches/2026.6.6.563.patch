@@ -1,11 +1,12 @@
-diff name:easydutch lines:98 checksum:5f99d46678
+diff name:easydutch lines:105 checksum:d10e9796b7
 d2 1
 a2 1
-! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
+! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.26.745.patch#easydutch
-a133 7
+! Diff-Path: patches/2026.6.26.896.patch#easydutch
+a133 8
+||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
 ||rubenweytjens.be/wp-content/uploads/Banner$image
@@ -13,7 +14,8 @@ a133 7
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
 ||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
-d374 3
+d368 1
+d373 4
 d380 1
 d383 5
 d400 1
@@ -22,7 +24,10 @@ d406 2
 a512 2
 ##div[class^="r89-desktop-"]
 ##div[class^="r89-mobile-"]
-a520 23
+a520 26
+blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
+luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
+nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 itdaily.be##.cb[data-ad-unit]
@@ -79,7 +84,9 @@ d1179 1
 d1186 1
 a1186 1
 tpo.nl##div[id^="r89-"]
-d1218 3
+d1201 3
+d1205 1
+d1208 13
 d1222 7
 d1230 6
 d1237 1

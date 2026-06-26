@@ -1,4 +1,4 @@
-diff name:easydutch lines:20 checksum:d10e9796b7
+diff name:easydutch lines:17 checksum:d10e9796b7
 d2 1
 a2 1
 ! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
@@ -13,9 +13,6 @@ a515 3
 blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
 luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
 nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
-d517 1
-a517 1
-agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 d1204 3
 d1208 1
 d1211 10
