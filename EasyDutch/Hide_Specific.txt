@@ -815,7 +815,6 @@ luchtvaartnieuws.nl##[id^="luchtvaartnieuws.nl_mob_mobilerectangle"]:upward(div[
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
 nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
-nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
 ! 2023-12-18
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
