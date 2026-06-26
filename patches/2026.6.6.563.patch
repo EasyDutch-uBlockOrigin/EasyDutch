@@ -1,10 +1,10 @@
-diff name:easydutch lines:98 checksum:e693c8d71c
+diff name:easydutch lines:98 checksum:5f99d46678
 d2 1
 a2 1
-! Last updated: Fri, 26 Jun 2026 06:52:44 +0000
+! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.26.412.patch#easydutch
+! Diff-Path: patches/2026.6.26.745.patch#easydutch
 a133 7
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
@@ -24,7 +24,7 @@ a512 2
 ##div[class^="r89-mobile-"]
 a520 23
 almelo1.nl##.wpcp-carousel-wrapper
-agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 itdaily.be##.cb[data-ad-unit]
 poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)
 gpinfo.com##.ad-reservation

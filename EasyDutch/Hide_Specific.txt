@@ -1,12 +1,12 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 26 Jun 2026 06:52:44 +0000
+! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
 !
 ! 2026-06-26
 almelo1.nl##.wpcp-carousel-wrapper
 ! 2026-06-20
 ! Linemedia
-agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 ! End Linemedia
 itdaily.be##.cb[data-ad-unit]
 poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)

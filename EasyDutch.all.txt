@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 26 Jun 2026 06:52:44 +0000
+! Last updated: Fri, 26 Jun 2026 12:25:33 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.6.26.412.patch#easydutch
+! Diff-Path: patches/2026.6.26.745.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -514,7 +514,7 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
 almelo1.nl##.wpcp-carousel-wrapper
-agriline.be,agriline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
 itdaily.be##.cb[data-ad-unit]
 poki.com##div[class][style] + div[class]:has-text(Advert):upward(2)
 gpinfo.com##.ad-reservation
