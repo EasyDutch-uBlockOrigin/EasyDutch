@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-26
+blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
 luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
 nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
@@ -804,7 +805,6 @@ dvo.be##.advertisement
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
 apparata.nl##.widget:has(h2:has-text(/Partners/i))
-blikopnieuws.nl##aside div[id^="block-block-"]:has(a[target="_blank"] > img)
 ! 2023-12-20
 computable.nl##.banner-wrapper
 ! 2023-12-19
