@@ -804,7 +804,6 @@ messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="m
 dvo.be##.advertisement
 ! 2023-12-21
 agconnect.nl##[class$="_ad-slot"]
-apparata.nl##.widget:has(h2:has-text(/Partners/i))
 ! 2023-12-20
 computable.nl##.banner-wrapper
 ! 2023-12-19
