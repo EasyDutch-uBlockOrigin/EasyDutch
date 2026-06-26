@@ -295,7 +295,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||knhs.nl/media/*/*-banner$image
 /wp-content/plugins/age-gate*$domain=nieuwslog.nl
 ||radioluisteren.fm/ads/
-||1twente.nl/Ads/$image,domain=twentefm.nl
 ! 2023-11-24
 ||doorbraak.be/wp-json/api/*/ads$xhr
 ||grootnieuwsradio.nl/advertisements$xhr
