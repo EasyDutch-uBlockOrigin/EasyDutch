@@ -818,7 +818,6 @@ nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
 nieuwsmotor.nl##.add-background
 nieuwsmotor.nl##a[href*="nieuwsmotor.nl/url/"]:upward(.uk-grid)
 spelersvrouw.nl##.gridlove-inject
-surfplaza.be##.google
 ! 2023-12-18
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
