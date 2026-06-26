@@ -290,8 +290,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
 ! 2026-01-31
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
-! 2024-01-16
-.be/la_custom/get_banners_cache$xhr,1p,domain=hagelandactueel.be|leuvenactueel.be
 ! 2023-12-19
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
