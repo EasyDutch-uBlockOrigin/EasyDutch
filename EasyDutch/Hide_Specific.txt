@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-06-26
+nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 almelo1.nl##.wpcp-carousel-wrapper
 ! 2026-06-20
 ! Linemedia
@@ -815,8 +816,6 @@ luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 luchtvaartnieuws.nl##.content > div[id^="luchtvaartnieuws.nl_web_"]:upward([id^="block-block-"])
 nederlandsmedianieuws.nl##.line:has-text(Advertentie):upward(.sidebar)
 nieuws.besteoverzicht.nl##.block:has-text(Advertenties)
-nieuwsmotor.nl##.add-background
-nieuwsmotor.nl##a[href*="nieuwsmotor.nl/url/"]:upward(.uk-grid)
 ! 2023-12-18
 baanwacht.nl##.banner-image
 tennisenpadelvlaanderen.be##.aca-header__row--commercial
