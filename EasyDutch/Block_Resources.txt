@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-06-26
+||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ! 2026-06-20
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
 ||bollenstreekomroep.nl/wp-content/uploads/*Banner$image
