@@ -1,4 +1,4 @@
-diff name:easydutch lines:12 checksum:d49d90e0d4
+diff name:easydutch lines:10 checksum:d49d90e0d4
 d2 1
 a2 1
 ! Last updated: Wed, 01 Jul 2026 19:16:45 +0000
@@ -9,5 +9,3 @@ d1103 1
 a1103 1
 gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limburger.nl,noordhollandsdagblad.nl,sikkom.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
 d1105 3
-a1465 1
-||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl

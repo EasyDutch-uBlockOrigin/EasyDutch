@@ -1,10 +1,10 @@
-diff name:easydutch lines:19 checksum:ab52bb0a96
+diff name:easydutch lines:23 checksum:d49d90e0d4
 d2 1
 a2 1
-! Last updated: Wed, 01 Jul 2026 19:00:44 +0000
+! Last updated: Wed, 01 Jul 2026 19:16:45 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.1.1140.patch#easydutch
+! Diff-Path: patches/2026.7.1.1156.patch#easydutch
 a133 1
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
 d375 1
@@ -13,6 +13,10 @@ a515 3
 blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
 luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
 nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
+d1101 1
+a1101 1
+gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limburger.nl,noordhollandsdagblad.nl,sikkom.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
+d1103 3
 d1204 3
 d1208 1
 d1211 10
