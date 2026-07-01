@@ -1,10 +1,10 @@
-diff name:easydutch lines:22 checksum:d10e9796b7
+diff name:easydutch lines:24 checksum:ab52bb0a96
 d2 1
 a2 1
-! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
+! Last updated: Wed, 01 Jul 2026 19:00:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.26.896.patch#easydutch
+! Diff-Path: patches/2026.7.1.1140.patch#easydutch
 a133 1
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
 d375 1
@@ -21,3 +21,5 @@ dumpert.nl##[class^="css-"] [id^="ad_interscroller"]:upward(2)
 d1202 3
 d1206 1
 d1209 10
+a1475 1
+||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl

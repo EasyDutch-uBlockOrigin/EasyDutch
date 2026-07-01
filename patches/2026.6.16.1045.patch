@@ -1,10 +1,10 @@
-diff name:easydutch lines:76 checksum:d10e9796b7
+diff name:easydutch lines:78 checksum:ab52bb0a96
 d2 1
 a2 1
-! Last updated: Fri, 26 Jun 2026 14:56:02 +0000
+! Last updated: Wed, 01 Jul 2026 19:00:44 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.6.26.896.patch#easydutch
+! Diff-Path: patches/2026.7.1.1140.patch#easydutch
 a133 4
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ||tennisenpadelvlaanderen.be/*/*Banner_$image
@@ -75,3 +75,5 @@ d1233 6
 d1240 1
 d1244 6
 d1496 5
+a1505 1
+||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl

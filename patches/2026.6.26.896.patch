@@ -1,0 +1,9 @@
+diff name:easydutch lines:8 checksum:ab52bb0a96
+d2 1
+a2 1
+! Last updated: Wed, 01 Jul 2026 19:00:44 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.7.1.1140.patch#easydutch
+a1465 1
+||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl
