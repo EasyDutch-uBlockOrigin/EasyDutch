@@ -2,6 +2,8 @@
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-07-01
+||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl
 ! 2026-06-11
 @@||moppen.nl^$ghide
 ! 2026-05-27
