@@ -3,12 +3,12 @@
 [![Last commit](https://img.shields.io/github/last-commit/EasyDutch-uBlockOrigin/EasyDutch?label=Last%20commit&color=informational)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/commits/)
 [![Issues](https://img.shields.io/github/issues/EasyDutch-uBlockOrigin/EasyDutch?label=Issues&color=red)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues)
 [![Issues](https://img.shields.io/github/issues-closed/EasyDutch-uBlockOrigin/EasyDutch?color=green&label=Issues)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues?q=is%3Aissue+is%3Aclosed)
-[![License](https://img.shields.io/github/license/EasyDutch-uBlockOrigin/EasyDutch?label=License&color=lightgrey)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/LICENSE) \
+[![License](https://img.shields.io/github/license/EasyDutch-uBlockOrigin/EasyDutch?label=License&color=lightgrey)](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/LICENSE)  
 (( [EasyList Dutch](https://github.com/easylist/easylistdutch/):
 [![Commit rate](https://img.shields.io/github/commit-activity/y/easylist/easylistdutch?label=Commits&color=succes&style=plastic)](https://github.com/easylist/easylistdutch/commits/)
 [![Last commit](https://img.shields.io/github/last-commit/easylist/easylistdutch?label=Last%20commit&color=informational&style=plastic)](https://github.com/easylist/easylistdutch/commits/master)
 [![Issues](https://img.shields.io/github/issues/easylist/easylistdutch?label=Issues&color=red&style=plastic)](https://github.com/easylist/easylistdutch/issues)
-[![Issues](https://img.shields.io/github/issues-closed/easylist/easylistdutch?color=green&label=Issues&style=plastic)](https://github.com/easylist/easylistdutch/issues?q=is%3Aissue+is%3Aclosed) )) \
+[![Issues](https://img.shields.io/github/issues-closed/easylist/easylistdutch?color=green&label=Issues&style=plastic)](https://github.com/easylist/easylistdutch/issues?q=is%3Aissue+is%3Aclosed) ))  
 (( [AdGuard Dutch](https://github.com/AdguardTeam/AdguardFilters/tree/master/DutchFilter/sections): [Last commit checked](https://github.com/AdguardTeam/AdguardFilters/commits/master/DutchFilter/sections?since=2026-07-01) ))
 
 ***
@@ -24,9 +24,9 @@ Adblock filters for Dutch websites made for [uBlock Origin](https://github.com/u
 ## [EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch)
 The updated version of EasyList Dutch special for uBlock Origin. 
 
-This filterlist has been made because the EasyList Dutch filter isn't maintained often and the maintenance that is done, is very poor. \
-So we made this to provide you a better service!! \
-This list also handles anti-adblock, which isn't done by EasyList Dutch. See these comments for more information: \
+This filterlist has been made because the EasyList Dutch filter isn't maintained often and the maintenance that is done, is very poor.  
+So we made this to provide you a better service!!  
+This list also handles anti-adblock, which isn't done by EasyList Dutch. See these comments for more information:  
 [easylist/easylistdutch#11 (comment)](https://github.com/easylist/easylistdutch/issues/11#issuecomment-818864565) and [easylist/easylistdutch#30 (comment)](https://github.com/easylist/easylistdutch/issues/30#issuecomment-1011180477).
 
 If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/new/choose) it or sent us an email via easydutch@tech-web.aleeas.com 
@@ -35,7 +35,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 <details>
 <summary>Contributing</summary>
 
-> Important note: \
+> Important note:  
 > We, **[@Ignotum77](https://github.com/Ignotum77)** and **[@JohnyP36](https://github.com/JohnyP36)**, owners of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`. However, we also don't want 10 rules for which one rule can be made.
 > 
 > #### Ordering of filters
@@ -67,7 +67,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > 
 > - Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
 > - Put here after the site url `spele.nl` (no `https://www.`) 
-> - Put after this the issue number. \
+> - Put after this the issue number.  
 > Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
 > - If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
 > - If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
@@ -108,19 +108,19 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 8. [`EasyDutchCDN Mirror`](https://cdn.jsdelivr.net/gh/EasyDutch-uBlockOrigin/EasyDutchCDN@main/EasyDutch.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/EasyDutch-uBlockOrigin/EasyDutchCDN@main/EasyDutch.txt&amp;title=EasyDutch)
 
 ### Explanation of used terms: 
-- `EasyDutch` means that it is from the [original](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/tree/gh-pages) GitHub-repro and hosted on `github.io`. \
-&nbsp;&nbsp;&nbsp; Changes that are made, are applied after 5 minutes except for the Mirrors. \
+- `EasyDutch` means that it is from the [original](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/tree/gh-pages) GitHub-repro and hosted on `github.io`.  
+&nbsp;&nbsp;&nbsp; Changes that are made, are applied after 5 minutes except for the Mirrors.  
 &nbsp;&nbsp;&nbsp; I made a small delay to not overload the diffpatcher in GitHub Actions. 
-- `EasyDutchCDN` is from the [EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN) GitHub-repro and hosted on `github.io`. \
+- `EasyDutchCDN` is from the [EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN) GitHub-repro and hosted on `github.io`.  
 &nbsp;&nbsp;&nbsp; Changes that are made in EasyDutch's main branch, are applied every two hours. Mirrors follow later. 
 - `Mirror` is [`jsDelivr`](https://www.jsdelivr.com/); a public and free CDN's. 
-- `All-in-One` means that everything is one big file in stead of multiple files loaded in one file. \
+- `All-in-One` means that everything is one big file in stead of multiple files loaded in one file.  
 &nbsp;&nbsp;&nbsp; This is to not overload/misuse the free CDN's. 
 
 ### List of domains we have:
 1. https://easydutch-ublockorigin.github.io/EasyDutch/ --> `gh-pages` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/)
 2. https://easydutch-ublockorigin.github.io/EasyDutchCDN/ --> `main` from [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
 3. https://raw.githubusercontent.com/ --> `gh-pages` and 2x `main` from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
-4. https://cdn.jsdelivr.net/ --> from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/) \
+4. https://cdn.jsdelivr.net/ --> from [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)  
    `EasyDutch.txt` and `EasyDutch.all.txt` --> [EasyDutch-uBlockOrigin/EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/), and [EasyDutch-uBlockOrigin/EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN/)
 
