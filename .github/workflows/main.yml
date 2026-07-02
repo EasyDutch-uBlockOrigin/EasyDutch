@@ -80,7 +80,7 @@ jobs:
       - name: Commit changes (if any)
         run: |
           if [[ -z $(git diff --name-only --cached) ]]; then exit 0; fi
-          git config user.name "GitHub-Actions"
+          git config user.name "GitHub Actions"
           git config user.email "<>"
           git commit -m "Update modified filter lists to ${{ env.TAGNAME }}"
           git push origin gh-pages
