@@ -1,6 +1,6 @@
 ### EasyDutch
 
-Important note: \
+Important note:  
 We, **[@Ignotum77](https://github.com/Ignotum77)** and **[@JohnyP36](https://github.com/JohnyP36)**, owners of EasyDutch, prefer simplicity over complexity. So instead of `123geldzaken.nl##[class*="widget_sponsor"]` use `123geldzaken.nl##.widget_sponsor` and `123geldzaken.nl##.widget_sponsorlinks`. And instead of `arenalokaal.nl##[advobject]:upward(.bg-gray-100):has-text(/Uit de krant/i)` just use `arenalokaal.nl##[advobject]:upward(.bg-gray-100)`. However, we also don't want 10 rules for which one rule can be made.
 
 #### Ordering of filters
@@ -32,7 +32,7 @@ This way we know why a filter was added, and how to verify whether an old filter
  
 - Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
 - Put here after the site url `spele.nl` (no `https://www.`) 
-- Put after this the issue number. \
+- Put after this the issue number.  
 Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
 - If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
 - If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
