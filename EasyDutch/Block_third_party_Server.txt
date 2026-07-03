@@ -2,6 +2,9 @@
 ! Description: Filters for blocking only general third-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-07-03
+||cryptosplash.care^$3p
+||typegc.care^$3p
 ! 2026-04-25
 ! streekstadcentraal.nl
 ||sponsorlink.nl^$3p
@@ -24,9 +27,6 @@
 ||bdt9.net^$3p
 ! 2026-02-02
 ||bannersimages.s-bol.com^$3p
-! 2023-10-17
-! bitcoinmagazine.nl,cryptobenelux.com
-||cryptosplash.care^$3p
 ! 2023-10-13
 ||7mb.nl^$3p
 ||pornokartel.nl^$3p
@@ -37,9 +37,8 @@
 ! https://nos.nl/teletekst
 ||adcdn.ster.nl^$3p
 ! 2022-05-27
-! trosfm.be
 ||believe-the-hype.be^$3p
-! 2022-04-08 frontpage.fok.nl
+! 2022-04-08
 ||nojazz.eu^$3p
 ! 2021-11-30
 ! goodbye.be
@@ -53,10 +52,8 @@
 ! 2021-11-06
 ||adrequest.net^$3p
 ! 2021-11-04
-! kanaalz.knack.be
 ||adshim.com^$3p
 ! 2021-09-18
-! dagelijksestandaard.nl
 ||viadata.store^$3p
 ! 2021-09-13
 ! rtvalbrandswaard.com
