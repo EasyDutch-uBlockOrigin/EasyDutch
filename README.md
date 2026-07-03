@@ -97,7 +97,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 As you can see below, there are multiple way to subscribe to our list. We have following domains: `https://EasyDutch-uBlockOrigin.github.io/EasyDutch/`, `https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`, and `https://raw.githubusercontent.com/`. 
 
 ### Favorite order of subscription:
-In the list, the normal website is the default. The `.all.txt` lists are used as primairy CDN's, where it is preferred to use `github.io` over `cdn.jsdelivr.net`, and `raw.githubusercontent.com`.
+In the list, the normal website is the default. The `.all.txt` lists are used as primairy CDN's, where it is preferred to use `github.io` over `cdn.jsdelivr.net`.
 1. [`EasyDutch`](https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.txt&amp;title=EasyDutch)
 2. [`All-in-One EasyDutchCDN`](https://easydutch-ublockorigin.github.io/EasyDutchCDN/EasyDutch.all.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://easydutch-ublockorigin.github.io/EasyDutchCDN/EasyDutch.all.txt&amp;title=EasyDutch)
 3. [`All-in-One EasyDutch`](https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.all.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.all.txt&amp;title=EasyDutch)
