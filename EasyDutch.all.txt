@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 03 Jul 2026 15:43:49 +0000
+! Last updated: Fri, 03 Jul 2026 16:03:54 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.7.3.943.patch#easydutch
+! Diff-Path: patches/2026.7.3.963.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -57,6 +57,8 @@ _advertentieleaderboardhome.
 ||a.scholieren.com^
 ||content2.nrc.nl^
 ! *** EasyDutch:EasyDutch/Block_third_party_Server.txt ***
+||cryptosplash.care^$3p
+||typegc.care^$3p
 ||sponsorlink.nl^$3p
 ||cdn.prdn.nl^$3p
 ||partner-nl-be.hema.com^$3p
@@ -69,7 +71,6 @@ _advertentieleaderboardhome.
 ||rkn3.net^3p
 ||bdt9.net^$3p
 ||bannersimages.s-bol.com^$3p
-||cryptosplash.care^$3p
 ||7mb.nl^$3p
 ||pornokartel.nl^$3p
 ||adverteren.rd.nl^$strict3p
@@ -93,7 +94,7 @@ _advertentieleaderboardhome.
 ||affilaxy.com^$3p
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
-||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~instasex.nl
+||cashpartners.eu^$3p
 ||cleafs.nl^$3p
 ||conversive.nl^$3p
 ||daisycon.com^$3p

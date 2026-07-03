@@ -1,18 +1,14 @@
-diff name:easydutch lines:17 checksum:3a896647f9
+diff name:easydutch lines:13 checksum:3a896647f9
 d2 1
 a2 1
 ! Last updated: Fri, 03 Jul 2026 16:03:54 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.7.3.963.patch#easydutch
-d19 1
-a19 1
-/gaslicht/gaslicht*$frame
-d47 1
-a60 2
+a59 2
 ||cryptosplash.care^$3p
 ||typegc.care^$3p
-d73 1
-d97 1
-a97 1
+d72 1
+d96 1
+a96 1
 ||cashpartners.eu^$3p
