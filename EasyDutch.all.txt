@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 01 Jul 2026 19:16:45 +0000
+! Last updated: Fri, 03 Jul 2026 15:43:49 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.7.1.1156.patch#easydutch
+! Diff-Path: patches/2026.7.3.943.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -16,7 +16,7 @@
 /tekst_advertentie_
 /mediahuis-ads/*$~css
 /gaslicht/header300x20.png$image
-/gaslicht/gaslicht*$subdocument
+/gaslicht/gaslicht*$frame
 /css/branding.css$3p
 -reclameplaatjes/
 /adbron.
@@ -44,7 +44,6 @@
 /reclame2.
 /reclamebanners/*
 /scripts/edoris/edoris.dll?tem=ln_banner_view&
-/scripts/edoris/shared/*$object
 /small_reclames/*
 /topadvertentie.
 ://promotie.$3p

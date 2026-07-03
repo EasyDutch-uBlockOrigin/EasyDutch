@@ -1,10 +1,14 @@
-diff name:easydutch lines:26 checksum:d49d90e0d4
+diff name:easydutch lines:30 checksum:6b6aee7c5f
 d2 1
 a2 1
-! Last updated: Wed, 01 Jul 2026 19:16:45 +0000
+! Last updated: Fri, 03 Jul 2026 15:43:49 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.1.1156.patch#easydutch
+! Diff-Path: patches/2026.7.3.943.patch#easydutch
+d19 1
+a19 1
+/gaslicht/gaslicht*$frame
+d47 1
 a133 1
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
 d375 1
