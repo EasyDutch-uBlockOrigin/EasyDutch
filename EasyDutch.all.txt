@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 03 Jul 2026 16:03:54 +0000
+! Last updated: Mon, 06 Jul 2026 19:05:01 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.7.3.963.patch#easydutch
+! Diff-Path: patches/2026.7.6.1145.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -448,7 +448,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||bol.com/nl/upload/partnerprogramma/$image
 ||buzzbie.nl/buzzbanners/*.js$script,1p
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
-||coastline945fm.nl/cache/partners/$image
 ||dating.*.auroraobjects.eu/files/bans/*$image
 ||digitalaudience.io/bakery/pix/$image,3p
 ||enviedeplus.be^*_banner_$3p

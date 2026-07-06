@@ -1,10 +1,10 @@
-diff name:easydutch lines:23 checksum:3a896647f9
+diff name:easydutch lines:24 checksum:4eec65bcdb
 d2 1
 a2 1
-! Last updated: Fri, 03 Jul 2026 16:03:54 +0000
+! Last updated: Mon, 06 Jul 2026 19:05:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.3.963.patch#easydutch
+! Diff-Path: patches/2026.7.6.1145.patch#easydutch
 d19 1
 a19 1
 /gaslicht/gaslicht*$frame
@@ -16,6 +16,7 @@ d73 1
 d97 1
 a97 1
 ||cashpartners.eu^$3p
+d451 1
 d1103 1
 a1103 1
 gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limburger.nl,noordhollandsdagblad.nl,sikkom.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
