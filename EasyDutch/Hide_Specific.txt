@@ -782,7 +782,6 @@ hilversumsnieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 alblasserdamsnieuws.nl##div[id^="albla-"]
 touretappe.nl##.desktopad
 touretappe.nl###right .desktopad:upward(1)
-telefoonboek.nl##.contentbox__adsense
 telefoonboek.nl###tbresult-top
 techpulse.be##.magazine-sidebar-block
 techpulse.be##.wpb_wrapper:has( > div[class^="g"]):upward(section[class$="wpb_row height_small"]):not(:nth-of-type(1))
