@@ -1,10 +1,10 @@
-diff name:easydutch lines:18 checksum:4eec65bcdb
+diff name:easydutch lines:56 checksum:bc61ead84f
 d2 1
 a2 1
-! Last updated: Mon, 06 Jul 2026 19:05:01 +0000
+! Last updated: Sat, 11 Jul 2026 06:37:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.6.1145.patch#easydutch
+! Diff-Path: patches/2026.7.11.397.patch#easydutch
 d19 1
 a19 1
 /gaslicht/gaslicht*$frame
@@ -17,3 +17,41 @@ d97 1
 a97 1
 ||cashpartners.eu^$3p
 d451 1
+d501 1
+a514 22
+www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
+www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,tostrams.nl##.footernetwork > :has-text(Gesponsorde links)
+iex.nl,beursduivel.be,tostrams.nl##.publisher-sh-spot
+www.iex.nl##.js-banner
+www.iex.nl##.native_positie
+www.iex.nl##.rectanglewrap
+iexgeld.nl##.Rectangle
+iexgeld.nl##.LeaderboardContainer
+monitor.iex.nl##.centerbanner
+monitor.iex.nl##.leaderboard-down
+guruwatch.nl##.Billboard
+guruwatch.nl##.LargeRectangle
+guruwatch.nl##[class^="publisher-sh-spot"]
+participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
+tostrams.nl##[class*="banner"]
+tostrams.nl##[id*="banner"]
+iculture.nl###fh-placeholder
+iculture.nl###ia-placeholder
+iculture.nl###ba-placeholder
+iculture.nl##[id^="gpt-ad-"]
+autoreview.nl##[id^="Autoreview.nl_ros_"]:upward(div[class*="ar_"])
+autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
+d721 6
+d915 2
+d961 3
+d1007 3
+d1012 3
+a1159 1
+sportnieuws.nl##.banner-centered
+d1178 1
+d1184 4
+d1189 4
+d1195 4
+d1302 1
+d1406 1
+d1421 1

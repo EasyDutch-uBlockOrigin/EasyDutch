@@ -1,13 +1,12 @@
-diff name:easydutch lines:45 checksum:bc61ead84f
+diff name:easydutch lines:44 checksum:bc61ead84f
 d2 1
 a2 1
 ! Last updated: Sat, 11 Jul 2026 06:37:09 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.7.11.397.patch#easydutch
-d451 1
-d501 1
-a514 22
+d500 1
+a513 22
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,tostrams.nl##.footernetwork > :has-text(Gesponsorde links)
 iex.nl,beursduivel.be,tostrams.nl##.publisher-sh-spot
@@ -30,17 +29,17 @@ iculture.nl###ba-placeholder
 iculture.nl##[id^="gpt-ad-"]
 autoreview.nl##[id^="Autoreview.nl_ros_"]:upward(div[class*="ar_"])
 autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
-d721 6
-d915 2
-d961 3
-d1007 3
-d1012 3
-a1159 1
+d720 6
+d914 2
+d960 3
+d1006 3
+d1011 3
+a1158 1
 sportnieuws.nl##.banner-centered
-d1178 1
-d1184 4
-d1189 4
-d1195 4
-d1302 1
-d1406 1
-d1421 1
+d1177 1
+d1183 4
+d1188 4
+d1194 4
+d1301 1
+d1405 1
+d1420 1

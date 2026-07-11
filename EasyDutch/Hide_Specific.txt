@@ -1,7 +1,32 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 01 Jul 2026 19:16:45 +0000
+! Last updated: Sat, 11 Jul 2026 06:37:09 +0000
 !
+! 2026-07-11
+! IEX Media
+www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
+www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,tostrams.nl##.footernetwork > :has-text(Gesponsorde links)
+iex.nl,beursduivel.be,tostrams.nl##.publisher-sh-spot
+www.iex.nl##.js-banner
+www.iex.nl##.native_positie
+www.iex.nl##.rectanglewrap
+iexgeld.nl##.Rectangle
+iexgeld.nl##.LeaderboardContainer
+monitor.iex.nl##.centerbanner
+monitor.iex.nl##.leaderboard-down
+guruwatch.nl##.Billboard
+guruwatch.nl##.LargeRectangle
+guruwatch.nl##[class^="publisher-sh-spot"]
+participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
+tostrams.nl##[class*="banner"]
+tostrams.nl##[id*="banner"]
+! End IEX Media
+iculture.nl###fh-placeholder
+iculture.nl###ia-placeholder
+iculture.nl###ba-placeholder
+iculture.nl##[id^="gpt-ad-"]
+autoreview.nl##[id^="Autoreview.nl_ros_"]:upward(div[class*="ar_"])
+autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
 ! 2026-06-26
 blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
 luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
@@ -237,13 +262,6 @@ racesport.nl##.pnvp-ad-wrap ~ hr
 kalender-365.nl##[id^="dish-"]
 kalender-365.nl##.box_ag
 security.nl##.content_right > div.posting:has(> div.sidebar a[href^="https://www.security.nl/"])
-! 2026-04-13
-www.iex.nl##.banner
-www.iex.nl##.js-banner
-www.iex.nl##.network:has-text(Gesponsorde links)
-www.iex.nl##.native_positie
-www.iex.nl##.publisher-sh-spot
-www.iex.nl##.rectanglewrap
 ! 2026-04-12
 profielactueel.nl##.ads
 simone.nl##.elementor-section:has(.qt-spsfm)
@@ -472,8 +490,6 @@ nuus.be##.advertentie
 nuus.be###masthead:style(height:90px!important;)
 vnci.nl##.banner
 vnci.nl##.header.header--article:style(top: 0 !important;)
-belegger.nl,beurs.nl,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com##.banner
-beurs.nl##.addslot
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
 meetingmagazine.nl##.bannerLine
 jazznu.com###sp-advertisements-bottom
@@ -527,9 +543,6 @@ propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)
 dagelijkseverhalen.nl##.ads
 loten.nl###advbottom
-guruwatch.nl##.Billboard
-guruwatch.nl##.LargeRectangle
-guruwatch.nl##[class^="publisher-sh-spot"]
 rkvvo.nl##.divFooterBanner
 rkvvo.nl##.divHeaderBanner
 ! Mundaro
@@ -580,14 +593,8 @@ boerderij.nl###top_desktop_wrapper
 boerderij.nl##[class^="max-ad_mid"]
 boerderij.nl###bottom_desktop:upward(1)
 ibestuur.nl##.c-ad-slot:upward([class*="ad"])
-tostrams.nl##.publisher-sh-spot
-tostrams.nl##[class*="banner"]
-tostrams.nl##[id*="banner"]
 drimble.nl##[id^="drimble.nl_web_"]
 gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
-monitor.iex.nl##.centerbanner
-monitor.iex.nl##.leaderboard-down
-monitor.iex.nl##.publisher-sh-spot
 cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
 galaxyclub.nl##.bannercenter
@@ -753,6 +760,7 @@ nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
+sportnieuws.nl##.banner-centered
 tweakers.net##.top-banner
 ! End DPGMedia
 nieuwsuitnijmegen.nl,wijchensnieuws.nl##.js-banner-slider:upward(2)
@@ -774,27 +782,14 @@ hilversumsnieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 alblasserdamsnieuws.nl##div[id^="albla-"]
 touretappe.nl##.desktopad
 touretappe.nl###right .desktopad:upward(1)
-telefoonboek.nl##.contentbox__adsense
 telefoonboek.nl###tbresult-top
 techpulse.be##.magazine-sidebar-block
 techpulse.be##.wpb_wrapper:has( > div[class^="g"]):upward(section[class$="wpb_row height_small"]):not(:nth-of-type(1))
 mannenzaken.nl##[class*="r89-"]:upward(.raw-html-component)
 hagelandactueel.be,leuvenactueel.be##div[onclick="hideAdPopup()"]:upward(.component__pubble-banner)
-beursduivel.be##.banner
-beursduivel.be##.publisher-sh-spote
-iexprofs.nl##.banner
-iexprofs.nl##[class*="banner"]:not(.banner)
 tpo.nl##div[id^="r89-"]
-iculture.nl###fh-placeholder
-iculture.nl##.ad-top-desktop
-iculture.nl##.feed-ad-wrapper
-sportnieuws.nl##.banner-centered
 topgear.nl##.Pnvp__ad
 rtl.nl##div[data-adslot-variant]
-autoreview.nl##[id^="Autoreview.nl_ros_"]
-autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
-krefel.be##div.flex > h3:has-text(Gesponsorde producten):upward(div.flex)
-bol.com##div[data-bltgg*="considerationDisplay"]:has-text(Gesponsord)
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"]) + div[id^="block-"]
 ! 2024-01-16
@@ -941,7 +936,6 @@ creditexpo.nl##.banner
 dagbladdewest.com##.elementor-widget-slides:has(.swiper-wrapper)
 ! 2022-06-27
 kavelplatform.nl##.row > div:has([src*="uploads/banner"])
-participaties.nl##[id^="div-gpt-ad"]:upward(.taggrid__item)
 123geldzaken.nl##.widget_sponsor
 123geldzaken.nl##.widget_sponsorlinks
 ! 2022-06-22
@@ -1063,7 +1057,6 @@ startlijstjes.nl##.item:has([class^="item_special"]:has-text(tradetracker.net))
 eurocampings.nl##.js-mock-banner
 speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
-iexgeld.nl##.LeaderboardContainer
 webwereld.nl##.leaderBoardHolder
 deblueskrant.nl##.main-banner
 adultwebmaster.nl##.main-promo-bn-responsive
@@ -1078,7 +1071,6 @@ koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
 mijn-tv-gids.be##.pub
-iexgeld.nl##.Rectangle
 startpagina.nl##.top-banner
 buzzbie.nl##.TS_Banner_Spot
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
