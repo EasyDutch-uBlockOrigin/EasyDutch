@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-07-11
+iculture.nl###fh-placeholder
+iculture.nl###ia-placeholder
+iculture.nl###ba-placeholder
+iculture.nl##[id^="gpt-ad-"]
 autoreview.nl##[id^="Autoreview.nl_ros_"]:upward(div[class*="ar_"])
 autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
 ! 2026-06-26
@@ -789,9 +793,6 @@ beursduivel.be##.publisher-sh-spote
 iexprofs.nl##.banner
 iexprofs.nl##[class*="banner"]:not(.banner)
 tpo.nl##div[id^="r89-"]
-iculture.nl###fh-placeholder
-iculture.nl##.ad-top-desktop
-iculture.nl##.feed-ad-wrapper
 topgear.nl##.Pnvp__ad
 rtl.nl##div[data-adslot-variant]
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
