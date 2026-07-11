@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-07-11
+autoreview.nl##[id^="Autoreview.nl_ros_"]:upward(div[class*="ar_"])
+autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
 ! 2026-06-26
 blikopnieuws.nl##aside section[id^="block-"]:has(a[target="_blank"] img)
 luchtvaartnieuws.nl##.content > .pgAdWrapper:upward([id^="block-block-"])
@@ -791,8 +794,6 @@ iculture.nl##.feed-ad-wrapper
 sportnieuws.nl##.banner-centered
 topgear.nl##.Pnvp__ad
 rtl.nl##div[data-adslot-variant]
-autoreview.nl##[id^="Autoreview.nl_ros_"]
-autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"]) + div[id^="block-"]
 ! 2024-01-16
