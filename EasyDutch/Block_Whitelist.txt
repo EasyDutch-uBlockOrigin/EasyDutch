@@ -23,8 +23,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dailybuzz.nl
 ! 2021-12-14
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
-! 2021-11-03
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sportnieuws.nl
 ! 2021-04-27
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php
