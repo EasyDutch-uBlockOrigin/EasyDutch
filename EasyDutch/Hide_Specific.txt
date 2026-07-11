@@ -756,6 +756,7 @@ nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
 sportnieuws.nl##.ad-placeholder:upward(div.news-item)
+sportnieuws.nl##.banner-centered
 tweakers.net##.top-banner
 ! End DPGMedia
 nieuwsuitnijmegen.nl,wijchensnieuws.nl##.js-banner-slider:upward(2)
@@ -791,7 +792,6 @@ tpo.nl##div[id^="r89-"]
 iculture.nl###fh-placeholder
 iculture.nl##.ad-top-desktop
 iculture.nl##.feed-ad-wrapper
-sportnieuws.nl##.banner-centered
 topgear.nl##.Pnvp__ad
 rtl.nl##div[data-adslot-variant]
 messianieuws.nl##a[target="_blank"]:not([href*="messianieuws.nl"]) > img[src*="messianieuws.nl/wp-content/uploads"]:upward(div[id^="block-"])
