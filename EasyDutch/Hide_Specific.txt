@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-07-11
+ieximpact.nl##.banner
 iculture.nl###fh-placeholder
 iculture.nl###ia-placeholder
 iculture.nl###ba-placeholder
@@ -790,8 +791,6 @@ mannenzaken.nl##[class*="r89-"]:upward(.raw-html-component)
 hagelandactueel.be,leuvenactueel.be##div[onclick="hideAdPopup()"]:upward(.component__pubble-banner)
 beursduivel.be##.banner
 beursduivel.be##.publisher-sh-spote
-iexprofs.nl##.banner
-iexprofs.nl##[class*="banner"]:not(.banner)
 tpo.nl##div[id^="r89-"]
 topgear.nl##.Pnvp__ad
 rtl.nl##div[data-adslot-variant]
