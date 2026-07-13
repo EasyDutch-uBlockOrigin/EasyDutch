@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 11 Jul 2026 06:37:09 +0000
+! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
 !
 ! 2026-07-11
 ! IEX Media
@@ -63,7 +63,7 @@ rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 ! InfoPlaza.com
 9292.nl##[data-testid="ad-root"]
 9292.nl##astro-island[component-export="Ad"]
-buienalarm.nl##.banner
+buienalarm.be,buienalarm.nl##.banner
 weerplaza.nl##.banner
 meteovista.be,weeronline.nl##.fullScreenAdWrapper
 meteovista.be,weeronline.nl##.fullScreenAdWrapper + div

@@ -1,10 +1,10 @@
-diff name:easydutch lines:44 checksum:bc61ead84f
+diff name:easydutch lines:47 checksum:f052d94c33
 d2 1
 a2 1
-! Last updated: Sat, 11 Jul 2026 06:37:09 +0000
+! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.11.397.patch#easydutch
+! Diff-Path: patches/2026.7.13.650.patch#easydutch
 d500 1
 a513 22
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
@@ -29,6 +29,9 @@ iculture.nl###ba-placeholder
 iculture.nl##[id^="gpt-ad-"]
 autoreview.nl##[id^="Autoreview.nl_ros_"]:upward(div[class*="ar_"])
 autoreview.nl##[data-click-out-event] > [onclick^='window.nad']:upward(div.sm\:justify-between)
+d542 1
+a542 1
+buienalarm.be,buienalarm.nl##.banner
 d720 6
 d914 2
 d960 3

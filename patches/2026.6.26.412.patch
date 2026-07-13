@@ -1,10 +1,10 @@
-diff name:easydutch lines:75 checksum:bc61ead84f
+diff name:easydutch lines:78 checksum:f052d94c33
 d2 1
 a2 1
-! Last updated: Sat, 11 Jul 2026 06:37:09 +0000
+! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.11.397.patch#easydutch
+! Diff-Path: patches/2026.7.13.650.patch#easydutch
 d19 1
 a19 1
 /gaslicht/gaslicht*$frame
@@ -51,6 +51,9 @@ nieuwsmotor.nl##.a2t-link:upward(.uk-grid)
 d517 1
 a517 1
 agroline.be,agroline24.nl,autoline.be,autoline.nl,machineryline.be,machineryline.nl##.context-adv-block
+d541 1
+a541 1
+buienalarm.be,buienalarm.nl##.banner
 d719 6
 d913 2
 d959 3
