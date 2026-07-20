@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
+! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
 !
 ! 2026-07-11
 ! IEX Media
@@ -512,6 +512,7 @@ dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-bann
 dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner
 ! End Media Totaal Noord BV
 ! Entermedia
+belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##.component__pubble-banner:has-text(/Uit de krant|advert/)
 ! End EnterMedia
@@ -777,7 +778,6 @@ boek9.nl###block-views-block-advertisements-ads-left
 boek9.nl###block-views-block-advertisements-ads-right
 groningerkrant.nl##ins.adsbygoogle[data-ad-slot]:upward(.code-block)
 groningerkrant.nl##.sidebar ins.adsbygoogle[data-ad-slot]:upward(.widget)
-hilversumsnieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 ! 2026-01-31
 alblasserdamsnieuws.nl##div[id^="albla-"]
 touretappe.nl##.desktopad

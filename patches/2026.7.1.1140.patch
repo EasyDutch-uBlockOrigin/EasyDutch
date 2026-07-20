@@ -1,10 +1,10 @@
-diff name:easydutch lines:63 checksum:f052d94c33
+diff name:easydutch lines:67 checksum:38818da48a
 d2 1
 a2 1
-! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
+! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.13.650.patch#easydutch
+! Diff-Path: patches/2026.7.20.504.patch#easydutch
 d19 1
 a19 1
 /gaslicht/gaslicht*$frame
@@ -16,6 +16,7 @@ d73 1
 d97 1
 a97 1
 ||cashpartners.eu^$3p
+d374 1
 d451 1
 d501 1
 a514 22
@@ -46,6 +47,8 @@ a543 1
 buienalarm.be,buienalarm.nl##.banner
 d721 6
 d915 2
+a933 1
+belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 d961 3
 d1007 3
 d1012 3
@@ -55,6 +58,7 @@ gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limbu
 d1105 3
 a1162 1
 sportnieuws.nl##.banner-centered
+d1177 1
 d1181 1
 d1187 4
 d1192 4

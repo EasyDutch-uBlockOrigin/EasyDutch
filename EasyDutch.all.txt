@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
+! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.7.13.650.patch#easydutch
+! Diff-Path: patches/2026.7.20.504.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -371,7 +371,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||radiostadmontfoort.nl/cms/img/ads/$image
 ||boek9.nl/sites/default/files/advertisements/
 ||boek9.nl/sites/default/files/rotating-banners/
-||cdn.pijper.io/*/*_article-banner.*$image,domain=playboy.nl
 ||resources.planetnine.com/scripts/$script,domain=topgear.nl
 ||grandprixradio.nl/*/advertisements/
 ||knhs.nl/media/*/*-banner$image
@@ -943,6 +942,7 @@ kn.nl##.elementor-widget-heading:has-text(/advert/i):upward([data-element_type="
 eemslander.info,inmidden-drenthe.info,koerier.info,nieuwsbode.info,ommelander.info,oostermoer.info,regiokrant.info,schakel.info##.component__pubble-banner
 dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner:upward(.builder__row:not(.grid))
 dekrantnieuws.nl,dekrantvantynaarlo.nl,destreekkrant.nu##.component__pubble-banner
+belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##.component__pubble-banner:has-text(/Uit de krant|advert/)
 achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
@@ -1175,7 +1175,6 @@ boek9.nl###block-views-block-advertisements-ads-left
 boek9.nl###block-views-block-advertisements-ads-right
 groningerkrant.nl##ins.adsbygoogle[data-ad-slot]:upward(.code-block)
 groningerkrant.nl##.sidebar ins.adsbygoogle[data-ad-slot]:upward(.widget)
-hilversumsnieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 alblasserdamsnieuws.nl##div[id^="albla-"]
 touretappe.nl##.desktopad
 touretappe.nl###right .desktopad:upward(1)

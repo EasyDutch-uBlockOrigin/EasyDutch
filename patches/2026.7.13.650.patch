@@ -1,4 +1,4 @@
-diff name:easydutch lines:13 checksum:38818da48a
+diff name:easydutch lines:10 checksum:38818da48a
 d2 1
 a2 1
 ! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
@@ -6,9 +6,6 @@ d4 1
 a4 1
 ! Diff-Path: patches/2026.7.20.504.patch#easydutch
 d374 1
-d563 1
-a563 1
-buienalarm.be,buienalarm.nl##.banner
 a945 1
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 d1178 1

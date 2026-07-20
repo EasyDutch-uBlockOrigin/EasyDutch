@@ -1,10 +1,10 @@
-diff name:easydutch lines:55 checksum:f052d94c33
+diff name:easydutch lines:59 checksum:38818da48a
 d2 1
 a2 1
-! Last updated: Mon, 13 Jul 2026 10:50:26 +0000
+! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.13.650.patch#easydutch
+! Diff-Path: patches/2026.7.20.504.patch#easydutch
 a59 2
 ||cryptosplash.care^$3p
 ||typegc.care^$3p
@@ -12,6 +12,7 @@ d72 1
 d96 1
 a96 1
 ||cashpartners.eu^$3p
+d373 1
 d450 1
 d500 1
 a513 22
@@ -42,11 +43,14 @@ a542 1
 buienalarm.be,buienalarm.nl##.banner
 d720 6
 d914 2
+a932 1
+belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##script:has-text(adSlot):upward(.component__plugin)
 d960 3
 d1006 3
 d1011 3
 a1158 1
 sportnieuws.nl##.banner-centered
+d1173 1
 d1177 1
 d1183 4
 d1188 4
