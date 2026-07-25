@@ -742,7 +742,7 @@ ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubanti
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##div.x-pack__tile:has(.dfp-space)
 alarmeringen.nl##.ad
 autoweek.nl##.advertise
-autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
+autoweek.nl##.commercial
 autowereld.nl###mainbanner
 autowereld.nl##[id^="banner-lister"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
