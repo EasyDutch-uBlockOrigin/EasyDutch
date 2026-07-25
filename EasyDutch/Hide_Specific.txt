@@ -748,11 +748,11 @@ autowereld.nl###mainbanner
 businesswise.nl,flair.nl,libelle.nl,oudersvannu.nl,story.nl##[class*="ArticleContentWrapper"] > div[class^="adBlock-module"]
 cinenews.be##.ads
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
-deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
-deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
-deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 nu.nl##.banner
 nu.nl##aside .banner + .app-divider
