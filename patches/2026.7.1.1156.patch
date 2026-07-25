@@ -1,10 +1,10 @@
-diff name:easydutch lines:63 checksum:38818da48a
+diff name:easydutch lines:68 checksum:610498fb62
 d2 1
 a2 1
-! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
+! Last updated: Sat, 25 Jul 2026 10:00:43 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.20.504.patch#easydutch
+! Diff-Path: patches/2026.7.25.600.patch#easydutch
 d19 1
 a19 1
 /gaslicht/gaslicht*$frame
@@ -52,6 +52,11 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 d961 3
 d1007 3
 d1012 3
+d1153 1
+d1155 1
+a1155 2
+margriet.nl##section[class$="__adBlockDesktop"]
+margriet.nl##section[class^="CategoryBottomAd"]
 a1159 1
 sportnieuws.nl##.banner-centered
 d1174 1

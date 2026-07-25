@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
+! Last updated: Sat, 25 Jul 2026 10:00:43 +0000
 !
 ! 2026-07-11
 ! IEX Media
@@ -754,9 +754,9 @@ humo.be##.oortje-wrapper
 deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
 deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
-livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
-margriet.nl##[class$="__adblock"]
+margriet.nl##section[class$="__adBlockDesktop"]
+margriet.nl##section[class^="CategoryBottomAd"]
 nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
