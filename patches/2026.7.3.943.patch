@@ -1,10 +1,10 @@
-diff name:easydutch lines:70 checksum:253615cca6
+diff name:easydutch lines:74 checksum:0223d90517
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 11:20:06 +0000
+! Last updated: Sat, 25 Jul 2026 11:31:21 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.680.patch#easydutch
+! Diff-Path: patches/2026.7.25.691.patch#easydutch
 a59 2
 ||cryptosplash.care^$3p
 ||typegc.care^$3p
@@ -48,8 +48,12 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 d960 3
 d1006 3
 d1011 3
+d1140 2
+a1141 1
+autoweek.nl##.commercial
 d1143 1
-a1143 5
+a1143 6
+autowereld.nl##[id^="banner-lister"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]

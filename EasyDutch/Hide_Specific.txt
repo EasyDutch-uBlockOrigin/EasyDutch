@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 25 Jul 2026 11:20:06 +0000
+! Last updated: Sat, 25 Jul 2026 11:31:21 +0000
 !
 ! 2026-07-11
 ! IEX Media
@@ -742,9 +742,9 @@ ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubanti
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##div.x-pack__tile:has(.dfp-space)
 alarmeringen.nl##.ad
 autoweek.nl##.advertise
-autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
-autowereld.nl###banner-lister-top
+autoweek.nl##.commercial
 autowereld.nl###mainbanner
+autowereld.nl##[id^="banner-lister"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
