@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 25 Jul 2026 10:15:26 +0000
+! Last updated: Sat, 25 Jul 2026 11:20:06 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.7.25.615.patch#easydutch
+! Diff-Path: patches/2026.7.25.680.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1144,15 +1144,15 @@ autoweek.nl##.advertise
 autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
 autowereld.nl###banner-lister-top
 autowereld.nl###mainbanner
-businesswise.nl,flair.nl,libelle.nl,oudersvannu.nl,story.nl##[class*="ArticleContentWrapper"] > div[class^="adBlock-module"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##.temptation-anchor-ARTICLE_INLINE:upward(1)
+kidsweek.nl,oudersvannu.nl,story.nl##.temptation-anchor-TOP_OF_FOOTER:upward(1)
 cinenews.be##.ads
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
-deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
-deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
-deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
-kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner

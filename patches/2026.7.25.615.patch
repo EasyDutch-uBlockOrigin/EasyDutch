@@ -1,4 +1,4 @@
-diff name:easydutch lines:17 checksum:253615cca6
+diff name:easydutch lines:14 checksum:253615cca6
 d2 1
 a2 1
 ! Last updated: Sat, 25 Jul 2026 11:20:06 +0000
@@ -12,7 +12,4 @@ businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,s
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##.temptation-anchor-ARTICLE_INLINE:upward(1)
 kidsweek.nl,oudersvannu.nl,story.nl##.temptation-anchor-TOP_OF_FOOTER:upward(1)
-d1150 1
-a1150 1
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
-d1152 7
+d1152 4

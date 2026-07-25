@@ -1,10 +1,10 @@
-diff name:easydutch lines:60 checksum:58c5b33984
+diff name:easydutch lines:62 checksum:253615cca6
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 10:15:26 +0000
+! Last updated: Sat, 25 Jul 2026 11:20:06 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.615.patch#easydutch
+! Diff-Path: patches/2026.7.25.680.patch#easydutch
 d374 1
 d500 1
 a513 22
@@ -40,15 +40,17 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 d960 3
 d1006 3
 d1011 3
+d1143 1
+a1143 5
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
+businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##.temptation-anchor-ARTICLE_INLINE:upward(1)
+kidsweek.nl,oudersvannu.nl,story.nl##.temptation-anchor-TOP_OF_FOOTER:upward(1)
 d1146 1
 a1146 1
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
-d1148 3
-a1150 3
-deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
-deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
-deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
-d1152 3
+d1148 7
 a1158 1
 sportnieuws.nl##.banner-centered
 d1173 1
