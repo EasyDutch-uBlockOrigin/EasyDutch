@@ -743,8 +743,8 @@ ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubanti
 alarmeringen.nl##.ad
 autoweek.nl##.advertise
 autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
-autowereld.nl###banner-lister-top
 autowereld.nl###mainbanner
+autowereld.nl##[id^="banner-lister"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
 businesswise.nl,deondernemer.nl,flair.nl,libelle.nl,margriet.nl,oudersvannu.nl,story.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
