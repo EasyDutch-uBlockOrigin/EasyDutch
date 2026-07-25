@@ -751,12 +751,10 @@ demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(>
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
 humo.be##.oortje-wrapper
-deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
-deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
+deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
-margriet.nl##[class$="__advertisement"]
-margriet.nl##section[class$="__adBlockDesktop"]
-margriet.nl##section[class^="CategoryBottomAd"]
 nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
