@@ -1,10 +1,10 @@
-diff name:easydutch lines:72 checksum:610498fb62
+diff name:easydutch lines:76 checksum:58c5b33984
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 10:00:43 +0000
+! Last updated: Sat, 25 Jul 2026 10:15:26 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.600.patch#easydutch
+! Diff-Path: patches/2026.7.25.615.patch#easydutch
 d19 1
 a19 1
 /gaslicht/gaslicht*$frame
@@ -56,11 +56,15 @@ d1103 1
 a1103 1
 gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limburger.nl,noordhollandsdagblad.nl,sikkom.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
 d1105 3
-d1156 1
-d1158 1
-a1158 2
-margriet.nl##section[class$="__adBlockDesktop"]
-margriet.nl##section[class^="CategoryBottomAd"]
+d1150 1
+a1150 1
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+d1152 3
+a1154 3
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
+d1156 3
 a1162 1
 sportnieuws.nl##.banner-centered
 d1177 1

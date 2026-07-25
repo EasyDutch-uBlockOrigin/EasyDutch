@@ -1,10 +1,10 @@
-diff name:easydutch lines:64 checksum:610498fb62
+diff name:easydutch lines:68 checksum:58c5b33984
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 10:00:43 +0000
+! Last updated: Sat, 25 Jul 2026 10:15:26 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.600.patch#easydutch
+! Diff-Path: patches/2026.7.25.615.patch#easydutch
 a59 2
 ||cryptosplash.care^$3p
 ||typegc.care^$3p
@@ -48,11 +48,15 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 d960 3
 d1006 3
 d1011 3
-d1152 1
-d1154 1
-a1154 2
-margriet.nl##section[class$="__adBlockDesktop"]
-margriet.nl##section[class^="CategoryBottomAd"]
+d1146 1
+a1146 1
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+d1148 3
+a1150 3
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
+d1152 3
 a1158 1
 sportnieuws.nl##.banner-centered
 d1173 1

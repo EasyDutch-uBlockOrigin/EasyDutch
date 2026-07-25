@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 25 Jul 2026 10:00:43 +0000
+! Last updated: Sat, 25 Jul 2026 10:15:26 +0000
 !
 ! 2026-07-11
 ! IEX Media
@@ -748,15 +748,12 @@ autowereld.nl###mainbanner
 businesswise.nl,flair.nl,libelle.nl,oudersvannu.nl,story.nl##[class*="ArticleContentWrapper"] > div[class^="adBlock-module"]
 cinenews.be##.ads
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
-demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##div[id][class]:matches-css(before, content: /Advertentie/)
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
-humo.be##.oortje-wrapper
-deondernemer.nl,vtwonen.be,vtwonen.nl##section [data-adslot]:upward(1)
-deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
+deondernemer.nl,margriet.nl,veronicasuperguide.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
-margriet.nl##[class$="__advertisement"]
-margriet.nl##section[class$="__adBlockDesktop"]
-margriet.nl##section[class^="CategoryBottomAd"]
 nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
