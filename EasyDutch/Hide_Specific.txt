@@ -750,7 +750,6 @@ cinenews.be##.ads
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[class$="container"]:has(> div[class]:matches-css(before, content: /Advertentie/))
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl,veronicasuperguide.nl##div[id][class]:matches-css(before, content: /Advertentie/)
 demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##[data-temptation-position="OORTJE"]
-humo.be##.oortje-wrapper
 deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##[class$="__advertisement"]
 deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##section[class$="__adBlockDesktop"]
 deondernemer.nl,margriet.nl,vtwonen.be,vtwonen.nl##section[class^="CategoryBottomAd"]
