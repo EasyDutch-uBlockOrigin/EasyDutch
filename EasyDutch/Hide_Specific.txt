@@ -756,7 +756,8 @@ deondernemer.nl,vtwonen.be,vtwonen.nl##section > span:has-text(advertentie)
 kidsweek.nl##[data-testid="marketing-position-TOP_OF_FOOTER"]:upward(.Footer)
 livios.be##.block-leaderboard
 margriet.nl##[class$="__advertisement"]
-margriet.nl##[class$="__adblock"]
+margriet.nl##section[class$="__adBlockDesktop"]
+margriet.nl##section[class^="CategoryBottomAd"]
 nu.nl##.banner
 nu.nl##aside .banner + .app-divider
 qmusic.be,qmusic.nl##.c-banner
