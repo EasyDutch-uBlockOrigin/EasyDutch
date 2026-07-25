@@ -1,10 +1,10 @@
-diff name:easydutch lines:67 checksum:0223d90517
+diff name:easydutch lines:71 checksum:2a91c7d691
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 11:31:21 +0000
+! Last updated: Sat, 25 Jul 2026 11:42:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.691.patch#easydutch
+! Diff-Path: patches/2026.7.25.702.patch#easydutch
 d374 1
 d451 1
 d501 1
@@ -41,6 +41,10 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 d961 3
 d1007 3
 d1012 3
+d1135 1
+a1135 1
+ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
+d1138 1
 d1141 2
 a1142 1
 autoweek.nl##.commercial

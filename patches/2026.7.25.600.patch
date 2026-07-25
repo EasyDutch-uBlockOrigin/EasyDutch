@@ -1,10 +1,14 @@
-diff name:easydutch lines:21 checksum:0223d90517
+diff name:easydutch lines:25 checksum:2a91c7d691
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 11:31:21 +0000
+! Last updated: Sat, 25 Jul 2026 11:42:04 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.691.patch#easydutch
+! Diff-Path: patches/2026.7.25.702.patch#easydutch
+d1138 1
+a1138 1
+ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
+d1141 1
 d1144 2
 a1145 1
 autoweek.nl##.commercial
