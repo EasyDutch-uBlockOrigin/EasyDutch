@@ -1,10 +1,10 @@
-diff name:easydutch lines:71 checksum:2a91c7d691
+diff name:easydutch lines:71 checksum:1dc47d1a7d
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 11:42:04 +0000
+! Last updated: Sat, 25 Jul 2026 11:51:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.702.patch#easydutch
+! Diff-Path: patches/2026.7.25.711.patch#easydutch
 d374 1
 d451 1
 d501 1
@@ -43,7 +43,7 @@ d1007 3
 d1012 3
 d1135 1
 a1135 1
-ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
+ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
 d1138 1
 d1141 2
 a1142 1
