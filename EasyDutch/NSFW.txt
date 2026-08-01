@@ -34,7 +34,6 @@
 ||pathxy.com/bn/generators/$script,3p
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||pornoexpert.nl/img/950x250_*.gif$image
-||securetool.nl/data/mouse-out/$script,3p
 ||sexervaringendelen.nl/porno/$image
 ||snapshots.wseengine.com/snapshots/*/snapshot.$image,3p
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
