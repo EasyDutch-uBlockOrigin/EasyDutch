@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 25 Jul 2026 11:51:09 +0000
+! Last updated: Sat, 01 Aug 2026 11:11:54 +0000
 !
 ! 2026-07-11
 ! IEX Media
@@ -57,7 +57,6 @@ welkevogelisdit.nl##h2:has-text(Advert):upward(div.block-block)
 hockey.nl##[data-gtm-component="ad-banner"]
 wielerflits.be,wielerflits.nl##.advertisement
 ecobioliving.eu##div[id^="ezoic-pub-ad-"]:upward(section[id^="custom_html"])
-menselijklichaam.nl##div[id^="ad"]
 rtvideaal.nl##.lnn-item-container:has-text(Advert):upward(section[id^="block"])
 ! 2026-06-06
 ! InfoPlaza.com

@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Mon, 20 Jul 2026 08:24:24 +0000
+! Last updated: Sat, 01 Aug 2026 11:11:54 +0000
 !
 ! 2026-06-26
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
@@ -319,8 +319,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
 ||uitslagen.nl/banner/img$image
-! 2023-10-23
-||ecdn.menselijklichaam.nl/banners/$image
 ! 2023-10-16
 ||rushcommerce.com/banners*$3p
 ! 2023-07-01

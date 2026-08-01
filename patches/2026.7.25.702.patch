@@ -1,10 +1,13 @@
-diff name:easydutch lines:9 checksum:1dc47d1a7d
+diff name:easydutch lines:12 checksum:56acb0d0df
 d2 1
 a2 1
-! Last updated: Sat, 25 Jul 2026 11:51:09 +0000
+! Last updated: Sat, 01 Aug 2026 11:11:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.7.25.711.patch#easydutch
+! Diff-Path: patches/2026.8.1.671.patch#easydutch
+d397 1
+d558 1
 d1138 1
 a1138 1
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
+d1510 1
