@@ -319,8 +319,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ||admin.ditjesendatjes.nl/wp-content/uploads/dirk$image
 ||admin.ditjesendatjes.nl/wp-content/uploads/Logo_Dirck$image
 ||uitslagen.nl/banner/img$image
-! 2023-10-23
-||ecdn.menselijklichaam.nl/banners/$image
 ! 2023-10-16
 ||rushcommerce.com/banners*$3p
 ! 2023-07-01
