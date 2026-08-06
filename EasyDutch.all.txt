@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 01 Aug 2026 11:11:54 +0000
+! Last updated: Thu, 06 Aug 2026 14:46:27 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.1.671.patch#easydutch
+! Diff-Path: patches/2026.8.6.886.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -508,6 +508,7 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,tostrams.nl##.footernetwork > :has-text(Gesponsorde links)
 iex.nl,beursduivel.be,tostrams.nl##.publisher-sh-spot

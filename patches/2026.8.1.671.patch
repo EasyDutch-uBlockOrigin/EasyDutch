@@ -1,12 +1,9 @@
-diff name:easydutch lines:11 checksum:ab8de0f187
+diff name:easydutch lines:8 checksum:ab8de0f187
 d2 1
 a2 1
 ! Last updated: Thu, 06 Aug 2026 14:46:27 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.8.6.886.patch#easydutch
-d397 1
-a511 1
+a510 1
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
-d558 1
-d1510 1
