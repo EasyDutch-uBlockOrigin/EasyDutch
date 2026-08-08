@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-08-08
+boodschappen.nl##[id^="ad-"]:upward(2)
+boodschappen.nl##[aria-label="Uitgelichte producten"]
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 motorrijder.be##div[class*="-banner-"]
 marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)
