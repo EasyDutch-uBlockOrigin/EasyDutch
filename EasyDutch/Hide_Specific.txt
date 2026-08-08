@@ -680,8 +680,8 @@ autosport.nl##.horizontal
 motorblog.nl##.sale
 ! NPO
 nporadio1.nl,nporadio2.nl,npo3fm.nl,npoklassiek.nl,nporadio5.nl,funx.nl##[id^="adid"]:upward(2)
-bnnvara.nl##div[id^="ster-ad-bnnvara-"]:upward(1)
-maxvandaag.nl##main > .container:has(.sterWrapper)
+bnnvara.nl###sterad:upward(1)
+maxvandaag.nl##div.sterWrapper
 ! End NPO
 biernet.nl###banTop
 biernet.nl###BJA_LEADER1
