@@ -1,7 +1,21 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 08 Aug 2026 11:02:40 +0000
+! Last updated: Sat, 08 Aug 2026 11:22:18 +0000
 !
+! 2026-08-08
+motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
+motorrijder.be##div[class*="-banner-"]
+marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)
+marktplaats.nl,2dehands.be###banner-top-dt
+marktplaats.nl,2dehands.be##.BrandTileBanner-module-container
+marktplaats.nl,2dehands.be##.hz-FeedBannerBlock
+marktplaats.nl,2dehands.be###adsense-container
+marktplaats.nl,2dehands.be##.bannerContainerLoading
+marktplaats.nl,2dehands.be##.hz-Banner
+marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
+marktplaats.nl,2dehands.be##.BannerRight-root
+marktplaats.nl,2dehands.be##.right-banner-root-container
+marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 ! 2026-08-06
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 ! 2026-07-11
@@ -707,17 +721,6 @@ dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
 ! End Mediahuis.nl
 funda.nl##.justify-center[role="complementary"]:has-text(Advert)
-marktplaats.nl,2dehands.be###adsense-container
-marktplaats.nl,2dehands.be###banner-top-dt
-marktplaats.nl,2dehands.be##.bannerContainerLoading
-marktplaats.nl,2dehands.be##.BannerBottom-root
-marktplaats.nl,2dehands.be##.BannerRight-root
-marktplaats.nl,2dehands.be##.Banners-bannerFeedItem
-marktplaats.nl,2dehands.be##.hz-Banner
-marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)
-marktplaats.nl,2dehands.be##.right-banner-root-container
-marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 ajaxreport.nl,feyenoordreport.nl,feyenoordrss.nl,formule1rss.nl,onlinecasinorss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,voetbalsnafu.nl,voetbalwedtipsrss.nl##.widget_links
 ajaxreport.nl##[id^="text"][class$="sidebar-widget"]:has-text(/casino/i):not(:has(div[class="widget-title"]))
 voetbalweddenrss.nl##[class$="sidebar-widget"]:has(p > a[href*="casino"]):not(:has(div[class="widget-title"]))
@@ -861,7 +864,6 @@ waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack
 ! 2023-04-27
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
-motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
 ! 2023-04-24

@@ -1,15 +1,28 @@
-diff name:easydutch lines:26 checksum:6faeb9b5c3
+diff name:easydutch lines:41 checksum:17958c3924
 d2 1
 a2 1
-! Last updated: Sat, 08 Aug 2026 11:02:40 +0000
+! Last updated: Sat, 08 Aug 2026 11:22:18 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.8.662.patch#easydutch
+! Diff-Path: patches/2026.8.8.682.patch#easydutch
 d359 1
 a359 1
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
 d397 1
-a511 1
+a511 14
+motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
+motorrijder.be##div[class*="-banner-"]
+marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)
+marktplaats.nl,2dehands.be###banner-top-dt
+marktplaats.nl,2dehands.be##.BrandTileBanner-module-container
+marktplaats.nl,2dehands.be##.hz-FeedBannerBlock
+marktplaats.nl,2dehands.be###adsense-container
+marktplaats.nl,2dehands.be##.bannerContainerLoading
+marktplaats.nl,2dehands.be##.hz-Banner
+marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
+marktplaats.nl,2dehands.be##.BannerRight-root
+marktplaats.nl,2dehands.be##.right-banner-root-container
+marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 d558 1
 d1092 2
@@ -20,8 +33,10 @@ d1104 3
 a1106 2
 dvhn.nl,flevopost.nl,frieschdagblad.nl,gooieneemlander.nl,haarlemsdagblad.nl,hoogeveenschecourant.nl,ijmuidercourant.nl,lc.nl,leidschdagblad.nl,limburger.nl,meppelercourant.nl,nieuweooststellingwerver.nl,noordhollandsdagblad.nl,sikkom.nl,steenwijkercourant.nl,stellingwerf.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
 dvhn.nl,flevopost.nl,frieschdagblad.nl,gooieneemlander.nl,haarlemsdagblad.nl,hoogeveenschecourant.nl,ijmuidercourant.nl,lc.nl,leidschdagblad.nl,limburger.nl,meppelercourant.nl,nieuweooststellingwerver.nl,noordhollandsdagblad.nl,sikkom.nl,steenwijkercourant.nl,stellingwerf.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
+d1114 11
 d1138 1
 a1138 1
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
 d1141 1
+d1238 1
 d1511 1

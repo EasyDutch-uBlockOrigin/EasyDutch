@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 08 Aug 2026 11:02:40 +0000
+! Last updated: Sat, 08 Aug 2026 11:22:18 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.8.662.patch#easydutch
+! Diff-Path: patches/2026.8.8.682.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -508,6 +508,19 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
+motorrijder.be##div[class*="-banner-"]
+marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)
+marktplaats.nl,2dehands.be###banner-top-dt
+marktplaats.nl,2dehands.be##.BrandTileBanner-module-container
+marktplaats.nl,2dehands.be##.hz-FeedBannerBlock
+marktplaats.nl,2dehands.be###adsense-container
+marktplaats.nl,2dehands.be##.bannerContainerLoading
+marktplaats.nl,2dehands.be##.hz-Banner
+marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
+marktplaats.nl,2dehands.be##.BannerRight-root
+marktplaats.nl,2dehands.be##.right-banner-root-container
+marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,tostrams.nl##.footernetwork > :has-text(Gesponsorde links)
@@ -1109,17 +1122,6 @@ dumpert.nl##[class^="css-"] [id^="ad_interscroller"]:upward(2)
 dumpert.nl##aside .ad:upward(2)
 dumpert.nl##article .ad:upward(2)
 funda.nl##.justify-center[role="complementary"]:has-text(Advert)
-marktplaats.nl,2dehands.be###adsense-container
-marktplaats.nl,2dehands.be###banner-top-dt
-marktplaats.nl,2dehands.be##.bannerContainerLoading
-marktplaats.nl,2dehands.be##.BannerBottom-root
-marktplaats.nl,2dehands.be##.BannerRight-root
-marktplaats.nl,2dehands.be##.Banners-bannerFeedItem
-marktplaats.nl,2dehands.be##.hz-Banner
-marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)
-marktplaats.nl,2dehands.be##.right-banner-root-container
-marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 ajaxreport.nl,feyenoordreport.nl,feyenoordrss.nl,formule1rss.nl,onlinecasinorss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,voetbalsnafu.nl,voetbalwedtipsrss.nl##.widget_links
 ajaxreport.nl##[id^="text"][class$="sidebar-widget"]:has-text(/casino/i):not(:has(div[class="widget-title"]))
 voetbalweddenrss.nl##[class$="sidebar-widget"]:has(p > a[href*="casino"]):not(:has(div[class="widget-title"]))
@@ -1232,7 +1234,6 @@ waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 wegdamnieuws.nl##.ads-stack
 apintie.sr###left-inside > div[style$="px;"]:not(:has(a[href]))
-motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 sliedrecht24.nl##[id$="random_ads"]
 spidersolitairespelen.nl##.b_i_bg
 gaslicht.com##.c-comparison-list__usp-label:has-text(Adv):upward(.c-comparison-list__item)
