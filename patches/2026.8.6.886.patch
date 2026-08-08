@@ -1,16 +1,11 @@
-diff name:easydutch lines:15 checksum:cd9270727b
+diff name:easydutch lines:10 checksum:cd9270727b
 d2 1
 a2 1
 ! Last updated: Sat, 08 Aug 2026 09:59:42 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.8.8.599.patch#easydutch
-d397 1
-a511 1
-mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
-d558 1
-d1092 2
-a1093 2
+d1091 2
+a1092 2
 bnnvara.nl###sterad:upward(1)
 maxvandaag.nl##div.sterWrapper
-d1510 1

@@ -1,14 +1,18 @@
-diff name:easydutch lines:14 checksum:ab8de0f187
+diff name:easydutch lines:18 checksum:cd9270727b
 d2 1
 a2 1
-! Last updated: Thu, 06 Aug 2026 14:46:27 +0000
+! Last updated: Sat, 08 Aug 2026 09:59:42 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.6.886.patch#easydutch
+! Diff-Path: patches/2026.8.8.599.patch#easydutch
 d397 1
 a511 1
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 d558 1
+d1092 2
+a1093 2
+bnnvara.nl###sterad:upward(1)
+maxvandaag.nl##div.sterWrapper
 d1138 1
 a1138 1
 ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,indebuurt.nl,hln.be,pzc.nl,tubantia.nl##.advertisement
