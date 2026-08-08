@@ -695,9 +695,8 @@ nljug.org###sidebar .widget:has(a[href^="https://devitjobs.nl/jobs/"])
 nljug.org##[id^="custom_html-"]:has-text(Kennispartners):has(a[href] > img)
 ! 2026-02-03
 ! Mediahuis.nl
-telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
-balkstercourant.nl,denoordoostpolder.nl,dvhn.nl,flevopost.nl,frieschdagblad.nl,hoogeveenschecourant.nl,lc.nl,meppelercourant.nl,nieuweooststellingwerver.nl,denoordoostpolder.nl,steenwijkercourant.nl,stellingwerf.nl##[id^="ad_native"][aria-label="Advertentie"]:upward(li)
-gooieneemlander.nl,haarlemsdagblad.nl,ijmuidercourant.nl,leidschdagblad.nl,limburger.nl,noordhollandsdagblad.nl,sikkom.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
+dvhn.nl,flevopost.nl,frieschdagblad.nl,gooieneemlander.nl,haarlemsdagblad.nl,hoogeveenschecourant.nl,ijmuidercourant.nl,lc.nl,leidschdagblad.nl,limburger.nl,meppelercourant.nl,nieuweooststellingwerver.nl,noordhollandsdagblad.nl,sikkom.nl,steenwijkercourant.nl,stellingwerf.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]
+dvhn.nl,flevopost.nl,frieschdagblad.nl,gooieneemlander.nl,haarlemsdagblad.nl,hoogeveenschecourant.nl,ijmuidercourant.nl,lc.nl,leidschdagblad.nl,limburger.nl,meppelercourant.nl,nieuweooststellingwerver.nl,noordhollandsdagblad.nl,sikkom.nl,steenwijkercourant.nl,stellingwerf.nl,telegraaf.nl##.mh-ad-label[id^="ad_"]:upward([class^="teaser-grid-entry_teaserGridItem"])
 autovisie.nl,bedrock.nl,culy.nl,jmouders.nl,manners.nl,metronieuws.nl,nsmbl.nl,want.nl##.mha_container
 ! https://github.com/uBlockOrigin/uAssets/issues/21284
 ! https://github.com/EasyDutch-uBO/EasyDutch/issues/121
