@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 08 Aug 2026 11:22:18 +0000
+! Last updated: Sat, 08 Aug 2026 11:35:14 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.8.682.patch#easydutch
+! Diff-Path: patches/2026.8.8.695.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -346,7 +346,6 @@ _advertentieleaderboardhome.
 ||viralize.tv/display/$domain=sgxl.nl
 ||service-api.nl/api/v2/ad?$domain=gp33.nl
 ||gp33.nl/assets/common/ads-helper.js$domain=gp33.nl
-||boodschappen.nl/wp-json/boodschappen/v1/banners/get_$xhr
 ||techgaming.nl/image_uploads/sponsored/
 ||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
 /builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
@@ -508,6 +507,8 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+boodschappen.nl##[id^="ad-"]:upward(2)
+boodschappen.nl##[aria-label="Uitgelichte producten"]
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 motorrijder.be##div[class*="-banner-"]
 marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)

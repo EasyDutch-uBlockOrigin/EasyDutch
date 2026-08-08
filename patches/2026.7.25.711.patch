@@ -1,15 +1,18 @@
-diff name:easydutch lines:37 checksum:17958c3924
+diff name:easydutch lines:40 checksum:693312c189
 d2 1
 a2 1
-! Last updated: Sat, 08 Aug 2026 11:22:18 +0000
+! Last updated: Sat, 08 Aug 2026 11:35:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.8.682.patch#easydutch
+! Diff-Path: patches/2026.8.8.695.patch#easydutch
+d349 1
 d359 1
 a359 1
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
 d397 1
-a511 14
+a511 16
+boodschappen.nl##[id^="ad-"]:upward(2)
+boodschappen.nl##[aria-label="Uitgelichte producten"]
 motorrijder.be##.elementor-widget-container > a:not([href*="https://motorrijder.be"]) > img:upward(.elementor-widget-image)
 motorrijder.be##div[class*="-banner-"]
 marktplaats.nl,2dehands.be##.hz-Page-content:style(max-width: 1300px!important;)

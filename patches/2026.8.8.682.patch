@@ -1,0 +1,11 @@
+diff name:easydutch lines:10 checksum:693312c189
+d2 1
+a2 1
+! Last updated: Sat, 08 Aug 2026 11:35:14 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.8.8.695.patch#easydutch
+d349 1
+a510 2
+boodschappen.nl##[id^="ad-"]:upward(2)
+boodschappen.nl##[aria-label="Uitgelichte producten"]

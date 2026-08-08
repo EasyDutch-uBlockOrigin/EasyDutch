@@ -1,6 +1,6 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 08 Aug 2026 11:02:40 +0000
+! Last updated: Sat, 08 Aug 2026 11:35:14 +0000
 !
 ! 2026-06-26
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
@@ -255,7 +255,6 @@
 ||service-api.nl/api/v2/ad?$domain=gp33.nl
 ||gp33.nl/assets/common/ads-helper.js$domain=gp33.nl
 ! 2026-02-06
-||boodschappen.nl/wp-json/boodschappen/v1/banners/get_$xhr
 ||techgaming.nl/image_uploads/sponsored/
 ! 2026-02-05
 ||cdn-radio.dpgmedia.net/*/*banner$image,domain=qmusic.be|qmusic.nl
