@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 08 Aug 2026 11:35:14 +0000
+! Last updated: Sun, 09 Aug 2026 18:43:27 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.8.695.patch#easydutch
+! Diff-Path: patches/2026.8.9.1123.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -115,7 +115,7 @@ _advertentieleaderboardhome.
 ||ndt5.net^$3p
 ||nonstoppartner.net^$3p
 ||online-banners.nl^$3p
-||partner.bol.com^$3p
+||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
 ||partnerclicks.nl^$3p
 ||partnerprogramma.bol.com^$3p
 ||pexi.nl^$3p
@@ -1432,6 +1432,7 @@ rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 ! *** EasyDutch:EasyDutch/Hide_Whitelist.txt ***
+webshop.harrietverkoelen.nl#@#a[href^="https://partner.bol.com/click/"]
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
 ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
 ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]

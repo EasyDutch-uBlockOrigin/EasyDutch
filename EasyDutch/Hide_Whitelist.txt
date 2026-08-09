@@ -1,7 +1,9 @@
 ! Title: Hide Whitelist
 ! Description: Whitelist for hidden elements on Dutch websites
-! Last updated: Mon, 22 Jun 2026 09:14:09 +0000
+! Last updated: Sun, 09 Aug 2026 18:43:27 +0000
 !
+! 2026-08-09
+webshop.harrietverkoelen.nl#@#a[href^="https://partner.bol.com/click/"]
 ! 2026-05-14
 kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
 ! 2026-04-20

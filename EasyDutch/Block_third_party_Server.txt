@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Fri, 03 Jul 2026 16:03:54 +0000
+! Last updated: Sun, 09 Aug 2026 18:43:27 +0000
 !
 ! 2026-07-03
 ||cryptosplash.care^$3p
@@ -93,7 +93,7 @@
 ||ndt5.net^$3p
 ||nonstoppartner.net^$3p
 ||online-banners.nl^$3p
-||partner.bol.com^$3p
+||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
 ||partnerclicks.nl^$3p
 ||partnerprogramma.bol.com^$3p
 ||pexi.nl^$3p
