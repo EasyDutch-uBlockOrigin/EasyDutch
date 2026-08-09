@@ -93,7 +93,7 @@
 ||ndt5.net^$3p
 ||nonstoppartner.net^$3p
 ||online-banners.nl^$3p
-||partner.bol.com^$3p
+||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
 ||partnerclicks.nl^$3p
 ||partnerprogramma.bol.com^$3p
 ||pexi.nl^$3p
