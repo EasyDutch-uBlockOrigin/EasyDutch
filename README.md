@@ -112,7 +112,7 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 &nbsp;&nbsp;&nbsp; Changes that are made, are applied after 5 minutes except for the Mirrors.  
 &nbsp;&nbsp;&nbsp; I made a small delay to not overload the diffpatcher in GitHub Actions. 
 - `EasyDutchCDN` is from the [EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN) GitHub-repro and hosted on `github.io`.  
-&nbsp;&nbsp;&nbsp; Changes that are made in EasyDutch's main branch, are applied every two hours. Mirrors follow later. 
+&nbsp;&nbsp;&nbsp; Changes that are made in EasyDutch's main branch, are applied once a day. Mirrors follow later. 
 - `Mirror` is [`jsDelivr`](https://www.jsdelivr.com/); a public and free CDN's. 
 - `All-in-One` means that everything is one big file in stead of multiple files loaded in one file.  
 &nbsp;&nbsp;&nbsp; This is to not overload/misuse the free CDN's. 
