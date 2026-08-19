@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-08-19
+dagaandag.com##.dad-ad-row
 ! 2026-08-08
 boodschappen.nl##[id^="ad-"]:upward(2)
 boodschappen.nl##[aria-label="Uitgelichte producten"]
