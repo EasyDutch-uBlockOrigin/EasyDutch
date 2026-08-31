@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-08-31
+terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
 newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
@@ -631,7 +632,6 @@ cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
 galaxyclub.nl##.bannercenter
 ! 2026-02-09
-terdege.nl###fallback-:upward(div.flex-col)
 sporza.be##[class^="_adBanner_"]
 viraal.nl,wielrennenuptodate.nl##div.raw-html-component
 dagelijksestandaard.nl##div.raw-html-component:not(:has(.font-bold))
