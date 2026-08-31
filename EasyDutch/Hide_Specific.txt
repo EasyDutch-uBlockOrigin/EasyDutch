@@ -653,7 +653,6 @@ made-in.be##.b-block-partners
 made-in.be##.c-ad-space:upward(.col-item)
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
-gva.be,hbvl.be,nieuwsblad.be,standaard.be##section[data-theme-sponsored-content]
 ! End Mediahuis.be
 vkmag.com##.sda
 dailybuzz.nl##[id^="r89-ad"]:upward(.bg-gray-100)
