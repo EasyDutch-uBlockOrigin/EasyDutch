@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-08-31
+nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
 crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
