@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-08-31
+pepper.com##div[id^="ad-sidebar"]
+pepper.com##div[id$="AdSlotPortal"]
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
 nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
@@ -645,8 +648,6 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-pepper.com##div[id^="ad-sidebar"]
-pepper.com##div[id$="AdSlotPortal"]
 axed.nl##[class^="r89-desktop"]:upward(.raw-html-component)
 ! Mediahuis.be
 made-in.be##.b-block-partners
