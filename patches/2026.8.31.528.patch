@@ -1,15 +1,19 @@
-diff name:easydutch lines:19 checksum:68b57bbff0
+diff name:easydutch lines:23 checksum:8de0f0a0e6
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
+! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.557.patch#easydutch
-a509 4
+! Diff-Path: patches/2026.8.31.569.patch#easydutch
+a509 7
+newsbit.nl##.highlight-strip
+newsbit.nl###h2-cta-alinea
+newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
 ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
+d1046 3
 d1056 1
 d1059 2
 d1066 1

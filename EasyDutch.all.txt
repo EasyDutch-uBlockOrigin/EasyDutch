@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
+! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.31.557.patch#easydutch
+! Diff-Path: patches/2026.8.31.569.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -507,6 +507,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+newsbit.nl##.highlight-strip
+newsbit.nl###h2-cta-alinea
+newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
 ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
@@ -1047,9 +1050,6 @@ dagelijksestandaard.nl##div.raw-html-component:not(:has(.font-bold))
 skoften.net##div[class^="r89-"]:upward([class*="cls-placeholder-"])
 nieuws365.be,showblad.nl,voetbal14.nl,whiskymonkeys.com##div[class^="r89-"]:upward(.raw-html-component)
 fem-fem.nl##.sh-player-container
-newsbit.nl##.highlight-strip
-newsbit.nl##.acf-block-cta-conversion-rating
-newsbit.nl###h2-cta-alinea
 nieuwdezeweek.nl##.mid-ad
 wordfeudhelp.nl##.hoog.text-center
 nd.nl##.component__pubble-banner

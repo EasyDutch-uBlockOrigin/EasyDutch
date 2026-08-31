@@ -1,10 +1,10 @@
-diff name:easydutch lines:54 checksum:68b57bbff0
+diff name:easydutch lines:58 checksum:8de0f0a0e6
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
+! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.557.patch#easydutch
+! Diff-Path: patches/2026.8.31.569.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
@@ -12,7 +12,10 @@ d349 1
 d359 1
 a359 1
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
-a510 24
+a510 27
+newsbit.nl##.highlight-strip
+newsbit.nl###h2-cta-alinea
+newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
 ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
@@ -37,6 +40,7 @@ marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 marktplaats.nl,2dehands.be##.BannerRight-root
 marktplaats.nl,2dehands.be##.right-banner-root-container
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
+d1027 3
 d1037 1
 d1040 2
 d1047 5

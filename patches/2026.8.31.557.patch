@@ -1,18 +1,12 @@
-diff name:easydutch lines:17 checksum:8de0f0a0e6
+diff name:easydutch lines:11 checksum:8de0f0a0e6
 d2 1
 a2 1
 ! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.8.31.569.patch#easydutch
-a509 4
+a509 3
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
 newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
-ajaxshowtime.com##.raw-html-component--ad
-d1049 3
-d1059 1
-d1454 1
-a1454 2
-autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
-bnr.nl##+js(set, navigator.sendBeacon, trueFunc)
+d1050 3

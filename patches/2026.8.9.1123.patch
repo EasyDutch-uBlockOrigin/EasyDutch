@@ -1,11 +1,14 @@
-diff name:easydutch lines:24 checksum:68b57bbff0
+diff name:easydutch lines:28 checksum:8de0f0a0e6
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
+! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.557.patch#easydutch
-a509 9
+! Diff-Path: patches/2026.8.31.569.patch#easydutch
+a509 12
+newsbit.nl##.highlight-strip
+newsbit.nl###h2-cta-alinea
+newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
 ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
@@ -15,6 +18,7 @@ crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
 crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 dagaandag.com##.dad-ad-row
+d1041 3
 d1051 1
 d1054 2
 d1061 5
