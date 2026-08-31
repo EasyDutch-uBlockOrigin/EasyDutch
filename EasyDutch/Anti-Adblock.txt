@@ -23,7 +23,8 @@ alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 ! 2026-05-09
 !#if env_firefox
-autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
+bnr.nl##+js(set, navigator.sendBeacon, trueFunc)
 !#endif
 ! 2026-04-29
 solarmagazine.nl##+js(no-xhr-if, ads)
