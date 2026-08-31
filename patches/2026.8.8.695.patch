@@ -1,14 +1,15 @@
-diff name:easydutch lines:33 checksum:8de0f0a0e6
+diff name:easydutch lines:35 checksum:d7b1ff054f
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
+! Last updated: Mon, 31 Aug 2026 09:55:12 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.569.patch#easydutch
+! Diff-Path: patches/2026.8.31.595.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
-a509 12
+a509 13
+terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
 newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
@@ -21,6 +22,7 @@ crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
 crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 dagaandag.com##.dad-ad-row
+d1034 1
 d1041 3
 d1051 1
 d1054 2

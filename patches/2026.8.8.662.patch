@@ -1,15 +1,16 @@
-diff name:easydutch lines:51 checksum:8de0f0a0e6
+diff name:easydutch lines:53 checksum:d7b1ff054f
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:29:06 +0000
+! Last updated: Mon, 31 Aug 2026 09:55:12 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.569.patch#easydutch
+! Diff-Path: patches/2026.8.31.595.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
 d349 1
-a510 27
+a510 28
+terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
 newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
@@ -37,6 +38,7 @@ marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 marktplaats.nl,2dehands.be##.BannerRight-root
 marktplaats.nl,2dehands.be##.right-banner-root-container
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
+d1020 1
 d1027 3
 d1037 1
 d1040 2
