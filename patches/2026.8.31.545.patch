@@ -1,20 +1,14 @@
-diff name:easydutch lines:19 checksum:68b57bbff0
+diff name:easydutch lines:13 checksum:68b57bbff0
 d2 1
 a2 1
 ! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.8.31.557.patch#easydutch
-a509 4
+a509 1
 ajaxshowtime.com##.raw-html-component--ad
-pepper.com##div[id^="ad-sidebar"]
-pepper.com##div[id$="AdSlotPortal"]
-pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
-d1056 1
-d1059 2
-d1066 1
-d1068 1
-d1455 1
-a1455 2
+d1059 1
+d1454 1
+a1454 2
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
 bnr.nl##+js(set, navigator.sendBeacon, trueFunc)

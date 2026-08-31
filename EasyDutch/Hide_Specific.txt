@@ -1,8 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
+! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
 !
 ! 2026-08-31
+ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
@@ -645,7 +646,6 @@ tijd.be##[class*="rowcontainer"]:has(div[class*="ad"]):has-text(/Gesponsorde inh
 tijd.be##[id^="sponsored"]:upward(div.c-articlelistitem)
 bnr.nl##.ad
 ! 2026-02-07
-ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 axed.nl##[class^="r89-desktop"]:upward(.raw-html-component)

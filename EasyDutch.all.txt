@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
+! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.31.545.patch#easydutch
+! Diff-Path: patches/2026.8.31.557.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -507,6 +507,7 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
@@ -1056,7 +1057,6 @@ nd.nl##.page-header__ad
 tijd.be##[class*="rowcontainer"]:has(div[class*="ad"]):has-text(/Gesponsorde inhoud/i)
 tijd.be##[id^="sponsored"]:upward(div.c-articlelistitem)
 bnr.nl##.ad
-ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
 axed.nl##[class^="r89-desktop"]:upward(.raw-html-component)
@@ -1451,7 +1451,8 @@ alleveilingen.be,alleveilingen.nl##+js(acs, document.addEventListener, fakeAd)
 @@^$ghide,domain=538.nl|hartvannederland.nl|kijk.nl|nieuwsvandedag.nl|radio10.nl|shownieuws.nl|vandaaginside.nl
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xhr,badfilter
 !#if env_firefox
-autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc) 
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
+bnr.nl##+js(set, navigator.sendBeacon, trueFunc)
 !#endif
 solarmagazine.nl##+js(no-xhr-if, ads)
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)

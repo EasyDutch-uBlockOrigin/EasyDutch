@@ -1,11 +1,12 @@
-diff name:easydutch lines:17 checksum:3291d5395d
+diff name:easydutch lines:23 checksum:68b57bbff0
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
+! Last updated: Mon, 31 Aug 2026 09:17:53 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.545.patch#easydutch
-a509 7
+! Diff-Path: patches/2026.8.31.557.patch#easydutch
+a509 8
+ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
@@ -13,6 +14,11 @@ nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
 crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
+d1052 1
 d1055 2
 d1062 5
 d1068 1
+d1455 1
+a1455 2
+autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
+bnr.nl##+js(set, navigator.sendBeacon, trueFunc)
