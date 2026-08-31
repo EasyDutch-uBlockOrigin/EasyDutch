@@ -655,7 +655,6 @@ gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
 ! End Mediahuis.be
 vkmag.com##.sda
-dailybuzz.nl##[id^="r89-ad"]:upward(.bg-gray-100)
 dailybuzz.nl##[id^="ad-container"]
 mediacourant.nl##.mc-adv
 centraalplus.nl##div[class^="col"] > div.center:has(> div.g > div.g-single > center > i:contains(Advertentie))
