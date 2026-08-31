@@ -1,10 +1,10 @@
-diff name:easydutch lines:49 checksum:9f57a10a3a
+diff name:easydutch lines:54 checksum:b16e0e2887
 d2 1
 a2 1
-! Last updated: Wed, 19 Aug 2026 05:19:49 +0000
+! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.19.319.patch#easydutch
+! Diff-Path: patches/2026.8.31.528.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
@@ -13,7 +13,11 @@ d359 1
 a359 1
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
 d397 1
-a511 17
+a511 21
+nieuwrechts.nl##.sponsored.more
+crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
+crypto-insiders.nl###buy
+crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 dagaandag.com##.dad-ad-row
 boodschappen.nl##[id^="ad-"]:upward(2)
 boodschappen.nl##[aria-label="Uitgelichte producten"]
@@ -32,6 +36,7 @@ marktplaats.nl,2dehands.be##.right-banner-root-container
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 d558 1
+d1049 4
 d1092 2
 a1093 2
 bnnvara.nl###sterad:upward(1)

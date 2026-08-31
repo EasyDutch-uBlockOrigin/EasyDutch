@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 19 Aug 2026 05:19:49 +0000
+! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.19.319.patch#easydutch
+! Diff-Path: patches/2026.8.31.528.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -507,6 +507,10 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+nieuwrechts.nl##.sponsored.more
+crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
+crypto-insiders.nl###buy
+crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 dagaandag.com##.dad-ad-row
 boodschappen.nl##[id^="ad-"]:upward(2)
 boodschappen.nl##[aria-label="Uitgelichte producten"]
@@ -1060,10 +1064,6 @@ made-in.be##.c-ad-space:upward(.col-item)
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##section[data-theme-sponsored-content]
-crypto-insiders.nl##.article-content > p > a.btn--highlighted.external-link
-crypto-insiders.nl##.affiliate-dropdown:not(#style_important)
-crypto-insiders.nl##.exp-banner-global
-crypto-insiders.nl##.exp-google-ad
 vkmag.com##.sda
 dailybuzz.nl##[id^="r89-ad"]:upward(.bg-gray-100)
 dailybuzz.nl##[id^="ad-container"]

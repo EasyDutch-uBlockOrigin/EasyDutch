@@ -1,17 +1,22 @@
-diff name:easydutch lines:16 checksum:9f57a10a3a
+diff name:easydutch lines:21 checksum:b16e0e2887
 d2 1
 a2 1
-! Last updated: Wed, 19 Aug 2026 05:19:49 +0000
+! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.19.319.patch#easydutch
+! Diff-Path: patches/2026.8.31.528.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
 d349 1
-a510 3
+a510 7
+nieuwrechts.nl##.sponsored.more
+crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
+crypto-insiders.nl###buy
+crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 dagaandag.com##.dad-ad-row
 boodschappen.nl##[id^="ad-"]:upward(2)
 boodschappen.nl##[aria-label="Uitgelichte producten"]
+d1061 4
 a1433 1
 webshop.harrietverkoelen.nl#@#a[href^="https://partner.bol.com/click/"]

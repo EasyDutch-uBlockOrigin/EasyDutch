@@ -1,7 +1,12 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 19 Aug 2026 05:19:49 +0000
+! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
 !
+! 2026-08-31
+nieuwrechts.nl##.sponsored.more
+crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
+crypto-insiders.nl###buy
+crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 ! 2026-08-19
 dagaandag.com##.dad-ad-row
 ! 2026-08-08
@@ -650,10 +655,6 @@ gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##section[data-theme-sponsored-content]
 ! End Mediahuis.be
-crypto-insiders.nl##.article-content > p > a.btn--highlighted.external-link
-crypto-insiders.nl##.affiliate-dropdown:not(#style_important)
-crypto-insiders.nl##.exp-banner-global
-crypto-insiders.nl##.exp-google-ad
 vkmag.com##.sda
 dailybuzz.nl##[id^="r89-ad"]:upward(.bg-gray-100)
 dailybuzz.nl##[id^="ad-container"]
