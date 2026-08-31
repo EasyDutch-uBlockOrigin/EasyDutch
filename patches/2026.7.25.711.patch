@@ -1,10 +1,10 @@
-diff name:easydutch lines:51 checksum:b16e0e2887
+diff name:easydutch lines:56 checksum:3291d5395d
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
+! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.528.patch#easydutch
+! Diff-Path: patches/2026.8.31.545.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
@@ -13,7 +13,10 @@ d359 1
 a359 1
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
 d397 1
-a511 21
+a511 24
+pepper.com##div[id^="ad-sidebar"]
+pepper.com##div[id$="AdSlotPortal"]
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
 nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
@@ -36,7 +39,9 @@ marktplaats.nl,2dehands.be##.right-banner-root-container
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 d558 1
-d1049 4
+d1041 2
+d1048 5
+d1054 1
 d1092 2
 a1093 2
 bnnvara.nl###sterad:upward(1)

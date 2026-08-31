@@ -1,15 +1,18 @@
-diff name:easydutch lines:36 checksum:b16e0e2887
+diff name:easydutch lines:41 checksum:3291d5395d
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
+! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.528.patch#easydutch
+! Diff-Path: patches/2026.8.31.545.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
 d349 1
-a510 20
+a510 23
+pepper.com##div[id^="ad-sidebar"]
+pepper.com##div[id$="AdSlotPortal"]
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
 nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
@@ -30,7 +33,9 @@ marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 marktplaats.nl,2dehands.be##.BannerRight-root
 marktplaats.nl,2dehands.be##.right-banner-root-container
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-d1048 4
+d1040 2
+d1047 5
+d1053 1
 d1112 11
 d1235 1
 a1432 1

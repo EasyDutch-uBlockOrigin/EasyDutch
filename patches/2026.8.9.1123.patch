@@ -1,14 +1,19 @@
-diff name:easydutch lines:13 checksum:b16e0e2887
+diff name:easydutch lines:18 checksum:3291d5395d
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
+! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.528.patch#easydutch
-a509 5
+! Diff-Path: patches/2026.8.31.545.patch#easydutch
+a509 8
+pepper.com##div[id^="ad-sidebar"]
+pepper.com##div[id$="AdSlotPortal"]
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
 nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
 crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
 dagaandag.com##.dad-ad-row
-d1062 4
+d1054 2
+d1061 5
+d1067 1

@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 31 Aug 2026 08:48:32 +0000
+! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.31.528.patch#easydutch
+! Diff-Path: patches/2026.8.31.545.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -507,6 +507,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+pepper.com##div[id^="ad-sidebar"]
+pepper.com##div[id$="AdSlotPortal"]
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
 nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
@@ -1056,16 +1059,12 @@ bnr.nl##.ad
 ajaxshowtime.com##.sda
 indeleiderstrui.nl##[id^="idl_ros_"]:upward(.raw-html-component)
 gp33.nl##div[id^="grandprix33_"]
-pepper.com##div[id^="ad-sidebar"]
-pepper.com##div[id$="AdSlotPortal"]
 axed.nl##[class^="r89-desktop"]:upward(.raw-html-component)
 made-in.be##.b-block-partners
 made-in.be##.c-ad-space:upward(.col-item)
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]
 gva.be,hbvl.be,nieuwsblad.be,standaard.be##div[id^="ad_"]:upward([class^="teaser"])
-gva.be,hbvl.be,nieuwsblad.be,standaard.be##section[data-theme-sponsored-content]
 vkmag.com##.sda
-dailybuzz.nl##[id^="r89-ad"]:upward(.bg-gray-100)
 dailybuzz.nl##[id^="ad-container"]
 mediacourant.nl##.mc-adv
 centraalplus.nl##div[class^="col"] > div.center:has(> div.g > div.g-single > center > i:contains(Advertentie))

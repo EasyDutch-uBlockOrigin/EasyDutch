@@ -1,18 +1,14 @@
-diff name:easydutch lines:17 checksum:3291d5395d
+diff name:easydutch lines:13 checksum:3291d5395d
 d2 1
 a2 1
 ! Last updated: Mon, 31 Aug 2026 09:05:54 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.8.31.545.patch#easydutch
-a509 7
+a509 3
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
-nieuwrechts.nl##.sponsored.more
-crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
-crypto-insiders.nl###buy
-crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
-d1055 2
-d1062 5
+d1059 2
+d1066 1
 d1068 1
