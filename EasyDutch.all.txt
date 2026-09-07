@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 31 Aug 2026 09:55:12 +0000
+! Last updated: Mon, 07 Sep 2026 10:02:13 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.8.31.595.patch#easydutch
+! Diff-Path: patches/2026.9.7.602.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -507,6 +507,7 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
@@ -514,7 +515,7 @@ newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercon
 ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
-pepper.com###ad-belowDetails:upward([data-t="bannerAd"])
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])e
 nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
@@ -535,7 +536,6 @@ marktplaats.nl,2dehands.be##div[class*="admarktTitle"]:upward(1)
 marktplaats.nl,2dehands.be##.BannerRight-root
 marktplaats.nl,2dehands.be##.right-banner-root-container
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,ieximpact.nl##.banner
 www.iex.nl,beleggen.nl,belegger.nl,beurs.nl,beursduivel.be,beursgorilla.nl,beursonline.nl,debeurs.nl,eurobench.com,tostrams.nl##.footernetwork > :has-text(Gesponsorde links)
 iex.nl,beursduivel.be,tostrams.nl##.publisher-sh-spot

@@ -1,14 +1,19 @@
-diff name:easydutch lines:13 checksum:d7b1ff054f
+diff name:easydutch lines:18 checksum:c77d0f6251
 d2 1
 a2 1
-! Last updated: Mon, 31 Aug 2026 09:55:12 +0000
+! Last updated: Mon, 07 Sep 2026 10:02:13 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.8.31.595.patch#easydutch
-a509 4
+! Diff-Path: patches/2026.9.7.602.patch#easydutch
+a509 5
+mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
 newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
+d513 1
+a513 1
+pepper.com###ad-belowDetails:upward([data-t="bannerAd"])e
+d534 1
 d1043 1
 d1050 3
