@@ -1,14 +1,9 @@
-diff name:easydutch lines:13 checksum:648c285cff
+diff name:easydutch lines:8 checksum:648c285cff
 d2 1
 a2 1
 ! Last updated: Sat, 12 Sep 2026 12:47:43 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.9.12.767.patch#easydutch
-a509 2
+a509 1
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
-mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
-d517 1
-a517 1
-pepper.com###ad-belowDetails:upward([data-t="bannerAd"])e
-d538 1

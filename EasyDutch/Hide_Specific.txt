@@ -1,7 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 07 Sep 2026 10:02:13 +0000
+! Last updated: Sat, 12 Sep 2026 12:47:43 +0000
 !
+! 2026-09-12
+hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
 ! 2026-09-07
 mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 ! 2026-08-31
