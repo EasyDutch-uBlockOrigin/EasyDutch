@@ -1,10 +1,10 @@
-diff name:easydutch lines:25 checksum:648c285cff
+diff name:easydutch lines:26 checksum:77f1c3f6bd
 d2 1
 a2 1
-! Last updated: Sat, 12 Sep 2026 12:47:43 +0000
+! Last updated: Sun, 13 Sep 2026 18:09:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.12.767.patch#easydutch
+! Diff-Path: patches/2026.9.13.1089.patch#easydutch
 a509 7
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
 mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
@@ -20,6 +20,7 @@ d533 1
 d1042 1
 d1049 3
 d1059 1
+d1334 1
 d1454 1
 a1454 2
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)

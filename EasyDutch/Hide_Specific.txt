@@ -1,6 +1,6 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 12 Sep 2026 12:47:43 +0000
+! Last updated: Sun, 13 Sep 2026 18:09:50 +0000
 !
 ! 2026-09-12
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
@@ -1004,7 +1004,6 @@ brandweerspotters.nl,fanclubbarcelona.nl###banners
 bokt.nl###frontpage_mediumrect
 unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
-eindexamens.nu###leaderboard
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
 forum.scholieren.com###posts .thead:has-text(Advert)

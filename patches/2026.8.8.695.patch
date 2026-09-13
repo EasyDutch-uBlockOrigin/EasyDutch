@@ -1,10 +1,10 @@
-diff name:easydutch lines:38 checksum:648c285cff
+diff name:easydutch lines:39 checksum:77f1c3f6bd
 d2 1
 a2 1
-! Last updated: Sat, 12 Sep 2026 12:47:43 +0000
+! Last updated: Sun, 13 Sep 2026 18:09:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.12.767.patch#easydutch
+! Diff-Path: patches/2026.9.13.1089.patch#easydutch
 d118 1
 a118 1
 ||partner.bol.com^$3p,domain=~webshop.harrietverkoelen.nl
@@ -31,6 +31,7 @@ d1051 1
 d1054 2
 d1061 5
 d1067 1
+d1334 1
 a1434 1
 webshop.harrietverkoelen.nl#@#a[href^="https://partner.bol.com/click/"]
 d1453 1
