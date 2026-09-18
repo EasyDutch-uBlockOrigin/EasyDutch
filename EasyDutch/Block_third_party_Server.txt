@@ -22,7 +22,7 @@
 ! 2026-02-04
 ||adswag.nl^$3p
 ||banner-online.nl^$3p
-||rkn3.net^3p
+||rkn3.net^$3p
 ! 2026-02-03
 ||bdt9.net^$3p
 ! 2026-02-02
