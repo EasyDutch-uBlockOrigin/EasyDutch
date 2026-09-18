@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Sun, 09 Aug 2026 18:43:27 +0000
+! Last updated: Fri, 18 Sep 2026 15:55:05 +0000
 !
 ! 2026-07-03
 ||cryptosplash.care^$3p
@@ -22,7 +22,7 @@
 ! 2026-02-04
 ||adswag.nl^$3p
 ||banner-online.nl^$3p
-||rkn3.net^3p
+||rkn3.net^$3p
 ! 2026-02-03
 ||bdt9.net^$3p
 ! 2026-02-02

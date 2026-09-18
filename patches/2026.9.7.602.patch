@@ -1,10 +1,13 @@
-diff name:easydutch lines:9 checksum:77f1c3f6bd
+diff name:easydutch lines:12 checksum:a4b32695af
 d2 1
 a2 1
-! Last updated: Sun, 13 Sep 2026 18:09:50 +0000
+! Last updated: Fri, 18 Sep 2026 15:55:05 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.13.1089.patch#easydutch
+! Diff-Path: patches/2026.9.18.955.patch#easydutch
+d71 1
+a71 1
+||rkn3.net^$3p
 a509 1
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
 d1334 1
