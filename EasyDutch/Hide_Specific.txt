@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-09-19
+meerdangewenst.nl##.sponsoren:upward(1)
 nationalemediasite.nl##div.grid-item:has(h2:has-text(Gesponsord))
 ! FreshPublishers
 agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banners
