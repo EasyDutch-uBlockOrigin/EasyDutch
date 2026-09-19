@@ -10,6 +10,8 @@ faillissementsdossier.nl##.adsbybinq
 faillissementsdossier.nl##.adsbybinq:upward(.items-center)
 galaxyclub.nl##[id="0318-mobiel"]:upward(1)
 psvinside.nl##.ms-container
+upinthesky.nl##.a-wrap
+upinthesky.nl##.r89-video-outstream
 ! 2026-09-12
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
 ! 2026-09-07
@@ -599,7 +601,6 @@ waldnet.nl##.banner
 waldnet.nl##.adsbygoogle:upward(div[style])
 nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upward(.piep)
 ! 2026-02-10
-upinthesky.nl##.a-wrap
 ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
 visionair.nl##aside.widget:not(:has([class]))
