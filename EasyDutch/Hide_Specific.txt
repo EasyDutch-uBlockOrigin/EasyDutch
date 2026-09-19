@@ -608,7 +608,7 @@ schuttevaer.nl##.partners
 schuttevaer.nl##.widget_minisites
 rallylovers.be##.advertentierechts
 sneeuwhoogte.nl##[id^="div-gpt-ad"]:upward(div[style*="--min-height"])
-peoplesphere.be,sciencelink.net##.leaderboard
+peoplesphere.be##.leaderboard
 ! SportID
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be###ad-intro-text
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
