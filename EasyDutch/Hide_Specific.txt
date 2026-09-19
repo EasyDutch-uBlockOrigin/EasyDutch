@@ -6,6 +6,8 @@
 androidworld.be,androidworld.nl##header[data-name="featured-header"]
 androidworld.be,androidworld.nl##div[data-nosnippet] > [id^="gpt-ad-"]:upward(div)
 androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
+faillissementsdossier.nl##.adsbybinq
+faillissementsdossier.nl##.adsbybinq:upward(.items-center)
 galaxyclub.nl##[id="0318-mobiel"]:upward(1)
 ! 2026-09-12
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
@@ -613,9 +615,6 @@ atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 ! End SportID
 spellingoefenen.nl##[class^="r89-"]:upward(div[style])
-faillissementsdossier.nl##.adcontainer
-faillissementsdossier.nl##.adsbybinq
-faillissementsdossier.nl##.billboard
 fcutrecht.net###reclame
 techzine.nl##.chimney
 twenteinsite.nl##.sda
