@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-09-19
+galaxyclub.nl##[id="0318-mobiel"]:upward(1)
 ! 2026-09-12
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
 ! 2026-09-07
@@ -632,7 +634,6 @@ drimble.nl##[id^="drimble.nl_web_"]
 gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
 cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner
-galaxyclub.nl##.bannercenter
 ! 2026-02-09
 sporza.be##[class^="_adBanner_"]
 viraal.nl,wielrennenuptodate.nl##div.raw-html-component
