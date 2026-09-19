@@ -35,7 +35,6 @@ androidworld.be,androidworld.nl##+js(aeld, , #advertisement__element)
 ! 2026-02-06
 androidplanet.nl,iphoned.nl##+js(aeld, , #advertisement__element)
 ! @@/ads-frontend.min.js$script,domain=androidplanet.nl|iphoned.nl
-! androidplanet.nl,iphoned.nl##+js(trusted-create-html, body, <div id="advertisement__element" class="hidden">)
 ! 2026-02-04
 mediamarkt.be,mediamarkt.nl##+js(no-fetch-if, adsbygoogle.js method:HEAD)
 marokko.nl##+js(aopw, ads_checkblocker)
@@ -43,8 +42,6 @@ routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 ! 2026-01-31
 touretappe.nl##+js(set, adBlocker, 0)
 ! 2023-10-13 https://github.com/easylist/easylistdutch/issues/47
-! meerdangewenst.nl##.sponsoren:upward(1)
-! meerdangewenst.nl##+js(aopw, gtag)
 meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; position: fixed;)
 ! 2023-10-13
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59606
