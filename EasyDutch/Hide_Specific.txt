@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-09-19
+nationalemediasite.nl##div.grid-item:has(h2:has-text(Gesponsord))
 ! FreshPublishers
 agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banners
 agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banner
@@ -603,7 +604,6 @@ rkvvo.nl##.divHeaderBanner
 ! End 112Press
 waldnet.nl##.banner
 waldnet.nl##.adsbygoogle:upward(div[style])
-nationalemediasite.nl##script[src*="pagead2.googlesyndication.com/pagead/"]:upward(.piep)
 ! 2026-02-10
 ajaxfanzone.nl##div.widget_custom_html:has-text(Advert)
 ajaxinside.nl##[href^="https://www.voetbalshop.nl/tt/"]
