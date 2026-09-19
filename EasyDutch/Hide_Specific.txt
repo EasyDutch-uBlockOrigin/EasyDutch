@@ -3,6 +3,10 @@
 ! Last updated: %timestamp%
 !
 ! 2026-09-19
+! FreshPublishers
+agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banners
+agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banner
+! End FreshPublishers
 androidworld.be,androidworld.nl##header[data-name="featured-header"]
 androidworld.be,androidworld.nl##div[data-nosnippet] > [id^="gpt-ad-"]:upward(div)
 androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
