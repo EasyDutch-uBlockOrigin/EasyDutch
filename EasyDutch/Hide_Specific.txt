@@ -3,6 +3,9 @@
 ! Last updated: %timestamp%
 !
 ! 2026-09-19
+androidworld.be,androidworld.nl##header[data-name="featured-header"]
+androidworld.be,androidworld.nl##div[data-nosnippet] > [id^="gpt-ad-"]:upward(div)
+androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
 galaxyclub.nl##[id="0318-mobiel"]:upward(1)
 ! 2026-09-12
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
@@ -616,10 +619,6 @@ faillissementsdossier.nl##.billboard
 fcutrecht.net###reclame
 techzine.nl##.chimney
 twenteinsite.nl##.sda
-androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
-androidworld.be,androidworld.nl##.widget_offers
-androidworld.be,androidworld.nl##header[data-name="featured-header"]
-androidworld.be,androidworld.nl##[id^="androidworld"]:upward([data-nosnippet])
 clint.be##.ads
 clint.be##.sda
 onderwijsnieuwsdienst.nl###topAdvertisement
