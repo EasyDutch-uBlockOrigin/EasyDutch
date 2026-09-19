@@ -4,6 +4,8 @@
 !
 ! 2026-09-19
 ||0318media.nl^$domain=galaxyclub.nl
+.nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
+.nl/storage/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 ! 2026-06-26
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ! 2026-06-20
@@ -248,7 +250,6 @@
 ||static.promedia.nl/logos/$image,domain=schuttevaer.nl
 ||schuttevaer.nl/partnersites/
 ||rallylovers.be/img/betalend/*.gif
-.nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 ||fcutrecht.net/img/banners/$image
 ||omroepvenlo.b-cdn.net/*.gif$image,domain=omroepvenlo.nl
 ||preroll.omroepvenlo.nl/*.xml?preprTrackingUserId=$xhr,1p
