@@ -2,6 +2,9 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-09-20
+||cvandaag.nl/api/advertise-deliver/deliver?adtypes=banners
+||cvandaag.nl/api/advertise-deliver/deliver?adtypes=native_block_one
 ! 2026-09-19
 ||0318media.nl^$domain=galaxyclub.nl
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -23,8 +26,6 @@
 ! 2026-05-29
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
-! 2026-05-27
-||cvandaag.nl/api/advertise-deliver/
 ! 2026-05-23
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
