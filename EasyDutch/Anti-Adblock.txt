@@ -41,8 +41,6 @@ marokko.nl##+js(aopw, ads_checkblocker)
 routenet.nl,trafficnet.nl##+js(aopw, checkAdsBlocked)
 ! 2026-01-31
 touretappe.nl##+js(set, adBlocker, 0)
-! 2023-10-13 https://github.com/easylist/easylistdutch/issues/47
-meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; position: fixed;)
 ! 2023-10-13
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59606
 ! https://github.com/uBlockOrigin/uAssets/issues/11691
