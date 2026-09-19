@@ -2,6 +2,11 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-09-20
+cvandaag.nl##app-banner-display
+cvandaag.nl##app-native-block-one-presentation:has-text(kinderen)
+cvandaag.nl##.sponsored
+cvandaag.nl##.sponsored:upward(app-article-presentation)
 ! 2026-09-19
 meerdangewenst.nl##.sponsoren:upward(1)
 nationalemediasite.nl##div.grid-item:has(h2:has-text(Gesponsord))
@@ -147,10 +152,6 @@ zakenreisnieuws.nl##[id*="rectangle"]:upward(.block)
 zakenreisnieuws.nl##[id^="zakenreisnieuws_side_"]:upward(.block)
 zakenreisnieuws.nl##[id$="_partner"]:upward(.block)
 redactie24.be###Mobile-Rectangle-Article-Low
-! 2026-05-27
-cvandaag.nl##app-banner-display
-cvandaag.nl##.sponsored
-cvandaag.nl##.sponsored:upward(app-article-presentation)
 ! 2026-05-24
 nieuwslens.nl##.ad-slot-outer
 ! 2026-05-23
