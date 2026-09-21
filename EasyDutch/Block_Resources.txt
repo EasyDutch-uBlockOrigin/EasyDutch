@@ -1,7 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 08 Aug 2026 11:35:14 +0000
+! Last updated: Mon, 21 Sep 2026 14:59:54 +0000
 !
+! 2026-09-19
+||0318media.nl^$domain=galaxyclub.nl
+.nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
+.nl/storage/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 ! 2026-06-26
 ||nieuwsmotor.nl/wp-content/uploads/*banner$image
 ! 2026-06-20
@@ -13,14 +17,11 @@
 ! 2026-06-11
 ||svdcdn.com/production/uploads/ads/$domain=dutchitchannel.nl|dutchitleaders.nl
 ||static.qmusic.be/acties/qnl-nu-ad/$domain=nu.nl
-||nieuwrechts.nl/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 ! 2026-06-06
 ||janvissersweer.nl/wp-content/uploads/2014/06/EerlijkenHeerlijkAppelsPerenStreekgroenten-copy.jpg$image
 ! 2026-05-29
 ||villamedia.nl/images/*/*banner$image
 ||villamedia.nl/images/uploads/*leaderboard$image
-! 2026-05-27
-||cvandaag.nl/api/advertise-deliver/
 ! 2026-05-23
 ||claimingo.nl/banners/domain=insideflyer.nl
 ||daemesenheeren.nl/wp-content/uploads/*/*banner$image
@@ -234,7 +235,6 @@
 ||afbeeldingen.franekeractueel.nl/uploads/*banner*$image,1p
 ||revive.nl/wp-content/uploads/*/*.gif
 ||flexwebhosting.nl/banners/
-||24cars.nl/api/advertise-deliver/
 ||strafrechtadvocaten.nl/media/crimesite/$domain=crimesite.nl
 ||crimesite.nl/wp-content/uploads/*/*.gif
 ||tvvisie.be/textads/textads.js
@@ -246,7 +246,6 @@
 ||static.promedia.nl/logos/$image,domain=schuttevaer.nl
 ||schuttevaer.nl/partnersites/
 ||rallylovers.be/img/betalend/*.gif
-.nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 ||fcutrecht.net/img/banners/$image
 ||omroepvenlo.b-cdn.net/*.gif$image,domain=omroepvenlo.nl
 ||preroll.omroepvenlo.nl/*.xml?preprTrackingUserId=$xhr,1p

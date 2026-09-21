@@ -1,4 +1,4 @@
-diff name:easydutch lines:66 checksum:ce0d355022
+diff name:easydutch lines:61 checksum:ce0d355022
 d2 1
 a2 1
 ! Last updated: Mon, 21 Sep 2026 14:59:54 +0000
@@ -8,9 +8,6 @@ a4 1
 a14 2
 /api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 /api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
-d71 1
-a71 1
-||rkn3.net^$3p
 a133 3
 ||0318media.nl^$domain=galaxyclub.nl
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -19,7 +16,7 @@ d141 1
 d145 1
 d331 1
 d342 1
-a509 29
+a509 28
 revive.nl##[id^="reviv-"]
 meemetoranje.nl##.web-top-container
 meemetoranje.nl##.web-mid-container
@@ -48,20 +45,18 @@ galaxyclub.nl##[id="0318-mobiel"]:upward(1)
 psvinside.nl##.ms-container
 upinthesky.nl##.a-wrap
 upinthesky.nl##.r89-video-outstream
-hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
-d519 1
-d619 3
-d723 2
-d979 1
-d981 2
-d989 1
-d1006 2
-d1010 1
-d1017 1
-a1017 1
+d520 1
+d620 3
+d724 2
+d980 1
+d982 2
+d990 1
+d1007 2
+d1011 1
+d1018 1
+a1018 1
 peoplesphere.be##.leaderboard
-d1022 3
-d1028 4
-d1046 1
-d1334 1
+d1023 3
+d1029 4
+d1047 1
 d1465 1

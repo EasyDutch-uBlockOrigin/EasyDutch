@@ -1,14 +1,53 @@
-diff name:easydutch lines:29 checksum:a4b32695af
+diff name:easydutch lines:81 checksum:ce0d355022
 d2 1
 a2 1
-! Last updated: Fri, 18 Sep 2026 15:55:05 +0000
+! Last updated: Mon, 21 Sep 2026 14:59:54 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.18.955.patch#easydutch
+! Diff-Path: patches/2026.9.21.899.patch#easydutch
+a14 2
+/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
+/api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
 d71 1
 a71 1
 ||rkn3.net^$3p
-a509 7
+a133 3
+||0318media.nl^$domain=galaxyclub.nl
+.nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
+.nl/storage/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
+d141 1
+d145 1
+d331 1
+d342 1
+a509 35
+revive.nl##[id^="reviv-"]
+meemetoranje.nl##.web-top-container
+meemetoranje.nl##.web-mid-container
+meemetoranje.nl##[data-adhese-adunit]
+meemetoranje.nl##.outstream-ad
+meemetoranje.nl##.player-container-article
+meemetoranje.nl##.frt-shopslider
+nieuwnieuws.nl##.nn-ad-slot
+cvandaag.nl##app-banner-display
+cvandaag.nl##app-native-block-one-presentation:has-text(kinderen)
+cvandaag.nl##article .sponsored.more:upward(1)
+cvandaag.nl##.sponsored:upward(app-article-presentation)
+nieuwrechts.nl##app-banner-display
+nieuwrechts.nl##.sponsored:upward(app-article-presentation)
+nieuwrechts.nl##article .sponsored.more:upward(1)
+meerdangewenst.nl##.sponsoren:upward(1)
+nationalemediasite.nl##div.grid-item:has(h2:has-text(Gesponsord))
+agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banners
+agf.nl,biojournaal.nl,bpnieuws.nl,groentennieuws.nl,uiennieuws.nl##.banner
+androidworld.be,androidworld.nl##header[data-name="featured-header"]
+androidworld.be,androidworld.nl##div[data-nosnippet] > [id^="gpt-ad-"]:upward(div)
+androidworld.be,androidworld.nl##.no-content-styles:has(.adblock-detect)
+faillissementsdossier.nl##.adsbybinq
+faillissementsdossier.nl##.adsbybinq:upward(.items-center)
+galaxyclub.nl##[id="0318-mobiel"]:upward(1)
+psvinside.nl##.ms-container
+upinthesky.nl##.a-wrap
+upinthesky.nl##.r89-video-outstream
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
 mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 terdege.nl###fallback-:upward(3)
@@ -16,11 +55,23 @@ newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
 newsbit.nl##.wp-acf-block.link:upward(.wp-block-g2p-wrapper):has-text(Partnercontent)
 ajaxshowtime.com##.raw-html-component--ad
-d512 1
-a512 1
+d512 2
+a513 1
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])e
 d533 1
-d1042 1
+d614 3
+d718 2
+d974 1
+d976 2
+d984 1
+d1001 2
+d1005 1
+d1012 1
+a1012 1
+peoplesphere.be##.leaderboard
+d1017 3
+d1023 4
+d1041 2
 d1049 3
 d1059 1
 d1334 1
@@ -28,3 +79,4 @@ d1454 1
 a1454 2
 autoscout24.be,autoscout24.nl##+js(set, navigator.sendBeacon, trueFunc)
 bnr.nl##+js(set, navigator.sendBeacon, trueFunc)
+d1464 1
