@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-09-22
+revive.nl##[id^="reviv-"]
 ! 2026-09-21
 meemetoranje.nl##.web-top-container
 meemetoranje.nl##.web-mid-container
