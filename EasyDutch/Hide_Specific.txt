@@ -9,6 +9,7 @@ meemetoranje.nl##[data-adhese-adunit]
 meemetoranje.nl##.outstream-ad
 meemetoranje.nl##.player-container-article
 meemetoranje.nl##.frt-shopslider
+nieuwnieuws.nl##.nn-ad-slot
 ! 2026-09-20
 cvandaag.nl##app-banner-display
 cvandaag.nl##app-native-block-one-presentation:has-text(kinderen)
@@ -580,7 +581,6 @@ achterhoekauto.nl##body > div.container > div:not([onclick])
 nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
 gratisoptehalen.nl##.headerAdWrap
 ! 2026-02-11
-nieuwnieuws.nl##.uk-text-center[style^="min-height"]
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 waterkant.net##.td-all-devices
