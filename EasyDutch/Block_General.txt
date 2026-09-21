@@ -2,6 +2,9 @@
 ! Description: Filters to block general URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-09-21
+/api/advertise-deliver/deliver?adtypes=banners$xhr,1p
+/api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
 ! 2023-10-16
 /reclame/*.gif$image,3p
 ! https://github.com/easylist/easylistdutch/commit/95d1b75372ec4f93b15cc420717bac47dfc87486
