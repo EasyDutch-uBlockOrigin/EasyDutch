@@ -1,8 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 21 Sep 2026 14:59:54 +0000
+! Last updated: Mon, 21 Sep 2026 18:28:00 +0000
 !
 ! 2026-09-22
+mtbroutes.nl##.col-ads
 revive.nl##[id^="reviv-"]
 ! 2026-09-21
 meemetoranje.nl##.web-top-container

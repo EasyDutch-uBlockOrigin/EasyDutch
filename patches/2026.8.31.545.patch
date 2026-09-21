@@ -1,17 +1,19 @@
-diff name:easydutch lines:81 checksum:ce0d355022
+diff name:easydutch lines:84 checksum:50e3ec3867
 d2 1
 a2 1
-! Last updated: Mon, 21 Sep 2026 14:59:54 +0000
+! Last updated: Mon, 21 Sep 2026 18:28:00 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.21.899.patch#easydutch
+! Diff-Path: patches/2026.9.21.1107.patch#easydutch
 a14 2
 /api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 /api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
 d71 1
 a71 1
 ||rkn3.net^$3p
-a133 3
+a133 5
+||mtbroutes.nl/storage/images/*.gif$image
+||tbroutes.nl/storage/images/*/banner$image
 ||0318media.nl^$domain=galaxyclub.nl
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 .nl/storage/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -19,7 +21,8 @@ d141 1
 d145 1
 d331 1
 d342 1
-a509 35
+a509 36
+mtbroutes.nl##.col-ads
 revive.nl##[id^="reviv-"]
 meemetoranje.nl##.web-top-container
 meemetoranje.nl##.web-mid-container

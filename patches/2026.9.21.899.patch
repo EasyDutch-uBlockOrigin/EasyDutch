@@ -1,0 +1,12 @@
+diff name:easydutch lines:11 checksum:50e3ec3867
+d2 1
+a2 1
+! Last updated: Mon, 21 Sep 2026 18:28:00 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.9.21.1107.patch#easydutch
+a135 2
+||mtbroutes.nl/storage/images/*.gif$image
+||tbroutes.nl/storage/images/*/banner$image
+a510 1
+mtbroutes.nl##.col-ads
