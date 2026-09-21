@@ -13,7 +13,7 @@ nieuwnieuws.nl##.nn-ad-slot
 ! 2026-09-20
 cvandaag.nl##app-banner-display
 cvandaag.nl##app-native-block-one-presentation:has-text(kinderen)
-cvandaag.nl##.sponsored
+cvandaag.nl##article .sponsored.more:upward(1)
 cvandaag.nl##.sponsored:upward(app-article-presentation)
 ! 2026-09-19
 meerdangewenst.nl##.sponsoren:upward(1)
