@@ -15,6 +15,9 @@ cvandaag.nl##app-banner-display
 cvandaag.nl##app-native-block-one-presentation:has-text(kinderen)
 cvandaag.nl##article .sponsored.more:upward(1)
 cvandaag.nl##.sponsored:upward(app-article-presentation)
+nieuwrechts.nl##app-banner-display
+nieuwrechts.nl##.sponsored:upward(app-article-presentation)
+nieuwrechts.nl##article .sponsored.more:upward(1)
 ! 2026-09-19
 meerdangewenst.nl##.sponsoren:upward(1)
 nationalemediasite.nl##div.grid-item:has(h2:has-text(Gesponsord))
@@ -44,7 +47,6 @@ ajaxshowtime.com##.raw-html-component--ad
 pepper.com##div[id^="ad-sidebar"]
 pepper.com##div[id$="AdSlotPortal"]
 pepper.com###ad-belowDetails:upward([data-t="bannerAd"])e
-nieuwrechts.nl##.sponsored.more
 crypto-insiders.nl##[id^="div-gpt-ad"]:upward(1):has-text(Advert)
 crypto-insiders.nl###buy
 crypto-insiders.nl##[class^="space-y"]:has(.article-outro)
