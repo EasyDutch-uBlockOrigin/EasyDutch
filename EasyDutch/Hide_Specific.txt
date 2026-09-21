@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-09-22
+mtbroutes.nl##.col-ads
 revive.nl##[id^="reviv-"]
 ! 2026-09-21
 meemetoranje.nl##.web-top-container
