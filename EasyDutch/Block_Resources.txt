@@ -1,10 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
+! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
 !
 ! 2026-09-26
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 ! 2026-09-21
 ||mtbroutes.nl/storage/images/*.gif$image
 ||mtbroutes.nl/storage/images/*/banner$image

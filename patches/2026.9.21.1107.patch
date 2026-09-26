@@ -1,13 +1,14 @@
-diff name:easydutch lines:16 checksum:3487ef1c21
+diff name:easydutch lines:25 checksum:1f7cf6b4b5
 d2 1
 a2 1
-! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
+! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.26.352.patch#easydutch
-a135 2
+! Diff-Path: patches/2026.9.26.364.patch#easydutch
+a135 3
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 d137 1
 a137 1
 ||mtbroutes.nl/storage/images/*/banner$image
@@ -15,3 +16,11 @@ d227 5
 a231 1
 /images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
 d291 6
+a512 3
+truck1.be,truck1.nl,truck1-nl.be##div.banners-container
+truck1.be,truck1.nl,truck1-nl.be###aside-banners
+truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
+d1217 3
+d1369 1
+a1369 1
+allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner

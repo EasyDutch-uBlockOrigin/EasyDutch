@@ -1,20 +1,17 @@
-diff name:easydutch lines:19 checksum:1f7cf6b4b5
+diff name:easydutch lines:16 checksum:1f7cf6b4b5
 d2 1
 a2 1
 ! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
 d4 1
 a4 1
 ! Diff-Path: patches/2026.9.26.364.patch#easydutch
-a135 3
-/st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
-/st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+a137 1
 /st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
-d287 6
-a508 3
+a504 3
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
 truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
-d1213 3
-d1365 1
-a1365 1
+d1209 3
+d1361 1
+a1361 1
 allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner

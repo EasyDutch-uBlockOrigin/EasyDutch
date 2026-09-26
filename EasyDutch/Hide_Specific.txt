@@ -1,7 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 21 Sep 2026 18:28:00 +0000
+! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
 !
+! 2026-09-26
+truck1.be,truck1.nl,truck1-nl.be##div.banners-container
+truck1.be,truck1.nl,truck1-nl.be###aside-banners
+truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
 ! 2026-09-22
 mtbroutes.nl##.col-ads
 revive.nl##[id^="reviv-"]
@@ -836,9 +840,6 @@ ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
-truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
-truck1.be,truck1.nl,truck1-nl.be##div.banners-container
-truck1.be,truck1.nl,truck1-nl.be###aside-banners
 ! 2023-10-30
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
@@ -1040,7 +1041,7 @@ openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
-allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer

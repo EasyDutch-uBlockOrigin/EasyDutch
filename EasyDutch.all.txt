@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
+! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.9.26.352.patch#easydutch
+! Diff-Path: patches/2026.9.26.364.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -135,6 +135,7 @@ _advertentieleaderboardhome.
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 ||mtbroutes.nl/storage/images/*.gif$image
 ||mtbroutes.nl/storage/images/*/banner$image
 ||0318media.nl^$domain=galaxyclub.nl
@@ -502,6 +503,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+truck1.be,truck1.nl,truck1-nl.be##div.banners-container
+truck1.be,truck1.nl,truck1-nl.be###aside-banners
+truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
 mtbroutes.nl##.col-ads
 revive.nl##[id^="reviv-"]
 meemetoranje.nl##.web-top-container
@@ -1206,9 +1210,6 @@ ditjesendatjes.nl##aside h2:has-text(DenD Promoties),
 ditjesendatjes.nl##aside h2:has-text(DenD Promoties) + [class]
 ditjesendatjes.nl##h2:has-text(DenD Partners):upward(section)
 footballtransfers.com##[id*="rectangle-halfpage"]:upward(1)
-truck1.be,truck1.nl,truck1-nl.be##.top-banner-container:upward(1)
-truck1.be,truck1.nl,truck1-nl.be##div.banners-container
-truck1.be,truck1.nl,truck1-nl.be###aside-banners
 wijwedden.net##.bookies.stream-preview
 wijwedden.net##.top-bookmaker-widget
 dutchleader.nl##td[background]:has-text(Advert):upward(tbody)
@@ -1358,7 +1359,7 @@ openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
-allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be##.banner
+allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer

@@ -1,19 +1,20 @@
-diff name:easydutch lines:75 checksum:3487ef1c21
+diff name:easydutch lines:83 checksum:1f7cf6b4b5
 d2 1
 a2 1
-! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
+! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.26.352.patch#easydutch
+! Diff-Path: patches/2026.9.26.364.patch#easydutch
 a14 2
 /api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 /api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
 d71 1
 a71 1
 ||rkn3.net^$3p
-a133 7
+a133 8
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 ||mtbroutes.nl/storage/images/*.gif$image
 ||mtbroutes.nl/storage/images/*/banner$image
 ||0318media.nl^$domain=galaxyclub.nl
@@ -27,7 +28,10 @@ a226 1
 d286 6
 d331 1
 d342 1
-a509 30
+a509 33
+truck1.be,truck1.nl,truck1-nl.be##div.banners-container
+truck1.be,truck1.nl,truck1-nl.be###aside-banners
+truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
 mtbroutes.nl##.col-ads
 revive.nl##[id^="reviv-"]
 meemetoranje.nl##.web-top-container
@@ -72,5 +76,9 @@ peoplesphere.be##.leaderboard
 d1022 3
 d1028 4
 d1046 1
+d1205 3
 d1334 1
+d1358 1
+a1358 1
+allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 d1465 1
