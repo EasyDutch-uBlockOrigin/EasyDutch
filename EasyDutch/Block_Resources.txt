@@ -5,6 +5,7 @@
 ! 2026-09-26
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/*/img/native-banners//$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 ! 2026-09-21
 ||mtbroutes.nl/storage/images/*.gif$image
 ||mtbroutes.nl/storage/images/*/banner$image
