@@ -1,17 +1,19 @@
-diff name:easydutch lines:70 checksum:938e9ca809
+diff name:easydutch lines:73 checksum:3487ef1c21
 d2 1
 a2 1
-! Last updated: Sat, 26 Sep 2026 05:40:57 +0000
+! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.26.340.patch#easydutch
+! Diff-Path: patches/2026.9.26.352.patch#easydutch
 a14 2
 /api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 /api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
 d71 1
 a71 1
 ||rkn3.net^$3p
-a133 5
+a133 7
+/st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 ||mtbroutes.nl/storage/images/*.gif$image
 ||mtbroutes.nl/storage/images/*/banner$image
 ||0318media.nl^$domain=galaxyclub.nl
@@ -22,6 +24,7 @@ d145 1
 d222 5
 a226 1
 /images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
+d286 6
 d331 1
 d342 1
 a509 29

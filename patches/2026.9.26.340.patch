@@ -1,4 +1,4 @@
-diff name:easydutch lines:16 checksum:3487ef1c21
+diff name:easydutch lines:10 checksum:3487ef1c21
 d2 1
 a2 1
 ! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
@@ -8,10 +8,4 @@ a4 1
 a135 2
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
-d137 1
-a137 1
-||mtbroutes.nl/storage/images/*/banner$image
-d227 5
-a231 1
-/images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
-d291 6
+d287 6

@@ -1,15 +1,18 @@
-diff name:easydutch lines:14 checksum:938e9ca809
+diff name:easydutch lines:17 checksum:3487ef1c21
 d2 1
 a2 1
-! Last updated: Sat, 26 Sep 2026 05:40:57 +0000
+! Last updated: Sat, 26 Sep 2026 05:52:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.26.340.patch#easydutch
-a135 2
+! Diff-Path: patches/2026.9.26.352.patch#easydutch
+a135 4
+/st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
+/st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 ||mtbroutes.nl/storage/images/*.gif$image
 ||mtbroutes.nl/storage/images/*/banner$image
 d225 5
 a229 1
 /images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
+d289 6
 a510 1
 mtbroutes.nl##.col-ads
