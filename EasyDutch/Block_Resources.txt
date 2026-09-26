@@ -4,7 +4,7 @@
 !
 ! 2026-09-21
 ||mtbroutes.nl/storage/images/*.gif$image
-||tbroutes.nl/storage/images/*/banner$image
+||mtbroutes.nl/storage/images/*/banner$image
 ! 2026-09-19
 ||0318media.nl^$domain=galaxyclub.nl
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
