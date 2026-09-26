@@ -109,11 +109,7 @@
 ||persberichten.com/*.gif$image
 ||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
 ! 2026-04-25
-||123inkt.nl/images/oren/*$image
-||123accu.nl/images/oren/*$image
-||123led.nl/images/oren/*$image
-||123-3d.nl/images/oren/*$image
-||123schoon.nl/images/oren/*$image
+/images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
 ||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
 ||247spice.com/images/*/uploads/partners/$image
 ||dbsuriname.com/wp-content/uploads/*/*banner$image
