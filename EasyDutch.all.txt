@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Mon, 21 Sep 2026 18:28:00 +0000
+! Last updated: Sat, 26 Sep 2026 05:40:57 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.9.21.1107.patch#easydutch
+! Diff-Path: patches/2026.9.26.340.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -134,7 +134,7 @@ _advertentieleaderboardhome.
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
 ||mtbroutes.nl/storage/images/*.gif$image
-||tbroutes.nl/storage/images/*/banner$image
+||mtbroutes.nl/storage/images/*/banner$image
 ||0318media.nl^$domain=galaxyclub.nl
 .nl/remote/https/agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
 .nl/storage/banners/$image,domain=agf.nl|biojournaal.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -224,11 +224,7 @@ _advertentieleaderboardhome.
 ||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
 ||persberichten.com/*.gif$image
 ||smartmag.theme-sphere.com/classic/wp-content/uploads/*/ad-block.png$image,domain=hollywoodhuizen.nl
-||123inkt.nl/images/oren/*$image
-||123accu.nl/images/oren/*$image
-||123led.nl/images/oren/*$image
-||123-3d.nl/images/oren/*$image
-||123schoon.nl/images/oren/*$image
+/images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
 ||broadcastmagazine.nl/wp-content/uploads/*/*424_700$image
 ||247spice.com/images/*/uploads/partners/$image
 ||dbsuriname.com/wp-content/uploads/*/*banner$image
