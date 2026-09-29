@@ -1,7 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 26 Sep 2026 06:04:59 +0000
+! Last updated: Tue, 29 Sep 2026 15:54:14 +0000
 !
+! 2026-09-29
+bol.com##span:has-text(/^Advertentie$/):upward(section)
 ! 2026-09-26
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners

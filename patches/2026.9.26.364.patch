@@ -1,0 +1,9 @@
+diff name:easydutch lines:8 checksum:77a3675ba3
+d2 1
+a2 1
+! Last updated: Tue, 29 Sep 2026 15:54:14 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.9.29.954.patch#easydutch
+a505 1
+bol.com##span:has-text(/^Advertentie$/):upward(section)
