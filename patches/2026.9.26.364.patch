@@ -1,9 +1,12 @@
-diff name:easydutch lines:8 checksum:77a3675ba3
+diff name:easydutch lines:11 checksum:adce169ccb
 d2 1
 a2 1
-! Last updated: Tue, 29 Sep 2026 15:54:14 +0000
+! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.29.954.patch#easydutch
-a505 1
+! Diff-Path: patches/2026.10.15.861.patch#easydutch
+a505 3
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 bol.com##span:has-text(/^Advertentie$/):upward(section)
+d1003 1

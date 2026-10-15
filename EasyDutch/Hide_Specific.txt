@@ -1,7 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 29 Sep 2026 15:54:14 +0000
+! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
 !
+! 2026-10-15
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 ! 2026-09-29
 bol.com##span:has-text(/^Advertentie$/):upward(section)
 ! 2026-09-26
@@ -593,7 +596,6 @@ nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
 gratisoptehalen.nl##.headerAdWrap
 ! 2026-02-11
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
-kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 waterkant.net##.td-all-devices
 voedingswaardetabel.nl##[class^="amgray"]
 voetbal24.be##.raw-html-component

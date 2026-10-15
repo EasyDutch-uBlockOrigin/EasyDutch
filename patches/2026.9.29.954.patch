@@ -1,0 +1,11 @@
+diff name:easydutch lines:10 checksum:adce169ccb
+d2 1
+a2 1
+! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.10.15.861.patch#easydutch
+a505 2
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
+d1004 1

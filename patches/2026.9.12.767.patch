@@ -1,10 +1,10 @@
-diff name:easydutch lines:83 checksum:77a3675ba3
+diff name:easydutch lines:85 checksum:adce169ccb
 d2 1
 a2 1
-! Last updated: Tue, 29 Sep 2026 15:54:14 +0000
+! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.9.29.954.patch#easydutch
+! Diff-Path: patches/2026.10.15.861.patch#easydutch
 a14 2
 /api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 /api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
@@ -28,7 +28,9 @@ a226 1
 d286 6
 d331 1
 d342 1
-a509 33
+a509 35
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
+kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 bol.com##span:has-text(/^Advertentie$/):upward(section)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
@@ -66,7 +68,7 @@ d520 1
 d620 3
 d724 2
 d980 1
-d982 2
+d982 3
 d990 1
 d1007 2
 d1011 1
