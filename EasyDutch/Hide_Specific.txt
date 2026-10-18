@@ -1,7 +1,12 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
+! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
 !
+! 2026-10-18
+looopings.nl###contentBillboard
+looopings.nl###contentMobileBillboard
+looopings.nl##.indexAdFrame
+looopings.nl##.sidebarAdFrame
 ! 2026-10-15
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)

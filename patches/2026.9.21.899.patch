@@ -1,10 +1,10 @@
-diff name:easydutch lines:29 checksum:adce169ccb
+diff name:easydutch lines:36 checksum:9202b098d0
 d2 1
 a2 1
-! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
+! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.15.861.patch#easydutch
+! Diff-Path: patches/2026.10.18.602.patch#easydutch
 a135 5
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
@@ -15,7 +15,11 @@ d225 5
 a229 1
 /images/oren/*$image,1p,domain=123inkt.nl|123accu.nl|123led.nl|123-3d.nl|123schoon.nl
 d289 6
-a510 7
+a510 11
+looopings.nl###contentBillboard
+looopings.nl###contentMobileBillboard
+looopings.nl##.indexAdFrame
+looopings.nl##.sidebarAdFrame
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 bol.com##span:has-text(/^Advertentie$/):upward(section)
@@ -28,3 +32,6 @@ d1214 3
 d1366 1
 a1366 1
 allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
+a1454 1
+looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
+d1475 1

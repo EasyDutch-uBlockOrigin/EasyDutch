@@ -1,7 +1,9 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Mon, 21 Sep 2026 14:59:54 +0000
+! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
 !
+! 2026-10-18
+looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
 ! 2026-07-01
 ||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl
 ! 2026-06-11
@@ -47,8 +49,6 @@ touretappe.nl##+js(set, adBlocker, 0)
 ! https://github.com/NanoMeow/QuickReports/issues/1285
 @@||ah.nl^$ghide
 radiowereld.nl##+js(nosiif, adb)
-! 2023-10-06 https://github.com/AdguardTeam/AdguardFilters/issues/163031
-looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
 ! 2023-07-26
 ! https://github.com/AdguardTeam/AdguardFilters/commit/25e1c5f39ef9f3ff937db3d72ce1f05c599158c4
 ! https://github.com/AdguardTeam/AdguardFilters/commit/695532f6ed3a31648b16dcd9e680a04eb22e5c5d

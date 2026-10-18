@@ -1,12 +1,19 @@
-diff name:easydutch lines:11 checksum:adce169ccb
+diff name:easydutch lines:18 checksum:9202b098d0
 d2 1
 a2 1
-! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
+! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.15.861.patch#easydutch
-a505 3
+! Diff-Path: patches/2026.10.18.602.patch#easydutch
+a505 7
+looopings.nl###contentBillboard
+looopings.nl###contentMobileBillboard
+looopings.nl##.indexAdFrame
+looopings.nl##.sidebarAdFrame
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 bol.com##span:has-text(/^Advertentie$/):upward(section)
 d1003 1
+a1450 1
+looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
+d1471 1

@@ -1,10 +1,10 @@
-diff name:easydutch lines:81 checksum:adce169ccb
+diff name:easydutch lines:88 checksum:9202b098d0
 d2 1
 a2 1
-! Last updated: Thu, 15 Oct 2026 14:21:10 +0000
+! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.15.861.patch#easydutch
+! Diff-Path: patches/2026.10.18.602.patch#easydutch
 a14 2
 /api/advertise-deliver/deliver?adtypes=banners$xhr,1p
 /api/advertise-deliver/deliver?adtypes=native_block_one$xhr,1p
@@ -25,7 +25,11 @@ a226 1
 d286 6
 d331 1
 d342 1
-a509 35
+a509 39
+looopings.nl###contentBillboard
+looopings.nl###contentMobileBillboard
+looopings.nl##.indexAdFrame
+looopings.nl##.sidebarAdFrame
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
 bol.com##span:has-text(/^Advertentie$/):upward(section)
@@ -79,4 +83,7 @@ d1206 3
 d1358 1
 a1358 1
 allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
+a1446 1
+looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
 d1465 1
+d1468 1
