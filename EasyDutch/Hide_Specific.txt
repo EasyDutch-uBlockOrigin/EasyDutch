@@ -2,6 +2,11 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-10-18
+looopings.nl###contentBillboard
+looopings.nl###contentMobileBillboard
+looopings.nl##.indexAdFrame
+looopings.nl##.sidebarAdFrame
 ! 2026-10-15
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
