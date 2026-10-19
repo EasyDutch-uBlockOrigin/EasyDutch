@@ -563,7 +563,7 @@ ewmagazine.nl###top_rt
 gezondheid.be###leaderboard
 gezondheid.be###leaderboard_floor
 gocar.be##.ads-container
-gocar.be##.pub-text:upward(2)
+gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
 ! End Roularta Media Group
 wattedoen.be###banner
 wattedoen.be###imu_large
