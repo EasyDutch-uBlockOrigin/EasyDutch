@@ -5,6 +5,8 @@
 ! 2026-10-19
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+vnci.nl##.banner
+vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
 ! 2026-10-18
 looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
@@ -565,8 +567,6 @@ wattedoen.be##.gpt_box
 nuus.be##.beiaa-widget
 nuus.be##.advertentie
 nuus.be###masthead:style(height:90px!important;)
-vnci.nl##.banner
-vnci.nl##.header.header--article:style(top: 0 !important;)
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
 meetingmagazine.nl##.bannerLine
 jazznu.com###sp-advertisements-bottom
