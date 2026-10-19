@@ -598,7 +598,6 @@ achterhoekagenda.nl##.component__page-snippet
 achterhoekauto.nl##body > div.container > div:not([onclick])
 ! End Achterhoeknieuws
 nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
-gratisoptehalen.nl##.headerAdWrap
 ! 2026-02-11
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 waterkant.net##.td-all-devices
