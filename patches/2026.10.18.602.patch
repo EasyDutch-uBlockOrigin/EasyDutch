@@ -1,0 +1,32 @@
+diff name:easydutch lines:31 checksum:da46db815f
+d2 1
+a2 1
+! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.10.19.575.patch#easydutch
+d325 1
+a505 8
+elkspel.nl##.banner
+elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+meetingmagazine.nl###prBnrLn
+meetingmagazine.nl##.banner_container
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
+vnci.nl##.banner
+vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
+d964 2
+d975 1
+a975 1
+gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
+d982 2
+d985 1
+d991 3
+d1005 1
+a1005 1
+achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
+d1008 1
+d1043 1
+d1368 1
+a1368 1
+allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner

@@ -1,7 +1,16 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
+! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
 !
+! 2026-10-19
+elkspel.nl##.banner
+elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+meetingmagazine.nl###prBnrLn
+meetingmagazine.nl##.banner_container
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
+vnci.nl##.banner
+vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
 ! 2026-10-18
 looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
@@ -544,8 +553,6 @@ radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
 radios.nl##div.rsad-wrapper
 ! 2026-02-12
-elkspel.nl##.banner-container
-elkspel.nl##.gc-lb
 ! Roularta Media Group
 fiets.nl##.banner-container
 columbusmagazine.nl,deliciousmagazine.nl,fietsactief.nl,flowmagazine.nl,happinez.nl,knipmode.nl,landleven.nl,psychologie.nl,zin.nl##.rmn-advert
@@ -556,7 +563,7 @@ ewmagazine.nl###top_rt
 gezondheid.be###leaderboard
 gezondheid.be###leaderboard_floor
 gocar.be##.ads-container
-gocar.be##.pub-text:upward(2)
+gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
 ! End Roularta Media Group
 wattedoen.be###banner
 wattedoen.be###imu_large
@@ -564,18 +571,12 @@ wattedoen.be##.gpt_box
 nuus.be##.beiaa-widget
 nuus.be##.advertentie
 nuus.be###masthead:style(height:90px!important;)
-vnci.nl##.banner
-vnci.nl##.header.header--article:style(top: 0 !important;)
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
-meetingmagazine.nl##.bannerLine
 jazznu.com###sp-advertisements-bottom
 jazzism.nl##a[target="_blank"]:not([href*="jazzism.nl"]):upward(.elementor-element)
 jazzism.nl##img[width="250"]
 jazzism.nl##img[width="400"]
 hoimedia.com##.advert
-sommenoefenen.nl##[class^="r89"]:upward(div[style])
-taaloefenen.nl##.tekstads
-taaloefenen.nl##[id^="r89"]
 aalsmeervandaag.nl##.elementor-widget-media-carousel
 aalsmeervandaag.nl##.advertenties:upward(.elementor-widget-shortcode)
 aalsmeervandaag.nl##[data-widget_type^="vertical-slider"]:upward(.elementor-widget-shortcode)
@@ -594,11 +595,10 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 ! End EnterMedia
 ! Achterhoeknieuws
 achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
-achterhoekagenda.nl##.component__page-snippet
+achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
 achterhoekauto.nl##body > div.container > div:not([onclick])
 ! End Achterhoeknieuws
 nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
-gratisoptehalen.nl##.headerAdWrap
 ! 2026-02-11
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 waterkant.net##.td-all-devices
@@ -641,7 +641,6 @@ atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 ! End SportID
-spellingoefenen.nl##[class^="r89-"]:upward(div[style])
 fcutrecht.net###reclame
 techzine.nl##.chimney
 twenteinsite.nl##.sda
@@ -1050,7 +1049,7 @@ openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
-allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
+allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer

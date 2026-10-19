@@ -1,18 +1,42 @@
-diff name:easydutch lines:17 checksum:9202b098d0
+diff name:easydutch lines:41 checksum:da46db815f
 d2 1
 a2 1
-! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
+! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.18.602.patch#easydutch
-a505 6
+! Diff-Path: patches/2026.10.19.575.patch#easydutch
+d325 1
+a505 14
+elkspel.nl##.banner
+elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+meetingmagazine.nl###prBnrLn
+meetingmagazine.nl##.banner_container
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
+vnci.nl##.banner
+vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
 looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
 looopings.nl##.indexAdFrame
 looopings.nl##.sidebarAdFrame
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:hidden)
 kidsenkurken.nl##div[class*="r89-"]:upward(.lg\:block)
+d958 2
+d969 1
+a969 1
+gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
+d976 2
+d979 1
+d985 3
+d999 1
+a999 1
+achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
+d1002 1
 d1004 1
+d1038 1
+d1363 1
+a1363 1
+allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 a1451 1
 looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
 d1472 1

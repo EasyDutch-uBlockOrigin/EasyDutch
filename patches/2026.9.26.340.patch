@@ -1,16 +1,25 @@
-diff name:easydutch lines:30 checksum:9202b098d0
+diff name:easydutch lines:51 checksum:da46db815f
 d2 1
 a2 1
-! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
+! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.18.602.patch#easydutch
+! Diff-Path: patches/2026.10.19.575.patch#easydutch
 a135 3
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 d287 6
-a508 10
+d328 1
+a508 18
+elkspel.nl##.banner
+elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+meetingmagazine.nl###prBnrLn
+meetingmagazine.nl##.banner_container
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
+vnci.nl##.banner
+vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
 looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
 looopings.nl##.indexAdFrame
@@ -21,11 +30,23 @@ bol.com##span:has-text(/^Advertentie$/):upward(section)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
 truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
+d957 2
+d968 1
+a968 1
+gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
+d975 2
+d978 1
+d984 3
+d998 1
+a998 1
+achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
+d1001 1
 d1003 1
+d1037 1
 d1213 3
 d1365 1
 a1365 1
-allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
+allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 a1453 1
 looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
 d1474 1

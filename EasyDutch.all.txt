@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 18 Oct 2026 10:02:09 +0000
+! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.10.18.602.patch#easydutch
+! Diff-Path: patches/2026.10.19.575.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -322,7 +322,6 @@ _advertentieleaderboardhome.
 ||cms.mvmm.nl/dynimage/rdimg/$image,domain=meetingmagazine.nl
 ||aalsmeervandaag.nl/wp-content/uploads/*/adv$image
 ||static.wixstatic.com/media/*~mv2.*/v*/fill/w_*/*banner$image,domain=nbs-bouwmaterialen.nl
-||gratisoptehalen.nl/images/fm.gif
 ||afbeeldingen.franekeractueel.nl/uploads/*banner*$image,1p
 ||revive.nl/wp-content/uploads/*/*.gif
 ||flexwebhosting.nl/banners/
@@ -503,6 +502,14 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+elkspel.nl##.banner
+elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+meetingmagazine.nl###prBnrLn
+meetingmagazine.nl##.banner_container
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
+vnci.nl##.banner
+vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
 looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
 looopings.nl##.indexAdFrame
@@ -961,8 +968,6 @@ rtvnof.nl##.advert-header
 radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
 radios.nl##div.rsad-wrapper
-elkspel.nl##.banner-container
-elkspel.nl##.gc-lb
 fiets.nl##.banner-container
 columbusmagazine.nl,deliciousmagazine.nl,fietsactief.nl,flowmagazine.nl,happinez.nl,knipmode.nl,landleven.nl,psychologie.nl,zin.nl##.rmn-advert
 beleggersbelangen.nl,columbusmagazine.nl,deliciousmagazine.nl,dezondag.be,ewmagazine.nl,feeling.be,fietsactief.nl,flair.be,flowmagazine.nl,happinez.nl,knack.be,knipmode.nl,kw.be,landleven.nl,libelle.be,psychologie.nl,seasons.nl,truckstar.nl,zin.nl###rmg-mma-navigation
@@ -972,25 +977,19 @@ ewmagazine.nl###top_rt
 gezondheid.be###leaderboard
 gezondheid.be###leaderboard_floor
 gocar.be##.ads-container
-gocar.be##.pub-text:upward(2)
+gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
 wattedoen.be###banner
 wattedoen.be###imu_large
 wattedoen.be##.gpt_box
 nuus.be##.beiaa-widget
 nuus.be##.advertentie
 nuus.be###masthead:style(height:90px!important;)
-vnci.nl##.banner
-vnci.nl##.header.header--article:style(top: 0 !important;)
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
-meetingmagazine.nl##.bannerLine
 jazznu.com###sp-advertisements-bottom
 jazzism.nl##a[target="_blank"]:not([href*="jazzism.nl"]):upward(.elementor-element)
 jazzism.nl##img[width="250"]
 jazzism.nl##img[width="400"]
 hoimedia.com##.advert
-sommenoefenen.nl##[class^="r89"]:upward(div[style])
-taaloefenen.nl##.tekstads
-taaloefenen.nl##[id^="r89"]
 aalsmeervandaag.nl##.elementor-widget-media-carousel
 aalsmeervandaag.nl##.advertenties:upward(.elementor-widget-shortcode)
 aalsmeervandaag.nl##[data-widget_type^="vertical-slider"]:upward(.elementor-widget-shortcode)
@@ -1002,10 +1001,9 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##div[id]:upward(.component__plugin)
 belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieuws.nl,weespernieuws.nl##.component__pubble-banner:has-text(/Uit de krant|advert/)
 achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
-achterhoekagenda.nl##.component__page-snippet
+achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
 achterhoekauto.nl##body > div.container > div:not([onclick])
 nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
-gratisoptehalen.nl##.headerAdWrap
 zelfmaak-ideetjes.nl##[class*="Sticky_Ad"]
 waterkant.net##.td-all-devices
 voedingswaardetabel.nl##[class^="amgray"]
@@ -1040,7 +1038,6 @@ peoplesphere.be##.leaderboard
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be###ad-intro-text
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
-spellingoefenen.nl##[class^="r89-"]:upward(div[style])
 fcutrecht.net###reclame
 techzine.nl##.chimney
 twenteinsite.nl##.sda
@@ -1365,7 +1362,7 @@ openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
-allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
+allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
