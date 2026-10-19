@@ -594,6 +594,7 @@ belnieuws.nl,diemernieuws.nl,gooisemerennieuws.nl,hilversumsnieuws.nl,huizernieu
 ! End EnterMedia
 ! Achterhoeknieuws
 achterhoeknieuwsborculoruurlo.nl,achterhoeknieuwseibergenneede.nl,achterhoeknieuwswinterswijk.nl,berkelbode.nl,contactmidden.nl,contactnoord.nl,contactzuid.nl,contactzutphen.nl,de-band.nl,doetinchemsvizier.nl,elna.nl,geldersepost.nl,groenlosegids.nl,montferlandjournaal.nl##.component__pubble-banner:has([advobject])
+achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
 achterhoekauto.nl##body > div.container > div:not([onclick])
 ! End Achterhoeknieuws
 nbs-bouwmaterialen.nl##a[data-testid="linkElement"][target="_blank"]
