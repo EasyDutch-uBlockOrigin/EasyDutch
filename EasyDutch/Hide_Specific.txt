@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-10-19
+elkspel.nl##.banner
+elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
 ! 2026-10-18
 looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
@@ -544,8 +547,6 @@ radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
 radios.nl##div.rsad-wrapper
 ! 2026-02-12
-elkspel.nl##.banner-container
-elkspel.nl##.gc-lb
 ! Roularta Media Group
 fiets.nl##.banner-container
 columbusmagazine.nl,deliciousmagazine.nl,fietsactief.nl,flowmagazine.nl,happinez.nl,knipmode.nl,landleven.nl,psychologie.nl,zin.nl##.rmn-advert
@@ -1049,7 +1050,7 @@ openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 spel.nl,spelletjes.nl##.advert
 startlijstjes.nl##.advertentieblock
 goodbye.be##.advertising
-allradio.nl,elkspel.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
+allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner
 vlietnieuws.nl##.banner_wrapper
 speeleiland.nl##.banner-btf-side-rectangle
 refoweb.nl##.bannercontainer
