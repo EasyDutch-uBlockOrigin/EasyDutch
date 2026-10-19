@@ -5,6 +5,8 @@
 ! 2026-10-19
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+meetingmagazine.nl###prBnrLn
+meetingmagazine.nl##.banner_container
 sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
 taaloefenen.nl##.tekstads
 vnci.nl##.banner
@@ -570,7 +572,6 @@ nuus.be##.beiaa-widget
 nuus.be##.advertentie
 nuus.be###masthead:style(height:90px!important;)
 deaandeelhouder.be,deaandeelhouder.nl##.container-commercial
-meetingmagazine.nl##.bannerLine
 jazznu.com###sp-advertisements-bottom
 jazzism.nl##a[target="_blank"]:not([href*="jazzism.nl"]):upward(.elementor-element)
 jazzism.nl##img[width="250"]
