@@ -5,6 +5,8 @@
 ! 2026-10-19
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+taaloefenen.nl##.tekstads
 vnci.nl##.banner
 vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
 ! 2026-10-18
@@ -574,9 +576,6 @@ jazzism.nl##a[target="_blank"]:not([href*="jazzism.nl"]):upward(.elementor-eleme
 jazzism.nl##img[width="250"]
 jazzism.nl##img[width="400"]
 hoimedia.com##.advert
-sommenoefenen.nl##[class^="r89"]:upward(div[style])
-taaloefenen.nl##.tekstads
-taaloefenen.nl##[id^="r89"]
 aalsmeervandaag.nl##.elementor-widget-media-carousel
 aalsmeervandaag.nl##.advertenties:upward(.elementor-widget-shortcode)
 aalsmeervandaag.nl##[data-widget_type^="vertical-slider"]:upward(.elementor-widget-shortcode)
@@ -641,7 +640,6 @@ atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sportid.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,voetbalkrant.com,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 ! End SportID
-spellingoefenen.nl##[class^="r89-"]:upward(div[style])
 fcutrecht.net###reclame
 techzine.nl##.chimney
 twenteinsite.nl##.sda
