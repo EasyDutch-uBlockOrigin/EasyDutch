@@ -1,12 +1,14 @@
-diff name:easydutch lines:39 checksum:33eec846c2
+diff name:easydutch lines:54 checksum:9d1d719011
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 06:41:14 +0000
+! Last updated: Tue, 20 Oct 2026 07:42:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.401.patch#easydutch
+! Diff-Path: patches/2026.10.20.462.patch#easydutch
 d325 1
 d484 1
+a495 1
+##.component__pubble-banner
 a505 12
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
@@ -20,6 +22,16 @@ looopings.nl###contentBillboard
 looopings.nl###contentMobileBillboard
 looopings.nl##.indexAdFrame
 looopings.nl##.sidebarAdFrame
+d801 1
+d804 1
+d807 1
+d810 1
+d813 1
+d816 1
+d819 1
+d822 1
+d825 1
+d828 1
 d960 2
 d971 1
 a971 1
@@ -27,11 +39,14 @@ gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
 d978 2
 d981 1
 d987 3
-d1001 1
+d994 1
+d996 1
+d999 3
 a1001 1
 achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
 d1004 1
 d1039 1
+d1065 1
 d1364 1
 a1364 1
 allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner

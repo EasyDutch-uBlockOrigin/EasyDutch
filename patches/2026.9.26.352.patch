@@ -1,14 +1,16 @@
-diff name:easydutch lines:49 checksum:33eec846c2
+diff name:easydutch lines:64 checksum:9d1d719011
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 06:41:14 +0000
+! Last updated: Tue, 20 Oct 2026 07:42:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.401.patch#easydutch
+! Diff-Path: patches/2026.10.20.462.patch#easydutch
 a137 1
 /st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 d324 1
 d483 1
+a494 1
+##.component__pubble-banner
 a504 18
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
@@ -28,6 +30,16 @@ bol.com##span:has-text(/^Advertentie$/):upward(section)
 truck1.be,truck1.nl,truck1-nl.be##div.banners-container
 truck1.be,truck1.nl,truck1-nl.be###aside-banners
 truck1.be,truck1.nl,truck1-nl.be##.listing-banner-item
+d794 1
+d797 1
+d800 1
+d803 1
+d806 1
+d809 1
+d812 1
+d815 1
+d818 1
+d821 1
 d953 2
 d964 1
 a964 1
@@ -35,12 +47,15 @@ gocar.be##.ais-InfiniteHits-list .pub-imu:upward(li)
 d971 2
 d974 1
 d980 3
-d994 1
+d987 1
+d989 1
+d992 3
 a994 1
 achterhoekagenda.nl##.component__plugin:has([id^="achterhoekagenda.nl"])
 d997 1
 d999 1
 d1033 1
+d1059 1
 d1209 3
 d1361 1
 a1361 1

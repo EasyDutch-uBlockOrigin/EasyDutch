@@ -1,7 +1,9 @@
 ! Title: Hide General
 ! Description: Filters for hiding general elements on Dutch websites
-! Last updated: Sat, 20 Jun 2026 13:57:24 +0000
+! Last updated: Tue, 20 Oct 2026 07:42:50 +0000
 !
+! 2026-10-20
+##.component__pubble-banner
 ! 2026-05-20
 ##div[class^="r89-desktop-"]
 ##div[class^="r89-mobile-"]

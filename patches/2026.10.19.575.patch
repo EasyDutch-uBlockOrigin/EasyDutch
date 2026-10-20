@@ -1,8 +1,24 @@
-diff name:easydutch lines:7 checksum:33eec846c2
+diff name:easydutch lines:23 checksum:9d1d719011
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 06:41:14 +0000
+! Last updated: Tue, 20 Oct 2026 07:42:50 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.401.patch#easydutch
+! Diff-Path: patches/2026.10.20.462.patch#easydutch
 d483 1
+a494 1
+##.component__pubble-banner
+d812 1
+d815 1
+d818 1
+d821 1
+d824 1
+d827 1
+d830 1
+d833 1
+d836 1
+d839 1
+d997 1
+d999 1
+d1002 2
+d1066 1
