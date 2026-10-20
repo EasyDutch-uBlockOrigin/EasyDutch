@@ -7,7 +7,7 @@ elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
 meetingmagazine.nl###prBnrLn
 meetingmagazine.nl##.banner_container
-sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl##[class^="r89"]:upward(div[style])
 taaloefenen.nl##.tekstads
 vnci.nl##.banner
 vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])
