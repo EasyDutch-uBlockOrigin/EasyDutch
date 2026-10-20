@@ -1,10 +1,10 @@
-diff name:easydutch lines:58 checksum:9d1d719011
+diff name:easydutch lines:58 checksum:d1af4403d9
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 07:42:50 +0000
+! Last updated: Tue, 20 Oct 2026 14:29:53 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.462.patch#easydutch
+! Diff-Path: patches/2026.10.20.869.patch#easydutch
 d325 1
 d484 1
 a495 1
@@ -14,7 +14,7 @@ elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
 meetingmagazine.nl###prBnrLn
 meetingmagazine.nl##.banner_container
-sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl,##[class^="r89"]:upward(div[style])
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl##[class^="r89"]:upward(div[style])
 taaloefenen.nl##.tekstads
 vnci.nl##.banner
 vnci.nl##.news-slider--wrapper:has(img[src*="/advertenties/"])

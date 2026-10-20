@@ -1,0 +1,10 @@
+diff name:easydutch lines:9 checksum:d1af4403d9
+d2 1
+a2 1
+! Last updated: Tue, 20 Oct 2026 14:29:53 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.10.20.869.patch#easydutch
+d509 1
+a509 1
+sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl##[class^="r89"]:upward(div[style])
