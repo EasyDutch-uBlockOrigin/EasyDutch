@@ -1,13 +1,14 @@
-diff name:easydutch lines:48 checksum:da46db815f
+diff name:easydutch lines:49 checksum:33eec846c2
 d2 1
 a2 1
-! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
+! Last updated: Tue, 20 Oct 2026 06:41:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.19.575.patch#easydutch
+! Diff-Path: patches/2026.10.20.401.patch#easydutch
 a137 1
 /st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 d324 1
+d483 1
 a504 18
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
