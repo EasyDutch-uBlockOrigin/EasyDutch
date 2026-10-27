@@ -1,15 +1,18 @@
-diff name:easydutch lines:58 checksum:d1af4403d9
+diff name:easydutch lines:62 checksum:fc346545f1
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 14:29:53 +0000
+! Last updated: Tue, 27 Oct 2026 16:45:17 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.869.patch#easydutch
+! Diff-Path: patches/2026.10.27.1005.patch#easydutch
 d325 1
 d484 1
 a495 1
 ##.component__pubble-banner
-a505 15
+a505 18
+rd.nl##.ad-container-print-hide
+rd.nl##.ad
+rd.nl##article .ad:upward(p)
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
 meetingmagazine.nl###prBnrLn
@@ -51,6 +54,7 @@ d1001 1
 d1003 1
 d1037 1
 d1063 1
+d1100 2
 d1362 1
 a1362 1
 allradio.nl,klasse.be,nieuweoogst.nl,nrc.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,tvgemist.be##.banner

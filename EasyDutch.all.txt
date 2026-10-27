@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 20 Oct 2026 14:29:53 +0000
+! Last updated: Tue, 27 Oct 2026 16:45:17 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.10.20.869.patch#easydutch
+! Diff-Path: patches/2026.10.27.1005.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -502,6 +502,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+rd.nl##.ad-container-print-hide
+rd.nl##.ad
+rd.nl##article .ad:upward(p)
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
 meetingmagazine.nl###prBnrLn
@@ -1085,8 +1088,6 @@ lovereality.nl##div[class^="r89-"]:upward(section[data-settings])
 bingofm.nl,denhaagfm.nl,gld.nl,l1.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland.nl,oost.nl,rijnmond.nl,rtvdrenthe.nl,rtvnoord.nl,rtvutrecht.nl##.groei-ad
 omroepbrabant.nl##div[class^="ad_"]
 omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
-rd.nl##.ad-container-print-hide
-rd.nl##.ad
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)

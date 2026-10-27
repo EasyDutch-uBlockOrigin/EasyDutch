@@ -1,12 +1,16 @@
-diff name:easydutch lines:25 checksum:d1af4403d9
+diff name:easydutch lines:30 checksum:fc346545f1
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 14:29:53 +0000
+! Last updated: Tue, 27 Oct 2026 16:45:17 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.869.patch#easydutch
+! Diff-Path: patches/2026.10.27.1005.patch#easydutch
 a493 1
 ##.component__pubble-banner
+a503 3
+rd.nl##.ad-container-print-hide
+rd.nl##.ad
+rd.nl##article .ad:upward(p)
 d508 1
 a508 1
 sommenoefenen.nl,spellingoefenen.nl,taaloefenen.nl##[class^="r89"]:upward(div[style])
@@ -24,3 +28,4 @@ d996 1
 d998 1
 d1001 2
 d1065 1
+d1102 2

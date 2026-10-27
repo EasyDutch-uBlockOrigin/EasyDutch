@@ -1,17 +1,20 @@
-diff name:easydutch lines:64 checksum:d1af4403d9
+diff name:easydutch lines:68 checksum:fc346545f1
 d2 1
 a2 1
-! Last updated: Tue, 20 Oct 2026 14:29:53 +0000
+! Last updated: Tue, 27 Oct 2026 16:45:17 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.20.869.patch#easydutch
+! Diff-Path: patches/2026.10.27.1005.patch#easydutch
 a137 1
 /st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 d324 1
 d483 1
 a494 1
 ##.component__pubble-banner
-a504 18
+a504 21
+rd.nl##.ad-container-print-hide
+rd.nl##.ad
+rd.nl##article .ad:upward(p)
 elkspel.nl##.banner
 elkspel.nl##[class^="gc-"]:has(> [id^="banner"])
 meetingmagazine.nl###prBnrLn
@@ -56,6 +59,7 @@ d997 1
 d999 1
 d1033 1
 d1059 1
+d1096 2
 d1209 3
 d1361 1
 a1361 1
