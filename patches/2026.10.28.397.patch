@@ -1,9 +1,12 @@
-diff name:easydutch lines:8 checksum:7ecacedadb
+diff name:easydutch lines:11 checksum:c48593da41
 d2 1
 a2 1
-! Last updated: Wed, 28 Oct 2026 07:33:17 +0000
+! Last updated: Thu, 29 Oct 2026 11:09:40 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.28.453.patch#easydutch
+! Diff-Path: patches/2026.10.29.669.patch#easydutch
 d1433 1
 d1438 1
+a1439 1
+citaten.net##+js(acis, checkshame)
+d1468 1

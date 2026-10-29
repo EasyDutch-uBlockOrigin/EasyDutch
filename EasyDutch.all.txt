@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 28 Oct 2026 07:33:17 +0000
+! Last updated: Thu, 29 Oct 2026 11:09:40 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.10.28.453.patch#easydutch
+! Diff-Path: patches/2026.10.29.669.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -1435,6 +1435,7 @@ mechanisatiemarkt.nl#@#.advert-container
 mechanisatiemarkt.nl#@#.advert-title
 mechanisatiemarkt.nl#@#.advertiser
 ! *** EasyDutch:EasyDutch/Anti-Adblock.txt ***
+citaten.net##+js(acis, checkshame)
 looopings.nl##+js(acis, matchMedia, updateAdblockMelding)
 ||cdn.btmessage.com/script/$redirect=noop.js,domain=sikkom.nl
 @@||moppen.nl^$ghide
@@ -1463,7 +1464,6 @@ tweakers.net###b_re:style(visibility: collapse !important; min-height: 1.5px !im
 aimsolutions.nl##+js(noeval-if, adsBlocked)
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
-citaten.net#@##bottom-ad
 @@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
 @@||fwmrm.net/crossdomain.xml$xhr,domain=embed.viaplay.com|racingnews365.nl
 autoweek.nl##+js(set, isAdBlockActive, false)
