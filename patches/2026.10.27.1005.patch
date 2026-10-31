@@ -1,10 +1,10 @@
-diff name:easydutch lines:13 checksum:c48593da41
+diff name:easydutch lines:16 checksum:5fcce0a909
 d2 1
 a2 1
-! Last updated: Thu, 29 Oct 2026 11:09:40 +0000
+! Last updated: Sat, 31 Oct 2026 08:36:29 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.29.669.patch#easydutch
+! Diff-Path: patches/2026.10.31.516.patch#easydutch
 d1433 2
 a1434 1
 adorss.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
@@ -12,3 +12,6 @@ d1438 1
 a1439 1
 citaten.net##+js(acis, checkshame)
 d1468 1
+d1476 1
+d1490 2
+d1542 5

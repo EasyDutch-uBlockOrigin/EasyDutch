@@ -1,12 +1,11 @@
 ! Title: NSFW
 ! Description: Filters for Dutch NSFW websites
-! Last updated: Sat, 01 Aug 2026 11:11:54 +0000
+! Last updated: Sat, 31 Oct 2026 08:36:29 +0000
 !
 ! Block_Resources
 *$3p,image,domain=kinkymedia.nl|opwindend.net
 /banner.jpg|$image,domain=hotdatingvlaanderen.be|kinkydatingnederland.nl|privesexgids.nl
 /images/*.gif$image,domain=hotdatingvlaanderen.be|ikneukgraag.nl|leukesexcontactjes.nl|neukplaza.nl|privesexgids.nl|tiener-sexverhalen.nl|vindsexcontact.nl
-/images/banners/*$image,domain=geile-sexverhalen.be|geile-sexverhalen.nl
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|zoekertjesbelgie.be
 /wp-content/uploads/*.gif$image,domain=geilverlangen.nl|gratispornofilm.nl|lekkerewebcams.nl|onderdanigeman.nl|outdoor-sex.nl|poldersexverhalen.nl|seksmet.nl|seksreclame.nl|sexmeid.nl|sexmetvrouwen.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tubelight.nl|wraaksex.nl|zinomteneuken.nl
 ||bdsm-vrienden.nl/sb_data/modules/mod_aav/
@@ -20,8 +19,6 @@
 ||dronkenmokkels.nl/*.php$3p
 ||gaynews.nl/images/advertisement$image
 ||gaynews.nl/images/_adv_txt$image
-||geile-sexverhalen.be/images/foto-advertenties/$image
-||geile-sexverhalen.nl/images/foto-advertenties/$image
 ||gratissextube.be/banners/$image
 ||klapjes.nl/wp-content/uploads/*/HookUps*.gif$image
 ||lekkereseks.nl/wp-content/uploads/*/adbanner
@@ -84,11 +81,6 @@ gaynews.nl##[class^="va"][class$="nab"]
 gaynews.nl##[id^="abri"]
 gaynews.nl##[id^="blaabri"]:upward(center)
 gaynews.nl##a[href^="/_global/lees"]
-geile-sexverhalen.be,geile-sexverhalen.nl##.adverten
-geile-sexverhalen.be,geile-sexverhalen.nl##.banner
-geile-sexverhalen.be,geile-sexverhalen.nl##.bannergroup:upward(.card)
-geile-sexverhalen.be,geile-sexverhalen.nl##.eb-dialog
-geile-sexverhalen.be,geile-sexverhalen.nl##.row > div:has(img[src^="/images/foto-advertentie"])
 gratissexverhalen.nu##[id^="block-"]:has([href^="https://www.dql2clk.com/"])
 privesexgids.nl###homebanners
 kinky.nl##.right-side-govazd
