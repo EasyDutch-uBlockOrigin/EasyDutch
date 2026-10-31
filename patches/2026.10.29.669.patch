@@ -1,10 +1,12 @@
-diff name:easydutch lines:9 checksum:5fcce0a909
+diff name:easydutch lines:11 checksum:f3c7060554
 d2 1
 a2 1
-! Last updated: Sat, 31 Oct 2026 08:36:29 +0000
+! Last updated: Sat, 31 Oct 2026 08:44:51 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.10.31.516.patch#easydutch
+! Diff-Path: patches/2026.10.31.524.patch#easydutch
+a504 1
+thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
 d1474 1
 d1488 2
 d1540 5
