@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-10-31
+thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
 ! 2026-10-27
 rd.nl##.ad-container-print-hide
 rd.nl##.ad
