@@ -1,6 +1,6 @@
 ! Title: Anti-Adblock
 ! Description: Filters for anti-adblock on Dutch websites
-! Last updated: Thu, 29 Oct 2026 11:09:40 +0000
+! Last updated: Sun, 01 Nov 2026 12:08:29 +0000
 !
 ! 2026-10-29
 citaten.net##+js(acis, checkshame)
@@ -68,8 +68,5 @@ aimsolutions.nl##+js(noeval-if, adsBlocked)
 112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijssel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
 ! 2022-11-14
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=player.vrt.be
-! 2022-05-28 racingnews365.nl
-@@||fwmrm.net/ad/*$xhr,domain=embed.viaplay.com|racingnews365.nl
-@@||fwmrm.net/crossdomain.xml$xhr,domain=embed.viaplay.com|racingnews365.nl
 ! 2022-01-29
 autoweek.nl##+js(set, isAdBlockActive, false)
