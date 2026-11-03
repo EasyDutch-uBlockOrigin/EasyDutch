@@ -9,8 +9,6 @@ New filters must be added on the top of each list.
 
 The reason is to provide an easy way to check whether a filter is still relevant. The filters at the end of the file will be the oldest filters, and also the most likely to maybe be obsolete.
 
-Old filters which are confirmed to still be required must be moved to the top of the list.
-
 ##### Grouped Website
 
 If a website is grouped, like: `! Digitaal Dagblad B.V.` - `! End Digitaal Dagblad B.V.`, keep them grouped.
@@ -31,15 +29,15 @@ This way we know why a filter was added, and how to verify whether an old filter
 #### Commit message
  
 - Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
-- Put here after the site url `spele.nl` (no `https://www.`) 
+- Put here after the site URL `spele.nl` (no `https://www.`) 
 - Put after this the issue number.  
 Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
-- If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
+- If the issue doesn't occur on a homepage, but on a subpage please add in the message the full URL (like `https://www.website.nl/sub/page.html`)
 - If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
 
 #### Hide General
 
-You may only make General Hiding rules, if it applies to tree or more websites
+You may only make General Hiding rules, if it applies to five or more websites
 *******
 #### What you might do or not do as a contributor
 
