@@ -3,8 +3,6 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-03
-doehoek.nl###nav_banners
-doehoek.nl###nav_banners ~ #antrovista
 online-bijbel.nl##.advertentie
 ! 2026-10-31
 thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
