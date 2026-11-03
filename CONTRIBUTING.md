@@ -32,7 +32,7 @@ This way we know why a filter was added, and how to verify whether an old filter
 - Put here after the site URL `spele.nl` (no `https://www.`) 
 - Put after this the issue number.  
 Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
-- If the issue doesn't occur on a homepage, but on a subpage please add in the message the full URL (like `https://www.website.nl/sub/page.html`)
+- If the issue doesn't occur on a homepage but on a subpage, please add in the message the full URL (like `https://www.website.nl/sub/page.html`)
 - If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
 
 #### Hide General
