@@ -22,14 +22,15 @@ Adblock filters for Dutch websites made for [uBlock Origin](https://github.com/u
 | [View and Subscribe](#view-and-subscribe-to-easydutch) |
 -----
 ## [EasyDutch](https://github.com/EasyDutch-uBlockOrigin/EasyDutch)
-The updated version of EasyList Dutch special for uBlock Origin. 
+A filter made list special for the Dutch uBlock Origin users. 
 
-This filterlist has been made because the EasyList Dutch filter isn't maintained often and the maintenance that is done, is very poor.  
+This filter list has been made because the EasyList Dutch filter isn't maintained often and the maintenance that is done, is very poor.  
 So we made this to provide you a better service!!  
 This list also handles anti-adblock, which isn't done by EasyList Dutch. See these comments for more information:  
 [easylist/easylistdutch#11 (comment)](https://github.com/easylist/easylistdutch/issues/11#issuecomment-818864565) and [easylist/easylistdutch#30 (comment)](https://github.com/easylist/easylistdutch/issues/30#issuecomment-1011180477).
 
-If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/new/choose) it or sent us an email via easydutch@tech-web.aleeas.com 
+If you see ads on Dutch or Afrikaans websites please [report](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/new/choose) it or sent us an email via easydutch@tech-web.aleeas.com.  
+We only supports `.nl`, `.aw`, `.cw`, `.sx`, `.sr`, `.za` Top-Level Domains (TLDs) when the content is written in Dutch or Afrikaans.
 
 ## [Contributing](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/CONTRIBUTING.md)
 <details>
