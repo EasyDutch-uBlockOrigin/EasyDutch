@@ -30,7 +30,7 @@ This list also handles anti-adblock, which isn't done by EasyList Dutch. See the
 [easylist/easylistdutch#11 (comment)](https://github.com/easylist/easylistdutch/issues/11#issuecomment-818864565) and [easylist/easylistdutch#30 (comment)](https://github.com/easylist/easylistdutch/issues/30#issuecomment-1011180477).
 
 If you see ads on Dutch or Afrikaans websites please [report](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues/new/choose) it or sent us an email via easydutch@tech-web.aleeas.com.  
-We only supports `.nl`, `.aw`, `.cw`, `.sx`, `.sr`, `.za` Top-Level Domains (TLDs) when the content is written in Dutch or Afrikaans.
+We only support `.nl`, `.aw`, `.cw`, `.sx`, `.sr`, `.za` Top-Level Domains (TLDs) when the content is written in Dutch or Afrikaans.
 
 ## [Contributing](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/blob/main/CONTRIBUTING.md)
 <details>
