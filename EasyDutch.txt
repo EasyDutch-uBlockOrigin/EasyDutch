@@ -1,9 +1,9 @@
 ! Title: EasyDutch
 ! Description: |
-    Dutch supplement for the Easylist filters to use with uBlock Origin
+    Dutch supplement for the Easylist filters to use with uBlock Origin.
     Only for ads or anti-adblock on Dutch sites!
-    Does also support Afrikaans, since it is a sort of Dutch
-! Expires: 3 days (update frequency)
+    Supports .nl, .aw, .cw, .sx, .sr, .za TLDs when the content is written in Dutch or Afrikaans.
+! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/EasyDutch-uBlockOrigin/EasyDutch
 ! GitHub issues: https://github.com/EasyDutch-uBlockOrigin/EasyDutch/issues
 ! Mailto: easydutch@tech-web.aleeas.com
