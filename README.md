@@ -44,8 +44,6 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > 
 > The reason is to provide an easy way to check whether a filter is still relevant. The filters at the end of the file will be the oldest filters, and also the most likely to maybe be obsolete.
 > 
-> Old filters which are confirmed to still be required must be moved to the top of the list.
->
 > ##### Grouped Website
 > 
 > If a website is grouped, like: `! Digitaal Dagblad B.V.` - `! End Digitaal Dagblad B.V.`, keep them grouped.
@@ -66,10 +64,10 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > #### Commit message
 > 
 > - Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
-> - Put here after the site url `spele.nl` (no `https://www.`) 
+> - Put here after the site URL `spele.nl` (no `https://www.`) 
 > - Put after this the issue number.  
 > Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contain all the details.
-> - If the issue doesn't occur on a homepage, but on a subpage please add in the message the full url (like `https://www.website.nl/sub/page.html`)
+> - If the issue doesn't occur on a homepage but on a subpage, please add in the message the full URL (like `https://www.website.nl/sub/page.html`)
 > - If the issue is issued on uBO or AdGuard include that link also in commit message, like: `A: example.com https://github.com/AdguardTeam/AdguardFilters/issues/228857`.
 > 
 > #### Hide General
@@ -97,7 +95,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 As you can see below, there are multiple ways to subscribe to our list. We have following domains: `https://EasyDutch-uBlockOrigin.github.io/EasyDutch/` and `https://EasyDutch-uBlockOrigin.github.io/EasyDutchCDN/`. 
 
 ### Favorite order of subscription:
-In the list, the normal website is the default. The `.all.txt` lists are used as primairy CDN's, where it is preferred to use `github.io` over `cdn.jsdelivr.net`.
+In the list, the normal website is the default. The `.all.txt` lists are used primarily as CDN's, where it is preferred to use `github.io` over `cdn.jsdelivr.net`.
 1. [`EasyDutch`](https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.txt&amp;title=EasyDutch)
 2. [`All-in-One EasyDutchCDN`](https://easydutch-ublockorigin.github.io/EasyDutchCDN/EasyDutch.all.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://easydutch-ublockorigin.github.io/EasyDutchCDN/EasyDutch.all.txt&amp;title=EasyDutch)
 3. [`All-in-One EasyDutch`](https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.all.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://easydutch-ublockorigin.github.io/EasyDutch/EasyDutch.all.txt&amp;title=EasyDutch)
@@ -108,10 +106,10 @@ In the list, the normal website is the default. The `.all.txt` lists are used as
 8. [`EasyDutchCDN Mirror`](https://cdn.jsdelivr.net/gh/EasyDutch-uBlockOrigin/EasyDutchCDN@main/EasyDutch.txt) | [Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/EasyDutch-uBlockOrigin/EasyDutchCDN@main/EasyDutch.txt&amp;title=EasyDutch)
 
 ### Explanation of used terms: 
-- `EasyDutch` means that it is from the [original](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/tree/gh-pages) GitHub-repro and hosted on `github.io`.  
+- `EasyDutch` means that it is from the [original](https://github.com/EasyDutch-uBlockOrigin/EasyDutch/tree/gh-pages) GitHub's repository and hosted on `github.io`.  
 &nbsp;&nbsp;&nbsp; Changes that are made, are applied after 5 minutes except for the Mirrors.  
-&nbsp;&nbsp;&nbsp; I made a small delay to not overload the diffpatcher in GitHub Actions. 
-- `EasyDutchCDN` is from the [EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN) GitHub-repro and hosted on `github.io`.  
+&nbsp;&nbsp;&nbsp; We made a small delay to not overload the diff-patcher in GitHub Actions. 
+- `EasyDutchCDN` is from the [EasyDutchCDN](https://github.com/EasyDutch-uBlockOrigin/EasyDutchCDN) GitHub's repository and hosted on `github.io`.  
 &nbsp;&nbsp;&nbsp; Changes that are made in EasyDutch's main branch, are applied once a day. Mirrors follow later. 
 - `Mirror` is [`jsDelivr`](https://www.jsdelivr.com/); a public and free CDN's. 
 - `All-in-One` means that everything is one big file in stead of multiple files loaded in one file.  
