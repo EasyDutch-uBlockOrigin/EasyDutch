@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Tue, 03 Nov 2026 07:06:13 +0000
+! Last updated: Tue, 03 Nov 2026 17:18:34 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.3.426.patch#easydutch
+! Diff-Path: patches/2026.11.3.1038.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -133,6 +133,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/*/img/native-banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
@@ -347,7 +348,6 @@ _advertentieleaderboardhome.
 ||motorrijder.be/wp-content/uploads/banners/
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
-avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
@@ -502,6 +502,7 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+online-bijbel.nl##.advertentie
 thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
 rd.nl##.ad-container-print-hide
 rd.nl##.ad

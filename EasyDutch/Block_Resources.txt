@@ -1,7 +1,11 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Mon, 19 Oct 2026 09:35:41 +0000
+! Last updated: Tue, 03 Nov 2026 17:18:34 +0000
 !
+! 2026-11-03
+! https://github.com/AdguardTeam/AdguardFilters/issues/215616
+! https://github.com/uBlockOrigin/uAssets/issues/30053
+avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 ! 2026-09-26
 /st2/banners/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
 /st2/_BANNERS_/$image,1p,domain=truck1.be|truck1.nl|truck1-nl.be
@@ -258,9 +262,6 @@
 ||motorrijder.be/wp-content/uploads/banners/
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
 ||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
-! https://github.com/AdguardTeam/AdguardFilters/issues/215616
-! https://github.com/uBlockOrigin/uAssets/issues/30053
-avrotros.nl,bnnvara.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 ! https://www.reddit.com/r/uBlockOrigin/comments/1cmanh5/nosnl_videos_show_ads_suddenly/
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl

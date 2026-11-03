@@ -1,14 +1,18 @@
-diff name:easydutch lines:15 checksum:d787c6af8c
+diff name:easydutch lines:19 checksum:504e673b8a
 d2 1
 a2 1
-! Last updated: Tue, 03 Nov 2026 07:06:13 +0000
+! Last updated: Tue, 03 Nov 2026 17:18:34 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.3.426.patch#easydutch
+! Diff-Path: patches/2026.11.3.1038.patch#easydutch
 d30 1
 a30 1
 /advertentie/*$domain=~araba.nl
-a504 1
+a135 1
+avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+d350 1
+a504 2
+online-bijbel.nl##.advertentie
 thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
 d1467 2
 d1474 1
