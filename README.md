@@ -72,7 +72,7 @@ If you see ads on Dutch websites please [report](https://github.com/EasyDutch-uB
 > 
 > #### Hide General
 > 
-> You may only make General Hiding rules, if it applies to tree or more websites
+> You may only make General Hiding rules, if it applies to five or more websites
 > *******
 > #### What you might do or not do as a contributor
 > 
