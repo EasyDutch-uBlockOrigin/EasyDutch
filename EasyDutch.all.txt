@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Wed, 04 Nov 2026 19:34:33 +0000
+! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.4.1174.patch#easydutch
+! Diff-Path: patches/2026.11.4.1186.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -224,8 +224,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||nederland.fm/i/banners/
 ||radio.be/i/banners/
 ||radio.nl/i/banners/
-||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
-||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
 ||floranews.com/img/banner/$image
 ||fruitteeltonline.nl/images/slideshows/*.gif$image
 ||voetbalindebollenstreek.nl/wp-content/uploads/*/banner$image
@@ -505,6 +503,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
+omroepbovengroningen.nl##.widget_random_banner_widget
+omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 online-bijbel.nl##.advertentie
 thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
 rd.nl##.ad-container-print-hide
@@ -721,7 +722,6 @@ beveiligingnieuws.nl##.sr-premium-partners
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
 radio.be,radio.nl###bannerbg
 radio.be,radio.nl###leaderboardbg
-omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)

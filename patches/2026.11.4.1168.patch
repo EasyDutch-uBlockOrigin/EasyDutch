@@ -1,13 +1,19 @@
-diff name:easydutch lines:12 checksum:7185d9c4b7
+diff name:easydutch lines:18 checksum:7eef5cf412
 d2 1
 a2 1
-! Last updated: Wed, 04 Nov 2026 19:34:33 +0000
+! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.4.1174.patch#easydutch
+! Diff-Path: patches/2026.11.4.1186.patch#easydutch
 a135 5
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/gerardvanderveen.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vfkerngezond-1.gif
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/trox.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vakland.webp
 ||omroepbovengroningen.nl/wp-content/uploads/2026/09/veldmanenvandijk.webp
+d222 2
+a502 3
+omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
+omroepbovengroningen.nl##.widget_random_banner_widget
+omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
+d719 1

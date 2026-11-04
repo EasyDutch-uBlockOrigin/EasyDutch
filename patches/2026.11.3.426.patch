@@ -1,10 +1,10 @@
-diff name:easydutch lines:17 checksum:7185d9c4b7
+diff name:easydutch lines:21 checksum:7eef5cf412
 d2 1
 a2 1
-! Last updated: Wed, 04 Nov 2026 19:34:33 +0000
+! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.4.1174.patch#easydutch
+! Diff-Path: patches/2026.11.4.1186.patch#easydutch
 a135 6
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/gerardvanderveen.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vfkerngezond-1.gif
@@ -12,7 +12,11 @@ a135 6
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vakland.webp
 ||omroepbovengroningen.nl/wp-content/uploads/2026/09/veldmanenvandijk.webp
 avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
-d221 2
+d221 4
 d350 1
-a504 1
+a504 4
+omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
+omroepbovengroningen.nl##.widget_random_banner_widget
+omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 online-bijbel.nl##.advertentie
+d720 1

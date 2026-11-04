@@ -1,7 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 03 Nov 2026 17:18:34 +0000
+! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
 !
+! 2026-11-04
+omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
+omroepbovengroningen.nl##.widget_random_banner_widget
+omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 ! 2026-11-03
 online-bijbel.nl##.advertentie
 ! 2026-10-31
@@ -257,7 +261,6 @@ beveiligingnieuws.nl##.sr-premium-partners
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
 radio.be,radio.nl###bannerbg
 radio.be,radio.nl###leaderboardbg
-omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)

@@ -1,0 +1,13 @@
+diff name:easydutch lines:12 checksum:7eef5cf412
+d2 1
+a2 1
+! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.11.4.1186.patch#easydutch
+d227 2
+a507 3
+omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
+omroepbovengroningen.nl##.widget_random_banner_widget
+omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
+d724 1
