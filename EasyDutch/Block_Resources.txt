@@ -112,8 +112,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||nederland.fm/i/banners/
 ||radio.be/i/banners/
 ||radio.nl/i/banners/
-||omroepeemsdelta.nl/wp-content/uploads/2024/03/streekomroep-partner.png
-||omroepeemsdelta.nl/wp-content/uploads/2024/02/Jullens*.png
 ||floranews.com/img/banner/$image
 ||fruitteeltonline.nl/images/slideshows/*.gif$image
 ! 2026-04-28
