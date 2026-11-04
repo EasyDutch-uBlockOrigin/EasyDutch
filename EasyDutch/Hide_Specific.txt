@@ -261,7 +261,6 @@ beveiligingnieuws.nl##.sr-premium-partners
 nederland.fm,radio.be,radio.nl##body> div[id^="takeover"]
 radio.be,radio.nl###bannerbg
 radio.be,radio.nl###leaderboardbg
-omroephethogeland.nl##.featured-sidebar
 nieuwsfiets.nu##.wpb_raw_code:has(.a2t-link) + .w-separator
 aruba.nu,bonaire.nu,curacao.nu##div.component__pubble-banner
 fruitteeltonline.nl##[class^="slideshow"]:upward(1)
