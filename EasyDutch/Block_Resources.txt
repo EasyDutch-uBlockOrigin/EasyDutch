@@ -2,6 +2,12 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-04
+||omroepbovengroningen.nl/wp-content/uploads/2026/10/gerardvanderveen.jpg
+||omroepbovengroningen.nl/wp-content/uploads/2026/10/vfkerngezond-1.gif
+||omroepbovengroningen.nl/wp-content/uploads/2026/10/trox.jpg
+||omroepbovengroningen.nl/wp-content/uploads/2026/10/vakland.webp
+||omroepbovengroningen.nl/wp-content/uploads/2026/09/veldmanenvandijk.webp
 ! 2026-11-03
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215616
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
