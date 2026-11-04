@@ -1,15 +1,16 @@
-diff name:easydutch lines:14 checksum:504e673b8a
+diff name:easydutch lines:15 checksum:4e5931fa6c
 d2 1
 a2 1
-! Last updated: Tue, 03 Nov 2026 17:18:34 +0000
+! Last updated: Wed, 04 Nov 2026 19:28:46 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.3.1038.patch#easydutch
+! Diff-Path: patches/2026.11.4.1168.patch#easydutch
 d30 1
 a30 1
 /advertentie/*$domain=~araba.nl
 a135 1
 avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
+d221 2
 d350 1
 a504 1
 online-bijbel.nl##.advertentie
