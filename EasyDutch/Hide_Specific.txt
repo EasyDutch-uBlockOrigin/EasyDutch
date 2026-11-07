@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-07
+at5.nl##[class^="Advertisement_"]
+at5.nl##[class^="article_adContainer"]
 rtvnof.nl##.advert-header
 rtvnof.nl##div.advert:has(iframe)
 radios.nl##div.rsad-wrapper
@@ -552,7 +554,6 @@ rtvmiddenholland.nl##[id^="rtvmi-"]
 rtvmiddenholland.nl##[class$="_sidebar"] .widget:has([id^="rtvmi-"])
 capelle.tv##.banner
 wos.nl##span:has-text(Advert):upward(.widget)
-at5.nl##[class^="Advertisement_"]
 omroep-pim.nl##.advertentieBanner
 radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
