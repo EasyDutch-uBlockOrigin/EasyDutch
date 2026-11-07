@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-07
+radios.nl##div.rsad-wrapper
+radios.nl##div#rs-ad-inside-grid
 ! 2026-11-04
 omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
 omroepbovengroningen.nl##.widget_random_banner_widget
@@ -552,7 +555,6 @@ omroep-pim.nl##.advertentieBanner
 rtvnof.nl##.advert-header
 radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
-radios.nl##div.rsad-wrapper
 ! 2026-02-12
 ! Roularta Media Group
 fiets.nl##.banner-container
