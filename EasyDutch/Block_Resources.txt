@@ -228,7 +228,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||omroepstroom.nl/wp-content/uploads/*/*banner$image
 ||rtvmiddenholland.nl/wp-content/uploads/*/*banner$image
 ||rtvmiddenholland.nl/wp-content/uploads/*/*.gif$image
-||b-cdn.net/*.gif$image,domain=wos.nl
 ||omroep-pim.nl/cwm/fm/userfiles/banner/$image
 ! 2026-02-12
 ||cms.mvmm.nl/dynimage/rdimg/$image,domain=meetingmagazine.nl
