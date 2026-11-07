@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
+! Last updated: Sat, 07 Nov 2026 15:52:24 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.7.887.patch#easydutch
+! Diff-Path: patches/2026.11.7.952.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -494,8 +494,6 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##div[class^="r89-desktop-"]
 ##div[class^="r89-mobile-"]
 ##.pgAdWrapper
-##a[href^="https://partnerprogramma.bol.com/click/"]
-##a[href^="https://partner.bol.com/click/"]
 ##.article__component--outstream-advertisement
 ##.layout__component--temptation
 ##.sixpack__advertisement-tile
@@ -1002,7 +1000,6 @@ gaykrant.nl##.rstpl-card
 duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk gemaakt door)
 crimesite.nl##[class*="r89"]
 crimesite.nl##[class*="lg:col"]:has(a[href]:not([href*="crimesite.nl"]) > img[src$=".gif"])
-tvvisie.be,tvvisie.nl##.side > .shop:has(a[href^="https://partnerprogramma.bol.com/click/"])
 propertynl.com##.box_header:has-text(Advert)
 propertynl.com##.banner:upward(.row)
 isgeschiedenis.nl##.webads:upward(.no-title)
@@ -1425,10 +1422,6 @@ rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 ! *** EasyDutch:EasyDutch/Hide_Whitelist.txt ***
-webshop.harrietverkoelen.nl#@#a[href^="https://partner.bol.com/click/"]
-kookboekennieuws.nl#@#a[href^="https://partner.bol.com/click/"]
-ciaotutti.nl#@#a[href^="https://partner.bol.com/click/"]
-ciaotutti.nl#@#a[href^="https://partnerprogramma.bol.com/click/"]
 gratisaftehalen.nl#@#.ads-image
 adorss.nl,ajaxrss.nl,arsenalrss.nl,blockchainvandaag.com,cambuurrss.nl,casinoreport.nl,cryptobelegging.com,cryptotoekomst.com,damesvoetbalrss.nl,dartsrss.nl,fcbarcelonarss.nl,fczwollerss.nl,feyenoordrss.nl,formula1report.com,formule1rss.nl,fultimateteam.com,gamblingreport.nl,gokkastenrss.nl,graafschaprss.nl,groningenrss.nl,heraclesrss.nl,mvvrss.nl,nacrss.nl,onlinebingorss.nl,onlinecasinorss.nl,onlinegamesrss.nl,onlinegokkenrss.nl,onlinekraslotenrss.nl,onlinepokerrss.nl,onlinerouletterss.nl,oranjerss.nl,psvreport.nl,psvrss.nl,rodarss.nl,spartarss.nl,sportweddenrss.nl,twenterss.nl,utrechtrss.nl,vergelijkbookmakers.nl,vitesserss.nl,voetbalnieuwsrss.be,voetbalnieuwsrss.nl,voetbalnotering.nl,voetbalsnafu.nl,voetbalweddenrss.nl,voetbalwedtipsrss.nl,willem2rss.nl#@#.top-ads-block
 mechanisatiemarkt.nl#@#.advert-container

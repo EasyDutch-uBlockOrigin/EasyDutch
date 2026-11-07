@@ -1,10 +1,10 @@
-diff name:easydutch lines:34 checksum:f78e208ca9
+diff name:easydutch lines:37 checksum:1b693d5b2a
 d2 1
 a2 1
-! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
+! Last updated: Sat, 07 Nov 2026 15:52:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.7.887.patch#easydutch
+! Diff-Path: patches/2026.11.7.952.patch#easydutch
 a135 4
 ||ditistwee.nl/images/Banner
 ||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
@@ -15,6 +15,7 @@ d313 1
 d317 1
 d320 1
 d322 2
+d499 2
 a505 12
 ninefornews.nl##.gofollow
 ninefornews.nl##.mag-box.half-box
@@ -33,3 +34,5 @@ d952 3
 d962 2
 d965 1
 d968 1
+d1010 1
+d1433 4

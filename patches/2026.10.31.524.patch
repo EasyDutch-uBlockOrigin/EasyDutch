@@ -1,10 +1,10 @@
-diff name:easydutch lines:51 checksum:f78e208ca9
+diff name:easydutch lines:54 checksum:1b693d5b2a
 d2 1
 a2 1
-! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
+! Last updated: Sat, 07 Nov 2026 15:52:24 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.7.887.patch#easydutch
+! Diff-Path: patches/2026.11.7.952.patch#easydutch
 d30 1
 a30 1
 /advertentie/*$domain=~araba.nl
@@ -26,6 +26,7 @@ d315 1
 d318 1
 d320 2
 d350 1
+d498 2
 a504 16
 ninefornews.nl##.gofollow
 ninefornews.nl##.mag-box.half-box
@@ -49,4 +50,6 @@ d948 3
 d958 2
 d961 1
 d964 1
+d1006 1
+d1429 4
 d1468 2
