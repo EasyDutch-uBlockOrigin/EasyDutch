@@ -9,10 +9,6 @@
 ##div[class^="r89-mobile-"]
 ! 2026-05-09
 ##.pgAdWrapper
-! 2026-03-11
-##a[href^="https://partnerprogramma.bol.com/click/"]
-! 2026-02-03
-##a[href^="https://partner.bol.com/click/"]
 ! 2022-10-04
 ! ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,tubantia.nl,pzc.nl,hln.be
 ##.article__component--outstream-advertisement
