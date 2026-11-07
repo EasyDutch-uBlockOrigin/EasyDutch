@@ -223,7 +223,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
-||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
 ||papendrecht24.nl/wp-content/uploads/*/*banner$image
 ||papendrecht24.nl/wp-content/uploads/*/*.gif$image
 ||omroepstroom.nl/wp-content/uploads/*/*banner$image
