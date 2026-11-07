@@ -3,6 +3,12 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-07
+ninefornews.nl##.gofollow
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##.stream-item-size:has(div[id^="h-a-d-s-unlimited"])
+ninefornews.nl##.ina
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
 at5.nl##[class^="Advertisement_"]
 at5.nl##[class^="article_adContainer"]
 rtvnof.nl##.advert-header
@@ -526,14 +532,6 @@ f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ! 2026-02-13
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
-ninefornews.nl##.gofollow
-ninefornews.nl##.gofollow:upward([id^="custom_html-"])
-ninefornews.nl##.ina
-ninefornews.nl##.mag-box.half-box
-ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
-ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
-ninefornews.nl###top-box:upward([id^="custom_html-"])
-ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)
