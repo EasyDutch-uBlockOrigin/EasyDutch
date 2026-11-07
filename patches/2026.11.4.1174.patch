@@ -1,13 +1,40 @@
-diff name:easydutch lines:12 checksum:7eef5cf412
+diff name:easydutch lines:39 checksum:f78e208ca9
 d2 1
 a2 1
-! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
+! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.4.1186.patch#easydutch
+! Diff-Path: patches/2026.11.7.887.patch#easydutch
+a135 4
+||ditistwee.nl/images/Banner
+||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
+||radios.nl/api/rs-ads/
+||radios.nl/media/*/banner
 d227 2
-a507 3
+d312 1
+d315 1
+d319 1
+d322 1
+d324 2
+a507 15
+ninefornews.nl##.gofollow
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##.stream-item-size:has(div[id^="h-a-d-s-unlimited"])
+ninefornews.nl##.ina
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+at5.nl##[class^="Advertisement_"]
+at5.nl##[class^="article_adContainer"]
+rtvnof.nl##.advert-header
+rtvnof.nl##div.advert:has(iframe)
+radios.nl##div.rsad-wrapper
+radios.nl##div#rs-ad-inside-grid
 omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
 omroepbovengroningen.nl##.widget_random_banner_widget
 omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 d724 1
+d935 8
+d952 3
+d962 2
+d965 1
+d968 1

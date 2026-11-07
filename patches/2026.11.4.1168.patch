@@ -1,19 +1,45 @@
-diff name:easydutch lines:18 checksum:7eef5cf412
+diff name:easydutch lines:44 checksum:f78e208ca9
 d2 1
 a2 1
-! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
+! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.4.1186.patch#easydutch
-a135 5
+! Diff-Path: patches/2026.11.7.887.patch#easydutch
+a135 9
+||ditistwee.nl/images/Banner
+||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
+||radios.nl/api/rs-ads/
+||radios.nl/media/*/banner
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/gerardvanderveen.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vfkerngezond-1.gif
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/trox.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vakland.webp
 ||omroepbovengroningen.nl/wp-content/uploads/2026/09/veldmanenvandijk.webp
 d222 2
-a502 3
+d307 1
+d310 1
+d314 1
+d317 1
+d319 2
+a502 15
+ninefornews.nl##.gofollow
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##.stream-item-size:has(div[id^="h-a-d-s-unlimited"])
+ninefornews.nl##.ina
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+at5.nl##[class^="Advertisement_"]
+at5.nl##[class^="article_adContainer"]
+rtvnof.nl##.advert-header
+rtvnof.nl##div.advert:has(iframe)
+radios.nl##div.rsad-wrapper
+radios.nl##div#rs-ad-inside-grid
 omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
 omroepbovengroningen.nl##.widget_random_banner_widget
 omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 d719 1
+d930 8
+d947 3
+d957 2
+d960 1
+d963 1

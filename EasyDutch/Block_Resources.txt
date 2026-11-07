@@ -1,7 +1,12 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
+! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
 !
+! 2026-11-07
+||ditistwee.nl/images/Banner
+||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
+||radios.nl/api/rs-ads/
+||radios.nl/media/*/banner
 ! 2026-11-04
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/gerardvanderveen.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vfkerngezond-1.gif
@@ -215,20 +220,14 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ! 2026-02-20
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ! 2026-02-13
-||ninefornews.nl/wp-content/uploads/*/N4N_*.gif
 ||reformatorischeomroep.nl/*/*banner$image
 ||reformatorischeomroep.nl/*/*.gif$image
-||cdn-tmo.nl^*/banners/$domain=maassluis24.nl|nl24.nu|schiedam24.nl|vlaardingen24.nl
 ||papendrecht24.nl/wp-content/uploads/*/*banner$image
 ||papendrecht24.nl/wp-content/uploads/*/*.gif$image
 ||omroepstroom.nl/wp-content/uploads/*/*banner$image
-||ditistwee.nl/images/*bannner
 ||rtvmiddenholland.nl/wp-content/uploads/*/*banner$image
 ||rtvmiddenholland.nl/wp-content/uploads/*/*.gif$image
-||b-cdn.net/*.gif$image,domain=wos.nl
 ||omroep-pim.nl/cwm/fm/userfiles/banner/$image
-||radios.nl/wp-json/rs-ads/
-||radios.nl/wp-content/uploads/*/banner
 ! 2026-02-12
 ||cms.mvmm.nl/dynimage/rdimg/$image,domain=meetingmagazine.nl
 ||aalsmeervandaag.nl/wp-content/uploads/*/adv$image

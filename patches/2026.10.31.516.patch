@@ -1,14 +1,18 @@
-diff name:easydutch lines:26 checksum:7eef5cf412
+diff name:easydutch lines:52 checksum:f78e208ca9
 d2 1
 a2 1
-! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
+! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.4.1186.patch#easydutch
+! Diff-Path: patches/2026.11.7.887.patch#easydutch
 d30 1
 a30 1
 /advertentie/*$domain=~araba.nl
-a135 6
+a135 10
+||ditistwee.nl/images/Banner
+||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
+||radios.nl/api/rs-ads/
+||radios.nl/media/*/banner
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/gerardvanderveen.jpg
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/vfkerngezond-1.gif
 ||omroepbovengroningen.nl/wp-content/uploads/2026/10/trox.jpg
@@ -16,12 +20,34 @@ a135 6
 ||omroepbovengroningen.nl/wp-content/uploads/2026/09/veldmanenvandijk.webp
 avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-prune-fetch-response, assets.preroll assets.prerollDebug, , propsToMatch, /stream-link)
 d221 4
+d308 1
+d311 1
+d315 1
+d318 1
+d320 2
 d350 1
-a504 5
+a504 17
+ninefornews.nl##.gofollow
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##.stream-item-size:has(div[id^="h-a-d-s-unlimited"])
+ninefornews.nl##.ina
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+at5.nl##[class^="Advertisement_"]
+at5.nl##[class^="article_adContainer"]
+rtvnof.nl##.advert-header
+rtvnof.nl##div.advert:has(iframe)
+radios.nl##div.rsad-wrapper
+radios.nl##div#rs-ad-inside-grid
 omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
 omroepbovengroningen.nl##.widget_random_banner_widget
 omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 online-bijbel.nl##.advertentie
 thailandblog.nl##[id^="custom_html"]:has-text(/Ads|Sponsor/)
 d719 1
+d930 8
+d947 3
+d957 2
+d960 1
+d963 1
 d1467 2

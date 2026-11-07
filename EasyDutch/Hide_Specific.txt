@@ -1,7 +1,20 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 04 Nov 2026 19:46:23 +0000
+! Last updated: Sat, 07 Nov 2026 14:47:36 +0000
 !
+! 2026-11-07
+ninefornews.nl##.gofollow
+ninefornews.nl##.mag-box.half-box
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##.stream-item-size:has(div[id^="h-a-d-s-unlimited"])
+ninefornews.nl##.ina
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
+at5.nl##[class^="Advertisement_"]
+at5.nl##[class^="article_adContainer"]
+rtvnof.nl##.advert-header
+rtvnof.nl##div.advert:has(iframe)
+radios.nl##div.rsad-wrapper
+radios.nl##div#rs-ad-inside-grid
 ! 2026-11-04
 omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-text(advert)
 omroepbovengroningen.nl##.widget_random_banner_widget
@@ -519,14 +532,6 @@ f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 ! 2026-02-13
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
-ninefornews.nl##.gofollow
-ninefornews.nl##.gofollow:upward([id^="custom_html-"])
-ninefornews.nl##.ina
-ninefornews.nl##.mag-box.half-box
-ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
-ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3:has-text(Interessant))
-ninefornews.nl###top-box:upward([id^="custom_html-"])
-ninefornews.nl##div[class^="mag-box"] + #adskeeper
 vroom.be##.uppercase:has-text(Advert):upward(.overflow-hidden)
 ditishelmond.nl##.aanbieder
 dmgdeurne.nl##p:has-text(Advert):upward(.widget_block)
@@ -536,9 +541,6 @@ vmlnieuws.nl,weertfm.nl##aside [id^="custom_html-"]:has-text(Advert)
 rtvalbrandswaard.com##.widget-title:has-text(/Advert/i):upward([id^="media_image"])
 rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
 omroeptholen.nl##.block-title:has-text(Advert):upward(.widget)
-sunrisefm.eu##.elementor-widget[class*="elementor-element-ad"]
-linqmedia.nl##.header-banner
-rtvridderkerk.nl##.cm-top-bar
 maassluis24.nl,nl24.nu,schiedam24.nl,vlaardingen24.nl##.advertisement
 papendrecht24.nl###sl24_random_ads
 omroepstroom.nl##.section-title:has-text(Advert):upward(.widget)
@@ -546,13 +548,9 @@ ditistwee.nl##.advertentie.moduletable
 rtvmiddenholland.nl##[id^="rtvmi-"]
 rtvmiddenholland.nl##[class$="_sidebar"] .widget:has([id^="rtvmi-"])
 capelle.tv##.banner
-wos.nl##span:has-text(Advert):upward(.widget)
-at5.nl##[class^="Advertisement_"]
 omroep-pim.nl##.advertentieBanner
-rtvnof.nl##.advert-header
 radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
-radios.nl##div.rsad-wrapper
 ! 2026-02-12
 ! Roularta Media Group
 fiets.nl##.banner-container
