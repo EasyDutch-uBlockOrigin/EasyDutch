@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-07
+||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
 ||radios.nl/api/rs-ads/
 ||radios.nl/media/*/banner
 ! 2026-11-04
