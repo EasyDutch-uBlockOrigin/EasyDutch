@@ -552,7 +552,6 @@ ditistwee.nl##.advertentie.moduletable
 rtvmiddenholland.nl##[id^="rtvmi-"]
 rtvmiddenholland.nl##[class$="_sidebar"] .widget:has([id^="rtvmi-"])
 capelle.tv##.banner
-wos.nl##span:has-text(Advert):upward(.widget)
 omroep-pim.nl##.advertentieBanner
 radioviainternet.nl##div[class*="banner-size-"]
 radiozenders.fm##.banner-leaderboard
