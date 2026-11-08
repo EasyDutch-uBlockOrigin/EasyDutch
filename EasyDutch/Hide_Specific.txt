@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-08
+westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 rotterdam-nesselande.nl##[href^="https://www.managementboek.nl/"]:upward([id^="custom"])
 radio-nederland.nl##.right-sidebar__ad
@@ -520,8 +521,6 @@ sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
-! 2026-02-27
-westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
 ! 2026-02-26
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(PARTNERS))
 pal.be##.advads-sidebar
