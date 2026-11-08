@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-08
+radio-nederland.nl##.right-sidebar__ad
 ! 2026-11-07
 ninefornews.nl##.gofollow
 ninefornews.nl##.mag-box.half-box
