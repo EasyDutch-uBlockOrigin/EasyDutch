@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Nov 2026 06:19:45 +0000
+! Last updated: Sun, 08 Nov 2026 14:12:03 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.8.379.patch#easydutch
+! Diff-Path: patches/2026.11.8.852.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -133,6 +133,8 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
+||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||ditistwee.nl/images/Banner
 ||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
 ||radios.nl/api/rs-ads/
@@ -308,7 +310,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
-||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||psalmboek.nl/banners/$image
 ||resources.planetnine.com/scripts/f1maximaal.nl.js$domain=f1maximaal.nl
 ||reformatorischeomroep.nl/*/*banner$image
@@ -499,6 +500,10 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+strandweer.nu##.cpx-ads
+westlanders.nu##.cpx-ads
+rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
+rotterdam-nesselande.nl##[href^="https://www.managementboek.nl/"]:upward([id^="custom"])
 radio-nederland.nl##.right-sidebar__ad
 ninefornews.nl##.gofollow
 ninefornews.nl##.mag-box.half-box
@@ -930,14 +935,10 @@ sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
-westlanders.nu##.elementor-widget-html[data-widget_type="html.default"]:has(.adsbygoogle):upward(1)
-rotterdam-nesselande.nl##[href^="https://managementboek.nl/"]:upward([id^="custom"])
-rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(PARTNERS))
 pal.be##.advads-sidebar
 pal.be##.advads-cta-geen-advertenties
 pal.be##.inside-article .gb-container > iframe[src^="https://subscribe-forms.beehiiv.com/"]:style(height:auto !important;)
-kerkliedwiki.nl##.div-adsense
 f1maximaal.nl###article-blocks > .raw-html-component
 f1maximaal.nl##.Pnvp__ad:upward(.raw-html-component)
 regio-voetbal.nl##[class^="r89-"]:upward(.component__plugin)
