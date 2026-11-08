@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-08
+strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 rotterdam-nesselande.nl##[href^="https://www.managementboek.nl/"]:upward([id^="custom"])
