@@ -1,10 +1,12 @@
-diff name:easydutch lines:9 checksum:1b693d5b2a
+diff name:easydutch lines:11 checksum:eb1af8b60e
 d2 1
 a2 1
-! Last updated: Sat, 07 Nov 2026 15:52:24 +0000
+! Last updated: Sun, 08 Nov 2026 06:19:45 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.7.952.patch#easydutch
+! Diff-Path: patches/2026.11.8.379.patch#easydutch
 d497 2
+a503 1
+radio-nederland.nl##.right-sidebar__ad
 d1005 1
 d1428 4
