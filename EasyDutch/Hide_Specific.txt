@@ -502,7 +502,6 @@ online-radio.nl##[id^="containersitead"]
 online-radio.nl###top_ad-360
 ! 2026-03-08
 despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
-appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
 appletips.nl##.ttBlock
