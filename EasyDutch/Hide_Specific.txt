@@ -488,8 +488,6 @@ softonic.nl##[data-label="Advertentie"]:upward(1)
 scholieren.com##.min-h-\[90px\]
 scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
 solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
-! 2026-03-20
-niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
 ! 2026-03-16
 mo.be##[class^="Ads_ContentWrapper__"]
 ! 2026-03-14
