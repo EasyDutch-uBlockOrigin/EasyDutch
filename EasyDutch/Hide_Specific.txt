@@ -501,7 +501,6 @@ onderwijsland.com##.banner-fullwidth:upward(.home-extended)
 online-radio.nl##[id^="containersitead"]
 online-radio.nl###top_ad-360
 ! 2026-03-08
-despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
 appletips.nl##.ttBlock
