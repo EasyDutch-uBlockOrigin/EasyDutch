@@ -1078,7 +1078,6 @@ wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 inmemoriam.be##.o-news__add
-classicstogo.nl##.owl-carousel
 interglot.nl##.pane_results > div:has-text(Ads)
 golf.be##.partners-holder
 koopplein.nl##.promobloc-desktop
