@@ -2,6 +2,8 @@
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-09
+||online-radio.nl/images/banner$image,1p
 ! 2026-11-08
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
@@ -208,7 +210,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||niburu.co/images/sidebanners/
 ! 2026-03-14
 ||onderwijsland.com/*/banners/
-||media.online-radio.nl/images/banner$image
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ! 2026-03-02
