@@ -1,0 +1,28 @@
+diff name:easydutch lines:27 checksum:56466c2112
+d2 1
+a2 1
+! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.11.9.996.patch#easydutch
+a135 1
+||online-radio.nl/images/banner$image,1p
+d302 1
+d307 1
+d309 2
+d350 1
+a502 5
+scholieren.com##.text-center:has-text(Advertentie):upward(1)
+solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
+amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
+online-radio.nl##[id^="containersitead"]
+online-radio.nl##[id^="top_ad"]
+d902 7
+d910 1
+d916 4
+d930 1
+d933 1
+a1259 1
+forum.scholieren.com###posts .thead:has-text(Advert)
+d1329 1
+d1390 1

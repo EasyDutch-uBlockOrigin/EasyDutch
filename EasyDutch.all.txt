@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sun, 08 Nov 2026 14:12:03 +0000
+! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.8.852.patch#easydutch
+! Diff-Path: patches/2026.11.9.996.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -133,6 +133,7 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||ditistwee.nl/images/Banner
@@ -299,15 +300,11 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
 ||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ||landenweb.nl/images/_Promotion/$image
-||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
 ||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
-||niburu.co/images/sidebanners/
 ||onderwijsland.com/*/banners/
-||media.online-radio.nl/images/banner$image
-||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ||keukenkopenduitsland.nl/wp-content/uploads/*.gif$domain=goedkoopstekeukensduitsland.nl
 ||psalmboek.nl/banners/$image
@@ -347,7 +344,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 /builds/*/assets/taboola-page-view-id-*.js$domain=autobahn.eu|beaumonde.nl|dingenvoorvrouwen.nl|elegance.nl|golfersmagazine.nl|gezondnu.nl|grazia.nl|happyinshape.nl|marieclaire.nl|nautique.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|tipsenweetjes.nl|upcoming.nl|wielerrevue.nl|playboy.nl|zeilen.nl
 ||motorrijder.be/wp-content/uploads/banners/
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
-||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl
 nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net)
 ||biernet.nl/site/plugins/bja_new/bja.bnr$script,1p
@@ -500,6 +496,11 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+scholieren.com##.text-center:has-text(Advertentie):upward(1)
+solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
+amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
+online-radio.nl##[id^="containersitead"]
+online-radio.nl##[id^="top_ad"]
 strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
@@ -899,24 +900,12 @@ openingsurengids.be##.adMobile
 openingsurengids.be##.promSB
 hetnieuwsvandaag.be##.banners
 softonic.nl##[data-label="Advertentie"]:upward(1)
-scholieren.com##.min-h-\[90px\]
-scholieren.com##[class$="__disclaimer"]:has-text(ADVERT):upward(1)
-solarmagazine.nl##img[src^="https://cdn.solarmagazine.nl/u/edwin/"]:upward(div.items-center)
-niburu.co##.sidebar-l .module-title:has-text(/Sponsor|Promotie/)
-glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
-glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert) + div
-glutenvrij.nl##.t-banner
 mo.be##[class^="Ads_ContentWrapper__"]
-amsterdamactueel.nl##.ad-container
 emerce.nl##[id*="_alpha_"]:upward(div[style])
 klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
 onderwijsland.com##.banner-fullwidth
 onderwijsland.com##.banner-fullwidth:upward(.home-extended)
-online-radio.nl##[id^="containersitead"]
-online-radio.nl###top_ad-360
-despirituelewereld.be##[id^="tie-block"]:has(a[href*="referral="])
-appletips.nl##a[href^="/adverteren-"]
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
 appletips.nl##.ttBlock
@@ -927,10 +916,8 @@ digitaalburg.com###container aside[class^="widget widget_text"]
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
-racingnews365.nl##.card[href$="-adv"]
 racingnews365.nl###betting-prefs
 racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
-racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
 goedkoopstekeukensduitsland.nl###sidebar
@@ -1257,6 +1244,7 @@ puurnaturisme.nl##aside div:has(.bannergroup_noborder)
 mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 hvzeeland.nl##.advertisement
 forum.scholieren.com##div[data-advert-placeholder-size]
+forum.scholieren.com###posts .thead:has-text(Advert)
 oogtv.nl##.g
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 mr-online.nl##.elementor-widget-container:has(.strack_bnr)
@@ -1326,7 +1314,6 @@ unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
-forum.scholieren.com###posts .thead:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 112achterhoek-nieuws.nl###sidebar
@@ -1387,7 +1374,6 @@ wanttoknow.nl##.mb-3:has-text(Advert)
 mijn-tv-gids.be##.midzone
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 inmemoriam.be##.o-news__add
-classicstogo.nl##.owl-carousel
 interglot.nl##.pane_results > div:has-text(Ads)
 golf.be##.partners-holder
 koopplein.nl##.promobloc-desktop

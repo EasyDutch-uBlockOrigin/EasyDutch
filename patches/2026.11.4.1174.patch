@@ -1,11 +1,12 @@
-diff name:easydutch lines:52 checksum:874219f5dd
+diff name:easydutch lines:71 checksum:56466c2112
 d2 1
 a2 1
-! Last updated: Sun, 08 Nov 2026 14:12:03 +0000
+! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.8.852.patch#easydutch
-a135 6
+! Diff-Path: patches/2026.11.9.996.patch#easydutch
+a135 7
+||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||ditistwee.nl/images/Banner
@@ -13,14 +14,23 @@ a135 6
 ||radios.nl/api/rs-ads/
 ||radios.nl/media/*/banner
 d227 2
+d298 1
+d303 1
+d305 2
 d309 1
 d312 1
 d315 1
 d319 1
 d322 1
 d324 2
+d353 1
 d501 2
-a507 20
+a507 25
+scholieren.com##.text-center:has-text(Advertentie):upward(1)
+solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
+amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
+online-radio.nl##[id^="containersitead"]
+online-radio.nl##[id^="top_ad"]
 strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
@@ -42,6 +52,11 @@ omroepbovengroningen.nl##[class*="random_banner_slider"]:upward(.e-parent):has-t
 omroepbovengroningen.nl##.widget_random_banner_widget
 omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 d724 1
+d888 7
+d896 1
+d902 4
+d916 1
+d919 1
 d924 3
 d931 1
 d935 8
@@ -50,4 +65,8 @@ d962 2
 d965 1
 d968 1
 d1010 1
+a1265 1
+forum.scholieren.com###posts .thead:has-text(Advert)
+d1335 1
+d1396 1
 d1433 4

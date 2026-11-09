@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sun, 08 Nov 2026 14:12:03 +0000
+! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
 !
+! 2026-11-09
+||online-radio.nl/images/banner$image,1p
 ! 2026-11-08
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
@@ -199,19 +201,13 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ! 2026-04-04
 ||landenweb.nl/images/_Promotion/$image
-! 2026-03-24
-||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ! 2026-03-23
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||hetnieuwsvandaag.be/*/api/advertisements/$xhr,1p
 ||hetnieuwsvandaag.be/assets/banner-placeholder$image,1p
-! 2026-03-20
-||niburu.co/images/sidebanners/
 ! 2026-03-14
 ||onderwijsland.com/*/banners/
-||media.online-radio.nl/images/banner$image
-||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ! 2026-03-02
@@ -263,7 +259,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ! 2026-02-04
 ||motorrijder.be/wp-content/uploads/banners/
 ||motorrijder.be/wp-content/uploads/*/*1300x150$image
-||glutenvrij.nl/l/library/download/urn:uuid*?scaleType=1$image
 ! https://www.reddit.com/r/uBlockOrigin/comments/1cmanh5/nosnl_videos_show_ads_suddenly/
 ! https://github.com/uBlockOrigin/uAssets/issues/30053
 ||adconfig.ster.nl/adurl$xhr,3p,domain=nos.nl

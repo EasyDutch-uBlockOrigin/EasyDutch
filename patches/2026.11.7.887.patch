@@ -1,22 +1,41 @@
-diff name:easydutch lines:21 checksum:874219f5dd
+diff name:easydutch lines:40 checksum:56466c2112
 d2 1
 a2 1
-! Last updated: Sun, 08 Nov 2026 14:12:03 +0000
+! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.8.852.patch#easydutch
-a135 2
+! Diff-Path: patches/2026.11.9.996.patch#easydutch
+a135 3
+||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
+d300 1
+d305 1
+d307 2
 d311 1
+d349 1
 d497 2
-a503 5
+a503 10
+scholieren.com##.text-center:has-text(Advertentie):upward(1)
+solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
+amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
+online-radio.nl##[id^="containersitead"]
+online-radio.nl##[id^="top_ad"]
 strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 rotterdam-nesselande.nl##[href^="https://www.managementboek.nl/"]:upward([id^="custom"])
 radio-nederland.nl##.right-sidebar__ad
+d898 7
+d906 1
+d912 4
+d926 1
+d929 1
 d934 3
 d941 1
 d1005 1
+a1260 1
+forum.scholieren.com###posts .thead:has-text(Advert)
+d1330 1
+d1391 1
 d1428 4

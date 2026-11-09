@@ -1,25 +1,35 @@
-diff name:easydutch lines:47 checksum:874219f5dd
+diff name:easydutch lines:66 checksum:56466c2112
 d2 1
 a2 1
-! Last updated: Sun, 08 Nov 2026 14:12:03 +0000
+! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.8.852.patch#easydutch
-a135 6
+! Diff-Path: patches/2026.11.9.996.patch#easydutch
+a135 7
+||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
 ||ditistwee.nl/images/Banner
 ||prowurk.nl/rtvnof-widget-prowurk$domain=rtvnof.nl
 ||radios.nl/api/rs-ads/
 ||radios.nl/media/*/banner
+d296 1
+d301 1
+d303 2
 d307 1
 d310 1
 d313 1
 d317 1
 d320 1
 d322 2
+d351 1
 d499 2
-a505 17
+a505 22
+scholieren.com##.text-center:has-text(Advertentie):upward(1)
+solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
+amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
+online-radio.nl##[id^="containersitead"]
+online-radio.nl##[id^="top_ad"]
 strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
@@ -37,6 +47,11 @@ rtvnof.nl##.advert-header
 rtvnof.nl##div.advert:has(iframe)
 radios.nl##div.rsad-wrapper
 radios.nl##div#rs-ad-inside-grid
+d888 7
+d896 1
+d902 4
+d916 1
+d919 1
 d924 3
 d931 1
 d935 8
@@ -45,4 +60,8 @@ d962 2
 d965 1
 d968 1
 d1010 1
+a1265 1
+forum.scholieren.com###posts .thead:has-text(Advert)
+d1335 1
+d1396 1
 d1433 4
