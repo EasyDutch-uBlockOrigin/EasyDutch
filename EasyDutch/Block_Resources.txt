@@ -209,7 +209,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ! 2026-03-14
 ||onderwijsland.com/*/banners/
 ||media.online-radio.nl/images/banner$image
-||kanaancourant.nl/wp-content/uploads/*advertentie.$image
 ! 2026-03-08
 ||cdn.racingnews365.com/*/images/logos/partners/$image,domain=racingnews365.nl
 ! 2026-03-02
