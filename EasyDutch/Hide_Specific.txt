@@ -513,10 +513,8 @@ digitaalburg.com###container aside[class^="widget widget_text"]
 racingnews365.nl##.betting-close
 racingnews365.nl##.sponsor__unibet
 racingnews365.nl##.promo-container
-racingnews365.nl##.card[href$="-adv"]
 racingnews365.nl###betting-prefs
 racingnews365.nl##.content-fields > .entry-highlight:has(.betting-close)
-racingnews365.nl##.card[href$="-adv"]:upward(div.card-simple-wrapper__card)
 ! 2026-03-02
 sante.nl##[id^="adf-"]
 kinderspelletjes.nl##[class^="Ad-"]
