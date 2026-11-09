@@ -199,8 +199,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ! 2026-04-04
 ||landenweb.nl/images/_Promotion/$image
-! 2026-03-24
-||classicstogo.nl/wp-content/uploads/sites/*/banner$image,1p
 ! 2026-03-23
 ||openingsurengids.be/includes/js/ads.js
 ||openingsurengids.be/includes/js/checkblockv2.js
