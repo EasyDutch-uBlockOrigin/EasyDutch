@@ -917,6 +917,7 @@ mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
 hvzeeland.nl##.advertisement
 ! 2022-07-01
 forum.scholieren.com##div[data-advert-placeholder-size]
+forum.scholieren.com###posts .thead:has-text(Advert)
 oogtv.nl##.g
 commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.com/"])
 ! 2022-06-30
@@ -1008,7 +1009,6 @@ unitednews.sr###image-vertical-reel-scroll-slideshow
 tellows.nl###lb_header
 surinameview.com###nav_menu-2
 pokeren.nl###onetime-popup
-forum.scholieren.com###posts .thead:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 112achterhoek-nieuws.nl###sidebar
