@@ -2,6 +2,9 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-09
+online-radio.nl##[id^="containersitead"]
+online-radio.nl##[id^="top_ad"]
 ! 2026-11-08
 strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
@@ -498,8 +501,6 @@ klimaatinfo.nl##.aside__add
 klimaatinfo.nl##[class^="space_"]
 onderwijsland.com##.banner-fullwidth
 onderwijsland.com##.banner-fullwidth:upward(.home-extended)
-online-radio.nl##[id^="containersitead"]
-online-radio.nl###top_ad-360
 ! 2026-03-08
 appletips.nl##[class^="ph_block"]
 appletips.nl##.ph_appelhoes
