@@ -1,7 +1,9 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
+! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
 !
+! 2026-11-12
+computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 ! 2026-11-09
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)

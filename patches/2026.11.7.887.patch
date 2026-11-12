@@ -1,10 +1,10 @@
-diff name:easydutch lines:40 checksum:56466c2112
+diff name:easydutch lines:41 checksum:bc2be82a3b
 d2 1
 a2 1
-! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
+! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.9.996.patch#easydutch
+! Diff-Path: patches/2026.11.12.711.patch#easydutch
 a135 3
 ||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
@@ -15,7 +15,8 @@ d307 2
 d311 1
 d349 1
 d497 2
-a503 10
+a503 11
+computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
 amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
