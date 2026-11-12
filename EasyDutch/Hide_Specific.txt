@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-12
+computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 ! 2026-11-09
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
