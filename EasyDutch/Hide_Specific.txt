@@ -1,7 +1,11 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
 !
+! 2026-11-14
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 ! 2026-11-12
 computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 ! 2026-11-09
@@ -101,8 +105,6 @@ upinthesky.nl##.a-wrap
 upinthesky.nl##.r89-video-outstream
 ! 2026-09-12
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
-! 2026-09-07
-mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 ! 2026-08-31
 terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
@@ -697,7 +699,6 @@ omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
 ! 2026-02-04
-mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl###flex_left:has(div[class^="r89-"])
 autosport.nl##.active.first:style(margin-top: 0px !important;)

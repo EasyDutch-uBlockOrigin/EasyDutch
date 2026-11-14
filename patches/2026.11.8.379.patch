@@ -1,10 +1,10 @@
-diff name:easydutch lines:37 checksum:bc2be82a3b
+diff name:easydutch lines:42 checksum:97d1ec4472
 d2 1
 a2 1
-! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.12.711.patch#easydutch
+! Diff-Path: patches/2026.11.14.1025.patch#easydutch
 a135 3
 ||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
@@ -14,7 +14,10 @@ d305 1
 d307 2
 d311 1
 d349 1
-a501 10
+a501 13
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
@@ -25,6 +28,7 @@ strandweer.nu##.cpx-ads
 westlanders.nu##.cpx-ads
 rotterdam-nesselande.nl##.adsbygoogle:not(.adsbygoogle-noablate):upward(1)
 rotterdam-nesselande.nl##[href^="https://www.managementboek.nl/"]:upward([id^="custom"])
+d571 1
 d897 7
 d905 1
 d911 4
@@ -32,6 +36,7 @@ d925 1
 d928 1
 d933 3
 d940 1
+d1091 1
 a1258 1
 forum.scholieren.com###posts .thead:has-text(Advert)
 d1328 1

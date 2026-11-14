@@ -1,9 +1,14 @@
-diff name:easydutch lines:8 checksum:bc2be82a3b
+diff name:easydutch lines:13 checksum:97d1ec4472
 d2 1
 a2 1
-! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.12.711.patch#easydutch
-a498 1
+! Diff-Path: patches/2026.11.14.1025.patch#easydutch
+a498 4
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
+d577 1
+d1079 1

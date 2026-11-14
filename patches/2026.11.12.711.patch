@@ -1,0 +1,13 @@
+diff name:easydutch lines:12 checksum:97d1ec4472
+d2 1
+a2 1
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.11.14.1025.patch#easydutch
+a498 3
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
+d578 1
+d1080 1

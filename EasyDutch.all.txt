@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.12.711.patch#easydutch
+! Diff-Path: patches/2026.11.14.1025.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -496,6 +496,9 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
@@ -575,7 +578,6 @@ psvinside.nl##.ms-container
 upinthesky.nl##.a-wrap
 upinthesky.nl##.r89-video-outstream
 hartvannederland.nl##span[class^="mui"]:has-text(Advertentie):upward(div[class^="mui"])
-mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 terdege.nl###fallback-:upward(3)
 newsbit.nl##.highlight-strip
 newsbit.nl###h2-cta-alinea
@@ -1077,7 +1079,6 @@ omroepbrabant.nl##div[class^="ad_"]
 omroepzeeland.nl##footer .footer-list:has-text(/Reclame/i) > li:not(:nth-of-type(2)) > a.external
 gpblog.com##script[src*="/adserver"]:upward(.raw-html-component)
 gpblog.com##[id^="snack-"]:upward(.raw-html-component)
-mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 girlscene.nl##.sh-player-container
 headliner.nl###flex_left:has(div[class^="r89-"])
 autosport.nl##.active.first:style(margin-top: 0px !important;)

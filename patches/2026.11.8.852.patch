@@ -1,28 +1,33 @@
-diff name:easydutch lines:28 checksum:bc2be82a3b
+diff name:easydutch lines:33 checksum:97d1ec4472
 d2 1
 a2 1
-! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.12.711.patch#easydutch
+! Diff-Path: patches/2026.11.14.1025.patch#easydutch
 a135 1
 ||online-radio.nl/images/banner$image,1p
 d302 1
 d307 1
 d309 2
 d350 1
-a502 6
+a502 9
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
 amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
 online-radio.nl##[id^="containersitead"]
 online-radio.nl##[id^="top_ad"]
+d576 1
 d902 7
 d910 1
 d916 4
 d930 1
 d933 1
+d1092 1
 a1259 1
 forum.scholieren.com###posts .thead:has-text(Advert)
 d1329 1

@@ -1,10 +1,10 @@
-diff name:easydutch lines:67 checksum:bc2be82a3b
+diff name:easydutch lines:72 checksum:97d1ec4472
 d2 1
 a2 1
-! Last updated: Thu, 12 Nov 2026 11:51:09 +0000
+! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.12.711.patch#easydutch
+! Diff-Path: patches/2026.11.14.1025.patch#easydutch
 a135 7
 ||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
@@ -24,7 +24,10 @@ d320 1
 d322 2
 d351 1
 d499 2
-a505 23
+a505 26
+mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
+mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
 computercentraleroggel.nl##.entry-content > div:has( > .adsbygoogle)
 scholieren.com##.text-center:has-text(Advertentie):upward(1)
 solarmagazine.nl##img[src^="/u/edwin/"]:upward(div.items-center)
@@ -48,6 +51,7 @@ rtvnof.nl##.advert-header
 rtvnof.nl##div.advert:has(iframe)
 radios.nl##div.rsad-wrapper
 radios.nl##div#rs-ad-inside-grid
+d562 1
 d888 7
 d896 1
 d902 4
@@ -61,6 +65,7 @@ d962 2
 d965 1
 d968 1
 d1010 1
+d1098 1
 a1265 1
 forum.scholieren.com###posts .thead:has-text(Advert)
 d1335 1
