@@ -469,7 +469,6 @@ studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
 nieuws.nl##.ad2-position:upward(.raw-html-component)
 ! 2026-04-04
 gyminsider.nl##.bnrrow
-gyminsider.nl###headlines > .bnrln
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
 ment55.be##[id^="text-"]:has-text(advert)
 ! 2026-03-28
