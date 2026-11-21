@@ -433,8 +433,7 @@ hetkrantje-online.nl,streekbladzoetermeer.nl,telstar-online.nl##.component__pubb
 ! Others
 leiderdorpsweekblad.nl##div[id]:upward(.component__plugin)
 leiderdorpsweekblad.nl##.component__pubble-banner:upward(.bg-gray-100)
-grooteindhoven.nl##.bannerheight
-grooteindhoven.nl##.hypr_banner
+grooteindhoven.nl##.component__pubble-banner:upward(.bg-gray-100)
 ! End Telstar Mediagroep
 ! PXR.nl
 babybytes.nl##.ad-container
