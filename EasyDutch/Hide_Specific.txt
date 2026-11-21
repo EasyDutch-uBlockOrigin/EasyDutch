@@ -2,6 +2,8 @@
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2026-11-21
+nieuws.nl##[id^="div-gpt-ad-nieuwsnl"]:upward(.raw-html-component)
 ! 2026-11-14
 mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
 mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
@@ -466,7 +468,6 @@ filmladder.nl##.banner
 ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
-nieuws.nl##.ad2-position:upward(.raw-html-component)
 ! 2026-04-04
 gyminsider.nl##.bnrrow
 rkcwaalwijk.nl##.image-embed-item[src*="entry.domains/"]
