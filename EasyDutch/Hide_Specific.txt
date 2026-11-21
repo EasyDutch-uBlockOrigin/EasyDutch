@@ -3,6 +3,7 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-21
+ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
 nieuws.nl##[id^="div-gpt-ad-nieuwsnl"]:upward(.raw-html-component)
 ! 2026-11-14
 mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
@@ -465,7 +466,6 @@ albrandswaardsdagblad.nl,barendrechtsdagblad.nl,dagblad010.nl,dagblad070.nl,goud
 afkortingen.nu##.banner
 afkortingen.nu##.banner_container
 filmladder.nl##.banner
-ad.cw,antilliaansdagblad.com##.ad-advertisement-link:upward(2)
 studiokaagenbraassem.nl##.banners
 studiokaagenbraassem.nl##a[href="../../omroep/adverteren/"]
 ! 2026-04-04
