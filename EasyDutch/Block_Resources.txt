@@ -1,7 +1,9 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Mon, 09 Nov 2026 16:36:14 +0000
+! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
 !
+! 2026-11-21
+||ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ! 2026-11-09
 ||online-radio.nl/images/banner$image,1p
 ! 2026-11-08
@@ -178,8 +180,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||oud.startlinken.nl/javascript*Banner$script,1p
 ! 2026-04-12
 ||profielactueel.nl/media/*.gif
-||racexpress.nl/img/sponsors/
-||racexpress.nl/img_sponsors/
 ||simone.nl/wp-content/uploads/*onderdelen
 ||simone.nl/wp-content/uploads/*502x190px
 ||simone.nl/wp-content/uploads/*banner
@@ -196,9 +196,6 @@ avrotros.nl,bnnvara.nl,eo.nl,npo.nl,npodoc.nl,npokennis.nl,vpro.nl##+js(json-pru
 ||weerenradar.nl/*/ad/$image
 ||bestereistijd.be/inc/promo-*.php
 ||tvgids24.nl/ads/
-||online.ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
-||r.testifier.nl/Acbs*/resizing_type:fill/plain/https*.ams3.digitaloceanspaces.com*.nieuws.store%2Fimages$image,domain=nieuws.nl
-||ams3.digitaloceanspaces.com/*.nieuws.store/images/$image,domain=nieuws.nl
 ! 2026-04-04
 ||landenweb.nl/images/_Promotion/$image
 ! 2026-03-23

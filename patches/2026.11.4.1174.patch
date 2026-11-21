@@ -1,11 +1,12 @@
-diff name:easydutch lines:77 checksum:97d1ec4472
+diff name:easydutch lines:92 checksum:6338ce6f30
 d2 1
 a2 1
-! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
+! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.14.1025.patch#easydutch
-a135 7
+! Diff-Path: patches/2026.11.21.751.patch#easydutch
+a135 8
+||ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ||online-radio.nl/images/banner$image,1p
 ||rotterdam-nesselande.nl/nieuws/zuidplas/rotterdam/nesselande/*/ezgif-*.gif$image
 ||rotterdam-nesselande.nl/nieuws/*/wp-content/uploads/*/banner$image
@@ -14,6 +15,8 @@ a135 7
 ||radios.nl/api/rs-ads/
 ||radios.nl/media/*/banner
 d227 2
+d278 2
+d294 3
 d298 1
 d303 1
 d305 2
@@ -25,7 +28,11 @@ d322 1
 d324 2
 d353 1
 d501 2
-a507 29
+a507 33
+elfvoetbal.nl###column-right .fake-division
+elfvoetbal.nl###column-right #partners
+ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
+nieuws.nl##[id^="div-gpt-ad-nieuwsnl"]:upward(.raw-html-component)
 mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
 mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
@@ -57,6 +64,14 @@ omroepbovengroningen.nl##.widget_random_banner_widget
 omroepbovengroningen.nl##.sidebar .textwidget:has-text(advert)
 d561 1
 d724 1
+d815 2
+d839 2
+a840 1
+grooteindhoven.nl##.component__pubble-banner:upward(.bg-gray-100)
+d847 2
+d864 1
+d867 1
+d869 1
 d888 7
 d896 1
 d902 4

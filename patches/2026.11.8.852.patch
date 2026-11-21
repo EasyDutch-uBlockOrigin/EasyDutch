@@ -1,17 +1,24 @@
-diff name:easydutch lines:33 checksum:97d1ec4472
+diff name:easydutch lines:48 checksum:6338ce6f30
 d2 1
 a2 1
-! Last updated: Sat, 14 Nov 2026 17:05:01 +0000
+! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.14.1025.patch#easydutch
-a135 1
+! Diff-Path: patches/2026.11.21.751.patch#easydutch
+a135 2
+||ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ||online-radio.nl/images/banner$image,1p
+d282 2
+d298 3
 d302 1
 d307 1
 d309 2
 d350 1
-a502 9
+a502 13
+elfvoetbal.nl###column-right .fake-division
+elfvoetbal.nl###column-right #partners
+ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
+nieuws.nl##[id^="div-gpt-ad-nieuwsnl"]:upward(.raw-html-component)
 mediamarkt.be,mediamarkt.nl##aside[aria-label*="ponsor"]:has(span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
 mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] span:has-text(/Gesponsord|Sponsorisé|Sponsored/))
 mediamarkt.be,mediamarkt.nl##[id*="-adbanner-"]:upward(section)
@@ -22,6 +29,14 @@ amsterdamactueel.nl##.label-container:has-text(AD):upward(.ct-div-block)
 online-radio.nl##[id^="containersitead"]
 online-radio.nl##[id^="top_ad"]
 d576 1
+d829 2
+d853 2
+a854 1
+grooteindhoven.nl##.component__pubble-banner:upward(.bg-gray-100)
+d861 2
+d878 1
+d881 1
+d883 1
 d902 7
 d910 1
 d916 4

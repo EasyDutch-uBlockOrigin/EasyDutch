@@ -1,0 +1,24 @@
+diff name:easydutch lines:23 checksum:6338ce6f30
+d2 1
+a2 1
+! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.11.21.751.patch#easydutch
+a135 1
+||ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
+d283 2
+d299 3
+a498 4
+elfvoetbal.nl###column-right .fake-division
+elfvoetbal.nl###column-right #partners
+ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
+nieuws.nl##[id^="div-gpt-ad-nieuwsnl"]:upward(.raw-html-component)
+d833 2
+d857 2
+a858 1
+grooteindhoven.nl##.component__pubble-banner:upward(.bg-gray-100)
+d865 2
+d882 1
+d885 1
+d887 1
