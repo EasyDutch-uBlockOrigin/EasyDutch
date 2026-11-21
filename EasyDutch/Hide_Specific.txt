@@ -3,6 +3,8 @@
 ! Last updated: %timestamp%
 !
 ! 2026-11-21
+elfvoetbal.nl###column-right .fake-division
+elfvoetbal.nl###column-right #partners
 ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
 nieuws.nl##[id^="div-gpt-ad-nieuwsnl"]:upward(.raw-html-component)
 ! 2026-11-14
@@ -398,8 +400,6 @@ simone.nl##.elementor-section:has(.qt-spsfm)
 alblasserdam.net,ambacht.net,dordrecht.net,drechtsteden.net,papendrecht.net,randstadnieuws.nl,s-gravendeel.net,sliedrecht.net,vandaagenmorgen.nl,zwijndrecht.net##a.a-image
 ! End Avant
 waterweg-actueel.nl##aside [id^="media_image"]
-elfvoetbal.nl##column-right .fake-division
-elfvoetbal.nl##column-right #partners
 starnieuws.com##.ads
 xgn.nl##[class^="r89-"]:upward(.raw-html-component)
 ! Telstar Mediagroep
