@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
+! Last updated: Tue, 24 Nov 2026 06:33:21 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2026.11.21.751.patch#easydutch
+! Diff-Path: patches/2026.11.24.393.patch#easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
     Dutch supplement for the Easylist filters to use with uBlock Origin
@@ -492,6 +492,8 @@ nos.nl##+js(json-prune-fetch-response, adUrl, , propsToMatch, .azurewebsites.net
 ##.sixpack__advertisement-tile
 ##.adv-tekst
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+drimble.nl##.gpt-ad-host
+drimble.nl##[id^="drimble.nl_web_"]
 elfvoetbal.nl###column-right .fake-division
 elfvoetbal.nl###column-right #partners
 ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
@@ -1021,7 +1023,6 @@ boerderij.nl###top_desktop_wrapper
 boerderij.nl##[class^="max-ad_mid"]
 boerderij.nl###bottom_desktop:upward(1)
 ibestuur.nl##.c-ad-slot:upward([class*="ad"])
-drimble.nl##[id^="drimble.nl_web_"]
 gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
 cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner

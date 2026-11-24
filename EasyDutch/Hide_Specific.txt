@@ -1,7 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
+! Last updated: Tue, 24 Nov 2026 06:33:21 +0000
 !
+! 2026-11-24
+drimble.nl##.gpt-ad-host
+drimble.nl##[id^="drimble.nl_web_"]
 ! 2026-11-21
 elfvoetbal.nl###column-right .fake-division
 elfvoetbal.nl###column-right #partners
@@ -637,7 +640,6 @@ boerderij.nl###top_desktop_wrapper
 boerderij.nl##[class^="max-ad_mid"]
 boerderij.nl###bottom_desktop:upward(1)
 ibestuur.nl##.c-ad-slot:upward([class*="ad"])
-drimble.nl##[id^="drimble.nl_web_"]
 gfcnieuws.com##div[class^="ai-"]:upward(div[class*="block"])
 cryptobenelux.com##[id^="div-gpt-ad"]:upward(.raw-html-component)
 bitcoinmagazine.nl##.sidebar-banner

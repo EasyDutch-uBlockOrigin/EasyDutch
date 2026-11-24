@@ -1,10 +1,10 @@
-diff name:easydutch lines:58 checksum:6338ce6f30
+diff name:easydutch lines:61 checksum:21ae3623a9
 d2 1
 a2 1
-! Last updated: Sat, 21 Nov 2026 12:31:07 +0000
+! Last updated: Tue, 24 Nov 2026 06:33:21 +0000
 d4 1
 a4 1
-! Diff-Path: patches/2026.11.21.751.patch#easydutch
+! Diff-Path: patches/2026.11.24.393.patch#easydutch
 a135 4
 ||ad.cw/AdvertisementImages$image,domain=ad.cw|antilliaansdagblad.com
 ||online-radio.nl/images/banner$image,1p
@@ -17,7 +17,9 @@ d305 1
 d307 2
 d311 1
 d349 1
-a501 18
+a501 20
+drimble.nl##.gpt-ad-host
+drimble.nl##[id^="drimble.nl_web_"]
 elfvoetbal.nl###column-right .fake-division
 elfvoetbal.nl###column-right #partners
 ad.cw,antilliaansdagblad.com##.ad-col > [class*="-advertisement"]
@@ -52,6 +54,7 @@ d924 1
 d927 1
 d932 3
 d939 1
+d1040 1
 d1090 1
 a1257 1
 forum.scholieren.com###posts .thead:has-text(Advert)

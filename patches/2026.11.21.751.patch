@@ -1,0 +1,11 @@
+diff name:easydutch lines:10 checksum:21ae3623a9
+d2 1
+a2 1
+! Last updated: Tue, 24 Nov 2026 06:33:21 +0000
+d4 1
+a4 1
+! Diff-Path: patches/2026.11.24.393.patch#easydutch
+a494 2
+drimble.nl##.gpt-ad-host
+drimble.nl##[id^="drimble.nl_web_"]
+d1024 1
